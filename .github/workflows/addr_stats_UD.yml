@@ -12,7 +12,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  cheduled:
+  scheduled:
     runs-on: ubuntu-latest
     steps:
     - name: check out this repo
