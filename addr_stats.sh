@@ -1,2 +1,4 @@
-# admin_level=8
-wget -O addr_stats.csv "http://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%3A%3Aid%29%5D%3Barea%5B%22name%22%3D%22Gorizia%22%5D%5B%22admin%5Flevel%22%3D%228%22%5D%2D%3E%2Ea%3B%28nwr%5B%22addr%3Ahousenumber%22%5D%28area%2Ea%29%3B%29%3Bout%20center%3B%0A"
+# scraping Openstreetmap su base ref:ISTAT regionale
+# overpass-turbo csv query: http://overpass-turbo.eu/s/13YL
+
+wget -O addr_stats.csv "http://overpass-api.de/api/interpreter?data=%5Bout%3Acsv%28%3A%3Atype%2C%22ref%3AISTAT%22%2C%22name%22%2C%3A%3Acount%2C%3A%3Acount%3Anodes%2C%3A%3Acount%3Aways%2C%3A%3Acount%3Arelations%29%5D%3Barea%5B%22ref%3AISTAT%22%7E%22%5E093%22%5D%3Bforeach%2D%3E%2Eregio%7B%2Eregio%20out%3B%28node%5B%22addr%3Ahousenumber%22%5D%28area%2Eregio%29%3Bway%5B%22addr%3Ahousenumber%22%5D%28area%2Eregio%29%3Brelation%5B%22addr%3Ahousenumber%22%5D%28area%2Eregio%29%3B%29%3Bout%20count%3B%7D%0A"
