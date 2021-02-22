@@ -1,6 +1,6 @@
-# This is a basic workflow to help you get started with Actions
+S# This is a basic workflow to help you get started with Actions
 
-name: Scrape addresses on admin_level=8 base
+name: Scrape addresses on ref:ISTAT base
 
 # Controls when the action will run. 
 on:
@@ -8,7 +8,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: '3 10 * * *'
+    - cron: '20 10 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
