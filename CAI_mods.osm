@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.8 7d656e78">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-02-23T13:22:57Z" areas="2021-02-23T13:03:42Z"/>
+<meta osm_base="2021-02-23T13:42:11Z" areas="2021-02-23T13:03:42Z"/>
 
-<action type="modify">
-<old>
-  <node id="777380483" lat="46.4577691" lon="13.6517143"/>
-</old>
-<new>
-  <node id="777380483" lat="46.4577999" lon="13.6515679"/>
-</new>
-</action>
 <action type="modify">
 <old>
   <node id="1960321309" lat="46.5073460" lon="13.5741748"/>
@@ -190,12 +182,6 @@
 </new>
 </action>
 <action type="create">
-  <node id="8445862122" lat="46.4573565" lon="13.6509476"/>
-</action>
-<action type="create">
-  <node id="8445862123" lat="46.4574928" lon="13.6512659"/>
-</action>
-<action type="create">
   <node id="8448523255" lat="46.5122049" lon="13.5275715"/>
 </action>
 <action type="modify">
@@ -270,118 +256,6 @@
     <nd ref="403467997"/>
     <nd ref="403467998"/>
     <tag k="highway" v="service"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="62246779">
-    <nd ref="777380457"/>
-    <nd ref="777380458"/>
-    <nd ref="777380460"/>
-    <nd ref="777380462"/>
-    <nd ref="777380465"/>
-    <nd ref="777380468"/>
-    <nd ref="1456570325"/>
-    <nd ref="777380469"/>
-    <nd ref="777380471"/>
-    <nd ref="777380473"/>
-    <nd ref="777380475"/>
-    <nd ref="777380476"/>
-    <nd ref="777380479"/>
-    <nd ref="1456570324"/>
-    <nd ref="777380480"/>
-    <nd ref="777380481"/>
-    <nd ref="777380482"/>
-    <nd ref="777380483"/>
-    <nd ref="777380485"/>
-    <nd ref="3100080832"/>
-    <nd ref="3100080831"/>
-    <nd ref="3100080829"/>
-    <nd ref="3100080830"/>
-    <nd ref="777380488"/>
-    <nd ref="2925889824"/>
-    <nd ref="2925889823"/>
-    <nd ref="2925889822"/>
-    <nd ref="2925889821"/>
-    <nd ref="777380490"/>
-    <nd ref="2925889820"/>
-    <nd ref="2925889819"/>
-    <nd ref="2925889818"/>
-    <nd ref="2925889817"/>
-    <nd ref="2925889816"/>
-    <nd ref="2925889815"/>
-    <nd ref="2925889814"/>
-    <nd ref="777380492"/>
-    <nd ref="2925889813"/>
-    <nd ref="2925889812"/>
-    <nd ref="2925889811"/>
-    <nd ref="2925889810"/>
-    <nd ref="2925889809"/>
-    <nd ref="777380495"/>
-    <nd ref="2925889808"/>
-    <nd ref="2925889807"/>
-    <nd ref="777380499"/>
-    <tag k="highway" v="path"/>
-    <tag k="operator" v="Club Alpino Italiano"/>
-    <tag k="ref" v="516"/>
-    <tag k="sac_scale" v="demanding_mountain_hiking"/>
-  </way>
-</old>
-<new>
-  <way id="62246779">
-    <nd ref="777380457"/>
-    <nd ref="777380458"/>
-    <nd ref="777380460"/>
-    <nd ref="777380462"/>
-    <nd ref="777380465"/>
-    <nd ref="777380468"/>
-    <nd ref="1456570325"/>
-    <nd ref="777380469"/>
-    <nd ref="777380471"/>
-    <nd ref="777380473"/>
-    <nd ref="777380475"/>
-    <nd ref="777380476"/>
-    <nd ref="777380479"/>
-    <nd ref="1456570324"/>
-    <nd ref="777380480"/>
-    <nd ref="777380481"/>
-    <nd ref="777380482"/>
-    <nd ref="777380483"/>
-    <nd ref="8445862123"/>
-    <nd ref="8445862122"/>
-    <nd ref="777380485"/>
-    <nd ref="3100080832"/>
-    <nd ref="3100080831"/>
-    <nd ref="3100080829"/>
-    <nd ref="3100080830"/>
-    <nd ref="777380488"/>
-    <nd ref="2925889824"/>
-    <nd ref="2925889823"/>
-    <nd ref="2925889822"/>
-    <nd ref="2925889821"/>
-    <nd ref="777380490"/>
-    <nd ref="2925889820"/>
-    <nd ref="2925889819"/>
-    <nd ref="2925889818"/>
-    <nd ref="2925889817"/>
-    <nd ref="2925889816"/>
-    <nd ref="2925889815"/>
-    <nd ref="2925889814"/>
-    <nd ref="777380492"/>
-    <nd ref="2925889813"/>
-    <nd ref="2925889812"/>
-    <nd ref="2925889811"/>
-    <nd ref="2925889810"/>
-    <nd ref="2925889809"/>
-    <nd ref="777380495"/>
-    <nd ref="2925889808"/>
-    <nd ref="2925889807"/>
-    <nd ref="777380499"/>
-    <tag k="highway" v="path"/>
-    <tag k="operator" v="Club Alpino Italiano"/>
-    <tag k="ref" v="516"/>
-    <tag k="sac_scale" v="demanding_mountain_hiking"/>
   </way>
 </new>
 </action>
@@ -1023,36 +897,6 @@
     <tag k="operator" v="Club Alpino Italiano"/>
     <tag k="osmc:symbol" v="green:red:white_bar:AF:black"/>
     <tag k="ref" v="A.F."/>
-    <tag k="route" v="hiking"/>
-    <tag k="type" v="route"/>
-  </relation>
-</new>
-</action>
-<action type="modify">
-<old>
-  <relation id="1777290">
-    <member type="way" ref="132404354" role=""/>
-    <member type="way" ref="62246779" role=""/>
-    <member type="way" ref="62246841" role=""/>
-    <tag k="network" v="lwn"/>
-    <tag k="operator" v="Club Alpino Italiano"/>
-    <tag k="osmc:name" v="Tarvisio CAI 516"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:516:black"/>
-    <tag k="ref" v="516"/>
-    <tag k="route" v="hiking"/>
-    <tag k="type" v="route"/>
-  </relation>
-</old>
-<new>
-  <relation id="1777290">
-    <member type="way" ref="132404354" role=""/>
-    <member type="way" ref="62246779" role=""/>
-    <member type="way" ref="62246841" role=""/>
-    <tag k="network" v="lwn"/>
-    <tag k="operator" v="Club Alpino Italiano"/>
-    <tag k="osmc:name" v="Tarvisio CAI 516"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:516:black"/>
-    <tag k="ref" v="516"/>
     <tag k="route" v="hiking"/>
     <tag k="type" v="route"/>
   </relation>
