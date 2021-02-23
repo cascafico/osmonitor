@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.8 7d656e78">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-02-23T14:27:02Z" areas="2021-02-23T14:13:52Z"/>
+<meta osm_base="2021-02-23T14:51:32Z" areas="2021-02-23T14:13:52Z"/>
 
 <action type="modify">
 <old>
@@ -603,48 +603,6 @@
     <tag k="ref" v="508"/>
     <tag k="route" v="hiking"/>
     <tag k="type" v="route"/>
-  </relation>
-</new>
-</action>
-<action type="modify">
-<old>
-  <relation id="141492">
-    <member type="way" ref="34676106" role=""/>
-    <member type="way" ref="35371982" role=""/>
-    <tag k="note" v="inagibile / impracticable"/>
-    <tag k="website" v="https://www.cai-fvg.it/sentieri-cai-fvg/settore-5-alpi-giulie/s5-517/"/>
-    <tag k="source:survey" v="CAI Cividale"/>
-    <tag k="survey:date" v="2017"/>
-    <tag k="cai_scale" v="EEA"/>
-    <tag k="from" v="Alpe Vecchia Bivio sentiero n. 513 (quota 1307 m)"/>
-    <tag k="name" v="Alpe Vecchia - Forcella Mangart"/>
-    <tag k="network" v="lwn"/>
-    <tag k="operator" v="Club Alpino Italiano"/>
-    <tag k="osmc:name" v="Alpe Vecchia - Forcella Mangart"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:517:black"/>
-    <tag k="ref" v="517"/>
-    <tag k="route" v="hiking"/>
-    <tag k="to" v="Forcella Mangart (quota 2166 m)"/>
-    <tag k="type" v="route"/>
-  </relation>
-</old>
-<new>
-  <relation id="141492">
-    <member type="way" ref="34676106" role=""/>
-    <member type="way" ref="35371982" role=""/>
-    <tag k="cai_scale" v="EEA"/>
-    <tag k="from" v="Alpe Vecchia Bivio sentiero n. 513 (quota 1307 m)"/>
-    <tag k="name" v="Alpe Vecchia - Forcella Mangart"/>
-    <tag k="network" v="lwn"/>
-    <tag k="operator" v="Club Alpino Italiano"/>
-    <tag k="osmc:name" v="Alpe Vecchia - Forcella Mangart"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:517:black"/>
-    <tag k="ref" v="517"/>
-    <tag k="route" v="hiking"/>
-    <tag k="source" v="survey:CAI"/>
-    <tag k="to" v="Forcella Mangart (quota 2166 m)"/>
-    <tag k="type" v="route"/>
-    <tag k="website" v="https://www.cai-fvg.it/sentieri-cai-fvg/settore-5-alpi-giulie/s5-517/"/>
   </relation>
 </new>
 </action>
