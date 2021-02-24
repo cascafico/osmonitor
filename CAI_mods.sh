@@ -15,7 +15,8 @@ OGGI=`date +"%Y-%m-%d"`
 
 REGIONEQ=$REGIONE'adiff'$OGGI'.xml'
 
-rm $REGIONE*
+rm $REGIONE*.lst
+rm $REGIONE*.xml
 
 # extracting overpass adiff differences
 curl -G 'http://overpass-api.de/api/interpreter' --data-urlencode 'data=[out:xml][timeout:300][adiff:"'$T0'","'$T1'"];area('$AREACODE')->.searchArea;(relation["operator"="Club Alpino Italiano"](area.searchArea);relation["operator"="CAI"](area.searchArea););(._;>;);out meta geom;' > $REGIONEQ
