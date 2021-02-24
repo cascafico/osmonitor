@@ -23,8 +23,8 @@ curl -G 'http://overpass-api.de/api/interpreter' --data-urlencode 'data=[out:xml
 # parsing involved changeset(s)
 cat $AREACODE'.osm' | grep "$IERI\|$OGGI" | grep changeset | awk ' { print substr($0,index($0, "changeset")+11,8) }' | sort -u > $AREACODE'changeset.lst'
 
-echo "<HTML><BODY>Monitor process run on $T1<BR>Latest 24h changesets:<BR>" > $AREACODE$OGGI'changeset.html'
-cat $AREACODE'.osm' | grep "$IERI\|$OGGI" | grep changeset | awk ' { $changeset=substr($0,index($0, "changeset")+11,8); print "<A HREF=https://overpass-api.de/achavi/?changeset="$changeset">"$changeset"</A><BR>" }' | sort -u >> $AREACODE$OGGI'changeset.html'
-echo "</BODY></HTML>" >> $AREACODE$OGGI'changeset.html'
-cp $AREACODE$OGGI'changeset.html' FVG_latest.html
+echo "<HTML><BODY>Monitor process run on $T1<BR>Latest 24h changesets:<BR>" > $AREACODE'changeset.html'
+cat $AREACODE'.osm' | grep "$IERI\|$OGGI" | grep changeset | awk ' { $changeset=substr($0,index($0, "changeset")+11,8); print "<A HREF=https://overpass-api.de/achavi/?changeset="$changeset">"$changeset"</A><BR>" }' | sort -u >> $AREACODE'changeset.html'
+echo "</BODY></HTML>" >> $AREACODE'changeset.html'
+
 
