@@ -44,9 +44,7 @@ jobs:
     - name: Get the data and analyze
       run: |
          chmod +x ./CAI_mods.sh
-         ./CAI_mods.sh 3600179296
-         ./CAI_mods.sh 3600043648
-         ./CAI_mods.sh 3600042611
+         ./CAI_mods.sh 3600179296 && ./CAI_mods.sh 3600043648 && ./CAI_mods.sh 3600042611
       shell: bash
     - name: Commit and push if changed
       run: |-
