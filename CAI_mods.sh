@@ -21,7 +21,7 @@ rm $REGIONE*
 curl -G 'http://overpass-api.de/api/interpreter' --data-urlencode 'data=[out:xml][timeout:300][adiff:"'$T0'","'$T1'"];area('$AREACODE')->.searchArea;(relation["operator"="Club Alpino Italiano"](area.searchArea);relation["operator"="CAI"](area.searchArea););(._;>;);out meta geom;' > $REGIONEQ
 
 # parsing involved changeset(s)
-cat $REGIONEQ | grep "$IERI\|$OGGI" | grep changeset | awk ' { print substr($0,index($0, "changeset")+11,8) }' > $REGIONEchangeset.lst
+cat $REGIONEQ | grep "$IERI\|$OGGI" | grep changeset | awk ' { print substr($0,index($0, "changeset")+11,8) }' | sort -u > changeset.lst
 
 # sorting and compacting changeset list
-sort -u $REGIONEchangeset.lst -o $REGIONEchangeset.lst
+# sort -u $REGIONEchangeset.lst -o $REGIONEchangeset.lst
