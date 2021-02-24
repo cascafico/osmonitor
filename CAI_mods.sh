@@ -22,7 +22,10 @@ curl -G 'http://overpass-api.de/api/interpreter' --data-urlencode 'data=[out:xml
 
 # parsing involved changeset(s)
 cat $REGIONEQ | grep "$IERI\|$OGGI" | grep changeset | awk ' { print substr($0,index($0, "changeset")+11,8) }' | sort -u > $REGIONE'changeset.lst'
-cat $REGIONEQ | grep "$IERI\|$OGGI" | grep changeset | awk ' { changeset=substr($0,index($0, "changeset")+11,8); print "<A HREF="https://overpass-api.de/achavi/?changeset="$changeset">"$changeset"</A>" }' | sort -u > $REGIONE'changeset.lst'
+
+sed '1 i\<HTML><BODY>' $REGIONE'changeset.html'
+cat $REGIONEQ | grep "$IERI\|$OGGI" | grep changeset | awk ' { changeset=substr($0,index($0, "changeset")+11,8); print "<A HREF="https://overpass-api.de/achavi/?changeset="$changeset">"$changeset"</A>" }' | sort -u >> $REGIONE'changeset.html'
+echo "</BODY></HTML>" >> $REGIONE'changeset.html'
 
 # sorting and compacting changeset list
 # sort -u $REGIONEchangeset.lst -o $REGIONEchangeset.lst
