@@ -45,6 +45,7 @@ jobs:
       run: |
          chmod +x ./CAI_mods.sh
          ./CAI_mods.sh 3600179296
+         ./CAI_mods.sh 3600043648
       shell: bash
     - name: Commit and push if changed
       run: |-
