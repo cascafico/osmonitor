@@ -15,17 +15,15 @@ OGGI=`date +"%Y-%m-%d"`
 
 REGIONEQ=$REGIONE'adiff'$OGGI'.xml'
 
-rm $REGIONE*.lst
-rm $REGIONE*.xml
 
 # extracting overpass adiff differences
-curl -G 'http://overpass-api.de/api/interpreter' --data-urlencode 'data=[out:xml][timeout:300][adiff:"'$T0'","'$T1'"];area('$AREACODE')->.searchArea;(relation["operator"="Club Alpino Italiano"](area.searchArea);relation["operator"="CAI"](area.searchArea););(._;>;);out meta geom;' > $REGIONEQ
+curl -G 'http://overpass-api.de/api/interpreter' --data-urlencode 'data=[out:xml][timeout:300][adiff:"'$T0'","'$T1'"];area('$AREACODE')->.searchArea;(relation["operator"="Club Alpino Italiano"](area.searchArea);relation["operator"="CAI"](area.searchArea););(._;>;);out meta geom;' > $AREACODE'.osm'
 
 # parsing involved changeset(s)
-cat $REGIONEQ | grep "$IERI\|$OGGI" | grep changeset | awk ' { print substr($0,index($0, "changeset")+11,8) }' | sort -u > $REGIONE'changeset.lst'
+cat $AREACODE'.osm' | grep "$IERI\|$OGGI" | grep changeset | awk ' { print substr($0,index($0, "changeset")+11,8) }' | sort -u > $AREACODE'changeset.lst'
 
-echo "<HTML><BODY>Monitor process run on $T1<BR>Latest 24h changesets:<BR>" > $REGIONE$OGGI'changeset.html'
-cat $REGIONEQ | grep "$IERI\|$OGGI" | grep changeset | awk ' { $changeset=substr($0,index($0, "changeset")+11,8); print "<A HREF=https://overpass-api.de/achavi/?changeset="$changeset">"$changeset"</A><BR>" }' | sort -u >> $REGIONE$OGGI'changeset.html'
-echo "</BODY></HTML>" >> $REGIONE$OGGI'changeset.html'
-cp $REGIONE$OGGI'changeset.html' FVG_latest.html
+echo "<HTML><BODY>Monitor process run on $T1<BR>Latest 24h changesets:<BR>" > $AREACODE$OGGI'changeset.html'
+cat $AREACODE'.osm' | grep "$IERI\|$OGGI" | grep changeset | awk ' { $changeset=substr($0,index($0, "changeset")+11,8); print "<A HREF=https://overpass-api.de/achavi/?changeset="$changeset">"$changeset"</A><BR>" }' | sort -u >> $AREACODE$OGGI'changeset.html'
+echo "</BODY></HTML>" >> $AREACODE$OGGI'changeset.html'
+cp $AREACODE$OGGI'changeset.html' FVG_latest.html
 
