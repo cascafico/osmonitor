@@ -24,7 +24,7 @@ curl -G 'http://overpass-api.de/api/interpreter' --data-urlencode 'data=[out:xml
 # parsing involved changeset(s)
 cat $REGIONEQ | grep "$IERI\|$OGGI" | grep changeset | awk ' { print substr($0,index($0, "changeset")+11,8) }' | sort -u > $REGIONE'changeset.lst'
 
-echo "<HTML><BODY>Monitor process run on $T1<BR>Changesets:<BR>" > $REGIONE$OGGI'changeset.html'
+echo "<HTML><BODY>Monitor process run on $T1<BR>Latest 24h changesets:<BR>" > $REGIONE$OGGI'changeset.html'
 cat $REGIONEQ | grep "$IERI\|$OGGI" | grep changeset | awk ' { $changeset=substr($0,index($0, "changeset")+11,8); print "<A HREF=https://overpass-api.de/achavi/?changeset="$changeset">"$changeset"</A><BR>" }' | sort -u >> $REGIONE$OGGI'changeset.html'
 echo "</BODY></HTML>" >> $REGIONE$OGGI'changeset.html'
 cp $REGIONE$OGGI'changeset.html' FVG_latest.html
