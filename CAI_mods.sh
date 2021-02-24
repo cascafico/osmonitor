@@ -1,6 +1,5 @@
 ######## start customization
-#AREACODE=3600000000 + <see areacodes file>
-AREACODE=3600179296
+#AREACODE=3600000000 + <see areacodes in actions file>
 AREACODE= $1
 INTERVAL="yesterday"
 #INTERVAL="1 hour ago"
