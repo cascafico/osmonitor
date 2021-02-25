@@ -1,17 +1,12 @@
 ######## start customization
-#AREACODE=3600000000 + <see areacodes in actions file>
-AREACODE=$1
-<<<<<<< HEAD
-INTERVAL="1 hour ago"
-INTERVAL="10 days ago"
-INTERVAL="yesterday"
-INTERVAL="3 days ago"
-=======
+
 #INTERVAL="1 hour ago"
 #INTERVAL="10 days ago"
 INTERVAL="yesterday"
->>>>>>> cd09599f45b809804d785fece200c35cb7203a19
 ######## end customization
+
+#AREACODE=3600000000 + <see areacodes in actions file>
+AREACODE=$1
 
 # dates for overpass syntax: 
 T0=`date -d "$INTERVAL" '+%Y-%m-%dT%H:%M:%SZ'`
@@ -19,7 +14,6 @@ T1=`date                '+%Y-%m-%dT%H:%M:%SZ'`
 # dates for parding OSM xml
 IERI=`date -d "$INTERVAL" '+%Y-%m-%d'`
 OGGI=`date +"%Y-%m-%d"`
-
 
 # extracting overpass adiff differences
 curl -G 'http://overpass-api.de/api/interpreter' --data-urlencode 'data=[out:xml][timeout:300][adiff:"'$T0'","'$T1'"];area('$AREACODE')->.searchArea;(relation["operator"~"^club alpino italiano",i](area.searchArea);relation["operator"="CAI"](area.searchArea););(._;>;);out meta geom;' > $AREACODE'.osm'
