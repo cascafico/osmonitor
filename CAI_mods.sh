@@ -1,10 +1,16 @@
 ######## start customization
 #AREACODE=3600000000 + <see areacodes in actions file>
 AREACODE=$1
+<<<<<<< HEAD
 INTERVAL="1 hour ago"
 INTERVAL="10 days ago"
 INTERVAL="yesterday"
 INTERVAL="3 days ago"
+=======
+#INTERVAL="1 hour ago"
+#INTERVAL="10 days ago"
+INTERVAL="yesterday"
+>>>>>>> cd09599f45b809804d785fece200c35cb7203a19
 ######## end customization
 
 # dates for overpass syntax: 
