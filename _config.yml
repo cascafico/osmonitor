@@ -28,8 +28,12 @@ future              : false
 unpublished         : false
 
 # Plugins
-whitelist           : []
-plugins             : []
+plugins:
+  - jekyll-feed
+title: Cascafico’s OSM monitor page
+description: Latest changesets
+author: Cascafico
+
 
 # Conversion
 markdown            : kramdown
