@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-02-25T18:14:13Z" areas="2021-02-25T16:15:43Z"/>
+<meta osm_base="2021-02-25T20:13:57Z" areas="2021-02-25T19:39:12Z"/>
 
 <action type="modify">
 <old>
@@ -16,6 +16,9 @@
 </action>
 <action type="create">
   <node id="8458512037" lat="45.7117329" lon="10.7772719" version="1" timestamp="2021-02-25T16:59:10Z" changeset="99992592" uid="10253275" user="Guido mtb"/>
+</action>
+<action type="create">
+  <node id="8458950084" lat="45.7116166" lon="10.7772535" version="1" timestamp="2021-02-25T19:47:19Z" changeset="100000968" uid="361003" user="Cascafico"/>
 </action>
 <action type="modify">
 <old>
@@ -227,7 +230,7 @@
   </way>
 </old>
 <new>
-  <way id="220748667" version="7" timestamp="2021-02-25T16:59:10Z" changeset="99992592" uid="10253275" user="Guido mtb">
+  <way id="220748667" version="8" timestamp="2021-02-25T19:47:19Z" changeset="100000968" uid="361003" user="Cascafico">
     <bounds minlat="45.7097752" minlon="10.7761709" maxlat="45.7189877" maxlon="10.7822838"/>
     <nd ref="262172811" lat="45.7189877" lon="10.7822838"/>
     <nd ref="3027164888" lat="45.7187405" lon="10.7821154"/>
@@ -245,6 +248,7 @@
     <nd ref="2298395331" lat="45.7122749" lon="10.7774913"/>
     <nd ref="6518569831" lat="45.7118356" lon="10.7772882"/>
     <nd ref="8458512037" lat="45.7117329" lon="10.7772719"/>
+    <nd ref="8458950084" lat="45.7116166" lon="10.7772535"/>
     <nd ref="2298395330" lat="45.7113595" lon="10.7772127"/>
     <nd ref="2298395328" lat="45.7105130" lon="10.7765242"/>
     <nd ref="2298395327" lat="45.7100973" lon="10.7763804"/>
@@ -2496,6 +2500,7 @@
       <nd lat="45.7122749" lon="10.7774913"/>
       <nd lat="45.7118356" lon="10.7772882"/>
       <nd lat="45.7117329" lon="10.7772719"/>
+      <nd lat="45.7116166" lon="10.7772535"/>
       <nd lat="45.7113595" lon="10.7772127"/>
       <nd lat="45.7105130" lon="10.7765242"/>
       <nd lat="45.7100973" lon="10.7763804"/>
