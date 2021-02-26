@@ -1,4 +1,4 @@
-echo "Index built on `date`" > index1.html
+echo "Index built on `date`<BR>" > index1.html
 for file in *_changeset.html
 do
   echo "======" >> index1.html
