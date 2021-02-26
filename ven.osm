@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-02-26T14:02:13Z" areas="2021-02-26T13:32:27Z"/>
+<meta osm_base="2021-02-26T16:03:57Z" areas="2021-02-26T13:32:27Z"/>
 
 <action type="modify">
 <old>
@@ -171,6 +171,76 @@
     <tag k="highway" v="track"/>
     <tag k="sac_scale" v="mountain_hiking"/>
     <tag k="tracktype" v="grade3"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="739048044" version="1" timestamp="2019-10-27T10:28:13Z" changeset="76262275" uid="2815652" user="gion274">
+    <bounds minlat="46.3835501" minlon="12.2454866" maxlat="46.3843700" maxlon="12.2491871"/>
+    <nd ref="437169643" lat="46.3843700" lon="12.2454866"/>
+    <nd ref="437169644" lat="46.3841749" lon="12.2457761"/>
+    <nd ref="437169641" lat="46.3840774" lon="12.2459512"/>
+    <nd ref="437169646" lat="46.3840356" lon="12.2461600"/>
+    <nd ref="437169655" lat="46.3840356" lon="12.2463755"/>
+    <nd ref="437169642" lat="46.3840774" lon="12.2466179"/>
+    <nd ref="437169656" lat="46.3840867" lon="12.2468199"/>
+    <nd ref="437169645" lat="46.3840402" lon="12.2470354"/>
+    <nd ref="437169653" lat="46.3838637" lon="12.2476280"/>
+    <nd ref="437169654" lat="46.3837522" lon="12.2479647"/>
+    <nd ref="437169651" lat="46.3837284" lon="12.2481595"/>
+    <nd ref="437169638" lat="46.3837668" lon="12.2482889"/>
+    <nd ref="437169652" lat="46.3837998" lon="12.2485215"/>
+    <nd ref="437169647" lat="46.3837615" lon="12.2487526"/>
+    <nd ref="437169649" lat="46.3837016" lon="12.2489008"/>
+    <nd ref="437169648" lat="46.3836405" lon="12.2489934"/>
+    <nd ref="1390917360" lat="46.3836277" lon="12.2490129"/>
+    <nd ref="1390917357" lat="46.3836151" lon="12.2490336"/>
+    <nd ref="1390917353" lat="46.3836026" lon="12.2490552"/>
+    <nd ref="1390917348" lat="46.3835901" lon="12.2490802"/>
+    <nd ref="1390917345" lat="46.3835773" lon="12.2491110"/>
+    <nd ref="1390917342" lat="46.3835643" lon="12.2491474"/>
+    <nd ref="1390917337" lat="46.3835501" lon="12.2491871"/>
+    <tag k="access" v="permissive"/>
+    <tag k="tracktype" v="grade2"/>
+    <tag k="surface" v="gravel"/>
+    <tag k="motorcar" v="destination"/>
+    <tag k="motorcycle" v="destination"/>
+    <tag k="highway" v="track"/>
+  </way>
+</old>
+<new>
+  <way id="739048044" version="2" timestamp="2021-02-26T15:17:33Z" changeset="100059539" uid="562239" user="gspinoza">
+    <bounds minlat="46.3835501" minlon="12.2454866" maxlat="46.3843700" maxlon="12.2491871"/>
+    <nd ref="437169643" lat="46.3843700" lon="12.2454866"/>
+    <nd ref="437169644" lat="46.3841749" lon="12.2457761"/>
+    <nd ref="437169641" lat="46.3840774" lon="12.2459512"/>
+    <nd ref="437169646" lat="46.3840356" lon="12.2461600"/>
+    <nd ref="437169655" lat="46.3840356" lon="12.2463755"/>
+    <nd ref="437169642" lat="46.3840774" lon="12.2466179"/>
+    <nd ref="437169656" lat="46.3840867" lon="12.2468199"/>
+    <nd ref="437169645" lat="46.3840402" lon="12.2470354"/>
+    <nd ref="437169653" lat="46.3838637" lon="12.2476280"/>
+    <nd ref="437169654" lat="46.3837522" lon="12.2479647"/>
+    <nd ref="437169651" lat="46.3837284" lon="12.2481595"/>
+    <nd ref="437169638" lat="46.3837668" lon="12.2482889"/>
+    <nd ref="437169652" lat="46.3837998" lon="12.2485215"/>
+    <nd ref="437169647" lat="46.3837615" lon="12.2487526"/>
+    <nd ref="437169649" lat="46.3837016" lon="12.2489008"/>
+    <nd ref="437169648" lat="46.3836405" lon="12.2489934"/>
+    <nd ref="1390917360" lat="46.3836277" lon="12.2490129"/>
+    <nd ref="1390917357" lat="46.3836151" lon="12.2490336"/>
+    <nd ref="1390917353" lat="46.3836026" lon="12.2490552"/>
+    <nd ref="1390917348" lat="46.3835901" lon="12.2490802"/>
+    <nd ref="1390917345" lat="46.3835773" lon="12.2491110"/>
+    <nd ref="1390917342" lat="46.3835643" lon="12.2491474"/>
+    <nd ref="1390917337" lat="46.3835501" lon="12.2491871"/>
+    <tag k="access" v="no"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="surface" v="gravel"/>
+    <tag k="tracktype" v="grade2"/>
   </way>
 </new>
 </action>
