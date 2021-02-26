@@ -1,6 +1,5 @@
-echo "<HTML><BODY>Monitor process run on $T1 <BR>" > index1.html
-
-for file in 36*changeset.html
+echo "Index built on `date`" > index1.html
+for file in *_changeset.html
 do
   echo "======" >> index1.html
   echo "<B>"$file"</B>" >> index1.html    
