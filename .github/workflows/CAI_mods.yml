@@ -8,7 +8,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: '30 23 * * *'
+    - cron: '0 */6 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 
@@ -45,7 +45,7 @@ jobs:
       run: |
          chmod +x ./CAI_mods.sh
          chmod +x ./build-index.sh
-         ./CAI_mods.sh 3600179296 && ./CAI_mods.sh 3600043648 && ./CAI_mods.sh 3600042611 && ./CAI_mods.sh 3600044879 && ./CAI_mods.sh 3600044874 && ./build-index.sh
+         ./CAI_mods.sh fri && ./CAI_mods.sh ven && ./CAI_mods.sh emr && ./CAI_mods.sh lom && ./CAI_mods.sh pie && ./CAI_mods.sh lig && ./build-index.sh
       shell: bash
     - name: Commit and push if changed
       run: |-
