@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.8 7d656e78">
+<osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-03-01T13:23:57Z" areas="2021-03-01T12:25:42Z"/>
+<meta osm_base="2021-03-01T13:41:12Z" areas="2021-03-01T12:26:41Z"/>
 
 <action type="modify">
 <old>
@@ -121,7 +121,18 @@
   </node>
 </new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="8467147575" lat="44.0890551" lon="11.1587494" version="1" timestamp="2021-02-28T13:40:15Z" changeset="100137114" uid="3065814" user="Alessandro Piccioli">
+    <tag k="name" v="Sentiero 00"/>
+    <tag k="wikimedia_commons" v="File:Cai_Montepiano_cartelli_poggetto.jpg"/>
+    <tag k="tourism" v="information"/>
+    <tag k="destination" v="Passo Crocetta 1:20;Valico Citerna 3:00|Alpe di Cavarzano 1:40;Tabernacolo di Gavigno 3:30;Cascina di Spedaletto 9:20"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="rwn:name" v="00"/>
+  </node>
+</old>
+<new>
   <node id="8467147575" lat="44.0890551" lon="11.1587494" version="3" timestamp="2021-02-28T17:39:53Z" changeset="100148374" uid="3065814" user="Alessandro Piccioli">
     <tag k="destination" v="Passo Crocetta 1:20;Valico Citerna 3:00|Alpe di Cavarzano 1:40;Tabernacolo di Gavigno 3:30;Cascina di Spedaletto 9:20"/>
     <tag k="hiking" v="yes"/>
@@ -131,6 +142,7 @@
     <tag k="tourism" v="information"/>
     <tag k="wikimedia_commons" v="File:Cai_Montepiano_cartelli_poggetto.jpg"/>
   </node>
+</new>
 </action>
 <action type="create">
   <node id="8467947296" lat="44.1563494" lon="10.7419449" version="1" timestamp="2021-02-28T17:13:39Z" changeset="100147264" uid="3215770" user="Andrea Del Sarto"/>
@@ -596,7 +608,7 @@
 </action>
 <action type="modify">
 <old>
-  <relation id="136334" version="457" timestamp="2021-02-24T07:24:56Z" changeset="99881687" uid="1801173" user="Pucciotrex30">
+  <relation id="136334" version="458" timestamp="2021-02-28T13:40:15Z" changeset="100137114" uid="3065814" user="Alessandro Piccioli">
     <bounds minlat="43.6826100" minlon="9.7526091" maxlat="44.4728774" maxlon="12.1163995"/>
     <member type="node" ref="6533634744" role="" lat="44.0436281" lon="11.4713981"/>
     <member type="node" ref="7035357569" role="" lat="43.9290074" lon="11.6734501"/>
@@ -23605,6 +23617,7 @@
       <nd lat="44.1560708" lon="10.7143878"/>
       <nd lat="44.1560099" lon="10.7142719"/>
     </member>
+    <member type="node" ref="8467147575" role="" lat="44.0890551" lon="11.1587494"/>
     <tag k="ascent" v="12731"/>
     <tag k="cai_scale" v="EE"/>
     <tag k="descent" v="12327"/>
