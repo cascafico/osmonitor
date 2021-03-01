@@ -7,9 +7,9 @@ do
 done
 echo "</BODY></HTML>" >> index1.html
 
-echo "Index built on `date`<BR>" > index2.html
+echo "Index built on `date`<BR>" > index.html
 for file in *_changeset.html
 do
-   echo "<A HREF="$file">"${file:0:10}"</A>" >> index2.html
+   echo "<A HREF="$file">"${file:0:2}"</A><BR>" >> index.html
 done
-echo "</BODY></HTML>" >> index2.html
+echo "</BODY></HTML>" >> index.html
