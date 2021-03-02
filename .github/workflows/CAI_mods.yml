@@ -12,29 +12,6 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 
-# argument $1 is 3600000000 + areacode:
-# 39152	Sicilia
-# 40095	Puglia
-# 40137	Basilicata
-# 40218	Campania
-# 40784	Lazio
-# 41256	Molise
-# 41977	Toscana
-# 42004	Umbria
-# 42611	Emilia-Romagna
-# 43648	Veneto
-# 44874	Piemonte
-# 44879	Lombardia
-# 45155	Valle d'Aosta/Vallée d'Aoste
-# 45757	Trentino-Alto Adige/Südtirol
-# 53060	Marche
-# 53937	Abruzzo
-# 179296	Friuli Venezia Giulia
-# 301482	Liguria
-# 1783980	Calabria
-# 3792877	Auvergne-Rhône-Alpes
-# 7361997	Sardegna
-
 jobs:
   scheduled:
     runs-on: ubuntu-latest
