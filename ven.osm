@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-03-02T08:00:42Z" areas="2021-03-02T07:39:20Z"/>
+<meta osm_base="2021-03-02T09:07:59Z" areas="2021-03-02T08:48:39Z"/>
 
-<action type="delete">
-<old>
-  <node id="1622097068" lat="45.9817393" lon="12.2937314" version="1" timestamp="2012-02-07T19:21:33Z" changeset="10615401" uid="504502" user="peppe10"/>
-</old>
-<new>
-  <node id="1622097068" visible="false" version="2" timestamp="2021-03-01T08:08:43Z" changeset="100184188" uid="12711456" user="Upscore"/>
-</new>
-</action>
 <action type="create">
   <node id="8477137111" lat="45.9777169" lon="12.2914555" version="1" timestamp="2021-03-01T21:33:04Z" changeset="100231474" uid="12711456" user="Upscore"/>
 </action>
@@ -19,7 +11,7 @@
 </action>
 <action type="modify">
 <old>
-  <way id="111604499" version="11" timestamp="2014-05-18T20:20:13Z" changeset="22414123" uid="497537" user="tuxfuzz">
+  <way id="111604499" version="12" timestamp="2021-03-01T08:08:43Z" changeset="100184188" uid="12711456" user="Upscore">
     <bounds minlat="45.9776916" minlon="12.2912220" maxlat="45.9817712" maxlon="12.2939525"/>
     <nd ref="1271110668" lat="45.9776916" lon="12.2915030"/>
     <nd ref="1271110599" lat="45.9777438" lon="12.2914052"/>
@@ -66,7 +58,6 @@
     <nd ref="1359843605" lat="45.9816745" lon="12.2935410"/>
     <nd ref="1359843610" lat="45.9817101" lon="12.2935875"/>
     <nd ref="1359843612" lat="45.9817258" lon="12.2936380"/>
-    <nd ref="1622097068" lat="45.9817393" lon="12.2937314"/>
     <nd ref="1271110737" lat="45.9817712" lon="12.2939525"/>
     <tag k="highway" v="unclassified"/>
     <tag k="name" v="Via Brevia"/>
@@ -486,7 +477,6 @@
       <nd lat="45.9816745" lon="12.2935410"/>
       <nd lat="45.9817101" lon="12.2935875"/>
       <nd lat="45.9817258" lon="12.2936380"/>
-      <nd lat="45.9817393" lon="12.2937314"/>
       <nd lat="45.9817712" lon="12.2939525"/>
     </member>
     <tag k="network" v="Iwn"/>
