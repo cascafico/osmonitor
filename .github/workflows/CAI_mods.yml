@@ -45,7 +45,7 @@ jobs:
       run: |
          chmod +x ./CAI_mods.sh
          chmod +x ./build-index.sh
-         ./CAI_mods.sh fri && ./CAI_mods.sh ven && ./CAI_mods.sh emr && ./CAI_mods.sh lom && ./CAI_mods.sh pie && ./CAI_mods.sh lig && ./CAI_mods.sh tos && ./build-index.sh
+         ./CAI_mods.sh sic && ./CAI_mods.sh fri && ./CAI_mods.sh ven && ./CAI_mods.sh emr && ./CAI_mods.sh lom && ./CAI_mods.sh pie && ./CAI_mods.sh lig && ./CAI_mods.sh tos && ./build-index.sh
       shell: bash
     - name: Commit and push if changed
       run: |-
