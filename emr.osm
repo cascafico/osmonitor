@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-03-04T06:15:27Z" areas="2021-03-04T05:21:28Z"/>
+<meta osm_base="2021-03-04T12:20:22Z" areas="2021-03-04T11:55:57Z"/>
 
 <action type="create">
   <node id="286484942" lat="44.4816373" lon="10.0091694" version="4" timestamp="2014-10-12T12:24:34Z" changeset="26024610" uid="834086" user="vpettenati"/>
@@ -992,14 +992,6 @@
 <action type="create">
   <node id="552404094" lat="44.5170255" lon="10.0615269" version="1" timestamp="2009-11-02T21:10:20Z" changeset="3020006" uid="169252" user="capataz"/>
 </action>
-<action type="delete">
-<old>
-  <node id="571817268" lat="44.0983368" lon="10.8541999" version="5" timestamp="2018-03-31T08:15:53Z" changeset="57682013" uid="271894" user="Marco Barbieri70"/>
-</old>
-<new>
-  <node id="571817268" visible="true" version="5" timestamp="2018-03-31T08:15:53Z" changeset="57682013" uid="271894" user="Marco Barbieri70"/>
-</new>
-</action>
 <action type="create">
   <node id="598573828" lat="44.5350754" lon="10.0688318" version="1" timestamp="2009-12-23T14:16:26Z" changeset="3434767" uid="169252" user="capataz"/>
 </action>
@@ -1092,6 +1084,9 @@
 </action>
 <action type="create">
   <node id="598573858" lat="44.5264940" lon="10.0662354" version="1" timestamp="2009-12-23T14:16:29Z" changeset="3434767" uid="169252" user="capataz"/>
+</action>
+<action type="create">
+  <node id="619947228" lat="44.6765200" lon="9.7153200" version="2" timestamp="2010-04-04T13:48:39Z" changeset="4322637" uid="169252" user="capataz"/>
 </action>
 <action type="create">
   <node id="825170323" lat="44.4518510" lon="9.9996880" version="2" timestamp="2017-06-08T06:24:24Z" changeset="49355894" uid="66421" user="jackthebest"/>
@@ -1323,19 +1318,24 @@
 <action type="create">
   <node id="1077799806" lat="44.4751198" lon="10.0075795" version="1" timestamp="2011-01-02T00:39:23Z" changeset="6834267" uid="169252" user="capataz"/>
 </action>
+<action type="create">
+  <node id="1077799808" lat="44.4758624" lon="10.0081803" version="1" timestamp="2011-01-02T00:39:23Z" changeset="6834267" uid="169252" user="capataz"/>
+</action>
 <action type="modify">
 <old>
-  <node id="1077799808" version="1" timestamp="2011-01-02T00:39:23Z" changeset="6834267" uid="169252" user="capataz"/>
+  <node id="1077799820" version="1" timestamp="2011-01-02T00:39:23Z" changeset="6834267" uid="169252" user="capataz"/>
 </old>
 <new>
-  <node id="1077799808" lat="44.4758624" lon="10.0081803" version="1" timestamp="2011-01-02T00:39:23Z" changeset="6834267" uid="169252" user="capataz"/>
+  <node id="1077799820" lat="44.4816114" lon="10.0098111" version="1" timestamp="2011-01-02T00:39:23Z" changeset="6834267" uid="169252" user="capataz"/>
 </new>
 </action>
-<action type="create">
-  <node id="1077799820" lat="44.4816114" lon="10.0098111" version="1" timestamp="2011-01-02T00:39:23Z" changeset="6834267" uid="169252" user="capataz"/>
-</action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1077799909" version="2" timestamp="2011-12-08T15:55:33Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1077799909" lat="44.4816672" lon="10.0102236" version="2" timestamp="2011-12-08T15:55:33Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
 <action type="create">
   <node id="1077800014" lat="44.4753189" lon="10.0081481" version="1" timestamp="2011-01-02T00:39:28Z" changeset="6834267" uid="169252" user="capataz"/>
@@ -1833,35 +1833,85 @@
 <action type="create">
   <node id="1429117544" lat="44.5194337" lon="10.0662961" version="1" timestamp="2011-09-10T17:40:07Z" changeset="9264053" uid="169252" user="capataz"/>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536808573" version="1" timestamp="2011-12-08T15:52:46Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536808573" lat="44.4804914" lon="10.0094310" version="1" timestamp="2011-12-08T15:52:46Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536808704" version="2" timestamp="2014-10-12T12:24:33Z" changeset="26024610" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536808704" lat="44.4811195" lon="10.0092407" version="2" timestamp="2014-10-12T12:24:33Z" changeset="26024610" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536808849" version="2" timestamp="2014-10-12T12:24:33Z" changeset="26024610" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536808849" lat="44.4814546" lon="10.0091922" version="2" timestamp="2014-10-12T12:24:33Z" changeset="26024610" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536808880" version="1" timestamp="2011-12-08T15:52:55Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536808880" lat="44.4816508" lon="10.0096767" version="1" timestamp="2011-12-08T15:52:55Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536808902" version="2" timestamp="2014-10-19T15:13:47Z" changeset="26194157" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536808902" lat="44.4817319" lon="10.0109635" version="2" timestamp="2014-10-19T15:13:47Z" changeset="26194157" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536808908" version="2" timestamp="2014-10-19T15:13:47Z" changeset="26194157" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536808908" lat="44.4817631" lon="10.0112825" version="2" timestamp="2014-10-19T15:13:47Z" changeset="26194157" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536808948" version="2" timestamp="2014-10-19T15:13:47Z" changeset="26194157" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536808948" lat="44.4819613" lon="10.0115498" version="2" timestamp="2014-10-19T15:13:47Z" changeset="26194157" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809005" version="1" timestamp="2011-12-08T15:53:00Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536809005" lat="44.4820060" lon="10.0115662" version="1" timestamp="2011-12-08T15:53:00Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809078" version="2" timestamp="2014-10-19T15:13:47Z" changeset="26194157" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809078" lat="44.4822497" lon="10.0115619" version="2" timestamp="2014-10-19T15:13:47Z" changeset="26194157" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809105" version="2" timestamp="2014-10-19T15:13:47Z" changeset="26194157" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809105" lat="44.4823336" lon="10.0115964" version="2" timestamp="2014-10-19T15:13:47Z" changeset="26194157" uid="834086" user="vpettenati"/>
+</new>
 </action>
 <action type="create">
   <node id="1536809131" lat="44.4824352" lon="10.0117991" version="3" timestamp="2014-10-24T11:25:38Z" changeset="26297291" uid="834086" user="vpettenati"/>
@@ -1869,80 +1919,205 @@
 <action type="create">
   <node id="1536809165" lat="44.4825558" lon="10.0119149" version="2" timestamp="2014-10-24T11:25:38Z" changeset="26297291" uid="834086" user="vpettenati"/>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809220" version="2" timestamp="2014-10-24T11:25:38Z" changeset="26297291" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809220" lat="44.4827059" lon="10.0119284" version="2" timestamp="2014-10-24T11:25:38Z" changeset="26297291" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809244" version="1" timestamp="2011-12-08T15:53:07Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536809244" lat="44.4827840" lon="10.0119396" version="1" timestamp="2011-12-08T15:53:07Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809290" version="1" timestamp="2011-12-08T15:53:08Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536809290" lat="44.4829265" lon="10.0121950" version="1" timestamp="2011-12-08T15:53:08Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809302" version="2" timestamp="2014-10-24T11:25:38Z" changeset="26297291" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809302" lat="44.4829882" lon="10.0123972" version="2" timestamp="2014-10-24T11:25:38Z" changeset="26297291" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809308" version="2" timestamp="2014-10-24T11:25:38Z" changeset="26297291" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809308" lat="44.4830255" lon="10.0125218" version="2" timestamp="2014-10-24T11:25:38Z" changeset="26297291" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809347" version="2" timestamp="2014-10-24T11:25:38Z" changeset="26297291" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809347" lat="44.4832124" lon="10.0124993" version="2" timestamp="2014-10-24T11:25:38Z" changeset="26297291" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809373" version="1" timestamp="2011-12-08T15:53:11Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536809373" lat="44.4833097" lon="10.0118250" version="1" timestamp="2011-12-08T15:53:11Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809377" version="1" timestamp="2011-12-08T15:53:11Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536809377" lat="44.4833307" lon="10.0121426" version="1" timestamp="2011-12-08T15:53:11Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809379" version="1" timestamp="2011-12-08T15:53:11Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536809379" lat="44.4833471" lon="10.0116481" version="1" timestamp="2011-12-08T15:53:11Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809381" version="1" timestamp="2011-12-08T15:53:11Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536809381" lat="44.4833681" lon="10.0110488" version="1" timestamp="2011-12-08T15:53:11Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809383" version="1" timestamp="2011-12-08T15:53:11Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536809383" lat="44.4833704" lon="10.0111995" version="1" timestamp="2011-12-08T15:53:11Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809395" version="1" timestamp="2011-12-08T15:53:12Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536809395" lat="44.4834265" lon="10.0105740" version="1" timestamp="2011-12-08T15:53:12Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809487" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809487" lat="44.4842459" lon="10.0103231" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809510" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809510" lat="44.4843472" lon="10.0102529" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809546" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809546" lat="44.4844550" lon="10.0101572" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809561" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809561" lat="44.4845018" lon="10.0101336" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809744" version="1" timestamp="2011-12-08T15:53:23Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536809744" lat="44.4858658" lon="10.0125369" version="1" timestamp="2011-12-08T15:53:23Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809748" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809748" lat="44.4858831" lon="10.0124195" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809749" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809749" lat="44.4859185" lon="10.0123543" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809756" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809756" lat="44.4859690" lon="10.0127852" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809765" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809765" lat="44.4860943" lon="10.0128489" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809785" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809785" lat="44.4863333" lon="10.0130488" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809788" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809788" lat="44.4864372" lon="10.0134143" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809795" version="1" timestamp="2011-12-08T15:53:25Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="1536809795" lat="44.4865742" lon="10.0135472" version="1" timestamp="2011-12-08T15:53:25Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</new>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="1536809804" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</old>
+<new>
   <node id="1536809804" lat="44.4868591" lon="10.0137064" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
+</new>
 </action>
 <action type="create">
   <node id="1536809814" lat="44.4871229" lon="10.0139059" version="2" timestamp="2014-10-12T14:09:32Z" changeset="26026325" uid="834086" user="vpettenati"/>
@@ -2028,13 +2203,8 @@
 <action type="create">
   <node id="1551995288" lat="44.5520004" lon="10.0984272" version="1" timestamp="2011-12-18T14:37:07Z" changeset="10147079" uid="169252" user="capataz"/>
 </action>
-<action type="modify">
-<old>
-  <node id="1552129786" version="2" timestamp="2012-12-29T18:02:25Z" changeset="14454120" uid="169252" user="capataz"/>
-</old>
-<new>
+<action type="create">
   <node id="1552129786" lat="44.5553860" lon="10.1000486" version="2" timestamp="2012-12-29T18:02:25Z" changeset="14454120" uid="169252" user="capataz"/>
-</new>
 </action>
 <action type="create">
   <node id="1554801227" lat="44.5146044" lon="10.0552092" version="1" timestamp="2011-12-19T22:07:50Z" changeset="10159464" uid="169252" user="capataz"/>
@@ -2084,24 +2254,14 @@
 <action type="create">
   <node id="1554801388" lat="44.5146466" lon="10.0555163" version="1" timestamp="2011-12-19T22:07:55Z" changeset="10159464" uid="169252" user="capataz"/>
 </action>
-<action type="modify">
-<old>
-  <node id="1666270533" version="1" timestamp="2012-03-08T19:14:36Z" changeset="10912505" uid="441699" user="cogulobi"/>
-</old>
-<new>
+<action type="create">
   <node id="1666270533" lat="44.5555363" lon="10.0993014" version="1" timestamp="2012-03-08T19:14:36Z" changeset="10912505" uid="441699" user="cogulobi"/>
-</new>
 </action>
 <action type="create">
   <node id="1934813350" lat="44.5488806" lon="10.0934229" version="1" timestamp="2012-09-27T07:47:24Z" changeset="13267727" uid="893327" user="mcheckimport"/>
 </action>
-<action type="modify">
-<old>
-  <node id="1934814366" version="1" timestamp="2012-09-27T07:47:46Z" changeset="13267727" uid="893327" user="mcheckimport"/>
-</old>
-<new>
+<action type="create">
   <node id="1934814366" lat="44.5552811" lon="10.1002121" version="1" timestamp="2012-09-27T07:47:46Z" changeset="13267727" uid="893327" user="mcheckimport"/>
-</new>
 </action>
 <action type="create">
   <node id="2047020650" lat="44.5383795" lon="10.0815165" version="1" timestamp="2012-12-02T20:45:06Z" changeset="14130853" uid="205175" user="roscolosco"/>
@@ -2151,8 +2311,13 @@
 <action type="create">
   <node id="2103545237" lat="44.5159862" lon="10.0594269" version="1" timestamp="2013-01-09T23:43:53Z" changeset="14592908" uid="205175" user="roscolosco"/>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="2475858033" version="1" timestamp="2013-09-28T21:49:37Z" changeset="18084064" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <node id="2475858033" lat="44.5467541" lon="10.0828236" version="1" timestamp="2013-09-28T21:49:37Z" changeset="18084064" uid="205175" user="roscolosco"/>
+</new>
 </action>
 <action type="create">
   <node id="2475858072" lat="44.5486975" lon="10.0926487" version="1" timestamp="2013-09-28T21:49:38Z" changeset="18084064" uid="205175" user="roscolosco"/>
@@ -2604,8 +2769,28 @@
 <action type="create">
   <node id="4903249443" lat="44.4670347" lon="10.0078475" version="1" timestamp="2017-06-08T06:27:32Z" changeset="49355973" uid="66421" user="jackthebest"/>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <node id="5305962573" version="1" timestamp="2017-12-27T07:11:49Z" changeset="54947904" uid="4157457" user="Euromax"/>
+</old>
+<new>
   <node id="5305962573" lat="44.5467796" lon="10.0828529" version="1" timestamp="2017-12-27T07:11:49Z" changeset="54947904" uid="4157457" user="Euromax"/>
+</new>
+</action>
+<action type="create">
+  <node id="5608071812" lat="44.6757790" lon="9.7163236" version="1" timestamp="2018-05-09T22:03:58Z" changeset="58833598" uid="79307" user="StePedro83"/>
+</action>
+<action type="create">
+  <node id="5608071813" lat="44.6749169" lon="9.7164953" version="1" timestamp="2018-05-09T22:03:58Z" changeset="58833598" uid="79307" user="StePedro83"/>
+</action>
+<action type="create">
+  <node id="5608071814" lat="44.6743600" lon="9.7158408" version="1" timestamp="2018-05-09T22:03:58Z" changeset="58833598" uid="79307" user="StePedro83"/>
+</action>
+<action type="create">
+  <node id="5608071815" lat="44.6738793" lon="9.7164094" version="1" timestamp="2018-05-09T22:03:58Z" changeset="58833598" uid="79307" user="StePedro83"/>
+</action>
+<action type="create">
+  <node id="5608071816" lat="44.6734826" lon="9.7171605" version="1" timestamp="2018-05-09T22:03:58Z" changeset="58833598" uid="79307" user="StePedro83"/>
 </action>
 <action type="create">
   <node id="6003225436" lat="44.4545234" lon="10.0001020" version="1" timestamp="2018-10-21T17:31:37Z" changeset="63733506" uid="169252" user="capataz"/>
@@ -2629,9 +2814,6 @@
   <node id="7434540930" lat="44.5365645" lon="10.0714499" version="1" timestamp="2020-04-22T16:22:25Z" changeset="83951799" uid="11055244" user="BR1 Cassio">
     <tag k="barrier" v="kissing_gate"/>
   </node>
-</action>
-<action type="create">
-  <node id="8481979394" lat="44.0983419" lon="10.8541880" version="1" timestamp="2021-03-03T07:51:52Z" changeset="100329046" uid="3215770" user="Andrea Del Sarto"/>
 </action>
 <action type="create">
   <way id="42461731" version="17" timestamp="2017-12-27T07:11:49Z" changeset="54947904" uid="4157457" user="Euromax">
@@ -3271,7 +3453,11 @@
     <tag k="tracktype" v="grade5"/>
   </way>
 </action>
-<action type="create">
+<action type="modify">
+<old>
+  <way id="92973519" version="2" timestamp="2011-12-08T15:55:06Z" changeset="10066108" uid="205175" user="roscolosco"/>
+</old>
+<new>
   <way id="92973519" version="2" timestamp="2011-12-08T15:55:06Z" changeset="10066108" uid="205175" user="roscolosco">
     <bounds minlat="44.4816114" minlon="10.0091381" maxlat="44.4817743" maxlon="10.0100926"/>
     <nd ref="1077800342" lat="44.4816251" lon="10.0100926"/>
@@ -3285,12 +3471,9 @@
     <tag k="highway" v="track"/>
     <tag k="tracktype" v="grade2"/>
   </way>
+</new>
 </action>
-<action type="modify">
-<old>
-  <way id="119386587" version="5" timestamp="2019-06-11T05:41:37Z" changeset="71126657" uid="4157457" user="Euromax"/>
-</old>
-<new>
+<action type="create">
   <way id="119386587" version="5" timestamp="2019-06-11T05:41:37Z" changeset="71126657" uid="4157457" user="Euromax">
     <bounds minlat="44.5553028" minlon="10.0965129" maxlat="44.5562019" maxlon="10.1002671"/>
     <nd ref="1408253126" lat="44.5562019" lon="10.0965129"/>
@@ -3316,7 +3499,6 @@
     <tag k="mtb:type" v="crosscountry"/>
     <tag k="tracktype" v="grade4"/>
   </way>
-</new>
 </action>
 <action type="create">
   <way id="128609826" version="1" timestamp="2011-09-02T09:49:11Z" changeset="9191676" uid="169252" user="capataz">
@@ -3694,53 +3876,18 @@
     <tag k="surface" v="dirt"/>
   </way>
 </action>
-<action type="modify">
-<old>
-  <way id="574964794" version="4" timestamp="2020-08-23T14:46:25Z" changeset="89811103" uid="1801173" user="Pucciotrex30">
-    <bounds minlat="44.0978637" minlon="10.8540320" maxlat="44.0983850" maxlon="10.8559376"/>
-    <nd ref="618971161" lat="44.0979352" lon="10.8559376"/>
-    <nd ref="7837386359" lat="44.0978807" lon="10.8558588"/>
-    <nd ref="571817267" lat="44.0978637" lon="10.8557056"/>
-    <nd ref="5517931404" lat="44.0979050" lon="10.8555230"/>
-    <nd ref="5517931403" lat="44.0979420" lon="10.8554130"/>
-    <nd ref="7837386360" lat="44.0980184" lon="10.8553264"/>
-    <nd ref="618971154" lat="44.0980518" lon="10.8551947"/>
-    <nd ref="5517997247" lat="44.0981272" lon="10.8550249"/>
-    <nd ref="5517997246" lat="44.0981425" lon="10.8549427"/>
-    <nd ref="5517997245" lat="44.0981882" lon="10.8547753"/>
-    <nd ref="5517997244" lat="44.0982778" lon="10.8544947"/>
-    <nd ref="571817268" lat="44.0983368" lon="10.8541999"/>
-    <nd ref="618971146" lat="44.0983850" lon="10.8540320"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
+<action type="create">
+  <way id="726824149" version="1" timestamp="2019-09-20T11:35:14Z" changeset="74714392" uid="13591" user="lucadelu">
+    <bounds minlat="44.6730266" minlon="9.7153200" maxlat="44.6765200" maxlon="9.7174185"/>
+    <nd ref="619947228" lat="44.6765200" lon="9.7153200"/>
+    <nd ref="5608071812" lat="44.6757790" lon="9.7163236"/>
+    <nd ref="5608071813" lat="44.6749169" lon="9.7164953"/>
+    <nd ref="5608071814" lat="44.6743600" lon="9.7158408"/>
+    <nd ref="5608071815" lat="44.6738793" lon="9.7164094"/>
+    <nd ref="5608071816" lat="44.6734826" lon="9.7171605"/>
+    <nd ref="1458517465" lat="44.6730266" lon="9.7174185"/>
     <tag k="highway" v="path"/>
-    <tag k="mtb:scale" v="1"/>
-    <tag k="sac_scale" v="mountain_hiking"/>
   </way>
-</old>
-<new>
-  <way id="574964794" version="5" timestamp="2021-03-03T07:51:52Z" changeset="100329046" uid="3215770" user="Andrea Del Sarto">
-    <bounds minlat="44.0978637" minlon="10.8540320" maxlat="44.0983850" maxlon="10.8559376"/>
-    <nd ref="618971161" lat="44.0979352" lon="10.8559376"/>
-    <nd ref="7837386359" lat="44.0978807" lon="10.8558588"/>
-    <nd ref="571817267" lat="44.0978637" lon="10.8557056"/>
-    <nd ref="5517931404" lat="44.0979050" lon="10.8555230"/>
-    <nd ref="5517931403" lat="44.0979420" lon="10.8554130"/>
-    <nd ref="7837386360" lat="44.0980184" lon="10.8553264"/>
-    <nd ref="618971154" lat="44.0980518" lon="10.8551947"/>
-    <nd ref="5517997247" lat="44.0981272" lon="10.8550249"/>
-    <nd ref="5517997246" lat="44.0981425" lon="10.8549427"/>
-    <nd ref="5517997245" lat="44.0981882" lon="10.8547753"/>
-    <nd ref="5517997244" lat="44.0982778" lon="10.8544947"/>
-    <nd ref="8481979394" lat="44.0983419" lon="10.8541880"/>
-    <nd ref="618971146" lat="44.0983850" lon="10.8540320"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="path"/>
-    <tag k="mtb:scale" v="1"/>
-    <tag k="sac_scale" v="mountain_hiking"/>
-  </way>
-</new>
 </action>
 <action type="create">
   <way id="728022244" version="2" timestamp="2020-04-11T16:39:51Z" changeset="83404922" uid="169252" user="capataz">
@@ -3768,936 +3915,6 @@
     <tag k="ref" v="SP74"/>
     <tag k="surface" v="asphalt"/>
   </way>
-</action>
-<action type="modify">
-<old>
-  <relation id="357948" version="17" timestamp="2021-02-08T01:03:08Z" changeset="98870324" uid="5641976" user="MauroL">
-    <bounds minlat="44.0791387" minlon="10.8481919" maxlat="44.1022289" maxlon="10.8885126"/>
-    <member type="way" ref="69959804" role="">
-      <nd lat="44.0794785" lon="10.8856258"/>
-      <nd lat="44.0794872" lon="10.8856842"/>
-      <nd lat="44.0794700" lon="10.8857372"/>
-      <nd lat="44.0794517" lon="10.8857960"/>
-      <nd lat="44.0793670" lon="10.8860227"/>
-      <nd lat="44.0793371" lon="10.8860728"/>
-      <nd lat="44.0792382" lon="10.8861666"/>
-      <nd lat="44.0791424" lon="10.8863193"/>
-      <nd lat="44.0791387" lon="10.8863894"/>
-      <nd lat="44.0791759" lon="10.8864015"/>
-      <nd lat="44.0792145" lon="10.8863917"/>
-      <nd lat="44.0792543" lon="10.8863943"/>
-      <nd lat="44.0793025" lon="10.8863838"/>
-      <nd lat="44.0794009" lon="10.8863472"/>
-      <nd lat="44.0794420" lon="10.8863322"/>
-      <nd lat="44.0794785" lon="10.8863369"/>
-      <nd lat="44.0795161" lon="10.8863994"/>
-      <nd lat="44.0796031" lon="10.8864258"/>
-      <nd lat="44.0796817" lon="10.8864190"/>
-      <nd lat="44.0797243" lon="10.8863844"/>
-      <nd lat="44.0797668" lon="10.8862952"/>
-      <nd lat="44.0798169" lon="10.8862134"/>
-      <nd lat="44.0798366" lon="10.8862025"/>
-      <nd lat="44.0798741" lon="10.8862383"/>
-      <nd lat="44.0799145" lon="10.8863384"/>
-      <nd lat="44.0799404" lon="10.8864416"/>
-      <nd lat="44.0799123" lon="10.8866349"/>
-      <nd lat="44.0798688" lon="10.8867980"/>
-      <nd lat="44.0797839" lon="10.8869728"/>
-      <nd lat="44.0797669" lon="10.8871085"/>
-      <nd lat="44.0797615" lon="10.8872968"/>
-      <nd lat="44.0797747" lon="10.8873596"/>
-      <nd lat="44.0797985" lon="10.8873815"/>
-      <nd lat="44.0798320" lon="10.8873762"/>
-      <nd lat="44.0798686" lon="10.8873540"/>
-      <nd lat="44.0799015" lon="10.8873240"/>
-      <nd lat="44.0799306" lon="10.8873280"/>
-      <nd lat="44.0799524" lon="10.8873794"/>
-      <nd lat="44.0799868" lon="10.8874894"/>
-      <nd lat="44.0800272" lon="10.8875966"/>
-      <nd lat="44.0800721" lon="10.8876154"/>
-      <nd lat="44.0800939" lon="10.8875926"/>
-      <nd lat="44.0801099" lon="10.8875516"/>
-      <nd lat="44.0801493" lon="10.8874532"/>
-      <nd lat="44.0802061" lon="10.8874327"/>
-      <nd lat="44.0802797" lon="10.8874513"/>
-      <nd lat="44.0803513" lon="10.8874500"/>
-      <nd lat="44.0804284" lon="10.8873746"/>
-      <nd lat="44.0804942" lon="10.8873492"/>
-      <nd lat="44.0805875" lon="10.8873886"/>
-      <nd lat="44.0806500" lon="10.8873991"/>
-      <nd lat="44.0806969" lon="10.8873497"/>
-      <nd lat="44.0807463" lon="10.8872701"/>
-      <nd lat="44.0808136" lon="10.8872148"/>
-      <nd lat="44.0808722" lon="10.8872232"/>
-      <nd lat="44.0809578" lon="10.8873203"/>
-      <nd lat="44.0810401" lon="10.8875037"/>
-      <nd lat="44.0810823" lon="10.8875752"/>
-      <nd lat="44.0811396" lon="10.8875784"/>
-      <nd lat="44.0811775" lon="10.8875642"/>
-      <nd lat="44.0812004" lon="10.8875635"/>
-      <nd lat="44.0812375" lon="10.8875635"/>
-      <nd lat="44.0812782" lon="10.8875462"/>
-      <nd lat="44.0813272" lon="10.8875729"/>
-      <nd lat="44.0813863" lon="10.8876199"/>
-      <nd lat="44.0814276" lon="10.8876543"/>
-      <nd lat="44.0814773" lon="10.8876906"/>
-      <nd lat="44.0815507" lon="10.8877483"/>
-      <nd lat="44.0816061" lon="10.8877885"/>
-      <nd lat="44.0816500" lon="10.8877917"/>
-      <nd lat="44.0817210" lon="10.8878439"/>
-      <nd lat="44.0818025" lon="10.8877809"/>
-      <nd lat="44.0818682" lon="10.8877305"/>
-      <nd lat="44.0819157" lon="10.8877715"/>
-      <nd lat="44.0821919" lon="10.8877809"/>
-      <nd lat="44.0823119" lon="10.8877043"/>
-      <nd lat="44.0823661" lon="10.8877463"/>
-      <nd lat="44.0825145" lon="10.8877698"/>
-      <nd lat="44.0826186" lon="10.8877819"/>
-      <nd lat="44.0826409" lon="10.8876918"/>
-      <nd lat="44.0826717" lon="10.8875036"/>
-      <nd lat="44.0827894" lon="10.8873366"/>
-      <nd lat="44.0829263" lon="10.8871578"/>
-      <nd lat="44.0830599" lon="10.8870964"/>
-      <nd lat="44.0832019" lon="10.8870885"/>
-      <nd lat="44.0833683" lon="10.8871032"/>
-    </member>
-    <member type="way" ref="173567842" role="">
-      <nd lat="44.0833683" lon="10.8871032"/>
-      <nd lat="44.0834907" lon="10.8871911"/>
-      <nd lat="44.0835765" lon="10.8873175"/>
-      <nd lat="44.0837112" lon="10.8873508"/>
-      <nd lat="44.0838827" lon="10.8874380"/>
-      <nd lat="44.0839500" lon="10.8875545"/>
-      <nd lat="44.0841524" lon="10.8876026"/>
-      <nd lat="44.0842694" lon="10.8876286"/>
-      <nd lat="44.0844068" lon="10.8877373"/>
-      <nd lat="44.0844329" lon="10.8878573"/>
-      <nd lat="44.0844689" lon="10.8879914"/>
-      <nd lat="44.0846641" lon="10.8879113"/>
-      <nd lat="44.0848575" lon="10.8879792"/>
-      <nd lat="44.0849995" lon="10.8879752"/>
-      <nd lat="44.0850981" lon="10.8880393"/>
-      <nd lat="44.0852449" lon="10.8880356"/>
-      <nd lat="44.0854235" lon="10.8880275"/>
-      <nd lat="44.0855141" lon="10.8881165"/>
-      <nd lat="44.0857089" lon="10.8882909"/>
-      <nd lat="44.0859267" lon="10.8884417"/>
-      <nd lat="44.0860135" lon="10.8885126"/>
-    </member>
-    <member type="way" ref="69959813" role="">
-      <nd lat="44.0860135" lon="10.8885126"/>
-      <nd lat="44.0860923" lon="10.8884029"/>
-      <nd lat="44.0861369" lon="10.8882328"/>
-      <nd lat="44.0861605" lon="10.8881218"/>
-      <nd lat="44.0862202" lon="10.8879782"/>
-      <nd lat="44.0862872" lon="10.8878723"/>
-      <nd lat="44.0863633" lon="10.8878320"/>
-      <nd lat="44.0864230" lon="10.8878017"/>
-      <nd lat="44.0865462" lon="10.8877059"/>
-      <nd lat="44.0866423" lon="10.8875783"/>
-      <nd lat="44.0866487" lon="10.8874636"/>
-      <nd lat="44.0866918" lon="10.8872639"/>
-      <nd lat="44.0867500" lon="10.8871279"/>
-      <nd lat="44.0867981" lon="10.8870334"/>
-      <nd lat="44.0869820" lon="10.8868758"/>
-      <nd lat="44.0871574" lon="10.8866986"/>
-      <nd lat="44.0872096" lon="10.8866313"/>
-      <nd lat="44.0872338" lon="10.8866001"/>
-      <nd lat="44.0872758" lon="10.8865614"/>
-      <nd lat="44.0873186" lon="10.8865017"/>
-      <nd lat="44.0873712" lon="10.8862327"/>
-    </member>
-    <member type="way" ref="130576876" role="">
-      <nd lat="44.0873712" lon="10.8862327"/>
-      <nd lat="44.0874310" lon="10.8860937"/>
-      <nd lat="44.0875110" lon="10.8859660"/>
-      <nd lat="44.0877055" lon="10.8859130"/>
-      <nd lat="44.0877190" lon="10.8858262"/>
-      <nd lat="44.0876887" lon="10.8857328"/>
-      <nd lat="44.0877231" lon="10.8856225"/>
-      <nd lat="44.0877919" lon="10.8854245"/>
-      <nd lat="44.0878366" lon="10.8852483"/>
-      <nd lat="44.0878506" lon="10.8848435"/>
-      <nd lat="44.0878747" lon="10.8846426"/>
-      <nd lat="44.0878861" lon="10.8844833"/>
-      <nd lat="44.0879680" lon="10.8843808"/>
-      <nd lat="44.0881616" lon="10.8844415"/>
-      <nd lat="44.0882522" lon="10.8843271"/>
-      <nd lat="44.0883894" lon="10.8841068"/>
-      <nd lat="44.0885132" lon="10.8839198"/>
-      <nd lat="44.0885869" lon="10.8836607"/>
-      <nd lat="44.0886257" lon="10.8834689"/>
-      <nd lat="44.0886709" lon="10.8832601"/>
-      <nd lat="44.0887671" lon="10.8832050"/>
-      <nd lat="44.0888378" lon="10.8831183"/>
-      <nd lat="44.0888350" lon="10.8828820"/>
-      <nd lat="44.0887926" lon="10.8827323"/>
-      <nd lat="44.0887926" lon="10.8825787"/>
-      <nd lat="44.0887813" lon="10.8824054"/>
-      <nd lat="44.0888520" lon="10.8821809"/>
-      <nd lat="44.0889253" lon="10.8820938"/>
-      <nd lat="44.0889454" lon="10.8819919"/>
-      <nd lat="44.0889190" lon="10.8819087"/>
-      <nd lat="44.0889226" lon="10.8818146"/>
-      <nd lat="44.0887962" lon="10.8814871"/>
-      <nd lat="44.0887256" lon="10.8812952"/>
-      <nd lat="44.0886927" lon="10.8811294"/>
-      <nd lat="44.0886584" lon="10.8809712"/>
-      <nd lat="44.0886734" lon="10.8808254"/>
-      <nd lat="44.0887527" lon="10.8806816"/>
-      <nd lat="44.0889752" lon="10.8807044"/>
-      <nd lat="44.0892570" lon="10.8809158"/>
-      <nd lat="44.0894815" lon="10.8811626"/>
-      <nd lat="44.0897120" lon="10.8813223"/>
-      <nd lat="44.0900571" lon="10.8814759"/>
-      <nd lat="44.0903174" lon="10.8816492"/>
-      <nd lat="44.0904621" lon="10.8817368"/>
-      <nd lat="44.0905437" lon="10.8817879"/>
-      <nd lat="44.0906053" lon="10.8817012"/>
-      <nd lat="44.0906414" lon="10.8816073"/>
-      <nd lat="44.0906682" lon="10.8814056"/>
-      <nd lat="44.0907409" lon="10.8812637"/>
-      <nd lat="44.0909001" lon="10.8811849"/>
-      <nd lat="44.0910225" lon="10.8810899"/>
-      <nd lat="44.0910859" lon="10.8810899"/>
-      <nd lat="44.0911308" lon="10.8810487"/>
-      <nd lat="44.0911608" lon="10.8809437"/>
-      <nd lat="44.0912323" lon="10.8807974"/>
-      <nd lat="44.0914458" lon="10.8807774"/>
-      <nd lat="44.0915074" lon="10.8807006"/>
-      <nd lat="44.0916133" lon="10.8806581"/>
-      <nd lat="44.0916915" lon="10.8806624"/>
-      <nd lat="44.0917576" lon="10.8806804"/>
-      <nd lat="44.0918113" lon="10.8806464"/>
-      <nd lat="44.0918660" lon="10.8805940"/>
-      <nd lat="44.0919698" lon="10.8805740"/>
-      <nd lat="44.0920335" lon="10.8805804"/>
-      <nd lat="44.0921483" lon="10.8805900"/>
-      <nd lat="44.0923104" lon="10.8805846"/>
-      <nd lat="44.0924790" lon="10.8805268"/>
-      <nd lat="44.0926369" lon="10.8804311"/>
-      <nd lat="44.0926899" lon="10.8804095"/>
-      <nd lat="44.0927095" lon="10.8803750"/>
-      <nd lat="44.0926636" lon="10.8802854"/>
-      <nd lat="44.0926594" lon="10.8802050"/>
-      <nd lat="44.0926778" lon="10.8800872"/>
-      <nd lat="44.0927275" lon="10.8799258"/>
-      <nd lat="44.0927829" lon="10.8798523"/>
-      <nd lat="44.0928977" lon="10.8798175"/>
-      <nd lat="44.0929553" lon="10.8797762"/>
-      <nd lat="44.0929410" lon="10.8796011"/>
-      <nd lat="44.0929771" lon="10.8794750"/>
-      <nd lat="44.0930621" lon="10.8793698"/>
-      <nd lat="44.0931136" lon="10.8793343"/>
-      <nd lat="44.0931989" lon="10.8793075"/>
-      <nd lat="44.0932639" lon="10.8793100"/>
-      <nd lat="44.0933296" lon="10.8791852"/>
-      <nd lat="44.0934182" lon="10.8791306"/>
-      <nd lat="44.0934967" lon="10.8790301"/>
-      <nd lat="44.0934483" lon="10.8789182"/>
-      <nd lat="44.0934412" lon="10.8787271"/>
-      <nd lat="44.0934579" lon="10.8785372"/>
-      <nd lat="44.0935511" lon="10.8782959"/>
-      <nd lat="44.0937474" lon="10.8779140"/>
-      <nd lat="44.0937988" lon="10.8778057"/>
-      <nd lat="44.0938901" lon="10.8775707"/>
-      <nd lat="44.0940673" lon="10.8773813"/>
-      <nd lat="44.0941471" lon="10.8773050"/>
-      <nd lat="44.0943532" lon="10.8771554"/>
-      <nd lat="44.0945628" lon="10.8770289"/>
-      <nd lat="44.0946192" lon="10.8769568"/>
-      <nd lat="44.0946525" lon="10.8768270"/>
-      <nd lat="44.0945918" lon="10.8767798"/>
-    </member>
-    <member type="way" ref="574954804" role="">
-      <nd lat="44.0945918" lon="10.8767798"/>
-      <nd lat="44.0945859" lon="10.8766738"/>
-      <nd lat="44.0946340" lon="10.8766134"/>
-      <nd lat="44.0946897" lon="10.8765581"/>
-      <nd lat="44.0947849" lon="10.8764987"/>
-      <nd lat="44.0948831" lon="10.8764111"/>
-      <nd lat="44.0949985" lon="10.8762538"/>
-      <nd lat="44.0951170" lon="10.8761506"/>
-      <nd lat="44.0952840" lon="10.8760489"/>
-      <nd lat="44.0953903" lon="10.8760471"/>
-      <nd lat="44.0955403" lon="10.8759832"/>
-      <nd lat="44.0956324" lon="10.8758459"/>
-      <nd lat="44.0957058" lon="10.8758173"/>
-      <nd lat="44.0957358" lon="10.8758597"/>
-      <nd lat="44.0958318" lon="10.8759840"/>
-      <nd lat="44.0958874" lon="10.8761732"/>
-      <nd lat="44.0959086" lon="10.8762586"/>
-      <nd lat="44.0959378" lon="10.8763804"/>
-      <nd lat="44.0959121" lon="10.8764352"/>
-      <nd lat="44.0958317" lon="10.8765296"/>
-      <nd lat="44.0958364" lon="10.8766679"/>
-      <nd lat="44.0958941" lon="10.8766865"/>
-      <nd lat="44.0959601" lon="10.8766370"/>
-      <nd lat="44.0959981" lon="10.8766400"/>
-      <nd lat="44.0960102" lon="10.8767720"/>
-      <nd lat="44.0959641" lon="10.8770266"/>
-      <nd lat="44.0959168" lon="10.8771365"/>
-      <nd lat="44.0958917" lon="10.8773186"/>
-      <nd lat="44.0959143" lon="10.8774601"/>
-      <nd lat="44.0959554" lon="10.8775759"/>
-      <nd lat="44.0959434" lon="10.8777456"/>
-      <nd lat="44.0959609" lon="10.8778912"/>
-      <nd lat="44.0959870" lon="10.8780127"/>
-      <nd lat="44.0960724" lon="10.8780671"/>
-      <nd lat="44.0961552" lon="10.8779822"/>
-      <nd lat="44.0962607" lon="10.8778411"/>
-      <nd lat="44.0963662" lon="10.8777671"/>
-      <nd lat="44.0964982" lon="10.8777064"/>
-      <nd lat="44.0966234" lon="10.8776863"/>
-      <nd lat="44.0967005" lon="10.8776250"/>
-      <nd lat="44.0968505" lon="10.8774802"/>
-      <nd lat="44.0970414" lon="10.8772821"/>
-      <nd lat="44.0972548" lon="10.8771214"/>
-      <nd lat="44.0973326" lon="10.8771356"/>
-      <nd lat="44.0973724" lon="10.8771723"/>
-      <nd lat="44.0974122" lon="10.8771782"/>
-      <nd lat="44.0974792" lon="10.8771112"/>
-      <nd lat="44.0975582" lon="10.8769906"/>
-      <nd lat="44.0976986" lon="10.8769283"/>
-      <nd lat="44.0979012" lon="10.8769043"/>
-      <nd lat="44.0980004" lon="10.8769102"/>
-      <nd lat="44.0980810" lon="10.8768491"/>
-      <nd lat="44.0981751" lon="10.8767714"/>
-      <nd lat="44.0982257" lon="10.8765867"/>
-      <nd lat="44.0983860" lon="10.8764886"/>
-      <nd lat="44.0985585" lon="10.8763709"/>
-      <nd lat="44.0986565" lon="10.8761964"/>
-      <nd lat="44.0986947" lon="10.8760941"/>
-      <nd lat="44.0987023" lon="10.8759718"/>
-      <nd lat="44.0986995" lon="10.8758035"/>
-      <nd lat="44.0986960" lon="10.8757430"/>
-      <nd lat="44.0987561" lon="10.8756200"/>
-      <nd lat="44.0987495" lon="10.8754875"/>
-      <nd lat="44.0987631" lon="10.8751356"/>
-      <nd lat="44.0988069" lon="10.8749751"/>
-      <nd lat="44.0988938" lon="10.8744545"/>
-      <nd lat="44.0990112" lon="10.8741840"/>
-      <nd lat="44.0991749" lon="10.8738309"/>
-      <nd lat="44.0993931" lon="10.8737396"/>
-      <nd lat="44.0994672" lon="10.8735981"/>
-      <nd lat="44.0995248" lon="10.8734578"/>
-      <nd lat="44.0995598" lon="10.8733137"/>
-      <nd lat="44.0996175" lon="10.8731145"/>
-      <nd lat="44.0996778" lon="10.8729648"/>
-      <nd lat="44.0997523" lon="10.8727677"/>
-      <nd lat="44.0998386" lon="10.8725559"/>
-    </member>
-    <member type="way" ref="70989028" role="">
-      <nd lat="44.0998386" lon="10.8725559"/>
-      <nd lat="44.0997645" lon="10.8721574"/>
-      <nd lat="44.0998080" lon="10.8719214"/>
-      <nd lat="44.0998347" lon="10.8717616"/>
-      <nd lat="44.0999301" lon="10.8712100"/>
-      <nd lat="44.0999101" lon="10.8707100"/>
-      <nd lat="44.0997751" lon="10.8703201"/>
-      <nd lat="44.0997301" lon="10.8698600"/>
-      <nd lat="44.0997371" lon="10.8685195"/>
-      <nd lat="44.0997488" lon="10.8682023"/>
-      <nd lat="44.0998001" lon="10.8678400"/>
-      <nd lat="44.1000225" lon="10.8669650"/>
-      <nd lat="44.1000601" lon="10.8663800"/>
-      <nd lat="44.1001675" lon="10.8653056"/>
-      <nd lat="44.1001801" lon="10.8651800"/>
-      <nd lat="44.0999501" lon="10.8645800"/>
-      <nd lat="44.0998150" lon="10.8637703"/>
-      <nd lat="44.0996474" lon="10.8629355"/>
-      <nd lat="44.0995932" lon="10.8624340"/>
-      <nd lat="44.0995010" lon="10.8621106"/>
-      <nd lat="44.0994645" lon="10.8615718"/>
-      <nd lat="44.0993359" lon="10.8613352"/>
-      <nd lat="44.0991733" lon="10.8612553"/>
-      <nd lat="44.0989170" lon="10.8611677"/>
-      <nd lat="44.0985992" lon="10.8610725"/>
-      <nd lat="44.0983440" lon="10.8609259"/>
-      <nd lat="44.0981865" lon="10.8608965"/>
-      <nd lat="44.0981291" lon="10.8608594"/>
-      <nd lat="44.0981019" lon="10.8608028"/>
-      <nd lat="44.0980893" lon="10.8606444"/>
-      <nd lat="44.0981231" lon="10.8604953"/>
-      <nd lat="44.0981473" lon="10.8603009"/>
-      <nd lat="44.0981937" lon="10.8600385"/>
-      <nd lat="44.0982840" lon="10.8595138"/>
-      <nd lat="44.0983671" lon="10.8590243"/>
-      <nd lat="44.0984423" lon="10.8583884"/>
-      <nd lat="44.0985919" lon="10.8578917"/>
-      <nd lat="44.0986801" lon="10.8574500"/>
-      <nd lat="44.0987616" lon="10.8572822"/>
-      <nd lat="44.0988850" lon="10.8571176"/>
-      <nd lat="44.0989541" lon="10.8569304"/>
-      <nd lat="44.0989425" lon="10.8567697"/>
-      <nd lat="44.0989100" lon="10.8565945"/>
-      <nd lat="44.0988631" lon="10.8565418"/>
-      <nd lat="44.0985735" lon="10.8564511"/>
-      <nd lat="44.0984326" lon="10.8563375"/>
-      <nd lat="44.0982805" lon="10.8562065"/>
-      <nd lat="44.0980946" lon="10.8560770"/>
-      <nd lat="44.0980082" lon="10.8560332"/>
-      <nd lat="44.0979352" lon="10.8559376"/>
-    </member>
-    <member type="way" ref="574964794" role="">
-      <nd lat="44.0979352" lon="10.8559376"/>
-      <nd lat="44.0978807" lon="10.8558588"/>
-      <nd lat="44.0978637" lon="10.8557056"/>
-      <nd lat="44.0979050" lon="10.8555230"/>
-      <nd lat="44.0979420" lon="10.8554130"/>
-      <nd lat="44.0980184" lon="10.8553264"/>
-      <nd lat="44.0980518" lon="10.8551947"/>
-      <nd lat="44.0981272" lon="10.8550249"/>
-      <nd lat="44.0981425" lon="10.8549427"/>
-      <nd lat="44.0981882" lon="10.8547753"/>
-      <nd lat="44.0982778" lon="10.8544947"/>
-      <nd lat="44.0983368" lon="10.8541999"/>
-      <nd lat="44.0983850" lon="10.8540320"/>
-    </member>
-    <member type="way" ref="315062842" role="">
-      <nd lat="44.0983850" lon="10.8540320"/>
-      <nd lat="44.0983945" lon="10.8538855"/>
-      <nd lat="44.0983790" lon="10.8537663"/>
-      <nd lat="44.0983323" lon="10.8536002"/>
-      <nd lat="44.0982909" lon="10.8534557"/>
-      <nd lat="44.0982778" lon="10.8532860"/>
-      <nd lat="44.0982934" lon="10.8530512"/>
-      <nd lat="44.0983193" lon="10.8529212"/>
-      <nd lat="44.0983146" lon="10.8527903"/>
-      <nd lat="44.0983184" lon="10.8526859"/>
-      <nd lat="44.0983324" lon="10.8525106"/>
-      <nd lat="44.0983504" lon="10.8524119"/>
-      <nd lat="44.0983642" lon="10.8520752"/>
-    </member>
-    <member type="way" ref="315062841" role="">
-      <nd lat="44.0983642" lon="10.8520752"/>
-      <nd lat="44.0983556" lon="10.8518639"/>
-      <nd lat="44.0983900" lon="10.8516400"/>
-      <nd lat="44.0984676" lon="10.8514968"/>
-      <nd lat="44.0985162" lon="10.8514284"/>
-      <nd lat="44.0985800" lon="10.8513600"/>
-      <nd lat="44.0987089" lon="10.8513336"/>
-      <nd lat="44.0987444" lon="10.8513075"/>
-      <nd lat="44.0987908" lon="10.8512299"/>
-      <nd lat="44.0988004" lon="10.8510877"/>
-      <nd lat="44.0988652" lon="10.8509881"/>
-      <nd lat="44.0989413" lon="10.8508212"/>
-      <nd lat="44.0990100" lon="10.8507400"/>
-      <nd lat="44.0990397" lon="10.8506835"/>
-      <nd lat="44.0990897" lon="10.8505886"/>
-      <nd lat="44.0992560" lon="10.8500516"/>
-      <nd lat="44.0993827" lon="10.8497217"/>
-      <nd lat="44.0994543" lon="10.8495048"/>
-      <nd lat="44.0995491" lon="10.8493437"/>
-      <nd lat="44.0996063" lon="10.8492159"/>
-      <nd lat="44.0997668" lon="10.8489638"/>
-      <nd lat="44.0998811" lon="10.8487594"/>
-      <nd lat="44.0999329" lon="10.8486648"/>
-      <nd lat="44.1000404" lon="10.8485784"/>
-      <nd lat="44.1001900" lon="10.8484800"/>
-      <nd lat="44.1006780" lon="10.8483360"/>
-      <nd lat="44.1008841" lon="10.8483293"/>
-      <nd lat="44.1009844" lon="10.8483047"/>
-      <nd lat="44.1010848" lon="10.8482990"/>
-      <nd lat="44.1011824" lon="10.8482548"/>
-      <nd lat="44.1012837" lon="10.8481919"/>
-      <nd lat="44.1013925" lon="10.8482148"/>
-      <nd lat="44.1014887" lon="10.8482691"/>
-      <nd lat="44.1016040" lon="10.8482410"/>
-    </member>
-    <member type="way" ref="574954802" role="">
-      <nd lat="44.1022289" lon="10.8484423"/>
-      <nd lat="44.1022070" lon="10.8484360"/>
-      <nd lat="44.1021530" lon="10.8484330"/>
-      <nd lat="44.1020810" lon="10.8484570"/>
-      <nd lat="44.1019400" lon="10.8484880"/>
-      <nd lat="44.1017760" lon="10.8484760"/>
-      <nd lat="44.1016840" lon="10.8484270"/>
-      <nd lat="44.1016040" lon="10.8482410"/>
-    </member>
-    <member type="node" ref="8403349779" role="" lat="44.0998587" lon="10.8725493"/>
-    <tag k="cai_scale" v="E"/>
-    <tag k="from" v="Orsigna"/>
-    <tag k="mtb" v="yes"/>
-    <tag k="name" v="Orsigna - Fonte dell'Uccelliera"/>
-    <tag k="network" v="lwn"/>
-    <tag k="operator" v="CAI"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:5:black"/>
-    <tag k="ref" v="5"/>
-    <tag k="roundtrip" v="no"/>
-    <tag k="route" v="hiking"/>
-    <tag k="rwn:name" v="Rete Escursionistica Toscana (RET)"/>
-    <tag k="source" v="survey:CAI"/>
-    <tag k="source:ref" v="9226007"/>
-    <tag k="survey:date" v="2014-09-04"/>
-    <tag k="to" v="Fonte dell'Uccelliera"/>
-    <tag k="type" v="route"/>
-  </relation>
-</old>
-<new>
-  <relation id="357948" version="17" timestamp="2021-02-08T01:03:08Z" changeset="98870324" uid="5641976" user="MauroL">
-    <bounds minlat="44.0791387" minlon="10.8481919" maxlat="44.1022289" maxlon="10.8885126"/>
-    <member type="way" ref="69959804" role="">
-      <nd lat="44.0794785" lon="10.8856258"/>
-      <nd lat="44.0794872" lon="10.8856842"/>
-      <nd lat="44.0794700" lon="10.8857372"/>
-      <nd lat="44.0794517" lon="10.8857960"/>
-      <nd lat="44.0793670" lon="10.8860227"/>
-      <nd lat="44.0793371" lon="10.8860728"/>
-      <nd lat="44.0792382" lon="10.8861666"/>
-      <nd lat="44.0791424" lon="10.8863193"/>
-      <nd lat="44.0791387" lon="10.8863894"/>
-      <nd lat="44.0791759" lon="10.8864015"/>
-      <nd lat="44.0792145" lon="10.8863917"/>
-      <nd lat="44.0792543" lon="10.8863943"/>
-      <nd lat="44.0793025" lon="10.8863838"/>
-      <nd lat="44.0794009" lon="10.8863472"/>
-      <nd lat="44.0794420" lon="10.8863322"/>
-      <nd lat="44.0794785" lon="10.8863369"/>
-      <nd lat="44.0795161" lon="10.8863994"/>
-      <nd lat="44.0796031" lon="10.8864258"/>
-      <nd lat="44.0796817" lon="10.8864190"/>
-      <nd lat="44.0797243" lon="10.8863844"/>
-      <nd lat="44.0797668" lon="10.8862952"/>
-      <nd lat="44.0798169" lon="10.8862134"/>
-      <nd lat="44.0798366" lon="10.8862025"/>
-      <nd lat="44.0798741" lon="10.8862383"/>
-      <nd lat="44.0799145" lon="10.8863384"/>
-      <nd lat="44.0799404" lon="10.8864416"/>
-      <nd lat="44.0799123" lon="10.8866349"/>
-      <nd lat="44.0798688" lon="10.8867980"/>
-      <nd lat="44.0797839" lon="10.8869728"/>
-      <nd lat="44.0797669" lon="10.8871085"/>
-      <nd lat="44.0797615" lon="10.8872968"/>
-      <nd lat="44.0797747" lon="10.8873596"/>
-      <nd lat="44.0797985" lon="10.8873815"/>
-      <nd lat="44.0798320" lon="10.8873762"/>
-      <nd lat="44.0798686" lon="10.8873540"/>
-      <nd lat="44.0799015" lon="10.8873240"/>
-      <nd lat="44.0799306" lon="10.8873280"/>
-      <nd lat="44.0799524" lon="10.8873794"/>
-      <nd lat="44.0799868" lon="10.8874894"/>
-      <nd lat="44.0800272" lon="10.8875966"/>
-      <nd lat="44.0800721" lon="10.8876154"/>
-      <nd lat="44.0800939" lon="10.8875926"/>
-      <nd lat="44.0801099" lon="10.8875516"/>
-      <nd lat="44.0801493" lon="10.8874532"/>
-      <nd lat="44.0802061" lon="10.8874327"/>
-      <nd lat="44.0802797" lon="10.8874513"/>
-      <nd lat="44.0803513" lon="10.8874500"/>
-      <nd lat="44.0804284" lon="10.8873746"/>
-      <nd lat="44.0804942" lon="10.8873492"/>
-      <nd lat="44.0805875" lon="10.8873886"/>
-      <nd lat="44.0806500" lon="10.8873991"/>
-      <nd lat="44.0806969" lon="10.8873497"/>
-      <nd lat="44.0807463" lon="10.8872701"/>
-      <nd lat="44.0808136" lon="10.8872148"/>
-      <nd lat="44.0808722" lon="10.8872232"/>
-      <nd lat="44.0809578" lon="10.8873203"/>
-      <nd lat="44.0810401" lon="10.8875037"/>
-      <nd lat="44.0810823" lon="10.8875752"/>
-      <nd lat="44.0811396" lon="10.8875784"/>
-      <nd lat="44.0811775" lon="10.8875642"/>
-      <nd lat="44.0812004" lon="10.8875635"/>
-      <nd lat="44.0812375" lon="10.8875635"/>
-      <nd lat="44.0812782" lon="10.8875462"/>
-      <nd lat="44.0813272" lon="10.8875729"/>
-      <nd lat="44.0813863" lon="10.8876199"/>
-      <nd lat="44.0814276" lon="10.8876543"/>
-      <nd lat="44.0814773" lon="10.8876906"/>
-      <nd lat="44.0815507" lon="10.8877483"/>
-      <nd lat="44.0816061" lon="10.8877885"/>
-      <nd lat="44.0816500" lon="10.8877917"/>
-      <nd lat="44.0817210" lon="10.8878439"/>
-      <nd lat="44.0818025" lon="10.8877809"/>
-      <nd lat="44.0818682" lon="10.8877305"/>
-      <nd lat="44.0819157" lon="10.8877715"/>
-      <nd lat="44.0821919" lon="10.8877809"/>
-      <nd lat="44.0823119" lon="10.8877043"/>
-      <nd lat="44.0823661" lon="10.8877463"/>
-      <nd lat="44.0825145" lon="10.8877698"/>
-      <nd lat="44.0826186" lon="10.8877819"/>
-      <nd lat="44.0826409" lon="10.8876918"/>
-      <nd lat="44.0826717" lon="10.8875036"/>
-      <nd lat="44.0827894" lon="10.8873366"/>
-      <nd lat="44.0829263" lon="10.8871578"/>
-      <nd lat="44.0830599" lon="10.8870964"/>
-      <nd lat="44.0832019" lon="10.8870885"/>
-      <nd lat="44.0833683" lon="10.8871032"/>
-    </member>
-    <member type="way" ref="173567842" role="">
-      <nd lat="44.0833683" lon="10.8871032"/>
-      <nd lat="44.0834907" lon="10.8871911"/>
-      <nd lat="44.0835765" lon="10.8873175"/>
-      <nd lat="44.0837112" lon="10.8873508"/>
-      <nd lat="44.0838827" lon="10.8874380"/>
-      <nd lat="44.0839500" lon="10.8875545"/>
-      <nd lat="44.0841524" lon="10.8876026"/>
-      <nd lat="44.0842694" lon="10.8876286"/>
-      <nd lat="44.0844068" lon="10.8877373"/>
-      <nd lat="44.0844329" lon="10.8878573"/>
-      <nd lat="44.0844689" lon="10.8879914"/>
-      <nd lat="44.0846641" lon="10.8879113"/>
-      <nd lat="44.0848575" lon="10.8879792"/>
-      <nd lat="44.0849995" lon="10.8879752"/>
-      <nd lat="44.0850981" lon="10.8880393"/>
-      <nd lat="44.0852449" lon="10.8880356"/>
-      <nd lat="44.0854235" lon="10.8880275"/>
-      <nd lat="44.0855141" lon="10.8881165"/>
-      <nd lat="44.0857089" lon="10.8882909"/>
-      <nd lat="44.0859267" lon="10.8884417"/>
-      <nd lat="44.0860135" lon="10.8885126"/>
-    </member>
-    <member type="way" ref="69959813" role="">
-      <nd lat="44.0860135" lon="10.8885126"/>
-      <nd lat="44.0860923" lon="10.8884029"/>
-      <nd lat="44.0861369" lon="10.8882328"/>
-      <nd lat="44.0861605" lon="10.8881218"/>
-      <nd lat="44.0862202" lon="10.8879782"/>
-      <nd lat="44.0862872" lon="10.8878723"/>
-      <nd lat="44.0863633" lon="10.8878320"/>
-      <nd lat="44.0864230" lon="10.8878017"/>
-      <nd lat="44.0865462" lon="10.8877059"/>
-      <nd lat="44.0866423" lon="10.8875783"/>
-      <nd lat="44.0866487" lon="10.8874636"/>
-      <nd lat="44.0866918" lon="10.8872639"/>
-      <nd lat="44.0867500" lon="10.8871279"/>
-      <nd lat="44.0867981" lon="10.8870334"/>
-      <nd lat="44.0869820" lon="10.8868758"/>
-      <nd lat="44.0871574" lon="10.8866986"/>
-      <nd lat="44.0872096" lon="10.8866313"/>
-      <nd lat="44.0872338" lon="10.8866001"/>
-      <nd lat="44.0872758" lon="10.8865614"/>
-      <nd lat="44.0873186" lon="10.8865017"/>
-      <nd lat="44.0873712" lon="10.8862327"/>
-    </member>
-    <member type="way" ref="130576876" role="">
-      <nd lat="44.0873712" lon="10.8862327"/>
-      <nd lat="44.0874310" lon="10.8860937"/>
-      <nd lat="44.0875110" lon="10.8859660"/>
-      <nd lat="44.0877055" lon="10.8859130"/>
-      <nd lat="44.0877190" lon="10.8858262"/>
-      <nd lat="44.0876887" lon="10.8857328"/>
-      <nd lat="44.0877231" lon="10.8856225"/>
-      <nd lat="44.0877919" lon="10.8854245"/>
-      <nd lat="44.0878366" lon="10.8852483"/>
-      <nd lat="44.0878506" lon="10.8848435"/>
-      <nd lat="44.0878747" lon="10.8846426"/>
-      <nd lat="44.0878861" lon="10.8844833"/>
-      <nd lat="44.0879680" lon="10.8843808"/>
-      <nd lat="44.0881616" lon="10.8844415"/>
-      <nd lat="44.0882522" lon="10.8843271"/>
-      <nd lat="44.0883894" lon="10.8841068"/>
-      <nd lat="44.0885132" lon="10.8839198"/>
-      <nd lat="44.0885869" lon="10.8836607"/>
-      <nd lat="44.0886257" lon="10.8834689"/>
-      <nd lat="44.0886709" lon="10.8832601"/>
-      <nd lat="44.0887671" lon="10.8832050"/>
-      <nd lat="44.0888378" lon="10.8831183"/>
-      <nd lat="44.0888350" lon="10.8828820"/>
-      <nd lat="44.0887926" lon="10.8827323"/>
-      <nd lat="44.0887926" lon="10.8825787"/>
-      <nd lat="44.0887813" lon="10.8824054"/>
-      <nd lat="44.0888520" lon="10.8821809"/>
-      <nd lat="44.0889253" lon="10.8820938"/>
-      <nd lat="44.0889454" lon="10.8819919"/>
-      <nd lat="44.0889190" lon="10.8819087"/>
-      <nd lat="44.0889226" lon="10.8818146"/>
-      <nd lat="44.0887962" lon="10.8814871"/>
-      <nd lat="44.0887256" lon="10.8812952"/>
-      <nd lat="44.0886927" lon="10.8811294"/>
-      <nd lat="44.0886584" lon="10.8809712"/>
-      <nd lat="44.0886734" lon="10.8808254"/>
-      <nd lat="44.0887527" lon="10.8806816"/>
-      <nd lat="44.0889752" lon="10.8807044"/>
-      <nd lat="44.0892570" lon="10.8809158"/>
-      <nd lat="44.0894815" lon="10.8811626"/>
-      <nd lat="44.0897120" lon="10.8813223"/>
-      <nd lat="44.0900571" lon="10.8814759"/>
-      <nd lat="44.0903174" lon="10.8816492"/>
-      <nd lat="44.0904621" lon="10.8817368"/>
-      <nd lat="44.0905437" lon="10.8817879"/>
-      <nd lat="44.0906053" lon="10.8817012"/>
-      <nd lat="44.0906414" lon="10.8816073"/>
-      <nd lat="44.0906682" lon="10.8814056"/>
-      <nd lat="44.0907409" lon="10.8812637"/>
-      <nd lat="44.0909001" lon="10.8811849"/>
-      <nd lat="44.0910225" lon="10.8810899"/>
-      <nd lat="44.0910859" lon="10.8810899"/>
-      <nd lat="44.0911308" lon="10.8810487"/>
-      <nd lat="44.0911608" lon="10.8809437"/>
-      <nd lat="44.0912323" lon="10.8807974"/>
-      <nd lat="44.0914458" lon="10.8807774"/>
-      <nd lat="44.0915074" lon="10.8807006"/>
-      <nd lat="44.0916133" lon="10.8806581"/>
-      <nd lat="44.0916915" lon="10.8806624"/>
-      <nd lat="44.0917576" lon="10.8806804"/>
-      <nd lat="44.0918113" lon="10.8806464"/>
-      <nd lat="44.0918660" lon="10.8805940"/>
-      <nd lat="44.0919698" lon="10.8805740"/>
-      <nd lat="44.0920335" lon="10.8805804"/>
-      <nd lat="44.0921483" lon="10.8805900"/>
-      <nd lat="44.0923104" lon="10.8805846"/>
-      <nd lat="44.0924790" lon="10.8805268"/>
-      <nd lat="44.0926369" lon="10.8804311"/>
-      <nd lat="44.0926899" lon="10.8804095"/>
-      <nd lat="44.0927095" lon="10.8803750"/>
-      <nd lat="44.0926636" lon="10.8802854"/>
-      <nd lat="44.0926594" lon="10.8802050"/>
-      <nd lat="44.0926778" lon="10.8800872"/>
-      <nd lat="44.0927275" lon="10.8799258"/>
-      <nd lat="44.0927829" lon="10.8798523"/>
-      <nd lat="44.0928977" lon="10.8798175"/>
-      <nd lat="44.0929553" lon="10.8797762"/>
-      <nd lat="44.0929410" lon="10.8796011"/>
-      <nd lat="44.0929771" lon="10.8794750"/>
-      <nd lat="44.0930621" lon="10.8793698"/>
-      <nd lat="44.0931136" lon="10.8793343"/>
-      <nd lat="44.0931989" lon="10.8793075"/>
-      <nd lat="44.0932639" lon="10.8793100"/>
-      <nd lat="44.0933296" lon="10.8791852"/>
-      <nd lat="44.0934182" lon="10.8791306"/>
-      <nd lat="44.0934967" lon="10.8790301"/>
-      <nd lat="44.0934483" lon="10.8789182"/>
-      <nd lat="44.0934412" lon="10.8787271"/>
-      <nd lat="44.0934579" lon="10.8785372"/>
-      <nd lat="44.0935511" lon="10.8782959"/>
-      <nd lat="44.0937474" lon="10.8779140"/>
-      <nd lat="44.0937988" lon="10.8778057"/>
-      <nd lat="44.0938901" lon="10.8775707"/>
-      <nd lat="44.0940673" lon="10.8773813"/>
-      <nd lat="44.0941471" lon="10.8773050"/>
-      <nd lat="44.0943532" lon="10.8771554"/>
-      <nd lat="44.0945628" lon="10.8770289"/>
-      <nd lat="44.0946192" lon="10.8769568"/>
-      <nd lat="44.0946525" lon="10.8768270"/>
-      <nd lat="44.0945918" lon="10.8767798"/>
-    </member>
-    <member type="way" ref="574954804" role="">
-      <nd lat="44.0945918" lon="10.8767798"/>
-      <nd lat="44.0945859" lon="10.8766738"/>
-      <nd lat="44.0946340" lon="10.8766134"/>
-      <nd lat="44.0946897" lon="10.8765581"/>
-      <nd lat="44.0947849" lon="10.8764987"/>
-      <nd lat="44.0948831" lon="10.8764111"/>
-      <nd lat="44.0949985" lon="10.8762538"/>
-      <nd lat="44.0951170" lon="10.8761506"/>
-      <nd lat="44.0952840" lon="10.8760489"/>
-      <nd lat="44.0953903" lon="10.8760471"/>
-      <nd lat="44.0955403" lon="10.8759832"/>
-      <nd lat="44.0956324" lon="10.8758459"/>
-      <nd lat="44.0957058" lon="10.8758173"/>
-      <nd lat="44.0957358" lon="10.8758597"/>
-      <nd lat="44.0958318" lon="10.8759840"/>
-      <nd lat="44.0958874" lon="10.8761732"/>
-      <nd lat="44.0959086" lon="10.8762586"/>
-      <nd lat="44.0959378" lon="10.8763804"/>
-      <nd lat="44.0959121" lon="10.8764352"/>
-      <nd lat="44.0958317" lon="10.8765296"/>
-      <nd lat="44.0958364" lon="10.8766679"/>
-      <nd lat="44.0958941" lon="10.8766865"/>
-      <nd lat="44.0959601" lon="10.8766370"/>
-      <nd lat="44.0959981" lon="10.8766400"/>
-      <nd lat="44.0960102" lon="10.8767720"/>
-      <nd lat="44.0959641" lon="10.8770266"/>
-      <nd lat="44.0959168" lon="10.8771365"/>
-      <nd lat="44.0958917" lon="10.8773186"/>
-      <nd lat="44.0959143" lon="10.8774601"/>
-      <nd lat="44.0959554" lon="10.8775759"/>
-      <nd lat="44.0959434" lon="10.8777456"/>
-      <nd lat="44.0959609" lon="10.8778912"/>
-      <nd lat="44.0959870" lon="10.8780127"/>
-      <nd lat="44.0960724" lon="10.8780671"/>
-      <nd lat="44.0961552" lon="10.8779822"/>
-      <nd lat="44.0962607" lon="10.8778411"/>
-      <nd lat="44.0963662" lon="10.8777671"/>
-      <nd lat="44.0964982" lon="10.8777064"/>
-      <nd lat="44.0966234" lon="10.8776863"/>
-      <nd lat="44.0967005" lon="10.8776250"/>
-      <nd lat="44.0968505" lon="10.8774802"/>
-      <nd lat="44.0970414" lon="10.8772821"/>
-      <nd lat="44.0972548" lon="10.8771214"/>
-      <nd lat="44.0973326" lon="10.8771356"/>
-      <nd lat="44.0973724" lon="10.8771723"/>
-      <nd lat="44.0974122" lon="10.8771782"/>
-      <nd lat="44.0974792" lon="10.8771112"/>
-      <nd lat="44.0975582" lon="10.8769906"/>
-      <nd lat="44.0976986" lon="10.8769283"/>
-      <nd lat="44.0979012" lon="10.8769043"/>
-      <nd lat="44.0980004" lon="10.8769102"/>
-      <nd lat="44.0980810" lon="10.8768491"/>
-      <nd lat="44.0981751" lon="10.8767714"/>
-      <nd lat="44.0982257" lon="10.8765867"/>
-      <nd lat="44.0983860" lon="10.8764886"/>
-      <nd lat="44.0985585" lon="10.8763709"/>
-      <nd lat="44.0986565" lon="10.8761964"/>
-      <nd lat="44.0986947" lon="10.8760941"/>
-      <nd lat="44.0987023" lon="10.8759718"/>
-      <nd lat="44.0986995" lon="10.8758035"/>
-      <nd lat="44.0986960" lon="10.8757430"/>
-      <nd lat="44.0987561" lon="10.8756200"/>
-      <nd lat="44.0987495" lon="10.8754875"/>
-      <nd lat="44.0987631" lon="10.8751356"/>
-      <nd lat="44.0988069" lon="10.8749751"/>
-      <nd lat="44.0988938" lon="10.8744545"/>
-      <nd lat="44.0990112" lon="10.8741840"/>
-      <nd lat="44.0991749" lon="10.8738309"/>
-      <nd lat="44.0993931" lon="10.8737396"/>
-      <nd lat="44.0994672" lon="10.8735981"/>
-      <nd lat="44.0995248" lon="10.8734578"/>
-      <nd lat="44.0995598" lon="10.8733137"/>
-      <nd lat="44.0996175" lon="10.8731145"/>
-      <nd lat="44.0996778" lon="10.8729648"/>
-      <nd lat="44.0997523" lon="10.8727677"/>
-      <nd lat="44.0998386" lon="10.8725559"/>
-    </member>
-    <member type="way" ref="70989028" role="">
-      <nd lat="44.0998386" lon="10.8725559"/>
-      <nd lat="44.0997645" lon="10.8721574"/>
-      <nd lat="44.0998080" lon="10.8719214"/>
-      <nd lat="44.0998347" lon="10.8717616"/>
-      <nd lat="44.0999301" lon="10.8712100"/>
-      <nd lat="44.0999101" lon="10.8707100"/>
-      <nd lat="44.0997751" lon="10.8703201"/>
-      <nd lat="44.0997301" lon="10.8698600"/>
-      <nd lat="44.0997371" lon="10.8685195"/>
-      <nd lat="44.0997488" lon="10.8682023"/>
-      <nd lat="44.0998001" lon="10.8678400"/>
-      <nd lat="44.1000225" lon="10.8669650"/>
-      <nd lat="44.1000601" lon="10.8663800"/>
-      <nd lat="44.1001675" lon="10.8653056"/>
-      <nd lat="44.1001801" lon="10.8651800"/>
-      <nd lat="44.0999501" lon="10.8645800"/>
-      <nd lat="44.0998150" lon="10.8637703"/>
-      <nd lat="44.0996474" lon="10.8629355"/>
-      <nd lat="44.0995932" lon="10.8624340"/>
-      <nd lat="44.0995010" lon="10.8621106"/>
-      <nd lat="44.0994645" lon="10.8615718"/>
-      <nd lat="44.0993359" lon="10.8613352"/>
-      <nd lat="44.0991733" lon="10.8612553"/>
-      <nd lat="44.0989170" lon="10.8611677"/>
-      <nd lat="44.0985992" lon="10.8610725"/>
-      <nd lat="44.0983440" lon="10.8609259"/>
-      <nd lat="44.0981865" lon="10.8608965"/>
-      <nd lat="44.0981291" lon="10.8608594"/>
-      <nd lat="44.0981019" lon="10.8608028"/>
-      <nd lat="44.0980893" lon="10.8606444"/>
-      <nd lat="44.0981231" lon="10.8604953"/>
-      <nd lat="44.0981473" lon="10.8603009"/>
-      <nd lat="44.0981937" lon="10.8600385"/>
-      <nd lat="44.0982840" lon="10.8595138"/>
-      <nd lat="44.0983671" lon="10.8590243"/>
-      <nd lat="44.0984423" lon="10.8583884"/>
-      <nd lat="44.0985919" lon="10.8578917"/>
-      <nd lat="44.0986801" lon="10.8574500"/>
-      <nd lat="44.0987616" lon="10.8572822"/>
-      <nd lat="44.0988850" lon="10.8571176"/>
-      <nd lat="44.0989541" lon="10.8569304"/>
-      <nd lat="44.0989425" lon="10.8567697"/>
-      <nd lat="44.0989100" lon="10.8565945"/>
-      <nd lat="44.0988631" lon="10.8565418"/>
-      <nd lat="44.0985735" lon="10.8564511"/>
-      <nd lat="44.0984326" lon="10.8563375"/>
-      <nd lat="44.0982805" lon="10.8562065"/>
-      <nd lat="44.0980946" lon="10.8560770"/>
-      <nd lat="44.0980082" lon="10.8560332"/>
-      <nd lat="44.0979352" lon="10.8559376"/>
-    </member>
-    <member type="way" ref="574964794" role="">
-      <nd lat="44.0979352" lon="10.8559376"/>
-      <nd lat="44.0978807" lon="10.8558588"/>
-      <nd lat="44.0978637" lon="10.8557056"/>
-      <nd lat="44.0979050" lon="10.8555230"/>
-      <nd lat="44.0979420" lon="10.8554130"/>
-      <nd lat="44.0980184" lon="10.8553264"/>
-      <nd lat="44.0980518" lon="10.8551947"/>
-      <nd lat="44.0981272" lon="10.8550249"/>
-      <nd lat="44.0981425" lon="10.8549427"/>
-      <nd lat="44.0981882" lon="10.8547753"/>
-      <nd lat="44.0982778" lon="10.8544947"/>
-      <nd lat="44.0983419" lon="10.8541880"/>
-      <nd lat="44.0983850" lon="10.8540320"/>
-    </member>
-    <member type="way" ref="315062842" role="">
-      <nd lat="44.0983850" lon="10.8540320"/>
-      <nd lat="44.0983945" lon="10.8538855"/>
-      <nd lat="44.0983790" lon="10.8537663"/>
-      <nd lat="44.0983323" lon="10.8536002"/>
-      <nd lat="44.0982909" lon="10.8534557"/>
-      <nd lat="44.0982778" lon="10.8532860"/>
-      <nd lat="44.0982934" lon="10.8530512"/>
-      <nd lat="44.0983193" lon="10.8529212"/>
-      <nd lat="44.0983146" lon="10.8527903"/>
-      <nd lat="44.0983184" lon="10.8526859"/>
-      <nd lat="44.0983324" lon="10.8525106"/>
-      <nd lat="44.0983504" lon="10.8524119"/>
-      <nd lat="44.0983642" lon="10.8520752"/>
-    </member>
-    <member type="way" ref="315062841" role="">
-      <nd lat="44.0983642" lon="10.8520752"/>
-      <nd lat="44.0983556" lon="10.8518639"/>
-      <nd lat="44.0983900" lon="10.8516400"/>
-      <nd lat="44.0984676" lon="10.8514968"/>
-      <nd lat="44.0985162" lon="10.8514284"/>
-      <nd lat="44.0985800" lon="10.8513600"/>
-      <nd lat="44.0987089" lon="10.8513336"/>
-      <nd lat="44.0987444" lon="10.8513075"/>
-      <nd lat="44.0987908" lon="10.8512299"/>
-      <nd lat="44.0988004" lon="10.8510877"/>
-      <nd lat="44.0988652" lon="10.8509881"/>
-      <nd lat="44.0989413" lon="10.8508212"/>
-      <nd lat="44.0990100" lon="10.8507400"/>
-      <nd lat="44.0990397" lon="10.8506835"/>
-      <nd lat="44.0990897" lon="10.8505886"/>
-      <nd lat="44.0992560" lon="10.8500516"/>
-      <nd lat="44.0993827" lon="10.8497217"/>
-      <nd lat="44.0994543" lon="10.8495048"/>
-      <nd lat="44.0995491" lon="10.8493437"/>
-      <nd lat="44.0996063" lon="10.8492159"/>
-      <nd lat="44.0997668" lon="10.8489638"/>
-      <nd lat="44.0998811" lon="10.8487594"/>
-      <nd lat="44.0999329" lon="10.8486648"/>
-      <nd lat="44.1000404" lon="10.8485784"/>
-      <nd lat="44.1001900" lon="10.8484800"/>
-      <nd lat="44.1006780" lon="10.8483360"/>
-      <nd lat="44.1008841" lon="10.8483293"/>
-      <nd lat="44.1009844" lon="10.8483047"/>
-      <nd lat="44.1010848" lon="10.8482990"/>
-      <nd lat="44.1011824" lon="10.8482548"/>
-      <nd lat="44.1012837" lon="10.8481919"/>
-      <nd lat="44.1013925" lon="10.8482148"/>
-      <nd lat="44.1014887" lon="10.8482691"/>
-      <nd lat="44.1016040" lon="10.8482410"/>
-    </member>
-    <member type="way" ref="574954802" role="">
-      <nd lat="44.1022289" lon="10.8484423"/>
-      <nd lat="44.1022070" lon="10.8484360"/>
-      <nd lat="44.1021530" lon="10.8484330"/>
-      <nd lat="44.1020810" lon="10.8484570"/>
-      <nd lat="44.1019400" lon="10.8484880"/>
-      <nd lat="44.1017760" lon="10.8484760"/>
-      <nd lat="44.1016840" lon="10.8484270"/>
-      <nd lat="44.1016040" lon="10.8482410"/>
-    </member>
-    <member type="node" ref="8403349779" role="" lat="44.0998587" lon="10.8725493"/>
-    <tag k="cai_scale" v="E"/>
-    <tag k="from" v="Orsigna"/>
-    <tag k="mtb" v="yes"/>
-    <tag k="name" v="Orsigna - Fonte dell'Uccelliera"/>
-    <tag k="network" v="lwn"/>
-    <tag k="operator" v="CAI"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:5:black"/>
-    <tag k="ref" v="5"/>
-    <tag k="roundtrip" v="no"/>
-    <tag k="route" v="hiking"/>
-    <tag k="rwn:name" v="Rete Escursionistica Toscana (RET)"/>
-    <tag k="source" v="survey:CAI"/>
-    <tag k="source:ref" v="9226007"/>
-    <tag k="survey:date" v="2014-09-04"/>
-    <tag k="to" v="Fonte dell'Uccelliera"/>
-    <tag k="type" v="route"/>
-  </relation>
-</new>
 </action>
 <action type="modify">
 <old>
@@ -5632,6 +4849,849 @@
     <tag k="symbol" v="741 on white red flags"/>
     <tag k="symbol:it" v="741 su bandierina bianca e rossa"/>
     <tag k="to" v="Monte Borgognone"/>
+    <tag k="type" v="route"/>
+    <tag k="website" v="www.caiparma.it"/>
+  </relation>
+</new>
+</action>
+<action type="modify">
+<old>
+  <relation id="10057659" version="2" timestamp="2020-03-28T18:23:46Z" changeset="82760876" uid="169252" user="capataz">
+    <bounds minlat="44.6366652" minlon="9.7174185" maxlat="44.6730266" maxlon="9.7348615"/>
+    <member type="way" ref="54239530" role="">
+      <nd lat="44.6366681" lon="9.7333773"/>
+      <nd lat="44.6366652" lon="9.7335156"/>
+      <nd lat="44.6366783" lon="9.7335651"/>
+      <nd lat="44.6367075" lon="9.7335833"/>
+      <nd lat="44.6367649" lon="9.7335738"/>
+      <nd lat="44.6368425" lon="9.7335217"/>
+      <nd lat="44.6369240" lon="9.7334631"/>
+      <nd lat="44.6369642" lon="9.7334335"/>
+      <nd lat="44.6369990" lon="9.7334301"/>
+      <nd lat="44.6370258" lon="9.7334466"/>
+      <nd lat="44.6370387" lon="9.7334906"/>
+      <nd lat="44.6370346" lon="9.7335385"/>
+      <nd lat="44.6369898" lon="9.7336567"/>
+      <nd lat="44.6368657" lon="9.7339181"/>
+      <nd lat="44.6368504" lon="9.7339848"/>
+      <nd lat="44.6368445" lon="9.7340538"/>
+    </member>
+    <member type="way" ref="54239529" role="">
+      <nd lat="44.6366681" lon="9.7333773"/>
+      <nd lat="44.6367865" lon="9.7333688"/>
+      <nd lat="44.6369007" lon="9.7332924"/>
+      <nd lat="44.6369547" lon="9.7332516"/>
+      <nd lat="44.6370086" lon="9.7332371"/>
+      <nd lat="44.6370740" lon="9.7332576"/>
+      <nd lat="44.6371276" lon="9.7333280"/>
+      <nd lat="44.6371541" lon="9.7334385"/>
+      <nd lat="44.6371567" lon="9.7335685"/>
+      <nd lat="44.6371623" lon="9.7336810"/>
+      <nd lat="44.6371867" lon="9.7337580"/>
+      <nd lat="44.6372299" lon="9.7338261"/>
+      <nd lat="44.6372882" lon="9.7338793"/>
+      <nd lat="44.6373820" lon="9.7339096"/>
+      <nd lat="44.6375644" lon="9.7339276"/>
+      <nd lat="44.6378228" lon="9.7339574"/>
+      <nd lat="44.6379347" lon="9.7339961"/>
+      <nd lat="44.6380193" lon="9.7340546"/>
+      <nd lat="44.6381126" lon="9.7341564"/>
+      <nd lat="44.6381784" lon="9.7342365"/>
+      <nd lat="44.6382471" lon="9.7342942"/>
+      <nd lat="44.6383061" lon="9.7343266"/>
+      <nd lat="44.6383730" lon="9.7343325"/>
+      <nd lat="44.6384624" lon="9.7342996"/>
+      <nd lat="44.6385446" lon="9.7342487"/>
+      <nd lat="44.6386527" lon="9.7341647"/>
+      <nd lat="44.6388080" lon="9.7340090"/>
+      <nd lat="44.6389047" lon="9.7338912"/>
+      <nd lat="44.6389416" lon="9.7338412"/>
+      <nd lat="44.6389585" lon="9.7338031"/>
+    </member>
+    <member type="way" ref="54239531" role="">
+      <nd lat="44.6389585" lon="9.7338031"/>
+      <nd lat="44.6390661" lon="9.7337802"/>
+      <nd lat="44.6391476" lon="9.7337750"/>
+      <nd lat="44.6392220" lon="9.7337796"/>
+      <nd lat="44.6392776" lon="9.7337826"/>
+      <nd lat="44.6393039" lon="9.7337911"/>
+      <nd lat="44.6393303" lon="9.7338194"/>
+      <nd lat="44.6393847" lon="9.7338839"/>
+      <nd lat="44.6394692" lon="9.7339757"/>
+      <nd lat="44.6395088" lon="9.7340060"/>
+      <nd lat="44.6395241" lon="9.7340312"/>
+      <nd lat="44.6395648" lon="9.7341018"/>
+      <nd lat="44.6396034" lon="9.7341571"/>
+      <nd lat="44.6396651" lon="9.7341968"/>
+      <nd lat="44.6397878" lon="9.7342750"/>
+      <nd lat="44.6398388" lon="9.7343153"/>
+      <nd lat="44.6398641" lon="9.7343347"/>
+      <nd lat="44.6399055" lon="9.7343472"/>
+      <nd lat="44.6399310" lon="9.7343748"/>
+      <nd lat="44.6399904" lon="9.7344722"/>
+      <nd lat="44.6400250" lon="9.7345093"/>
+      <nd lat="44.6401136" lon="9.7345893"/>
+      <nd lat="44.6402701" lon="9.7347073"/>
+      <nd lat="44.6404068" lon="9.7348140"/>
+      <nd lat="44.6404795" lon="9.7348467"/>
+      <nd lat="44.6405733" lon="9.7348615"/>
+      <nd lat="44.6406603" lon="9.7348585"/>
+      <nd lat="44.6407893" lon="9.7348360"/>
+      <nd lat="44.6408934" lon="9.7348003"/>
+      <nd lat="44.6409798" lon="9.7347549"/>
+      <nd lat="44.6411135" lon="9.7346725"/>
+      <nd lat="44.6412994" lon="9.7345467"/>
+      <nd lat="44.6415270" lon="9.7344097"/>
+      <nd lat="44.6416460" lon="9.7343093"/>
+      <nd lat="44.6417234" lon="9.7342219"/>
+      <nd lat="44.6417848" lon="9.7341698"/>
+      <nd lat="44.6418489" lon="9.7341418"/>
+      <nd lat="44.6419122" lon="9.7341327"/>
+      <nd lat="44.6419608" lon="9.7341073"/>
+      <nd lat="44.6419872" lon="9.7340771"/>
+      <nd lat="44.6420298" lon="9.7339577"/>
+      <nd lat="44.6420556" lon="9.7338129"/>
+      <nd lat="44.6420697" lon="9.7337819"/>
+      <nd lat="44.6421051" lon="9.7337630"/>
+      <nd lat="44.6421480" lon="9.7337712"/>
+      <nd lat="44.6421926" lon="9.7338119"/>
+      <nd lat="44.6422436" lon="9.7338476"/>
+      <nd lat="44.6422878" lon="9.7338675"/>
+      <nd lat="44.6423401" lon="9.7338673"/>
+      <nd lat="44.6424092" lon="9.7338512"/>
+      <nd lat="44.6424596" lon="9.7338523"/>
+      <nd lat="44.6425124" lon="9.7338720"/>
+      <nd lat="44.6426339" lon="9.7339568"/>
+      <nd lat="44.6426773" lon="9.7339855"/>
+      <nd lat="44.6427320" lon="9.7339992"/>
+      <nd lat="44.6428211" lon="9.7339957"/>
+      <nd lat="44.6429914" lon="9.7339781"/>
+      <nd lat="44.6432094" lon="9.7339312"/>
+      <nd lat="44.6434358" lon="9.7338746"/>
+      <nd lat="44.6435226" lon="9.7338337"/>
+      <nd lat="44.6435905" lon="9.7337837"/>
+      <nd lat="44.6436606" lon="9.7336984"/>
+      <nd lat="44.6436770" lon="9.7337006"/>
+      <nd lat="44.6437062" lon="9.7337198"/>
+      <nd lat="44.6437566" lon="9.7337627"/>
+      <nd lat="44.6438417" lon="9.7338381"/>
+      <nd lat="44.6439069" lon="9.7338783"/>
+      <nd lat="44.6440409" lon="9.7339330"/>
+      <nd lat="44.6441212" lon="9.7339675"/>
+      <nd lat="44.6441441" lon="9.7339725"/>
+      <nd lat="44.6441665" lon="9.7339702"/>
+      <nd lat="44.6444741" lon="9.7338684"/>
+      <nd lat="44.6446268" lon="9.7337401"/>
+      <nd lat="44.6447730" lon="9.7335613"/>
+      <nd lat="44.6449233" lon="9.7333632"/>
+      <nd lat="44.6450135" lon="9.7333016"/>
+      <nd lat="44.6451149" lon="9.7332701"/>
+      <nd lat="44.6451900" lon="9.7332321"/>
+      <nd lat="44.6452549" lon="9.7331892"/>
+    </member>
+    <member type="way" ref="54239532" role="">
+      <nd lat="44.6452549" lon="9.7331892"/>
+      <nd lat="44.6453964" lon="9.7331689"/>
+      <nd lat="44.6456135" lon="9.7332242"/>
+      <nd lat="44.6457699" lon="9.7333334"/>
+      <nd lat="44.6458099" lon="9.7332995"/>
+      <nd lat="44.6458813" lon="9.7331154"/>
+      <nd lat="44.6460718" lon="9.7329816"/>
+      <nd lat="44.6462564" lon="9.7328226"/>
+      <nd lat="44.6464409" lon="9.7326050"/>
+      <nd lat="44.6465166" lon="9.7325707"/>
+      <nd lat="44.6465957" lon="9.7325716"/>
+      <nd lat="44.6466501" lon="9.7327007"/>
+      <nd lat="44.6469767" lon="9.7328761"/>
+      <nd lat="44.6473392" lon="9.7329431"/>
+      <nd lat="44.6475243" lon="9.7329481"/>
+      <nd lat="44.6476530" lon="9.7329426"/>
+      <nd lat="44.6477744" lon="9.7328644"/>
+      <nd lat="44.6479589" lon="9.7325967"/>
+      <nd lat="44.6480422" lon="9.7323959"/>
+      <nd lat="44.6480813" lon="9.7320055"/>
+      <nd lat="44.6482663" lon="9.7315143"/>
+      <nd lat="44.6484483" lon="9.7312142"/>
+    </member>
+    <member type="way" ref="132622888" role="">
+      <nd lat="44.6484483" lon="9.7312142"/>
+      <nd lat="44.6485269" lon="9.7310507"/>
+      <nd lat="44.6485881" lon="9.7309831"/>
+      <nd lat="44.6486651" lon="9.7309572"/>
+      <nd lat="44.6487151" lon="9.7309622"/>
+      <nd lat="44.6489060" lon="9.7310824"/>
+      <nd lat="44.6493100" lon="9.7312891"/>
+      <nd lat="44.6494626" lon="9.7313439"/>
+      <nd lat="44.6495753" lon="9.7313383"/>
+      <nd lat="44.6496571" lon="9.7312792"/>
+      <nd lat="44.6500955" lon="9.7308890"/>
+      <nd lat="44.6502153" lon="9.7308069"/>
+      <nd lat="44.6504000" lon="9.7307166"/>
+      <nd lat="44.6505842" lon="9.7306456"/>
+      <nd lat="44.6506718" lon="9.7305954"/>
+      <nd lat="44.6507401" lon="9.7305306"/>
+      <nd lat="44.6510891" lon="9.7299541"/>
+      <nd lat="44.6511405" lon="9.7298884"/>
+      <nd lat="44.6512095" lon="9.7298197"/>
+      <nd lat="44.6514897" lon="9.7296343"/>
+      <nd lat="44.6515858" lon="9.7295530"/>
+      <nd lat="44.6516480" lon="9.7294860"/>
+      <nd lat="44.6518105" lon="9.7292440"/>
+      <nd lat="44.6520709" lon="9.7288307"/>
+      <nd lat="44.6521228" lon="9.7287444"/>
+      <nd lat="44.6521904" lon="9.7285961"/>
+      <nd lat="44.6522135" lon="9.7285150"/>
+      <nd lat="44.6522308" lon="9.7284180"/>
+      <nd lat="44.6522432" lon="9.7280883"/>
+      <nd lat="44.6522521" lon="9.7279648"/>
+      <nd lat="44.6522884" lon="9.7278065"/>
+      <nd lat="44.6523536" lon="9.7276483"/>
+      <nd lat="44.6524360" lon="9.7275231"/>
+      <nd lat="44.6525603" lon="9.7273939"/>
+      <nd lat="44.6528395" lon="9.7271412"/>
+      <nd lat="44.6532712" lon="9.7267181"/>
+    </member>
+    <member type="way" ref="144729113" role="">
+      <nd lat="44.6532712" lon="9.7267181"/>
+      <nd lat="44.6537210" lon="9.7262412"/>
+      <nd lat="44.6541636" lon="9.7258058"/>
+      <nd lat="44.6542020" lon="9.7257440"/>
+      <nd lat="44.6543067" lon="9.7255087"/>
+      <nd lat="44.6543423" lon="9.7254121"/>
+      <nd lat="44.6544806" lon="9.7250360"/>
+      <nd lat="44.6546331" lon="9.7246768"/>
+      <nd lat="44.6546844" lon="9.7245825"/>
+      <nd lat="44.6547246" lon="9.7245157"/>
+      <nd lat="44.6548416" lon="9.7243628"/>
+      <nd lat="44.6549006" lon="9.7242977"/>
+      <nd lat="44.6552743" lon="9.7239717"/>
+      <nd lat="44.6553411" lon="9.7239306"/>
+      <nd lat="44.6553972" lon="9.7239132"/>
+      <nd lat="44.6554502" lon="9.7239068"/>
+      <nd lat="44.6555057" lon="9.7239200"/>
+      <nd lat="44.6555661" lon="9.7239642"/>
+      <nd lat="44.6557232" lon="9.7241131"/>
+      <nd lat="44.6558344" lon="9.7242091"/>
+      <nd lat="44.6559055" lon="9.7242440"/>
+      <nd lat="44.6559510" lon="9.7242484"/>
+      <nd lat="44.6560046" lon="9.7242320"/>
+      <nd lat="44.6560757" lon="9.7242042"/>
+      <nd lat="44.6561368" lon="9.7241648"/>
+      <nd lat="44.6561934" lon="9.7241190"/>
+      <nd lat="44.6563636" lon="9.7239502"/>
+      <nd lat="44.6564744" lon="9.7238257"/>
+      <nd lat="44.6565407" lon="9.7237481"/>
+      <nd lat="44.6566131" lon="9.7237011"/>
+      <nd lat="44.6567178" lon="9.7236588"/>
+      <nd lat="44.6569580" lon="9.7235545"/>
+      <nd lat="44.6570192" lon="9.7235082"/>
+      <nd lat="44.6570859" lon="9.7234411"/>
+      <nd lat="44.6571827" lon="9.7232875"/>
+      <nd lat="44.6572448" lon="9.7232089"/>
+      <nd lat="44.6574290" lon="9.7230192"/>
+      <nd lat="44.6574907" lon="9.7229523"/>
+      <nd lat="44.6575317" lon="9.7229244"/>
+      <nd lat="44.6576336" lon="9.7229000"/>
+      <nd lat="44.6578190" lon="9.7229029"/>
+      <nd lat="44.6579966" lon="9.7229361"/>
+      <nd lat="44.6580693" lon="9.7229663"/>
+      <nd lat="44.6582729" lon="9.7230885"/>
+      <nd lat="44.6583355" lon="9.7230957"/>
+      <nd lat="44.6584604" lon="9.7230954"/>
+      <nd lat="44.6585275" lon="9.7231024"/>
+      <nd lat="44.6586805" lon="9.7231312"/>
+      <nd lat="44.6587328" lon="9.7231612"/>
+      <nd lat="44.6587753" lon="9.7232072"/>
+      <nd lat="44.6588074" lon="9.7232640"/>
+      <nd lat="44.6588410" lon="9.7233513"/>
+      <nd lat="44.6589093" lon="9.7235573"/>
+      <nd lat="44.6589872" lon="9.7237201"/>
+      <nd lat="44.6590620" lon="9.7238488"/>
+      <nd lat="44.6591439" lon="9.7239675"/>
+      <nd lat="44.6592234" lon="9.7240548"/>
+      <nd lat="44.6593989" lon="9.7242592"/>
+      <nd lat="44.6595375" lon="9.7244388"/>
+      <nd lat="44.6597647" lon="9.7246867"/>
+      <nd lat="44.6599932" lon="9.7248578"/>
+      <nd lat="44.6602476" lon="9.7250096"/>
+      <nd lat="44.6603111" lon="9.7250620"/>
+      <nd lat="44.6604551" lon="9.7252143"/>
+      <nd lat="44.6605822" lon="9.7253670"/>
+      <nd lat="44.6607052" lon="9.7254913"/>
+      <nd lat="44.6609127" lon="9.7257267"/>
+      <nd lat="44.6610672" lon="9.7258772"/>
+      <nd lat="44.6611890" lon="9.7260168"/>
+      <nd lat="44.6612684" lon="9.7261041"/>
+      <nd lat="44.6613292" lon="9.7261460"/>
+      <nd lat="44.6614118" lon="9.7261311"/>
+      <nd lat="44.6614757" lon="9.7260745"/>
+      <nd lat="44.6615328" lon="9.7259994"/>
+      <nd lat="44.6615724" lon="9.7259605"/>
+      <nd lat="44.6616720" lon="9.7258978"/>
+      <nd lat="44.6617936" lon="9.7258478"/>
+    </member>
+    <member type="way" ref="78782917" role="">
+      <nd lat="44.6650805" lon="9.7213846"/>
+      <nd lat="44.6650798" lon="9.7214516"/>
+      <nd lat="44.6650886" lon="9.7215972"/>
+      <nd lat="44.6651000" lon="9.7217849"/>
+      <nd lat="44.6650894" lon="9.7218603"/>
+      <nd lat="44.6650649" lon="9.7219145"/>
+      <nd lat="44.6650070" lon="9.7219725"/>
+      <nd lat="44.6649007" lon="9.7220502"/>
+      <nd lat="44.6647097" lon="9.7222509"/>
+      <nd lat="44.6645206" lon="9.7224711"/>
+      <nd lat="44.6643352" lon="9.7226978"/>
+      <nd lat="44.6641791" lon="9.7228970"/>
+      <nd lat="44.6640857" lon="9.7230281"/>
+      <nd lat="44.6639868" lon="9.7231179"/>
+      <nd lat="44.6638871" lon="9.7231815"/>
+      <nd lat="44.6638262" lon="9.7232019"/>
+      <nd lat="44.6637543" lon="9.7232062"/>
+      <nd lat="44.6636839" lon="9.7231858"/>
+      <nd lat="44.6636137" lon="9.7231540"/>
+      <nd lat="44.6635205" lon="9.7230907"/>
+      <nd lat="44.6634451" lon="9.7230402"/>
+      <nd lat="44.6633948" lon="9.7230221"/>
+      <nd lat="44.6633240" lon="9.7230204"/>
+      <nd lat="44.6632226" lon="9.7230320"/>
+      <nd lat="44.6631309" lon="9.7230451"/>
+      <nd lat="44.6630483" lon="9.7230858"/>
+      <nd lat="44.6629994" lon="9.7231388"/>
+      <nd lat="44.6629728" lon="9.7232056"/>
+      <nd lat="44.6629739" lon="9.7233060"/>
+      <nd lat="44.6629930" lon="9.7234031"/>
+      <nd lat="44.6630274" lon="9.7235042"/>
+      <nd lat="44.6630474" lon="9.7236043"/>
+      <nd lat="44.6630486" lon="9.7237589"/>
+      <nd lat="44.6630378" lon="9.7238832"/>
+      <nd lat="44.6630011" lon="9.7240474"/>
+      <nd lat="44.6629607" lon="9.7241903"/>
+      <nd lat="44.6629079" lon="9.7243017"/>
+      <nd lat="44.6627472" lon="9.7244992"/>
+      <nd lat="44.6627164" lon="9.7245597"/>
+      <nd lat="44.6626847" lon="9.7246726"/>
+      <nd lat="44.6626515" lon="9.7247522"/>
+      <nd lat="44.6625979" lon="9.7247979"/>
+      <nd lat="44.6625468" lon="9.7248149"/>
+      <nd lat="44.6624527" lon="9.7248152"/>
+      <nd lat="44.6623837" lon="9.7247979"/>
+      <nd lat="44.6623130" lon="9.7248088"/>
+      <nd lat="44.6622564" lon="9.7248386"/>
+      <nd lat="44.6622032" lon="9.7249015"/>
+      <nd lat="44.6621478" lon="9.7250354"/>
+      <nd lat="44.6621072" lon="9.7250879"/>
+      <nd lat="44.6620415" lon="9.7251388"/>
+      <nd lat="44.6619667" lon="9.7252176"/>
+      <nd lat="44.6619061" lon="9.7253581"/>
+      <nd lat="44.6618437" lon="9.7256031"/>
+      <nd lat="44.6617936" lon="9.7258478"/>
+    </member>
+    <member type="way" ref="132622887" role="">
+      <nd lat="44.6650805" lon="9.7213846"/>
+      <nd lat="44.6651163" lon="9.7213037"/>
+      <nd lat="44.6651751" lon="9.7212518"/>
+      <nd lat="44.6652648" lon="9.7211921"/>
+      <nd lat="44.6653182" lon="9.7211370"/>
+      <nd lat="44.6657281" lon="9.7205240"/>
+      <nd lat="44.6659638" lon="9.7201547"/>
+      <nd lat="44.6661280" lon="9.7199682"/>
+      <nd lat="44.6664318" lon="9.7196399"/>
+      <nd lat="44.6667706" lon="9.7192873"/>
+      <nd lat="44.6668341" lon="9.7192468"/>
+      <nd lat="44.6668853" lon="9.7192389"/>
+      <nd lat="44.6669909" lon="9.7192304"/>
+      <nd lat="44.6670923" lon="9.7192398"/>
+      <nd lat="44.6671587" lon="9.7192514"/>
+      <nd lat="44.6673032" lon="9.7192319"/>
+      <nd lat="44.6673840" lon="9.7191874"/>
+      <nd lat="44.6674849" lon="9.7191019"/>
+      <nd lat="44.6675718" lon="9.7190070"/>
+      <nd lat="44.6676806" lon="9.7188803"/>
+      <nd lat="44.6677582" lon="9.7187487"/>
+      <nd lat="44.6678113" lon="9.7186081"/>
+      <nd lat="44.6678422" lon="9.7185427"/>
+      <nd lat="44.6678856" lon="9.7185066"/>
+      <nd lat="44.6679782" lon="9.7185025"/>
+      <nd lat="44.6681370" lon="9.7184868"/>
+      <nd lat="44.6682425" lon="9.7184816"/>
+      <nd lat="44.6683693" lon="9.7184744"/>
+      <nd lat="44.6684525" lon="9.7184959"/>
+      <nd lat="44.6685191" lon="9.7185410"/>
+      <nd lat="44.6685572" lon="9.7186184"/>
+      <nd lat="44.6686072" lon="9.7187412"/>
+      <nd lat="44.6687096" lon="9.7189958"/>
+      <nd lat="44.6687632" lon="9.7191125"/>
+      <nd lat="44.6687963" lon="9.7191932"/>
+      <nd lat="44.6688148" lon="9.7192512"/>
+    </member>
+    <member type="way" ref="78782928" role="">
+      <nd lat="44.6730266" lon="9.7174185"/>
+      <nd lat="44.6727112" lon="9.7175942"/>
+      <nd lat="44.6725327" lon="9.7178117"/>
+      <nd lat="44.6723304" lon="9.7180126"/>
+      <nd lat="44.6720567" lon="9.7180962"/>
+      <nd lat="44.6718127" lon="9.7182050"/>
+      <nd lat="44.6715628" lon="9.7182301"/>
+      <nd lat="44.6713843" lon="9.7185146"/>
+      <nd lat="44.6711820" lon="9.7185815"/>
+      <nd lat="44.6709023" lon="9.7187154"/>
+      <nd lat="44.6706167" lon="9.7188660"/>
+      <nd lat="44.6703251" lon="9.7191338"/>
+      <nd lat="44.6700276" lon="9.7190668"/>
+      <nd lat="44.6698193" lon="9.7192927"/>
+      <nd lat="44.6695873" lon="9.7193095"/>
+      <nd lat="44.6692600" lon="9.7194517"/>
+      <nd lat="44.6690160" lon="9.7193764"/>
+      <nd lat="44.6688490" lon="9.7193252"/>
+      <nd lat="44.6688148" lon="9.7192512"/>
+    </member>
+    <tag k="ascent" v="428"/>
+    <tag k="cai_scale" v="E"/>
+    <tag k="descent" v="67"/>
+    <tag k="distance" v="5.1"/>
+    <tag k="duration:backward" v="01:30"/>
+    <tag k="duration:forward" v="01:45"/>
+    <tag k="from" v="Bardi"/>
+    <tag k="name" v="Bardi - Torbiera di Gazzo"/>
+    <tag k="network" v="lwn"/>
+    <tag k="note" v="relation maintained by Capataz (CAI Parma)"/>
+    <tag k="note:it" v="relation manutenuta da Capataz (CAI Parma)"/>
+    <tag k="operator" v="Club Alpino Italiano - Sezione di Parma sottosezione di Fidenza"/>
+    <tag k="osmc:symbol" v="red:red:white_stripe:803C:black"/>
+    <tag k="ref" v="803C"/>
+    <tag k="route" v="hiking"/>
+    <tag k="rwn:name" v="Rete Escursionistica Emilia-Romagna (REER)"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="source:ref" v="9224001"/>
+    <tag k="symbol" v="803C on white red flags"/>
+    <tag k="symbol:it" v="803C su bandierina bianca e rossa"/>
+    <tag k="to" v="Torbiera di Gazzo"/>
+    <tag k="type" v="route"/>
+    <tag k="website" v="www.caiparma.it"/>
+  </relation>
+</old>
+<new>
+  <relation id="10057659" version="3" timestamp="2021-03-04T10:49:21Z" changeset="100415360" uid="7575034" user="CarloPro">
+    <bounds minlat="44.6366652" minlon="9.7153200" maxlat="44.6765200" maxlon="9.7348615"/>
+    <member type="way" ref="54239530" role="">
+      <nd lat="44.6366681" lon="9.7333773"/>
+      <nd lat="44.6366652" lon="9.7335156"/>
+      <nd lat="44.6366783" lon="9.7335651"/>
+      <nd lat="44.6367075" lon="9.7335833"/>
+      <nd lat="44.6367649" lon="9.7335738"/>
+      <nd lat="44.6368425" lon="9.7335217"/>
+      <nd lat="44.6369240" lon="9.7334631"/>
+      <nd lat="44.6369642" lon="9.7334335"/>
+      <nd lat="44.6369990" lon="9.7334301"/>
+      <nd lat="44.6370258" lon="9.7334466"/>
+      <nd lat="44.6370387" lon="9.7334906"/>
+      <nd lat="44.6370346" lon="9.7335385"/>
+      <nd lat="44.6369898" lon="9.7336567"/>
+      <nd lat="44.6368657" lon="9.7339181"/>
+      <nd lat="44.6368504" lon="9.7339848"/>
+      <nd lat="44.6368445" lon="9.7340538"/>
+    </member>
+    <member type="way" ref="54239529" role="">
+      <nd lat="44.6366681" lon="9.7333773"/>
+      <nd lat="44.6367865" lon="9.7333688"/>
+      <nd lat="44.6369007" lon="9.7332924"/>
+      <nd lat="44.6369547" lon="9.7332516"/>
+      <nd lat="44.6370086" lon="9.7332371"/>
+      <nd lat="44.6370740" lon="9.7332576"/>
+      <nd lat="44.6371276" lon="9.7333280"/>
+      <nd lat="44.6371541" lon="9.7334385"/>
+      <nd lat="44.6371567" lon="9.7335685"/>
+      <nd lat="44.6371623" lon="9.7336810"/>
+      <nd lat="44.6371867" lon="9.7337580"/>
+      <nd lat="44.6372299" lon="9.7338261"/>
+      <nd lat="44.6372882" lon="9.7338793"/>
+      <nd lat="44.6373820" lon="9.7339096"/>
+      <nd lat="44.6375644" lon="9.7339276"/>
+      <nd lat="44.6378228" lon="9.7339574"/>
+      <nd lat="44.6379347" lon="9.7339961"/>
+      <nd lat="44.6380193" lon="9.7340546"/>
+      <nd lat="44.6381126" lon="9.7341564"/>
+      <nd lat="44.6381784" lon="9.7342365"/>
+      <nd lat="44.6382471" lon="9.7342942"/>
+      <nd lat="44.6383061" lon="9.7343266"/>
+      <nd lat="44.6383730" lon="9.7343325"/>
+      <nd lat="44.6384624" lon="9.7342996"/>
+      <nd lat="44.6385446" lon="9.7342487"/>
+      <nd lat="44.6386527" lon="9.7341647"/>
+      <nd lat="44.6388080" lon="9.7340090"/>
+      <nd lat="44.6389047" lon="9.7338912"/>
+      <nd lat="44.6389416" lon="9.7338412"/>
+      <nd lat="44.6389585" lon="9.7338031"/>
+    </member>
+    <member type="way" ref="54239531" role="">
+      <nd lat="44.6389585" lon="9.7338031"/>
+      <nd lat="44.6390661" lon="9.7337802"/>
+      <nd lat="44.6391476" lon="9.7337750"/>
+      <nd lat="44.6392220" lon="9.7337796"/>
+      <nd lat="44.6392776" lon="9.7337826"/>
+      <nd lat="44.6393039" lon="9.7337911"/>
+      <nd lat="44.6393303" lon="9.7338194"/>
+      <nd lat="44.6393847" lon="9.7338839"/>
+      <nd lat="44.6394692" lon="9.7339757"/>
+      <nd lat="44.6395088" lon="9.7340060"/>
+      <nd lat="44.6395241" lon="9.7340312"/>
+      <nd lat="44.6395648" lon="9.7341018"/>
+      <nd lat="44.6396034" lon="9.7341571"/>
+      <nd lat="44.6396651" lon="9.7341968"/>
+      <nd lat="44.6397878" lon="9.7342750"/>
+      <nd lat="44.6398388" lon="9.7343153"/>
+      <nd lat="44.6398641" lon="9.7343347"/>
+      <nd lat="44.6399055" lon="9.7343472"/>
+      <nd lat="44.6399310" lon="9.7343748"/>
+      <nd lat="44.6399904" lon="9.7344722"/>
+      <nd lat="44.6400250" lon="9.7345093"/>
+      <nd lat="44.6401136" lon="9.7345893"/>
+      <nd lat="44.6402701" lon="9.7347073"/>
+      <nd lat="44.6404068" lon="9.7348140"/>
+      <nd lat="44.6404795" lon="9.7348467"/>
+      <nd lat="44.6405733" lon="9.7348615"/>
+      <nd lat="44.6406603" lon="9.7348585"/>
+      <nd lat="44.6407893" lon="9.7348360"/>
+      <nd lat="44.6408934" lon="9.7348003"/>
+      <nd lat="44.6409798" lon="9.7347549"/>
+      <nd lat="44.6411135" lon="9.7346725"/>
+      <nd lat="44.6412994" lon="9.7345467"/>
+      <nd lat="44.6415270" lon="9.7344097"/>
+      <nd lat="44.6416460" lon="9.7343093"/>
+      <nd lat="44.6417234" lon="9.7342219"/>
+      <nd lat="44.6417848" lon="9.7341698"/>
+      <nd lat="44.6418489" lon="9.7341418"/>
+      <nd lat="44.6419122" lon="9.7341327"/>
+      <nd lat="44.6419608" lon="9.7341073"/>
+      <nd lat="44.6419872" lon="9.7340771"/>
+      <nd lat="44.6420298" lon="9.7339577"/>
+      <nd lat="44.6420556" lon="9.7338129"/>
+      <nd lat="44.6420697" lon="9.7337819"/>
+      <nd lat="44.6421051" lon="9.7337630"/>
+      <nd lat="44.6421480" lon="9.7337712"/>
+      <nd lat="44.6421926" lon="9.7338119"/>
+      <nd lat="44.6422436" lon="9.7338476"/>
+      <nd lat="44.6422878" lon="9.7338675"/>
+      <nd lat="44.6423401" lon="9.7338673"/>
+      <nd lat="44.6424092" lon="9.7338512"/>
+      <nd lat="44.6424596" lon="9.7338523"/>
+      <nd lat="44.6425124" lon="9.7338720"/>
+      <nd lat="44.6426339" lon="9.7339568"/>
+      <nd lat="44.6426773" lon="9.7339855"/>
+      <nd lat="44.6427320" lon="9.7339992"/>
+      <nd lat="44.6428211" lon="9.7339957"/>
+      <nd lat="44.6429914" lon="9.7339781"/>
+      <nd lat="44.6432094" lon="9.7339312"/>
+      <nd lat="44.6434358" lon="9.7338746"/>
+      <nd lat="44.6435226" lon="9.7338337"/>
+      <nd lat="44.6435905" lon="9.7337837"/>
+      <nd lat="44.6436606" lon="9.7336984"/>
+      <nd lat="44.6436770" lon="9.7337006"/>
+      <nd lat="44.6437062" lon="9.7337198"/>
+      <nd lat="44.6437566" lon="9.7337627"/>
+      <nd lat="44.6438417" lon="9.7338381"/>
+      <nd lat="44.6439069" lon="9.7338783"/>
+      <nd lat="44.6440409" lon="9.7339330"/>
+      <nd lat="44.6441212" lon="9.7339675"/>
+      <nd lat="44.6441441" lon="9.7339725"/>
+      <nd lat="44.6441665" lon="9.7339702"/>
+      <nd lat="44.6444741" lon="9.7338684"/>
+      <nd lat="44.6446268" lon="9.7337401"/>
+      <nd lat="44.6447730" lon="9.7335613"/>
+      <nd lat="44.6449233" lon="9.7333632"/>
+      <nd lat="44.6450135" lon="9.7333016"/>
+      <nd lat="44.6451149" lon="9.7332701"/>
+      <nd lat="44.6451900" lon="9.7332321"/>
+      <nd lat="44.6452549" lon="9.7331892"/>
+    </member>
+    <member type="way" ref="54239532" role="">
+      <nd lat="44.6452549" lon="9.7331892"/>
+      <nd lat="44.6453964" lon="9.7331689"/>
+      <nd lat="44.6456135" lon="9.7332242"/>
+      <nd lat="44.6457699" lon="9.7333334"/>
+      <nd lat="44.6458099" lon="9.7332995"/>
+      <nd lat="44.6458813" lon="9.7331154"/>
+      <nd lat="44.6460718" lon="9.7329816"/>
+      <nd lat="44.6462564" lon="9.7328226"/>
+      <nd lat="44.6464409" lon="9.7326050"/>
+      <nd lat="44.6465166" lon="9.7325707"/>
+      <nd lat="44.6465957" lon="9.7325716"/>
+      <nd lat="44.6466501" lon="9.7327007"/>
+      <nd lat="44.6469767" lon="9.7328761"/>
+      <nd lat="44.6473392" lon="9.7329431"/>
+      <nd lat="44.6475243" lon="9.7329481"/>
+      <nd lat="44.6476530" lon="9.7329426"/>
+      <nd lat="44.6477744" lon="9.7328644"/>
+      <nd lat="44.6479589" lon="9.7325967"/>
+      <nd lat="44.6480422" lon="9.7323959"/>
+      <nd lat="44.6480813" lon="9.7320055"/>
+      <nd lat="44.6482663" lon="9.7315143"/>
+      <nd lat="44.6484483" lon="9.7312142"/>
+    </member>
+    <member type="way" ref="132622888" role="">
+      <nd lat="44.6484483" lon="9.7312142"/>
+      <nd lat="44.6485269" lon="9.7310507"/>
+      <nd lat="44.6485881" lon="9.7309831"/>
+      <nd lat="44.6486651" lon="9.7309572"/>
+      <nd lat="44.6487151" lon="9.7309622"/>
+      <nd lat="44.6489060" lon="9.7310824"/>
+      <nd lat="44.6493100" lon="9.7312891"/>
+      <nd lat="44.6494626" lon="9.7313439"/>
+      <nd lat="44.6495753" lon="9.7313383"/>
+      <nd lat="44.6496571" lon="9.7312792"/>
+      <nd lat="44.6500955" lon="9.7308890"/>
+      <nd lat="44.6502153" lon="9.7308069"/>
+      <nd lat="44.6504000" lon="9.7307166"/>
+      <nd lat="44.6505842" lon="9.7306456"/>
+      <nd lat="44.6506718" lon="9.7305954"/>
+      <nd lat="44.6507401" lon="9.7305306"/>
+      <nd lat="44.6510891" lon="9.7299541"/>
+      <nd lat="44.6511405" lon="9.7298884"/>
+      <nd lat="44.6512095" lon="9.7298197"/>
+      <nd lat="44.6514897" lon="9.7296343"/>
+      <nd lat="44.6515858" lon="9.7295530"/>
+      <nd lat="44.6516480" lon="9.7294860"/>
+      <nd lat="44.6518105" lon="9.7292440"/>
+      <nd lat="44.6520709" lon="9.7288307"/>
+      <nd lat="44.6521228" lon="9.7287444"/>
+      <nd lat="44.6521904" lon="9.7285961"/>
+      <nd lat="44.6522135" lon="9.7285150"/>
+      <nd lat="44.6522308" lon="9.7284180"/>
+      <nd lat="44.6522432" lon="9.7280883"/>
+      <nd lat="44.6522521" lon="9.7279648"/>
+      <nd lat="44.6522884" lon="9.7278065"/>
+      <nd lat="44.6523536" lon="9.7276483"/>
+      <nd lat="44.6524360" lon="9.7275231"/>
+      <nd lat="44.6525603" lon="9.7273939"/>
+      <nd lat="44.6528395" lon="9.7271412"/>
+      <nd lat="44.6532712" lon="9.7267181"/>
+    </member>
+    <member type="way" ref="144729113" role="">
+      <nd lat="44.6532712" lon="9.7267181"/>
+      <nd lat="44.6537210" lon="9.7262412"/>
+      <nd lat="44.6541636" lon="9.7258058"/>
+      <nd lat="44.6542020" lon="9.7257440"/>
+      <nd lat="44.6543067" lon="9.7255087"/>
+      <nd lat="44.6543423" lon="9.7254121"/>
+      <nd lat="44.6544806" lon="9.7250360"/>
+      <nd lat="44.6546331" lon="9.7246768"/>
+      <nd lat="44.6546844" lon="9.7245825"/>
+      <nd lat="44.6547246" lon="9.7245157"/>
+      <nd lat="44.6548416" lon="9.7243628"/>
+      <nd lat="44.6549006" lon="9.7242977"/>
+      <nd lat="44.6552743" lon="9.7239717"/>
+      <nd lat="44.6553411" lon="9.7239306"/>
+      <nd lat="44.6553972" lon="9.7239132"/>
+      <nd lat="44.6554502" lon="9.7239068"/>
+      <nd lat="44.6555057" lon="9.7239200"/>
+      <nd lat="44.6555661" lon="9.7239642"/>
+      <nd lat="44.6557232" lon="9.7241131"/>
+      <nd lat="44.6558344" lon="9.7242091"/>
+      <nd lat="44.6559055" lon="9.7242440"/>
+      <nd lat="44.6559510" lon="9.7242484"/>
+      <nd lat="44.6560046" lon="9.7242320"/>
+      <nd lat="44.6560757" lon="9.7242042"/>
+      <nd lat="44.6561368" lon="9.7241648"/>
+      <nd lat="44.6561934" lon="9.7241190"/>
+      <nd lat="44.6563636" lon="9.7239502"/>
+      <nd lat="44.6564744" lon="9.7238257"/>
+      <nd lat="44.6565407" lon="9.7237481"/>
+      <nd lat="44.6566131" lon="9.7237011"/>
+      <nd lat="44.6567178" lon="9.7236588"/>
+      <nd lat="44.6569580" lon="9.7235545"/>
+      <nd lat="44.6570192" lon="9.7235082"/>
+      <nd lat="44.6570859" lon="9.7234411"/>
+      <nd lat="44.6571827" lon="9.7232875"/>
+      <nd lat="44.6572448" lon="9.7232089"/>
+      <nd lat="44.6574290" lon="9.7230192"/>
+      <nd lat="44.6574907" lon="9.7229523"/>
+      <nd lat="44.6575317" lon="9.7229244"/>
+      <nd lat="44.6576336" lon="9.7229000"/>
+      <nd lat="44.6578190" lon="9.7229029"/>
+      <nd lat="44.6579966" lon="9.7229361"/>
+      <nd lat="44.6580693" lon="9.7229663"/>
+      <nd lat="44.6582729" lon="9.7230885"/>
+      <nd lat="44.6583355" lon="9.7230957"/>
+      <nd lat="44.6584604" lon="9.7230954"/>
+      <nd lat="44.6585275" lon="9.7231024"/>
+      <nd lat="44.6586805" lon="9.7231312"/>
+      <nd lat="44.6587328" lon="9.7231612"/>
+      <nd lat="44.6587753" lon="9.7232072"/>
+      <nd lat="44.6588074" lon="9.7232640"/>
+      <nd lat="44.6588410" lon="9.7233513"/>
+      <nd lat="44.6589093" lon="9.7235573"/>
+      <nd lat="44.6589872" lon="9.7237201"/>
+      <nd lat="44.6590620" lon="9.7238488"/>
+      <nd lat="44.6591439" lon="9.7239675"/>
+      <nd lat="44.6592234" lon="9.7240548"/>
+      <nd lat="44.6593989" lon="9.7242592"/>
+      <nd lat="44.6595375" lon="9.7244388"/>
+      <nd lat="44.6597647" lon="9.7246867"/>
+      <nd lat="44.6599932" lon="9.7248578"/>
+      <nd lat="44.6602476" lon="9.7250096"/>
+      <nd lat="44.6603111" lon="9.7250620"/>
+      <nd lat="44.6604551" lon="9.7252143"/>
+      <nd lat="44.6605822" lon="9.7253670"/>
+      <nd lat="44.6607052" lon="9.7254913"/>
+      <nd lat="44.6609127" lon="9.7257267"/>
+      <nd lat="44.6610672" lon="9.7258772"/>
+      <nd lat="44.6611890" lon="9.7260168"/>
+      <nd lat="44.6612684" lon="9.7261041"/>
+      <nd lat="44.6613292" lon="9.7261460"/>
+      <nd lat="44.6614118" lon="9.7261311"/>
+      <nd lat="44.6614757" lon="9.7260745"/>
+      <nd lat="44.6615328" lon="9.7259994"/>
+      <nd lat="44.6615724" lon="9.7259605"/>
+      <nd lat="44.6616720" lon="9.7258978"/>
+      <nd lat="44.6617936" lon="9.7258478"/>
+    </member>
+    <member type="way" ref="78782917" role="">
+      <nd lat="44.6650805" lon="9.7213846"/>
+      <nd lat="44.6650798" lon="9.7214516"/>
+      <nd lat="44.6650886" lon="9.7215972"/>
+      <nd lat="44.6651000" lon="9.7217849"/>
+      <nd lat="44.6650894" lon="9.7218603"/>
+      <nd lat="44.6650649" lon="9.7219145"/>
+      <nd lat="44.6650070" lon="9.7219725"/>
+      <nd lat="44.6649007" lon="9.7220502"/>
+      <nd lat="44.6647097" lon="9.7222509"/>
+      <nd lat="44.6645206" lon="9.7224711"/>
+      <nd lat="44.6643352" lon="9.7226978"/>
+      <nd lat="44.6641791" lon="9.7228970"/>
+      <nd lat="44.6640857" lon="9.7230281"/>
+      <nd lat="44.6639868" lon="9.7231179"/>
+      <nd lat="44.6638871" lon="9.7231815"/>
+      <nd lat="44.6638262" lon="9.7232019"/>
+      <nd lat="44.6637543" lon="9.7232062"/>
+      <nd lat="44.6636839" lon="9.7231858"/>
+      <nd lat="44.6636137" lon="9.7231540"/>
+      <nd lat="44.6635205" lon="9.7230907"/>
+      <nd lat="44.6634451" lon="9.7230402"/>
+      <nd lat="44.6633948" lon="9.7230221"/>
+      <nd lat="44.6633240" lon="9.7230204"/>
+      <nd lat="44.6632226" lon="9.7230320"/>
+      <nd lat="44.6631309" lon="9.7230451"/>
+      <nd lat="44.6630483" lon="9.7230858"/>
+      <nd lat="44.6629994" lon="9.7231388"/>
+      <nd lat="44.6629728" lon="9.7232056"/>
+      <nd lat="44.6629739" lon="9.7233060"/>
+      <nd lat="44.6629930" lon="9.7234031"/>
+      <nd lat="44.6630274" lon="9.7235042"/>
+      <nd lat="44.6630474" lon="9.7236043"/>
+      <nd lat="44.6630486" lon="9.7237589"/>
+      <nd lat="44.6630378" lon="9.7238832"/>
+      <nd lat="44.6630011" lon="9.7240474"/>
+      <nd lat="44.6629607" lon="9.7241903"/>
+      <nd lat="44.6629079" lon="9.7243017"/>
+      <nd lat="44.6627472" lon="9.7244992"/>
+      <nd lat="44.6627164" lon="9.7245597"/>
+      <nd lat="44.6626847" lon="9.7246726"/>
+      <nd lat="44.6626515" lon="9.7247522"/>
+      <nd lat="44.6625979" lon="9.7247979"/>
+      <nd lat="44.6625468" lon="9.7248149"/>
+      <nd lat="44.6624527" lon="9.7248152"/>
+      <nd lat="44.6623837" lon="9.7247979"/>
+      <nd lat="44.6623130" lon="9.7248088"/>
+      <nd lat="44.6622564" lon="9.7248386"/>
+      <nd lat="44.6622032" lon="9.7249015"/>
+      <nd lat="44.6621478" lon="9.7250354"/>
+      <nd lat="44.6621072" lon="9.7250879"/>
+      <nd lat="44.6620415" lon="9.7251388"/>
+      <nd lat="44.6619667" lon="9.7252176"/>
+      <nd lat="44.6619061" lon="9.7253581"/>
+      <nd lat="44.6618437" lon="9.7256031"/>
+      <nd lat="44.6617936" lon="9.7258478"/>
+    </member>
+    <member type="way" ref="132622887" role="">
+      <nd lat="44.6650805" lon="9.7213846"/>
+      <nd lat="44.6651163" lon="9.7213037"/>
+      <nd lat="44.6651751" lon="9.7212518"/>
+      <nd lat="44.6652648" lon="9.7211921"/>
+      <nd lat="44.6653182" lon="9.7211370"/>
+      <nd lat="44.6657281" lon="9.7205240"/>
+      <nd lat="44.6659638" lon="9.7201547"/>
+      <nd lat="44.6661280" lon="9.7199682"/>
+      <nd lat="44.6664318" lon="9.7196399"/>
+      <nd lat="44.6667706" lon="9.7192873"/>
+      <nd lat="44.6668341" lon="9.7192468"/>
+      <nd lat="44.6668853" lon="9.7192389"/>
+      <nd lat="44.6669909" lon="9.7192304"/>
+      <nd lat="44.6670923" lon="9.7192398"/>
+      <nd lat="44.6671587" lon="9.7192514"/>
+      <nd lat="44.6673032" lon="9.7192319"/>
+      <nd lat="44.6673840" lon="9.7191874"/>
+      <nd lat="44.6674849" lon="9.7191019"/>
+      <nd lat="44.6675718" lon="9.7190070"/>
+      <nd lat="44.6676806" lon="9.7188803"/>
+      <nd lat="44.6677582" lon="9.7187487"/>
+      <nd lat="44.6678113" lon="9.7186081"/>
+      <nd lat="44.6678422" lon="9.7185427"/>
+      <nd lat="44.6678856" lon="9.7185066"/>
+      <nd lat="44.6679782" lon="9.7185025"/>
+      <nd lat="44.6681370" lon="9.7184868"/>
+      <nd lat="44.6682425" lon="9.7184816"/>
+      <nd lat="44.6683693" lon="9.7184744"/>
+      <nd lat="44.6684525" lon="9.7184959"/>
+      <nd lat="44.6685191" lon="9.7185410"/>
+      <nd lat="44.6685572" lon="9.7186184"/>
+      <nd lat="44.6686072" lon="9.7187412"/>
+      <nd lat="44.6687096" lon="9.7189958"/>
+      <nd lat="44.6687632" lon="9.7191125"/>
+      <nd lat="44.6687963" lon="9.7191932"/>
+      <nd lat="44.6688148" lon="9.7192512"/>
+    </member>
+    <member type="way" ref="78782928" role="">
+      <nd lat="44.6730266" lon="9.7174185"/>
+      <nd lat="44.6727112" lon="9.7175942"/>
+      <nd lat="44.6725327" lon="9.7178117"/>
+      <nd lat="44.6723304" lon="9.7180126"/>
+      <nd lat="44.6720567" lon="9.7180962"/>
+      <nd lat="44.6718127" lon="9.7182050"/>
+      <nd lat="44.6715628" lon="9.7182301"/>
+      <nd lat="44.6713843" lon="9.7185146"/>
+      <nd lat="44.6711820" lon="9.7185815"/>
+      <nd lat="44.6709023" lon="9.7187154"/>
+      <nd lat="44.6706167" lon="9.7188660"/>
+      <nd lat="44.6703251" lon="9.7191338"/>
+      <nd lat="44.6700276" lon="9.7190668"/>
+      <nd lat="44.6698193" lon="9.7192927"/>
+      <nd lat="44.6695873" lon="9.7193095"/>
+      <nd lat="44.6692600" lon="9.7194517"/>
+      <nd lat="44.6690160" lon="9.7193764"/>
+      <nd lat="44.6688490" lon="9.7193252"/>
+      <nd lat="44.6688148" lon="9.7192512"/>
+    </member>
+    <member type="way" ref="726824149" role="">
+      <nd lat="44.6765200" lon="9.7153200"/>
+      <nd lat="44.6757790" lon="9.7163236"/>
+      <nd lat="44.6749169" lon="9.7164953"/>
+      <nd lat="44.6743600" lon="9.7158408"/>
+      <nd lat="44.6738793" lon="9.7164094"/>
+      <nd lat="44.6734826" lon="9.7171605"/>
+      <nd lat="44.6730266" lon="9.7174185"/>
+    </member>
+    <tag k="ascent" v="428"/>
+    <tag k="cai_scale" v="E"/>
+    <tag k="descent" v="67"/>
+    <tag k="distance" v="5.1"/>
+    <tag k="duration:backward" v="01:30"/>
+    <tag k="duration:forward" v="01:45"/>
+    <tag k="from" v="Bardi"/>
+    <tag k="name" v="Bardi - Torbiera di Gazzo"/>
+    <tag k="network" v="lwn"/>
+    <tag k="note" v="relation maintained by Capataz (CAI Parma)"/>
+    <tag k="note:it" v="relation manutenuta da Capataz (CAI Parma)"/>
+    <tag k="operator" v="Club Alpino Italiano - Sezione di Parma sottosezione di Fidenza"/>
+    <tag k="osmc:symbol" v="red:red:white_stripe:803C:black"/>
+    <tag k="ref" v="803C"/>
+    <tag k="route" v="hiking"/>
+    <tag k="rwn:name" v="Rete Escursionistica Emilia-Romagna (REER)"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="source:ref" v="9224001"/>
+    <tag k="symbol" v="803C on white red flags"/>
+    <tag k="symbol:it" v="803C su bandierina bianca e rossa"/>
+    <tag k="to" v="Torbiera di Gazzo"/>
     <tag k="type" v="route"/>
     <tag k="website" v="www.caiparma.it"/>
   </relation>
