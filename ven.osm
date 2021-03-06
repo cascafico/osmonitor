@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-03-06T12:17:57Z" areas="2021-03-06T12:01:37Z"/>
+<meta osm_base="2021-03-06T18:15:43Z" areas="2021-03-06T17:40:02Z"/>
 
 <action type="modify">
 <old>
@@ -140,9 +140,6 @@
 </new>
 </action>
 <action type="create">
-  <node id="8489630098" lat="46.4802950" lon="12.2079786" version="1" timestamp="2021-03-05T17:03:43Z" changeset="100505081" uid="11644587" user="Ryan Nevius"/>
-</action>
-<action type="create">
   <node id="8491135545" lat="46.4396360" lon="12.6153718" version="1" timestamp="2021-03-06T10:56:06Z" changeset="100530325" uid="188429" user="gpstracks"/>
 </action>
 <action type="create">
@@ -180,85 +177,6 @@
 </action>
 <action type="create">
   <node id="8491135557" lat="46.4389974" lon="12.6108670" version="1" timestamp="2021-03-06T10:56:06Z" changeset="100530325" uid="188429" user="gpstracks"/>
-</action>
-<action type="modify">
-<old>
-  <way id="38428808" version="7" timestamp="2019-07-15T10:55:21Z" changeset="72258580" uid="3215770" user="Andrea Del Sarto">
-    <bounds minlat="46.4752163" minlon="12.2024177" maxlat="46.4803621" maxlon="12.2192897"/>
-    <nd ref="454231844" lat="46.4752163" lon="12.2024177"/>
-    <nd ref="454231845" lat="46.4760063" lon="12.2038331"/>
-    <nd ref="454231847" lat="46.4763982" lon="12.2040979"/>
-    <nd ref="454231848" lat="46.4766118" lon="12.2040907"/>
-    <nd ref="454231849" lat="46.4771035" lon="12.2042926"/>
-    <nd ref="454231850" lat="46.4777791" lon="12.2047110"/>
-    <nd ref="454231851" lat="46.4780871" lon="12.2049635"/>
-    <nd ref="454231852" lat="46.4783802" lon="12.2050861"/>
-    <nd ref="454231853" lat="46.4791004" lon="12.2058291"/>
-    <nd ref="454231854" lat="46.4792643" lon="12.2059156"/>
-    <nd ref="454231855" lat="46.4794829" lon="12.2062042"/>
-    <nd ref="454231856" lat="46.4798703" lon="12.2063701"/>
-    <nd ref="454231857" lat="46.4800790" lon="12.2067957"/>
-    <nd ref="454231858" lat="46.4802578" lon="12.2072501"/>
-    <nd ref="454231859" lat="46.4802031" lon="12.2076036"/>
-    <nd ref="454231860" lat="46.4803223" lon="12.2078633"/>
-    <nd ref="454231861" lat="46.4802677" lon="12.2080941"/>
-    <nd ref="454231862" lat="46.4803621" lon="12.2085341"/>
-    <nd ref="454231863" lat="46.4803472" lon="12.2088226"/>
-    <nd ref="454231864" lat="46.4801833" lon="12.2094286"/>
-    <nd ref="454231865" lat="46.4800144" lon="12.2099119"/>
-    <nd ref="454231866" lat="46.4790408" lon="12.2119460"/>
-    <nd ref="454231867" lat="46.4792445" lon="12.2126890"/>
-    <nd ref="454231868" lat="46.4794183" lon="12.2145717"/>
-    <nd ref="454231869" lat="46.4789464" lon="12.2150117"/>
-    <nd ref="454231870" lat="46.4784149" lon="12.2166347"/>
-    <nd ref="454231871" lat="46.4779182" lon="12.2177961"/>
-    <nd ref="454231872" lat="46.4776225" lon="12.2185828"/>
-    <nd ref="454231873" lat="46.4774835" lon="12.2191022"/>
-    <nd ref="454231874" lat="46.4771904" lon="12.2192897"/>
-    <tag k="highway" v="path"/>
-    <tag k="sac_scale" v="mountain_hiking"/>
-    <tag k="width" v="1"/>
-  </way>
-</old>
-<new>
-  <way id="38428808" version="8" timestamp="2021-03-05T17:03:43Z" changeset="100505081" uid="11644587" user="Ryan Nevius">
-    <bounds minlat="46.4752163" minlon="12.2024177" maxlat="46.4803621" maxlon="12.2192897"/>
-    <nd ref="454231844" lat="46.4752163" lon="12.2024177"/>
-    <nd ref="454231845" lat="46.4760063" lon="12.2038331"/>
-    <nd ref="454231847" lat="46.4763982" lon="12.2040979"/>
-    <nd ref="454231848" lat="46.4766118" lon="12.2040907"/>
-    <nd ref="454231849" lat="46.4771035" lon="12.2042926"/>
-    <nd ref="454231850" lat="46.4777791" lon="12.2047110"/>
-    <nd ref="454231851" lat="46.4780871" lon="12.2049635"/>
-    <nd ref="454231852" lat="46.4783802" lon="12.2050861"/>
-    <nd ref="454231853" lat="46.4791004" lon="12.2058291"/>
-    <nd ref="454231854" lat="46.4792643" lon="12.2059156"/>
-    <nd ref="454231855" lat="46.4794829" lon="12.2062042"/>
-    <nd ref="454231856" lat="46.4798703" lon="12.2063701"/>
-    <nd ref="454231857" lat="46.4800790" lon="12.2067957"/>
-    <nd ref="454231858" lat="46.4802578" lon="12.2072501"/>
-    <nd ref="454231859" lat="46.4802031" lon="12.2076036"/>
-    <nd ref="454231860" lat="46.4803223" lon="12.2078633"/>
-    <nd ref="8489630098" lat="46.4802950" lon="12.2079786"/>
-    <nd ref="454231861" lat="46.4802677" lon="12.2080941"/>
-    <nd ref="454231862" lat="46.4803621" lon="12.2085341"/>
-    <nd ref="454231863" lat="46.4803472" lon="12.2088226"/>
-    <nd ref="454231864" lat="46.4801833" lon="12.2094286"/>
-    <nd ref="454231865" lat="46.4800144" lon="12.2099119"/>
-    <nd ref="454231866" lat="46.4790408" lon="12.2119460"/>
-    <nd ref="454231867" lat="46.4792445" lon="12.2126890"/>
-    <nd ref="454231868" lat="46.4794183" lon="12.2145717"/>
-    <nd ref="454231869" lat="46.4789464" lon="12.2150117"/>
-    <nd ref="454231870" lat="46.4784149" lon="12.2166347"/>
-    <nd ref="454231871" lat="46.4779182" lon="12.2177961"/>
-    <nd ref="454231872" lat="46.4776225" lon="12.2185828"/>
-    <nd ref="454231873" lat="46.4774835" lon="12.2191022"/>
-    <nd ref="454231874" lat="46.4771904" lon="12.2192897"/>
-    <tag k="highway" v="path"/>
-    <tag k="sac_scale" v="mountain_hiking"/>
-    <tag k="width" v="1"/>
-  </way>
-</new>
 </action>
 <action type="modify">
 <old>
@@ -1624,179 +1542,6 @@
     <tag k="symbol" v="210 on white red flag"/>
     <tag k="symbol:it" v="210 su bandiera bianca e rossa"/>
     <tag k="to" v="Casera Razzo (quota 1739 m.)"/>
-    <tag k="type" v="route"/>
-  </relation>
-</new>
-</action>
-<action type="modify">
-<old>
-  <relation id="5489767" version="5" timestamp="2018-07-29T13:57:13Z" changeset="61165352" uid="1928626" user="Gianfranco2014">
-    <bounds minlat="46.4752163" minlon="12.2024177" maxlat="46.4803621" maxlon="12.2283148"/>
-    <member type="way" ref="369442240" role="">
-      <nd lat="46.4771904" lon="12.2192897"/>
-      <nd lat="46.4768824" lon="12.2200904"/>
-      <nd lat="46.4768228" lon="12.2203284"/>
-      <nd lat="46.4769519" lon="12.2207107"/>
-      <nd lat="46.4769321" lon="12.2210425"/>
-      <nd lat="46.4769645" lon="12.2214378"/>
-      <nd lat="46.4772002" lon="12.2215931"/>
-      <nd lat="46.4772574" lon="12.2217547"/>
-      <nd lat="46.4773687" lon="12.2218470"/>
-      <nd lat="46.4775721" lon="12.2219670"/>
-      <nd lat="46.4775721" lon="12.2222717"/>
-      <nd lat="46.4777279" lon="12.2225441"/>
-      <nd lat="46.4777184" lon="12.2227426"/>
-      <nd lat="46.4776484" lon="12.2230288"/>
-      <nd lat="46.4776484" lon="12.2232643"/>
-      <nd lat="46.4775181" lon="12.2237813"/>
-      <nd lat="46.4776389" lon="12.2240306"/>
-      <nd lat="46.4775626" lon="12.2243122"/>
-      <nd lat="46.4774958" lon="12.2246308"/>
-      <nd lat="46.4773909" lon="12.2248847"/>
-      <nd lat="46.4776293" lon="12.2255725"/>
-      <nd lat="46.4776198" lon="12.2257387"/>
-      <nd lat="46.4774195" lon="12.2260573"/>
-      <nd lat="46.4772542" lon="12.2262419"/>
-      <nd lat="46.4771048" lon="12.2263851"/>
-      <nd lat="46.4773782" lon="12.2267867"/>
-      <nd lat="46.4771970" lon="12.2270406"/>
-      <nd lat="46.4772002" lon="12.2273268"/>
-      <nd lat="46.4770444" lon="12.2276962"/>
-      <nd lat="46.4769617" lon="12.2277146"/>
-      <nd lat="46.4769299" lon="12.2278716"/>
-      <nd lat="46.4769617" lon="12.2281670"/>
-      <nd lat="46.4768632" lon="12.2283148"/>
-    </member>
-    <member type="way" ref="38428808" role="">
-      <nd lat="46.4752163" lon="12.2024177"/>
-      <nd lat="46.4760063" lon="12.2038331"/>
-      <nd lat="46.4763982" lon="12.2040979"/>
-      <nd lat="46.4766118" lon="12.2040907"/>
-      <nd lat="46.4771035" lon="12.2042926"/>
-      <nd lat="46.4777791" lon="12.2047110"/>
-      <nd lat="46.4780871" lon="12.2049635"/>
-      <nd lat="46.4783802" lon="12.2050861"/>
-      <nd lat="46.4791004" lon="12.2058291"/>
-      <nd lat="46.4792643" lon="12.2059156"/>
-      <nd lat="46.4794829" lon="12.2062042"/>
-      <nd lat="46.4798703" lon="12.2063701"/>
-      <nd lat="46.4800790" lon="12.2067957"/>
-      <nd lat="46.4802578" lon="12.2072501"/>
-      <nd lat="46.4802031" lon="12.2076036"/>
-      <nd lat="46.4803223" lon="12.2078633"/>
-      <nd lat="46.4802677" lon="12.2080941"/>
-      <nd lat="46.4803621" lon="12.2085341"/>
-      <nd lat="46.4803472" lon="12.2088226"/>
-      <nd lat="46.4801833" lon="12.2094286"/>
-      <nd lat="46.4800144" lon="12.2099119"/>
-      <nd lat="46.4790408" lon="12.2119460"/>
-      <nd lat="46.4792445" lon="12.2126890"/>
-      <nd lat="46.4794183" lon="12.2145717"/>
-      <nd lat="46.4789464" lon="12.2150117"/>
-      <nd lat="46.4784149" lon="12.2166347"/>
-      <nd lat="46.4779182" lon="12.2177961"/>
-      <nd lat="46.4776225" lon="12.2185828"/>
-      <nd lat="46.4774835" lon="12.2191022"/>
-      <nd lat="46.4771904" lon="12.2192897"/>
-    </member>
-    <tag k="ascent" v="800"/>
-    <tag k="cai_scale" v="E"/>
-    <tag k="from" v="Chiapuzza (da pista ciclabile)"/>
-    <tag k="network" v="lwn"/>
-    <tag k="operator" v="Club Alpino Italiano"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:225:black"/>
-    <tag k="ref" v="225"/>
-    <tag k="route" v="hiking"/>
-    <tag k="sac_scale" v="mountain_hiking"/>
-    <tag k="symbol" v="225 on white red flag"/>
-    <tag k="symbol:it" v="225 su bandierina bianco/rossa"/>
-    <tag k="to" v="Rif. San Marco"/>
-    <tag k="type" v="route"/>
-  </relation>
-</old>
-<new>
-  <relation id="5489767" version="5" timestamp="2018-07-29T13:57:13Z" changeset="61165352" uid="1928626" user="Gianfranco2014">
-    <bounds minlat="46.4752163" minlon="12.2024177" maxlat="46.4803621" maxlon="12.2283148"/>
-    <member type="way" ref="369442240" role="">
-      <nd lat="46.4771904" lon="12.2192897"/>
-      <nd lat="46.4768824" lon="12.2200904"/>
-      <nd lat="46.4768228" lon="12.2203284"/>
-      <nd lat="46.4769519" lon="12.2207107"/>
-      <nd lat="46.4769321" lon="12.2210425"/>
-      <nd lat="46.4769645" lon="12.2214378"/>
-      <nd lat="46.4772002" lon="12.2215931"/>
-      <nd lat="46.4772574" lon="12.2217547"/>
-      <nd lat="46.4773687" lon="12.2218470"/>
-      <nd lat="46.4775721" lon="12.2219670"/>
-      <nd lat="46.4775721" lon="12.2222717"/>
-      <nd lat="46.4777279" lon="12.2225441"/>
-      <nd lat="46.4777184" lon="12.2227426"/>
-      <nd lat="46.4776484" lon="12.2230288"/>
-      <nd lat="46.4776484" lon="12.2232643"/>
-      <nd lat="46.4775181" lon="12.2237813"/>
-      <nd lat="46.4776389" lon="12.2240306"/>
-      <nd lat="46.4775626" lon="12.2243122"/>
-      <nd lat="46.4774958" lon="12.2246308"/>
-      <nd lat="46.4773909" lon="12.2248847"/>
-      <nd lat="46.4776293" lon="12.2255725"/>
-      <nd lat="46.4776198" lon="12.2257387"/>
-      <nd lat="46.4774195" lon="12.2260573"/>
-      <nd lat="46.4772542" lon="12.2262419"/>
-      <nd lat="46.4771048" lon="12.2263851"/>
-      <nd lat="46.4773782" lon="12.2267867"/>
-      <nd lat="46.4771970" lon="12.2270406"/>
-      <nd lat="46.4772002" lon="12.2273268"/>
-      <nd lat="46.4770444" lon="12.2276962"/>
-      <nd lat="46.4769617" lon="12.2277146"/>
-      <nd lat="46.4769299" lon="12.2278716"/>
-      <nd lat="46.4769617" lon="12.2281670"/>
-      <nd lat="46.4768632" lon="12.2283148"/>
-    </member>
-    <member type="way" ref="38428808" role="">
-      <nd lat="46.4752163" lon="12.2024177"/>
-      <nd lat="46.4760063" lon="12.2038331"/>
-      <nd lat="46.4763982" lon="12.2040979"/>
-      <nd lat="46.4766118" lon="12.2040907"/>
-      <nd lat="46.4771035" lon="12.2042926"/>
-      <nd lat="46.4777791" lon="12.2047110"/>
-      <nd lat="46.4780871" lon="12.2049635"/>
-      <nd lat="46.4783802" lon="12.2050861"/>
-      <nd lat="46.4791004" lon="12.2058291"/>
-      <nd lat="46.4792643" lon="12.2059156"/>
-      <nd lat="46.4794829" lon="12.2062042"/>
-      <nd lat="46.4798703" lon="12.2063701"/>
-      <nd lat="46.4800790" lon="12.2067957"/>
-      <nd lat="46.4802578" lon="12.2072501"/>
-      <nd lat="46.4802031" lon="12.2076036"/>
-      <nd lat="46.4803223" lon="12.2078633"/>
-      <nd lat="46.4802950" lon="12.2079786"/>
-      <nd lat="46.4802677" lon="12.2080941"/>
-      <nd lat="46.4803621" lon="12.2085341"/>
-      <nd lat="46.4803472" lon="12.2088226"/>
-      <nd lat="46.4801833" lon="12.2094286"/>
-      <nd lat="46.4800144" lon="12.2099119"/>
-      <nd lat="46.4790408" lon="12.2119460"/>
-      <nd lat="46.4792445" lon="12.2126890"/>
-      <nd lat="46.4794183" lon="12.2145717"/>
-      <nd lat="46.4789464" lon="12.2150117"/>
-      <nd lat="46.4784149" lon="12.2166347"/>
-      <nd lat="46.4779182" lon="12.2177961"/>
-      <nd lat="46.4776225" lon="12.2185828"/>
-      <nd lat="46.4774835" lon="12.2191022"/>
-      <nd lat="46.4771904" lon="12.2192897"/>
-    </member>
-    <tag k="ascent" v="800"/>
-    <tag k="cai_scale" v="E"/>
-    <tag k="from" v="Chiapuzza (da pista ciclabile)"/>
-    <tag k="network" v="lwn"/>
-    <tag k="operator" v="Club Alpino Italiano"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:225:black"/>
-    <tag k="ref" v="225"/>
-    <tag k="route" v="hiking"/>
-    <tag k="sac_scale" v="mountain_hiking"/>
-    <tag k="symbol" v="225 on white red flag"/>
-    <tag k="symbol:it" v="225 su bandierina bianco/rossa"/>
-    <tag k="to" v="Rif. San Marco"/>
     <tag k="type" v="route"/>
   </relation>
 </new>
