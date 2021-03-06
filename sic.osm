@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.8 7d656e78">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-03-05T18:13:57Z" areas="2021-03-05T17:12:27Z"/>
+<meta osm_base="2021-03-06T00:32:31Z" areas="2021-03-06T00:01:48Z"/>
 
 <action type="create">
   <node id="8486288194" lat="37.7788219" lon="13.1132474" version="4" timestamp="2021-03-05T10:30:03Z" changeset="100483545" uid="10596406" user="rosario_bianco1">
@@ -9,6 +9,14 @@
     <tag k="name" v="Grotta di Entella"/>
     <tag k="natural" v="cave_entrance"/>
   </node>
+</action>
+<action type="delete">
+<old>
+  <node id="8487086985" lat="38.1862807" lon="13.2806330" version="1" timestamp="2021-03-04T20:46:37Z" changeset="100445480" uid="3200943" user="Nicky Cal"/>
+</old>
+<new>
+  <node id="8487086985" visible="true" version="1" timestamp="2021-03-04T20:46:37Z" changeset="100445480" uid="3200943" user="Nicky Cal"/>
+</new>
 </action>
 <action type="create">
   <node id="8488237845" lat="38.1873536" lon="13.2808200" version="1" timestamp="2021-03-05T08:06:48Z" changeset="100472898" uid="10596406" user="rosario_bianco1"/>
@@ -531,7 +539,7 @@
 </action>
 <action type="modify">
 <old>
-  <way id="853000938" version="1" timestamp="2020-09-29T19:35:07Z" changeset="91726803" uid="10596406" user="rosario_bianco1">
+  <way id="853000938" version="2" timestamp="2021-03-04T20:46:37Z" changeset="100445480" uid="3200943" user="Nicky Cal">
     <bounds minlat="38.1861949" minlon="13.2793257" maxlat="38.1884718" maxlon="13.2824496"/>
     <nd ref="7956136553" lat="38.1884718" lon="13.2803344"/>
     <nd ref="7956136543" lat="38.1882474" lon="13.2798773"/>
@@ -541,6 +549,7 @@
     <nd ref="7956136549" lat="38.1868191" lon="13.2795798"/>
     <nd ref="7956136548" lat="38.1866339" lon="13.2798269"/>
     <nd ref="7956136547" lat="38.1863281" lon="13.2804334"/>
+    <nd ref="8487086985" lat="38.1862807" lon="13.2806330"/>
     <nd ref="7956136546" lat="38.1861949" lon="13.2809941"/>
     <nd ref="7956136545" lat="38.1862129" lon="13.2821498"/>
     <nd ref="7956136558" lat="38.1865619" lon="13.2824496"/>
@@ -778,6 +787,7 @@
       <nd lat="38.1868191" lon="13.2795798"/>
       <nd lat="38.1866339" lon="13.2798269"/>
       <nd lat="38.1863281" lon="13.2804334"/>
+      <nd lat="38.1862807" lon="13.2806330"/>
       <nd lat="38.1861949" lon="13.2809941"/>
       <nd lat="38.1862129" lon="13.2821498"/>
       <nd lat="38.1865619" lon="13.2824496"/>
