@@ -1,15 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" lang="en"/>
-  <title>OSM3S Response</title>
-</head>
-<body>
+<osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2021-03-07T00:39:02Z" areas="2021-03-07T00:27:49Z"/>
 
-<p>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</p>
-<p><strong style="color:#FF0000">Error</strong>: runtime error: open64: 0 Success /osm3s_v0.7.55_osm_base Dispatcher_Client::request_read_and_idx::rate_limited. Please check /api/status for the quota of your IP address. </p>
+<action type="modify">
+<old>
+  <way id="476660440" version="2" timestamp="2021-03-03T01:09:18Z" changeset="100309601" uid="616481" user="gigi2037">
+    <bounds minlat="45.7160995" minlon="10.0212106" maxlat="45.7169668" maxlon="10.0226030"/>
+    <nd ref="1365390739" lat="45.7160995" lon="10.0226030"/>
+    <nd ref="1365390751" lat="45.7163200" lon="10.0219385"/>
+    <nd ref="3066574226" lat="45.7163977" lon="10.0218157"/>
+    <nd ref="8481302384" lat="45.7164307" lon="10.0217950"/>
+    <nd ref="1365390762" lat="45.7164733" lon="10.0217930"/>
+    <nd ref="8481302380" lat="45.7165609" lon="10.0217950"/>
+    <nd ref="8481302379" lat="45.7167331" lon="10.0218326"/>
+    <nd ref="1365390783" lat="45.7167930" lon="10.0218242"/>
+    <nd ref="8481302381" lat="45.7168558" lon="10.0217843"/>
+    <nd ref="1365390793" lat="45.7169163" lon="10.0217156"/>
+    <nd ref="8481302382" lat="45.7169504" lon="10.0216556"/>
+    <nd ref="8481302383" lat="45.7169644" lon="10.0215778"/>
+    <nd ref="1365390801" lat="45.7169668" lon="10.0214389"/>
+    <nd ref="1365390799" lat="45.7169585" lon="10.0212106"/>
+    <tag k="name" v="Via S. Rocco"/>
+    <tag k="highway" v="unclassified"/>
+  </way>
+</old>
+<new>
+  <way id="476660440" version="3" timestamp="2021-03-06T11:00:35Z" changeset="100530470" uid="1476146" user="Alecs01">
+    <bounds minlat="45.7160995" minlon="10.0212106" maxlat="45.7169668" maxlon="10.0226030"/>
+    <nd ref="1365390739" lat="45.7160995" lon="10.0226030"/>
+    <nd ref="1365390751" lat="45.7163200" lon="10.0219385"/>
+    <nd ref="3066574226" lat="45.7163977" lon="10.0218157"/>
+    <nd ref="8481302384" lat="45.7164307" lon="10.0217950"/>
+    <nd ref="1365390762" lat="45.7164733" lon="10.0217930"/>
+    <nd ref="8481302380" lat="45.7165609" lon="10.0217950"/>
+    <nd ref="8481302379" lat="45.7167331" lon="10.0218326"/>
+    <nd ref="1365390783" lat="45.7167930" lon="10.0218242"/>
+    <nd ref="8481302381" lat="45.7168558" lon="10.0217843"/>
+    <nd ref="1365390793" lat="45.7169163" lon="10.0217156"/>
+    <nd ref="8481302382" lat="45.7169504" lon="10.0216556"/>
+    <nd ref="8481302383" lat="45.7169644" lon="10.0215778"/>
+    <nd ref="1365390801" lat="45.7169668" lon="10.0214389"/>
+    <nd ref="1365390799" lat="45.7169585" lon="10.0212106"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Via San Rocco"/>
+  </way>
+</new>
+</action>
 
-</body>
-</html>
+</osm>
