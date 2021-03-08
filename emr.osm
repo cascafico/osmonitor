@@ -1,86 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.56.7 b85c4387">
-<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-03-08T00:35:58Z" areas="2021-03-07T23:37:43Z"/>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" lang="en"/>
+  <title>OSM3S Response</title>
+</head>
+<body>
 
-<action type="modify">
-<old>
-  <node id="7315841486" lat="44.4420869" lon="10.0330671" version="5" timestamp="2021-01-09T07:33:02Z" changeset="97201474" uid="7575034" user="CarloPro">
-    <tag k="tourism" v="information"/>
-    <tag k="ele" v="897"/>
-    <tag k="information" v="guidepost"/>
-    <tag k="name" v="Bosco di Corniglio - bivio Cirone"/>
-    <tag k="note" v="maintened by CarloPro (CAI Parma)"/>
-    <tag k="note:it" v="mantenuto da CarloPro (CAI Parma)"/>
-    <tag k="operator" v="Club Alpino Italiano Sezione di Parma"/>
-    <tag k="ref" v="A61"/>
-    <tag k="source:ref" v="9224001"/>
-  </node>
-</old>
-<new>
-  <node id="7315841486" lat="44.4420869" lon="10.0330671" version="6" timestamp="2021-03-07T20:14:32Z" changeset="100590480" uid="7575034" user="CarloPro">
-    <tag k="ele" v="897"/>
-    <tag k="information" v="guidepost"/>
-    <tag k="name" v="Bosco di Corniglio - bivio Cirone"/>
-    <tag k="note" v="maintened by CarloPro (CAI Parma)"/>
-    <tag k="note:it" v="mantenuto da CarloPro (CAI Parma)"/>
-    <tag k="operator" v="Club Alpino Italiano Sezione di Parma"/>
-    <tag k="ref" v="A61"/>
-    <tag k="source:ref" v="9224001"/>
-    <tag k="tourism" v="information"/>
-    <tag k="wikimedia_commons" v="File:It-pr-ldpA61.jpg"/>
-  </node>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="278602316" version="1" timestamp="2014-05-01T16:49:20Z" changeset="22067936" uid="1856863" user="aletadol">
-    <bounds minlat="44.3999287" minlon="11.1130657" maxlat="44.4005554" maxlon="11.1130865"/>
-    <nd ref="2823461646" lat="44.4005554" lon="11.1130657"/>
-    <nd ref="831038212" lat="44.4003010" lon="11.1130750"/>
-    <nd ref="831040434" lat="44.3999287" lon="11.1130865"/>
-    <tag k="name" v="Via Pompilio Nanni"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="fixme" v="name"/>
-  </way>
-</old>
-<new>
-  <way id="278602316" version="3" timestamp="2021-03-07T22:10:20Z" changeset="100593978" uid="12409659" user="Pollastro99">
-    <bounds minlat="44.3999287" minlon="11.1130657" maxlat="44.4005554" maxlon="11.1130865"/>
-    <nd ref="2823461646" lat="44.4005554" lon="11.1130657"/>
-    <nd ref="831038212" lat="44.4003010" lon="11.1130750"/>
-    <nd ref="831040434" lat="44.3999287" lon="11.1130865"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="fixme" v="name"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="name" v="Via Pompilio Nanni"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="757323854" version="1" timestamp="2019-12-20T15:33:05Z" changeset="78689538" uid="13591" user="lucadelu">
-    <bounds minlat="44.3291420" minlon="11.0866871" maxlat="44.3294206" maxlon="11.0873665"/>
-    <nd ref="1955081907" lat="44.3291420" lon="11.0873665"/>
-    <nd ref="1955081928" lat="44.3292856" lon="11.0870864"/>
-    <nd ref="1955081939" lat="44.3294206" lon="11.0866871"/>
-    <tag k="name" v="Via Rodiano"/>
-    <tag k="highway" v="tertiary"/>
-  </way>
-</old>
-<new>
-  <way id="757323854" version="3" timestamp="2021-03-07T19:58:05Z" changeset="100589922" uid="12409659" user="Pollastro99">
-    <bounds minlat="44.3291420" minlon="11.0866871" maxlat="44.3294206" maxlon="11.0873665"/>
-    <nd ref="1955081907" lat="44.3291420" lon="11.0873665"/>
-    <nd ref="1955081928" lat="44.3292856" lon="11.0870864"/>
-    <nd ref="1955081939" lat="44.3294206" lon="11.0866871"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="name" v="Via Rodiano"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
+<p>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</p>
+<p><strong style="color:#FF0000">Error</strong>: runtime error: open64: 0 Success /osm3s_v0.7.55_osm_base Dispatcher_Client::request_read_and_idx::rate_limited. Please check /api/status for the quota of your IP address. </p>
 
-</osm>
+</body>
+</html>
