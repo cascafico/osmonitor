@@ -89,6 +89,7 @@ curl -G 'http://overpass-api.de/api/interpreter' --data-urlencode 'data=[out:xml
 # no report if no modifications
 if  [ `cat $AREANAME.osm | grep action | wc -l` == 0 ]
 then
+   rm -f $AREANAME.osm
    exit    
 fi
 
