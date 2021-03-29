@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-03-29T00:44:58Z" areas="2021-03-28T23:55:07Z"/>
+<meta osm_base="2021-03-29T12:23:10Z" areas="2021-03-29T11:57:57Z"/>
 
 <action type="modify">
 <old>
@@ -75,6 +75,55 @@
     <tag k="mtb:scale:uphill" v="2"/>
     <tag k="surface" v="ground"/>
     <tag k="tracktype" v="grade3"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="246998540" version="3" timestamp="2019-10-04T12:19:46Z" changeset="75281407" uid="10127559" user="Aldeyde">
+    <bounds minlat="44.3952043" minlon="11.2779092" maxlat="44.3997099" maxlon="11.2795196"/>
+    <nd ref="419284792" lat="44.3997099" lon="11.2779092"/>
+    <nd ref="419284793" lat="44.3994932" lon="11.2780227"/>
+    <nd ref="6851306823" lat="44.3988233" lon="11.2784237"/>
+    <nd ref="2374208338" lat="44.3987495" lon="11.2784679"/>
+    <nd ref="419284794" lat="44.3980077" lon="11.2789254"/>
+    <nd ref="2374210808" lat="44.3976719" lon="11.2791753"/>
+    <nd ref="2374210806" lat="44.3975175" lon="11.2792731"/>
+    <nd ref="419284795" lat="44.3973629" lon="11.2793578"/>
+    <nd ref="419284796" lat="44.3971075" lon="11.2794492"/>
+    <nd ref="2374210804" lat="44.3969698" lon="11.2794801"/>
+    <nd ref="419284797" lat="44.3968262" lon="11.2794915"/>
+    <nd ref="419284798" lat="44.3964096" lon="11.2794822"/>
+    <nd ref="419284799" lat="44.3956395" lon="11.2795196"/>
+    <nd ref="336777668" lat="44.3952043" lon="11.2795177"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Via Vizzano"/>
+  </way>
+</old>
+<new>
+  <way id="246998540" version="4" timestamp="2021-03-29T08:37:08Z" changeset="101906219" uid="12409659" user="Pollastro99">
+    <bounds minlat="44.3952043" minlon="11.2779092" maxlat="44.3997099" maxlon="11.2795196"/>
+    <nd ref="419284792" lat="44.3997099" lon="11.2779092"/>
+    <nd ref="419284793" lat="44.3994932" lon="11.2780227"/>
+    <nd ref="6851306823" lat="44.3988233" lon="11.2784237"/>
+    <nd ref="2374208338" lat="44.3987495" lon="11.2784679"/>
+    <nd ref="419284794" lat="44.3980077" lon="11.2789254"/>
+    <nd ref="2374210808" lat="44.3976719" lon="11.2791753"/>
+    <nd ref="2374210806" lat="44.3975175" lon="11.2792731"/>
+    <nd ref="419284795" lat="44.3973629" lon="11.2793578"/>
+    <nd ref="419284796" lat="44.3971075" lon="11.2794492"/>
+    <nd ref="2374210804" lat="44.3969698" lon="11.2794801"/>
+    <nd ref="419284797" lat="44.3968262" lon="11.2794915"/>
+    <nd ref="419284798" lat="44.3964096" lon="11.2794822"/>
+    <nd ref="419284799" lat="44.3956395" lon="11.2795196"/>
+    <nd ref="336777668" lat="44.3952043" lon="11.2795177"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Via Vizzano"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </new>
 </action>
