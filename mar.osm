@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2021-05-02T00:41:58Z" areas="2021-05-01T23:51:10Z"/>
+
+<action type="modify">
+<old>
+  <way id="208496974" version="1" timestamp="2013-03-06T00:32:55Z" changeset="15265213" uid="160229" user="sorcrosc">
+    <bounds minlat="43.7047342" minlon="12.7496579" maxlat="43.7049093" maxlon="12.7500146"/>
+    <nd ref="667377460" lat="43.7049093" lon="12.7496579"/>
+    <nd ref="1217815560" lat="43.7047997" lon="12.7497551"/>
+    <nd ref="504170333" lat="43.7047360" lon="12.7498759"/>
+    <nd ref="1217815593" lat="43.7047342" lon="12.7500146"/>
+    <tag k="name" v="Strada Provinciale delle Cesane"/>
+    <tag k="ref" v="SP51"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="208496974" version="2" timestamp="2021-05-01T17:07:46Z" changeset="103966263" uid="160229" user="sorcrosc">
+    <bounds minlat="43.7047342" minlon="12.7496579" maxlat="43.7049093" maxlon="12.7500146"/>
+    <nd ref="667377460" lat="43.7049093" lon="12.7496579"/>
+    <nd ref="1217815560" lat="43.7047997" lon="12.7497551"/>
+    <nd ref="504170333" lat="43.7047360" lon="12.7498759"/>
+    <nd ref="1217815593" lat="43.7047342" lon="12.7500146"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Strada Provinciale 51 Cesane"/>
+    <tag k="ref" v="SP51"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="515529017" version="1" timestamp="2017-08-14T11:47:27Z" changeset="51108831" uid="2352517" user="carths81">
+    <bounds minlat="43.7145339" minlon="12.7295364" maxlat="43.7145848" maxlon="12.7295382"/>
+    <nd ref="5034412005" lat="43.7145848" lon="12.7295364"/>
+    <nd ref="391031927" lat="43.7145339" lon="12.7295382"/>
+    <tag k="name" v="Strada Provinciale delle Cesane"/>
+    <tag k="ref" v="SP51"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="515529017" version="2" timestamp="2021-05-01T17:07:46Z" changeset="103966263" uid="160229" user="sorcrosc">
+    <bounds minlat="43.7145339" minlon="12.7295364" maxlat="43.7145848" maxlon="12.7295382"/>
+    <nd ref="5034412005" lat="43.7145848" lon="12.7295364"/>
+    <nd ref="391031927" lat="43.7145339" lon="12.7295382"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Strada Provinciale 51 Cesane"/>
+    <tag k="ref" v="SP51"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="515593217" version="1" timestamp="2017-08-14T15:46:23Z" changeset="51114604" uid="2352517" user="carths81">
+    <bounds minlat="43.6934951" minlon="12.7783757" maxlat="43.6935906" maxlon="12.7784179"/>
+    <nd ref="583273617" lat="43.6934951" lon="12.7783757"/>
+    <nd ref="534674287" lat="43.6935375" lon="12.7784114"/>
+    <nd ref="5034901707" lat="43.6935906" lon="12.7784179"/>
+    <tag k="name" v="Strada Provinciale delle Cesane"/>
+    <tag k="ref" v="SP51"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="width" v="2.5"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="515593217" version="2" timestamp="2021-05-01T17:07:46Z" changeset="103966263" uid="160229" user="sorcrosc">
+    <bounds minlat="43.6934951" minlon="12.7783757" maxlat="43.6935906" maxlon="12.7784179"/>
+    <nd ref="583273617" lat="43.6934951" lon="12.7783757"/>
+    <nd ref="534674287" lat="43.6935375" lon="12.7784114"/>
+    <nd ref="5034901707" lat="43.6935906" lon="12.7784179"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Via Cesane"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
