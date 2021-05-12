@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2021-05-12T00:24:56Z" areas="2021-05-11T23:36:58Z"/>
+
+<action type="modify">
+<old>
+  <way id="40822813" version="3" timestamp="2013-09-14T23:11:53Z" changeset="17841933" uid="151809" user="carlobenini">
+    <bounds minlat="45.8111092" minlon="10.5448138" maxlat="45.8116080" maxlon="10.5456825"/>
+    <nd ref="458745945" lat="45.8111092" lon="10.5448138"/>
+    <nd ref="2458652783" lat="45.8112319" lon="10.5450275"/>
+    <nd ref="496407624" lat="45.8116080" lon="10.5456825"/>
+    <tag k="source" v="Comune di Storo"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="loc_ref" v="SP69"/>
+    <tag k="ref" v="SP69"/>
+  </way>
+</old>
+<new>
+  <way id="40822813" version="4" timestamp="2021-05-11T09:11:01Z" changeset="104500286" uid="7007430" user="genk87">
+    <bounds minlat="45.8111092" minlon="10.5448138" maxlat="45.8116080" maxlon="10.5456825"/>
+    <nd ref="458745945" lat="45.8111092" lon="10.5448138"/>
+    <nd ref="2458652783" lat="45.8112319" lon="10.5450275"/>
+    <nd ref="496407624" lat="45.8116080" lon="10.5456825"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="loc_ref" v="SP69"/>
+    <tag k="name" v="Via Aldo Sette"/>
+    <tag k="ref" v="SP69"/>
+    <tag k="source" v="Comune di Storo"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="893405562" version="1" timestamp="2021-01-08T18:05:39Z" changeset="97184562" uid="6408564" user="amadvance">
+    <bounds minlat="45.7689365" minlon="9.8066997" maxlat="45.7690616" maxlon="9.8070001"/>
+    <nd ref="626565960" lat="45.7690616" lon="9.8070001"/>
+    <nd ref="4575247581" lat="45.7690288" lon="9.8068650"/>
+    <nd ref="626565959" lat="45.7689365" lon="9.8066997"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Via 4 novembre"/>
+  </way>
+</old>
+<new>
+  <way id="893405562" version="2" timestamp="2021-05-11T16:09:38Z" changeset="104523540" uid="11220113" user="ivanbranco">
+    <bounds minlat="45.7689365" minlon="9.8066997" maxlat="45.7690616" maxlon="9.8070001"/>
+    <nd ref="626565960" lat="45.7690616" lon="9.8070001"/>
+    <nd ref="4575247581" lat="45.7690288" lon="9.8068650"/>
+    <nd ref="626565959" lat="45.7689365" lon="9.8066997"/>
+    <tag k="alt_name" v="Via IV Novembre"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Via Quattro Novembre"/>
+    <tag k="short_name" v="Via 4 Novembre"/>
+  </way>
+</new>
+</action>
+
+</osm>
