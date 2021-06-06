@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2021-06-06T00:47:59Z" areas="2021-06-06T00:23:39Z"/>
+
+<action type="delete">
+<old>
+  <node id="1385976488" lat="44.1363282" lon="10.8713114" version="3" timestamp="2016-05-19T02:58:22Z" changeset="39414444" uid="3965452" user="LOLAFOX"/>
+</old>
+<new>
+  <node id="1385976488" visible="true" version="3" timestamp="2016-05-19T02:58:22Z" changeset="39414444" uid="3965452" user="LOLAFOX"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="3635633412" lat="44.1362096" lon="10.8713327" version="2" timestamp="2016-05-19T02:58:22Z" changeset="39414444" uid="3965452" user="LOLAFOX"/>
+</old>
+<new>
+  <node id="3635633412" visible="true" version="2" timestamp="2016-05-19T02:58:22Z" changeset="39414444" uid="3965452" user="LOLAFOX"/>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="7321139842" lat="44.3963511" lon="10.0327685" version="2" timestamp="2021-01-09T16:09:45Z" changeset="97218658" uid="7575034" user="CarloPro">
+    <tag k="tourism" v="information"/>
+    <tag k="ele" v="1525"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="name" v="quota 1525"/>
+    <tag k="note" v="maintened by CarloPro (CAI Parma)"/>
+    <tag k="note:it" v="mantenuto da CarloPro (CAI Parma)"/>
+    <tag k="operator" v="Provincia di Parma"/>
+    <tag k="ref" v="B66"/>
+    <tag k="source:ref" v="9224001"/>
+  </node>
+</old>
+<new>
+  <node id="7321139842" lat="44.3963511" lon="10.0327685" version="3" timestamp="2021-06-05T04:55:10Z" changeset="105867736" uid="7575034" user="CarloPro">
+    <tag k="ele" v="1525"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="name" v="quota 1525"/>
+    <tag k="note" v="maintened by CarloPro (CAI Parma)"/>
+    <tag k="note:it" v="mantenuto da CarloPro (CAI Parma)"/>
+    <tag k="operator" v="Provincia di Parma"/>
+    <tag k="ref" v="B66"/>
+    <tag k="source:ref" v="9224001"/>
+    <tag k="tourism" v="information"/>
+    <tag k="wikimedia_commons" v="File:It-pr-ldpB66.jpg"/>
+  </node>
+</new>
+</action>
+<action type="delete">
+<old>
+  <way id="419366510" version="3" timestamp="2017-05-02T08:54:54Z" changeset="48328399" uid="4022573" user="Lola Fox">
+    <bounds minlat="44.1362096" minlon="10.8713114" maxlat="44.1363282" maxlon="10.8713327"/>
+    <nd ref="1385976488" lat="44.1363282" lon="10.8713114"/>
+    <nd ref="3635633412" lat="44.1362096" lon="10.8713327"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Via Roma - Ponte della Spescia"/>
+    <tag k="trail_visibility" v="excellent"/>
+  </way>
+</old>
+<new>
+  <way id="419366510" visible="true" version="3" timestamp="2017-05-02T08:54:54Z" changeset="48328399" uid="4022573" user="Lola Fox"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <relation id="2317389" version="11" timestamp="2017-10-03T17:36:45Z" changeset="52602825" uid="4022573" user="Lola Fox">
+    <bounds minlat="44.1362096" minlon="10.8713114" maxlat="44.1363282" maxlon="10.8713327"/>
+    <member type="way" ref="419366510" role="">
+      <nd lat="44.1363282" lon="10.8713114"/>
+      <nd lat="44.1362096" lon="10.8713327"/>
+    </member>
+    <tag k="network" v="lwn"/>
+    <tag k="operator" v="Club Alpino Italiano"/>
+    <tag k="osmc:symbol" v="red:red:white_bar:121:black"/>
+    <tag k="ref" v="121"/>
+    <tag k="route" v="hiking"/>
+    <tag k="type" v="route"/>
+  </relation>
+</old>
+<new>
+  <relation id="2317389" visible="false" version="12" timestamp="2021-06-05T19:29:31Z" changeset="105895297" uid="5641976" user="MauroL"/>
+</new>
+</action>
+
+</osm>
