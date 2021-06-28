@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2021-06-28T00:30:23Z" areas="2021-06-28T00:14:59Z"/>
+
+<action type="modify">
+<old>
+  <node id="843262966" lat="44.1686981" lon="11.2588482" version="6" timestamp="2019-11-21T10:27:47Z" changeset="77368956" uid="10127559" user="Aldeyde">
+    <tag k="name" v="Bivio delle Guardie;CAI 919"/>
+    <tag k="natural" v="saddle"/>
+    <tag k="ele" v="1060"/>
+    <tag k="highway" v="trailhead"/>
+    <tag k="operator" v="CAI Bologna"/>
+  </node>
+</old>
+<new>
+  <node id="843262966" lat="44.1686981" lon="11.2588482" version="7" timestamp="2021-06-27T21:40:41Z" changeset="107052072" uid="11329839" user="giuliobranchetti">
+    <tag k="ele" v="1060"/>
+    <tag k="highway" v="trailhead"/>
+    <tag k="name" v="CAI 919"/>
+    <tag k="operator" v="CAI Bologna"/>
+  </node>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="7786994555" lat="44.1687002" lon="11.2588461" version="1" timestamp="2020-08-05T09:56:46Z" changeset="88973751" uid="10127559" user="Aldeyde">
+    <tag k="ele" v="1060"/>
+    <tag k="name" v="Bivio delle Guardie"/>
+    <tag k="natural" v="saddle"/>
+  </node>
+</old>
+<new>
+  <node id="7786994555" visible="false" version="2" timestamp="2021-06-27T21:40:41Z" changeset="107052072" uid="11329839" user="giuliobranchetti"/>
+</new>
+</action>
+<action type="create">
+  <node id="8870613375" lat="44.1687002" lon="11.2588461" version="1" timestamp="2021-06-27T21:40:41Z" changeset="107052072" uid="11329839" user="giuliobranchetti">
+    <tag k="ele" v="1060"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Bivio delle Guardie"/>
+    <tag k="natural" v="saddle"/>
+  </node>
+</action>
+<action type="modify">
+<old>
+  <way id="702148842" version="5" timestamp="2020-08-05T09:56:46Z" changeset="88973751" uid="10127559" user="Aldeyde">
+    <bounds minlat="44.1686981" minlon="11.2553875" maxlat="44.1736151" maxlon="11.2588482"/>
+    <nd ref="1806455922" lat="44.1736151" lon="11.2553875"/>
+    <nd ref="5853400607" lat="44.1734630" lon="11.2555280"/>
+    <nd ref="1806455909" lat="44.1733004" lon="11.2556461"/>
+    <nd ref="1806455925" lat="44.1730351" lon="11.2558314"/>
+    <nd ref="5853400606" lat="44.1729849" lon="11.2558365"/>
+    <nd ref="1806455923" lat="44.1728936" lon="11.2558325"/>
+    <nd ref="5853400605" lat="44.1726925" lon="11.2558191"/>
+    <nd ref="1806455916" lat="44.1725416" lon="11.2558260"/>
+    <nd ref="1806455913" lat="44.1724165" lon="11.2558848"/>
+    <nd ref="1806455926" lat="44.1722837" lon="11.2561718"/>
+    <nd ref="5853400604" lat="44.1721789" lon="11.2564051"/>
+    <nd ref="1806455911" lat="44.1720605" lon="11.2566439"/>
+    <nd ref="1806455944" lat="44.1719788" lon="11.2567779"/>
+    <nd ref="1806455915" lat="44.1718374" lon="11.2570354"/>
+    <nd ref="1806455912" lat="44.1716163" lon="11.2573656"/>
+    <nd ref="5853400603" lat="44.1714959" lon="11.2575611"/>
+    <nd ref="1806455905" lat="44.1713903" lon="11.2577023"/>
+    <nd ref="5853400602" lat="44.1711458" lon="11.2578776"/>
+    <nd ref="1806455921" lat="44.1708188" lon="11.2580466"/>
+    <nd ref="1806455919" lat="44.1703811" lon="11.2582076"/>
+    <nd ref="1806455908" lat="44.1698482" lon="11.2583149"/>
+    <nd ref="1806455906" lat="44.1696915" lon="11.2583714"/>
+    <nd ref="1806455904" lat="44.1695076" lon="11.2583685"/>
+    <nd ref="1806455910" lat="44.1693163" lon="11.2583580"/>
+    <nd ref="1806455902" lat="44.1692143" lon="11.2583849"/>
+    <nd ref="1806455899" lat="44.1691201" lon="11.2584170"/>
+    <nd ref="1806455914" lat="44.1690401" lon="11.2584865"/>
+    <nd ref="1806455946" lat="44.1689296" lon="11.2585431"/>
+    <nd ref="1806455945" lat="44.1688103" lon="11.2587362"/>
+    <nd ref="7786994555" lat="44.1687002" lon="11.2588461"/>
+    <nd ref="843262966" lat="44.1686981" lon="11.2588482"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Via Monte delle Rose"/>
+    <tag k="tracktype" v="grade3"/>
+  </way>
+</old>
+<new>
+  <way id="702148842" version="6" timestamp="2021-06-27T21:40:41Z" changeset="107052072" uid="11329839" user="giuliobranchetti">
+    <bounds minlat="44.1686981" minlon="11.2553875" maxlat="44.1736151" maxlon="11.2588482"/>
+    <nd ref="1806455922" lat="44.1736151" lon="11.2553875"/>
+    <nd ref="5853400607" lat="44.1734630" lon="11.2555280"/>
+    <nd ref="1806455909" lat="44.1733004" lon="11.2556461"/>
+    <nd ref="1806455925" lat="44.1730351" lon="11.2558314"/>
+    <nd ref="5853400606" lat="44.1729849" lon="11.2558365"/>
+    <nd ref="1806455923" lat="44.1728936" lon="11.2558325"/>
+    <nd ref="5853400605" lat="44.1726925" lon="11.2558191"/>
+    <nd ref="1806455916" lat="44.1725416" lon="11.2558260"/>
+    <nd ref="1806455913" lat="44.1724165" lon="11.2558848"/>
+    <nd ref="1806455926" lat="44.1722837" lon="11.2561718"/>
+    <nd ref="5853400604" lat="44.1721789" lon="11.2564051"/>
+    <nd ref="1806455911" lat="44.1720605" lon="11.2566439"/>
+    <nd ref="1806455944" lat="44.1719788" lon="11.2567779"/>
+    <nd ref="1806455915" lat="44.1718374" lon="11.2570354"/>
+    <nd ref="1806455912" lat="44.1716163" lon="11.2573656"/>
+    <nd ref="5853400603" lat="44.1714959" lon="11.2575611"/>
+    <nd ref="1806455905" lat="44.1713903" lon="11.2577023"/>
+    <nd ref="5853400602" lat="44.1711458" lon="11.2578776"/>
+    <nd ref="1806455921" lat="44.1708188" lon="11.2580466"/>
+    <nd ref="1806455919" lat="44.1703811" lon="11.2582076"/>
+    <nd ref="1806455908" lat="44.1698482" lon="11.2583149"/>
+    <nd ref="1806455906" lat="44.1696915" lon="11.2583714"/>
+    <nd ref="1806455904" lat="44.1695076" lon="11.2583685"/>
+    <nd ref="1806455910" lat="44.1693163" lon="11.2583580"/>
+    <nd ref="1806455902" lat="44.1692143" lon="11.2583849"/>
+    <nd ref="1806455899" lat="44.1691201" lon="11.2584170"/>
+    <nd ref="1806455914" lat="44.1690401" lon="11.2584865"/>
+    <nd ref="1806455946" lat="44.1689296" lon="11.2585431"/>
+    <nd ref="1806455945" lat="44.1688103" lon="11.2587362"/>
+    <nd ref="8870613375" lat="44.1687002" lon="11.2588461"/>
+    <nd ref="843262966" lat="44.1686981" lon="11.2588482"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Via Monte delle Rose"/>
+    <tag k="tracktype" v="grade3"/>
+  </way>
+</new>
+</action>
+
+</osm>
