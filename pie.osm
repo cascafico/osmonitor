@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2021-07-14T00:28:34Z" areas="2021-07-13T23:50:51Z"/>
+
+<action type="modify">
+<old>
+  <way id="196794547" version="4" timestamp="2015-07-25T09:00:22Z" changeset="32866762" uid="217070" user="Davlak">
+    <bounds minlat="44.1772968" minlon="8.0470827" maxlat="44.1773406" maxlon="8.0473792"/>
+    <nd ref="872244018" lat="44.1773128" lon="8.0470827"/>
+    <nd ref="392242775" lat="44.1773358" lon="8.0471714"/>
+    <nd ref="2343897859" lat="44.1773406" lon="8.0472448"/>
+    <nd ref="2343897858" lat="44.1773273" lon="8.0473261"/>
+    <nd ref="872244548" lat="44.1772968" lon="8.0473792"/>
+    <tag k="name" v="Strada provinciale del Colle di San Bernardo"/>
+    <tag k="ref" v="SP582"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="source" v="PCN"/>
+  </way>
+</old>
+<new>
+  <way id="196794547" version="5" timestamp="2021-07-13T15:49:20Z" changeset="107921279" uid="7022500" user="lorenzo2002">
+    <bounds minlat="44.1772968" minlon="8.0470827" maxlat="44.1773406" maxlon="8.0473792"/>
+    <nd ref="872244018" lat="44.1773128" lon="8.0470827"/>
+    <nd ref="392242775" lat="44.1773358" lon="8.0471714"/>
+    <nd ref="2343897859" lat="44.1773406" lon="8.0472448"/>
+    <nd ref="2343897858" lat="44.1773273" lon="8.0473261"/>
+    <nd ref="872244548" lat="44.1772968" lon="8.0473792"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Strada statale del Colle di San Bernardo"/>
+    <tag k="ref" v="SS582"/>
+    <tag k="source" v="PCN"/>
+  </way>
+</new>
+</action>
+
+</osm>
