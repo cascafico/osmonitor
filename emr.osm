@@ -1,102 +1,453 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2021-08-08T00:30:48Z" areas="2021-08-08T00:24:44Z"/>
+<meta osm_base="2021-08-09T00:32:12Z" areas="2021-08-08T23:51:30Z"/>
 
 <action type="modify">
 <old>
-  <node id="7315961271" lat="44.4262171" lon="10.0224198" version="6" timestamp="2021-05-20T05:28:26Z" changeset="104997474" uid="7575034" user="CarloPro">
-    <tag k="commons" v="File:It-pr-ldpA66.jpg"/>
-    <tag k="tourism" v="information"/>
-    <tag k="ele" v="1150"/>
-    <tag k="hiking" v="yes"/>
-    <tag k="information" v="guidepost"/>
-    <tag k="name" v="Costa Banciola - strada SUD"/>
-    <tag k="note" v="maintened by CarloPro (CAI Parma)"/>
-    <tag k="note:it" v="mantenuto da CarloPro (CAI Parma)"/>
-    <tag k="operator" v="Club Alpino Italiano Sezione di Parma"/>
-    <tag k="ref" v="A66"/>
-    <tag k="source:ref" v="9224001"/>
-  </node>
+  <node id="5853838827" lat="44.4638885" lon="11.3932202" version="1" timestamp="2018-08-24T14:29:09Z" changeset="61960883" uid="8689092" user="ngrlcu"/>
 </old>
 <new>
-  <node id="7315961271" lat="44.4262171" lon="10.0224198" version="7" timestamp="2021-08-07T21:24:12Z" changeset="109326205" uid="7575034" user="CarloPro">
-    <tag k="ele" v="1150"/>
-    <tag k="hiking" v="yes"/>
-    <tag k="information" v="guidepost"/>
-    <tag k="name" v="Costa Banciola - strada SUD"/>
-    <tag k="note" v="maintened by CarloPro (CAI Parma)"/>
-    <tag k="note:it" v="mantenuto da CarloPro (CAI Parma)"/>
-    <tag k="operator" v="Club Alpino Italiano Sezione di Parma"/>
-    <tag k="ref" v="A66"/>
-    <tag k="source:ref" v="9224001"/>
-    <tag k="tourism" v="information"/>
-    <tag k="wikimedia_commons" v="File:It-pr-ldpA66.jpg"/>
+  <node id="5853838827" lat="44.4638885" lon="11.3932202" version="2" timestamp="2021-08-08T21:48:57Z" changeset="109364713" uid="8689092" user="ngrlcu">
+    <tag k="crossing" v="marked"/>
+    <tag k="highway" v="crossing"/>
   </node>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="44509496" version="14" timestamp="2019-02-24T17:43:22Z" changeset="67523639" uid="3455425" user="Matteo Calosi">
-    <bounds minlat="43.7940994" minlon="11.9148509" maxlat="43.7974538" maxlon="11.9215271"/>
-    <nd ref="101513809" lat="43.7974538" lon="11.9148509"/>
-    <nd ref="2019753742" lat="43.7974101" lon="11.9149462"/>
-    <nd ref="565503207" lat="43.7973800" lon="11.9150200"/>
-    <nd ref="565503208" lat="43.7971900" lon="11.9157200"/>
-    <nd ref="565503209" lat="43.7969500" lon="11.9160900"/>
-    <nd ref="565503210" lat="43.7967416" lon="11.9161709"/>
-    <nd ref="565503211" lat="43.7961159" lon="11.9164629"/>
-    <nd ref="565503212" lat="43.7959469" lon="11.9167028"/>
-    <nd ref="565503213" lat="43.7957279" lon="11.9173508"/>
-    <nd ref="565503214" lat="43.7953717" lon="11.9178007"/>
-    <nd ref="3645865174" lat="43.7950886" lon="11.9178872"/>
-    <nd ref="565503215" lat="43.7947450" lon="11.9179865"/>
-    <nd ref="565503216" lat="43.7946497" lon="11.9180732"/>
-    <nd ref="565503217" lat="43.7944313" lon="11.9183543"/>
-    <nd ref="565503218" lat="43.7941765" lon="11.9189756"/>
-    <nd ref="565503219" lat="43.7940994" lon="11.9196102"/>
-    <nd ref="565503220" lat="43.7941319" lon="11.9200928"/>
-    <nd ref="565503221" lat="43.7941600" lon="11.9207000"/>
-    <nd ref="565503222" lat="43.7941367" lon="11.9208949"/>
-    <nd ref="641283490" lat="43.7941313" lon="11.9215271"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="foot" v="permissive"/>
-    <tag k="highway" v="path"/>
-    <tag k="mtb:scale" v="1"/>
-    <tag k="sac_scale" v="hiking"/>
+  <way id="39863326" version="4" timestamp="2013-05-12T16:17:54Z" changeset="16098122" uid="466984" user="FStefani">
+    <bounds minlat="44.0909192" minlon="11.1625294" maxlat="44.0927122" maxlon="11.1640195"/>
+    <nd ref="478112777" lat="44.0927122" lon="11.1625294"/>
+    <nd ref="478112779" lat="44.0925322" lon="11.1627147"/>
+    <nd ref="478112763" lat="44.0924449" lon="11.1628364"/>
+    <nd ref="478112762" lat="44.0921050" lon="11.1630641"/>
+    <nd ref="478112760" lat="44.0919680" lon="11.1631470"/>
+    <nd ref="478112759" lat="44.0918100" lon="11.1632565"/>
+    <nd ref="478112757" lat="44.0917200" lon="11.1633020"/>
+    <nd ref="478112756" lat="44.0915900" lon="11.1634280"/>
+    <nd ref="478112754" lat="44.0914680" lon="11.1635130"/>
+    <nd ref="478112752" lat="44.0912010" lon="11.1636820"/>
+    <nd ref="478112776" lat="44.0909192" lon="11.1640195"/>
+    <tag k="highway" v="residential"/>
     <tag k="surface" v="ground"/>
-    <tag k="trail_visibility" v="excellent"/>
   </way>
 </old>
 <new>
-  <way id="44509496" version="15" timestamp="2021-08-07T23:27:21Z" changeset="109328418" uid="7078274" user="gabriele_sani">
-    <bounds minlat="43.7940994" minlon="11.9148509" maxlat="43.7974538" maxlon="11.9215271"/>
-    <nd ref="101513809" lat="43.7974538" lon="11.9148509"/>
-    <nd ref="2019753742" lat="43.7974101" lon="11.9149462"/>
-    <nd ref="565503207" lat="43.7973800" lon="11.9150200"/>
-    <nd ref="565503208" lat="43.7971900" lon="11.9157200"/>
-    <nd ref="565503209" lat="43.7969500" lon="11.9160900"/>
-    <nd ref="565503210" lat="43.7967416" lon="11.9161709"/>
-    <nd ref="565503211" lat="43.7961159" lon="11.9164629"/>
-    <nd ref="565503212" lat="43.7959469" lon="11.9167028"/>
-    <nd ref="565503213" lat="43.7957279" lon="11.9173508"/>
-    <nd ref="565503214" lat="43.7953717" lon="11.9178007"/>
-    <nd ref="3645865174" lat="43.7950886" lon="11.9178872"/>
-    <nd ref="565503215" lat="43.7947450" lon="11.9179865"/>
-    <nd ref="565503216" lat="43.7946497" lon="11.9180732"/>
-    <nd ref="565503217" lat="43.7944313" lon="11.9183543"/>
-    <nd ref="565503218" lat="43.7941765" lon="11.9189756"/>
-    <nd ref="565503219" lat="43.7940994" lon="11.9196102"/>
-    <nd ref="565503220" lat="43.7941319" lon="11.9200928"/>
-    <nd ref="565503221" lat="43.7941600" lon="11.9207000"/>
-    <nd ref="565503222" lat="43.7941367" lon="11.9208949"/>
-    <nd ref="641283490" lat="43.7941313" lon="11.9215271"/>
-    <tag k="foot" v="permissive"/>
-    <tag k="highway" v="path"/>
-    <tag k="mtb:scale" v="1"/>
-    <tag k="sac_scale" v="hiking"/>
+  <way id="39863326" version="5" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0909192" minlon="11.1625294" maxlat="44.0927122" maxlon="11.1640195"/>
+    <nd ref="478112777" lat="44.0927122" lon="11.1625294"/>
+    <nd ref="478112779" lat="44.0925322" lon="11.1627147"/>
+    <nd ref="478112763" lat="44.0924449" lon="11.1628364"/>
+    <nd ref="478112762" lat="44.0921050" lon="11.1630641"/>
+    <nd ref="478112760" lat="44.0919680" lon="11.1631470"/>
+    <nd ref="478112759" lat="44.0918100" lon="11.1632565"/>
+    <nd ref="478112757" lat="44.0917200" lon="11.1633020"/>
+    <nd ref="478112756" lat="44.0915900" lon="11.1634280"/>
+    <nd ref="478112754" lat="44.0914680" lon="11.1635130"/>
+    <nd ref="478112752" lat="44.0912010" lon="11.1636820"/>
+    <nd ref="478112776" lat="44.0909192" lon="11.1640195"/>
+    <tag k="highway" v="track"/>
     <tag k="surface" v="ground"/>
-    <tag k="trail_visibility" v="excellent"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="170578647" version="4" timestamp="2020-05-24T16:32:56Z" changeset="85688130" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0941068" minlon="11.2766436" maxlat="44.0941859" maxlon="11.2768871"/>
+    <nd ref="1817520078" lat="44.0941068" lon="11.2768871"/>
+    <nd ref="1817520081" lat="44.0941316" lon="11.2767590"/>
+    <nd ref="1817520082" lat="44.0941564" lon="11.2766837"/>
+    <nd ref="486576511" lat="44.0941859" lon="11.2766436"/>
+    <tag k="lanes" v="2"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="SS65"/>
+  </way>
+</old>
+<new>
+  <way id="170578647" version="5" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0941068" minlon="11.2766436" maxlat="44.0941859" maxlon="11.2768871"/>
+    <nd ref="1817520078" lat="44.0941068" lon="11.2768871"/>
+    <nd ref="1817520081" lat="44.0941316" lon="11.2767590"/>
+    <nd ref="1817520082" lat="44.0941564" lon="11.2766837"/>
+    <nd ref="486576511" lat="44.0941859" lon="11.2766436"/>
+    <tag k="highway" v="primary"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="it:Strada statale 65 della Futa"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="170578648" version="3" timestamp="2020-05-24T16:32:56Z" changeset="85688130" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0940425" minlon="11.2766190" maxlat="44.0941068" maxlon="11.2768871"/>
+    <nd ref="1817520073" lat="44.0940425" lon="11.2766190"/>
+    <nd ref="1817520075" lat="44.0940845" lon="11.2767059"/>
+    <nd ref="1817520077" lat="44.0941035" lon="11.2767862"/>
+    <nd ref="1817520078" lat="44.0941068" lon="11.2768871"/>
+    <tag k="lanes" v="2"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="primary"/>
+    <tag k="nat_ref" v="SS65"/>
+  </way>
+</old>
+<new>
+  <way id="170578648" version="4" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0940425" minlon="11.2766190" maxlat="44.0941068" maxlon="11.2768871"/>
+    <nd ref="1817520073" lat="44.0940425" lon="11.2766190"/>
+    <nd ref="1817520075" lat="44.0940845" lon="11.2767059"/>
+    <nd ref="1817520077" lat="44.0941035" lon="11.2767862"/>
+    <nd ref="1817520078" lat="44.0941068" lon="11.2768871"/>
+    <tag k="highway" v="primary"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="it:Strada statale 65 della Futa"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="170578657" version="4" timestamp="2020-05-24T16:32:56Z" changeset="85688130" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0934928" minlon="11.2768871" maxlat="44.0941068" maxlon="11.2782339"/>
+    <nd ref="1817520078" lat="44.0941068" lon="11.2768871"/>
+    <nd ref="1817520076" lat="44.0940898" lon="11.2769700"/>
+    <nd ref="88288994" lat="44.0940514" lon="11.2770865"/>
+    <nd ref="88285351" lat="44.0938295" lon="11.2776278"/>
+    <nd ref="5393590433" lat="44.0936610" lon="11.2779896"/>
+    <nd ref="88285360" lat="44.0936157" lon="11.2780756"/>
+    <nd ref="5393590434" lat="44.0935563" lon="11.2781632"/>
+    <nd ref="88288998" lat="44.0934928" lon="11.2782339"/>
+    <tag k="lanes" v="2"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+  </way>
+</old>
+<new>
+  <way id="170578657" version="5" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0934928" minlon="11.2768871" maxlat="44.0941068" maxlon="11.2782339"/>
+    <nd ref="1817520078" lat="44.0941068" lon="11.2768871"/>
+    <nd ref="1817520076" lat="44.0940898" lon="11.2769700"/>
+    <nd ref="88288994" lat="44.0940514" lon="11.2770865"/>
+    <nd ref="88285351" lat="44.0938295" lon="11.2776278"/>
+    <nd ref="5393590433" lat="44.0936610" lon="11.2779896"/>
+    <nd ref="88285360" lat="44.0936157" lon="11.2780756"/>
+    <nd ref="5393590434" lat="44.0935563" lon="11.2781632"/>
+    <nd ref="88288998" lat="44.0934928" lon="11.2782339"/>
+    <tag k="highway" v="primary"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="it:Strada statale 65 della Futa"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="245227265" version="4" timestamp="2020-05-24T16:32:56Z" changeset="85688130" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0869241" minlon="11.2807982" maxlat="44.0869941" maxlon="11.2810618"/>
+    <nd ref="2440788129" lat="44.0869941" lon="11.2807982"/>
+    <nd ref="486570051" lat="44.0869322" lon="11.2809019"/>
+    <nd ref="2440788128" lat="44.0869241" lon="11.2810618"/>
+    <tag k="lanes" v="2"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+  </way>
+</old>
+<new>
+  <way id="245227265" version="5" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0869241" minlon="11.2807982" maxlat="44.0869941" maxlon="11.2810618"/>
+    <nd ref="2440788129" lat="44.0869941" lon="11.2807982"/>
+    <nd ref="486570051" lat="44.0869322" lon="11.2809019"/>
+    <nd ref="2440788128" lat="44.0869241" lon="11.2810618"/>
+    <tag k="highway" v="primary"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="it:Strada statale 65 della Futa"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="520805483" version="5" timestamp="2021-03-09T09:24:08Z" changeset="100696356" uid="271894" user="Marco Barbieri70">
+    <bounds minlat="44.0940425" minlon="11.2766190" maxlat="44.0941859" maxlon="11.2766579"/>
+    <nd ref="1817520073" lat="44.0940425" lon="11.2766190"/>
+    <nd ref="8452162439" lat="44.0940641" lon="11.2766368"/>
+    <nd ref="486576509" lat="44.0940875" lon="11.2766494"/>
+    <nd ref="8452162438" lat="44.0941120" lon="11.2766565"/>
+    <nd ref="486576526" lat="44.0941370" lon="11.2766579"/>
+    <nd ref="8452162437" lat="44.0941619" lon="11.2766535"/>
+    <nd ref="486576511" lat="44.0941859" lon="11.2766436"/>
+    <tag k="lanes" v="2"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+  </way>
+</old>
+<new>
+  <way id="520805483" version="6" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0940425" minlon="11.2766190" maxlat="44.0941859" maxlon="11.2766579"/>
+    <nd ref="1817520073" lat="44.0940425" lon="11.2766190"/>
+    <nd ref="8452162439" lat="44.0940641" lon="11.2766368"/>
+    <nd ref="486576509" lat="44.0940875" lon="11.2766494"/>
+    <nd ref="8452162438" lat="44.0941120" lon="11.2766565"/>
+    <nd ref="486576526" lat="44.0941370" lon="11.2766579"/>
+    <nd ref="8452162437" lat="44.0941619" lon="11.2766535"/>
+    <nd ref="486576511" lat="44.0941859" lon="11.2766436"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="it:Strada statale 65 della Futa"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="914969655" version="1" timestamp="2021-03-09T09:24:08Z" changeset="100696356" uid="271894" user="Marco Barbieri70">
+    <bounds minlat="44.0942204" minlon="11.2762743" maxlat="44.0942431" maxlon="11.2763026"/>
+    <nd ref="486576521" lat="44.0942431" lon="11.2763026"/>
+    <nd ref="1817520088" lat="44.0942204" lon="11.2762743"/>
+    <tag k="lanes" v="2"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+  </way>
+</old>
+<new>
+  <way id="914969655" version="2" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0942204" minlon="11.2762743" maxlat="44.0942431" maxlon="11.2763026"/>
+    <nd ref="486576521" lat="44.0942431" lon="11.2763026"/>
+    <nd ref="1817520088" lat="44.0942204" lon="11.2762743"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="it:Strada statale 65 della Futa"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="914969656" version="1" timestamp="2021-03-09T09:24:08Z" changeset="100696356" uid="271894" user="Marco Barbieri70">
+    <bounds minlat="44.0942431" minlon="11.2763026" maxlat="44.0942827" maxlon="11.2765029"/>
+    <nd ref="1817520090" lat="44.0942774" lon="11.2765029"/>
+    <nd ref="8452162433" lat="44.0942827" lon="11.2764606"/>
+    <nd ref="486576517" lat="44.0942817" lon="11.2764177"/>
+    <nd ref="8452162432" lat="44.0942746" lon="11.2763759"/>
+    <nd ref="1817520089" lat="44.0942615" lon="11.2763370"/>
+    <nd ref="486576521" lat="44.0942431" lon="11.2763026"/>
+    <tag k="lanes" v="2"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+  </way>
+</old>
+<new>
+  <way id="914969656" version="2" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0942431" minlon="11.2763026" maxlat="44.0942827" maxlon="11.2765029"/>
+    <nd ref="1817520090" lat="44.0942774" lon="11.2765029"/>
+    <nd ref="8452162433" lat="44.0942827" lon="11.2764606"/>
+    <nd ref="486576517" lat="44.0942817" lon="11.2764177"/>
+    <nd ref="8452162432" lat="44.0942746" lon="11.2763759"/>
+    <nd ref="1817520089" lat="44.0942615" lon="11.2763370"/>
+    <nd ref="486576521" lat="44.0942431" lon="11.2763026"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="it:Strada statale 65 della Futa"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="914969657" version="1" timestamp="2021-03-09T09:24:08Z" changeset="100696356" uid="271894" user="Marco Barbieri70">
+    <bounds minlat="44.0941859" minlon="11.2765029" maxlat="44.0942774" maxlon="11.2766436"/>
+    <nd ref="486576511" lat="44.0941859" lon="11.2766436"/>
+    <nd ref="8452162436" lat="44.0942071" lon="11.2766294"/>
+    <nd ref="1817520087" lat="44.0942265" lon="11.2766108"/>
+    <nd ref="8452162435" lat="44.0942436" lon="11.2765883"/>
+    <nd ref="486576513" lat="44.0942580" lon="11.2765624"/>
+    <nd ref="8452162434" lat="44.0942694" lon="11.2765337"/>
+    <nd ref="1817520090" lat="44.0942774" lon="11.2765029"/>
+    <tag k="lanes" v="2"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+  </way>
+</old>
+<new>
+  <way id="914969657" version="2" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0941859" minlon="11.2765029" maxlat="44.0942774" maxlon="11.2766436"/>
+    <nd ref="486576511" lat="44.0941859" lon="11.2766436"/>
+    <nd ref="8452162436" lat="44.0942071" lon="11.2766294"/>
+    <nd ref="1817520087" lat="44.0942265" lon="11.2766108"/>
+    <nd ref="8452162435" lat="44.0942436" lon="11.2765883"/>
+    <nd ref="486576513" lat="44.0942580" lon="11.2765624"/>
+    <nd ref="8452162434" lat="44.0942694" lon="11.2765337"/>
+    <nd ref="1817520090" lat="44.0942774" lon="11.2765029"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="it:Strada statale 65 della Futa"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="914969658" version="1" timestamp="2021-03-09T09:24:08Z" changeset="100696356" uid="271894" user="Marco Barbieri70">
+    <bounds minlat="44.0939784" minlon="11.2763841" maxlat="44.0940425" maxlon="11.2766190"/>
+    <nd ref="1817520064" lat="44.0939848" lon="11.2763841"/>
+    <nd ref="8452162440" lat="44.0939784" lon="11.2764362"/>
+    <nd ref="486576505" lat="44.0939814" lon="11.2764890"/>
+    <nd ref="1817520066" lat="44.0939937" lon="11.2765390"/>
+    <nd ref="486576507" lat="44.0940145" lon="11.2765833"/>
+    <nd ref="1817520073" lat="44.0940425" lon="11.2766190"/>
+    <tag k="lanes" v="2"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+  </way>
+</old>
+<new>
+  <way id="914969658" version="2" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0939784" minlon="11.2763841" maxlat="44.0940425" maxlon="11.2766190"/>
+    <nd ref="1817520064" lat="44.0939848" lon="11.2763841"/>
+    <nd ref="8452162440" lat="44.0939784" lon="11.2764362"/>
+    <nd ref="486576505" lat="44.0939814" lon="11.2764890"/>
+    <nd ref="1817520066" lat="44.0939937" lon="11.2765390"/>
+    <nd ref="486576507" lat="44.0940145" lon="11.2765833"/>
+    <nd ref="1817520073" lat="44.0940425" lon="11.2766190"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="it:Strada statale 65 della Futa"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="914969659" version="1" timestamp="2021-03-09T09:24:08Z" changeset="100696356" uid="271894" user="Marco Barbieri70">
+    <bounds minlat="44.0939848" minlon="11.2762556" maxlat="44.0940630" maxlon="11.2763841"/>
+    <nd ref="1817520074" lat="44.0940630" lon="11.2762556"/>
+    <nd ref="1817520072" lat="44.0940288" lon="11.2762879"/>
+    <nd ref="486576501" lat="44.0940021" lon="11.2763318"/>
+    <nd ref="1817520064" lat="44.0939848" lon="11.2763841"/>
+    <tag k="lanes" v="2"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+  </way>
+</old>
+<new>
+  <way id="914969659" version="2" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0939848" minlon="11.2762556" maxlat="44.0940630" maxlon="11.2763841"/>
+    <nd ref="1817520074" lat="44.0940630" lon="11.2762556"/>
+    <nd ref="1817520072" lat="44.0940288" lon="11.2762879"/>
+    <nd ref="486576501" lat="44.0940021" lon="11.2763318"/>
+    <nd ref="1817520064" lat="44.0939848" lon="11.2763841"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="it:Strada statale 65 della Futa"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="914969660" version="1" timestamp="2021-03-09T09:24:08Z" changeset="100696356" uid="271894" user="Marco Barbieri70">
+    <bounds minlat="44.0940630" minlon="11.2762429" maxlat="44.0940859" maxlon="11.2762556"/>
+    <nd ref="486576498" lat="44.0940859" lon="11.2762429"/>
+    <nd ref="1817520074" lat="44.0940630" lon="11.2762556"/>
+    <tag k="lanes" v="2"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+  </way>
+</old>
+<new>
+  <way id="914969660" version="2" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0940630" minlon="11.2762429" maxlat="44.0940859" maxlon="11.2762556"/>
+    <nd ref="486576498" lat="44.0940859" lon="11.2762429"/>
+    <nd ref="1817520074" lat="44.0940630" lon="11.2762556"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="it:Strada statale 65 della Futa"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="914969661" version="1" timestamp="2021-03-09T09:24:08Z" changeset="100696356" uid="271894" user="Marco Barbieri70">
+    <bounds minlat="44.0940859" minlon="11.2762340" maxlat="44.0942204" maxlon="11.2762743"/>
+    <nd ref="1817520088" lat="44.0942204" lon="11.2762743"/>
+    <nd ref="486576522" lat="44.0941897" lon="11.2762502"/>
+    <nd ref="486576524" lat="44.0941558" lon="11.2762365"/>
+    <nd ref="1817520079" lat="44.0941206" lon="11.2762340"/>
+    <nd ref="486576498" lat="44.0940859" lon="11.2762429"/>
+    <tag k="lanes" v="2"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+  </way>
+</old>
+<new>
+  <way id="914969661" version="2" timestamp="2021-08-08T16:55:21Z" changeset="109354885" uid="90188" user="hypersciocco">
+    <bounds minlat="44.0940859" minlon="11.2762340" maxlat="44.0942204" maxlon="11.2762743"/>
+    <nd ref="1817520088" lat="44.0942204" lon="11.2762743"/>
+    <nd ref="486576522" lat="44.0941897" lon="11.2762502"/>
+    <nd ref="486576524" lat="44.0941558" lon="11.2762365"/>
+    <nd ref="1817520079" lat="44.0941206" lon="11.2762340"/>
+    <nd ref="486576498" lat="44.0940859" lon="11.2762429"/>
+    <tag k="highway" v="primary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="nat_ref" v="SS65"/>
+    <tag k="ref" v="SS65"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikipedia" v="it:Strada statale 65 della Futa"/>
   </way>
 </new>
 </action>
