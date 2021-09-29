@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2021-09-29T00:29:01Z" areas="2021-09-28T22:54:58Z"/>
+
+<action type="modify">
+<old>
+  <node id="4981873555" lat="36.9523120" lon="14.6086902" version="1" timestamp="2017-07-20T05:28:33Z" changeset="50422707" uid="1151930" user="Ludovic Drouard">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing_ref" v="zebra"/>
+  </node>
+</old>
+<new>
+  <node id="4981873555" lat="36.9523120" lon="14.6086902" version="2" timestamp="2021-09-28T12:48:52Z" changeset="111817943" uid="1151930" user="Ludovic Drouard">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing_ref" v="zebra"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+</new>
+</action>
+
+</osm>
