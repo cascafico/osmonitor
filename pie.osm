@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.56.9 76e5016d">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2021-09-30T00:34:38Z" areas="2021-09-29T22:40:12Z"/>
+
+<action type="modify">
+<old>
+  <node id="2667124357" lat="45.0404854" lon="7.6802260" version="1" timestamp="2014-02-11T15:25:11Z" changeset="20505458" uid="146872" user="cervo"/>
+</old>
+<new>
+  <node id="2667124357" lat="45.0404854" lon="7.6802260" version="4" timestamp="2021-09-29T07:30:33Z" changeset="111851027" uid="513389" user="vegemap">
+    <tag k="crossing" v="marked"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="kerb" v="lowered"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="108637174" version="9" timestamp="2018-05-31T09:31:22Z" changeset="59423531" uid="675302" user="Martj9">
+    <bounds minlat="45.0403872" minlon="7.6800947" maxlat="45.0405387" maxlon="7.6804244"/>
+    <nd ref="250710471" lat="45.0405387" lon="7.6800947"/>
+    <nd ref="1773897820" lat="45.0405074" lon="7.6801816"/>
+    <nd ref="2667124357" lat="45.0404854" lon="7.6802260"/>
+    <nd ref="1245906369" lat="45.0403872" lon="7.6804244"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Corso Monterotondo"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</old>
+<new>
+  <way id="108637174" version="10" timestamp="2021-09-29T07:30:59Z" changeset="111849346" uid="513389" user="vegemap">
+    <bounds minlat="45.0403872" minlon="7.6800947" maxlat="45.0405387" maxlon="7.6804244"/>
+    <nd ref="250710471" lat="45.0405387" lon="7.6800947"/>
+    <nd ref="1773897820" lat="45.0405074" lon="7.6801816"/>
+    <nd ref="2667124357" lat="45.0404854" lon="7.6802260"/>
+    <nd ref="1245906369" lat="45.0403872" lon="7.6804244"/>
+    <tag k="cycleway:right" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Corso Monterotondo"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="134460777" version="7" timestamp="2018-05-31T09:34:22Z" changeset="59423750" uid="675302" user="Martj9">
+    <bounds minlat="45.0396765" minlon="7.6804244" maxlat="45.0403872" maxlon="7.6814628"/>
+    <nd ref="61783877" lat="45.0396765" lon="7.6814628"/>
+    <nd ref="3828220063" lat="45.0397575" lon="7.6813444"/>
+    <nd ref="1245906369" lat="45.0403872" lon="7.6804244"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Corso Monterotondo"/>
+  </way>
+</old>
+<new>
+  <way id="134460777" version="8" timestamp="2021-09-29T07:29:10Z" changeset="111849346" uid="513389" user="vegemap">
+    <bounds minlat="45.0396765" minlon="7.6804244" maxlat="45.0403872" maxlon="7.6814628"/>
+    <nd ref="61783877" lat="45.0396765" lon="7.6814628"/>
+    <nd ref="3828220063" lat="45.0397575" lon="7.6813444"/>
+    <nd ref="1245906369" lat="45.0403872" lon="7.6804244"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Corso Monterotondo"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
