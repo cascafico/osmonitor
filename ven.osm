@@ -1,136 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.57 93a4d346">
+<osm version="0.6" generator="Overpass API 0.7.57.1 74a55df1">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2022-01-05T00:36:58Z" areas="2022-01-05T00:19:39Z"/>
+<meta osm_base="2022-01-06T00:38:09Z" areas="2022-01-05T23:40:24Z"/>
 
 <action type="modify">
 <old>
-  <way id="629472688" version="1" timestamp="2018-10-01T11:34:55Z" changeset="63091439" uid="3455425" user="Matteo Calosi">
-    <bounds minlat="45.7285137" minlon="11.1739120" maxlat="45.7287376" maxlon="11.1739960"/>
-    <nd ref="732822698" lat="45.7287376" lon="11.1739960"/>
-    <nd ref="1565466702" lat="45.7286257" lon="11.1739555"/>
-    <nd ref="1565466699" lat="45.7285688" lon="11.1739199"/>
-    <nd ref="732822688" lat="45.7285137" lon="11.1739120"/>
-    <tag k="highway" v="path"/>
-    <tag k="mtb:scale" v="1"/>
-    <tag k="sac_scale" v="hiking"/>
-    <tag k="trail_visibility" v="excellent"/>
+  <way id="255886399" version="5" timestamp="2021-12-23T14:20:44Z" changeset="115300801" uid="270456" user="pyrog">
+    <bounds minlat="45.9602610" minlon="11.6276488" maxlat="45.9604954" maxlon="11.6295116"/>
+    <nd ref="2371390058" lat="45.9604954" lon="11.6276488"/>
+    <nd ref="619429236" lat="45.9604775" lon="11.6277042"/>
+    <nd ref="619429238" lat="45.9604479" lon="11.6278638"/>
+    <nd ref="619429239" lat="45.9604214" lon="11.6281246"/>
+    <nd ref="619429241" lat="45.9603494" lon="11.6283329"/>
+    <nd ref="4265054905" lat="45.9603382" lon="11.6285509"/>
+    <nd ref="4265054904" lat="45.9602885" lon="11.6288589"/>
+    <nd ref="619429263" lat="45.9602902" lon="11.6293157"/>
+    <nd ref="4265054889" lat="45.9602610" lon="11.6295116"/>
+    <tag k="piste:grooming" v="classic;skating"/>
+    <tag k="highway" v="track"/>
+    <tag k="piste:difficulty" v="intermediate"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="tracktype" v="grade4"/>
   </way>
 </old>
 <new>
-  <way id="629472688" version="2" timestamp="2022-01-04T19:58:16Z" changeset="115769441" uid="1928626" user="Gianfranco2014">
-    <bounds minlat="45.7285137" minlon="11.1739120" maxlat="45.7287376" maxlon="11.1739960"/>
-    <nd ref="732822698" lat="45.7287376" lon="11.1739960"/>
-    <nd ref="1565466702" lat="45.7286257" lon="11.1739555"/>
-    <nd ref="1565466699" lat="45.7285688" lon="11.1739199"/>
-    <nd ref="732822688" lat="45.7285137" lon="11.1739120"/>
+  <way id="255886399" version="6" timestamp="2022-01-05T22:48:55Z" changeset="115811907" uid="145231" user="woodpeck_repair">
+    <bounds minlat="45.9602610" minlon="11.6276488" maxlat="45.9604954" maxlon="11.6295116"/>
+    <nd ref="2371390058" lat="45.9604954" lon="11.6276488"/>
+    <nd ref="619429236" lat="45.9604775" lon="11.6277042"/>
+    <nd ref="619429238" lat="45.9604479" lon="11.6278638"/>
+    <nd ref="619429239" lat="45.9604214" lon="11.6281246"/>
+    <nd ref="619429241" lat="45.9603494" lon="11.6283329"/>
+    <nd ref="4265054905" lat="45.9603382" lon="11.6285509"/>
+    <nd ref="4265054904" lat="45.9602885" lon="11.6288589"/>
+    <nd ref="619429263" lat="45.9602902" lon="11.6293157"/>
+    <nd ref="4265054889" lat="45.9602610" lon="11.6295116"/>
     <tag k="highway" v="track"/>
-    <tag k="mtb:scale" v="1"/>
-    <tag k="sac_scale" v="hiking"/>
-    <tag k="trail_visibility" v="excellent"/>
+    <tag k="piste:difficulty" v="intermediate"/>
+    <tag k="piste:grooming" v="classic+skating"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="tracktype" v="grade4"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="629554415" version="3" timestamp="2020-09-15T21:26:33Z" changeset="90947798" uid="5029398" user="ciprinsky">
-    <bounds minlat="45.7256022" minlon="11.1631826" maxlat="45.7282625" maxlon="11.1687705"/>
-    <nd ref="1864774734" lat="45.7279218" lon="11.1687705"/>
-    <nd ref="279022622" lat="45.7279099" lon="11.1687171"/>
-    <nd ref="1565501225" lat="45.7279131" lon="11.1686335"/>
-    <nd ref="1565501229" lat="45.7279288" lon="11.1685602"/>
-    <nd ref="1565501232" lat="45.7279686" lon="11.1684909"/>
-    <nd ref="279022623" lat="45.7279918" lon="11.1684248"/>
-    <nd ref="279022624" lat="45.7280296" lon="11.1682875"/>
-    <nd ref="1565501235" lat="45.7280511" lon="11.1681282"/>
-    <nd ref="279022625" lat="45.7280903" lon="11.1680063"/>
-    <nd ref="1565501240" lat="45.7281066" lon="11.1678063"/>
-    <nd ref="279022626" lat="45.7281416" lon="11.1676266"/>
-    <nd ref="279022627" lat="45.7282266" lon="11.1674741"/>
-    <nd ref="279022628" lat="45.7282146" lon="11.1672338"/>
-    <nd ref="279022629" lat="45.7282625" lon="11.1670793"/>
-    <nd ref="279022630" lat="45.7281547" lon="11.1668304"/>
-    <nd ref="279022631" lat="45.7280947" lon="11.1665815"/>
-    <nd ref="279022632" lat="45.7280169" lon="11.1664012"/>
-    <nd ref="279022633" lat="45.7279629" lon="11.1662210"/>
-    <nd ref="279022634" lat="45.7278731" lon="11.1660493"/>
-    <nd ref="279022635" lat="45.7278311" lon="11.1658863"/>
-    <nd ref="279022636" lat="45.7277113" lon="11.1657661"/>
-    <nd ref="279022637" lat="45.7276274" lon="11.1657146"/>
-    <nd ref="279022638" lat="45.7276094" lon="11.1655515"/>
-    <nd ref="279022639" lat="45.7275974" lon="11.1653455"/>
-    <nd ref="279022640" lat="45.7275076" lon="11.1652082"/>
-    <nd ref="279022641" lat="45.7274477" lon="11.1651309"/>
-    <nd ref="279022642" lat="45.7273518" lon="11.1651395"/>
-    <nd ref="279022643" lat="45.7270043" lon="11.1648220"/>
-    <nd ref="279022644" lat="45.7269444" lon="11.1646589"/>
-    <nd ref="279022645" lat="45.7269144" lon="11.1643842"/>
-    <nd ref="279022646" lat="45.7268425" lon="11.1642211"/>
-    <nd ref="279022647" lat="45.7266687" lon="11.1640752"/>
-    <nd ref="279022648" lat="45.7262618" lon="11.1637258"/>
-    <nd ref="1565501154" lat="45.7261949" lon="11.1636802"/>
-    <nd ref="279022649" lat="45.7261398" lon="11.1636716"/>
-    <nd ref="1565501153" lat="45.7260598" lon="11.1636191"/>
-    <nd ref="279022650" lat="45.7259803" lon="11.1635341"/>
-    <nd ref="1565501151" lat="45.7258976" lon="11.1634133"/>
-    <nd ref="279022651" lat="45.7258059" lon="11.1633028"/>
-    <nd ref="279022652" lat="45.7257234" lon="11.1631932"/>
-    <nd ref="279022653" lat="45.7256022" lon="11.1631826"/>
-    <tag k="trail_visibility" v="excellent"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="path"/>
-    <tag k="sac_scale" v="hiking"/>
+  <way id="255886422" version="5" timestamp="2021-12-23T14:20:44Z" changeset="115300801" uid="270456" user="pyrog">
+    <bounds minlat="45.9666228" minlon="11.6024548" maxlat="45.9688258" maxlon="11.6036972"/>
+    <nd ref="2371390442" lat="45.9688258" lon="11.6024548"/>
+    <nd ref="1840423958" lat="45.9679091" lon="11.6030640"/>
+    <nd ref="419717420" lat="45.9676106" lon="11.6032544"/>
+    <nd ref="2371390410" lat="45.9673163" lon="11.6034130"/>
+    <nd ref="1840423988" lat="45.9672795" lon="11.6034328"/>
+    <nd ref="419717482" lat="45.9671045" lon="11.6035270"/>
+    <nd ref="4265054909" lat="45.9666228" lon="11.6036972"/>
+    <tag k="piste:grooming" v="classic;skating"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="piste:difficulty" v="easy"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </old>
 <new>
-  <way id="629554415" version="4" timestamp="2022-01-04T19:26:47Z" changeset="115768334" uid="2279592" user="Gabriele Bettega">
-    <bounds minlat="45.7256022" minlon="11.1631826" maxlat="45.7282625" maxlon="11.1687705"/>
-    <nd ref="1864774734" lat="45.7279218" lon="11.1687705"/>
-    <nd ref="279022622" lat="45.7279099" lon="11.1687171"/>
-    <nd ref="1565501225" lat="45.7279131" lon="11.1686335"/>
-    <nd ref="1565501229" lat="45.7279288" lon="11.1685602"/>
-    <nd ref="1565501232" lat="45.7279686" lon="11.1684909"/>
-    <nd ref="279022623" lat="45.7279918" lon="11.1684248"/>
-    <nd ref="279022624" lat="45.7280296" lon="11.1682875"/>
-    <nd ref="1565501235" lat="45.7280511" lon="11.1681282"/>
-    <nd ref="279022625" lat="45.7280903" lon="11.1680063"/>
-    <nd ref="1565501240" lat="45.7281066" lon="11.1678063"/>
-    <nd ref="279022626" lat="45.7281416" lon="11.1676266"/>
-    <nd ref="279022627" lat="45.7282266" lon="11.1674741"/>
-    <nd ref="279022628" lat="45.7282146" lon="11.1672338"/>
-    <nd ref="279022629" lat="45.7282625" lon="11.1670793"/>
-    <nd ref="279022630" lat="45.7281547" lon="11.1668304"/>
-    <nd ref="279022631" lat="45.7280947" lon="11.1665815"/>
-    <nd ref="279022632" lat="45.7280169" lon="11.1664012"/>
-    <nd ref="279022633" lat="45.7279629" lon="11.1662210"/>
-    <nd ref="279022634" lat="45.7278731" lon="11.1660493"/>
-    <nd ref="279022635" lat="45.7278311" lon="11.1658863"/>
-    <nd ref="279022636" lat="45.7277113" lon="11.1657661"/>
-    <nd ref="279022637" lat="45.7276274" lon="11.1657146"/>
-    <nd ref="279022638" lat="45.7276094" lon="11.1655515"/>
-    <nd ref="279022639" lat="45.7275974" lon="11.1653455"/>
-    <nd ref="279022640" lat="45.7275076" lon="11.1652082"/>
-    <nd ref="279022641" lat="45.7274477" lon="11.1651309"/>
-    <nd ref="279022642" lat="45.7273518" lon="11.1651395"/>
-    <nd ref="279022643" lat="45.7270043" lon="11.1648220"/>
-    <nd ref="279022644" lat="45.7269444" lon="11.1646589"/>
-    <nd ref="279022645" lat="45.7269144" lon="11.1643842"/>
-    <nd ref="279022646" lat="45.7268425" lon="11.1642211"/>
-    <nd ref="279022647" lat="45.7266687" lon="11.1640752"/>
-    <nd ref="279022648" lat="45.7262618" lon="11.1637258"/>
-    <nd ref="1565501154" lat="45.7261949" lon="11.1636802"/>
-    <nd ref="279022649" lat="45.7261398" lon="11.1636716"/>
-    <nd ref="1565501153" lat="45.7260598" lon="11.1636191"/>
-    <nd ref="279022650" lat="45.7259803" lon="11.1635341"/>
-    <nd ref="1565501151" lat="45.7258976" lon="11.1634133"/>
-    <nd ref="279022651" lat="45.7258059" lon="11.1633028"/>
-    <nd ref="279022652" lat="45.7257234" lon="11.1631932"/>
-    <nd ref="279022653" lat="45.7256022" lon="11.1631826"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="path"/>
-    <tag k="sac_scale" v="hiking"/>
-    <tag k="surface" v="dirt"/>
-    <tag k="trail_visibility" v="excellent"/>
+  <way id="255886422" version="6" timestamp="2022-01-05T20:35:53Z" changeset="115811907" uid="145231" user="woodpeck_repair">
+    <bounds minlat="45.9666228" minlon="11.6024548" maxlat="45.9688258" maxlon="11.6036972"/>
+    <nd ref="2371390442" lat="45.9688258" lon="11.6024548"/>
+    <nd ref="1840423958" lat="45.9679091" lon="11.6030640"/>
+    <nd ref="419717420" lat="45.9676106" lon="11.6032544"/>
+    <nd ref="2371390410" lat="45.9673163" lon="11.6034130"/>
+    <nd ref="1840423988" lat="45.9672795" lon="11.6034328"/>
+    <nd ref="419717482" lat="45.9671045" lon="11.6035270"/>
+    <nd ref="4265054909" lat="45.9666228" lon="11.6036972"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="piste:difficulty" v="easy"/>
+    <tag k="piste:grooming" v="classic+skating"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="427273019" version="5" timestamp="2021-12-23T14:21:07Z" changeset="115300801" uid="270456" user="pyrog">
+    <bounds minlat="45.9543172" minlon="11.6377706" maxlat="45.9552678" maxlon="11.6386845"/>
+    <nd ref="4265054984" lat="45.9552678" lon="11.6377706"/>
+    <nd ref="619429189" lat="45.9552443" lon="11.6379359"/>
+    <nd ref="619429192" lat="45.9552162" lon="11.6381533"/>
+    <nd ref="4265054986" lat="45.9551624" lon="11.6383558"/>
+    <nd ref="619429193" lat="45.9550907" lon="11.6384695"/>
+    <nd ref="4265054987" lat="45.9549864" lon="11.6385435"/>
+    <nd ref="619429195" lat="45.9548397" lon="11.6385738"/>
+    <nd ref="619429198" lat="45.9545749" lon="11.6386168"/>
+    <nd ref="619541873" lat="45.9543172" lon="11.6386845"/>
+    <tag k="piste:grooming" v="classic;skating"/>
+    <tag k="highway" v="track"/>
+    <tag k="piste:difficulty" v="intermediate"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="tracktype" v="grade2"/>
+  </way>
+</old>
+<new>
+  <way id="427273019" version="6" timestamp="2022-01-05T23:11:15Z" changeset="115811907" uid="145231" user="woodpeck_repair">
+    <bounds minlat="45.9543172" minlon="11.6377706" maxlat="45.9552678" maxlon="11.6386845"/>
+    <nd ref="4265054984" lat="45.9552678" lon="11.6377706"/>
+    <nd ref="619429189" lat="45.9552443" lon="11.6379359"/>
+    <nd ref="619429192" lat="45.9552162" lon="11.6381533"/>
+    <nd ref="4265054986" lat="45.9551624" lon="11.6383558"/>
+    <nd ref="619429193" lat="45.9550907" lon="11.6384695"/>
+    <nd ref="4265054987" lat="45.9549864" lon="11.6385435"/>
+    <nd ref="619429195" lat="45.9548397" lon="11.6385738"/>
+    <nd ref="619429198" lat="45.9545749" lon="11.6386168"/>
+    <nd ref="619541873" lat="45.9543172" lon="11.6386845"/>
+    <tag k="highway" v="track"/>
+    <tag k="piste:difficulty" v="intermediate"/>
+    <tag k="piste:grooming" v="classic+skating"/>
+    <tag k="piste:type" v="nordic"/>
+    <tag k="tracktype" v="grade2"/>
   </way>
 </new>
 </action>
