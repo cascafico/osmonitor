@@ -1,99 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.57.1 74a55df1">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2022-01-06T00:38:09Z" areas="2022-01-05T23:40:24Z"/>
+<meta osm_base="2022-01-07T00:37:46Z" areas="2022-01-06T23:51:59Z"/>
 
 <action type="modify">
 <old>
-  <way id="255886399" version="5" timestamp="2021-12-23T14:20:44Z" changeset="115300801" uid="270456" user="pyrog">
-    <bounds minlat="45.9602610" minlon="11.6276488" maxlat="45.9604954" maxlon="11.6295116"/>
-    <nd ref="2371390058" lat="45.9604954" lon="11.6276488"/>
-    <nd ref="619429236" lat="45.9604775" lon="11.6277042"/>
-    <nd ref="619429238" lat="45.9604479" lon="11.6278638"/>
-    <nd ref="619429239" lat="45.9604214" lon="11.6281246"/>
-    <nd ref="619429241" lat="45.9603494" lon="11.6283329"/>
-    <nd ref="4265054905" lat="45.9603382" lon="11.6285509"/>
-    <nd ref="4265054904" lat="45.9602885" lon="11.6288589"/>
-    <nd ref="619429263" lat="45.9602902" lon="11.6293157"/>
-    <nd ref="4265054889" lat="45.9602610" lon="11.6295116"/>
-    <tag k="piste:grooming" v="classic;skating"/>
-    <tag k="highway" v="track"/>
-    <tag k="piste:difficulty" v="intermediate"/>
-    <tag k="piste:type" v="nordic"/>
-    <tag k="tracktype" v="grade4"/>
-  </way>
-</old>
-<new>
-  <way id="255886399" version="6" timestamp="2022-01-05T22:48:55Z" changeset="115811907" uid="145231" user="woodpeck_repair">
-    <bounds minlat="45.9602610" minlon="11.6276488" maxlat="45.9604954" maxlon="11.6295116"/>
-    <nd ref="2371390058" lat="45.9604954" lon="11.6276488"/>
-    <nd ref="619429236" lat="45.9604775" lon="11.6277042"/>
-    <nd ref="619429238" lat="45.9604479" lon="11.6278638"/>
-    <nd ref="619429239" lat="45.9604214" lon="11.6281246"/>
-    <nd ref="619429241" lat="45.9603494" lon="11.6283329"/>
-    <nd ref="4265054905" lat="45.9603382" lon="11.6285509"/>
-    <nd ref="4265054904" lat="45.9602885" lon="11.6288589"/>
-    <nd ref="619429263" lat="45.9602902" lon="11.6293157"/>
-    <nd ref="4265054889" lat="45.9602610" lon="11.6295116"/>
-    <tag k="highway" v="track"/>
-    <tag k="piste:difficulty" v="intermediate"/>
-    <tag k="piste:grooming" v="classic+skating"/>
-    <tag k="piste:type" v="nordic"/>
-    <tag k="tracktype" v="grade4"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="255886422" version="5" timestamp="2021-12-23T14:20:44Z" changeset="115300801" uid="270456" user="pyrog">
-    <bounds minlat="45.9666228" minlon="11.6024548" maxlat="45.9688258" maxlon="11.6036972"/>
-    <nd ref="2371390442" lat="45.9688258" lon="11.6024548"/>
-    <nd ref="1840423958" lat="45.9679091" lon="11.6030640"/>
-    <nd ref="419717420" lat="45.9676106" lon="11.6032544"/>
-    <nd ref="2371390410" lat="45.9673163" lon="11.6034130"/>
-    <nd ref="1840423988" lat="45.9672795" lon="11.6034328"/>
-    <nd ref="419717482" lat="45.9671045" lon="11.6035270"/>
-    <nd ref="4265054909" lat="45.9666228" lon="11.6036972"/>
-    <tag k="piste:grooming" v="classic;skating"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="piste:difficulty" v="easy"/>
-    <tag k="piste:type" v="nordic"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</old>
-<new>
-  <way id="255886422" version="6" timestamp="2022-01-05T20:35:53Z" changeset="115811907" uid="145231" user="woodpeck_repair">
-    <bounds minlat="45.9666228" minlon="11.6024548" maxlat="45.9688258" maxlon="11.6036972"/>
-    <nd ref="2371390442" lat="45.9688258" lon="11.6024548"/>
-    <nd ref="1840423958" lat="45.9679091" lon="11.6030640"/>
-    <nd ref="419717420" lat="45.9676106" lon="11.6032544"/>
-    <nd ref="2371390410" lat="45.9673163" lon="11.6034130"/>
-    <nd ref="1840423988" lat="45.9672795" lon="11.6034328"/>
-    <nd ref="419717482" lat="45.9671045" lon="11.6035270"/>
-    <nd ref="4265054909" lat="45.9666228" lon="11.6036972"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="piste:difficulty" v="easy"/>
-    <tag k="piste:grooming" v="classic+skating"/>
-    <tag k="piste:type" v="nordic"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="427273019" version="5" timestamp="2021-12-23T14:21:07Z" changeset="115300801" uid="270456" user="pyrog">
-    <bounds minlat="45.9543172" minlon="11.6377706" maxlat="45.9552678" maxlon="11.6386845"/>
-    <nd ref="4265054984" lat="45.9552678" lon="11.6377706"/>
-    <nd ref="619429189" lat="45.9552443" lon="11.6379359"/>
-    <nd ref="619429192" lat="45.9552162" lon="11.6381533"/>
-    <nd ref="4265054986" lat="45.9551624" lon="11.6383558"/>
-    <nd ref="619429193" lat="45.9550907" lon="11.6384695"/>
-    <nd ref="4265054987" lat="45.9549864" lon="11.6385435"/>
-    <nd ref="619429195" lat="45.9548397" lon="11.6385738"/>
-    <nd ref="619429198" lat="45.9545749" lon="11.6386168"/>
-    <nd ref="619541873" lat="45.9543172" lon="11.6386845"/>
+  <way id="438318414" version="5" timestamp="2021-12-23T14:21:07Z" changeset="115300801" uid="270456" user="pyrog">
+    <bounds minlat="45.9563398" minlon="11.6363116" maxlat="45.9566171" maxlon="11.6367431"/>
+    <nd ref="1779456656" lat="45.9566171" lon="11.6363116"/>
+    <nd ref="619429290" lat="45.9564239" lon="11.6366767"/>
+    <nd ref="619429292" lat="45.9563398" lon="11.6367431"/>
     <tag k="piste:grooming" v="classic;skating"/>
     <tag k="highway" v="track"/>
     <tag k="piste:difficulty" v="intermediate"/>
@@ -102,17 +18,11 @@
   </way>
 </old>
 <new>
-  <way id="427273019" version="6" timestamp="2022-01-05T23:11:15Z" changeset="115811907" uid="145231" user="woodpeck_repair">
-    <bounds minlat="45.9543172" minlon="11.6377706" maxlat="45.9552678" maxlon="11.6386845"/>
-    <nd ref="4265054984" lat="45.9552678" lon="11.6377706"/>
-    <nd ref="619429189" lat="45.9552443" lon="11.6379359"/>
-    <nd ref="619429192" lat="45.9552162" lon="11.6381533"/>
-    <nd ref="4265054986" lat="45.9551624" lon="11.6383558"/>
-    <nd ref="619429193" lat="45.9550907" lon="11.6384695"/>
-    <nd ref="4265054987" lat="45.9549864" lon="11.6385435"/>
-    <nd ref="619429195" lat="45.9548397" lon="11.6385738"/>
-    <nd ref="619429198" lat="45.9545749" lon="11.6386168"/>
-    <nd ref="619541873" lat="45.9543172" lon="11.6386845"/>
+  <way id="438318414" version="6" timestamp="2022-01-06T04:23:14Z" changeset="115819700" uid="145231" user="woodpeck_repair">
+    <bounds minlat="45.9563398" minlon="11.6363116" maxlat="45.9566171" maxlon="11.6367431"/>
+    <nd ref="1779456656" lat="45.9566171" lon="11.6363116"/>
+    <nd ref="619429290" lat="45.9564239" lon="11.6366767"/>
+    <nd ref="619429292" lat="45.9563398" lon="11.6367431"/>
     <tag k="highway" v="track"/>
     <tag k="piste:difficulty" v="intermediate"/>
     <tag k="piste:grooming" v="classic+skating"/>
