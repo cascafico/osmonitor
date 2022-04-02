@@ -1,52 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.57.1 74a55df1">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2022-04-01T00:51:06Z" areas="2022-04-01T00:09:28Z"/>
+<meta osm_base="2022-04-02T00:42:40Z" areas="2022-04-02T00:21:10Z"/>
 
 <action type="modify">
 <old>
-  <node id="286736320" lat="43.7948398" lon="12.3374279" version="4" timestamp="2017-05-17T14:45:15Z" changeset="48765110" uid="2915331" user="Lupo1983"/>
+  <node id="286736334" version="5" timestamp="2022-03-31T18:44:28Z" changeset="119173509" uid="13568212" user="Stewie2292"/>
 </old>
 <new>
-  <node id="286736320" lat="43.7948912" lon="12.3374682" version="5" timestamp="2022-03-31T18:44:28Z" changeset="119173509" uid="13568212" user="Stewie2292"/>
-</new>
-</action>
-<action type="delete">
-<old>
-  <node id="286736334" lat="43.7951474" lon="12.3376831" version="4" timestamp="2017-05-17T14:45:15Z" changeset="48765110" uid="2915331" user="Lupo1983"/>
-</old>
-<new>
-  <node id="286736334" visible="true" version="5" timestamp="2022-03-31T18:44:28Z" changeset="119173509" uid="13568212" user="Stewie2292"/>
+  <node id="286736334" lat="43.7951723" lon="12.3376888" version="6" timestamp="2022-04-01T17:38:20Z" changeset="119211835" uid="13568212" user="Stewie2292"/>
 </new>
 </action>
 <action type="modify">
 <old>
-  <node id="372344443" lat="43.7952548" lon="12.3377336" version="4" timestamp="2017-05-17T14:45:15Z" changeset="48765110" uid="2915331" user="Lupo1983"/>
-</old>
-<new>
-  <node id="372344443" lat="43.7952565" lon="12.3377307" version="5" timestamp="2022-03-31T18:44:28Z" changeset="119173509" uid="13568212" user="Stewie2292"/>
-</new>
-</action>
-<action type="create">
-  <node id="9627304355" lat="43.7948407" lon="12.3374174" version="1" timestamp="2022-03-31T18:44:28Z" changeset="119173509" uid="13568212" user="Stewie2292"/>
-</action>
-<action type="create">
-  <node id="9627304358" lat="43.7952058" lon="12.3377079" version="1" timestamp="2022-03-31T18:44:28Z" changeset="119173509" uid="13568212" user="Stewie2292"/>
-</action>
-<action type="create">
-  <node id="9627304359" lat="43.7951479" lon="12.3376749" version="1" timestamp="2022-03-31T18:44:28Z" changeset="119173509" uid="13568212" user="Stewie2292"/>
-</action>
-<action type="modify">
-<old>
-  <way id="516441463" version="3" timestamp="2019-06-10T15:44:08Z" changeset="71107992" uid="9830089" user="OneTwoThreeFour">
+  <way id="516441463" version="4" timestamp="2022-03-31T18:44:28Z" changeset="119173509" uid="13568212" user="Stewie2292">
     <bounds minlat="43.7941437" minlon="12.3365358" maxlat="43.7961644" maxlon="12.3382695"/>
     <nd ref="286736310" lat="43.7941437" lon="12.3365358"/>
     <nd ref="286736315" lat="43.7945182" lon="12.3368627"/>
     <nd ref="869334137" lat="43.7947011" lon="12.3372203"/>
-    <nd ref="286736320" lat="43.7948398" lon="12.3374279"/>
+    <nd ref="9627304355" lat="43.7948407" lon="12.3374174"/>
+    <nd ref="286736320" lat="43.7948912" lon="12.3374682"/>
     <nd ref="286736329" lat="43.7949920" lon="12.3375652"/>
-    <nd ref="286736334" lat="43.7951474" lon="12.3376831"/>
-    <nd ref="372344443" lat="43.7952548" lon="12.3377336"/>
+    <nd ref="9627304359" lat="43.7951479" lon="12.3376749"/>
+    <nd ref="9627304358" lat="43.7952058" lon="12.3377079"/>
+    <nd ref="372344443" lat="43.7952565" lon="12.3377307"/>
     <nd ref="6537410624" lat="43.7952820" lon="12.3377385"/>
     <nd ref="372344447" lat="43.7953401" lon="12.3377491"/>
     <nd ref="372344435" lat="43.7954901" lon="12.3377526"/>
@@ -64,7 +41,7 @@
   </way>
 </old>
 <new>
-  <way id="516441463" version="4" timestamp="2022-03-31T18:44:28Z" changeset="119173509" uid="13568212" user="Stewie2292">
+  <way id="516441463" version="5" timestamp="2022-04-01T17:38:20Z" changeset="119211835" uid="13568212" user="Stewie2292">
     <bounds minlat="43.7941437" minlon="12.3365358" maxlat="43.7961644" maxlon="12.3382695"/>
     <nd ref="286736310" lat="43.7941437" lon="12.3365358"/>
     <nd ref="286736315" lat="43.7945182" lon="12.3368627"/>
@@ -73,6 +50,7 @@
     <nd ref="286736320" lat="43.7948912" lon="12.3374682"/>
     <nd ref="286736329" lat="43.7949920" lon="12.3375652"/>
     <nd ref="9627304359" lat="43.7951479" lon="12.3376749"/>
+    <nd ref="286736334" lat="43.7951723" lon="12.3376888"/>
     <nd ref="9627304358" lat="43.7952058" lon="12.3377079"/>
     <nd ref="372344443" lat="43.7952565" lon="12.3377307"/>
     <nd ref="6537410624" lat="43.7952820" lon="12.3377385"/>
@@ -525,10 +503,12 @@
       <nd lat="43.7941437" lon="12.3365358"/>
       <nd lat="43.7945182" lon="12.3368627"/>
       <nd lat="43.7947011" lon="12.3372203"/>
-      <nd lat="43.7948398" lon="12.3374279"/>
+      <nd lat="43.7948407" lon="12.3374174"/>
+      <nd lat="43.7948912" lon="12.3374682"/>
       <nd lat="43.7949920" lon="12.3375652"/>
-      <nd lat="43.7951474" lon="12.3376831"/>
-      <nd lat="43.7952548" lon="12.3377336"/>
+      <nd lat="43.7951479" lon="12.3376749"/>
+      <nd lat="43.7952058" lon="12.3377079"/>
+      <nd lat="43.7952565" lon="12.3377307"/>
       <nd lat="43.7952820" lon="12.3377385"/>
       <nd lat="43.7953401" lon="12.3377491"/>
       <nd lat="43.7954901" lon="12.3377526"/>
@@ -1537,6 +1517,7 @@
       <nd lat="43.7948912" lon="12.3374682"/>
       <nd lat="43.7949920" lon="12.3375652"/>
       <nd lat="43.7951479" lon="12.3376749"/>
+      <nd lat="43.7951723" lon="12.3376888"/>
       <nd lat="43.7952058" lon="12.3377079"/>
       <nd lat="43.7952565" lon="12.3377307"/>
       <nd lat="43.7952820" lon="12.3377385"/>
