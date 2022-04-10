@@ -1,89 +1,177 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.57.1 74a55df1">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2022-04-09T00:55:06Z" areas="2022-04-09T00:49:57Z"/>
+<meta osm_base="2022-04-10T00:58:00Z" areas="2022-04-10T00:00:48Z"/>
 
 <action type="modify">
 <old>
-  <node id="249482720" lat="44.1119695" lon="9.9619563" version="3" timestamp="2011-10-09T20:39:03Z" changeset="9517119" uid="454589" user="sabas88"/>
+  <node id="616821217" lat="44.1119865" lon="9.9634982" version="1" timestamp="2010-01-19T20:40:56Z" changeset="3662070" uid="1700" user="Diego Guidotti"/>
 </old>
 <new>
-  <node id="249482720" lat="44.1119709" lon="9.9619436" version="4" timestamp="2022-04-08T09:51:19Z" changeset="119462949" uid="2498239" user="maurizioa"/>
+  <node id="616821217" lat="44.1119417" lon="9.9635465" version="2" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa"/>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="616821218" lat="44.1121407" lon="9.9635193" version="1" timestamp="2010-01-19T20:40:56Z" changeset="3662070" uid="1700" user="Diego Guidotti"/>
+</old>
+<new>
+  <node id="616821218" lat="44.1121306" lon="9.9635455" version="2" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa"/>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="616821219" lat="44.1119585" lon="9.9635405" version="3" timestamp="2020-06-10T23:12:52Z" changeset="86486369" uid="1780773" user="daraxy71">
+    <tag k="access" v="destination"/>
+    <tag k="bicycle" v="yes"/>
+  </node>
+</old>
+<new>
+  <node id="616821219" lat="44.1119041" lon="9.9635868" version="4" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa">
+    <tag k="access" v="destination"/>
+    <tag k="bicycle" v="yes"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="616821220" lat="44.1117218" lon="9.9636472" version="2" timestamp="2013-02-17T12:29:31Z" changeset="15062505" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="616821220" lat="44.1117035" lon="9.9636606" version="3" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa"/>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="2159010429" lat="44.1117675" lon="9.9636390" version="1" timestamp="2013-02-17T11:17:11Z" changeset="15061850" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="2159010429" lat="44.1117834" lon="9.9636232" version="2" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="2159011369" lat="44.1118226" lon="9.9636724" version="1" timestamp="2013-02-17T11:17:23Z" changeset="15061850" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="2159011369" visible="false" version="2" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa"/>
 </new>
 </action>
 <action type="create">
-  <node id="9651374451" lat="44.1125041" lon="9.9609135" version="1" timestamp="2022-04-08T09:51:19Z" changeset="119462949" uid="2498239" user="maurizioa"/>
+  <node id="9653406207" lat="44.1121929" lon="9.9634682" version="1" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa"/>
+</action>
+<action type="create">
+  <node id="9653406210" lat="44.1120378" lon="9.9635737" version="1" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa"/>
 </action>
 <action type="modify">
 <old>
-  <way id="48560609" version="12" timestamp="2020-06-15T23:04:16Z" changeset="86689938" uid="1780773" user="daraxy71">
-    <bounds minlat="44.1119695" minlon="9.9601176" maxlat="44.1129515" maxlon="9.9619563"/>
-    <nd ref="249482720" lat="44.1119695" lon="9.9619563"/>
-    <nd ref="2159016285" lat="44.1123006" lon="9.9613059"/>
-    <nd ref="2159018127" lat="44.1124964" lon="9.9609266"/>
-    <nd ref="616821193" lat="44.1126186" lon="9.9607188"/>
-    <nd ref="2159020090" lat="44.1126384" lon="9.9606343"/>
-    <nd ref="249482721" lat="44.1127269" lon="9.9604809"/>
-    <nd ref="1601743154" lat="44.1127701" lon="9.9604144"/>
-    <nd ref="249483771" lat="44.1129515" lon="9.9601176"/>
-    <tag k="access" v="delivery"/>
+  <way id="48560617" version="3" timestamp="2020-06-10T23:12:52Z" changeset="86486369" uid="1780773" user="daraxy71">
+    <bounds minlat="44.1119865" minlon="9.9633707" maxlat="44.1122534" maxlon="9.9635193"/>
+    <nd ref="616821217" lat="44.1119865" lon="9.9634982"/>
+    <nd ref="616821218" lat="44.1121407" lon="9.9635193"/>
+    <nd ref="616821224" lat="44.1122091" lon="9.9634523"/>
+    <nd ref="616821223" lat="44.1122534" lon="9.9633707"/>
+    <tag k="access" v="destination"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="pedestrian"/>
-    <tag k="name" v="Viale Giuseppe Mazzini"/>
-    <tag k="oneway" v="yes"/>
     <tag k="surface" v="concrete"/>
   </way>
 </old>
 <new>
-  <way id="48560609" version="13" timestamp="2022-04-08T09:51:19Z" changeset="119462949" uid="2498239" user="maurizioa">
-    <bounds minlat="44.1119709" minlon="9.9601176" maxlat="44.1129515" maxlon="9.9619436"/>
-    <nd ref="249482720" lat="44.1119709" lon="9.9619436"/>
-    <nd ref="2159016285" lat="44.1123006" lon="9.9613059"/>
-    <nd ref="2159018127" lat="44.1124964" lon="9.9609266"/>
-    <nd ref="9651374451" lat="44.1125041" lon="9.9609135"/>
-    <nd ref="616821193" lat="44.1126186" lon="9.9607188"/>
-    <nd ref="2159020090" lat="44.1126384" lon="9.9606343"/>
-    <nd ref="249482721" lat="44.1127269" lon="9.9604809"/>
-    <nd ref="1601743154" lat="44.1127701" lon="9.9604144"/>
-    <nd ref="249483771" lat="44.1129515" lon="9.9601176"/>
-    <tag k="access" v="delivery"/>
+  <way id="48560617" version="4" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa">
+    <bounds minlat="44.1119417" minlon="9.9634682" maxlat="44.1121929" maxlon="9.9635737"/>
+    <nd ref="616821217" lat="44.1119417" lon="9.9635465"/>
+    <nd ref="9653406210" lat="44.1120378" lon="9.9635737"/>
+    <nd ref="616821218" lat="44.1121306" lon="9.9635455"/>
+    <nd ref="9653406207" lat="44.1121929" lon="9.9634682"/>
+    <tag k="access" v="destination"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="pedestrian"/>
-    <tag k="name" v="Viale Giuseppe Mazzini"/>
-    <tag k="oneway" v="yes"/>
     <tag k="surface" v="concrete"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="522065148" version="4" timestamp="2020-06-15T23:04:16Z" changeset="86689938" uid="1780773" user="daraxy71">
-    <bounds minlat="44.1115687" minlon="9.9619563" maxlat="44.1119695" maxlon="9.9626727"/>
-    <nd ref="3578241159" lat="44.1115687" lon="9.9626727"/>
-    <nd ref="3965031335" lat="44.1117790" lon="9.9622936"/>
-    <nd ref="1601743152" lat="44.1119422" lon="9.9619995"/>
-    <nd ref="249482720" lat="44.1119695" lon="9.9619563"/>
+  <way id="837169937" version="1" timestamp="2020-08-14T15:47:55Z" changeset="89419926" uid="673435" user="nilogian">
+    <bounds minlat="44.1114810" minlon="9.9635405" maxlat="44.1119585" maxlon="9.9636724"/>
+    <nd ref="1460496234" lat="44.1114810" lon="9.9636363"/>
+    <nd ref="616821221" lat="44.1115137" lon="9.9636243"/>
+    <nd ref="2159008079" lat="44.1115553" lon="9.9635472"/>
+    <nd ref="2159009133" lat="44.1116512" lon="9.9636373"/>
+    <nd ref="616821220" lat="44.1117218" lon="9.9636472"/>
+    <nd ref="2159010429" lat="44.1117675" lon="9.9636390"/>
+    <nd ref="2159011369" lat="44.1118226" lon="9.9636724"/>
+    <nd ref="616821219" lat="44.1119585" lon="9.9635405"/>
+    <tag k="access" v="destination"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="pedestrian"/>
-    <tag k="name" v="Viale Giuseppe Mazzini"/>
+    <tag k="name" v="Piazza Firmafede"/>
     <tag k="oneway" v="yes"/>
-    <tag k="surface" v="paving_stones"/>
+    <tag k="source" v="survey"/>
+    <tag k="surface" v="concrete"/>
   </way>
 </old>
 <new>
-  <way id="522065148" version="4" timestamp="2020-06-15T23:04:16Z" changeset="86689938" uid="1780773" user="daraxy71">
-    <bounds minlat="44.1115687" minlon="9.9619436" maxlat="44.1119709" maxlon="9.9626727"/>
-    <nd ref="3578241159" lat="44.1115687" lon="9.9626727"/>
-    <nd ref="3965031335" lat="44.1117790" lon="9.9622936"/>
-    <nd ref="1601743152" lat="44.1119422" lon="9.9619995"/>
-    <nd ref="249482720" lat="44.1119709" lon="9.9619436"/>
+  <way id="837169937" version="2" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa">
+    <bounds minlat="44.1114810" minlon="9.9635472" maxlat="44.1119041" maxlon="9.9636606"/>
+    <nd ref="1460496234" lat="44.1114810" lon="9.9636363"/>
+    <nd ref="616821221" lat="44.1115137" lon="9.9636243"/>
+    <nd ref="2159008079" lat="44.1115553" lon="9.9635472"/>
+    <nd ref="2159009133" lat="44.1116512" lon="9.9636373"/>
+    <nd ref="616821220" lat="44.1117035" lon="9.9636606"/>
+    <nd ref="2159010429" lat="44.1117834" lon="9.9636232"/>
+    <nd ref="616821219" lat="44.1119041" lon="9.9635868"/>
+    <tag k="access" v="destination"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="pedestrian"/>
-    <tag k="name" v="Viale Giuseppe Mazzini"/>
+    <tag k="name" v="Piazza Firmafede"/>
     <tag k="oneway" v="yes"/>
-    <tag k="surface" v="paving_stones"/>
+    <tag k="source" v="survey"/>
+    <tag k="surface" v="concrete"/>
   </way>
 </new>
+</action>
+<action type="modify">
+<old>
+  <way id="837169939" version="1" timestamp="2020-08-14T15:47:55Z" changeset="89419926" uid="673435" user="nilogian">
+    <bounds minlat="44.1119585" minlon="9.9634982" maxlat="44.1119865" maxlon="9.9635405"/>
+    <nd ref="616821219" lat="44.1119585" lon="9.9635405"/>
+    <nd ref="616821217" lat="44.1119865" lon="9.9634982"/>
+    <tag k="name" v="Piazza Firmafede"/>
+    <tag k="access" v="destination"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="pedestrian"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="source" v="survey"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+</old>
+<new>
+  <way id="837169939" version="2" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa">
+    <bounds minlat="44.1119041" minlon="9.9635465" maxlat="44.1119417" maxlon="9.9635868"/>
+    <nd ref="616821219" lat="44.1119041" lon="9.9635868"/>
+    <nd ref="616821217" lat="44.1119417" lon="9.9635465"/>
+    <tag k="access" v="destination"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="pedestrian"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="source" v="survey"/>
+    <tag k="surface" v="concrete"/>
+  </way>
+</new>
+</action>
+<action type="create">
+  <way id="1050477535" version="1" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa">
+    <bounds minlat="44.1121929" minlon="9.9633707" maxlat="44.1122534" maxlon="9.9634682"/>
+    <nd ref="9653406207" lat="44.1121929" lon="9.9634682"/>
+    <nd ref="616821224" lat="44.1122091" lon="9.9634523"/>
+    <nd ref="616821223" lat="44.1122534" lon="9.9633707"/>
+    <tag k="access" v="destination"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="pedestrian"/>
+    <tag k="surface" v="concrete"/>
+  </way>
 </action>
 <action type="modify">
 <old>
@@ -1076,12 +1164,13 @@
       <nd lat="44.1115687" lon="9.9626727"/>
       <nd lat="44.1117790" lon="9.9622936"/>
       <nd lat="44.1119422" lon="9.9619995"/>
-      <nd lat="44.1119695" lon="9.9619563"/>
+      <nd lat="44.1119709" lon="9.9619436"/>
     </member>
     <member type="way" ref="48560609" role="">
-      <nd lat="44.1119695" lon="9.9619563"/>
+      <nd lat="44.1119709" lon="9.9619436"/>
       <nd lat="44.1123006" lon="9.9613059"/>
       <nd lat="44.1124964" lon="9.9609266"/>
+      <nd lat="44.1125041" lon="9.9609135"/>
       <nd lat="44.1126186" lon="9.9607188"/>
       <nd lat="44.1126384" lon="9.9606343"/>
       <nd lat="44.1127269" lon="9.9604809"/>
@@ -1104,7 +1193,7 @@
   </relation>
 </old>
 <new>
-  <relation id="11982145" version="2" timestamp="2021-03-16T00:57:12Z" changeset="101080207" uid="8952354" user="lukepod">
+  <relation id="11982145" version="3" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa">
     <bounds minlat="44.1064876" minlon="9.9600689" maxlat="44.1363047" maxlon="10.0249513"/>
     <member type="way" ref="876654230" role="">
       <nd lat="44.1362465" lon="10.0219353"/>
@@ -2053,25 +2142,29 @@
       <nd lat="44.1124995" lon="9.9635129"/>
       <nd lat="44.1128372" lon="9.9628632"/>
     </member>
-    <member type="way" ref="48560617" role="">
-      <nd lat="44.1119865" lon="9.9634982"/>
-      <nd lat="44.1121407" lon="9.9635193"/>
+    <member type="way" ref="1050477535" role="">
+      <nd lat="44.1121929" lon="9.9634682"/>
       <nd lat="44.1122091" lon="9.9634523"/>
       <nd lat="44.1122534" lon="9.9633707"/>
     </member>
+    <member type="way" ref="48560617" role="">
+      <nd lat="44.1119417" lon="9.9635465"/>
+      <nd lat="44.1120378" lon="9.9635737"/>
+      <nd lat="44.1121306" lon="9.9635455"/>
+      <nd lat="44.1121929" lon="9.9634682"/>
+    </member>
     <member type="way" ref="837169939" role="">
-      <nd lat="44.1119585" lon="9.9635405"/>
-      <nd lat="44.1119865" lon="9.9634982"/>
+      <nd lat="44.1119041" lon="9.9635868"/>
+      <nd lat="44.1119417" lon="9.9635465"/>
     </member>
     <member type="way" ref="837169937" role="">
       <nd lat="44.1114810" lon="9.9636363"/>
       <nd lat="44.1115137" lon="9.9636243"/>
       <nd lat="44.1115553" lon="9.9635472"/>
       <nd lat="44.1116512" lon="9.9636373"/>
-      <nd lat="44.1117218" lon="9.9636472"/>
-      <nd lat="44.1117675" lon="9.9636390"/>
-      <nd lat="44.1118226" lon="9.9636724"/>
-      <nd lat="44.1119585" lon="9.9635405"/>
+      <nd lat="44.1117035" lon="9.9636606"/>
+      <nd lat="44.1117834" lon="9.9636232"/>
+      <nd lat="44.1119041" lon="9.9635868"/>
     </member>
     <member type="way" ref="156356979" role="">
       <nd lat="44.1112165" lon="9.9633579"/>
