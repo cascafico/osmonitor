@@ -1,77 +1,287 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.57.2 48842a1b">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2022-05-27T00:56:49Z" areas="2022-05-27T00:18:24Z"/>
+<meta osm_base="2022-05-28T00:58:59Z" areas="2022-05-28T00:29:26Z"/>
 
-<action type="create">
-  <node id="9773201139" lat="44.1114693" lon="9.9636240" version="1" timestamp="2022-05-26T17:23:24Z" changeset="121538115" uid="673435" user="nilogian"/>
+<action type="modify">
+<old>
+  <node id="9653406207" lat="44.1121929" lon="9.9634682" version="1" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa"/>
+</old>
+<new>
+  <node id="9653406207" lat="44.1121991" lon="9.9634725" version="2" timestamp="2022-05-27T13:53:21Z" changeset="121578049" uid="673435" user="nilogian"/>
+</new>
 </action>
 <action type="modify">
 <old>
-  <way id="156356979" version="7" timestamp="2022-05-25T21:36:04Z" changeset="121493877" uid="673435" user="nilogian">
-    <bounds minlat="44.1112165" minlon="9.9633579" maxlat="44.1114810" maxlon="9.9636363"/>
-    <nd ref="616821195" lat="44.1112165" lon="9.9633579"/>
-    <nd ref="1460496234" lat="44.1114810" lon="9.9636363"/>
-    <tag k="name" v="Piazza Firmafede"/>
+  <way id="48560617" version="4" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa">
+    <bounds minlat="44.1119417" minlon="9.9634682" maxlat="44.1121929" maxlon="9.9635737"/>
+    <nd ref="616821217" lat="44.1119417" lon="9.9635465"/>
+    <nd ref="9653406210" lat="44.1120378" lon="9.9635737"/>
+    <nd ref="616821218" lat="44.1121306" lon="9.9635455"/>
+    <nd ref="9653406207" lat="44.1121929" lon="9.9634682"/>
     <tag k="access" v="destination"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="pedestrian"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="source" v="survey"/>
-    <tag k="surface" v="paving_stones"/>
+    <tag k="surface" v="concrete"/>
   </way>
 </old>
 <new>
-  <way id="156356979" version="8" timestamp="2022-05-26T17:23:24Z" changeset="121538115" uid="673435" user="nilogian">
-    <bounds minlat="44.1112165" minlon="9.9633579" maxlat="44.1114810" maxlon="9.9636363"/>
-    <nd ref="616821195" lat="44.1112165" lon="9.9633579"/>
-    <nd ref="9773201139" lat="44.1114693" lon="9.9636240"/>
-    <nd ref="1460496234" lat="44.1114810" lon="9.9636363"/>
+  <way id="48560617" version="4" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa">
+    <bounds minlat="44.1119417" minlon="9.9634725" maxlat="44.1121991" maxlon="9.9635737"/>
+    <nd ref="616821217" lat="44.1119417" lon="9.9635465"/>
+    <nd ref="9653406210" lat="44.1120378" lon="9.9635737"/>
+    <nd ref="616821218" lat="44.1121306" lon="9.9635455"/>
+    <nd ref="9653406207" lat="44.1121991" lon="9.9634725"/>
     <tag k="access" v="destination"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="pedestrian"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="source" v="survey"/>
-    <tag k="surface" v="paving_stones"/>
+    <tag k="surface" v="concrete"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="837169937" version="2" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa">
-    <bounds minlat="44.1114810" minlon="9.9635472" maxlat="44.1119041" maxlon="9.9636606"/>
-    <nd ref="1460496234" lat="44.1114810" lon="9.9636363"/>
-    <nd ref="616821221" lat="44.1115137" lon="9.9636243"/>
-    <nd ref="2159008079" lat="44.1115553" lon="9.9635472"/>
-    <nd ref="2159009133" lat="44.1116512" lon="9.9636373"/>
-    <nd ref="616821220" lat="44.1117035" lon="9.9636606"/>
-    <nd ref="2159010429" lat="44.1117834" lon="9.9636232"/>
-    <nd ref="616821219" lat="44.1119041" lon="9.9635868"/>
-    <tag k="name" v="Piazza Firmafede"/>
+  <way id="127511085" version="9" timestamp="2020-09-24T06:55:15Z" changeset="91411092" uid="1780773" user="daraxy71">
+    <bounds minlat="44.1143242" minlon="9.9717401" maxlat="44.1145122" maxlon="9.9719913"/>
+    <nd ref="1039170907" lat="44.1145122" lon="9.9719913"/>
+    <nd ref="3233101491" lat="44.1143820" lon="9.9718635"/>
+    <nd ref="3233101490" lat="44.1143416" lon="9.9717965"/>
+    <nd ref="1411140677" lat="44.1143242" lon="9.9717401"/>
+    <tag k="surface" v="concrete:plates"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Montata di Sarzanello"/>
+    <tag k="oneway" v="no"/>
+  </way>
+</old>
+<new>
+  <way id="127511085" version="10" timestamp="2022-05-27T13:53:21Z" changeset="121578049" uid="673435" user="nilogian">
+    <bounds minlat="44.1143242" minlon="9.9717401" maxlat="44.1145122" maxlon="9.9719913"/>
+    <nd ref="1039170907" lat="44.1145122" lon="9.9719913"/>
+    <nd ref="3233101491" lat="44.1143820" lon="9.9718635"/>
+    <nd ref="3233101490" lat="44.1143416" lon="9.9717965"/>
+    <nd ref="1411140677" lat="44.1143242" lon="9.9717401"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Montata di Sarzanello"/>
+    <tag k="oneway" v="no"/>
+    <tag k="surface" v="cobblestone"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="156969595" version="8" timestamp="2022-05-21T17:20:22Z" changeset="121291388" uid="673435" user="nilogian">
+    <bounds minlat="44.1138377" minlon="9.9686101" maxlat="44.1146027" maxlon="9.9705448"/>
+    <nd ref="1692064073" lat="44.1145969" lon="9.9705448"/>
+    <nd ref="1692064111" lat="44.1146027" lon="9.9704456"/>
+    <nd ref="1692063988" lat="44.1145853" lon="9.9703142"/>
+    <nd ref="1692064032" lat="44.1144678" lon="9.9698986"/>
+    <nd ref="1692064070" lat="44.1144134" lon="9.9696728"/>
+    <nd ref="1692064116" lat="44.1143339" lon="9.9694286"/>
+    <nd ref="1692068237" lat="44.1142781" lon="9.9692707"/>
+    <nd ref="1692068240" lat="44.1141500" lon="9.9689360"/>
+    <nd ref="1692068242" lat="44.1140922" lon="9.9687808"/>
+    <nd ref="1692068243" lat="44.1140229" lon="9.9687078"/>
+    <nd ref="1692068244" lat="44.1139576" lon="9.9687156"/>
+    <nd ref="1692068245" lat="44.1138820" lon="9.9686991"/>
+    <nd ref="1692068246" lat="44.1138540" lon="9.9686650"/>
+    <nd ref="1947693363" lat="44.1138377" lon="9.9686101"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Via Montata di Sarzanello"/>
+    <tag k="oneway" v="no"/>
+  </way>
+</old>
+<new>
+  <way id="156969595" version="9" timestamp="2022-05-27T13:53:21Z" changeset="121578049" uid="673435" user="nilogian">
+    <bounds minlat="44.1138377" minlon="9.9686101" maxlat="44.1146027" maxlon="9.9705448"/>
+    <nd ref="1692064073" lat="44.1145969" lon="9.9705448"/>
+    <nd ref="1692064111" lat="44.1146027" lon="9.9704456"/>
+    <nd ref="1692063988" lat="44.1145853" lon="9.9703142"/>
+    <nd ref="1692064032" lat="44.1144678" lon="9.9698986"/>
+    <nd ref="1692064070" lat="44.1144134" lon="9.9696728"/>
+    <nd ref="1692064116" lat="44.1143339" lon="9.9694286"/>
+    <nd ref="1692068237" lat="44.1142781" lon="9.9692707"/>
+    <nd ref="1692068240" lat="44.1141500" lon="9.9689360"/>
+    <nd ref="1692068242" lat="44.1140922" lon="9.9687808"/>
+    <nd ref="1692068243" lat="44.1140229" lon="9.9687078"/>
+    <nd ref="1692068244" lat="44.1139576" lon="9.9687156"/>
+    <nd ref="1692068245" lat="44.1138820" lon="9.9686991"/>
+    <nd ref="1692068246" lat="44.1138540" lon="9.9686650"/>
+    <nd ref="1947693363" lat="44.1138377" lon="9.9686101"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Via Montata di Sarzanello"/>
+    <tag k="oneway" v="no"/>
+    <tag k="surface" v="cobblestone"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="156971010" version="6" timestamp="2022-05-21T17:20:22Z" changeset="121291388" uid="673435" user="nilogian">
+    <bounds minlat="44.1134420" minlon="9.9670331" maxlat="44.1138998" maxlon="9.9682162"/>
+    <nd ref="1692068212" lat="44.1138998" lon="9.9682162"/>
+    <nd ref="1692068216" lat="44.1138197" lon="9.9681206"/>
+    <nd ref="1692068220" lat="44.1137580" lon="9.9681152"/>
+    <nd ref="1692068217" lat="44.1136656" lon="9.9681152"/>
+    <nd ref="1692068224" lat="44.1135963" lon="9.9680884"/>
+    <nd ref="3641036057" lat="44.1135963" lon="9.9680191"/>
+    <nd ref="1692068225" lat="44.1135963" lon="9.9679918"/>
+    <nd ref="1692068226" lat="44.1136309" lon="9.9679436"/>
+    <nd ref="1692068227" lat="44.1136926" lon="9.9678631"/>
+    <nd ref="1692068228" lat="44.1137041" lon="9.9677987"/>
+    <nd ref="1692068229" lat="44.1136656" lon="9.9676378"/>
+    <nd ref="1692068230" lat="44.1136155" lon="9.9674822"/>
+    <nd ref="1692068231" lat="44.1135906" lon="9.9674373"/>
+    <nd ref="1692068232" lat="44.1135497" lon="9.9673461"/>
+    <nd ref="1692068233" lat="44.1135256" lon="9.9672744"/>
+    <nd ref="1692068234" lat="44.1134420" lon="9.9670331"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="highway" v="footway"/>
+    <tag k="name" v="Via Montata di Sarzanello"/>
+  </way>
+</old>
+<new>
+  <way id="156971010" version="7" timestamp="2022-05-27T13:53:21Z" changeset="121578049" uid="673435" user="nilogian">
+    <bounds minlat="44.1134420" minlon="9.9670331" maxlat="44.1138998" maxlon="9.9682162"/>
+    <nd ref="1692068212" lat="44.1138998" lon="9.9682162"/>
+    <nd ref="1692068216" lat="44.1138197" lon="9.9681206"/>
+    <nd ref="1692068220" lat="44.1137580" lon="9.9681152"/>
+    <nd ref="1692068217" lat="44.1136656" lon="9.9681152"/>
+    <nd ref="1692068224" lat="44.1135963" lon="9.9680884"/>
+    <nd ref="3641036057" lat="44.1135963" lon="9.9680191"/>
+    <nd ref="1692068225" lat="44.1135963" lon="9.9679918"/>
+    <nd ref="1692068226" lat="44.1136309" lon="9.9679436"/>
+    <nd ref="1692068227" lat="44.1136926" lon="9.9678631"/>
+    <nd ref="1692068228" lat="44.1137041" lon="9.9677987"/>
+    <nd ref="1692068229" lat="44.1136656" lon="9.9676378"/>
+    <nd ref="1692068230" lat="44.1136155" lon="9.9674822"/>
+    <nd ref="1692068231" lat="44.1135906" lon="9.9674373"/>
+    <nd ref="1692068232" lat="44.1135497" lon="9.9673461"/>
+    <nd ref="1692068233" lat="44.1135256" lon="9.9672744"/>
+    <nd ref="1692068234" lat="44.1134420" lon="9.9670331"/>
+    <tag k="highway" v="footway"/>
+    <tag k="name" v="Via Montata di Sarzanello"/>
+    <tag k="surface" v="cobblestone"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="850753130" version="1" timestamp="2020-09-24T06:55:15Z" changeset="91411092" uid="1780773" user="daraxy71">
+    <bounds minlat="44.1143242" minlon="9.9705448" maxlat="44.1145969" maxlon="9.9717401"/>
+    <nd ref="1411140677" lat="44.1143242" lon="9.9717401"/>
+    <nd ref="1692064114" lat="44.1143531" lon="9.9716785"/>
+    <nd ref="1692063998" lat="44.1143934" lon="9.9715398"/>
+    <nd ref="1692064001" lat="44.1144178" lon="9.9713790"/>
+    <nd ref="1692064013" lat="44.1144354" lon="9.9712225"/>
+    <nd ref="1692064014" lat="44.1144667" lon="9.9710549"/>
+    <nd ref="1692064024" lat="44.1145245" lon="9.9708457"/>
+    <nd ref="1692064069" lat="44.1145738" lon="9.9706494"/>
+    <nd ref="1692064073" lat="44.1145969" lon="9.9705448"/>
+    <tag k="surface" v="concrete:plates"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Via Montata di Sarzanello"/>
+    <tag k="oneway" v="no"/>
+  </way>
+</old>
+<new>
+  <way id="850753130" version="2" timestamp="2022-05-27T13:53:21Z" changeset="121578049" uid="673435" user="nilogian">
+    <bounds minlat="44.1143242" minlon="9.9705448" maxlat="44.1145969" maxlon="9.9717401"/>
+    <nd ref="1411140677" lat="44.1143242" lon="9.9717401"/>
+    <nd ref="1692064114" lat="44.1143531" lon="9.9716785"/>
+    <nd ref="1692063998" lat="44.1143934" lon="9.9715398"/>
+    <nd ref="1692064001" lat="44.1144178" lon="9.9713790"/>
+    <nd ref="1692064013" lat="44.1144354" lon="9.9712225"/>
+    <nd ref="1692064014" lat="44.1144667" lon="9.9710549"/>
+    <nd ref="1692064024" lat="44.1145245" lon="9.9708457"/>
+    <nd ref="1692064069" lat="44.1145738" lon="9.9706494"/>
+    <nd ref="1692064073" lat="44.1145969" lon="9.9705448"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Via Montata di Sarzanello"/>
+    <tag k="oneway" v="no"/>
+    <tag k="surface" v="cobblestone"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1050477535" version="1" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa">
+    <bounds minlat="44.1121929" minlon="9.9633707" maxlat="44.1122534" maxlon="9.9634682"/>
+    <nd ref="9653406207" lat="44.1121929" lon="9.9634682"/>
+    <nd ref="616821224" lat="44.1122091" lon="9.9634523"/>
+    <nd ref="616821223" lat="44.1122534" lon="9.9633707"/>
     <tag k="access" v="destination"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="pedestrian"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="source" v="survey"/>
     <tag k="surface" v="concrete"/>
   </way>
 </old>
 <new>
-  <way id="837169937" version="3" timestamp="2022-05-26T17:23:24Z" changeset="121538115" uid="673435" user="nilogian">
-    <bounds minlat="44.1114810" minlon="9.9635472" maxlat="44.1119041" maxlon="9.9636606"/>
-    <nd ref="1460496234" lat="44.1114810" lon="9.9636363"/>
-    <nd ref="616821221" lat="44.1115137" lon="9.9636243"/>
-    <nd ref="2159008079" lat="44.1115553" lon="9.9635472"/>
-    <nd ref="2159009133" lat="44.1116512" lon="9.9636373"/>
-    <nd ref="616821220" lat="44.1117035" lon="9.9636606"/>
-    <nd ref="2159010429" lat="44.1117834" lon="9.9636232"/>
-    <nd ref="616821219" lat="44.1119041" lon="9.9635868"/>
+  <way id="1050477535" version="1" timestamp="2022-04-09T09:43:53Z" changeset="119496995" uid="2498239" user="maurizioa">
+    <bounds minlat="44.1121991" minlon="9.9633707" maxlat="44.1122534" maxlon="9.9634725"/>
+    <nd ref="9653406207" lat="44.1121991" lon="9.9634725"/>
+    <nd ref="616821224" lat="44.1122091" lon="9.9634523"/>
+    <nd ref="616821223" lat="44.1122534" lon="9.9633707"/>
     <tag k="access" v="destination"/>
     <tag k="bicycle" v="yes"/>
     <tag k="highway" v="pedestrian"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="source" v="survey"/>
     <tag k="surface" v="concrete"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1062376402" version="1" timestamp="2022-05-21T17:20:22Z" changeset="121291388" uid="673435" user="nilogian">
+    <bounds minlat="44.1138377" minlon="9.9682162" maxlat="44.1138998" maxlon="9.9686101"/>
+    <nd ref="1947693363" lat="44.1138377" lon="9.9686101"/>
+    <nd ref="1692068247" lat="44.1138456" lon="9.9685215"/>
+    <nd ref="1692068248" lat="44.1138767" lon="9.9683910"/>
+    <nd ref="1692068249" lat="44.1138998" lon="9.9683052"/>
+    <nd ref="1692068212" lat="44.1138998" lon="9.9682162"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="footway"/>
+    <tag k="name" v="Via Montata di Sarzanello"/>
+    <tag k="oneway" v="no"/>
+  </way>
+</old>
+<new>
+  <way id="1062376402" version="2" timestamp="2022-05-27T13:53:21Z" changeset="121578049" uid="673435" user="nilogian">
+    <bounds minlat="44.1138377" minlon="9.9682162" maxlat="44.1138998" maxlon="9.9686101"/>
+    <nd ref="1947693363" lat="44.1138377" lon="9.9686101"/>
+    <nd ref="1692068247" lat="44.1138456" lon="9.9685215"/>
+    <nd ref="1692068248" lat="44.1138767" lon="9.9683910"/>
+    <nd ref="1692068249" lat="44.1138998" lon="9.9683052"/>
+    <nd ref="1692068212" lat="44.1138998" lon="9.9682162"/>
+    <tag k="highway" v="footway"/>
+    <tag k="name" v="Via Montata di Sarzanello"/>
+    <tag k="oneway" v="no"/>
+    <tag k="surface" v="cobblestone"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1062376403" version="1" timestamp="2022-05-21T17:20:22Z" changeset="121291388" uid="673435" user="nilogian">
+    <bounds minlat="44.1133114" minlon="9.9665340" maxlat="44.1134420" maxlon="9.9670331"/>
+    <nd ref="1947693360" lat="44.1133114" lon="9.9665340"/>
+    <nd ref="1692068236" lat="44.1133374" lon="9.9666487"/>
+    <nd ref="1692068235" lat="44.1133860" lon="9.9668360"/>
+    <nd ref="1692068234" lat="44.1134420" lon="9.9670331"/>
+    <tag k="surface" v="concrete"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Via Montata di Sarzanello"/>
+  </way>
+</old>
+<new>
+  <way id="1062376403" version="2" timestamp="2022-05-27T13:53:21Z" changeset="121578049" uid="673435" user="nilogian">
+    <bounds minlat="44.1133114" minlon="9.9665340" maxlat="44.1134420" maxlon="9.9670331"/>
+    <nd ref="1947693360" lat="44.1133114" lon="9.9665340"/>
+    <nd ref="1692068236" lat="44.1133374" lon="9.9666487"/>
+    <nd ref="1692068235" lat="44.1133860" lon="9.9668360"/>
+    <nd ref="1692068234" lat="44.1134420" lon="9.9670331"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Via Montata di Sarzanello"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </new>
 </action>
@@ -1058,6 +1268,7 @@
     </member>
     <member type="way" ref="156356979" role="">
       <nd lat="44.1112165" lon="9.9633579"/>
+      <nd lat="44.1114693" lon="9.9636240"/>
       <nd lat="44.1114810" lon="9.9636363"/>
     </member>
     <member type="way" ref="377726466" role="">
@@ -2061,7 +2272,7 @@
       <nd lat="44.1128372" lon="9.9628632"/>
     </member>
     <member type="way" ref="1050477535" role="">
-      <nd lat="44.1121929" lon="9.9634682"/>
+      <nd lat="44.1121991" lon="9.9634725"/>
       <nd lat="44.1122091" lon="9.9634523"/>
       <nd lat="44.1122534" lon="9.9633707"/>
     </member>
@@ -2069,7 +2280,7 @@
       <nd lat="44.1119417" lon="9.9635465"/>
       <nd lat="44.1120378" lon="9.9635737"/>
       <nd lat="44.1121306" lon="9.9635455"/>
-      <nd lat="44.1121929" lon="9.9634682"/>
+      <nd lat="44.1121991" lon="9.9634725"/>
     </member>
     <member type="way" ref="837169939" role="">
       <nd lat="44.1119041" lon="9.9635868"/>
