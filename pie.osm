@@ -1,146 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.58.3 b33c3320">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2022-06-25T00:59:04Z" areas="2022-06-24T22:58:18Z"/>
+<meta osm_base="2022-06-26T01:04:05Z" areas="2022-06-26T00:05:26Z"/>
 
 <action type="modify">
 <old>
-  <way id="209976989" version="5" timestamp="2021-02-02T10:54:08Z" changeset="98572006" uid="6178157" user="Tresho">
-    <bounds minlat="45.0920457" minlon="8.0506210" maxlat="45.0942548" maxlon="8.0530166"/>
-    <nd ref="1446507035" lat="45.0942548" lon="8.0530166"/>
-    <nd ref="1446507045" lat="45.0942482" lon="8.0527024"/>
-    <nd ref="1446507056" lat="45.0941977" lon="8.0518283"/>
-    <nd ref="1446507063" lat="45.0941156" lon="8.0516835"/>
-    <nd ref="1446507074" lat="45.0939500" lon="8.0515960"/>
-    <nd ref="8386941989" lat="45.0938025" lon="8.0515588"/>
-    <nd ref="8386941976" lat="45.0933047" lon="8.0514331"/>
-    <nd ref="8386941985" lat="45.0928328" lon="8.0513140"/>
-    <nd ref="1446507083" lat="45.0927260" lon="8.0512870"/>
-    <nd ref="1446507091" lat="45.0924673" lon="8.0512132"/>
-    <nd ref="2319975920" lat="45.0922811" lon="8.0510478"/>
-    <nd ref="2319975919" lat="45.0921266" lon="8.0508501"/>
-    <nd ref="1446507100" lat="45.0920457" lon="8.0506210"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="name" v="Strada Bonvino"/>
+  <way id="230307975" version="4" timestamp="2021-12-28T20:44:55Z" changeset="115488218" uid="2976645" user="Jrachi">
+    <bounds minlat="45.0255329" minlon="7.7185380" maxlat="45.0255863" maxlon="7.7191042"/>
+    <nd ref="391781152" lat="45.0255863" lon="7.7185380"/>
+    <nd ref="391781153" lat="45.0255752" lon="7.7186124"/>
+    <nd ref="1683406682" lat="45.0255770" lon="7.7186948"/>
+    <nd ref="1602067054" lat="45.0255505" lon="7.7189500"/>
+    <nd ref="1603294880" lat="45.0255329" lon="7.7191042"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Strada della Maddalena"/>
   </way>
 </old>
 <new>
-  <way id="209976989" version="6" timestamp="2022-06-24T18:57:31Z" changeset="122814886" uid="3335735" user="nick1993">
-    <bounds minlat="45.0920457" minlon="8.0506210" maxlat="45.0942548" maxlon="8.0530166"/>
-    <nd ref="1446507035" lat="45.0942548" lon="8.0530166"/>
-    <nd ref="1446507045" lat="45.0942482" lon="8.0527024"/>
-    <nd ref="1446507056" lat="45.0941977" lon="8.0518283"/>
-    <nd ref="1446507063" lat="45.0941156" lon="8.0516835"/>
-    <nd ref="1446507074" lat="45.0939500" lon="8.0515960"/>
-    <nd ref="8386941989" lat="45.0938025" lon="8.0515588"/>
-    <nd ref="8386941976" lat="45.0933047" lon="8.0514331"/>
-    <nd ref="8386941985" lat="45.0928328" lon="8.0513140"/>
-    <nd ref="1446507083" lat="45.0927260" lon="8.0512870"/>
-    <nd ref="1446507091" lat="45.0924673" lon="8.0512132"/>
-    <nd ref="2319975920" lat="45.0922811" lon="8.0510478"/>
-    <nd ref="2319975919" lat="45.0921266" lon="8.0508501"/>
-    <nd ref="1446507100" lat="45.0920457" lon="8.0506210"/>
-    <tag k="highway" v="residential"/>
-    <tag k="name" v="Strada Bonvino"/>
+  <way id="230307975" version="6" timestamp="2022-06-25T09:24:09Z" changeset="122830263" uid="1875845" user="Valerio_Bozzolan">
+    <bounds minlat="45.0255329" minlon="7.7185380" maxlat="45.0255863" maxlon="7.7191042"/>
+    <nd ref="391781152" lat="45.0255863" lon="7.7185380"/>
+    <nd ref="391781153" lat="45.0255752" lon="7.7186124"/>
+    <nd ref="1683406682" lat="45.0255770" lon="7.7186948"/>
+    <nd ref="1602067054" lat="45.0255505" lon="7.7189500"/>
+    <nd ref="1603294880" lat="45.0255329" lon="7.7191042"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Strada della Maddalena"/>
+    <tag k="sac_scale" v="hiking"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="209976990" version="2" timestamp="2013-03-21T12:42:01Z" changeset="15442604" uid="354284" user="sbiribizio">
-    <bounds minlat="45.0942254" minlon="8.0530166" maxlat="45.0942548" maxlon="8.0534983"/>
-    <nd ref="1446507035" lat="45.0942548" lon="8.0530166"/>
-    <nd ref="2201325910" lat="45.0942496" lon="8.0531795"/>
-    <nd ref="2201325911" lat="45.0942392" lon="8.0533238"/>
-    <nd ref="2201325912" lat="45.0942254" lon="8.0534983"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="name" v="Strada Bonvino"/>
-  </way>
-</old>
-<new>
-  <way id="209976990" version="3" timestamp="2022-06-24T18:57:31Z" changeset="122814886" uid="3335735" user="nick1993">
-    <bounds minlat="45.0942254" minlon="8.0530166" maxlat="45.0942548" maxlon="8.0534983"/>
-    <nd ref="1446507035" lat="45.0942548" lon="8.0530166"/>
-    <nd ref="2201325910" lat="45.0942496" lon="8.0531795"/>
-    <nd ref="2201325911" lat="45.0942392" lon="8.0533238"/>
-    <nd ref="2201325912" lat="45.0942254" lon="8.0534983"/>
-    <tag k="highway" v="residential"/>
-    <tag k="name" v="Strada Bonvino"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="209977000" version="3" timestamp="2015-03-10T17:45:24Z" changeset="29389302" uid="2373418" user="mbranco2">
-    <bounds minlat="45.0855178" minlon="8.0625484" maxlat="45.0907945" maxlon="8.0687139"/>
-    <nd ref="2201325953" lat="45.0907945" lon="8.0625484"/>
-    <nd ref="2201325959" lat="45.0907430" lon="8.0625718"/>
-    <nd ref="2201325960" lat="45.0906896" lon="8.0626344"/>
-    <nd ref="2201325961" lat="45.0906326" lon="8.0627360"/>
-    <nd ref="2201325962" lat="45.0901764" lon="8.0639816"/>
-    <nd ref="2201325963" lat="45.0899482" lon="8.0645262"/>
-    <nd ref="2201325964" lat="45.0894901" lon="8.0653080"/>
-    <nd ref="2201325965" lat="45.0893724" lon="8.0654747"/>
-    <nd ref="2201325966" lat="45.0892896" lon="8.0655503"/>
-    <nd ref="2201325967" lat="45.0891903" lon="8.0656155"/>
-    <nd ref="2201325968" lat="45.0890412" lon="8.0656546"/>
-    <nd ref="2201325969" lat="45.0888334" lon="8.0657327"/>
-    <nd ref="2201325970" lat="45.0886770" lon="8.0658370"/>
-    <nd ref="2201325971" lat="45.0885279" lon="8.0659673"/>
-    <nd ref="2201325972" lat="45.0883697" lon="8.0661471"/>
-    <nd ref="2201325973" lat="45.0881306" lon="8.0664650"/>
-    <nd ref="2201325974" lat="45.0877405" lon="8.0669106"/>
-    <nd ref="2201325975" lat="45.0875087" lon="8.0671347"/>
-    <nd ref="2201325976" lat="45.0874038" lon="8.0672050"/>
-    <nd ref="2201325977" lat="45.0872916" lon="8.0672441"/>
-    <nd ref="2201325978" lat="45.0869586" lon="8.0673119"/>
-    <nd ref="2201325979" lat="45.0868648" lon="8.0673379"/>
-    <nd ref="2201325980" lat="45.0868133" lon="8.0673614"/>
-    <nd ref="2201325981" lat="45.0867728" lon="8.0673848"/>
-    <nd ref="2201325982" lat="45.0866606" lon="8.0674708"/>
-    <nd ref="2201325983" lat="45.0865557" lon="8.0675751"/>
-    <nd ref="2201325984" lat="45.0855603" lon="8.0686669"/>
-    <nd ref="2201325985" lat="45.0855178" lon="8.0687139"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="name" v="Strada Bonvino"/>
+  <way id="372519145" version="7" timestamp="2022-01-24T19:40:45Z" changeset="116556280" uid="2976645" user="Jrachi">
+    <bounds minlat="45.0134147" minlon="7.7498053" maxlat="45.0137664" maxlon="7.7525323"/>
+    <nd ref="391788518" lat="45.0134147" lon="7.7498053"/>
+    <nd ref="391788519" lat="45.0134308" lon="7.7502038"/>
+    <nd ref="391788520" lat="45.0135138" lon="7.7507615"/>
+    <nd ref="391788521" lat="45.0136165" lon="7.7513371"/>
+    <nd ref="1480034771" lat="45.0137017" lon="7.7519867"/>
+    <nd ref="391788522" lat="45.0137443" lon="7.7522819"/>
+    <nd ref="6530162199" lat="45.0137478" lon="7.7523165"/>
+    <nd ref="1480034773" lat="45.0137539" lon="7.7523761"/>
+    <nd ref="1480034774" lat="45.0137612" lon="7.7524437"/>
+    <nd ref="391788523" lat="45.0137664" lon="7.7525323"/>
     <tag k="surface" v="asphalt"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="name" v="Strada Revigliasco"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="incline" v="up"/>
   </way>
 </old>
 <new>
-  <way id="209977000" version="4" timestamp="2022-06-24T18:57:31Z" changeset="122814886" uid="3335735" user="nick1993">
-    <bounds minlat="45.0855178" minlon="8.0625484" maxlat="45.0907945" maxlon="8.0687139"/>
-    <nd ref="2201325953" lat="45.0907945" lon="8.0625484"/>
-    <nd ref="2201325959" lat="45.0907430" lon="8.0625718"/>
-    <nd ref="2201325960" lat="45.0906896" lon="8.0626344"/>
-    <nd ref="2201325961" lat="45.0906326" lon="8.0627360"/>
-    <nd ref="2201325962" lat="45.0901764" lon="8.0639816"/>
-    <nd ref="2201325963" lat="45.0899482" lon="8.0645262"/>
-    <nd ref="2201325964" lat="45.0894901" lon="8.0653080"/>
-    <nd ref="2201325965" lat="45.0893724" lon="8.0654747"/>
-    <nd ref="2201325966" lat="45.0892896" lon="8.0655503"/>
-    <nd ref="2201325967" lat="45.0891903" lon="8.0656155"/>
-    <nd ref="2201325968" lat="45.0890412" lon="8.0656546"/>
-    <nd ref="2201325969" lat="45.0888334" lon="8.0657327"/>
-    <nd ref="2201325970" lat="45.0886770" lon="8.0658370"/>
-    <nd ref="2201325971" lat="45.0885279" lon="8.0659673"/>
-    <nd ref="2201325972" lat="45.0883697" lon="8.0661471"/>
-    <nd ref="2201325973" lat="45.0881306" lon="8.0664650"/>
-    <nd ref="2201325974" lat="45.0877405" lon="8.0669106"/>
-    <nd ref="2201325975" lat="45.0875087" lon="8.0671347"/>
-    <nd ref="2201325976" lat="45.0874038" lon="8.0672050"/>
-    <nd ref="2201325977" lat="45.0872916" lon="8.0672441"/>
-    <nd ref="2201325978" lat="45.0869586" lon="8.0673119"/>
-    <nd ref="2201325979" lat="45.0868648" lon="8.0673379"/>
-    <nd ref="2201325980" lat="45.0868133" lon="8.0673614"/>
-    <nd ref="2201325981" lat="45.0867728" lon="8.0673848"/>
-    <nd ref="2201325982" lat="45.0866606" lon="8.0674708"/>
-    <nd ref="2201325983" lat="45.0865557" lon="8.0675751"/>
-    <nd ref="2201325984" lat="45.0855603" lon="8.0686669"/>
-    <nd ref="2201325985" lat="45.0855178" lon="8.0687139"/>
-    <tag k="highway" v="residential"/>
-    <tag k="name" v="Strada Bonvino"/>
+  <way id="372519145" version="9" timestamp="2022-06-25T09:19:02Z" changeset="122829749" uid="1875845" user="Valerio_Bozzolan">
+    <bounds minlat="45.0134147" minlon="7.7498053" maxlat="45.0137664" maxlon="7.7525323"/>
+    <nd ref="391788518" lat="45.0134147" lon="7.7498053"/>
+    <nd ref="391788519" lat="45.0134308" lon="7.7502038"/>
+    <nd ref="391788520" lat="45.0135138" lon="7.7507615"/>
+    <nd ref="391788521" lat="45.0136165" lon="7.7513371"/>
+    <nd ref="1480034771" lat="45.0137017" lon="7.7519867"/>
+    <nd ref="391788522" lat="45.0137443" lon="7.7522819"/>
+    <nd ref="6530162199" lat="45.0137478" lon="7.7523165"/>
+    <nd ref="1480034773" lat="45.0137539" lon="7.7523761"/>
+    <nd ref="1480034774" lat="45.0137612" lon="7.7524437"/>
+    <nd ref="391788523" lat="45.0137664" lon="7.7525323"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="incline" v="up"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="maxspeed:type" v="sign"/>
+    <tag k="name" v="Strada Revigliasco"/>
+    <tag k="sac_scale" v="hiking"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>

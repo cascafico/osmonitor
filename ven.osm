@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.58.3 b33c3320">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2022-06-26T01:00:09Z" areas="2022-06-26T00:05:26Z"/>
+
+<action type="modify">
+<old>
+  <way id="829733483" version="3" timestamp="2021-10-13T17:46:28Z" changeset="112472660" uid="67832" user="joost schouppe">
+    <bounds minlat="46.5297709" minlon="12.2800051" maxlat="46.5303231" maxlon="12.2820605"/>
+    <nd ref="472594192" lat="46.5303231" lon="12.2820605"/>
+    <nd ref="9170174344" lat="46.5302604" lon="12.2819665"/>
+    <nd ref="9170174345" lat="46.5301349" lon="12.2816339"/>
+    <nd ref="9170174346" lat="46.5299633" lon="12.2810867"/>
+    <nd ref="472594191" lat="46.5297709" lon="12.2800051"/>
+    <tag k="bicycle" v="designated"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="mtb:scale" v="0"/>
+    <tag k="name" v="Ciclabile Auronzo - Misurina"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="surface" v="gravel"/>
+    <tag k="tracktype" v="grade2"/>
+    <tag k="width" v="3"/>
+  </way>
+</old>
+<new>
+  <way id="829733483" version="4" timestamp="2022-06-25T16:26:55Z" changeset="122842909" uid="1716320" user="alesarrett">
+    <bounds minlat="46.5297709" minlon="12.2800051" maxlat="46.5303231" maxlon="12.2820605"/>
+    <nd ref="472594192" lat="46.5303231" lon="12.2820605"/>
+    <nd ref="9170174344" lat="46.5302604" lon="12.2819665"/>
+    <nd ref="9170174345" lat="46.5301349" lon="12.2816339"/>
+    <nd ref="9170174346" lat="46.5299633" lon="12.2810867"/>
+    <nd ref="472594191" lat="46.5297709" lon="12.2800051"/>
+    <tag k="bicycle" v="designated"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="mtb:scale" v="0"/>
+    <tag k="name" v="Ciclabile Auronzo - Misurina"/>
+    <tag k="oneway" v="no"/>
+    <tag k="segregated" v="no"/>
+    <tag k="surface" v="gravel"/>
+    <tag k="tracktype" v="grade2"/>
+    <tag k="width" v="3"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="956353554" version="1" timestamp="2021-06-20T16:50:06Z" changeset="106673687" uid="8143621" user="GabScat">
+    <bounds minlat="45.5474986" minlon="10.9447571" maxlat="45.5484358" maxlon="10.9457168"/>
+    <nd ref="1401965187" lat="45.5484358" lon="10.9447951"/>
+    <nd ref="259822343" lat="45.5481940" lon="10.9447571"/>
+    <nd ref="259822344" lat="45.5479776" lon="10.9448172"/>
+    <nd ref="259822345" lat="45.5478273" lon="10.9450060"/>
+    <nd ref="259822346" lat="45.5476494" lon="10.9454822"/>
+    <nd ref="259822347" lat="45.5474986" lon="10.9457168"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Via Costeggiola"/>
+    <tag k="oneway" v="no"/>
+    <tag k="ref" v="SP12"/>
+  </way>
+</old>
+<new>
+  <way id="956353554" version="2" timestamp="2022-06-25T11:44:54Z" changeset="122834424" uid="351361" user="dvdzero">
+    <bounds minlat="45.5474986" minlon="10.9447571" maxlat="45.5484358" maxlon="10.9457168"/>
+    <nd ref="1401965187" lat="45.5484358" lon="10.9447951"/>
+    <nd ref="259822343" lat="45.5481940" lon="10.9447571"/>
+    <nd ref="259822344" lat="45.5479776" lon="10.9448172"/>
+    <nd ref="259822345" lat="45.5478273" lon="10.9450060"/>
+    <nd ref="259822346" lat="45.5476494" lon="10.9454822"/>
+    <nd ref="259822347" lat="45.5474986" lon="10.9457168"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Via Costeggiola"/>
+    <tag k="oneway" v="no"/>
+    <tag k="ref" v="SP12"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
