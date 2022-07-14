@@ -1,199 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.58.3 b33c3320">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2022-07-13T01:02:49Z" areas="2022-07-13T00:44:28Z"/>
+<meta osm_base="2022-07-14T01:05:07Z" areas="2022-07-14T00:58:06Z"/>
 
-<action type="modify">
-<old>
-  <node id="1479283013" lat="45.0830662" lon="8.0070373" version="2" timestamp="2014-07-23T17:46:33Z" changeset="24316435" uid="2185951" user="Ferruccio47"/>
-</old>
-<new>
-  <node id="1479283013" lat="45.0830851" lon="8.0070507" version="3" timestamp="2022-07-12T14:32:10Z" changeset="123524164" uid="9265159" user="grawal"/>
-</new>
-</action>
-<action type="delete">
-<old>
-  <node id="4224376311" lat="45.0830067" lon="8.0075169" version="2" timestamp="2017-01-16T14:29:08Z" changeset="45217239" uid="90379" user="Andrea Musuruane"/>
-</old>
-<new>
-  <node id="4224376311" visible="true" version="3" timestamp="2022-07-12T14:32:10Z" changeset="123524164" uid="9265159" user="grawal"/>
-</new>
-</action>
-<action type="delete">
-<old>
-  <node id="4224376312" lat="45.0830724" lon="8.0069816" version="1" timestamp="2016-06-03T20:47:32Z" changeset="39787597" uid="4059869" user="otorongo"/>
-</old>
-<new>
-  <node id="4224376312" visible="true" version="2" timestamp="2022-07-12T14:32:10Z" changeset="123524164" uid="9265159" user="grawal"/>
-</new>
-</action>
 <action type="create">
-  <node id="9883317197" lat="45.0830986" lon="8.0069317" version="1" timestamp="2022-07-12T14:32:10Z" changeset="123524164" uid="9265159" user="grawal"/>
+  <node id="9884589845" lat="45.0759431" lon="7.7976474" version="1" timestamp="2022-07-13T08:25:43Z" changeset="123551417" uid="647328" user="maxtar"/>
 </action>
 <action type="modify">
 <old>
-  <way id="134563559" version="9" timestamp="2021-05-16T09:34:54Z" changeset="104760741" uid="13335848" user="Ilex03">
-    <bounds minlat="45.0794257" minlon="8.0051337" maxlat="45.0834493" maxlon="8.0087981"/>
-    <nd ref="938135320" lat="45.0834493" lon="8.0087981"/>
-    <nd ref="8735803846" lat="45.0833613" lon="8.0084872"/>
-    <nd ref="1479282238" lat="45.0833400" lon="8.0084120"/>
-    <nd ref="8735803861" lat="45.0832337" lon="8.0081340"/>
-    <nd ref="1479282291" lat="45.0832013" lon="8.0080492"/>
-    <nd ref="1479282354" lat="45.0830443" lon="8.0076574"/>
-    <nd ref="4224376311" lat="45.0830067" lon="8.0075169"/>
-    <nd ref="1479282863" lat="45.0830102" lon="8.0074188"/>
-    <nd ref="1479283013" lat="45.0830662" lon="8.0070373"/>
-    <nd ref="4224376312" lat="45.0830724" lon="8.0069816"/>
-    <nd ref="2954115357" lat="45.0830945" lon="8.0067818"/>
-    <nd ref="1479281935" lat="45.0830375" lon="8.0065709"/>
-    <nd ref="1479281950" lat="45.0829421" lon="8.0064316"/>
-    <nd ref="1479281966" lat="45.0823091" lon="8.0057164"/>
-    <nd ref="7598453492" lat="45.0821693" lon="8.0056402"/>
-    <nd ref="1479282385" lat="45.0819278" lon="8.0055085"/>
-    <nd ref="1479282393" lat="45.0816085" lon="8.0054373"/>
-    <nd ref="1479282407" lat="45.0812568" lon="8.0052532"/>
-    <nd ref="1479282413" lat="45.0810937" lon="8.0052580"/>
-    <nd ref="1479282768" lat="45.0806308" lon="8.0055333"/>
-    <nd ref="1479282841" lat="45.0804318" lon="8.0055435"/>
-    <nd ref="1479282917" lat="45.0800258" lon="8.0053855"/>
-    <nd ref="1479283002" lat="45.0795310" lon="8.0051551"/>
-    <nd ref="1479281484" lat="45.0794257" lon="8.0051337"/>
-    <tag k="highway" v="residential"/>
-    <tag k="oneway" v="no"/>
+  <way id="42074500" version="12" timestamp="2022-01-26T13:44:36Z" changeset="116623508" uid="2976645" user="Jrachi">
+    <bounds minlat="45.0743312" minlon="7.7960752" maxlat="45.0764442" maxlon="7.7978518"/>
+    <nd ref="522684385" lat="45.0743312" lon="7.7960752"/>
+    <nd ref="522684399" lat="45.0746154" lon="7.7963140"/>
+    <nd ref="9450174144" lat="45.0750050" lon="7.7965722"/>
+    <nd ref="2214664987" lat="45.0750761" lon="7.7966720"/>
+    <nd ref="9450174143" lat="45.0752187" lon="7.7969512"/>
+    <nd ref="9450174142" lat="45.0753670" lon="7.7971986"/>
+    <nd ref="522684401" lat="45.0755040" lon="7.7973633"/>
+    <nd ref="9450174141" lat="45.0756321" lon="7.7974673"/>
+    <nd ref="522684404" lat="45.0757457" lon="7.7975527"/>
+    <nd ref="9450174140" lat="45.0758558" lon="7.7976150"/>
+    <nd ref="5421253473" lat="45.0762207" lon="7.7977502"/>
+    <nd ref="522684407" lat="45.0764442" lon="7.7978518"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Strada Bellavista"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </old>
 <new>
-  <way id="134563559" version="10" timestamp="2022-07-12T14:32:10Z" changeset="123524164" uid="9265159" user="grawal">
-    <bounds minlat="45.0794257" minlon="8.0051337" maxlat="45.0834493" maxlon="8.0087981"/>
-    <nd ref="938135320" lat="45.0834493" lon="8.0087981"/>
-    <nd ref="8735803846" lat="45.0833613" lon="8.0084872"/>
-    <nd ref="1479282238" lat="45.0833400" lon="8.0084120"/>
-    <nd ref="8735803861" lat="45.0832337" lon="8.0081340"/>
-    <nd ref="1479282291" lat="45.0832013" lon="8.0080492"/>
-    <nd ref="1479282354" lat="45.0830443" lon="8.0076574"/>
-    <nd ref="1479282863" lat="45.0830102" lon="8.0074188"/>
-    <nd ref="1479283013" lat="45.0830851" lon="8.0070507"/>
-    <nd ref="9883317197" lat="45.0830986" lon="8.0069317"/>
-    <nd ref="2954115357" lat="45.0830945" lon="8.0067818"/>
-    <nd ref="1479281935" lat="45.0830375" lon="8.0065709"/>
-    <nd ref="1479281950" lat="45.0829421" lon="8.0064316"/>
-    <nd ref="1479281966" lat="45.0823091" lon="8.0057164"/>
-    <nd ref="7598453492" lat="45.0821693" lon="8.0056402"/>
-    <nd ref="1479282385" lat="45.0819278" lon="8.0055085"/>
-    <nd ref="1479282393" lat="45.0816085" lon="8.0054373"/>
-    <nd ref="1479282407" lat="45.0812568" lon="8.0052532"/>
-    <nd ref="1479282413" lat="45.0810937" lon="8.0052580"/>
-    <nd ref="1479282768" lat="45.0806308" lon="8.0055333"/>
-    <nd ref="1479282841" lat="45.0804318" lon="8.0055435"/>
-    <nd ref="1479282917" lat="45.0800258" lon="8.0053855"/>
-    <nd ref="1479283002" lat="45.0795310" lon="8.0051551"/>
-    <nd ref="1479281484" lat="45.0794257" lon="8.0051337"/>
-    <tag k="highway" v="residential"/>
-    <tag k="oneway" v="no"/>
+  <way id="42074500" version="13" timestamp="2022-07-13T08:25:43Z" changeset="123551417" uid="647328" user="maxtar">
+    <bounds minlat="45.0743312" minlon="7.7960752" maxlat="45.0764442" maxlon="7.7978518"/>
+    <nd ref="522684385" lat="45.0743312" lon="7.7960752"/>
+    <nd ref="522684399" lat="45.0746154" lon="7.7963140"/>
+    <nd ref="9450174144" lat="45.0750050" lon="7.7965722"/>
+    <nd ref="2214664987" lat="45.0750761" lon="7.7966720"/>
+    <nd ref="9450174143" lat="45.0752187" lon="7.7969512"/>
+    <nd ref="9450174142" lat="45.0753670" lon="7.7971986"/>
+    <nd ref="522684401" lat="45.0755040" lon="7.7973633"/>
+    <nd ref="9450174141" lat="45.0756321" lon="7.7974673"/>
+    <nd ref="522684404" lat="45.0757457" lon="7.7975527"/>
+    <nd ref="9450174140" lat="45.0758558" lon="7.7976150"/>
+    <nd ref="9884589845" lat="45.0759431" lon="7.7976474"/>
+    <nd ref="5421253473" lat="45.0762207" lon="7.7977502"/>
+    <nd ref="522684407" lat="45.0764442" lon="7.7978518"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Strada Bellavista"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="209976978" version="7" timestamp="2021-02-13T15:37:29Z" changeset="99218140" uid="90379" user="Andrea Musuruane">
-    <bounds minlat="45.0805248" minlon="7.9573922" maxlat="45.0806737" maxlon="7.9576866"/>
-    <nd ref="917229874" lat="45.0806737" lon="7.9576866"/>
-    <nd ref="917229418" lat="45.0806511" lon="7.9576432"/>
-    <nd ref="917230007" lat="45.0805715" lon="7.9574963"/>
-    <nd ref="917229533" lat="45.0805248" lon="7.9573922"/>
-    <tag k="highway" v="track"/>
-    <tag k="tracktype" v="grade2"/>
-  </way>
-</old>
-<new>
-  <way id="209976978" version="8" timestamp="2022-07-12T14:32:10Z" changeset="123524164" uid="9265159" user="grawal">
-    <bounds minlat="45.0805248" minlon="7.9573922" maxlat="45.0806511" maxlon="7.9576432"/>
-    <nd ref="917229418" lat="45.0806511" lon="7.9576432"/>
-    <nd ref="917230007" lat="45.0805715" lon="7.9574963"/>
-    <nd ref="917229533" lat="45.0805248" lon="7.9573922"/>
-    <tag k="highway" v="track"/>
-    <tag k="tracktype" v="grade2"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="1055016878" version="1" timestamp="2022-04-26T08:39:56Z" changeset="120200459" uid="11288458" user="Skinoku">
-    <bounds minlat="45.0795016" minlon="7.9685991" maxlat="45.0796778" maxlon="7.9688490"/>
-    <nd ref="550691077" lat="45.0795618" lon="7.9686056"/>
-    <nd ref="9694549089" lat="45.0795375" lon="7.9686235"/>
-    <nd ref="9694549088" lat="45.0795183" lon="7.9686510"/>
-    <nd ref="9694549087" lat="45.0795059" lon="7.9686855"/>
-    <nd ref="550690832" lat="45.0795016" lon="7.9687237"/>
-    <nd ref="9694549086" lat="45.0795058" lon="7.9687619"/>
-    <nd ref="9694549085" lat="45.0795180" lon="7.9687966"/>
-    <nd ref="9694549090" lat="45.0795371" lon="7.9688242"/>
-    <nd ref="9694549084" lat="45.0795627" lon="7.9688429"/>
-    <nd ref="2297484482" lat="45.0795912" lon="7.9688490"/>
-    <nd ref="9694549083" lat="45.0796195" lon="7.9688417"/>
-    <nd ref="9694549082" lat="45.0796447" lon="7.9688219"/>
-    <nd ref="671792917" lat="45.0796640" lon="7.9687917"/>
-    <nd ref="9694549081" lat="45.0796755" lon="7.9687542"/>
-    <nd ref="9694549091" lat="45.0796778" lon="7.9687136"/>
-    <nd ref="9694549080" lat="45.0796716" lon="7.9686770"/>
-    <nd ref="550690829" lat="45.0796580" lon="7.9686447"/>
-    <nd ref="9694549079" lat="45.0796383" lon="7.9686196"/>
-    <nd ref="9694549078" lat="45.0796142" lon="7.9686040"/>
-    <nd ref="9694549077" lat="45.0795879" lon="7.9685991"/>
-    <nd ref="550691077" lat="45.0795618" lon="7.9686056"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="junction" v="roundabout"/>
-  </way>
-</old>
-<new>
-  <way id="1055016878" version="2" timestamp="2022-07-12T14:32:10Z" changeset="123524164" uid="9265159" user="grawal">
-    <bounds minlat="45.0795016" minlon="7.9686056" maxlat="45.0796447" maxlon="7.9688490"/>
-    <nd ref="550691077" lat="45.0795618" lon="7.9686056"/>
-    <nd ref="9694549089" lat="45.0795375" lon="7.9686235"/>
-    <nd ref="9694549088" lat="45.0795183" lon="7.9686510"/>
-    <nd ref="9694549087" lat="45.0795059" lon="7.9686855"/>
-    <nd ref="550690832" lat="45.0795016" lon="7.9687237"/>
-    <nd ref="9694549086" lat="45.0795058" lon="7.9687619"/>
-    <nd ref="9694549085" lat="45.0795180" lon="7.9687966"/>
-    <nd ref="9694549090" lat="45.0795371" lon="7.9688242"/>
-    <nd ref="9694549084" lat="45.0795627" lon="7.9688429"/>
-    <nd ref="2297484482" lat="45.0795912" lon="7.9688490"/>
-    <nd ref="9694549083" lat="45.0796195" lon="7.9688417"/>
-    <nd ref="9694549082" lat="45.0796447" lon="7.9688219"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="junction" v="roundabout"/>
-  </way>
-</new>
-</action>
-<action type="create">
-  <way id="1077984023" version="1" timestamp="2022-07-12T14:32:10Z" changeset="123524164" uid="9265159" user="grawal">
-    <bounds minlat="45.0806511" minlon="7.9576432" maxlat="45.0806737" maxlon="7.9576866"/>
-    <nd ref="917229874" lat="45.0806737" lon="7.9576866"/>
-    <nd ref="917229418" lat="45.0806511" lon="7.9576432"/>
-    <tag k="highway" v="track"/>
-    <tag k="tracktype" v="grade2"/>
-  </way>
-</action>
-<action type="create">
-  <way id="1077984024" version="1" timestamp="2022-07-12T14:32:10Z" changeset="123524164" uid="9265159" user="grawal">
-    <bounds minlat="45.0795618" minlon="7.9685991" maxlat="45.0796778" maxlon="7.9688219"/>
-    <nd ref="9694549082" lat="45.0796447" lon="7.9688219"/>
-    <nd ref="671792917" lat="45.0796640" lon="7.9687917"/>
-    <nd ref="9694549081" lat="45.0796755" lon="7.9687542"/>
-    <nd ref="9694549091" lat="45.0796778" lon="7.9687136"/>
-    <nd ref="9694549080" lat="45.0796716" lon="7.9686770"/>
-    <nd ref="550690829" lat="45.0796580" lon="7.9686447"/>
-    <nd ref="9694549079" lat="45.0796383" lon="7.9686196"/>
-    <nd ref="9694549078" lat="45.0796142" lon="7.9686040"/>
-    <nd ref="9694549077" lat="45.0795879" lon="7.9685991"/>
-    <nd ref="550691077" lat="45.0795618" lon="7.9686056"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="junction" v="roundabout"/>
-  </way>
-</action>
-<action type="modify">
-<old>
-  <relation id="2818340" version="46" timestamp="2022-04-26T08:39:56Z" changeset="120200459" uid="11288458" user="Skinoku">
+  <relation id="2818340" version="47" timestamp="2022-07-12T14:32:10Z" changeset="123524164" uid="9265159" user="grawal">
     <bounds minlat="45.0685826" minlon="7.7664458" maxlat="45.1002831" maxlon="8.2756900"/>
     <member type="way" ref="925822092" role="">
       <nd lat="45.0802019" lon="7.7670733"/>
@@ -1513,10 +1373,13 @@
       <nd lat="45.0807141" lon="7.9563544"/>
     </member>
     <member type="way" ref="209976978" role="">
-      <nd lat="45.0806737" lon="7.9576866"/>
       <nd lat="45.0806511" lon="7.9576432"/>
       <nd lat="45.0805715" lon="7.9574963"/>
       <nd lat="45.0805248" lon="7.9573922"/>
+    </member>
+    <member type="way" ref="1077984023" role="">
+      <nd lat="45.0806737" lon="7.9576866"/>
+      <nd lat="45.0806511" lon="7.9576432"/>
     </member>
     <member type="way" ref="209976979" role="">
       <nd lat="45.0816207" lon="7.9591721"/>
@@ -1588,6 +1451,9 @@
       <nd lat="45.0795627" lon="7.9688429"/>
       <nd lat="45.0795912" lon="7.9688490"/>
       <nd lat="45.0796195" lon="7.9688417"/>
+      <nd lat="45.0796447" lon="7.9688219"/>
+    </member>
+    <member type="way" ref="1077984024" role="">
       <nd lat="45.0796447" lon="7.9688219"/>
       <nd lat="45.0796640" lon="7.9687917"/>
       <nd lat="45.0796755" lon="7.9687542"/>
@@ -1822,10 +1688,9 @@
       <nd lat="45.0832337" lon="8.0081340"/>
       <nd lat="45.0832013" lon="8.0080492"/>
       <nd lat="45.0830443" lon="8.0076574"/>
-      <nd lat="45.0830067" lon="8.0075169"/>
       <nd lat="45.0830102" lon="8.0074188"/>
-      <nd lat="45.0830662" lon="8.0070373"/>
-      <nd lat="45.0830724" lon="8.0069816"/>
+      <nd lat="45.0830851" lon="8.0070507"/>
+      <nd lat="45.0830986" lon="8.0069317"/>
       <nd lat="45.0830945" lon="8.0067818"/>
       <nd lat="45.0830375" lon="8.0065709"/>
       <nd lat="45.0829421" lon="8.0064316"/>
@@ -3512,6 +3377,7 @@
       <nd lat="45.0756321" lon="7.7974673"/>
       <nd lat="45.0757457" lon="7.7975527"/>
       <nd lat="45.0758558" lon="7.7976150"/>
+      <nd lat="45.0759431" lon="7.7976474"/>
       <nd lat="45.0762207" lon="7.7977502"/>
       <nd lat="45.0764442" lon="7.7978518"/>
     </member>
