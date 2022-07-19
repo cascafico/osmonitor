@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.58.3 b33c3320">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2022-07-19T01:08:07Z" areas="2022-07-19T00:57:01Z"/>
+
+<action type="modify">
+<old>
+  <way id="522498478" version="1" timestamp="2017-09-08T14:20:45Z" changeset="51847201" uid="2976645" user="Jrachi">
+    <bounds minlat="45.3153590" minlon="7.3884588" maxlat="45.3156038" maxlon="7.3887147"/>
+    <nd ref="1756195377" lat="45.3153590" lon="7.3884588"/>
+    <nd ref="1756195370" lat="45.3155344" lon="7.3886233"/>
+    <nd ref="1756195375" lat="45.3156038" lon="7.3886592"/>
+    <nd ref="5085965428" lat="45.3155733" lon="7.3887147"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Piazza IV Novembre"/>
+  </way>
+</old>
+<new>
+  <way id="522498478" version="2" timestamp="2022-07-18T20:57:41Z" changeset="123779724" uid="11220113" user="ivanbranco">
+    <bounds minlat="45.3153590" minlon="7.3884588" maxlat="45.3156038" maxlon="7.3887147"/>
+    <nd ref="1756195377" lat="45.3153590" lon="7.3884588"/>
+    <nd ref="1756195370" lat="45.3155344" lon="7.3886233"/>
+    <nd ref="1756195375" lat="45.3156038" lon="7.3886592"/>
+    <nd ref="5085965428" lat="45.3155733" lon="7.3887147"/>
+    <tag k="alt_name" v="Piazza IV Novembre"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Piazza Quattro Novembre"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="532935008" version="4" timestamp="2021-05-16T06:08:22Z" changeset="104755193" uid="6645382" user="canfe">
+    <bounds minlat="45.2580747" minlon="7.5044623" maxlat="45.2589465" maxlon="7.5048418"/>
+    <nd ref="4460529542" lat="45.2589465" lon="7.5044623"/>
+    <nd ref="823489338" lat="45.2585940" lon="7.5045592"/>
+    <nd ref="973862793" lat="45.2584483" lon="7.5046323"/>
+    <nd ref="5171157243" lat="45.2582711" lon="7.5047210"/>
+    <nd ref="435467426" lat="45.2580747" lon="7.5048418"/>
+    <tag k="name" v="Corso quattro Novembre"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</old>
+<new>
+  <way id="532935008" version="5" timestamp="2022-07-18T20:57:41Z" changeset="123779724" uid="11220113" user="ivanbranco">
+    <bounds minlat="45.2580747" minlon="7.5044623" maxlat="45.2589465" maxlon="7.5048418"/>
+    <nd ref="4460529542" lat="45.2589465" lon="7.5044623"/>
+    <nd ref="823489338" lat="45.2585940" lon="7.5045592"/>
+    <nd ref="973862793" lat="45.2584483" lon="7.5046323"/>
+    <nd ref="5171157243" lat="45.2582711" lon="7.5047210"/>
+    <nd ref="435467426" lat="45.2580747" lon="7.5048418"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Corso Quattro Novembre"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
