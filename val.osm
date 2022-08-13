@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.58.5 b0c4acbb">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2022-08-13T00:53:35Z" areas="2022-07-20T11:06:24Z"/>
+
+<action type="modify">
+<old>
+  <way id="131415127" version="3" timestamp="2015-01-23T22:47:22Z" changeset="28361490" uid="439413" user="nuvolabianca">
+    <bounds minlat="45.5688199" minlon="7.1187485" maxlat="45.5689429" maxlon="7.1189708"/>
+    <nd ref="1446320741" lat="45.5689429" lon="7.1187485"/>
+    <nd ref="1446320738" lat="45.5688199" lon="7.1189708"/>
+    <tag k="highway" v="service"/>
+  </way>
+</old>
+<new>
+  <way id="131415127" version="4" timestamp="2022-08-12T09:06:16Z" changeset="124807714" uid="717233" user="jacopofar">
+    <bounds minlat="45.5688199" minlon="7.1187485" maxlat="45.5689429" maxlon="7.1189708"/>
+    <nd ref="1446320741" lat="45.5689429" lon="7.1187485"/>
+    <nd ref="1446320738" lat="45.5688199" lon="7.1189708"/>
+    <tag k="highway" v="service"/>
+    <tag k="surface" v="sett"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="686075883" version="2" timestamp="2020-10-19T09:29:50Z" changeset="92695920" uid="1550808" user="marcogino">
+    <bounds minlat="45.5689429" minlon="7.1184946" maxlat="45.5691271" maxlon="7.1187485"/>
+    <nd ref="3635860139" lat="45.5691271" lon="7.1184946"/>
+    <nd ref="8021446411" lat="45.5690728" lon="7.1185385"/>
+    <nd ref="3635860140" lat="45.5690273" lon="7.1185898"/>
+    <nd ref="3635860141" lat="45.5689702" lon="7.1186971"/>
+    <nd ref="1446320741" lat="45.5689429" lon="7.1187485"/>
+    <tag k="surface" v="cobblestone"/>
+    <tag k="highway" v="footway"/>
+  </way>
+</old>
+<new>
+  <way id="686075883" version="3" timestamp="2022-08-12T09:06:35Z" changeset="124808646" uid="717233" user="jacopofar">
+    <bounds minlat="45.5689429" minlon="7.1184946" maxlat="45.5691271" maxlon="7.1187485"/>
+    <nd ref="3635860139" lat="45.5691271" lon="7.1184946"/>
+    <nd ref="8021446411" lat="45.5690728" lon="7.1185385"/>
+    <nd ref="3635860140" lat="45.5690273" lon="7.1185898"/>
+    <nd ref="3635860141" lat="45.5689702" lon="7.1186971"/>
+    <nd ref="1446320741" lat="45.5689429" lon="7.1187485"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="sett"/>
+  </way>
+</new>
+</action>
+
+</osm>
