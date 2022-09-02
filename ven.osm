@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.58.5 b0c4acbb">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2022-09-02T01:03:01Z" areas="2022-07-20T11:06:24Z"/>
+
+<action type="modify">
+<old>
+  <way id="295707301" version="3" timestamp="2014-08-04T19:31:55Z" changeset="24542421" uid="30747" user="kepenu">
+    <bounds minlat="46.5321406" minlon="12.1731590" maxlat="46.5322415" maxlon="12.1734216"/>
+    <nd ref="2994555544" lat="46.5322415" lon="12.1731590"/>
+    <nd ref="2994555547" lat="46.5322206" lon="12.1732426"/>
+    <nd ref="2994555546" lat="46.5322041" lon="12.1733081"/>
+    <nd ref="598691269" lat="46.5321406" lon="12.1734216"/>
+    <tag k="tracktype" v="grade1"/>
+    <tag k="source" v="Bing"/>
+    <tag k="highway" v="track"/>
+  </way>
+</old>
+<new>
+  <way id="295707301" version="4" timestamp="2022-09-01T06:19:36Z" changeset="125638672" uid="109705" user="gscholz">
+    <bounds minlat="46.5321406" minlon="12.1731590" maxlat="46.5322415" maxlon="12.1734216"/>
+    <nd ref="2994555544" lat="46.5322415" lon="12.1731590"/>
+    <nd ref="2994555547" lat="46.5322206" lon="12.1732426"/>
+    <nd ref="2994555546" lat="46.5322041" lon="12.1733081"/>
+    <nd ref="598691269" lat="46.5321406" lon="12.1734216"/>
+    <tag k="highway" v="track"/>
+    <tag k="piste:difficulty" v="easy"/>
+    <tag k="piste:oneway" v="no"/>
+    <tag k="piste:type" v="downhill"/>
+    <tag k="source" v="Bing"/>
+    <tag k="tracktype" v="grade1"/>
+  </way>
+</new>
+</action>
+
+</osm>
