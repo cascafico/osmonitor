@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.59 e21c39fe">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2022-12-11T00:57:48Z" areas="2022-12-11T00:32:22Z"/>
+
+<action type="modify">
+<old>
+  <way id="289956792" version="15" timestamp="2022-09-23T20:28:57Z" changeset="126562792" uid="675302" user="Martj9">
+    <bounds minlat="45.1392389" minlon="7.0575617" maxlat="45.1392512" maxlon="7.0576069"/>
+    <nd ref="1446930976" lat="45.1392512" lon="7.0575617"/>
+    <nd ref="2934886042" lat="45.1392389" lon="7.0576069"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Corso Luciano Couvert"/>
+    <tag k="parking:lane:both" v="no_parking"/>
+    <tag k="ref" v="SP225"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="short_name" v="Corso Couvert"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="smoothness" v="good"/>
+  </way>
+</old>
+<new>
+  <way id="289956792" version="16" timestamp="2022-12-10T13:26:24Z" changeset="129932398" uid="675302" user="Martj9">
+    <bounds minlat="45.1392389" minlon="7.0575617" maxlat="45.1392512" maxlon="7.0576069"/>
+    <nd ref="1446930976" lat="45.1392512" lon="7.0575617"/>
+    <nd ref="2934886042" lat="45.1392389" lon="7.0576069"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Corso Luciano Couvert"/>
+    <tag k="parking:lane:both" v="no_parking"/>
+    <tag k="ref" v="SP225"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="short_name" v="Corso Couvert"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="sidewalk:left:surface" v="paving_stones"/>
+    <tag k="smoothness" v="good"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="375284551" version="12" timestamp="2022-09-23T20:29:01Z" changeset="126562792" uid="675302" user="Martj9">
+    <bounds minlat="45.1390956" minlon="7.0576069" maxlat="45.1392389" maxlon="7.0580782"/>
+    <nd ref="2934886042" lat="45.1392389" lon="7.0576069"/>
+    <nd ref="961912670" lat="45.1391833" lon="7.0578107"/>
+    <nd ref="9814477686" lat="45.1391506" lon="7.0579105"/>
+    <nd ref="9814477679" lat="45.1391196" lon="7.0580051"/>
+    <nd ref="4571382000" lat="45.1390956" lon="7.0580782"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Via Montello"/>
+    <tag k="parking:lane:both" v="no_parking"/>
+    <tag k="ref" v="SP225"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="sidewalk" v="right"/>
+    <tag k="smoothness" v="good"/>
+  </way>
+</old>
+<new>
+  <way id="375284551" version="13" timestamp="2022-12-10T13:26:24Z" changeset="129932398" uid="675302" user="Martj9">
+    <bounds minlat="45.1390956" minlon="7.0576069" maxlat="45.1392389" maxlon="7.0580782"/>
+    <nd ref="2934886042" lat="45.1392389" lon="7.0576069"/>
+    <nd ref="961912670" lat="45.1391833" lon="7.0578107"/>
+    <nd ref="9814477686" lat="45.1391506" lon="7.0579105"/>
+    <nd ref="9814477679" lat="45.1391196" lon="7.0580051"/>
+    <nd ref="4571382000" lat="45.1390956" lon="7.0580782"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Via Montello"/>
+    <tag k="parking:lane:both" v="no_parking"/>
+    <tag k="ref" v="SP225"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="sidewalk" v="right"/>
+    <tag k="sidewalk:right:surface" v="paving_stones"/>
+    <tag k="smoothness" v="good"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
