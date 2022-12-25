@@ -1,8 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.59 e21c39fe">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2022-12-25T00:52:07Z" areas="2022-12-24T23:01:40Z"/>
+<meta osm_base="2022-12-25T00:53:08Z" areas="2022-12-24T23:01:40Z"/>
 
+<action type="delete">
+<old>
+  <node id="667077067" lat="44.5255095" lon="8.5319354" version="3" timestamp="2010-09-08T17:53:53Z" changeset="5726280" uid="113023" user="glaucos"/>
+</old>
+<new>
+  <node id="667077067" visible="true" version="3" timestamp="2010-09-08T17:53:53Z" changeset="5726280" uid="113023" user="glaucos"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="667077069" lat="44.5265224" lon="8.5321888" version="5" timestamp="2013-09-25T09:50:42Z" changeset="18023535" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="667077069" visible="true" version="5" timestamp="2013-09-25T09:50:42Z" changeset="18023535" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="667077072" lat="44.5268547" lon="8.5324719" version="3" timestamp="2010-09-08T17:54:23Z" changeset="5726280" uid="113023" user="glaucos"/>
+</old>
+<new>
+  <node id="667077072" visible="true" version="3" timestamp="2010-09-08T17:54:23Z" changeset="5726280" uid="113023" user="glaucos"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="903173869" lat="44.5266397" lon="8.5322616" version="1" timestamp="2010-09-08T17:53:17Z" changeset="5726280" uid="113023" user="glaucos"/>
+</old>
+<new>
+  <node id="903173869" visible="true" version="1" timestamp="2010-09-08T17:53:17Z" changeset="5726280" uid="113023" user="glaucos"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="903174358" lat="44.5259419" lon="8.5320226" version="1" timestamp="2010-09-08T17:53:24Z" changeset="5726280" uid="113023" user="glaucos"/>
+</old>
+<new>
+  <node id="903174358" visible="true" version="1" timestamp="2010-09-08T17:53:24Z" changeset="5726280" uid="113023" user="glaucos"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="903175197" lat="44.5271779" lon="8.5327034" version="1" timestamp="2010-09-08T17:53:36Z" changeset="5726280" uid="113023" user="glaucos"/>
+</old>
+<new>
+  <node id="903175197" visible="true" version="1" timestamp="2010-09-08T17:53:36Z" changeset="5726280" uid="113023" user="glaucos"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="2470902546" lat="44.5256517" lon="8.5319534" version="1" timestamp="2013-09-25T09:50:35Z" changeset="18023535" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="2470902546" visible="true" version="1" timestamp="2013-09-25T09:50:35Z" changeset="18023535" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="2470902555" lat="44.5262977" lon="8.5321118" version="1" timestamp="2013-09-25T09:50:35Z" changeset="18023535" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="2470902555" visible="true" version="1" timestamp="2013-09-25T09:50:35Z" changeset="18023535" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <way id="220561383" version="4" timestamp="2021-12-28T20:54:46Z" changeset="115488527" uid="2976645" user="Jrachi">
+    <bounds minlat="44.5255095" minlon="8.5319354" maxlat="44.5275898" maxlon="8.5329400"/>
+    <nd ref="667077067" lat="44.5255095" lon="8.5319354"/>
+    <nd ref="2470902546" lat="44.5256517" lon="8.5319534"/>
+    <nd ref="903174358" lat="44.5259419" lon="8.5320226"/>
+    <nd ref="2470902555" lat="44.5262977" lon="8.5321118"/>
+    <nd ref="667077069" lat="44.5265224" lon="8.5321888"/>
+    <nd ref="903173869" lat="44.5266397" lon="8.5322616"/>
+    <nd ref="667077072" lat="44.5268547" lon="8.5324719"/>
+    <nd ref="903175197" lat="44.5271779" lon="8.5327034"/>
+    <nd ref="667077073" lat="44.5275898" lon="8.5329400"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="Strada provinciale Ponzone-Piancastagna"/>
+    <tag k="operator" v="Provincia di Alessandria"/>
+    <tag k="ref" v="SP210"/>
+    <tag k="sac_scale" v="hiking"/>
+  </way>
+</old>
+<new>
+  <way id="220561383" visible="true" version="4" timestamp="2021-12-28T20:54:46Z" changeset="115488527" uid="2976645" user="Jrachi"/>
+</new>
+</action>
 <action type="modify">
 <old>
   <way id="907744488" version="3" timestamp="2021-12-28T20:54:46Z" changeset="115488527" uid="2976645" user="Jrachi">
