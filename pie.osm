@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.59 e21c39fe">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2023-01-09T00:51:24Z" areas="2023-01-09T00:49:23Z"/>
+
+<action type="modify">
+<old>
+  <way id="673964112" version="1" timestamp="2019-03-01T20:46:15Z" changeset="67699551" uid="492756" user="Botaler">
+    <bounds minlat="44.3828802" minlon="7.4666911" maxlat="44.3829666" maxlon="7.4668932"/>
+    <nd ref="6311587830" lat="44.3829666" lon="7.4668932"/>
+    <nd ref="6311587831" lat="44.3828802" lon="7.4666911"/>
+    <tag k="parking:condition:right" v="free"/>
+    <tag k="parking:lane:right" v="perpendicular"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Via Asilo"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</old>
+<new>
+  <way id="673964112" version="2" timestamp="2023-01-08T20:54:05Z" changeset="131030485" uid="492756" user="Botaler">
+    <bounds minlat="44.3828802" minlon="7.4666911" maxlat="44.3829666" maxlon="7.4668932"/>
+    <nd ref="6311587830" lat="44.3829666" lon="7.4668932"/>
+    <nd ref="6311587831" lat="44.3828802" lon="7.4666911"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Via Asilo"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
