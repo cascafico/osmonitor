@@ -1,116 +1,285 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.59 e21c39fe">
+<osm version="0.6" generator="Overpass API 0.7.59.2 0994154d">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-02-20T00:52:50Z" areas="2023-02-19T23:50:51Z"/>
+<meta osm_base="2023-02-21T00:53:21Z" areas="2023-02-21T00:12:36Z"/>
 
 <action type="modify">
 <old>
-  <way id="28911920" version="3" timestamp="2020-04-28T08:48:09Z" changeset="84251081" uid="8687377" user="Lex legis">
-    <bounds minlat="45.8117073" minlon="13.5330682" maxlat="45.8119077" maxlon="13.5338098"/>
-    <nd ref="317797563" lat="45.8117073" lon="13.5338098"/>
-    <nd ref="317797564" lat="45.8118499" lon="13.5336268"/>
-    <nd ref="317797569" lat="45.8119077" lon="13.5333293"/>
-    <nd ref="317797565" lat="45.8118913" lon="13.5331584"/>
-    <nd ref="7456923882" lat="45.8118739" lon="13.5331341"/>
-    <nd ref="317797566" lat="45.8118258" lon="13.5330682"/>
-    <tag k="highway" v="residential"/>
-    <tag k="name" v="Salita alla Rocca"/>
+  <way id="25662878" version="16" timestamp="2022-11-22T03:17:26Z" changeset="129218673" uid="17680963" user="alessandro_backup">
+    <bounds minlat="45.7802457" minlon="13.5857781" maxlat="45.7826221" maxlon="13.5876172"/>
+    <nd ref="615053496" lat="45.7826221" lon="13.5857781"/>
+    <nd ref="1623943752" lat="45.7825414" lon="13.5858043"/>
+    <nd ref="2463921264" lat="45.7820405" lon="13.5859669"/>
+    <nd ref="5228218755" lat="45.7819231" lon="13.5860050"/>
+    <nd ref="279767088" lat="45.7816561" lon="13.5860917"/>
+    <nd ref="279766584" lat="45.7814288" lon="13.5861686"/>
+    <nd ref="9125210877" lat="45.7811555" lon="13.5862556"/>
+    <nd ref="681299318" lat="45.7808698" lon="13.5863465"/>
+    <nd ref="10208675545" lat="45.7804156" lon="13.5864995"/>
+    <nd ref="681299315" lat="45.7803877" lon="13.5865089"/>
+    <nd ref="681299314" lat="45.7803106" lon="13.5865434"/>
+    <nd ref="6789024988" lat="45.7802754" lon="13.5865874"/>
+    <nd ref="279765658" lat="45.7802566" lon="13.5866348"/>
+    <nd ref="681299316" lat="45.7802457" lon="13.5867334"/>
+    <nd ref="279766736" lat="45.7803366" lon="13.5876172"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="noname" v="yes"/>
+    <tag k="oneway" v="yes"/>
   </way>
 </old>
 <new>
-  <way id="28911920" version="4" timestamp="2023-02-19T23:39:01Z" changeset="132769082" uid="4179361" user="Latisana992">
-    <bounds minlat="45.8117073" minlon="13.5330682" maxlat="45.8119077" maxlon="13.5338098"/>
-    <nd ref="317797563" lat="45.8117073" lon="13.5338098"/>
-    <nd ref="317797564" lat="45.8118499" lon="13.5336268"/>
-    <nd ref="317797569" lat="45.8119077" lon="13.5333293"/>
-    <nd ref="317797565" lat="45.8118913" lon="13.5331584"/>
-    <nd ref="7456923882" lat="45.8118739" lon="13.5331341"/>
-    <nd ref="317797566" lat="45.8118258" lon="13.5330682"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="name" v="Salita alla Rocca"/>
+  <way id="25662878" version="17" timestamp="2023-02-20T22:25:49Z" changeset="132810919" uid="4179361" user="Latisana992">
+    <bounds minlat="45.7802457" minlon="13.5857781" maxlat="45.7826221" maxlon="13.5876172"/>
+    <nd ref="615053496" lat="45.7826221" lon="13.5857781"/>
+    <nd ref="1623943752" lat="45.7825414" lon="13.5858043"/>
+    <nd ref="2463921264" lat="45.7820405" lon="13.5859669"/>
+    <nd ref="5228218755" lat="45.7819231" lon="13.5860050"/>
+    <nd ref="279767088" lat="45.7816561" lon="13.5860917"/>
+    <nd ref="279766584" lat="45.7814288" lon="13.5861686"/>
+    <nd ref="9125210877" lat="45.7811555" lon="13.5862556"/>
+    <nd ref="681299318" lat="45.7808698" lon="13.5863465"/>
+    <nd ref="10208675545" lat="45.7804156" lon="13.5864995"/>
+    <nd ref="681299315" lat="45.7803877" lon="13.5865089"/>
+    <nd ref="681299314" lat="45.7803106" lon="13.5865434"/>
+    <nd ref="6789024988" lat="45.7802754" lon="13.5865874"/>
+    <nd ref="279765658" lat="45.7802566" lon="13.5866348"/>
+    <nd ref="681299316" lat="45.7802457" lon="13.5867334"/>
+    <nd ref="279766736" lat="45.7803366" lon="13.5876172"/>
+    <tag k="highway" v="residential"/>
+    <tag k="noname" v="yes"/>
+    <tag k="oneway" v="yes"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="28911921" version="4" timestamp="2021-12-22T14:03:10Z" changeset="115257588" uid="361003" user="Cascafico">
-    <bounds minlat="45.8117551" minlon="13.5329765" maxlat="45.8118258" maxlon="13.5330682"/>
-    <nd ref="317797566" lat="45.8118258" lon="13.5330682"/>
-    <nd ref="317797567" lat="45.8117551" lon="13.5329765"/>
-    <tag k="highway" v="residential"/>
-    <tag k="layer" v="-1"/>
-    <tag k="lit" v="no"/>
-    <tag k="name" v="Salita alla Rocca"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="tunnel" v="yes"/>
+  <way id="140124123" version="3" timestamp="2019-10-18T17:53:03Z" changeset="75908474" uid="281699" user="hobbie">
+    <bounds minlat="45.5877177" minlon="13.7771556" maxlat="45.5879718" maxlon="13.7775841"/>
+    <nd ref="332425170" lat="45.5877177" lon="13.7771556"/>
+    <nd ref="632680680" lat="45.5877914" lon="13.7772640"/>
+    <nd ref="332425174" lat="45.5878358" lon="13.7773373"/>
+    <nd ref="332425178" lat="45.5878823" lon="13.7774145"/>
+    <nd ref="332425182" lat="45.5879718" lon="13.7775841"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Località Santa Barbara"/>
+    <tag k="noname" v="yes"/>
   </way>
 </old>
 <new>
-  <way id="28911921" version="5" timestamp="2023-02-19T23:39:01Z" changeset="132769082" uid="4179361" user="Latisana992">
-    <bounds minlat="45.8117551" minlon="13.5329765" maxlat="45.8118258" maxlon="13.5330682"/>
-    <nd ref="317797566" lat="45.8118258" lon="13.5330682"/>
-    <nd ref="317797567" lat="45.8117551" lon="13.5329765"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="layer" v="-1"/>
-    <tag k="lit" v="no"/>
-    <tag k="name" v="Salita alla Rocca"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="tunnel" v="yes"/>
+  <way id="140124123" version="4" timestamp="2023-02-20T20:37:08Z" changeset="132807763" uid="4179361" user="Latisana992">
+    <bounds minlat="45.5877177" minlon="13.7771556" maxlat="45.5879718" maxlon="13.7775841"/>
+    <nd ref="332425170" lat="45.5877177" lon="13.7771556"/>
+    <nd ref="632680680" lat="45.5877914" lon="13.7772640"/>
+    <nd ref="332425174" lat="45.5878358" lon="13.7773373"/>
+    <nd ref="332425178" lat="45.5878823" lon="13.7774145"/>
+    <nd ref="332425182" lat="45.5879718" lon="13.7775841"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Località Santa Barbara"/>
+    <tag k="noname" v="yes"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="42716135" version="6" timestamp="2021-11-13T21:54:21Z" changeset="113746450" uid="3538539" user="micheleOSM3">
-    <bounds minlat="45.8494983" minlon="13.5683666" maxlat="45.8499614" maxlon="13.5690041"/>
-    <nd ref="459482353" lat="45.8494983" lon="13.5683666"/>
-    <nd ref="8008972254" lat="45.8495239" lon="13.5684703"/>
-    <nd ref="2726896800" lat="45.8495498" lon="13.5685441"/>
-    <nd ref="2726896801" lat="45.8495846" lon="13.5686157"/>
-    <nd ref="534186030" lat="45.8495961" lon="13.5687078"/>
-    <nd ref="534186031" lat="45.8495881" lon="13.5687978"/>
-    <nd ref="2726896802" lat="45.8496013" lon="13.5688636"/>
-    <nd ref="534186032" lat="45.8496097" lon="13.5689295"/>
-    <nd ref="2726896803" lat="45.8496466" lon="13.5689644"/>
-    <nd ref="2726896804" lat="45.8496814" lon="13.5689763"/>
-    <nd ref="534186033" lat="45.8497376" lon="13.5689757"/>
-    <nd ref="2726896807" lat="45.8497807" lon="13.5689735"/>
-    <nd ref="534186034" lat="45.8498266" lon="13.5689581"/>
-    <nd ref="2726896809" lat="45.8498669" lon="13.5689420"/>
-    <nd ref="534186029" lat="45.8499168" lon="13.5689434"/>
-    <nd ref="9249139712" lat="45.8499422" lon="13.5689507"/>
-    <nd ref="2319451970" lat="45.8499614" lon="13.5690041"/>
-    <tag k="width" v="1"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="path"/>
-    <tag k="name" v="PDC trail"/>
+  <way id="202630645" version="7" timestamp="2023-02-04T20:52:35Z" changeset="132090206" uid="12294600" user="alessandrocarmeli">
+    <bounds minlat="45.5874051" minlon="13.7769021" maxlat="45.5877177" maxlon="13.7771556"/>
+    <nd ref="332425166" lat="45.5874051" lon="13.7769021"/>
+    <nd ref="8192175454" lat="45.5874360" lon="13.7769242"/>
+    <nd ref="632680502" lat="45.5876177" lon="13.7770541"/>
+    <nd ref="332425170" lat="45.5877177" lon="13.7771556"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Località Santa Barbara"/>
+    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
+    <tag k="ref" v="SP24"/>
   </way>
 </old>
 <new>
-  <way id="42716135" version="7" timestamp="2023-02-19T08:27:48Z" changeset="132739006" uid="792910" user="Bojan79m">
-    <bounds minlat="45.8494983" minlon="13.5683666" maxlat="45.8499614" maxlon="13.5690041"/>
-    <nd ref="459482353" lat="45.8494983" lon="13.5683666"/>
-    <nd ref="8008972254" lat="45.8495239" lon="13.5684703"/>
-    <nd ref="2726896800" lat="45.8495498" lon="13.5685441"/>
-    <nd ref="2726896801" lat="45.8495846" lon="13.5686157"/>
-    <nd ref="534186030" lat="45.8495961" lon="13.5687078"/>
-    <nd ref="534186031" lat="45.8495881" lon="13.5687978"/>
-    <nd ref="2726896802" lat="45.8496013" lon="13.5688636"/>
-    <nd ref="534186032" lat="45.8496097" lon="13.5689295"/>
-    <nd ref="2726896803" lat="45.8496466" lon="13.5689644"/>
-    <nd ref="2726896804" lat="45.8496814" lon="13.5689763"/>
-    <nd ref="534186033" lat="45.8497376" lon="13.5689757"/>
-    <nd ref="2726896807" lat="45.8497807" lon="13.5689735"/>
-    <nd ref="534186034" lat="45.8498266" lon="13.5689581"/>
-    <nd ref="2726896809" lat="45.8498669" lon="13.5689420"/>
-    <nd ref="534186029" lat="45.8499168" lon="13.5689434"/>
-    <nd ref="9249139712" lat="45.8499422" lon="13.5689507"/>
-    <nd ref="2319451970" lat="45.8499614" lon="13.5690041"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="path"/>
-    <tag k="name" v="PDC trail"/>
-    <tag k="surface" v="compacted"/>
-    <tag k="width" v="1"/>
+  <way id="202630645" version="8" timestamp="2023-02-20T20:37:08Z" changeset="132807763" uid="4179361" user="Latisana992">
+    <bounds minlat="45.5874051" minlon="13.7769021" maxlat="45.5877177" maxlon="13.7771556"/>
+    <nd ref="332425166" lat="45.5874051" lon="13.7769021"/>
+    <nd ref="8192175454" lat="45.5874360" lon="13.7769242"/>
+    <nd ref="632680502" lat="45.5876177" lon="13.7770541"/>
+    <nd ref="332425170" lat="45.5877177" lon="13.7771556"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Località Santa Barbara"/>
+    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
+    <tag k="ref" v="SP24"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="640993764" version="8" timestamp="2023-02-04T20:52:35Z" changeset="132090206" uid="12294600" user="alessandrocarmeli">
+    <bounds minlat="45.6201838" minlon="13.8890580" maxlat="45.6203637" maxlon="13.8893452"/>
+    <nd ref="277578408" lat="45.6203637" lon="13.8890580"/>
+    <nd ref="1635180576" lat="45.6201838" lon="13.8893452"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="maxspeed:type" v="IT:urban"/>
+    <tag k="noname" v="yes"/>
+    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
+    <tag k="ref" v="SP22"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</old>
+<new>
+  <way id="640993764" version="9" timestamp="2023-02-20T21:28:17Z" changeset="132809340" uid="4179361" user="Latisana992">
+    <bounds minlat="45.6201838" minlon="13.8890580" maxlat="45.6203637" maxlon="13.8893452"/>
+    <nd ref="277578408" lat="45.6203637" lon="13.8890580"/>
+    <nd ref="1635180576" lat="45.6201838" lon="13.8893452"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed:type" v="IT:urban"/>
+    <tag k="noname" v="yes"/>
+    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
+    <tag k="ref" v="SP22"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="957568101" version="4" timestamp="2023-01-31T21:02:45Z" changeset="131938044" uid="12294600" user="alessandrocarmeli">
+    <bounds minlat="45.6992674" minlon="13.7380117" maxlat="45.7023259" maxlon="13.7405431"/>
+    <nd ref="597410623" lat="45.7023259" lon="13.7380117"/>
+    <nd ref="1631026553" lat="45.7021508" lon="13.7381546"/>
+    <nd ref="1631026542" lat="45.7014942" lon="13.7386902"/>
+    <nd ref="1631026537" lat="45.7011960" lon="13.7389334"/>
+    <nd ref="1631026528" lat="45.7008557" lon="13.7392111"/>
+    <nd ref="1631026522" lat="45.7006190" lon="13.7394041"/>
+    <nd ref="1631026515" lat="45.7004194" lon="13.7395670"/>
+    <nd ref="1631026513" lat="45.7003318" lon="13.7396385"/>
+    <nd ref="1631026511" lat="45.7001180" lon="13.7398119"/>
+    <nd ref="9012088771" lat="45.6999314" lon="13.7399650"/>
+    <nd ref="2592663479" lat="45.6996992" lon="13.7401545"/>
+    <nd ref="8242744107" lat="45.6993458" lon="13.7404121"/>
+    <nd ref="8242744108" lat="45.6992948" lon="13.7404741"/>
+    <nd ref="6777214670" lat="45.6992674" lon="13.7405431"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lit" v="yes"/>
+    <tag k="lit_by_led" v="yes"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Via San Nazario"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</old>
+<new>
+  <way id="957568101" version="5" timestamp="2023-02-20T21:28:17Z" changeset="132809340" uid="4179361" user="Latisana992">
+    <bounds minlat="45.6992674" minlon="13.7380117" maxlat="45.7023259" maxlon="13.7405431"/>
+    <nd ref="597410623" lat="45.7023259" lon="13.7380117"/>
+    <nd ref="1631026553" lat="45.7021508" lon="13.7381546"/>
+    <nd ref="1631026542" lat="45.7014942" lon="13.7386902"/>
+    <nd ref="1631026537" lat="45.7011960" lon="13.7389334"/>
+    <nd ref="1631026528" lat="45.7008557" lon="13.7392111"/>
+    <nd ref="1631026522" lat="45.7006190" lon="13.7394041"/>
+    <nd ref="1631026515" lat="45.7004194" lon="13.7395670"/>
+    <nd ref="1631026513" lat="45.7003318" lon="13.7396385"/>
+    <nd ref="1631026511" lat="45.7001180" lon="13.7398119"/>
+    <nd ref="9012088771" lat="45.6999314" lon="13.7399650"/>
+    <nd ref="2592663479" lat="45.6996992" lon="13.7401545"/>
+    <nd ref="8242744107" lat="45.6993458" lon="13.7404121"/>
+    <nd ref="8242744108" lat="45.6992948" lon="13.7404741"/>
+    <nd ref="6777214670" lat="45.6992674" lon="13.7405431"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="lit" v="yes"/>
+    <tag k="lit_by_led" v="yes"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Via San Nazario"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1030859240" version="2" timestamp="2022-08-08T19:04:04Z" changeset="124654015" uid="9458168" user="Gorka115">
+    <bounds minlat="45.6816791" minlon="13.7516149" maxlat="45.6818201" maxlon="13.7517057"/>
+    <nd ref="6788410700" lat="45.6818201" lon="13.7516149"/>
+    <nd ref="9238315694" lat="45.6817752" lon="13.7516385"/>
+    <nd ref="1756025103" lat="45.6817347" lon="13.7516660"/>
+    <nd ref="9502125809" lat="45.6816791" lon="13.7517057"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Via Almerigo Grilz"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="source:maxspeed" v="IT:urban"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</old>
+<new>
+  <way id="1030859240" version="3" timestamp="2023-02-20T21:28:17Z" changeset="132809340" uid="4179361" user="Latisana992">
+    <bounds minlat="45.6816791" minlon="13.7516149" maxlat="45.6818201" maxlon="13.7517057"/>
+    <nd ref="6788410700" lat="45.6818201" lon="13.7516149"/>
+    <nd ref="9238315694" lat="45.6817752" lon="13.7516385"/>
+    <nd ref="1756025103" lat="45.6817347" lon="13.7516660"/>
+    <nd ref="9502125809" lat="45.6816791" lon="13.7517057"/>
+    <tag k="highway" v="service"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Via Almerigo Grilz"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="source:maxspeed" v="IT:urban"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1030859242" version="3" timestamp="2022-08-08T19:03:06Z" changeset="124653916" uid="9458168" user="Gorka115">
+    <bounds minlat="45.6818201" minlon="13.7515585" maxlat="45.6819818" maxlon="13.7516149"/>
+    <nd ref="6788410701" lat="45.6819818" lon="13.7515585"/>
+    <nd ref="9238315690" lat="45.6819238" lon="13.7515708"/>
+    <nd ref="9238315689" lat="45.6818720" lon="13.7515897"/>
+    <nd ref="6788410700" lat="45.6818201" lon="13.7516149"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lit" v="no"/>
+    <tag k="loc_name" v="Piazzale Kennedy"/>
+    <tag k="name" v="Piazzale 11 Settembre 2001"/>
+    <tag k="old_name" v="Piazzale John Fitzgerald Kennedy"/>
+    <tag k="old_short_name" v="Piazzale JFK;Piazzale Kennedy"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</old>
+<new>
+  <way id="1030859242" version="4" timestamp="2023-02-20T21:28:17Z" changeset="132809340" uid="4179361" user="Latisana992">
+    <bounds minlat="45.6818201" minlon="13.7515585" maxlat="45.6819818" maxlon="13.7516149"/>
+    <nd ref="6788410701" lat="45.6819818" lon="13.7515585"/>
+    <nd ref="9238315690" lat="45.6819238" lon="13.7515708"/>
+    <nd ref="9238315689" lat="45.6818720" lon="13.7515897"/>
+    <nd ref="6788410700" lat="45.6818201" lon="13.7516149"/>
+    <tag k="highway" v="service"/>
+    <tag k="lit" v="no"/>
+    <tag k="loc_name" v="Piazzale Kennedy"/>
+    <tag k="name" v="Piazzale 11 Settembre 2001"/>
+    <tag k="old_name" v="Piazzale John Fitzgerald Kennedy"/>
+    <tag k="old_short_name" v="Piazzale JFK;Piazzale Kennedy"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1113038311" version="2" timestamp="2022-11-18T02:37:10Z" changeset="129066126" uid="17680963" user="alessandro_backup">
+    <bounds minlat="45.7803366" minlon="13.5876172" maxlat="45.7804167" maxlon="13.5884507"/>
+    <nd ref="279766736" lat="45.7803366" lon="13.5876172"/>
+    <nd ref="8033128684" lat="45.7804167" lon="13.5884507"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="noname" v="yes"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</old>
+<new>
+  <way id="1113038311" version="3" timestamp="2023-02-20T22:25:49Z" changeset="132810919" uid="4179361" user="Latisana992">
+    <bounds minlat="45.7803366" minlon="13.5876172" maxlat="45.7804167" maxlon="13.5884507"/>
+    <nd ref="279766736" lat="45.7803366" lon="13.5876172"/>
+    <nd ref="8033128684" lat="45.7804167" lon="13.5884507"/>
+    <tag k="highway" v="residential"/>
+    <tag k="noname" v="yes"/>
+    <tag k="oneway" v="yes"/>
   </way>
 </new>
 </action>
