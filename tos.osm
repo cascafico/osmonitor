@@ -1,143 +1,263 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.59 e21c39fe">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-02-24T00:55:26Z" areas="2023-02-24T00:51:19Z"/>
+<meta osm_base="2023-02-25T00:58:33Z" areas="2023-02-24T07:54:24Z"/>
 
 <action type="modify">
 <old>
-  <relation id="14684544" version="1" timestamp="2022-10-11T16:27:28Z" changeset="127369705" uid="3215770" user="Andrea Del Sarto">
-    <bounds minlat="44.0153394" minlon="10.7045332" maxlat="44.0188805" maxlon="10.7114476"/>
-    <member type="way" ref="1101421474" role="">
-      <nd lat="44.0160790" lon="10.7045332"/>
-      <nd lat="44.0159146" lon="10.7048824"/>
-      <nd lat="44.0155161" lon="10.7054793"/>
-      <nd lat="44.0153394" lon="10.7060736"/>
-    </member>
-    <member type="way" ref="1102708000" role="">
-      <nd lat="44.0153394" lon="10.7060736"/>
-      <nd lat="44.0154838" lon="10.7063262"/>
-      <nd lat="44.0157019" lon="10.7068064"/>
-      <nd lat="44.0158428" lon="10.7071476"/>
-      <nd lat="44.0159609" lon="10.7075393"/>
-      <nd lat="44.0161381" lon="10.7078552"/>
-      <nd lat="44.0164081" lon="10.7080033"/>
-      <nd lat="44.0163608" lon="10.7084744"/>
-      <nd lat="44.0163426" lon="10.7086639"/>
-      <nd lat="44.0162790" lon="10.7093652"/>
-      <nd lat="44.0162636" lon="10.7097228"/>
-      <nd lat="44.0162562" lon="10.7098959"/>
-      <nd lat="44.0161790" lon="10.7102371"/>
-      <nd lat="44.0160518" lon="10.7105025"/>
-    </member>
-    <member type="way" ref="452906621" role="">
-      <nd lat="44.0160518" lon="10.7105025"/>
-      <nd lat="44.0162675" lon="10.7104480"/>
-      <nd lat="44.0164258" lon="10.7104004"/>
-      <nd lat="44.0165614" lon="10.7103459"/>
-      <nd lat="44.0166738" lon="10.7103562"/>
-      <nd lat="44.0167886" lon="10.7103648"/>
-      <nd lat="44.0169421" lon="10.7104683"/>
-      <nd lat="44.0170932" lon="10.7106203"/>
-      <nd lat="44.0172630" lon="10.7105976"/>
-      <nd lat="44.0173583" lon="10.7106591"/>
-      <nd lat="44.0174495" lon="10.7107714"/>
-      <nd lat="44.0175838" lon="10.7109023"/>
-      <nd lat="44.0177355" lon="10.7109738"/>
-      <nd lat="44.0178784" lon="10.7110703"/>
-      <nd lat="44.0179532" lon="10.7111015"/>
-      <nd lat="44.0180729" lon="10.7111068"/>
-      <nd lat="44.0181346" lon="10.7111679"/>
-      <nd lat="44.0182750" lon="10.7112303"/>
-      <nd lat="44.0184117" lon="10.7112638"/>
-      <nd lat="44.0185297" lon="10.7113860"/>
-      <nd lat="44.0186093" lon="10.7114476"/>
-      <nd lat="44.0186802" lon="10.7114211"/>
-      <nd lat="44.0187476" lon="10.7114129"/>
-      <nd lat="44.0188805" lon="10.7113875"/>
-    </member>
-    <tag k="tourism" v="Serra a Pracchia"/>
-    <tag k="cai_scale" v="E"/>
-    <tag k="distance" v="1"/>
-    <tag k="from" v="Le Pracchie"/>
-    <tag k="network" v="lwn"/>
-    <tag k="old_ref" v="50C"/>
-    <tag k="operator" v="Club Alpino Italiano"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:250C:black"/>
-    <tag k="ref" v="250C"/>
-    <tag k="ref:REI" v="LPTN250C"/>
-    <tag k="route" v="hiking"/>
-    <tag k="source" v="survey:CAI"/>
-    <tag k="source:ref" v="9226026"/>
-    <tag k="to" v="Monte Lischeta"/>
-    <tag k="type" v="route"/>
-  </relation>
+  <way id="48961000" version="14" timestamp="2022-03-22T21:30:57Z" changeset="118795310" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="42.8906217" minlon="11.6120231" maxlat="42.8942155" maxlon="11.6149959"/>
+    <nd ref="619253455" lat="42.8906217" lon="11.6120231"/>
+    <nd ref="619253558" lat="42.8912108" lon="11.6123233"/>
+    <nd ref="619253559" lat="42.8915840" lon="11.6123180"/>
+    <nd ref="619253560" lat="42.8919139" lon="11.6124306"/>
+    <nd ref="619253561" lat="42.8921849" lon="11.6124145"/>
+    <nd ref="619253562" lat="42.8924952" lon="11.6120714"/>
+    <nd ref="9598294640" lat="42.8926318" lon="11.6120383"/>
+    <nd ref="619253563" lat="42.8926720" lon="11.6120285"/>
+    <nd ref="619253564" lat="42.8929783" lon="11.6123072"/>
+    <nd ref="619253565" lat="42.8932415" lon="11.6131007"/>
+    <nd ref="619253566" lat="42.8933436" lon="11.6138298"/>
+    <nd ref="619253567" lat="42.8933672" lon="11.6140014"/>
+    <nd ref="619253568" lat="42.8935203" lon="11.6143927"/>
+    <nd ref="619253569" lat="42.8936873" lon="11.6145616"/>
+    <nd ref="619253570" lat="42.8938738" lon="11.6148109"/>
+    <nd ref="619253571" lat="42.8942155" lon="11.6149959"/>
+    <tag k="width" v="5"/>
+    <tag k="name" v="Gobbe di Camello"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="incline" v="down"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="mtb:scale" v="0"/>
+    <tag k="mtb:scale:imba" v="0"/>
+    <tag k="mtb:scale:uphill" v="0+"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="smoothness" v="intermediate"/>
+    <tag k="surface" v="dirt"/>
+    <tag k="tracktype" v="grade4"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
 </old>
 <new>
-  <relation id="14684544" version="2" timestamp="2023-02-23T18:53:21Z" changeset="132939535" uid="3215770" user="Andrea Del Sarto">
-    <bounds minlat="44.0153394" minlon="10.7045332" maxlat="44.0188805" maxlon="10.7114476"/>
-    <member type="way" ref="1101421474" role="">
-      <nd lat="44.0160790" lon="10.7045332"/>
-      <nd lat="44.0159146" lon="10.7048824"/>
-      <nd lat="44.0155161" lon="10.7054793"/>
-      <nd lat="44.0153394" lon="10.7060736"/>
-    </member>
-    <member type="way" ref="1102708000" role="">
-      <nd lat="44.0153394" lon="10.7060736"/>
-      <nd lat="44.0154838" lon="10.7063262"/>
-      <nd lat="44.0157019" lon="10.7068064"/>
-      <nd lat="44.0158428" lon="10.7071476"/>
-      <nd lat="44.0159609" lon="10.7075393"/>
-      <nd lat="44.0161381" lon="10.7078552"/>
-      <nd lat="44.0164081" lon="10.7080033"/>
-      <nd lat="44.0163608" lon="10.7084744"/>
-      <nd lat="44.0163426" lon="10.7086639"/>
-      <nd lat="44.0162790" lon="10.7093652"/>
-      <nd lat="44.0162636" lon="10.7097228"/>
-      <nd lat="44.0162562" lon="10.7098959"/>
-      <nd lat="44.0161790" lon="10.7102371"/>
-      <nd lat="44.0160518" lon="10.7105025"/>
-    </member>
-    <member type="way" ref="452906621" role="">
-      <nd lat="44.0160518" lon="10.7105025"/>
-      <nd lat="44.0162675" lon="10.7104480"/>
-      <nd lat="44.0164258" lon="10.7104004"/>
-      <nd lat="44.0165614" lon="10.7103459"/>
-      <nd lat="44.0166738" lon="10.7103562"/>
-      <nd lat="44.0167886" lon="10.7103648"/>
-      <nd lat="44.0169421" lon="10.7104683"/>
-      <nd lat="44.0170932" lon="10.7106203"/>
-      <nd lat="44.0172630" lon="10.7105976"/>
-      <nd lat="44.0173583" lon="10.7106591"/>
-      <nd lat="44.0174495" lon="10.7107714"/>
-      <nd lat="44.0175838" lon="10.7109023"/>
-      <nd lat="44.0177355" lon="10.7109738"/>
-      <nd lat="44.0178784" lon="10.7110703"/>
-      <nd lat="44.0179532" lon="10.7111015"/>
-      <nd lat="44.0180729" lon="10.7111068"/>
-      <nd lat="44.0181346" lon="10.7111679"/>
-      <nd lat="44.0182750" lon="10.7112303"/>
-      <nd lat="44.0184117" lon="10.7112638"/>
-      <nd lat="44.0185297" lon="10.7113860"/>
-      <nd lat="44.0186093" lon="10.7114476"/>
-      <nd lat="44.0186802" lon="10.7114211"/>
-      <nd lat="44.0187476" lon="10.7114129"/>
-      <nd lat="44.0188805" lon="10.7113875"/>
-    </member>
-    <tag k="cai_scale" v="E"/>
-    <tag k="distance" v="1"/>
-    <tag k="from" v="Le Pracchie"/>
-    <tag k="network" v="lwn"/>
-    <tag k="old_ref" v="50C"/>
-    <tag k="operator" v="Club Alpino Italiano"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:250C:black"/>
-    <tag k="ref" v="250C"/>
-    <tag k="ref:REI" v="LPTN250C"/>
-    <tag k="route" v="hiking"/>
-    <tag k="source" v="survey:CAI"/>
-    <tag k="source:ref" v="9226026"/>
-    <tag k="to" v="Monte Lischeta"/>
-    <tag k="type" v="route"/>
-  </relation>
+  <way id="48961000" version="15" timestamp="2023-02-24T17:47:19Z" changeset="132978631" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="42.8906217" minlon="11.6120231" maxlat="42.8942155" maxlon="11.6149959"/>
+    <nd ref="619253455" lat="42.8906217" lon="11.6120231"/>
+    <nd ref="619253558" lat="42.8912108" lon="11.6123233"/>
+    <nd ref="619253559" lat="42.8915840" lon="11.6123180"/>
+    <nd ref="619253560" lat="42.8919139" lon="11.6124306"/>
+    <nd ref="619253561" lat="42.8921849" lon="11.6124145"/>
+    <nd ref="619253562" lat="42.8924952" lon="11.6120714"/>
+    <nd ref="9598294640" lat="42.8926318" lon="11.6120383"/>
+    <nd ref="619253563" lat="42.8926720" lon="11.6120285"/>
+    <nd ref="619253564" lat="42.8929783" lon="11.6123072"/>
+    <nd ref="619253565" lat="42.8932415" lon="11.6131007"/>
+    <nd ref="619253566" lat="42.8933436" lon="11.6138298"/>
+    <nd ref="619253567" lat="42.8933672" lon="11.6140014"/>
+    <nd ref="619253568" lat="42.8935203" lon="11.6143927"/>
+    <nd ref="619253569" lat="42.8936873" lon="11.6145616"/>
+    <nd ref="619253570" lat="42.8938738" lon="11.6148109"/>
+    <nd ref="619253571" lat="42.8942155" lon="11.6149959"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="incline" v="down"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="mtb:name" v="Gobbe di Camello"/>
+    <tag k="mtb:scale" v="0"/>
+    <tag k="mtb:scale:imba" v="0"/>
+    <tag k="mtb:scale:uphill" v="0+"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="smoothness" v="intermediate"/>
+    <tag k="surface" v="dirt"/>
+    <tag k="tracktype" v="grade4"/>
+    <tag k="trail_visibility" v="good"/>
+    <tag k="width" v="5"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="537516835" version="1" timestamp="2017-11-01T20:55:41Z" changeset="53434956" uid="1109359" user="makakko">
+    <bounds minlat="42.8955666" minlon="11.6161672" maxlat="42.8982185" maxlon="11.6190264"/>
+    <nd ref="619253579" lat="42.8955666" lon="11.6161672"/>
+    <nd ref="619253580" lat="42.8957041" lon="11.6165693"/>
+    <nd ref="619253615" lat="42.8961322" lon="11.6169660"/>
+    <nd ref="619253616" lat="42.8964935" lon="11.6169392"/>
+    <nd ref="619253617" lat="42.8966899" lon="11.6170465"/>
+    <nd ref="619253618" lat="42.8970512" lon="11.6173092"/>
+    <nd ref="619253619" lat="42.8972986" lon="11.6174217"/>
+    <nd ref="619253620" lat="42.8974204" lon="11.6177005"/>
+    <nd ref="619253628" lat="42.8976599" lon="11.6181240"/>
+    <nd ref="619253629" lat="42.8980134" lon="11.6187030"/>
+    <nd ref="5204957897" lat="42.8982185" lon="11.6190264"/>
+    <tag k="width" v="5"/>
+    <tag k="name" v="Gobbe di Camello"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="incline" v="down"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="mtb:scale" v="0"/>
+    <tag k="mtb:scale:imba" v="0"/>
+    <tag k="mtb:scale:uphill" v="0+"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="smoothness" v="intermediate"/>
+    <tag k="surface" v="dirt"/>
+    <tag k="tracktype" v="grade4"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
+</old>
+<new>
+  <way id="537516835" version="2" timestamp="2023-02-24T17:47:19Z" changeset="132978631" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="42.8955666" minlon="11.6161672" maxlat="42.8982185" maxlon="11.6190264"/>
+    <nd ref="619253579" lat="42.8955666" lon="11.6161672"/>
+    <nd ref="619253580" lat="42.8957041" lon="11.6165693"/>
+    <nd ref="619253615" lat="42.8961322" lon="11.6169660"/>
+    <nd ref="619253616" lat="42.8964935" lon="11.6169392"/>
+    <nd ref="619253617" lat="42.8966899" lon="11.6170465"/>
+    <nd ref="619253618" lat="42.8970512" lon="11.6173092"/>
+    <nd ref="619253619" lat="42.8972986" lon="11.6174217"/>
+    <nd ref="619253620" lat="42.8974204" lon="11.6177005"/>
+    <nd ref="619253628" lat="42.8976599" lon="11.6181240"/>
+    <nd ref="619253629" lat="42.8980134" lon="11.6187030"/>
+    <nd ref="5204957897" lat="42.8982185" lon="11.6190264"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="incline" v="down"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="mtb:name" v="Gobbe di Camello"/>
+    <tag k="mtb:scale" v="0"/>
+    <tag k="mtb:scale:imba" v="0"/>
+    <tag k="mtb:scale:uphill" v="0+"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="smoothness" v="intermediate"/>
+    <tag k="surface" v="dirt"/>
+    <tag k="tracktype" v="grade4"/>
+    <tag k="trail_visibility" v="good"/>
+    <tag k="width" v="5"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="537516838" version="1" timestamp="2017-11-01T20:55:41Z" changeset="53434956" uid="1109359" user="makakko">
+    <bounds minlat="42.8942155" minlon="11.6149959" maxlat="42.8955666" maxlon="11.6161672"/>
+    <nd ref="619253571" lat="42.8942155" lon="11.6149959"/>
+    <nd ref="619253572" lat="42.8945297" lon="11.6150253"/>
+    <nd ref="619253578" lat="42.8951071" lon="11.6155990"/>
+    <nd ref="619253579" lat="42.8955666" lon="11.6161672"/>
+    <tag k="width" v="5"/>
+    <tag k="name" v="Gobbe di Camello"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="incline" v="up"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="mtb:scale" v="0"/>
+    <tag k="mtb:scale:imba" v="0"/>
+    <tag k="mtb:scale:uphill" v="0+"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="smoothness" v="intermediate"/>
+    <tag k="surface" v="dirt"/>
+    <tag k="tracktype" v="grade4"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
+</old>
+<new>
+  <way id="537516838" version="2" timestamp="2023-02-24T17:47:19Z" changeset="132978631" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="42.8942155" minlon="11.6149959" maxlat="42.8955666" maxlon="11.6161672"/>
+    <nd ref="619253571" lat="42.8942155" lon="11.6149959"/>
+    <nd ref="619253572" lat="42.8945297" lon="11.6150253"/>
+    <nd ref="619253578" lat="42.8951071" lon="11.6155990"/>
+    <nd ref="619253579" lat="42.8955666" lon="11.6161672"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="incline" v="up"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="mtb:name" v="Gobbe di Camello"/>
+    <tag k="mtb:scale" v="0"/>
+    <tag k="mtb:scale:imba" v="0"/>
+    <tag k="mtb:scale:uphill" v="0+"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="smoothness" v="intermediate"/>
+    <tag k="surface" v="dirt"/>
+    <tag k="tracktype" v="grade4"/>
+    <tag k="trail_visibility" v="good"/>
+    <tag k="width" v="5"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="537516844" version="3" timestamp="2021-07-20T06:46:17Z" changeset="108292958" uid="3101981" user="Moschettone">
+    <bounds minlat="42.8982185" minlon="11.6190264" maxlat="42.8986830" maxlon="11.6220907"/>
+    <nd ref="5204957897" lat="42.8982185" lon="11.6190264"/>
+    <nd ref="619253630" lat="42.8983904" lon="11.6193464"/>
+    <nd ref="5204957898" lat="42.8985054" lon="11.6196191"/>
+    <nd ref="619253631" lat="42.8985888" lon="11.6199119"/>
+    <nd ref="619253632" lat="42.8986830" lon="11.6203328"/>
+    <nd ref="619253636" lat="42.8986457" lon="11.6208474"/>
+    <nd ref="619253637" lat="42.8986378" lon="11.6214908"/>
+    <nd ref="619253638" lat="42.8985724" lon="11.6218750"/>
+    <nd ref="818834797" lat="42.8985259" lon="11.6220907"/>
+    <tag k="name" v="Gobbe di Camello"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="incline" v="up"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="mtb:name" v="Gobbe di Camello"/>
+    <tag k="mtb:scale" v="0"/>
+    <tag k="mtb:scale:imba" v="0"/>
+    <tag k="mtb:scale:uphill" v="0+"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="smoothness" v="intermediate"/>
+    <tag k="surface" v="dirt"/>
+    <tag k="tracktype" v="grade4"/>
+    <tag k="trail_visibility" v="good"/>
+    <tag k="width" v="5"/>
+  </way>
+</old>
+<new>
+  <way id="537516844" version="4" timestamp="2023-02-24T17:47:19Z" changeset="132978631" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="42.8982185" minlon="11.6190264" maxlat="42.8986830" maxlon="11.6220907"/>
+    <nd ref="5204957897" lat="42.8982185" lon="11.6190264"/>
+    <nd ref="619253630" lat="42.8983904" lon="11.6193464"/>
+    <nd ref="5204957898" lat="42.8985054" lon="11.6196191"/>
+    <nd ref="619253631" lat="42.8985888" lon="11.6199119"/>
+    <nd ref="619253632" lat="42.8986830" lon="11.6203328"/>
+    <nd ref="619253636" lat="42.8986457" lon="11.6208474"/>
+    <nd ref="619253637" lat="42.8986378" lon="11.6214908"/>
+    <nd ref="619253638" lat="42.8985724" lon="11.6218750"/>
+    <nd ref="818834797" lat="42.8985259" lon="11.6220907"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="horse" v="yes"/>
+    <tag k="incline" v="up"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="mtb:name" v="Gobbe di Camello"/>
+    <tag k="mtb:scale" v="0"/>
+    <tag k="mtb:scale:imba" v="0"/>
+    <tag k="mtb:scale:uphill" v="0+"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="smoothness" v="intermediate"/>
+    <tag k="surface" v="dirt"/>
+    <tag k="tracktype" v="grade4"/>
+    <tag k="trail_visibility" v="good"/>
+    <tag k="width" v="5"/>
+  </way>
 </new>
 </action>
 
