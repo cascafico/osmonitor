@@ -1,60 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.59.4 36d058c8">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-03-19T00:54:24Z" areas="2023-03-18T21:58:09Z"/>
+<meta osm_base="2023-03-20T00:51:38Z" areas="2023-03-19T21:36:24Z"/>
 
-<action type="modify">
+<action type="delete">
 <old>
-  <node id="403425034" lat="46.5659799" lon="13.1709748" version="12" timestamp="2019-03-22T18:15:59Z" changeset="68422235" uid="188429" user="gpstracks">
-    <tag k="wikipedia" v="it:Passo del Cason di Lanza"/>
-    <tag k="ele" v="1555"/>
-    <tag k="mountain_pass" v="yes"/>
-    <tag k="name" v="Passo del Cason di Lanza / Lanzenpass"/>
-    <tag k="name:de" v="Lanzenpass"/>
-    <tag k="name:it" v="Passo del Cason di Lanza"/>
-    <tag k="natural" v="saddle"/>
-    <tag k="wikidata" v="Q3897364"/>
-  </node>
+  <node id="335785282" lat="45.6735969" lon="13.7968804" version="4" timestamp="2011-08-08T10:01:40Z" changeset="8955445" uid="12377" user="Davide Prade"/>
 </old>
 <new>
-  <node id="403425034" lat="46.5659799" lon="13.1709748" version="13" timestamp="2023-03-18T21:16:23Z" changeset="133838703" uid="129060" user="Klenje">
-    <tag k="ele" v="1555"/>
+  <node id="335785282" visible="false" version="5" timestamp="2023-03-19T19:12:15Z" changeset="133870405" uid="9436824" user="rumbrummer"/>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="2804469389" version="3" timestamp="2017-04-25T10:41:57Z" changeset="48119534" uid="1666292" user="Zeno Kugy"/>
+</old>
+<new>
+  <node id="2804469389" lat="45.6735969" lon="13.7968804" version="4" timestamp="2023-03-19T19:12:15Z" changeset="133870405" uid="9436824" user="rumbrummer">
+    <tag k="ele" v="410"/>
     <tag k="mountain_pass" v="yes"/>
-    <tag k="name" v="Passo del Cason di Lanza / Lanzenpass"/>
-    <tag k="name:de" v="Lanzenpass"/>
-    <tag k="name:fur" v="Pas di Lance"/>
-    <tag k="name:it" v="Passo del Cason di Lanza"/>
+    <tag k="name" v="Sella di Banne / Banovski vrh"/>
+    <tag k="name:it" v="Sella di Banne"/>
+    <tag k="name:sl" v="Banovski vrh"/>
     <tag k="natural" v="saddle"/>
-    <tag k="wikidata" v="Q3897364"/>
-    <tag k="wikipedia" v="it:Passo del Cason di Lanza"/>
   </node>
 </new>
 </action>
 <action type="modify">
 <old>
-  <node id="1626728615" lat="46.5599576" lon="13.2755644" version="13" timestamp="2021-10-24T15:17:01Z" changeset="112910396" uid="5359" user="user_5359">
-    <tag k="wikipedia" v="it:Passo di Pramollo"/>
-    <tag k="ele" v="1530"/>
-    <tag k="mountain_pass" v="yes"/>
-    <tag k="name" v="Nassfeldpass / Passo di Pramollo"/>
-    <tag k="name:de" v="Nassfeld"/>
-    <tag k="name:it" v="Passo di Pramollo"/>
-    <tag k="natural" v="saddle"/>
-    <tag k="wikidata" v="Q685718"/>
-  </node>
+  <way id="26727337" version="7" timestamp="2021-09-13T14:00:07Z" changeset="111147577" uid="12294600" user="alessandrocarmeli">
+    <bounds minlat="45.6733390" minlon="13.7968804" maxlat="45.6735969" maxlon="13.7971133"/>
+    <nd ref="335785282" lat="45.6735969" lon="13.7968804"/>
+    <nd ref="1028028184" lat="45.6734550" lon="13.7969601"/>
+    <nd ref="1028028021" lat="45.6733814" lon="13.7970341"/>
+    <nd ref="711604136" lat="45.6733390" lon="13.7971133"/>
+    <tag k="highway" v="service"/>
+    <tag k="service" v="parking_aisle"/>
+  </way>
 </old>
 <new>
-  <node id="1626728615" lat="46.5599576" lon="13.2755644" version="14" timestamp="2023-03-18T21:16:23Z" changeset="133838703" uid="129060" user="Klenje">
-    <tag k="ele" v="1530"/>
-    <tag k="mountain_pass" v="yes"/>
-    <tag k="name" v="Nassfeldpass / Passo di Pramollo"/>
-    <tag k="name:de" v="Nassfeld"/>
-    <tag k="name:fur" v="Pas di Pramuel"/>
-    <tag k="name:it" v="Passo di Pramollo"/>
-    <tag k="natural" v="saddle"/>
-    <tag k="wikidata" v="Q685718"/>
-    <tag k="wikipedia" v="it:Passo di Pramollo"/>
-  </node>
+  <way id="26727337" version="8" timestamp="2023-03-19T19:12:15Z" changeset="133870405" uid="9436824" user="rumbrummer">
+    <bounds minlat="45.6733390" minlon="13.7968804" maxlat="45.6735969" maxlon="13.7971133"/>
+    <nd ref="2804469389" lat="45.6735969" lon="13.7968804"/>
+    <nd ref="1028028184" lat="45.6734550" lon="13.7969601"/>
+    <nd ref="1028028021" lat="45.6733814" lon="13.7970341"/>
+    <nd ref="711604136" lat="45.6733390" lon="13.7971133"/>
+    <tag k="highway" v="service"/>
+    <tag k="service" v="parking_aisle"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="185141679" version="6" timestamp="2022-09-03T12:11:43Z" changeset="125734966" uid="9458168" user="Gorka115">
+    <bounds minlat="45.6733582" minlon="13.7964075" maxlat="45.6735969" maxlon="13.7968804"/>
+    <nd ref="335785282" lat="45.6735969" lon="13.7968804"/>
+    <nd ref="731422533" lat="45.6735936" lon="13.7967844"/>
+    <nd ref="637343662" lat="45.6735926" lon="13.7966988"/>
+    <nd ref="335785293" lat="45.6735895" lon="13.7966135"/>
+    <nd ref="637343657" lat="45.6735777" lon="13.7965483"/>
+    <nd ref="335785296" lat="45.6735576" lon="13.7964945"/>
+    <nd ref="335785300" lat="45.6735197" lon="13.7964491"/>
+    <nd ref="637343665" lat="45.6734997" lon="13.7964331"/>
+    <nd ref="335785304" lat="45.6734737" lon="13.7964219"/>
+    <nd ref="335785308" lat="45.6734303" lon="13.7964075"/>
+    <nd ref="637343669" lat="45.6733582" lon="13.7964311"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via della Bellavista"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</old>
+<new>
+  <way id="185141679" version="7" timestamp="2023-03-19T19:12:15Z" changeset="133870405" uid="9436824" user="rumbrummer">
+    <bounds minlat="45.6733582" minlon="13.7964075" maxlat="45.6735969" maxlon="13.7968804"/>
+    <nd ref="2804469389" lat="45.6735969" lon="13.7968804"/>
+    <nd ref="731422533" lat="45.6735936" lon="13.7967844"/>
+    <nd ref="637343662" lat="45.6735926" lon="13.7966988"/>
+    <nd ref="335785293" lat="45.6735895" lon="13.7966135"/>
+    <nd ref="637343657" lat="45.6735777" lon="13.7965483"/>
+    <nd ref="335785296" lat="45.6735576" lon="13.7964945"/>
+    <nd ref="335785300" lat="45.6735197" lon="13.7964491"/>
+    <nd ref="637343665" lat="45.6734997" lon="13.7964331"/>
+    <nd ref="335785304" lat="45.6734737" lon="13.7964219"/>
+    <nd ref="335785308" lat="45.6734303" lon="13.7964075"/>
+    <nd ref="637343669" lat="45.6733582" lon="13.7964311"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via della Bellavista"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1026444712" version="2" timestamp="2022-11-14T17:01:48Z" changeset="128901205" uid="2360444" user="rikmede">
+    <bounds minlat="46.5000993" minlon="13.4816234" maxlat="46.5009382" maxlon="13.4844737"/>
+    <nd ref="1591443905" lat="46.5009382" lon="13.4844737"/>
+    <nd ref="3854863198" lat="46.5009026" lon="13.4844264"/>
+    <nd ref="1591443867" lat="46.5008490" lon="13.4843719"/>
+    <nd ref="1591443804" lat="46.5006404" lon="13.4841938"/>
+    <nd ref="3854862056" lat="46.5005890" lon="13.4841258"/>
+    <nd ref="1591443772" lat="46.5005250" lon="13.4839561"/>
+    <nd ref="3854861726" lat="46.5004606" lon="13.4837656"/>
+    <nd ref="1591443743" lat="46.5003848" lon="13.4835209"/>
+    <nd ref="3854861630" lat="46.5003471" lon="13.4833361"/>
+    <nd ref="1591443726" lat="46.5003095" lon="13.4831729"/>
+    <nd ref="3854861577" lat="46.5002875" lon="13.4830596"/>
+    <nd ref="1591443696" lat="46.5002587" lon="13.4828833"/>
+    <nd ref="3854861554" lat="46.5002249" lon="13.4825759"/>
+    <nd ref="1591443679" lat="46.5002030" lon="13.4823196"/>
+    <nd ref="1591443675" lat="46.5001839" lon="13.4821178"/>
+    <nd ref="1591443672" lat="46.5001721" lon="13.4819292"/>
+    <nd ref="1591443662" lat="46.5001151" lon="13.4817920"/>
+    <nd ref="1591443658" lat="46.5000993" lon="13.4816234"/>
+    <tag k="sac_scale" v="demanding_mountain_hiking"/>
+    <tag k="highway" v="track"/>
+    <tag k="source" v="survey+PCN"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
+</old>
+<new>
+  <way id="1026444712" version="3" timestamp="2023-03-19T23:01:52Z" changeset="133876889" uid="3199919" user="Vid_Pogačnik">
+    <bounds minlat="46.5000993" minlon="13.4816234" maxlat="46.5009382" maxlon="13.4844737"/>
+    <nd ref="1591443905" lat="46.5009382" lon="13.4844737"/>
+    <nd ref="3854863198" lat="46.5009026" lon="13.4844264"/>
+    <nd ref="1591443867" lat="46.5008490" lon="13.4843719"/>
+    <nd ref="1591443804" lat="46.5006404" lon="13.4841938"/>
+    <nd ref="3854862056" lat="46.5005890" lon="13.4841258"/>
+    <nd ref="1591443772" lat="46.5005250" lon="13.4839561"/>
+    <nd ref="3854861726" lat="46.5004606" lon="13.4837656"/>
+    <nd ref="1591443743" lat="46.5003848" lon="13.4835209"/>
+    <nd ref="3854861630" lat="46.5003471" lon="13.4833361"/>
+    <nd ref="1591443726" lat="46.5003095" lon="13.4831729"/>
+    <nd ref="3854861577" lat="46.5002875" lon="13.4830596"/>
+    <nd ref="1591443696" lat="46.5002587" lon="13.4828833"/>
+    <nd ref="3854861554" lat="46.5002249" lon="13.4825759"/>
+    <nd ref="1591443679" lat="46.5002030" lon="13.4823196"/>
+    <nd ref="1591443675" lat="46.5001839" lon="13.4821178"/>
+    <nd ref="1591443672" lat="46.5001721" lon="13.4819292"/>
+    <nd ref="1591443662" lat="46.5001151" lon="13.4817920"/>
+    <nd ref="1591443658" lat="46.5000993" lon="13.4816234"/>
+    <tag k="highway" v="track"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+    <tag k="source" v="survey+PCN"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
 </new>
 </action>
 
