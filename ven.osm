@@ -1,531 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.59.5 b201bb38">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-04-08T00:42:22Z" areas="2023-04-07T23:00:53Z"/>
+<meta osm_base="2023-04-09T00:45:13Z" areas="2023-04-08T22:54:39Z"/>
 
 <action type="modify">
 <old>
-  <way id="144700870" version="3" timestamp="2014-01-08T13:23:14Z" changeset="19882335" uid="609680" user="rovinatissimo">
-    <bounds minlat="45.9874530" minlon="12.2779223" maxlat="45.9876164" maxlon="12.2781464"/>
-    <nd ref="1582297669" lat="45.9874530" lon="12.2781464"/>
-    <nd ref="767535308" lat="45.9875881" lon="12.2779943"/>
-    <nd ref="767535235" lat="45.9876164" lon="12.2779223"/>
-    <tag k="ref" v="SP152"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Via San Lorenzo"/>
+  <way id="938326968" version="1" timestamp="2021-05-03T08:34:57Z" changeset="104038822" uid="6081156" user="ddm-dolomitico">
+    <bounds minlat="46.5615658" minlon="12.4409605" maxlat="46.5615963" maxlon="12.4409860"/>
+    <nd ref="8692972260" lat="46.5615658" lon="12.4409605"/>
+    <nd ref="8692972259" lat="46.5615963" lon="12.4409860"/>
+    <tag k="trail_visibility" v="good"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="path"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
   </way>
 </old>
 <new>
-  <way id="144700870" version="4" timestamp="2023-04-07T16:41:24Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.9874530" minlon="12.2779223" maxlat="45.9876164" maxlon="12.2781464"/>
-    <nd ref="1582297669" lat="45.9874530" lon="12.2781464"/>
-    <nd ref="767535308" lat="45.9875881" lon="12.2779943"/>
-    <nd ref="767535235" lat="45.9876164" lon="12.2779223"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Via San Lorenzo"/>
-    <tag k="ref" v="SP152"/>
-    <tag k="surface" v="asphalt"/>
+  <way id="938326968" version="2" timestamp="2023-04-08T05:29:58Z" changeset="134639041" uid="313111" user="melcomsx">
+    <bounds minlat="46.5615658" minlon="12.4409605" maxlat="46.5615963" maxlon="12.4409860"/>
+    <nd ref="8692972260" lat="46.5615658" lon="12.4409605"/>
+    <nd ref="8692972259" lat="46.5615963" lon="12.4409860"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="path"/>
+    <tag k="layer" v="1"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+    <tag k="trail_visibility" v="good"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="337416596" version="1" timestamp="2015-04-08T16:50:01Z" changeset="30068797" uid="312126" user="Senbee">
-    <bounds minlat="45.8384110" minlon="11.4570077" maxlat="45.8384617" maxlon="11.4583447"/>
-    <nd ref="1373709186" lat="45.8384110" lon="11.4583447"/>
-    <nd ref="368185686" lat="45.8384528" lon="11.4573721"/>
-    <nd ref="368185687" lat="45.8384617" lon="11.4570077"/>
-    <tag k="name" v="Via Armistizio"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="50"/>
-  </way>
-</old>
-<new>
-  <way id="337416596" version="2" timestamp="2023-04-07T16:41:27Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.8384110" minlon="11.4570077" maxlat="45.8384617" maxlon="11.4583447"/>
-    <nd ref="1373709186" lat="45.8384110" lon="11.4583447"/>
-    <nd ref="368185686" lat="45.8384528" lon="11.4573721"/>
-    <nd ref="368185687" lat="45.8384617" lon="11.4570077"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Via Armistizio"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="337416600" version="2" timestamp="2021-11-25T08:01:16Z" changeset="114209932" uid="4763471" user="Stefano9899">
-    <bounds minlat="45.8384118" minlon="11.4552457" maxlat="45.8384617" maxlon="11.4570077"/>
-    <nd ref="368185687" lat="45.8384617" lon="11.4570077"/>
-    <nd ref="1373310037" lat="45.8384592" lon="11.4569198"/>
-    <nd ref="9282381112" lat="45.8384552" lon="11.4567802"/>
-    <nd ref="476656596" lat="45.8384118" lon="11.4552457"/>
-    <tag k="name" v="Via Armistizio"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="30"/>
-  </way>
-</old>
-<new>
-  <way id="337416600" version="3" timestamp="2023-04-07T16:41:27Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.8384118" minlon="11.4552457" maxlat="45.8384617" maxlon="11.4570077"/>
-    <nd ref="368185687" lat="45.8384617" lon="11.4570077"/>
-    <nd ref="1373310037" lat="45.8384592" lon="11.4569198"/>
-    <nd ref="9282381112" lat="45.8384552" lon="11.4567802"/>
-    <nd ref="476656596" lat="45.8384118" lon="11.4552457"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Via Armistizio"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="337416601" version="1" timestamp="2015-04-08T16:50:02Z" changeset="30068797" uid="312126" user="Senbee">
-    <bounds minlat="45.8382251" minlon="11.4583447" maxlat="45.8384110" maxlon="11.4604385"/>
-    <nd ref="3445093530" lat="45.8382251" lon="11.4604385"/>
-    <nd ref="368185683" lat="45.8382726" lon="11.4602831"/>
-    <nd ref="368185685" lat="45.8383506" lon="11.4598700"/>
-    <nd ref="1105889961" lat="45.8383658" lon="11.4592271"/>
-    <nd ref="1373709186" lat="45.8384110" lon="11.4583447"/>
-    <tag k="name" v="Via Armistizio"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="30"/>
-  </way>
-</old>
-<new>
-  <way id="337416601" version="2" timestamp="2023-04-07T16:41:27Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.8382251" minlon="11.4583447" maxlat="45.8384110" maxlon="11.4604385"/>
-    <nd ref="3445093530" lat="45.8382251" lon="11.4604385"/>
-    <nd ref="368185683" lat="45.8382726" lon="11.4602831"/>
-    <nd ref="368185685" lat="45.8383506" lon="11.4598700"/>
-    <nd ref="1105889961" lat="45.8383658" lon="11.4592271"/>
-    <nd ref="1373709186" lat="45.8384110" lon="11.4583447"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Via Armistizio"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="340667641" version="1" timestamp="2015-04-26T15:58:37Z" changeset="30507824" uid="1932792" user="Davide_sd">
-    <bounds minlat="45.8928225" minlon="11.2712161" maxlat="45.8943991" maxlon="11.2733725"/>
-    <nd ref="268262030" lat="45.8928225" lon="11.2733725"/>
-    <nd ref="268262031" lat="45.8929320" lon="11.2732668"/>
-    <nd ref="306988573" lat="45.8931894" lon="11.2731855"/>
-    <nd ref="306988571" lat="45.8934329" lon="11.2730426"/>
-    <nd ref="268262032" lat="45.8936083" lon="11.2727698"/>
-    <nd ref="268262033" lat="45.8939448" lon="11.2719986"/>
-    <nd ref="914729691" lat="45.8940761" lon="11.2717306"/>
-    <nd ref="268262034" lat="45.8942523" lon="11.2715192"/>
-    <nd ref="306988578" lat="45.8943865" lon="11.2712956"/>
-    <nd ref="492027400" lat="45.8943991" lon="11.2712161"/>
-    <tag k="ref" v="SP64"/>
-    <tag k="highway" v="secondary"/>
-  </way>
-</old>
-<new>
-  <way id="340667641" version="2" timestamp="2023-04-07T16:41:27Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.8928225" minlon="11.2712161" maxlat="45.8943991" maxlon="11.2733725"/>
-    <nd ref="268262030" lat="45.8928225" lon="11.2733725"/>
-    <nd ref="268262031" lat="45.8929320" lon="11.2732668"/>
-    <nd ref="306988573" lat="45.8931894" lon="11.2731855"/>
-    <nd ref="306988571" lat="45.8934329" lon="11.2730426"/>
-    <nd ref="268262032" lat="45.8936083" lon="11.2727698"/>
-    <nd ref="268262033" lat="45.8939448" lon="11.2719986"/>
-    <nd ref="914729691" lat="45.8940761" lon="11.2717306"/>
-    <nd ref="268262034" lat="45.8942523" lon="11.2715192"/>
-    <nd ref="306988578" lat="45.8943865" lon="11.2712956"/>
-    <nd ref="492027400" lat="45.8943991" lon="11.2712161"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="ref" v="SP64"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="389245918" version="1" timestamp="2016-01-02T17:56:52Z" changeset="36323378" uid="1932792" user="Davide_sd">
-    <bounds minlat="45.8968763" minlon="11.2620671" maxlat="45.8981573" maxlon="11.2634129"/>
-    <nd ref="3524872056" lat="45.8968763" lon="11.2634129"/>
-    <nd ref="268262051" lat="45.8969192" lon="11.2633112"/>
-    <nd ref="914729758" lat="45.8970002" lon="11.2632076"/>
-    <nd ref="306988599" lat="45.8971019" lon="11.2631307"/>
-    <nd ref="306988597" lat="45.8975215" lon="11.2629443"/>
-    <nd ref="914729753" lat="45.8977175" lon="11.2627252"/>
-    <nd ref="268262052" lat="45.8979582" lon="11.2625235"/>
-    <nd ref="914729725" lat="45.8980508" lon="11.2623431"/>
-    <nd ref="306988602" lat="45.8981573" lon="11.2620671"/>
-    <tag k="ref" v="SP64"/>
-    <tag k="highway" v="secondary"/>
-  </way>
-</old>
-<new>
-  <way id="389245918" version="2" timestamp="2023-04-07T16:41:31Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.8968763" minlon="11.2620671" maxlat="45.8981573" maxlon="11.2634129"/>
-    <nd ref="3524872056" lat="45.8968763" lon="11.2634129"/>
-    <nd ref="268262051" lat="45.8969192" lon="11.2633112"/>
-    <nd ref="914729758" lat="45.8970002" lon="11.2632076"/>
-    <nd ref="306988599" lat="45.8971019" lon="11.2631307"/>
-    <nd ref="306988597" lat="45.8975215" lon="11.2629443"/>
-    <nd ref="914729753" lat="45.8977175" lon="11.2627252"/>
-    <nd ref="268262052" lat="45.8979582" lon="11.2625235"/>
-    <nd ref="914729725" lat="45.8980508" lon="11.2623431"/>
-    <nd ref="306988602" lat="45.8981573" lon="11.2620671"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="ref" v="SP64"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="393229479" version="1" timestamp="2016-01-24T15:19:21Z" changeset="36777822" uid="852319" user="vrmap">
-    <bounds minlat="45.5710695" minlon="10.9235780" maxlat="45.5711443" maxlon="10.9237581"/>
-    <nd ref="3652852356" lat="45.5710695" lon="10.9235780"/>
-    <nd ref="441937344" lat="45.5711192" lon="10.9236974"/>
-    <nd ref="3964438538" lat="45.5711443" lon="10.9237581"/>
-    <tag k="sac_scale_ref" v="T1"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Strada Provinciale della Val Gatara"/>
-    <tag k="ref" v="SP34"/>
-    <tag k="sac_scale" v="hiking"/>
-  </way>
-</old>
-<new>
-  <way id="393229479" version="2" timestamp="2023-04-07T16:41:31Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.5710695" minlon="10.9235780" maxlat="45.5711443" maxlon="10.9237581"/>
-    <nd ref="3652852356" lat="45.5710695" lon="10.9235780"/>
-    <nd ref="441937344" lat="45.5711192" lon="10.9236974"/>
-    <nd ref="3964438538" lat="45.5711443" lon="10.9237581"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Strada Provinciale della Val Gatara"/>
-    <tag k="ref" v="SP34"/>
-    <tag k="sac_scale" v="hiking"/>
-    <tag k="sac_scale_ref" v="T1"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="401789103" version="1" timestamp="2016-03-05T16:22:56Z" changeset="37630220" uid="585960" user="pippo_rigo">
-    <bounds minlat="45.8302940" minlon="11.3644225" maxlat="45.8304434" maxlon="11.3644320"/>
-    <nd ref="2505841293" lat="45.8304434" lon="11.3644225"/>
-    <nd ref="3988126064" lat="45.8303730" lon="11.3644320"/>
-    <nd ref="262099672" lat="45.8302940" lon="11.3644311"/>
-    <tag k="ref" v="SP64"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Strada dei Fiorentini"/>
-  </way>
-</old>
-<new>
-  <way id="401789103" version="2" timestamp="2023-04-07T16:41:31Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.8302940" minlon="11.3644225" maxlat="45.8304434" maxlon="11.3644320"/>
-    <nd ref="2505841293" lat="45.8304434" lon="11.3644225"/>
-    <nd ref="3988126064" lat="45.8303730" lon="11.3644320"/>
-    <nd ref="262099672" lat="45.8302940" lon="11.3644311"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Strada dei Fiorentini"/>
-    <tag k="ref" v="SP64"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="441642646" version="1" timestamp="2016-09-09T16:29:15Z" changeset="42035641" uid="2508151" user="ridixcr">
-    <bounds minlat="45.5515675" minlon="10.9079064" maxlat="45.5516682" maxlon="10.9082207"/>
-    <nd ref="259828802" lat="45.5515675" lon="10.9079064"/>
-    <nd ref="3684565427" lat="45.5516682" lon="10.9082207"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="secondary"/>
-  </way>
-</old>
-<new>
-  <way id="441642646" version="2" timestamp="2023-04-07T16:41:31Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.5515675" minlon="10.9079064" maxlat="45.5516682" maxlon="10.9082207"/>
-    <nd ref="259828802" lat="45.5515675" lon="10.9079064"/>
-    <nd ref="3684565427" lat="45.5516682" lon="10.9082207"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="538106895" version="1" timestamp="2017-11-03T23:02:48Z" changeset="53492063" uid="1932792" user="Davide_sd">
-    <bounds minlat="45.8584861" minlon="11.7451249" maxlat="45.8585355" maxlon="11.7462033"/>
-    <nd ref="1757606633" lat="45.8584861" lon="11.7462033"/>
-    <nd ref="269365633" lat="45.8585089" lon="11.7454347"/>
-    <nd ref="3818382630" lat="45.8585258" lon="11.7452493"/>
-    <nd ref="1461281725" lat="45.8585355" lon="11.7451249"/>
-    <tag k="ref" v="SP148"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="loc_ref" v="SP148"/>
-    <tag k="name" v="Via Val della Giara"/>
-    <tag k="old_ref" v="SS141"/>
-  </way>
-</old>
-<new>
-  <way id="538106895" version="2" timestamp="2023-04-07T16:41:31Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.8584861" minlon="11.7451249" maxlat="45.8585355" maxlon="11.7462033"/>
-    <nd ref="1757606633" lat="45.8584861" lon="11.7462033"/>
-    <nd ref="269365633" lat="45.8585089" lon="11.7454347"/>
-    <nd ref="3818382630" lat="45.8585258" lon="11.7452493"/>
-    <nd ref="1461281725" lat="45.8585355" lon="11.7451249"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="loc_ref" v="SP148"/>
-    <tag k="name" v="Via Val della Giara"/>
-    <tag k="old_ref" v="SS141"/>
-    <tag k="ref" v="SP148"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="539634768" version="3" timestamp="2021-01-26T21:26:48Z" changeset="98184708" uid="504502" user="kkklllppp">
-    <bounds minlat="45.8779610" minlon="11.3030561" maxlat="45.8786260" maxlon="11.3041355"/>
-    <nd ref="2950310542" lat="45.8779610" lon="11.3041355"/>
-    <nd ref="4359283712" lat="45.8779875" lon="11.3039949"/>
-    <nd ref="771801285" lat="45.8780190" lon="11.3038932"/>
-    <nd ref="4359283710" lat="45.8780665" lon="11.3038046"/>
-    <nd ref="262103810" lat="45.8782126" lon="11.3036133"/>
-    <nd ref="771800993" lat="45.8786260" lon="11.3030561"/>
-    <tag k="ref" v="SP64 Strada dei Fiorentini"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="oneway" v="yes"/>
-  </way>
-</old>
-<new>
-  <way id="539634768" version="4" timestamp="2023-04-07T16:41:31Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.8779610" minlon="11.3030561" maxlat="45.8786260" maxlon="11.3041355"/>
-    <nd ref="2950310542" lat="45.8779610" lon="11.3041355"/>
-    <nd ref="4359283712" lat="45.8779875" lon="11.3039949"/>
-    <nd ref="771801285" lat="45.8780190" lon="11.3038932"/>
-    <nd ref="4359283710" lat="45.8780665" lon="11.3038046"/>
-    <nd ref="262103810" lat="45.8782126" lon="11.3036133"/>
-    <nd ref="771800993" lat="45.8786260" lon="11.3030561"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="ref" v="SP64 Strada dei Fiorentini"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="611290726" version="1" timestamp="2018-07-26T19:58:05Z" changeset="61099448" uid="1928626" user="Gianfranco2014">
-    <bounds minlat="45.5971694" minlon="11.2019084" maxlat="45.5976756" maxlon="11.2037258"/>
-    <nd ref="268109646" lat="45.5971694" lon="11.2037258"/>
-    <nd ref="268109376" lat="45.5972990" lon="11.2035413"/>
-    <nd ref="288572868" lat="45.5973896" lon="11.2033350"/>
-    <nd ref="288572605" lat="45.5974617" lon="11.2030774"/>
-    <nd ref="288572972" lat="45.5975336" lon="11.2027943"/>
-    <nd ref="288572973" lat="45.5975996" lon="11.2024078"/>
-    <nd ref="288572871" lat="45.5976537" lon="11.2020478"/>
-    <nd ref="4258813697" lat="45.5976756" lon="11.2019084"/>
-    <tag k="ref" v="SP17"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Via Villa Bolca"/>
-  </way>
-</old>
-<new>
-  <way id="611290726" version="2" timestamp="2023-04-07T16:41:31Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.5971694" minlon="11.2019084" maxlat="45.5976756" maxlon="11.2037258"/>
-    <nd ref="268109646" lat="45.5971694" lon="11.2037258"/>
-    <nd ref="268109376" lat="45.5972990" lon="11.2035413"/>
-    <nd ref="288572868" lat="45.5973896" lon="11.2033350"/>
-    <nd ref="288572605" lat="45.5974617" lon="11.2030774"/>
-    <nd ref="288572972" lat="45.5975336" lon="11.2027943"/>
-    <nd ref="288572973" lat="45.5975996" lon="11.2024078"/>
-    <nd ref="288572871" lat="45.5976537" lon="11.2020478"/>
-    <nd ref="4258813697" lat="45.5976756" lon="11.2019084"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Via Villa Bolca"/>
-    <tag k="ref" v="SP17"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="643144518" version="1" timestamp="2018-11-11T17:53:25Z" changeset="64381048" uid="852319" user="vrmap">
-    <bounds minlat="45.5801560" minlon="10.9400764" maxlat="45.5802381" maxlon="10.9401078"/>
-    <nd ref="3156016269" lat="45.5801560" lon="10.9400764"/>
-    <nd ref="259828510" lat="45.5802381" lon="10.9401078"/>
-    <tag k="ref" v="SP34"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Strada Provinciale della Val Gatara"/>
-  </way>
-</old>
-<new>
-  <way id="643144518" version="2" timestamp="2023-04-07T16:41:31Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.5801560" minlon="10.9400764" maxlat="45.5802381" maxlon="10.9401078"/>
-    <nd ref="3156016269" lat="45.5801560" lon="10.9400764"/>
-    <nd ref="259828510" lat="45.5802381" lon="10.9401078"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Strada Provinciale della Val Gatara"/>
-    <tag k="ref" v="SP34"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="687596300" version="3" timestamp="2022-06-11T03:47:06Z" changeset="122233675" uid="15458794" user="Photo_MC">
-    <bounds minlat="45.8566778" minlon="11.8035787" maxlat="45.8567117" maxlon="11.8038201"/>
-    <nd ref="6445714480" lat="45.8566778" lon="11.8035787"/>
-    <nd ref="2063591900" lat="45.8567117" lon="11.8038201"/>
-    <tag k="tourist_bus:conditional" v="yes @ (length &lt; 8)"/>
+  <way id="993563324" version="1" timestamp="2021-10-18T05:37:41Z" changeset="112635261" uid="6081156" user="ddm-dolomitico">
+    <bounds minlat="46.4966483" minlon="12.1231931" maxlat="46.4967148" maxlon="12.1232428"/>
+    <nd ref="9179322737" lat="46.4967148" lon="12.1232428"/>
+    <nd ref="1396796668" lat="46.4966911" lon="12.1232211"/>
+    <nd ref="9179322736" lat="46.4966483" lon="12.1231931"/>
+    <tag k="tracktype" v="grade1"/>
+    <tag k="access" v="yes"/>
     <tag k="bicycle" v="yes"/>
-    <tag k="bus" v="no"/>
-    <tag k="bus:conditional" v="yes @ (length &lt; 8)"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="loc_ref" v="SP140"/>
-    <tag k="maxweightrating:hgv" v="7.5"/>
-    <tag k="name" v="Strada Generale Giardino"/>
-    <tag k="ref" v="SP140"/>
-    <tag k="tourist_bus" v="yes @ (length &lt; 8)"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </old>
 <new>
-  <way id="687596300" version="4" timestamp="2023-04-07T16:41:31Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.8566778" minlon="11.8035787" maxlat="45.8567117" maxlon="11.8038201"/>
-    <nd ref="6445714480" lat="45.8566778" lon="11.8035787"/>
-    <nd ref="2063591900" lat="45.8567117" lon="11.8038201"/>
+  <way id="993563324" version="2" timestamp="2023-04-08T15:08:24Z" changeset="134656664" uid="313111" user="melcomsx">
+    <bounds minlat="46.4966483" minlon="12.1231931" maxlat="46.4967148" maxlon="12.1232428"/>
+    <nd ref="9179322737" lat="46.4967148" lon="12.1232428"/>
+    <nd ref="1396796668" lat="46.4966911" lon="12.1232211"/>
+    <nd ref="9179322736" lat="46.4966483" lon="12.1231931"/>
+    <tag k="access" v="yes"/>
     <tag k="bicycle" v="yes"/>
-    <tag k="bus" v="no"/>
-    <tag k="bus:conditional" v="yes @ (length &lt; 8)"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="loc_ref" v="SP140"/>
-    <tag k="maxweightrating:hgv" v="7.5"/>
-    <tag k="name" v="Strada Generale Giardino"/>
-    <tag k="ref" v="SP140"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="track"/>
+    <tag k="layer" v="1"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="tourist_bus" v="yes @ (length &lt; 8)"/>
-    <tag k="tourist_bus:conditional" v="yes @ (length &lt; 8)"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="884203778" version="1" timestamp="2020-12-12T20:37:12Z" changeset="95736056" uid="9433676" user="Leopy_Periz">
-    <bounds minlat="45.7821490" minlon="11.4383295" maxlat="45.7821657" maxlon="11.4383648"/>
-    <nd ref="2849415889" lat="45.7821657" lon="11.4383648"/>
-    <nd ref="401467143" lat="45.7821490" lon="11.4383295"/>
-    <tag k="ref" v="SP116"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Via Bramonte"/>
-  </way>
-</old>
-<new>
-  <way id="884203778" version="2" timestamp="2023-04-07T16:41:34Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.7821490" minlon="11.4383295" maxlat="45.7821657" maxlon="11.4383648"/>
-    <nd ref="2849415889" lat="45.7821657" lon="11.4383648"/>
-    <nd ref="401467143" lat="45.7821490" lon="11.4383295"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Via Bramonte"/>
-    <tag k="ref" v="SP116"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="884203801" version="1" timestamp="2020-12-12T20:37:12Z" changeset="95736056" uid="9433676" user="Leopy_Periz">
-    <bounds minlat="45.8380434" minlon="11.4604385" maxlat="45.8382251" maxlon="11.4614284"/>
-    <nd ref="1373309997" lat="45.8380903" lon="11.4614284"/>
-    <nd ref="368185681" lat="45.8380546" lon="11.4613206"/>
-    <nd ref="414957781" lat="45.8380434" lon="11.4611419"/>
-    <nd ref="368185682" lat="45.8380730" lon="11.4609359"/>
-    <nd ref="3445093530" lat="45.8382251" lon="11.4604385"/>
-    <tag k="name" v="Via Armistizio"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="50"/>
-  </way>
-</old>
-<new>
-  <way id="884203801" version="2" timestamp="2023-04-07T16:41:34Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.8380434" minlon="11.4604385" maxlat="45.8382251" maxlon="11.4614284"/>
-    <nd ref="1373309997" lat="45.8380903" lon="11.4614284"/>
-    <nd ref="368185681" lat="45.8380546" lon="11.4613206"/>
-    <nd ref="414957781" lat="45.8380434" lon="11.4611419"/>
-    <nd ref="368185682" lat="45.8380730" lon="11.4609359"/>
-    <nd ref="3445093530" lat="45.8382251" lon="11.4604385"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Via Armistizio"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="1005771254" version="1" timestamp="2021-11-24T06:36:32Z" changeset="114167647" uid="13591" user="lucadelu">
-    <bounds minlat="45.8946337" minlon="11.7761516" maxlat="45.8947082" maxlon="11.7763133"/>
-    <nd ref="269365386" lat="45.8947082" lon="11.7763133"/>
-    <nd ref="846334001" lat="45.8946337" lon="11.7761516"/>
-    <tag k="ref" v="SP148"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="loc_ref" v="SP148"/>
-    <tag k="name" v="Strada Provinciale 148 Cadorna"/>
-    <tag k="old_ref" v="SS141"/>
-  </way>
-</old>
-<new>
-  <way id="1005771254" version="2" timestamp="2023-04-07T16:41:34Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.8946337" minlon="11.7761516" maxlat="45.8947082" maxlon="11.7763133"/>
-    <nd ref="269365386" lat="45.8947082" lon="11.7763133"/>
-    <nd ref="846334001" lat="45.8946337" lon="11.7761516"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="loc_ref" v="SP148"/>
-    <tag k="name" v="Strada Provinciale 148 Cadorna"/>
-    <tag k="old_ref" v="SS141"/>
-    <tag k="ref" v="SP148"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="1005826214" version="1" timestamp="2021-11-24T10:59:56Z" changeset="114177108" uid="13591" user="lucadelu">
-    <bounds minlat="45.8581447" minlon="11.7323467" maxlat="45.8584569" maxlon="11.7331942"/>
-    <nd ref="269365738" lat="45.8584569" lon="11.7323467"/>
-    <nd ref="1700976127" lat="45.8584240" lon="11.7324672"/>
-    <nd ref="1700976126" lat="45.8584110" lon="11.7326157"/>
-    <nd ref="1802203976" lat="45.8584094" lon="11.7328116"/>
-    <nd ref="269365743" lat="45.8583596" lon="11.7330021"/>
-    <nd ref="269365749" lat="45.8582660" lon="11.7331289"/>
-    <nd ref="7530084922" lat="45.8581447" lon="11.7331942"/>
-    <tag k="ref" v="SP148"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="loc_ref" v="SP148"/>
-    <tag k="name" v="Strada Provinciale 148 Cadorna"/>
-    <tag k="old_ref" v="SS141"/>
-  </way>
-</old>
-<new>
-  <way id="1005826214" version="2" timestamp="2023-04-07T16:41:34Z" changeset="134624696" uid="224342" user="mircozorzo">
-    <bounds minlat="45.8581447" minlon="11.7323467" maxlat="45.8584569" maxlon="11.7331942"/>
-    <nd ref="269365738" lat="45.8584569" lon="11.7323467"/>
-    <nd ref="1700976127" lat="45.8584240" lon="11.7324672"/>
-    <nd ref="1700976126" lat="45.8584110" lon="11.7326157"/>
-    <nd ref="1802203976" lat="45.8584094" lon="11.7328116"/>
-    <nd ref="269365743" lat="45.8583596" lon="11.7330021"/>
-    <nd ref="269365749" lat="45.8582660" lon="11.7331289"/>
-    <nd ref="7530084922" lat="45.8581447" lon="11.7331942"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="loc_ref" v="SP148"/>
-    <tag k="name" v="Strada Provinciale 148 Cadorna"/>
-    <tag k="old_ref" v="SS141"/>
-    <tag k="ref" v="SP148"/>
-    <tag k="surface" v="asphalt"/>
+    <tag k="tracktype" v="grade1"/>
   </way>
 </new>
 </action>
