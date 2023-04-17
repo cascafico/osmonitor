@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.59.5 b201bb38">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2023-04-17T00:44:53Z" areas="2023-04-16T23:39:04Z"/>
+
+<action type="modify">
+<old>
+  <node id="1626728615" lat="46.5599576" lon="13.2755644" version="14" timestamp="2023-03-18T21:16:23Z" changeset="133838703" uid="129060" user="Klenje">
+    <tag k="wikipedia" v="it:Passo di Pramollo"/>
+    <tag k="ele" v="1530"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Nassfeldpass / Passo di Pramollo"/>
+    <tag k="name:de" v="Nassfeld"/>
+    <tag k="name:fur" v="Pas di Pramuel"/>
+    <tag k="name:it" v="Passo di Pramollo"/>
+    <tag k="natural" v="saddle"/>
+    <tag k="wikidata" v="Q685718"/>
+  </node>
+</old>
+<new>
+  <node id="1626728615" lat="46.5599576" lon="13.2755644" version="15" timestamp="2023-04-16T14:24:16Z" changeset="134977391" uid="3241876" user="Naključni Turist">
+    <tag k="ele" v="1530"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Nassfeldpass / Passo di Pramollo"/>
+    <tag k="name:de" v="Nassfeld"/>
+    <tag k="name:fur" v="Pas di Pramuel"/>
+    <tag k="name:it" v="Passo di Pramollo"/>
+    <tag k="name:sl" v="Mokrine"/>
+    <tag k="natural" v="saddle"/>
+    <tag k="wikidata" v="Q685718"/>
+    <tag k="wikipedia" v="it:Passo di Pramollo"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="200403687" version="12" timestamp="2022-10-24T07:53:48Z" changeset="127983427" uid="361003" user="Cascafico">
+    <bounds minlat="45.7554314" minlon="13.6433778" maxlat="45.7579558" maxlon="13.6490611"/>
+    <nd ref="1080666724" lat="45.7554314" lon="13.6490611"/>
+    <nd ref="436625953" lat="45.7554980" lon="13.6489386"/>
+    <nd ref="3631538900" lat="45.7555959" lon="13.6487454"/>
+    <nd ref="243813791" lat="45.7557380" lon="13.6484140"/>
+    <nd ref="243813792" lat="45.7559481" lon="13.6478284"/>
+    <nd ref="6843966500" lat="45.7562219" lon="13.6470478"/>
+    <nd ref="243813793" lat="45.7564801" lon="13.6462559"/>
+    <nd ref="436625957" lat="45.7566163" lon="13.6459044"/>
+    <nd ref="436625955" lat="45.7567399" lon="13.6455868"/>
+    <nd ref="436625954" lat="45.7568644" lon="13.6452771"/>
+    <nd ref="243813794" lat="45.7570111" lon="13.6449658"/>
+    <nd ref="681299641" lat="45.7571451" lon="13.6447273"/>
+    <nd ref="436625956" lat="45.7572820" lon="13.6444875"/>
+    <nd ref="243813795" lat="45.7575552" lon="13.6440192"/>
+    <nd ref="388243145" lat="45.7579558" lon="13.6433778"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lanes:backward" v="1"/>
+    <tag k="lanes:forward" v="1"/>
+    <tag k="lit" v="no"/>
+    <tag k="maxspeed" v="80"/>
+    <tag k="noname" v="yes"/>
+    <tag k="old_ref" v="SS14"/>
+    <tag k="oneway" v="no"/>
+    <tag k="ref" v="SR14"/>
+    <tag k="shoulder" v="both"/>
+  </way>
+</old>
+<new>
+  <way id="200403687" version="13" timestamp="2023-04-16T19:24:59Z" changeset="134988607" uid="14617702" user="Đuro Jiří">
+    <bounds minlat="45.7554314" minlon="13.6433778" maxlat="45.7579558" maxlon="13.6490611"/>
+    <nd ref="1080666724" lat="45.7554314" lon="13.6490611"/>
+    <nd ref="436625953" lat="45.7554980" lon="13.6489386"/>
+    <nd ref="3631538900" lat="45.7555959" lon="13.6487454"/>
+    <nd ref="243813791" lat="45.7557380" lon="13.6484140"/>
+    <nd ref="243813792" lat="45.7559481" lon="13.6478284"/>
+    <nd ref="6843966500" lat="45.7562219" lon="13.6470478"/>
+    <nd ref="243813793" lat="45.7564801" lon="13.6462559"/>
+    <nd ref="436625957" lat="45.7566163" lon="13.6459044"/>
+    <nd ref="436625955" lat="45.7567399" lon="13.6455868"/>
+    <nd ref="436625954" lat="45.7568644" lon="13.6452771"/>
+    <nd ref="243813794" lat="45.7570111" lon="13.6449658"/>
+    <nd ref="681299641" lat="45.7571451" lon="13.6447273"/>
+    <nd ref="436625956" lat="45.7572820" lon="13.6444875"/>
+    <nd ref="243813795" lat="45.7575552" lon="13.6440192"/>
+    <nd ref="388243145" lat="45.7579558" lon="13.6433778"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="primary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lanes:backward" v="1"/>
+    <tag k="lanes:forward" v="1"/>
+    <tag k="lit" v="no"/>
+    <tag k="maxspeed" v="80"/>
+    <tag k="noname" v="yes"/>
+    <tag k="old_ref" v="SS14"/>
+    <tag k="oneway" v="no"/>
+    <tag k="ref" v="SR14"/>
+    <tag k="shoulder" v="both"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
