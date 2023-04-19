@@ -1,74 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<osm version="0.6" generator="Overpass API 0.7.60 f4c14d41">
+<osm version="0.6" generator="Overpass API 0.7.59.5 b201bb38">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-04-18T00:42:29Z" areas="2023-04-15T20:08:54Z"/>
+<meta osm_base="2023-04-19T00:45:53Z" areas="2023-04-18T23:16:54Z"/>
 
 <action type="modify">
 <old>
-  <way id="27715814" version="8" timestamp="2023-02-04T20:52:35Z" changeset="132090206" uid="12294600" user="alessandrocarmeli">
-    <bounds minlat="45.6917492" minlon="13.7838998" maxlat="45.6925156" maxlon="13.7850033"/>
-    <nd ref="70462879" lat="45.6925156" lon="13.7838998"/>
-    <nd ref="704456352" lat="45.6922750" lon="13.7842511"/>
-    <nd ref="704456341" lat="45.6919195" lon="13.7847578"/>
-    <nd ref="269693252" lat="45.6917492" lon="13.7850033"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="ref" v="SP1"/>
-    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
-    <tag k="bridge" v="yes"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="layer" v="1"/>
-    <tag k="name" v="Via di Prosecco"/>
-    <tag k="name:it" v="Via di Prosecco"/>
-    <tag k="name:sl" v="Proseška ulica"/>
+  <node id="26863280" lat="46.4357489" lon="13.4338835" version="13" timestamp="2021-12-11T15:33:05Z" changeset="114821793" uid="188429" user="gpstracks">
+    <tag k="prominence" v="1596"/>
+    <tag k="wikipedia" v="it:Jôf di Montasio"/>
+    <tag k="alt_name:sl" v="Špik nad Policami"/>
+    <tag k="ele" v="2754"/>
+    <tag k="man_made" v="campanile"/>
+    <tag k="name" v="Jôf di Montasio"/>
+    <tag k="name:de" v="Montasch"/>
+    <tag k="name:fur" v="Jôf dal Montâs"/>
+    <tag k="name:sl" v="Montaž"/>
+    <tag k="natural" v="peak"/>
+    <tag k="old_name:de" v="Bramkofel"/>
+    <tag k="summit:cross" v="yes"/>
+    <tag k="wikidata" v="Q1759191"/>
+  </node>
+</old>
+<new>
+  <node id="26863280" lat="46.4357489" lon="13.4338835" version="14" timestamp="2023-04-18T18:39:41Z" changeset="135072502" uid="2491053" user="ManelG">
+    <tag k="alt_name:sl" v="Špik nad Policami"/>
+    <tag k="ele" v="2754"/>
+    <tag k="man_made" v="campanile"/>
+    <tag k="name" v="Jôf di Montasio"/>
+    <tag k="name:de" v="Montasch"/>
+    <tag k="name:fur" v="Jôf dal Montâs"/>
+    <tag k="name:sl" v="Montaž"/>
+    <tag k="natural" v="peak"/>
+    <tag k="old_name:de" v="Bramkofel"/>
+    <tag k="prominence" v="1598"/>
+    <tag k="source:prominence" v="2754-1156 (Passo del Predil)"/>
+    <tag k="summit:cross" v="yes"/>
+    <tag k="wikidata" v="Q1759191"/>
+    <tag k="wikipedia" v="it:Jôf di Montasio"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="27308910" version="3" timestamp="2014-01-27T08:35:29Z" changeset="20224579" uid="361003" user="Cascafico">
+    <bounds minlat="45.9540765" minlon="13.5189831" maxlat="45.9557766" maxlon="13.5192843"/>
+    <nd ref="299772421" lat="45.9540765" lon="13.5192843"/>
+    <nd ref="298436935" lat="45.9547025" lon="13.5190292"/>
+    <nd ref="941025518" lat="45.9548763" lon="13.5189890"/>
+    <nd ref="941025296" lat="45.9550490" lon="13.5189831"/>
+    <nd ref="279772068" lat="45.9554076" lon="13.5189984"/>
+    <nd ref="272424894" lat="45.9557766" lon="13.5189967"/>
+    <tag k="name" v="Via Preval"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="highway" v="unclassified"/>
   </way>
 </old>
 <new>
-  <way id="27715814" version="11" timestamp="2023-04-17T13:03:40Z" changeset="135014576" uid="14617702" user="Đuro Jiří">
-    <bounds minlat="45.6917492" minlon="13.7838998" maxlat="45.6925156" maxlon="13.7850033"/>
-    <nd ref="70462879" lat="45.6925156" lon="13.7838998"/>
-    <nd ref="704456352" lat="45.6922750" lon="13.7842511"/>
-    <nd ref="704456341" lat="45.6919195" lon="13.7847578"/>
-    <nd ref="269693252" lat="45.6917492" lon="13.7850033"/>
-    <tag k="bridge" v="yes"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="layer" v="1"/>
-    <tag k="maxweight:signed" v="no"/>
-    <tag k="name" v="Via di Prosecco"/>
-    <tag k="name:it" v="Via di Prosecco"/>
-    <tag k="name:sl" v="Proseška ulica"/>
-    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
-    <tag k="ref" v="SP1"/>
+  <way id="27308910" version="5" timestamp="2023-04-18T06:02:38Z" changeset="135041771" uid="361003" user="Cascafico">
+    <bounds minlat="45.9540765" minlon="13.5189831" maxlat="45.9557766" maxlon="13.5192843"/>
+    <nd ref="299772421" lat="45.9540765" lon="13.5192843"/>
+    <nd ref="298436935" lat="45.9547025" lon="13.5190292"/>
+    <nd ref="941025518" lat="45.9548763" lon="13.5189890"/>
+    <nd ref="941025296" lat="45.9550490" lon="13.5189831"/>
+    <nd ref="279772068" lat="45.9554076" lon="13.5189984"/>
+    <nd ref="272424894" lat="45.9557766" lon="13.5189967"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Via Preval"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="1062205066" version="3" timestamp="2023-02-04T20:52:35Z" changeset="132090206" uid="12294600" user="alessandrocarmeli">
-    <bounds minlat="45.6445693" minlon="13.8624186" maxlat="45.6447236" maxlon="13.8626304"/>
-    <nd ref="313292853" lat="45.6447236" lon="13.8624186"/>
-    <nd ref="293157143" lat="45.6445693" lon="13.8626304"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway" v="no"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="oneway" v="no"/>
-    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
-    <tag k="ref" v="SP1"/>
+  <way id="1086187179" version="2" timestamp="2022-08-14T12:31:40Z" changeset="124885795" uid="609680" user="rovinatissimo">
+    <bounds minlat="46.5374734" minlon="13.1164246" maxlat="46.5400057" maxlon="13.1180654"/>
+    <nd ref="1756297063" lat="46.5374734" lon="13.1164481"/>
+    <nd ref="403449499" lat="46.5375323" lon="13.1164246"/>
+    <nd ref="403449509" lat="46.5376293" lon="13.1164631"/>
+    <nd ref="403449517" lat="46.5377138" lon="13.1165116"/>
+    <nd ref="403449577" lat="46.5381105" lon="13.1169270"/>
+    <nd ref="403449657" lat="46.5389234" lon="13.1175753"/>
+    <nd ref="403449672" lat="46.5390491" lon="13.1176336"/>
+    <nd ref="403449700" lat="46.5394220" lon="13.1177020"/>
+    <nd ref="403449727" lat="46.5396436" lon="13.1178695"/>
+    <nd ref="403449753" lat="46.5398836" lon="13.1180199"/>
+    <nd ref="9952570282" lat="46.5400057" lon="13.1180654"/>
+    <tag k="highway" v="unclassified"/>
   </way>
 </old>
 <new>
-  <way id="1062205066" version="4" timestamp="2023-04-17T13:04:06Z" changeset="135014575" uid="14617702" user="Đuro Jiří">
-    <bounds minlat="45.6445693" minlon="13.8624186" maxlat="45.6447236" maxlon="13.8626304"/>
-    <nd ref="313292853" lat="45.6447236" lon="13.8624186"/>
-    <nd ref="293157143" lat="45.6445693" lon="13.8626304"/>
-    <tag k="cycleway" v="no"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="oneway" v="no"/>
-    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
-    <tag k="ref" v="SP1"/>
+  <way id="1086187179" version="3" timestamp="2023-04-18T08:05:28Z" changeset="135046261" uid="9458168" user="Gorka115">
+    <bounds minlat="46.5374734" minlon="13.1164246" maxlat="46.5400057" maxlon="13.1180654"/>
+    <nd ref="1756297063" lat="46.5374734" lon="13.1164481"/>
+    <nd ref="403449499" lat="46.5375323" lon="13.1164246"/>
+    <nd ref="403449509" lat="46.5376293" lon="13.1164631"/>
+    <nd ref="403449517" lat="46.5377138" lon="13.1165116"/>
+    <nd ref="403449577" lat="46.5381105" lon="13.1169270"/>
+    <nd ref="403449657" lat="46.5389234" lon="13.1175753"/>
+    <nd ref="403449672" lat="46.5390491" lon="13.1176336"/>
+    <nd ref="403449700" lat="46.5394220" lon="13.1177020"/>
+    <nd ref="403449727" lat="46.5396436" lon="13.1178695"/>
+    <nd ref="403449753" lat="46.5398836" lon="13.1180199"/>
+    <nd ref="9952570282" lat="46.5400057" lon="13.1180654"/>
+    <tag k="highway" v="unclassified"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
