@@ -1,33 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.60.2 e4cf9f7a">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-04-26T00:44:03Z" areas="2023-04-25T08:53:24Z"/>
+<meta osm_base="2023-04-27T00:48:01Z" areas="2023-04-25T08:53:24Z"/>
 
 <action type="modify">
 <old>
-  <way id="775259934" version="1" timestamp="2020-02-21T14:24:40Z" changeset="81321533" uid="38061" user="Alessandro Sgambati">
-    <bounds minlat="45.5873988" minlon="13.8266690" maxlat="45.5874978" maxlon="13.8266766"/>
-    <nd ref="7232927745" lat="45.5874978" lon="13.8266766"/>
-    <nd ref="7232927744" lat="45.5873988" lon="13.8266690"/>
-    <tag k="width" v="2"/>
-    <tag k="bridge" v="yes"/>
-    <tag k="highway" v="track"/>
-    <tag k="surface" v="concrete"/>
-    <tag k="survey:date" v="2020-02-21"/>
-    <tag k="tracktype" v="grade2"/>
+  <way id="1103568969" version="1" timestamp="2022-10-13T15:51:49Z" changeset="127478005" uid="2360444" user="rikmede">
+    <bounds minlat="46.4025927" minlon="13.1533342" maxlat="46.4027133" maxlon="13.1534262"/>
+    <nd ref="1213533913" lat="46.4025927" lon="13.1534262"/>
+    <nd ref="1213533910" lat="46.4027133" lon="13.1533342"/>
+    <tag k="tunnel" v="yes"/>
+    <tag k="highway" v="path"/>
+    <tag k="incline" v="-15°"/>
+    <tag k="note" v="Beim „Julius-Kugy-Dreiländerweg in 30 tappe - collegamento via E 20a“ trifft man auf + iwn: + nrw: + rwn: 417 + lwn:"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+    <tag k="trail_visibility" v="excellent"/>
   </way>
 </old>
 <new>
-  <way id="775259934" version="2" timestamp="2023-04-25T16:53:47Z" changeset="135352325" uid="313111" user="melcomsx">
-    <bounds minlat="45.5873988" minlon="13.8266690" maxlat="45.5874978" maxlon="13.8266766"/>
-    <nd ref="7232927745" lat="45.5874978" lon="13.8266766"/>
-    <nd ref="7232927744" lat="45.5873988" lon="13.8266690"/>
+  <way id="1103568969" version="2" timestamp="2023-04-26T16:37:30Z" changeset="135394823" uid="313111" user="melcomsx">
+    <bounds minlat="46.4025927" minlon="13.1533342" maxlat="46.4027133" maxlon="13.1534262"/>
+    <nd ref="1213533913" lat="46.4025927" lon="13.1534262"/>
+    <nd ref="1213533910" lat="46.4027133" lon="13.1533342"/>
+    <tag k="highway" v="path"/>
+    <tag k="incline" v="-15°"/>
+    <tag k="layer" v="-2"/>
+    <tag k="note" v="Beim „Julius-Kugy-Dreiländerweg in 30 tappe - collegamento via E 20a“ trifft man auf + iwn: + nrw: + rwn: 417 + lwn:"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+    <tag k="trail_visibility" v="excellent"/>
+    <tag k="tunnel" v="yes"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1103568971" version="1" timestamp="2022-10-13T15:51:49Z" changeset="127478005" uid="2360444" user="rikmede">
+    <bounds minlat="46.4053340" minlon="13.1499582" maxlat="46.4054305" maxlon="13.1499773"/>
+    <nd ref="10098439825" lat="46.4053340" lon="13.1499647"/>
+    <nd ref="10098439824" lat="46.4053836" lon="13.1499773"/>
+    <nd ref="10098439823" lat="46.4054305" lon="13.1499582"/>
+    <tag k="width" v="2"/>
     <tag k="bridge" v="yes"/>
-    <tag k="highway" v="track"/>
+    <tag k="highway" v="path"/>
+    <tag k="incline" v="-15"/>
+    <tag k="note" v="Beim „Julius-Kugy-Dreiländerweg in 30 tappe - collegamento via E 20a“ trifft man auf + iwn: + nrw: + rwn: 417 + lwn:"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+    <tag k="trail_visibility" v="excellent"/>
+  </way>
+</old>
+<new>
+  <way id="1103568971" version="2" timestamp="2023-04-26T16:37:30Z" changeset="135394823" uid="313111" user="melcomsx">
+    <bounds minlat="46.4053340" minlon="13.1499582" maxlat="46.4054305" maxlon="13.1499773"/>
+    <nd ref="10098439825" lat="46.4053340" lon="13.1499647"/>
+    <nd ref="10098439824" lat="46.4053836" lon="13.1499773"/>
+    <nd ref="10098439823" lat="46.4054305" lon="13.1499582"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="path"/>
+    <tag k="incline" v="-15"/>
     <tag k="layer" v="1"/>
-    <tag k="surface" v="concrete"/>
-    <tag k="survey:date" v="2020-02-21"/>
-    <tag k="tracktype" v="grade2"/>
+    <tag k="note" v="Beim „Julius-Kugy-Dreiländerweg in 30 tappe - collegamento via E 20a“ trifft man auf + iwn: + nrw: + rwn: 417 + lwn:"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+    <tag k="trail_visibility" v="excellent"/>
     <tag k="width" v="2"/>
   </way>
 </new>
