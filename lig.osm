@@ -1,296 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.60 f4c14d41">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-05-19T00:48:23Z" areas="2023-05-18T23:27:15Z"/>
+<meta osm_base="2023-05-20T00:43:43Z" areas="2023-05-19T23:02:24Z"/>
 
 <action type="modify">
 <old>
-  <node id="1088777344" lat="44.1551849" lon="9.9726202" version="1" timestamp="2011-01-07T17:06:25Z" changeset="6894913" uid="314450" user="danyzeta"/>
-</old>
-<new>
-  <node id="1088777344" lat="44.1551849" lon="9.9725580" version="2" timestamp="2023-05-18T15:29:57Z" changeset="136261070" uid="673435" user="nilogian"/>
-</new>
-</action>
-<action type="modify">
-<old>
-  <node id="1229330262" lat="44.1536945" lon="9.9639124" version="3" timestamp="2012-09-16T14:09:49Z" changeset="13130947" uid="314450" user="danyzeta"/>
-</old>
-<new>
-  <node id="1229330262" lat="44.1537081" lon="9.9638971" version="4" timestamp="2023-05-18T15:46:46Z" changeset="136261786" uid="673435" user="nilogian"/>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="294318077" version="4" timestamp="2020-12-01T16:49:19Z" changeset="95106234" uid="673435" user="nilogian">
-    <bounds minlat="44.1533963" minlon="9.9691156" maxlat="44.1551849" maxlon="9.9726202"/>
-    <nd ref="2979054566" lat="44.1533963" lon="9.9691156"/>
-    <nd ref="2979054569" lat="44.1534733" lon="9.9693731"/>
-    <nd ref="2979054570" lat="44.1535041" lon="9.9695876"/>
-    <nd ref="2979054567" lat="44.1535195" lon="9.9698022"/>
-    <nd ref="2979054548" lat="44.1537043" lon="9.9699953"/>
-    <nd ref="2979054546" lat="44.1539352" lon="9.9701670"/>
-    <nd ref="2979054554" lat="44.1541815" lon="9.9701670"/>
-    <nd ref="2979054555" lat="44.1544124" lon="9.9701026"/>
-    <nd ref="2979054547" lat="44.1546742" lon="9.9701241"/>
-    <nd ref="2979054552" lat="44.1546742" lon="9.9703816"/>
-    <nd ref="2979054553" lat="44.1546742" lon="9.9707249"/>
-    <nd ref="2979054558" lat="44.1547357" lon="9.9709609"/>
-    <nd ref="2979054550" lat="44.1549821" lon="9.9713257"/>
-    <nd ref="2979054549" lat="44.1551052" lon="9.9715832"/>
-    <nd ref="2979054551" lat="44.1550590" lon="9.9717549"/>
-    <nd ref="2979054556" lat="44.1548681" lon="9.9719802"/>
-    <nd ref="2979054557" lat="44.1549359" lon="9.9722055"/>
-    <nd ref="1088777344" lat="44.1551849" lon="9.9726202"/>
-    <tag k="highway" v="path"/>
-    <tag k="surface" v="unpaved"/>
-    <tag k="width" v="1"/>
+  <way id="193134765" version="7" timestamp="2017-12-08T10:34:03Z" changeset="54454958" uid="2175620" user="AlfredoSP">
+    <bounds minlat="44.3657175" minlon="8.3259141" maxlat="44.3657573" maxlon="8.3259595"/>
+    <nd ref="428195272" lat="44.3657573" lon="8.3259141"/>
+    <nd ref="609251413" lat="44.3657175" lon="8.3259595"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="mtb" v="yes"/>
+    <tag k="name" v="Corso Italia"/>
+    <tag k="ref" v="SP36"/>
   </way>
 </old>
 <new>
-  <way id="294318077" version="4" timestamp="2020-12-01T16:49:19Z" changeset="95106234" uid="673435" user="nilogian">
-    <bounds minlat="44.1533963" minlon="9.9691156" maxlat="44.1551849" maxlon="9.9725580"/>
-    <nd ref="2979054566" lat="44.1533963" lon="9.9691156"/>
-    <nd ref="2979054569" lat="44.1534733" lon="9.9693731"/>
-    <nd ref="2979054570" lat="44.1535041" lon="9.9695876"/>
-    <nd ref="2979054567" lat="44.1535195" lon="9.9698022"/>
-    <nd ref="2979054548" lat="44.1537043" lon="9.9699953"/>
-    <nd ref="2979054546" lat="44.1539352" lon="9.9701670"/>
-    <nd ref="2979054554" lat="44.1541815" lon="9.9701670"/>
-    <nd ref="2979054555" lat="44.1544124" lon="9.9701026"/>
-    <nd ref="2979054547" lat="44.1546742" lon="9.9701241"/>
-    <nd ref="2979054552" lat="44.1546742" lon="9.9703816"/>
-    <nd ref="2979054553" lat="44.1546742" lon="9.9707249"/>
-    <nd ref="2979054558" lat="44.1547357" lon="9.9709609"/>
-    <nd ref="2979054550" lat="44.1549821" lon="9.9713257"/>
-    <nd ref="2979054549" lat="44.1551052" lon="9.9715832"/>
-    <nd ref="2979054551" lat="44.1550590" lon="9.9717549"/>
-    <nd ref="2979054556" lat="44.1548681" lon="9.9719802"/>
-    <nd ref="2979054557" lat="44.1549359" lon="9.9722055"/>
-    <nd ref="1088777344" lat="44.1551849" lon="9.9725580"/>
-    <tag k="highway" v="path"/>
-    <tag k="surface" v="unpaved"/>
-    <tag k="width" v="1"/>
+  <way id="193134765" version="8" timestamp="2023-05-19T10:28:12Z" changeset="136293010" uid="621940" user="baxeico">
+    <bounds minlat="44.3657175" minlon="8.3259141" maxlat="44.3657573" maxlon="8.3259595"/>
+    <nd ref="428195272" lat="44.3657573" lon="8.3259141"/>
+    <nd ref="609251413" lat="44.3657175" lon="8.3259595"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="mtb" v="yes"/>
+    <tag k="name" v="Corso Italia"/>
+    <tag k="ref" v="SP36"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="872226460" version="1" timestamp="2020-11-16T10:06:39Z" changeset="94194161" uid="673435" user="nilogian">
-    <bounds minlat="44.1534554" minlon="9.9639124" maxlat="44.1544811" maxlon="9.9672642"/>
-    <nd ref="1229330262" lat="44.1536945" lon="9.9639124"/>
-    <nd ref="1917180487" lat="44.1536507" lon="9.9640045"/>
-    <nd ref="1741889077" lat="44.1535870" lon="9.9641107"/>
-    <nd ref="1917180465" lat="44.1534908" lon="9.9642812"/>
-    <nd ref="1917180447" lat="44.1534592" lon="9.9644361"/>
-    <nd ref="1917180441" lat="44.1534554" lon="9.9645154"/>
-    <nd ref="1741889076" lat="44.1535295" lon="9.9649948"/>
-    <nd ref="1917180467" lat="44.1536184" lon="9.9654282"/>
-    <nd ref="1917180479" lat="44.1536443" lon="9.9655443"/>
-    <nd ref="1741889079" lat="44.1537242" lon="9.9657012"/>
-    <nd ref="1741889082" lat="44.1538798" lon="9.9659220"/>
-    <nd ref="1917180498" lat="44.1539873" lon="9.9661936"/>
-    <nd ref="1917180504" lat="44.1540379" lon="9.9663732"/>
-    <nd ref="1741889083" lat="44.1540932" lon="9.9665122"/>
-    <nd ref="1741889086" lat="44.1543381" lon="9.9668324"/>
-    <nd ref="1917180528" lat="44.1544230" lon="9.9670100"/>
-    <nd ref="1741889090" lat="44.1544775" lon="9.9671614"/>
-    <nd ref="1917180547" lat="44.1544811" lon="9.9672142"/>
-    <nd ref="1917180543" lat="44.1544712" lon="9.9672642"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="surface" v="compacted"/>
-    <tag k="width" v="3"/>
+  <way id="193134766" version="6" timestamp="2017-07-17T13:16:36Z" changeset="50350546" uid="940812" user="castagnola">
+    <bounds minlat="44.3657573" minlon="8.3248166" maxlat="44.3681716" maxlon="8.3259141"/>
+    <nd ref="428194317" lat="44.3681716" lon="8.3248166"/>
+    <nd ref="428194771" lat="44.3676951" lon="8.3249054"/>
+    <nd ref="428195646" lat="44.3671136" lon="8.3250209"/>
+    <nd ref="428195243" lat="44.3668008" lon="8.3251691"/>
+    <nd ref="428194401" lat="44.3664617" lon="8.3253815"/>
+    <nd ref="2961591626" lat="44.3661614" lon="8.3255646"/>
+    <nd ref="428195290" lat="44.3658942" lon="8.3257471"/>
+    <nd ref="428195272" lat="44.3657573" lon="8.3259141"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Corso Italia"/>
+    <tag k="ref" v="SP36"/>
   </way>
 </old>
 <new>
-  <way id="872226460" version="1" timestamp="2020-11-16T10:06:39Z" changeset="94194161" uid="673435" user="nilogian">
-    <bounds minlat="44.1534554" minlon="9.9638971" maxlat="44.1544811" maxlon="9.9672642"/>
-    <nd ref="1229330262" lat="44.1537081" lon="9.9638971"/>
-    <nd ref="1917180487" lat="44.1536507" lon="9.9640045"/>
-    <nd ref="1741889077" lat="44.1535870" lon="9.9641107"/>
-    <nd ref="1917180465" lat="44.1534908" lon="9.9642812"/>
-    <nd ref="1917180447" lat="44.1534592" lon="9.9644361"/>
-    <nd ref="1917180441" lat="44.1534554" lon="9.9645154"/>
-    <nd ref="1741889076" lat="44.1535295" lon="9.9649948"/>
-    <nd ref="1917180467" lat="44.1536184" lon="9.9654282"/>
-    <nd ref="1917180479" lat="44.1536443" lon="9.9655443"/>
-    <nd ref="1741889079" lat="44.1537242" lon="9.9657012"/>
-    <nd ref="1741889082" lat="44.1538798" lon="9.9659220"/>
-    <nd ref="1917180498" lat="44.1539873" lon="9.9661936"/>
-    <nd ref="1917180504" lat="44.1540379" lon="9.9663732"/>
-    <nd ref="1741889083" lat="44.1540932" lon="9.9665122"/>
-    <nd ref="1741889086" lat="44.1543381" lon="9.9668324"/>
-    <nd ref="1917180528" lat="44.1544230" lon="9.9670100"/>
-    <nd ref="1741889090" lat="44.1544775" lon="9.9671614"/>
-    <nd ref="1917180547" lat="44.1544811" lon="9.9672142"/>
-    <nd ref="1917180543" lat="44.1544712" lon="9.9672642"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="surface" v="compacted"/>
-    <tag k="width" v="3"/>
+  <way id="193134766" version="7" timestamp="2023-05-19T10:28:21Z" changeset="136293010" uid="621940" user="baxeico">
+    <bounds minlat="44.3657573" minlon="8.3248166" maxlat="44.3681716" maxlon="8.3259141"/>
+    <nd ref="428194317" lat="44.3681716" lon="8.3248166"/>
+    <nd ref="428194771" lat="44.3676951" lon="8.3249054"/>
+    <nd ref="428195646" lat="44.3671136" lon="8.3250209"/>
+    <nd ref="428195243" lat="44.3668008" lon="8.3251691"/>
+    <nd ref="428194401" lat="44.3664617" lon="8.3253815"/>
+    <nd ref="2961591626" lat="44.3661614" lon="8.3255646"/>
+    <nd ref="428195290" lat="44.3658942" lon="8.3257471"/>
+    <nd ref="428195272" lat="44.3657573" lon="8.3259141"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Corso Italia"/>
+    <tag k="ref" v="SP36"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <relation id="12483545" version="2" timestamp="2022-10-31T18:10:54Z" changeset="128311245" uid="673435" user="nilogian">
-    <bounds minlat="44.1523852" minlon="9.9639124" maxlat="44.1551849" maxlon="9.9726202"/>
-    <member type="way" ref="872226460" role="">
-      <nd lat="44.1536945" lon="9.9639124"/>
-      <nd lat="44.1536507" lon="9.9640045"/>
-      <nd lat="44.1535870" lon="9.9641107"/>
-      <nd lat="44.1534908" lon="9.9642812"/>
-      <nd lat="44.1534592" lon="9.9644361"/>
-      <nd lat="44.1534554" lon="9.9645154"/>
-      <nd lat="44.1535295" lon="9.9649948"/>
-      <nd lat="44.1536184" lon="9.9654282"/>
-      <nd lat="44.1536443" lon="9.9655443"/>
-      <nd lat="44.1537242" lon="9.9657012"/>
-      <nd lat="44.1538798" lon="9.9659220"/>
-      <nd lat="44.1539873" lon="9.9661936"/>
-      <nd lat="44.1540379" lon="9.9663732"/>
-      <nd lat="44.1540932" lon="9.9665122"/>
-      <nd lat="44.1543381" lon="9.9668324"/>
-      <nd lat="44.1544230" lon="9.9670100"/>
-      <nd lat="44.1544775" lon="9.9671614"/>
-      <nd lat="44.1544811" lon="9.9672142"/>
-      <nd lat="44.1544712" lon="9.9672642"/>
-    </member>
-    <member type="way" ref="872226122" role="">
-      <nd lat="44.1544477" lon="9.9673183"/>
-      <nd lat="44.1544422" lon="9.9673311"/>
-      <nd lat="44.1543997" lon="9.9673457"/>
-      <nd lat="44.1543658" lon="9.9673312"/>
-      <nd lat="44.1542720" lon="9.9672331"/>
-      <nd lat="44.1541449" lon="9.9671315"/>
-      <nd lat="44.1538481" lon="9.9671166"/>
-      <nd lat="44.1535977" lon="9.9671016"/>
-      <nd lat="44.1532544" lon="9.9671465"/>
-      <nd lat="44.1529432" lon="9.9674157"/>
-      <nd lat="44.1525891" lon="9.9681933"/>
-      <nd lat="44.1523852" lon="9.9685373"/>
-      <nd lat="44.1523960" lon="9.9688962"/>
-    </member>
-    <member type="way" ref="864667340" role="">
-      <nd lat="44.1523960" lon="9.9688962"/>
-      <nd lat="44.1525304" lon="9.9690346"/>
-      <nd lat="44.1526184" lon="9.9689841"/>
-      <nd lat="44.1526650" lon="9.9688181"/>
-      <nd lat="44.1530068" lon="9.9686377"/>
-      <nd lat="44.1531259" lon="9.9685799"/>
-      <nd lat="44.1533227" lon="9.9687387"/>
-      <nd lat="44.1533963" lon="9.9691156"/>
-    </member>
-    <member type="way" ref="294318077" role="">
-      <nd lat="44.1533963" lon="9.9691156"/>
-      <nd lat="44.1534733" lon="9.9693731"/>
-      <nd lat="44.1535041" lon="9.9695876"/>
-      <nd lat="44.1535195" lon="9.9698022"/>
-      <nd lat="44.1537043" lon="9.9699953"/>
-      <nd lat="44.1539352" lon="9.9701670"/>
-      <nd lat="44.1541815" lon="9.9701670"/>
-      <nd lat="44.1544124" lon="9.9701026"/>
-      <nd lat="44.1546742" lon="9.9701241"/>
-      <nd lat="44.1546742" lon="9.9703816"/>
-      <nd lat="44.1546742" lon="9.9707249"/>
-      <nd lat="44.1547357" lon="9.9709609"/>
-      <nd lat="44.1549821" lon="9.9713257"/>
-      <nd lat="44.1551052" lon="9.9715832"/>
-      <nd lat="44.1550590" lon="9.9717549"/>
-      <nd lat="44.1548681" lon="9.9719802"/>
-      <nd lat="44.1549359" lon="9.9722055"/>
-      <nd lat="44.1551849" lon="9.9726202"/>
-    </member>
-    <tag k="from" v="322"/>
-    <tag k="name" v="da 322 Falcinello al 327"/>
-    <tag k="network" v="lwn"/>
-    <tag k="network:type" v="Local"/>
-    <tag k="operator" v="Club Alpino Italiano Sez. di Sarzana"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:326:black"/>
-    <tag k="ref" v="326"/>
-    <tag k="route" v="hiking"/>
-    <tag k="to" v="327"/>
-    <tag k="type" v="route"/>
-  </relation>
+  <way id="225630189" version="4" timestamp="2017-08-30T07:16:34Z" changeset="51565013" uid="4496917" user="orbiter_25">
+    <bounds minlat="44.3650837" minlon="8.3255975" maxlat="44.3657175" maxlon="8.3259595"/>
+    <nd ref="609251397" lat="44.3650837" lon="8.3255975"/>
+    <nd ref="609251411" lat="44.3656227" lon="8.3259133"/>
+    <nd ref="609251413" lat="44.3657175" lon="8.3259595"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="name" v="Viale della Libertà"/>
+  </way>
 </old>
 <new>
-  <relation id="12483545" version="2" timestamp="2022-10-31T18:10:54Z" changeset="128311245" uid="673435" user="nilogian">
-    <bounds minlat="44.1523852" minlon="9.9638971" maxlat="44.1551849" maxlon="9.9725580"/>
-    <member type="way" ref="872226460" role="">
-      <nd lat="44.1537081" lon="9.9638971"/>
-      <nd lat="44.1536507" lon="9.9640045"/>
-      <nd lat="44.1535870" lon="9.9641107"/>
-      <nd lat="44.1534908" lon="9.9642812"/>
-      <nd lat="44.1534592" lon="9.9644361"/>
-      <nd lat="44.1534554" lon="9.9645154"/>
-      <nd lat="44.1535295" lon="9.9649948"/>
-      <nd lat="44.1536184" lon="9.9654282"/>
-      <nd lat="44.1536443" lon="9.9655443"/>
-      <nd lat="44.1537242" lon="9.9657012"/>
-      <nd lat="44.1538798" lon="9.9659220"/>
-      <nd lat="44.1539873" lon="9.9661936"/>
-      <nd lat="44.1540379" lon="9.9663732"/>
-      <nd lat="44.1540932" lon="9.9665122"/>
-      <nd lat="44.1543381" lon="9.9668324"/>
-      <nd lat="44.1544230" lon="9.9670100"/>
-      <nd lat="44.1544775" lon="9.9671614"/>
-      <nd lat="44.1544811" lon="9.9672142"/>
-      <nd lat="44.1544712" lon="9.9672642"/>
-    </member>
-    <member type="way" ref="872226122" role="">
-      <nd lat="44.1544477" lon="9.9673183"/>
-      <nd lat="44.1544422" lon="9.9673311"/>
-      <nd lat="44.1543997" lon="9.9673457"/>
-      <nd lat="44.1543658" lon="9.9673312"/>
-      <nd lat="44.1542720" lon="9.9672331"/>
-      <nd lat="44.1541449" lon="9.9671315"/>
-      <nd lat="44.1538481" lon="9.9671166"/>
-      <nd lat="44.1535977" lon="9.9671016"/>
-      <nd lat="44.1532544" lon="9.9671465"/>
-      <nd lat="44.1529432" lon="9.9674157"/>
-      <nd lat="44.1525891" lon="9.9681933"/>
-      <nd lat="44.1523852" lon="9.9685373"/>
-      <nd lat="44.1523960" lon="9.9688962"/>
-    </member>
-    <member type="way" ref="864667340" role="">
-      <nd lat="44.1523960" lon="9.9688962"/>
-      <nd lat="44.1525304" lon="9.9690346"/>
-      <nd lat="44.1526184" lon="9.9689841"/>
-      <nd lat="44.1526650" lon="9.9688181"/>
-      <nd lat="44.1530068" lon="9.9686377"/>
-      <nd lat="44.1531259" lon="9.9685799"/>
-      <nd lat="44.1533227" lon="9.9687387"/>
-      <nd lat="44.1533963" lon="9.9691156"/>
-    </member>
-    <member type="way" ref="294318077" role="">
-      <nd lat="44.1533963" lon="9.9691156"/>
-      <nd lat="44.1534733" lon="9.9693731"/>
-      <nd lat="44.1535041" lon="9.9695876"/>
-      <nd lat="44.1535195" lon="9.9698022"/>
-      <nd lat="44.1537043" lon="9.9699953"/>
-      <nd lat="44.1539352" lon="9.9701670"/>
-      <nd lat="44.1541815" lon="9.9701670"/>
-      <nd lat="44.1544124" lon="9.9701026"/>
-      <nd lat="44.1546742" lon="9.9701241"/>
-      <nd lat="44.1546742" lon="9.9703816"/>
-      <nd lat="44.1546742" lon="9.9707249"/>
-      <nd lat="44.1547357" lon="9.9709609"/>
-      <nd lat="44.1549821" lon="9.9713257"/>
-      <nd lat="44.1551052" lon="9.9715832"/>
-      <nd lat="44.1550590" lon="9.9717549"/>
-      <nd lat="44.1548681" lon="9.9719802"/>
-      <nd lat="44.1549359" lon="9.9722055"/>
-      <nd lat="44.1551849" lon="9.9725580"/>
-    </member>
-    <tag k="from" v="322"/>
-    <tag k="name" v="da 322 Falcinello al 327"/>
-    <tag k="network" v="lwn"/>
-    <tag k="network:type" v="Local"/>
-    <tag k="operator" v="Club Alpino Italiano Sez. di Sarzana"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:326:black"/>
-    <tag k="ref" v="326"/>
-    <tag k="route" v="hiking"/>
-    <tag k="to" v="327"/>
-    <tag k="type" v="route"/>
-  </relation>
+  <way id="225630189" version="5" timestamp="2023-05-19T10:27:55Z" changeset="136293010" uid="621940" user="baxeico">
+    <bounds minlat="44.3650837" minlon="8.3255975" maxlat="44.3657175" maxlon="8.3259595"/>
+    <nd ref="609251397" lat="44.3650837" lon="8.3255975"/>
+    <nd ref="609251411" lat="44.3656227" lon="8.3259133"/>
+    <nd ref="609251413" lat="44.3657175" lon="8.3259595"/>
+    <tag k="cycleway" v="yes"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Viale della Libertà"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
 </new>
 </action>
 
