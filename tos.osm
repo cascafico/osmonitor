@@ -1,47 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.60.6 e2dc3e5b">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-06-14T00:54:12Z" areas="2023-06-11T03:07:17Z"/>
+<meta osm_base="2023-06-15T00:53:00Z" areas="2023-06-13T15:42:54Z"/>
 
 <action type="modify">
 <old>
-  <way id="1120550086" version="1" timestamp="2022-12-09T12:01:51Z" changeset="129898180" uid="12772343" user="Giacomo Gambini">
-    <bounds minlat="42.8906904" minlon="11.6265810" maxlat="42.8908832" maxlon="11.6268382"/>
-    <nd ref="7685944357" lat="42.8908832" lon="11.6266272"/>
-    <nd ref="7685966374" lat="42.8908616" lon="11.6266036"/>
-    <nd ref="7685966373" lat="42.8908365" lon="11.6265879"/>
-    <nd ref="7685966372" lat="42.8908093" lon="11.6265810"/>
-    <nd ref="7685966371" lat="42.8907818" lon="11.6265833"/>
-    <nd ref="7685944356" lat="42.8907554" lon="11.6265947"/>
-    <nd ref="7685944355" lat="42.8907261" lon="11.6266212"/>
-    <nd ref="7685944354" lat="42.8907042" lon="11.6266589"/>
-    <nd ref="7685944353" lat="42.8906919" lon="11.6267039"/>
-    <nd ref="7685944352" lat="42.8906904" lon="11.6267518"/>
-    <nd ref="7685944351" lat="42.8906997" lon="11.6267981"/>
-    <nd ref="7685944350" lat="42.8907191" lon="11.6268382"/>
-    <tag k="junction" v="roundabout"/>
-    <tag k="highway" v="tertiary"/>
+  <node id="6693644326" lat="43.7929855" lon="11.8322262" version="2" timestamp="2021-09-02T14:43:07Z" changeset="110624054" uid="7078274" user="gabriele_sani">
+    <tag k="emergency:operator" v="Corpo Nazionale Alpino e Speleologico"/>
+    <tag k="wikimedia_commons" v="File:CAI 70 72 Cotozzo 2 Segnavia.jpg"/>
+    <tag k="destination" v="Badia Prataglia 02:40|Sacro Eremo 01:10"/>
+    <tag k="ele" v="1126"/>
+    <tag k="emergency" v="access_point"/>
+    <tag k="emergency_telephone_code" v="118"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="ref:emergency" v="T-047"/>
+    <tag k="support" v="pole"/>
+    <tag k="tourism" v="information"/>
+  </node>
+</old>
+<new>
+  <node id="6693644326" lat="43.7929855" lon="11.8322262" version="3" timestamp="2023-06-14T08:43:27Z" changeset="137317236" uid="18052892" user="DonRoPL">
+    <tag k="destination" v="Badia Prataglia 02:40|Sacro Eremo 01:10"/>
+    <tag k="ele" v="1126"/>
+    <tag k="emergency" v="access_point"/>
+    <tag k="emergency_telephone_code" v="118"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="operator:emergency" v="Corpo Nazionale Alpino e Speleologico"/>
+    <tag k="ref:emergency" v="T-047"/>
+    <tag k="support" v="pole"/>
+    <tag k="tourism" v="information"/>
+    <tag k="wikimedia_commons" v="File:CAI 70 72 Cotozzo 2 Segnavia.jpg"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="6693665934" lat="43.8161417" lon="11.8229331" version="3" timestamp="2021-08-04T09:14:17Z" changeset="109134618" uid="7078274" user="gabriele_sani">
+    <tag k="emergency:operator" v="Corpo Nazionale Alpino e Speleologico"/>
+    <tag k="wikimedia_commons" v="File:CAI 70 Gioghetto Segnavia.jpg"/>
+    <tag k="destination" v="Sacro Eremo h 0:20,km 0.7"/>
+    <tag k="ele" v="1222"/>
+    <tag k="emergency" v="access_point"/>
+    <tag k="emergency_telephone_code" v="118"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="ref:emergency" v="T-038"/>
+    <tag k="support" v="pole"/>
+    <tag k="tourism" v="information"/>
+  </node>
+</old>
+<new>
+  <node id="6693665934" lat="43.8161417" lon="11.8229331" version="4" timestamp="2023-06-14T08:42:56Z" changeset="137317212" uid="18052892" user="DonRoPL">
+    <tag k="destination" v="Sacro Eremo h 0:20,km 0.7"/>
+    <tag k="ele" v="1222"/>
+    <tag k="emergency" v="access_point"/>
+    <tag k="emergency_telephone_code" v="118"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="operator:emergency" v="Corpo Nazionale Alpino e Speleologico"/>
+    <tag k="ref:emergency" v="T-038"/>
+    <tag k="support" v="pole"/>
+    <tag k="tourism" v="information"/>
+    <tag k="wikimedia_commons" v="File:CAI 70 Gioghetto Segnavia.jpg"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="203386703" version="3" timestamp="2023-06-07T19:19:23Z" changeset="137068644" uid="222316" user="Dijkstra">
+    <bounds minlat="44.2009574" minlon="10.4879901" maxlat="44.2011560" maxlon="10.4880066"/>
+    <nd ref="587025108" lat="44.2009574" lon="10.4880066"/>
+    <nd ref="283607772" lat="44.2010522" lon="10.4879995"/>
+    <nd ref="10045031222" lat="44.2011194" lon="10.4879911"/>
+    <nd ref="1608715841" lat="44.2011560" lon="10.4879901"/>
+    <tag k="name" v="Strada Provinciale di San Pellegrino in Alpe"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="loc_ref" v="SP71"/>
+    <tag k="ref" v="SP71"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </old>
 <new>
-  <way id="1120550086" version="2" timestamp="2023-06-13T12:02:58Z" changeset="137283223" uid="17965418" user="DabMK">
-    <bounds minlat="42.8906904" minlon="11.6265810" maxlat="42.8908832" maxlon="11.6268382"/>
-    <nd ref="7685944357" lat="42.8908832" lon="11.6266272"/>
-    <nd ref="7685966374" lat="42.8908616" lon="11.6266036"/>
-    <nd ref="7685966373" lat="42.8908365" lon="11.6265879"/>
-    <nd ref="7685966372" lat="42.8908093" lon="11.6265810"/>
-    <nd ref="7685966371" lat="42.8907818" lon="11.6265833"/>
-    <nd ref="7685944356" lat="42.8907554" lon="11.6265947"/>
-    <nd ref="7685944355" lat="42.8907261" lon="11.6266212"/>
-    <nd ref="7685944354" lat="42.8907042" lon="11.6266589"/>
-    <nd ref="7685944353" lat="42.8906919" lon="11.6267039"/>
-    <nd ref="7685944352" lat="42.8906904" lon="11.6267518"/>
-    <nd ref="7685944351" lat="42.8906997" lon="11.6267981"/>
-    <nd ref="7685944350" lat="42.8907191" lon="11.6268382"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="junction" v="roundabout"/>
-    <tag k="lanes" v="1"/>
-    <tag k="oneway" v="yes"/>
+  <way id="203386703" version="4" timestamp="2023-06-14T20:33:36Z" changeset="137344532" uid="90188" user="hypersciocco">
+    <bounds minlat="44.2009574" minlon="10.4879901" maxlat="44.2011560" maxlon="10.4880066"/>
+    <nd ref="587025108" lat="44.2009574" lon="10.4880066"/>
+    <nd ref="283607772" lat="44.2010522" lon="10.4879995"/>
+    <nd ref="10045031222" lat="44.2011194" lon="10.4879911"/>
+    <nd ref="1608715841" lat="44.2011560" lon="10.4879901"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="loc_ref" v="SP71"/>
+    <tag k="ref" v="SP71"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
