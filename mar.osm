@@ -1,34 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.60.6 e2dc3e5b">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-07-07T01:04:22Z" areas="2023-07-06T19:43:58Z"/>
+<meta osm_base="2023-07-08T00:57:58Z" areas="2023-07-07T21:30:49Z"/>
 
 <action type="modify">
 <old>
-  <way id="358976891" version="2" timestamp="2016-07-26T21:21:29Z" changeset="41048560" uid="160229" user="sorcrosc">
-    <bounds minlat="43.9108765" minlon="12.8835687" maxlat="43.9123460" maxlon="12.8871335"/>
-    <nd ref="4322119911" lat="43.9108765" lon="12.8871335"/>
-    <nd ref="781704602" lat="43.9109052" lon="12.8870154"/>
-    <nd ref="781704579" lat="43.9116125" lon="12.8855404"/>
-    <nd ref="781704555" lat="43.9122705" lon="12.8839428"/>
-    <nd ref="781704570" lat="43.9123194" lon="12.8837492"/>
-    <nd ref="781704539" lat="43.9123460" lon="12.8835687"/>
-    <tag k="name" v="Strada di Caprile"/>
-    <tag k="highway" v="unclassified"/>
+  <way id="515225329" version="1" timestamp="2017-08-13T12:51:38Z" changeset="51081104" uid="2352517" user="carths81">
+    <bounds minlat="43.6513620" minlon="12.6977599" maxlat="43.6516650" maxlon="12.6988469"/>
+    <nd ref="1693165424" lat="43.6513620" lon="12.6988469"/>
+    <nd ref="5032185019" lat="43.6514088" lon="12.6986866"/>
+    <nd ref="5032185018" lat="43.6515349" lon="12.6983218"/>
+    <nd ref="5032185017" lat="43.6516009" lon="12.6980120"/>
+    <nd ref="5032185016" lat="43.6516650" lon="12.6978162"/>
+    <nd ref="5032185020" lat="43.6516611" lon="12.6977599"/>
+    <tag k="highway" v="track"/>
   </way>
 </old>
 <new>
-  <way id="358976891" version="3" timestamp="2023-07-06T19:33:33Z" changeset="138202213" uid="133076" user="Galessandroni">
-    <bounds minlat="43.9108765" minlon="12.8835687" maxlat="43.9123460" maxlon="12.8871335"/>
-    <nd ref="4322119911" lat="43.9108765" lon="12.8871335"/>
-    <nd ref="781704602" lat="43.9109052" lon="12.8870154"/>
-    <nd ref="781704579" lat="43.9116125" lon="12.8855404"/>
-    <nd ref="781704555" lat="43.9122705" lon="12.8839428"/>
-    <nd ref="781704570" lat="43.9123194" lon="12.8837492"/>
-    <nd ref="781704539" lat="43.9123460" lon="12.8835687"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="name" v="Strada di Caprile"/>
-    <tag k="surface" v="asphalt"/>
+  <way id="515225329" version="3" timestamp="2023-07-07T12:04:18Z" changeset="138226834" uid="273212" user="Jakub Trojan">
+    <bounds minlat="43.6513620" minlon="12.6977599" maxlat="43.6516650" maxlon="12.6988469"/>
+    <nd ref="1693165424" lat="43.6513620" lon="12.6988469"/>
+    <nd ref="5032185019" lat="43.6514088" lon="12.6986866"/>
+    <nd ref="5032185018" lat="43.6515349" lon="12.6983218"/>
+    <nd ref="5032185017" lat="43.6516009" lon="12.6980120"/>
+    <nd ref="5032185016" lat="43.6516650" lon="12.6978162"/>
+    <nd ref="5032185020" lat="43.6516611" lon="12.6977599"/>
+    <tag k="highway" v="track"/>
+    <tag k="surface" v="compacted"/>
+    <tag k="tracktype" v="grade4"/>
   </way>
 </new>
 </action>
