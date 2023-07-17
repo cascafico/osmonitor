@@ -1,48 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.60.6 e2dc3e5b">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-07-17T01:01:45Z" areas="2023-07-16T21:45:13Z"/>
+<meta osm_base="2023-07-17T01:01:45Z" areas="2023-07-16T21:14:30Z"/>
 
-<action type="delete">
-<old>
-  <node id="1648529301" lat="45.9530936" lon="7.9178374" version="3" timestamp="2017-11-07T22:28:07Z" changeset="53595291" uid="1612733" user="botticchio"/>
-</old>
-<new>
-  <node id="1648529301" visible="false" version="4" timestamp="2023-07-16T17:36:25Z" changeset="138588656" uid="9319007" user="patatate_douce"/>
-</new>
-</action>
-<action type="delete">
-<old>
-  <node id="1648529304" lat="45.9531365" lon="7.9180132" version="3" timestamp="2017-11-07T22:28:07Z" changeset="53595291" uid="1612733" user="botticchio"/>
-</old>
-<new>
-  <node id="1648529304" visible="false" version="4" timestamp="2023-07-16T17:36:25Z" changeset="138588656" uid="9319007" user="patatate_douce"/>
-</new>
-</action>
-<action type="delete">
-<old>
-  <node id="1648529306" lat="45.9532158" lon="7.9177684" version="4" timestamp="2022-09-04T15:15:17Z" changeset="125776777" uid="14867340" user="mpmac82"/>
-</old>
-<new>
-  <node id="1648529306" visible="false" version="5" timestamp="2023-07-16T17:36:25Z" changeset="138588656" uid="9319007" user="patatate_douce"/>
-</new>
-</action>
-<action type="delete">
-<old>
-  <node id="2445422652" lat="45.9531550" lon="7.9180039" version="3" timestamp="2017-11-07T22:28:07Z" changeset="53595291" uid="1612733" user="botticchio"/>
-</old>
-<new>
-  <node id="2445422652" visible="false" version="4" timestamp="2023-07-16T17:36:25Z" changeset="138588656" uid="9319007" user="patatate_douce"/>
-</new>
-</action>
-<action type="delete">
-<old>
-  <node id="2445422664" lat="45.9532321" lon="7.9179659" version="4" timestamp="2022-09-04T15:15:17Z" changeset="125776777" uid="14867340" user="mpmac82"/>
-</old>
-<new>
-  <node id="2445422664" visible="false" version="5" timestamp="2023-07-16T17:36:25Z" changeset="138588656" uid="9319007" user="patatate_douce"/>
-</new>
-</action>
 <action type="modify">
 <old>
   <node id="3718688452" lat="44.1370576" lon="7.7336172" version="2" timestamp="2019-08-06T05:33:09Z" changeset="73048273" uid="584192" user="solitone"/>
@@ -52,28 +12,6 @@
     <tag k="ele" v="1750"/>
     <tag k="name" v="Pian della Ciappa"/>
   </node>
-</new>
-</action>
-<action type="delete">
-<old>
-  <node id="9999847853" lat="45.9532610" lon="7.9179511" version="1" timestamp="2022-09-04T15:15:17Z" changeset="125776777" uid="14867340" user="mpmac82"/>
-</old>
-<new>
-  <node id="9999847853" visible="false" version="2" timestamp="2023-07-16T17:36:25Z" changeset="138588656" uid="9319007" user="patatate_douce"/>
-</new>
-</action>
-<action type="delete">
-<old>
-  <way id="152020673" version="9" timestamp="2022-09-04T15:15:17Z" changeset="125776777" uid="14867340" user="mpmac82">
-    <bounds minlat="45.9530936" minlon="7.9178374" maxlat="45.9532321" maxlon="7.9180132"/>
-    <nd ref="2445422664" lat="45.9532321" lon="7.9179659"/>
-    <nd ref="2445422652" lat="45.9531550" lon="7.9180039"/>
-    <nd ref="1648529304" lat="45.9531365" lon="7.9180132"/>
-    <nd ref="1648529301" lat="45.9530936" lon="7.9178374"/>
-  </way>
-</old>
-<new>
-  <way id="152020673" visible="false" version="10" timestamp="2023-07-16T17:36:25Z" changeset="138588656" uid="9319007" user="patatate_douce"/>
 </new>
 </action>
 <action type="modify">
@@ -226,87 +164,6 @@
     <tag k="surface" v="unpaved"/>
     <tag k="tracktype" v="grade4"/>
   </way>
-</new>
-</action>
-<action type="delete">
-<old>
-  <way id="1091874438" version="1" timestamp="2022-09-04T15:15:17Z" changeset="125776777" uid="14867340" user="mpmac82">
-    <bounds minlat="45.9530936" minlon="7.9177684" maxlat="45.9532610" maxlon="7.9179659"/>
-    <nd ref="1648529301" lat="45.9530936" lon="7.9178374"/>
-    <nd ref="1648529306" lat="45.9532158" lon="7.9177684"/>
-    <nd ref="9999847853" lat="45.9532610" lon="7.9179511"/>
-    <nd ref="2445422664" lat="45.9532321" lon="7.9179659"/>
-  </way>
-</old>
-<new>
-  <way id="1091874438" visible="false" version="2" timestamp="2023-07-16T17:36:25Z" changeset="138588656" uid="9319007" user="patatate_douce"/>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="1126741947" version="3" timestamp="2023-07-13T05:59:09Z" changeset="138447574" uid="2976645" user="Jrachi">
-    <bounds minlat="44.4783366" minlon="6.9321203" maxlat="44.4785008" maxlon="6.9324663"/>
-    <nd ref="404721365" lat="44.4783366" lon="6.9324663"/>
-    <nd ref="10292928505" lat="44.4784200" lon="6.9322445"/>
-    <nd ref="2040925837" lat="44.4785008" lon="6.9321203"/>
-    <tag k="tracktype" v="grade3"/>
-    <tag k="surface" v="gravel"/>
-    <tag k="sac_scale" v="hiking"/>
-    <tag k="motor_vehicle" v="no"/>
-    <tag k="highway" v="track"/>
-  </way>
-</old>
-<new>
-  <way id="1126741947" version="5" timestamp="2023-07-16T17:12:41Z" changeset="138587709" uid="10564232" user="RedfishTheCat">
-    <bounds minlat="44.4783366" minlon="6.9321203" maxlat="44.4785008" maxlon="6.9324663"/>
-    <nd ref="404721365" lat="44.4783366" lon="6.9324663"/>
-    <nd ref="10292928505" lat="44.4784200" lon="6.9322445"/>
-    <nd ref="2040925837" lat="44.4785008" lon="6.9321203"/>
-    <tag k="highway" v="track"/>
-    <tag k="hiking" v="yes"/>
-    <tag k="motor_vehicle" v="no"/>
-    <tag k="sac_scale" v="hiking"/>
-    <tag k="source" v="survey;aerial imagery;gps"/>
-    <tag k="surface" v="gravel"/>
-    <tag k="tracktype" v="grade3"/>
-    <tag k="trail_visibility" v="excellent"/>
-    <tag k="trailblazed" v="yes"/>
-  </way>
-</new>
-</action>
-<action type="delete">
-<old>
-  <relation id="14542335" version="1" timestamp="2022-09-04T15:15:17Z" changeset="125776777" uid="14867340" user="mpmac82">
-    <bounds minlat="45.9530936" minlon="7.9177684" maxlat="45.9532610" maxlon="7.9180132"/>
-    <member type="way" ref="152020673" role="outer">
-      <nd lat="45.9532321" lon="7.9179659"/>
-      <nd lat="45.9531550" lon="7.9180039"/>
-      <nd lat="45.9531365" lon="7.9180132"/>
-      <nd lat="45.9530936" lon="7.9178374"/>
-    </member>
-    <member type="way" ref="1091874438" role="outer">
-      <nd lat="45.9530936" lon="7.9178374"/>
-      <nd lat="45.9532158" lon="7.9177684"/>
-      <nd lat="45.9532610" lon="7.9179511"/>
-      <nd lat="45.9532321" lon="7.9179659"/>
-    </member>
-    <tag k="addr:city" v="Macugnaga"/>
-    <tag k="capacity" v="36"/>
-    <tag k="contact:phone" v="+39 0324 65313"/>
-    <tag k="contact:website" v="http://www.rifugiozamboni.com/"/>
-    <tag k="ele" v="2065"/>
-    <tag k="name" v="Rifugio Rodolfo Zamboni e Mario Zappa"/>
-    <tag k="note" v="Gestore: Tania Bettineschi&#x0a;+39 340 7977167"/>
-    <tag k="operator" v="Club Alpino Italiano Milano"/>
-    <tag k="tourism" v="alpine_hut"/>
-    <tag k="type" v="multipolygon"/>
-    <tag k="wikidata" v="Q3935679"/>
-    <tag k="wikipedia" v="it:Rifugio Zamboni-Zappa"/>
-    <tag k="winter_room" v="yes"/>
-  </relation>
-</old>
-<new>
-  <relation id="14542335" visible="false" version="2" timestamp="2023-07-16T17:36:25Z" changeset="138588656" uid="9319007" user="patatate_douce"/>
 </new>
 </action>
 
