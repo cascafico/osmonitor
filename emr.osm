@@ -1,108 +1,521 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.61.4 df4c946a">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-08-01T00:52:36Z" areas="2023-07-31T22:22:45Z"/>
+<meta osm_base="2023-08-02T00:46:35Z" areas="2023-08-01T22:01:00Z"/>
 
 <action type="modify">
 <old>
-  <node id="4408163875" lat="43.8595780" lon="11.7446840" version="2" timestamp="2016-10-23T18:21:31Z" changeset="43106206" uid="3455425" user="Matteo Calosi">
-    <tag k="barrier" v="lift_gate"/>
+  <node id="7727794115" lat="44.4662726" lon="9.9907797" version="8" timestamp="2023-06-12T05:02:12Z" changeset="137227004" uid="7575034" user="CarloPro">
+    <tag k="wikimedia_commons" v="File:It-pr-ldpD017_v2.jpg"/>
+    <tag k="tourism" v="information"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="name" v="La Capanna"/>
+    <tag k="note" v="maintained by CarloPro (CAI Parma)"/>
+    <tag k="note:it" v="manutenuto da CarloPro (CAI Parma)"/>
+    <tag k="operator" v="Club Alpino Italiano - sezione di Parma"/>
+    <tag k="ref" v="D017"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="source:ref" v="9224001"/>
   </node>
 </old>
 <new>
-  <node id="4408163875" lat="43.8595780" lon="11.7446840" version="3" timestamp="2023-07-31T09:33:07Z" changeset="139244687" uid="5410318" user="49fyzh8s">
-    <tag k="barrier" v="lift_gate"/>
-    <tag k="foot" v="yes"/>
+  <node id="7727794115" lat="44.4662066" lon="9.9907768" version="11" timestamp="2023-08-01T10:00:01Z" changeset="139291716" uid="7575034" user="CarloPro">
+    <tag k="ele" v="1120"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="name" v="La Capanna"/>
+    <tag k="note" v="maintained by CarloPro (CAI Parma)"/>
+    <tag k="note:it" v="manutenuto da CarloPro (CAI Parma)"/>
+    <tag k="operator" v="Club Alpino Italiano - sezione di Parma"/>
+    <tag k="ref" v="D017"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="source:ref" v="9224001"/>
+    <tag k="survey:date" v="2023-07-11"/>
+    <tag k="tourism" v="information"/>
+    <tag k="wikimedia_commons" v="File:It-pr-ldpD017_v2.jpg"/>
   </node>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="36772616" version="16" timestamp="2021-10-25T21:19:50Z" changeset="112967754" uid="11449631" user="SimoGine">
-    <bounds minlat="44.4481052" minlon="11.3782697" maxlat="44.4525614" maxlon="11.3799680"/>
-    <nd ref="427547494" lat="44.4525614" lon="11.3788004"/>
-    <nd ref="3442726530" lat="44.4524061" lon="11.3789694"/>
-    <nd ref="427547495" lat="44.4523091" lon="11.3791017"/>
-    <nd ref="3442726595" lat="44.4522441" lon="11.3792493"/>
-    <nd ref="427547496" lat="44.4522039" lon="11.3794473"/>
-    <nd ref="427547497" lat="44.4521320" lon="11.3797188"/>
-    <nd ref="3442726497" lat="44.4520598" lon="11.3798171"/>
-    <nd ref="3442726582" lat="44.4519732" lon="11.3798807"/>
-    <nd ref="427547498" lat="44.4518483" lon="11.3799472"/>
-    <nd ref="427547500" lat="44.4517544" lon="11.3799680"/>
-    <nd ref="427547502" lat="44.4513791" lon="11.3798695"/>
-    <nd ref="3141644329" lat="44.4509011" lon="11.3796795"/>
-    <nd ref="3141644325" lat="44.4508189" lon="11.3796452"/>
-    <nd ref="427547503" lat="44.4506234" lon="11.3795636"/>
-    <nd ref="427547505" lat="44.4502992" lon="11.3795218"/>
-    <nd ref="3442726585" lat="44.4502334" lon="11.3794805"/>
-    <nd ref="427547508" lat="44.4501764" lon="11.3793824"/>
-    <nd ref="427547510" lat="44.4501530" lon="11.3792476"/>
-    <nd ref="427547512" lat="44.4500893" lon="11.3789349"/>
-    <nd ref="3442726603" lat="44.4500498" lon="11.3788169"/>
-    <nd ref="427547514" lat="44.4499708" lon="11.3787349"/>
-    <nd ref="2656015065" lat="44.4497932" lon="11.3786734"/>
-    <nd ref="427547516" lat="44.4493863" lon="11.3785259"/>
-    <nd ref="2656015058" lat="44.4492662" lon="11.3784690"/>
-    <nd ref="3442726574" lat="44.4490996" lon="11.3783523"/>
-    <nd ref="3442726506" lat="44.4489664" lon="11.3783313"/>
-    <nd ref="427547518" lat="44.4488537" lon="11.3783377"/>
-    <nd ref="427547520" lat="44.4487245" lon="11.3783391"/>
-    <nd ref="3442726545" lat="44.4484463" lon="11.3782925"/>
-    <nd ref="3442726584" lat="44.4483374" lon="11.3782697"/>
-    <nd ref="427547522" lat="44.4482957" lon="11.3782882"/>
-    <nd ref="3442726591" lat="44.4482112" lon="11.3783967"/>
-    <nd ref="876900130" lat="44.4481052" lon="11.3785231"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="lane_markings" v="no"/>
-    <tag k="name" v="Via Renato Benassi"/>
-  </way>
+  <node id="7924680378" lat="44.4741125" lon="10.0061900" version="5" timestamp="2023-06-13T04:25:08Z" changeset="137266882" uid="7575034" user="CarloPro">
+    <tag k="wikimedia_commons" v="File:It-pr-ldpD24.jpg"/>
+    <tag k="survey:date" v="2020-09-17"/>
+    <tag k="ele" v="1237"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="name" v="bivio 731A-741 nord"/>
+    <tag k="note" v="maintained by CarloPro (CAI Parma)"/>
+    <tag k="note:it" v="manutenuto da CarloPro (CAI Parma)"/>
+    <tag k="operator" v="Club Alpino Italiano - sezione di Parma"/>
+    <tag k="ref" v="D024"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="source:ref" v="9224001"/>
+    <tag k="tourism" v="information"/>
+  </node>
 </old>
 <new>
-  <way id="36772616" version="17" timestamp="2023-07-31T18:35:52Z" changeset="139267092" uid="2884921" user="Ryccardo">
-    <bounds minlat="44.4481052" minlon="11.3782697" maxlat="44.4525614" maxlon="11.3799680"/>
-    <nd ref="427547494" lat="44.4525614" lon="11.3788004"/>
-    <nd ref="3442726530" lat="44.4524061" lon="11.3789694"/>
-    <nd ref="427547495" lat="44.4523091" lon="11.3791017"/>
-    <nd ref="3442726595" lat="44.4522441" lon="11.3792493"/>
-    <nd ref="427547496" lat="44.4522039" lon="11.3794473"/>
-    <nd ref="427547497" lat="44.4521320" lon="11.3797188"/>
-    <nd ref="3442726497" lat="44.4520598" lon="11.3798171"/>
-    <nd ref="3442726582" lat="44.4519732" lon="11.3798807"/>
-    <nd ref="427547498" lat="44.4518483" lon="11.3799472"/>
-    <nd ref="427547500" lat="44.4517544" lon="11.3799680"/>
-    <nd ref="427547502" lat="44.4513791" lon="11.3798695"/>
-    <nd ref="3141644329" lat="44.4509011" lon="11.3796795"/>
-    <nd ref="3141644325" lat="44.4508189" lon="11.3796452"/>
-    <nd ref="427547503" lat="44.4506234" lon="11.3795636"/>
-    <nd ref="427547505" lat="44.4502992" lon="11.3795218"/>
-    <nd ref="3442726585" lat="44.4502334" lon="11.3794805"/>
-    <nd ref="427547508" lat="44.4501764" lon="11.3793824"/>
-    <nd ref="427547510" lat="44.4501530" lon="11.3792476"/>
-    <nd ref="427547512" lat="44.4500893" lon="11.3789349"/>
-    <nd ref="3442726603" lat="44.4500498" lon="11.3788169"/>
-    <nd ref="427547514" lat="44.4499708" lon="11.3787349"/>
-    <nd ref="2656015065" lat="44.4497932" lon="11.3786734"/>
-    <nd ref="427547516" lat="44.4493863" lon="11.3785259"/>
-    <nd ref="2656015058" lat="44.4492662" lon="11.3784690"/>
-    <nd ref="3442726574" lat="44.4490996" lon="11.3783523"/>
-    <nd ref="3442726506" lat="44.4489664" lon="11.3783313"/>
-    <nd ref="427547518" lat="44.4488537" lon="11.3783377"/>
-    <nd ref="427547520" lat="44.4487245" lon="11.3783391"/>
-    <nd ref="3442726545" lat="44.4484463" lon="11.3782925"/>
-    <nd ref="3442726584" lat="44.4483374" lon="11.3782697"/>
-    <nd ref="427547522" lat="44.4482957" lon="11.3782882"/>
-    <nd ref="3442726591" lat="44.4482112" lon="11.3783967"/>
-    <nd ref="876900130" lat="44.4481052" lon="11.3785231"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="lane_markings" v="no"/>
-    <tag k="name" v="Via Renato Benassi"/>
-    <tag k="smoothness" v="bad"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="7924680378" lat="44.4741125" lon="10.0061900" version="7" timestamp="2023-08-01T09:41:39Z" changeset="139290882" uid="7575034" user="CarloPro">
+    <tag k="ele" v="1237"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="name" v="bivio 731A-741 nord"/>
+    <tag k="note" v="maintained by CarloPro (CAI Parma)"/>
+    <tag k="note:it" v="manutenuto da CarloPro (CAI Parma)"/>
+    <tag k="operator" v="Club Alpino Italiano - sezione di Parma"/>
+    <tag k="ref" v="D024"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="source:ref" v="9224001"/>
+    <tag k="survey:date" v="2023-07-11"/>
+    <tag k="tourism" v="information"/>
+    <tag k="wikimedia_commons" v="File:It-pr-ldpD024.jpg"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <relation id="11639080" version="9" timestamp="2023-07-12T07:54:39Z" changeset="138410120" uid="19707728" user="beamor97">
+    <bounds minlat="44.4661364" minlon="9.9907797" maxlat="44.4741125" maxlon="10.0062014"/>
+    <member type="way" ref="128609832" role="">
+      <nd lat="44.4741061" lon="10.0062014"/>
+      <nd lat="44.4737648" lon="10.0057127"/>
+      <nd lat="44.4733284" lon="10.0053479"/>
+      <nd lat="44.4728767" lon="10.0051440"/>
+      <nd lat="44.4725398" lon="10.0048758"/>
+      <nd lat="44.4723255" lon="10.0046720"/>
+      <nd lat="44.4722030" lon="10.0046183"/>
+      <nd lat="44.4719120" lon="10.0040282"/>
+      <nd lat="44.4717513" lon="10.0034596"/>
+      <nd lat="44.4715675" lon="10.0030841"/>
+      <nd lat="44.4713631" lon="10.0030562"/>
+      <nd lat="44.4709780" lon="10.0031378"/>
+      <nd lat="44.4708938" lon="10.0030090"/>
+      <nd lat="44.4707942" lon="10.0025799"/>
+      <nd lat="44.4706871" lon="10.0025155"/>
+      <nd lat="44.4704114" lon="10.0023546"/>
+      <nd lat="44.4702485" lon="10.0023240"/>
+      <nd lat="44.4702554" lon="10.0021435"/>
+      <nd lat="44.4704080" lon="10.0019562"/>
+      <nd lat="44.4704317" lon="10.0018329"/>
+      <nd lat="44.4703768" lon="10.0017105"/>
+      <nd lat="44.4700973" lon="10.0017910"/>
+      <nd lat="44.4699681" lon="10.0018693"/>
+      <nd lat="44.4698332" lon="10.0019358"/>
+      <nd lat="44.4696724" lon="10.0018661"/>
+      <nd lat="44.4696553" lon="10.0018665"/>
+      <nd lat="44.4695432" lon="10.0018693"/>
+      <nd lat="44.4694312" lon="10.0019305"/>
+      <nd lat="44.4693202" lon="10.0018929"/>
+      <nd lat="44.4692484" lon="10.0018479"/>
+      <nd lat="44.4690216" lon="10.0018554"/>
+      <nd lat="44.4689154" lon="10.0018640"/>
+      <nd lat="44.4687154" lon="10.0020378"/>
+      <nd lat="44.4686242" lon="10.0020948"/>
+      <nd lat="44.4685519" lon="10.0021914"/>
+      <nd lat="44.4684869" lon="10.0022243"/>
+      <nd lat="44.4683096" lon="10.0022631"/>
+      <nd lat="44.4681794" lon="10.0023704"/>
+      <nd lat="44.4681215" lon="10.0024511"/>
+      <nd lat="44.4680787" lon="10.0024824"/>
+      <nd lat="44.4680286" lon="10.0024673"/>
+      <nd lat="44.4679522" lon="10.0024436"/>
+      <nd lat="44.4678887" lon="10.0024121"/>
+      <nd lat="44.4678042" lon="10.0023543"/>
+      <nd lat="44.4677362" lon="10.0023230"/>
+      <nd lat="44.4676367" lon="10.0022736"/>
+      <nd lat="44.4676865" lon="10.0020034"/>
+      <nd lat="44.4676521" lon="10.0019122"/>
+      <nd lat="44.4676521" lon="10.0017728"/>
+      <nd lat="44.4677784" lon="10.0015689"/>
+      <nd lat="44.4678303" lon="10.0014326"/>
+      <nd lat="44.4679277" lon="10.0010003"/>
+      <nd lat="44.4680454" lon="10.0005626"/>
+      <nd lat="44.4682110" lon="10.0001688"/>
+      <nd lat="44.4683555" lon="9.9997901"/>
+      <nd lat="44.4684675" lon="9.9996377"/>
+      <nd lat="44.4685249" lon="9.9995734"/>
+      <nd lat="44.4685249" lon="9.9993427"/>
+      <nd lat="44.4685364" lon="9.9990476"/>
+      <nd lat="44.4686043" lon="9.9988138"/>
+      <nd lat="44.4686235" lon="9.9986260"/>
+      <nd lat="44.4686015" lon="9.9984468"/>
+      <nd lat="44.4685699" lon="9.9982237"/>
+      <nd lat="44.4683909" lon="9.9979104"/>
+      <nd lat="44.4683488" lon="9.9976422"/>
+      <nd lat="44.4683182" lon="9.9974759"/>
+      <nd lat="44.4682646" lon="9.9972935"/>
+      <nd lat="44.4681344" lon="9.9972077"/>
+      <nd lat="44.4680272" lon="9.9971218"/>
+      <nd lat="44.4679928" lon="9.9969126"/>
+      <nd lat="44.4679890" lon="9.9968160"/>
+      <nd lat="44.4679239" lon="9.9966712"/>
+      <nd lat="44.4678741" lon="9.9965693"/>
+      <nd lat="44.4678129" lon="9.9964942"/>
+      <nd lat="44.4677286" lon="9.9964674"/>
+      <nd lat="44.4675946" lon="9.9964030"/>
+      <nd lat="44.4674712" lon="9.9963193"/>
+      <nd lat="44.4673688" lon="9.9962260"/>
+      <nd lat="44.4672539" lon="9.9962421"/>
+      <nd lat="44.4671161" lon="9.9962635"/>
+      <nd lat="44.4669783" lon="9.9962367"/>
+      <nd lat="44.4667907" lon="9.9961401"/>
+      <nd lat="44.4665993" lon="9.9959631"/>
+      <nd lat="44.4664959" lon="9.9958290"/>
+      <nd lat="44.4664500" lon="9.9957163"/>
+      <nd lat="44.4664171" lon="9.9956079"/>
+      <nd lat="44.4663968" lon="9.9955405"/>
+      <nd lat="44.4663857" lon="9.9954526"/>
+      <nd lat="44.4663533" lon="9.9953322"/>
+      <nd lat="44.4663543" lon="9.9951692"/>
+      <nd lat="44.4663887" lon="9.9950672"/>
+      <nd lat="44.4664806" lon="9.9949439"/>
+      <nd lat="44.4664882" lon="9.9948473"/>
+      <nd lat="44.4665539" lon="9.9947599"/>
+      <nd lat="44.4665850" lon="9.9946848"/>
+      <nd lat="44.4666216" lon="9.9946097"/>
+      <nd lat="44.4666529" lon="9.9945201"/>
+      <nd lat="44.4666950" lon="9.9943860"/>
+      <nd lat="44.4666979" lon="9.9941789"/>
+      <nd lat="44.4666873" lon="9.9940051"/>
+      <nd lat="44.4666711" lon="9.9938195"/>
+      <nd lat="44.4666720" lon="9.9937154"/>
+      <nd lat="44.4667447" lon="9.9936242"/>
+      <nd lat="44.4668357" lon="9.9935352"/>
+      <nd lat="44.4668826" lon="9.9934579"/>
+      <nd lat="44.4668519" lon="9.9933453"/>
+      <nd lat="44.4667792" lon="9.9931736"/>
+      <nd lat="44.4667706" lon="9.9930846"/>
+      <nd lat="44.4668165" lon="9.9929236"/>
+      <nd lat="44.4668510" lon="9.9928271"/>
+      <nd lat="44.4669199" lon="9.9927681"/>
+      <nd lat="44.4670012" lon="9.9927337"/>
+      <nd lat="44.4671266" lon="9.9927359"/>
+      <nd lat="44.4671774" lon="9.9926747"/>
+      <nd lat="44.4673342" lon="9.9926346"/>
+      <nd lat="44.4674510" lon="9.9924480"/>
+      <nd lat="44.4675052" lon="9.9923493"/>
+      <nd lat="44.4675596" lon="9.9922647"/>
+      <nd lat="44.4675943" lon="9.9921605"/>
+      <nd lat="44.4676154" lon="9.9920228"/>
+      <nd lat="44.4675665" lon="9.9918809"/>
+      <nd lat="44.4674510" lon="9.9917484"/>
+      <nd lat="44.4672333" lon="9.9915580"/>
+      <nd lat="44.4670778" lon="9.9912800"/>
+      <nd lat="44.4669965" lon="9.9911587"/>
+      <nd lat="44.4668443" lon="9.9910922"/>
+      <nd lat="44.4666299" lon="9.9910708"/>
+      <nd lat="44.4664040" lon="9.9911137"/>
+      <nd lat="44.4662815" lon="9.9911351"/>
+      <nd lat="44.4662011" lon="9.9910761"/>
+      <nd lat="44.4661364" lon="9.9910054"/>
+    </member>
+    <member type="node" ref="7924680378" role="" lat="44.4741125" lon="10.0061900"/>
+    <member type="node" ref="7734861559" role="" lat="44.4685891" lon="9.9986159"/>
+    <member type="node" ref="7727794115" role="" lat="44.4662726" lon="9.9907797"/>
+    <tag k="ascent" v="200"/>
+    <tag k="cai_scale" v="E"/>
+    <tag k="descent" v="185"/>
+    <tag k="distance" v="2.2"/>
+    <tag k="email" v="sentieri@caiparma.it"/>
+    <tag k="from" v="Sentiero 741"/>
+    <tag k="name" v="percorso 741 - Groppi Rossi - La Capanna"/>
+    <tag k="network" v="lwn"/>
+    <tag k="operator" v="Club Alpino Italiano - sezione di Parma"/>
+    <tag k="osmc:symbol" v="red:red:white_stripe:731A:black"/>
+    <tag k="ref" v="731A"/>
+    <tag k="route" v="hiking"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="source:ref" v="9224001"/>
+    <tag k="survey:date" v="2023-07-11"/>
+    <tag k="symbol" v="731A on white red flags"/>
+    <tag k="symbol:it" v="731A su bandierina bianca e rossa"/>
+    <tag k="to" v="Sentiero 731"/>
+    <tag k="type" v="route"/>
+    <tag k="website" v="www.caiparma.it"/>
+  </relation>
+</old>
+<new>
+  <relation id="11639080" version="9" timestamp="2023-07-12T07:54:39Z" changeset="138410120" uid="19707728" user="beamor97">
+    <bounds minlat="44.4661364" minlon="9.9907768" maxlat="44.4741125" maxlon="10.0062014"/>
+    <member type="way" ref="128609832" role="">
+      <nd lat="44.4741061" lon="10.0062014"/>
+      <nd lat="44.4737648" lon="10.0057127"/>
+      <nd lat="44.4733284" lon="10.0053479"/>
+      <nd lat="44.4728767" lon="10.0051440"/>
+      <nd lat="44.4725398" lon="10.0048758"/>
+      <nd lat="44.4723255" lon="10.0046720"/>
+      <nd lat="44.4722030" lon="10.0046183"/>
+      <nd lat="44.4719120" lon="10.0040282"/>
+      <nd lat="44.4717513" lon="10.0034596"/>
+      <nd lat="44.4715675" lon="10.0030841"/>
+      <nd lat="44.4713631" lon="10.0030562"/>
+      <nd lat="44.4709780" lon="10.0031378"/>
+      <nd lat="44.4708938" lon="10.0030090"/>
+      <nd lat="44.4707942" lon="10.0025799"/>
+      <nd lat="44.4706871" lon="10.0025155"/>
+      <nd lat="44.4704114" lon="10.0023546"/>
+      <nd lat="44.4702485" lon="10.0023240"/>
+      <nd lat="44.4702554" lon="10.0021435"/>
+      <nd lat="44.4704080" lon="10.0019562"/>
+      <nd lat="44.4704317" lon="10.0018329"/>
+      <nd lat="44.4703768" lon="10.0017105"/>
+      <nd lat="44.4700973" lon="10.0017910"/>
+      <nd lat="44.4699681" lon="10.0018693"/>
+      <nd lat="44.4698332" lon="10.0019358"/>
+      <nd lat="44.4696724" lon="10.0018661"/>
+      <nd lat="44.4696553" lon="10.0018665"/>
+      <nd lat="44.4695432" lon="10.0018693"/>
+      <nd lat="44.4694312" lon="10.0019305"/>
+      <nd lat="44.4693202" lon="10.0018929"/>
+      <nd lat="44.4692484" lon="10.0018479"/>
+      <nd lat="44.4690216" lon="10.0018554"/>
+      <nd lat="44.4689154" lon="10.0018640"/>
+      <nd lat="44.4687154" lon="10.0020378"/>
+      <nd lat="44.4686242" lon="10.0020948"/>
+      <nd lat="44.4685519" lon="10.0021914"/>
+      <nd lat="44.4684869" lon="10.0022243"/>
+      <nd lat="44.4683096" lon="10.0022631"/>
+      <nd lat="44.4681794" lon="10.0023704"/>
+      <nd lat="44.4681215" lon="10.0024511"/>
+      <nd lat="44.4680787" lon="10.0024824"/>
+      <nd lat="44.4680286" lon="10.0024673"/>
+      <nd lat="44.4679522" lon="10.0024436"/>
+      <nd lat="44.4678887" lon="10.0024121"/>
+      <nd lat="44.4678042" lon="10.0023543"/>
+      <nd lat="44.4677362" lon="10.0023230"/>
+      <nd lat="44.4676367" lon="10.0022736"/>
+      <nd lat="44.4676865" lon="10.0020034"/>
+      <nd lat="44.4676521" lon="10.0019122"/>
+      <nd lat="44.4676521" lon="10.0017728"/>
+      <nd lat="44.4677784" lon="10.0015689"/>
+      <nd lat="44.4678303" lon="10.0014326"/>
+      <nd lat="44.4679277" lon="10.0010003"/>
+      <nd lat="44.4680454" lon="10.0005626"/>
+      <nd lat="44.4682110" lon="10.0001688"/>
+      <nd lat="44.4683555" lon="9.9997901"/>
+      <nd lat="44.4684675" lon="9.9996377"/>
+      <nd lat="44.4685249" lon="9.9995734"/>
+      <nd lat="44.4685249" lon="9.9993427"/>
+      <nd lat="44.4685364" lon="9.9990476"/>
+      <nd lat="44.4686043" lon="9.9988138"/>
+      <nd lat="44.4686235" lon="9.9986260"/>
+      <nd lat="44.4686015" lon="9.9984468"/>
+      <nd lat="44.4685699" lon="9.9982237"/>
+      <nd lat="44.4683909" lon="9.9979104"/>
+      <nd lat="44.4683488" lon="9.9976422"/>
+      <nd lat="44.4683182" lon="9.9974759"/>
+      <nd lat="44.4682646" lon="9.9972935"/>
+      <nd lat="44.4681344" lon="9.9972077"/>
+      <nd lat="44.4680272" lon="9.9971218"/>
+      <nd lat="44.4679928" lon="9.9969126"/>
+      <nd lat="44.4679890" lon="9.9968160"/>
+      <nd lat="44.4679239" lon="9.9966712"/>
+      <nd lat="44.4678741" lon="9.9965693"/>
+      <nd lat="44.4678129" lon="9.9964942"/>
+      <nd lat="44.4677286" lon="9.9964674"/>
+      <nd lat="44.4675946" lon="9.9964030"/>
+      <nd lat="44.4674712" lon="9.9963193"/>
+      <nd lat="44.4673688" lon="9.9962260"/>
+      <nd lat="44.4672539" lon="9.9962421"/>
+      <nd lat="44.4671161" lon="9.9962635"/>
+      <nd lat="44.4669783" lon="9.9962367"/>
+      <nd lat="44.4667907" lon="9.9961401"/>
+      <nd lat="44.4665993" lon="9.9959631"/>
+      <nd lat="44.4664959" lon="9.9958290"/>
+      <nd lat="44.4664500" lon="9.9957163"/>
+      <nd lat="44.4664171" lon="9.9956079"/>
+      <nd lat="44.4663968" lon="9.9955405"/>
+      <nd lat="44.4663857" lon="9.9954526"/>
+      <nd lat="44.4663533" lon="9.9953322"/>
+      <nd lat="44.4663543" lon="9.9951692"/>
+      <nd lat="44.4663887" lon="9.9950672"/>
+      <nd lat="44.4664806" lon="9.9949439"/>
+      <nd lat="44.4664882" lon="9.9948473"/>
+      <nd lat="44.4665539" lon="9.9947599"/>
+      <nd lat="44.4665850" lon="9.9946848"/>
+      <nd lat="44.4666216" lon="9.9946097"/>
+      <nd lat="44.4666529" lon="9.9945201"/>
+      <nd lat="44.4666950" lon="9.9943860"/>
+      <nd lat="44.4666979" lon="9.9941789"/>
+      <nd lat="44.4666873" lon="9.9940051"/>
+      <nd lat="44.4666711" lon="9.9938195"/>
+      <nd lat="44.4666720" lon="9.9937154"/>
+      <nd lat="44.4667447" lon="9.9936242"/>
+      <nd lat="44.4668357" lon="9.9935352"/>
+      <nd lat="44.4668826" lon="9.9934579"/>
+      <nd lat="44.4668519" lon="9.9933453"/>
+      <nd lat="44.4667792" lon="9.9931736"/>
+      <nd lat="44.4667706" lon="9.9930846"/>
+      <nd lat="44.4668165" lon="9.9929236"/>
+      <nd lat="44.4668510" lon="9.9928271"/>
+      <nd lat="44.4669199" lon="9.9927681"/>
+      <nd lat="44.4670012" lon="9.9927337"/>
+      <nd lat="44.4671266" lon="9.9927359"/>
+      <nd lat="44.4671774" lon="9.9926747"/>
+      <nd lat="44.4673342" lon="9.9926346"/>
+      <nd lat="44.4674510" lon="9.9924480"/>
+      <nd lat="44.4675052" lon="9.9923493"/>
+      <nd lat="44.4675596" lon="9.9922647"/>
+      <nd lat="44.4675943" lon="9.9921605"/>
+      <nd lat="44.4676154" lon="9.9920228"/>
+      <nd lat="44.4675665" lon="9.9918809"/>
+      <nd lat="44.4674510" lon="9.9917484"/>
+      <nd lat="44.4672333" lon="9.9915580"/>
+      <nd lat="44.4670778" lon="9.9912800"/>
+      <nd lat="44.4669965" lon="9.9911587"/>
+      <nd lat="44.4668443" lon="9.9910922"/>
+      <nd lat="44.4666299" lon="9.9910708"/>
+      <nd lat="44.4664040" lon="9.9911137"/>
+      <nd lat="44.4662815" lon="9.9911351"/>
+      <nd lat="44.4662011" lon="9.9910761"/>
+      <nd lat="44.4661364" lon="9.9910054"/>
+    </member>
+    <member type="node" ref="7924680378" role="" lat="44.4741125" lon="10.0061900"/>
+    <member type="node" ref="7734861559" role="" lat="44.4685891" lon="9.9986159"/>
+    <member type="node" ref="7727794115" role="" lat="44.4662066" lon="9.9907768"/>
+    <tag k="ascent" v="200"/>
+    <tag k="cai_scale" v="E"/>
+    <tag k="descent" v="185"/>
+    <tag k="distance" v="2.2"/>
+    <tag k="email" v="sentieri@caiparma.it"/>
+    <tag k="from" v="Sentiero 741"/>
+    <tag k="name" v="percorso 741 - Groppi Rossi - La Capanna"/>
+    <tag k="network" v="lwn"/>
+    <tag k="operator" v="Club Alpino Italiano - sezione di Parma"/>
+    <tag k="osmc:symbol" v="red:red:white_stripe:731A:black"/>
+    <tag k="ref" v="731A"/>
+    <tag k="route" v="hiking"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="source:ref" v="9224001"/>
+    <tag k="survey:date" v="2023-07-11"/>
+    <tag k="symbol" v="731A on white red flags"/>
+    <tag k="symbol:it" v="731A su bandierina bianca e rossa"/>
+    <tag k="to" v="Sentiero 731"/>
+    <tag k="type" v="route"/>
+    <tag k="website" v="www.caiparma.it"/>
+  </relation>
+</new>
+</action>
+<action type="modify">
+<old>
+  <relation id="16130745" version="5" timestamp="2023-07-27T05:50:25Z" changeset="139067837" uid="7575034" user="CarloPro">
+    <bounds minlat="44.4187590" minlon="10.0134381" maxlat="44.4232784" maxlon="10.0173240"/>
+    <member type="way" ref="111487992" role="">
+      <nd lat="44.4187862" lon="10.0134381"/>
+      <nd lat="44.4187590" lon="10.0139595"/>
+      <nd lat="44.4187958" lon="10.0142180"/>
+      <nd lat="44.4189962" lon="10.0146764"/>
+      <nd lat="44.4192134" lon="10.0149100"/>
+      <nd lat="44.4195506" lon="10.0151246"/>
+      <nd lat="44.4197996" lon="10.0154518"/>
+      <nd lat="44.4199196" lon="10.0154703"/>
+      <nd lat="44.4199746" lon="10.0154108"/>
+      <nd lat="44.4200072" lon="10.0153491"/>
+      <nd lat="44.4200383" lon="10.0153148"/>
+      <nd lat="44.4201253" lon="10.0153445"/>
+      <nd lat="44.4202977" lon="10.0155216"/>
+      <nd lat="44.4205238" lon="10.0158220"/>
+      <nd lat="44.4206514" lon="10.0160926"/>
+      <nd lat="44.4208801" lon="10.0162350"/>
+      <nd lat="44.4210295" lon="10.0163799"/>
+      <nd lat="44.4212096" lon="10.0165515"/>
+      <nd lat="44.4214406" lon="10.0169187"/>
+      <nd lat="44.4215621" lon="10.0170719"/>
+      <nd lat="44.4216437" lon="10.0171172"/>
+      <nd lat="44.4218417" lon="10.0169968"/>
+      <nd lat="44.4219797" lon="10.0170022"/>
+      <nd lat="44.4220946" lon="10.0170612"/>
+      <nd lat="44.4222555" lon="10.0171953"/>
+      <nd lat="44.4224902" lon="10.0172996"/>
+      <nd lat="44.4227536" lon="10.0173240"/>
+      <nd lat="44.4229988" lon="10.0173187"/>
+      <nd lat="44.4231597" lon="10.0172918"/>
+      <nd lat="44.4232784" lon="10.0172547"/>
+    </member>
+    <tag k="website" v="www.caiparma.it"/>
+    <tag k="duration:backward" v="00:45"/>
+    <tag k="duration:forward" v="00:40"/>
+    <tag k="ascent" v="0"/>
+    <tag k="cai_scale" v="T"/>
+    <tag k="descent" v="25"/>
+    <tag k="distance" v="0.7"/>
+    <tag k="email" v="sentieri@caiparma.it"/>
+    <tag k="from" v="La Vezzosa"/>
+    <tag k="network" v="lwn"/>
+    <tag k="note" v="maintained by CarloPro (CAI Parma)"/>
+    <tag k="note:it" v="manutenuto da CarloPro (CAI Parma)"/>
+    <tag k="operator" v="Club Alpino Italiano - sezione di Parma"/>
+    <tag k="osmc:symbol" v="red:red:white_stripe:723D:black"/>
+    <tag k="ref" v="723D"/>
+    <tag k="route" v="hiking"/>
+    <tag k="rwn:name" v="Rete Escursionistica Emilia-Romagna (REER)"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="source:ref" v="9224001"/>
+    <tag k="survey:date" v="2023-07-19"/>
+    <tag k="symbol" v="723D on white red flags"/>
+    <tag k="symbol:it" v="723D su bandierina bianca e rossa"/>
+    <tag k="to" v="Percorso 723"/>
+    <tag k="type" v="route"/>
+  </relation>
+</old>
+<new>
+  <relation id="16130745" version="7" timestamp="2023-08-01T21:32:41Z" changeset="139319512" uid="7575034" user="CarloPro">
+    <bounds minlat="44.4187590" minlon="10.0134381" maxlat="44.4232784" maxlon="10.0173240"/>
+    <member type="way" ref="111487992" role="">
+      <nd lat="44.4187862" lon="10.0134381"/>
+      <nd lat="44.4187590" lon="10.0139595"/>
+      <nd lat="44.4187958" lon="10.0142180"/>
+      <nd lat="44.4189962" lon="10.0146764"/>
+      <nd lat="44.4192134" lon="10.0149100"/>
+      <nd lat="44.4195506" lon="10.0151246"/>
+      <nd lat="44.4197996" lon="10.0154518"/>
+      <nd lat="44.4199196" lon="10.0154703"/>
+      <nd lat="44.4199746" lon="10.0154108"/>
+      <nd lat="44.4200072" lon="10.0153491"/>
+      <nd lat="44.4200383" lon="10.0153148"/>
+      <nd lat="44.4201253" lon="10.0153445"/>
+      <nd lat="44.4202977" lon="10.0155216"/>
+      <nd lat="44.4205238" lon="10.0158220"/>
+      <nd lat="44.4206514" lon="10.0160926"/>
+      <nd lat="44.4208801" lon="10.0162350"/>
+      <nd lat="44.4210295" lon="10.0163799"/>
+      <nd lat="44.4212096" lon="10.0165515"/>
+      <nd lat="44.4214406" lon="10.0169187"/>
+      <nd lat="44.4215621" lon="10.0170719"/>
+      <nd lat="44.4216437" lon="10.0171172"/>
+      <nd lat="44.4218417" lon="10.0169968"/>
+      <nd lat="44.4219797" lon="10.0170022"/>
+      <nd lat="44.4220946" lon="10.0170612"/>
+      <nd lat="44.4222555" lon="10.0171953"/>
+      <nd lat="44.4224902" lon="10.0172996"/>
+      <nd lat="44.4227536" lon="10.0173240"/>
+      <nd lat="44.4229988" lon="10.0173187"/>
+      <nd lat="44.4231597" lon="10.0172918"/>
+      <nd lat="44.4232784" lon="10.0172547"/>
+    </member>
+    <tag k="ascent" v="0"/>
+    <tag k="cai_scale" v="T"/>
+    <tag k="descent" v="25"/>
+    <tag k="distance" v="0.7"/>
+    <tag k="duration:backward" v="00:10"/>
+    <tag k="duration:forward" v="00:10"/>
+    <tag k="email" v="sentieri@caiparma.it"/>
+    <tag k="from" v="La Vezzosa"/>
+    <tag k="name" v="La Vezzosa - bivio 723"/>
+    <tag k="network" v="lwn"/>
+    <tag k="note" v="maintained by CarloPro (CAI Parma)"/>
+    <tag k="note:it" v="manutenuto da CarloPro (CAI Parma)"/>
+    <tag k="operator" v="Club Alpino Italiano - sezione di Parma"/>
+    <tag k="osmc:symbol" v="red:red:white_stripe:723D:black"/>
+    <tag k="ref" v="723D"/>
+    <tag k="route" v="hiking"/>
+    <tag k="rwn:name" v="Rete Escursionistica Emilia-Romagna (REER)"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="source:ref" v="9224001"/>
+    <tag k="survey:date" v="2023-07-19"/>
+    <tag k="symbol" v="723D on white red flags"/>
+    <tag k="symbol:it" v="723D su bandierina bianca e rossa"/>
+    <tag k="to" v="Percorso 723"/>
+    <tag k="type" v="route"/>
+    <tag k="website" v="www.caiparma.it"/>
+  </relation>
 </new>
 </action>
 
