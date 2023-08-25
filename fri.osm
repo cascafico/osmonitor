@@ -1,153 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-08-24T00:36:49Z" areas="2023-08-23T21:33:06Z"/>
+<meta osm_base="2023-08-25T00:37:41Z" areas="2023-08-24T21:21:06Z"/>
 
 <action type="modify">
 <old>
-  <way id="425775708" version="15" timestamp="2023-08-19T07:57:27Z" changeset="140084305" uid="993953" user="flak88">
-    <bounds minlat="46.1191543" minlon="12.4920757" maxlat="46.1207919" maxlon="12.4935331"/>
-    <nd ref="2194048930" lat="46.1207919" lon="12.4935331"/>
-    <nd ref="4250854689" lat="46.1207851" lon="12.4935123"/>
-    <nd ref="4250854688" lat="46.1207712" lon="12.4934855"/>
-    <nd ref="4250854687" lat="46.1207549" lon="12.4934771"/>
-    <nd ref="4250854686" lat="46.1207387" lon="12.4934855"/>
-    <nd ref="4250854685" lat="46.1207190" lon="12.4934705"/>
-    <nd ref="4250854684" lat="46.1207005" lon="12.4934638"/>
-    <nd ref="4250854683" lat="46.1206819" lon="12.4934671"/>
-    <nd ref="4250854682" lat="46.1206668" lon="12.4934822"/>
-    <nd ref="4250854681" lat="46.1206402" lon="12.4934905"/>
-    <nd ref="4250854680" lat="46.1205903" lon="12.4934638"/>
-    <nd ref="4250854679" lat="46.1205602" lon="12.4934169"/>
-    <nd ref="4250854678" lat="46.1205301" lon="12.4933651"/>
-    <nd ref="4250854677" lat="46.1205185" lon="12.4933316"/>
-    <nd ref="4250854676" lat="46.1204767" lon="12.4932647"/>
-    <nd ref="4250854675" lat="46.1204396" lon="12.4932229"/>
-    <nd ref="4250854674" lat="46.1204002" lon="12.4931811"/>
-    <nd ref="4250854673" lat="46.1203724" lon="12.4931376"/>
-    <nd ref="4250854672" lat="46.1203562" lon="12.4930657"/>
-    <nd ref="4250854671" lat="46.1203399" lon="12.4930139"/>
-    <nd ref="4250854670" lat="46.1203237" lon="12.4929604"/>
-    <nd ref="4250854669" lat="46.1203028" lon="12.4928951"/>
-    <nd ref="4250854668" lat="46.1202565" lon="12.4928366"/>
-    <nd ref="4250854667" lat="46.1201997" lon="12.4927781"/>
-    <nd ref="4250854666" lat="46.1201487" lon="12.4927480"/>
-    <nd ref="4250854665" lat="46.1200884" lon="12.4927313"/>
-    <nd ref="4250854664" lat="46.1200304" lon="12.4927179"/>
-    <nd ref="4250854663" lat="46.1199864" lon="12.4926995"/>
-    <nd ref="4250854662" lat="46.1199331" lon="12.4926359"/>
-    <nd ref="4250854660" lat="46.1199096" lon="12.4926046"/>
-    <nd ref="4250854659" lat="46.1198855" lon="12.4925891"/>
-    <nd ref="4250854658" lat="46.1198380" lon="12.4925724"/>
-    <nd ref="4250854655" lat="46.1197939" lon="12.4925406"/>
-    <nd ref="4250854654" lat="46.1197624" lon="12.4925352"/>
-    <nd ref="4250854652" lat="46.1197337" lon="12.4925356"/>
-    <nd ref="4250854651" lat="46.1197169" lon="12.4925327"/>
-    <nd ref="4250854650" lat="46.1196931" lon="12.4925155"/>
-    <nd ref="4250854649" lat="46.1196743" lon="12.4925026"/>
-    <nd ref="4250854648" lat="46.1196421" lon="12.4924954"/>
-    <nd ref="4250854647" lat="46.1196203" lon="12.4924959"/>
-    <nd ref="4250854646" lat="46.1196015" lon="12.4924854"/>
-    <nd ref="4250854645" lat="46.1195890" lon="12.4924632"/>
-    <nd ref="4250854643" lat="46.1195592" lon="12.4924461"/>
-    <nd ref="4250854641" lat="46.1195441" lon="12.4924315"/>
-    <nd ref="4250854640" lat="46.1195227" lon="12.4924018"/>
-    <nd ref="4250854638" lat="46.1194992" lon="12.4923742"/>
-    <nd ref="4250854636" lat="46.1194694" lon="12.4923617"/>
-    <nd ref="4250854632" lat="46.1194114" lon="12.4923132"/>
-    <nd ref="4250854631" lat="46.1193894" lon="12.4922446"/>
-    <nd ref="4250854629" lat="46.1193453" lon="12.4921509"/>
-    <nd ref="4250854627" lat="46.1193085" lon="12.4921200"/>
-    <nd ref="4250854624" lat="46.1192734" lon="12.4921192"/>
-    <nd ref="4250854622" lat="46.1192407" lon="12.4921258"/>
-    <nd ref="4250854617" lat="46.1192039" lon="12.4921459"/>
-    <nd ref="4250854615" lat="46.1191714" lon="12.4921166"/>
-    <nd ref="4250854614" lat="46.1191593" lon="12.4921070"/>
-    <nd ref="4250854613" lat="46.1191546" lon="12.4920933"/>
-    <nd ref="2193942032" lat="46.1191543" lon="12.4920757"/>
-    <tag k="highway" v="path+via_ferrata_scale=1"/>
-    <tag k="safety_rope" v="yes"/>
-    <tag k="access" v="yes"/>
-    <tag k="assisted_trail" v="yes"/>
-    <tag k="bicycle" v="no"/>
-    <tag k="foot" v="yes"/>
-    <tag k="horse" v="no"/>
-    <tag k="motor_vehicle" v="no"/>
-    <tag k="sac_scale" v="demanding_alpine_hiking"/>
-  </way>
+  <relation id="14625045" version="5" timestamp="2023-08-16T17:14:27Z" changeset="139974784" uid="3538539" user="micheleOSM3">
+    <bounds minlat="46.5569627" minlon="13.1728160" maxlat="46.5573614" maxlon="13.1734051"/>
+    <member type="way" ref="172385993" role="">
+      <nd lat="46.5569627" lon="13.1728160"/>
+      <nd lat="46.5570212" lon="13.1728906"/>
+      <nd lat="46.5570653" lon="13.1729108"/>
+      <nd lat="46.5570927" lon="13.1729569"/>
+      <nd lat="46.5571632" lon="13.1731283"/>
+      <nd lat="46.5571863" lon="13.1731711"/>
+      <nd lat="46.5572070" lon="13.1732097"/>
+      <nd lat="46.5572332" lon="13.1732216"/>
+      <nd lat="46.5572843" lon="13.1732189"/>
+      <nd lat="46.5573053" lon="13.1732761"/>
+      <nd lat="46.5573311" lon="13.1733626"/>
+      <nd lat="46.5573448" lon="13.1733696"/>
+      <nd lat="46.5573614" lon="13.1733887"/>
+      <nd lat="46.5573569" lon="13.1733973"/>
+      <nd lat="46.5573540" lon="13.1734051"/>
+    </member>
+    <tag k="note" v="#unusable# (2023-08-16)."/>
+    <tag k="obstacle" v="yes"/>
+    <tag k="obstacle_description:it" v="Inagibile per lama di roccia incombente (2023-08-16)."/>
+    <tag k="alt_name" v="Via Ferrata allo Zuc della Guardia"/>
+    <tag k="cai_scale" v="EEA"/>
+    <tag k="name" v="Ferrata degli Alpini"/>
+    <tag k="operator" v="Club Alpino Italiano"/>
+    <tag k="route" v="hiking"/>
+    <tag k="short_name" v="FA"/>
+    <tag k="type" v="route"/>
+    <tag k="website" v="https://www.cai-fvg.it/sentieri-cai-fvg/settore-4-alpi-carniche/ferrata-degli-alpini-zuc-della-guardia/"/>
+  </relation>
 </old>
 <new>
-  <way id="425775708" version="16" timestamp="2023-08-23T12:00:41Z" changeset="140272826" uid="181135" user="Manu1400">
-    <bounds minlat="46.1191543" minlon="12.4920757" maxlat="46.1207919" maxlon="12.4935331"/>
-    <nd ref="2194048930" lat="46.1207919" lon="12.4935331"/>
-    <nd ref="4250854689" lat="46.1207851" lon="12.4935123"/>
-    <nd ref="4250854688" lat="46.1207712" lon="12.4934855"/>
-    <nd ref="4250854687" lat="46.1207549" lon="12.4934771"/>
-    <nd ref="4250854686" lat="46.1207387" lon="12.4934855"/>
-    <nd ref="4250854685" lat="46.1207190" lon="12.4934705"/>
-    <nd ref="4250854684" lat="46.1207005" lon="12.4934638"/>
-    <nd ref="4250854683" lat="46.1206819" lon="12.4934671"/>
-    <nd ref="4250854682" lat="46.1206668" lon="12.4934822"/>
-    <nd ref="4250854681" lat="46.1206402" lon="12.4934905"/>
-    <nd ref="4250854680" lat="46.1205903" lon="12.4934638"/>
-    <nd ref="4250854679" lat="46.1205602" lon="12.4934169"/>
-    <nd ref="4250854678" lat="46.1205301" lon="12.4933651"/>
-    <nd ref="4250854677" lat="46.1205185" lon="12.4933316"/>
-    <nd ref="4250854676" lat="46.1204767" lon="12.4932647"/>
-    <nd ref="4250854675" lat="46.1204396" lon="12.4932229"/>
-    <nd ref="4250854674" lat="46.1204002" lon="12.4931811"/>
-    <nd ref="4250854673" lat="46.1203724" lon="12.4931376"/>
-    <nd ref="4250854672" lat="46.1203562" lon="12.4930657"/>
-    <nd ref="4250854671" lat="46.1203399" lon="12.4930139"/>
-    <nd ref="4250854670" lat="46.1203237" lon="12.4929604"/>
-    <nd ref="4250854669" lat="46.1203028" lon="12.4928951"/>
-    <nd ref="4250854668" lat="46.1202565" lon="12.4928366"/>
-    <nd ref="4250854667" lat="46.1201997" lon="12.4927781"/>
-    <nd ref="4250854666" lat="46.1201487" lon="12.4927480"/>
-    <nd ref="4250854665" lat="46.1200884" lon="12.4927313"/>
-    <nd ref="4250854664" lat="46.1200304" lon="12.4927179"/>
-    <nd ref="4250854663" lat="46.1199864" lon="12.4926995"/>
-    <nd ref="4250854662" lat="46.1199331" lon="12.4926359"/>
-    <nd ref="4250854660" lat="46.1199096" lon="12.4926046"/>
-    <nd ref="4250854659" lat="46.1198855" lon="12.4925891"/>
-    <nd ref="4250854658" lat="46.1198380" lon="12.4925724"/>
-    <nd ref="4250854655" lat="46.1197939" lon="12.4925406"/>
-    <nd ref="4250854654" lat="46.1197624" lon="12.4925352"/>
-    <nd ref="4250854652" lat="46.1197337" lon="12.4925356"/>
-    <nd ref="4250854651" lat="46.1197169" lon="12.4925327"/>
-    <nd ref="4250854650" lat="46.1196931" lon="12.4925155"/>
-    <nd ref="4250854649" lat="46.1196743" lon="12.4925026"/>
-    <nd ref="4250854648" lat="46.1196421" lon="12.4924954"/>
-    <nd ref="4250854647" lat="46.1196203" lon="12.4924959"/>
-    <nd ref="4250854646" lat="46.1196015" lon="12.4924854"/>
-    <nd ref="4250854645" lat="46.1195890" lon="12.4924632"/>
-    <nd ref="4250854643" lat="46.1195592" lon="12.4924461"/>
-    <nd ref="4250854641" lat="46.1195441" lon="12.4924315"/>
-    <nd ref="4250854640" lat="46.1195227" lon="12.4924018"/>
-    <nd ref="4250854638" lat="46.1194992" lon="12.4923742"/>
-    <nd ref="4250854636" lat="46.1194694" lon="12.4923617"/>
-    <nd ref="4250854632" lat="46.1194114" lon="12.4923132"/>
-    <nd ref="4250854631" lat="46.1193894" lon="12.4922446"/>
-    <nd ref="4250854629" lat="46.1193453" lon="12.4921509"/>
-    <nd ref="4250854627" lat="46.1193085" lon="12.4921200"/>
-    <nd ref="4250854624" lat="46.1192734" lon="12.4921192"/>
-    <nd ref="4250854622" lat="46.1192407" lon="12.4921258"/>
-    <nd ref="4250854617" lat="46.1192039" lon="12.4921459"/>
-    <nd ref="4250854615" lat="46.1191714" lon="12.4921166"/>
-    <nd ref="4250854614" lat="46.1191593" lon="12.4921070"/>
-    <nd ref="4250854613" lat="46.1191546" lon="12.4920933"/>
-    <nd ref="2193942032" lat="46.1191543" lon="12.4920757"/>
-    <tag k="access" v="yes"/>
-    <tag k="assisted_trail" v="yes"/>
-    <tag k="bicycle" v="no"/>
-    <tag k="foot" v="yes"/>
-    <tag k="highway" v="path"/>
-    <tag k="horse" v="no"/>
-    <tag k="motor_vehicle" v="no"/>
-    <tag k="sac_scale" v="demanding_alpine_hiking"/>
-    <tag k="safety_rope" v="yes"/>
-    <tag k="via_ferrata_scale" v="1"/>
-  </way>
+  <relation id="14625045" version="6" timestamp="2023-08-24T06:32:45Z" changeset="140304974" uid="3538539" user="micheleOSM3">
+    <bounds minlat="46.5569627" minlon="13.1728160" maxlat="46.5573614" maxlon="13.1734051"/>
+    <member type="way" ref="172385993" role="">
+      <nd lat="46.5569627" lon="13.1728160"/>
+      <nd lat="46.5570212" lon="13.1728906"/>
+      <nd lat="46.5570653" lon="13.1729108"/>
+      <nd lat="46.5570927" lon="13.1729569"/>
+      <nd lat="46.5571632" lon="13.1731283"/>
+      <nd lat="46.5571863" lon="13.1731711"/>
+      <nd lat="46.5572070" lon="13.1732097"/>
+      <nd lat="46.5572332" lon="13.1732216"/>
+      <nd lat="46.5572843" lon="13.1732189"/>
+      <nd lat="46.5573053" lon="13.1732761"/>
+      <nd lat="46.5573311" lon="13.1733626"/>
+      <nd lat="46.5573448" lon="13.1733696"/>
+      <nd lat="46.5573614" lon="13.1733887"/>
+      <nd lat="46.5573569" lon="13.1733973"/>
+      <nd lat="46.5573540" lon="13.1734051"/>
+    </member>
+    <tag k="alt_name" v="Via Ferrata allo Zuc della Guardia"/>
+    <tag k="cai_scale" v="EEA"/>
+    <tag k="name" v="Ferrata degli Alpini"/>
+    <tag k="operator" v="Club Alpino Italiano"/>
+    <tag k="route" v="hiking"/>
+    <tag k="short_name" v="FA"/>
+    <tag k="type" v="route"/>
+    <tag k="website" v="https://www.cai-fvg.it/sentieri-cai-fvg/settore-4-alpi-carniche/ferrata-degli-alpini-zuc-della-guardia/"/>
+  </relation>
 </new>
 </action>
 
