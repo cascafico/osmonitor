@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2023-09-16T00:37:30Z" areas="2023-09-15T19:22:36Z"/>
+
+<action type="modify">
+<old>
+  <node id="1232198650" version="1" timestamp="2011-04-04T10:38:20Z" changeset="7763147" uid="371415" user="at1839"/>
+</old>
+<new>
+  <node id="1232198650" lat="43.5588043" lon="12.5155432" version="2" timestamp="2023-09-15T09:41:00Z" changeset="141294312" uid="4188272" user="dp7"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="5023951236" lat="43.5588043" lon="12.5155432" version="1" timestamp="2017-08-09T09:43:42Z" changeset="50967023" uid="2352517" user="carths81"/>
+</old>
+<new>
+  <node id="5023951236" visible="false" version="2" timestamp="2023-09-15T09:41:00Z" changeset="141294312" uid="4188272" user="dp7"/>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="514170573" version="4" timestamp="2019-03-05T13:38:53Z" changeset="67805222" uid="13591" user="lucadelu">
+    <bounds minlat="43.5587936" minlon="12.5119659" maxlat="43.5633204" maxlon="12.5158154"/>
+    <nd ref="5023951237" lat="43.5587936" lon="12.5158154"/>
+    <nd ref="6310729530" lat="43.5588079" lon="12.5156566"/>
+    <nd ref="5023951236" lat="43.5588043" lon="12.5155432"/>
+    <nd ref="5023951257" lat="43.5588225" lon="12.5155011"/>
+    <nd ref="5023951256" lat="43.5588526" lon="12.5154703"/>
+    <nd ref="5023951255" lat="43.5590547" lon="12.5153147"/>
+    <nd ref="5023951254" lat="43.5593016" lon="12.5151028"/>
+    <nd ref="5023951253" lat="43.5594464" lon="12.5149874"/>
+    <nd ref="5023951252" lat="43.5596554" lon="12.5148359"/>
+    <nd ref="5023951251" lat="43.5602628" lon="12.5143276"/>
+    <nd ref="5023951250" lat="43.5604736" lon="12.5141412"/>
+    <nd ref="5023951249" lat="43.5609391" lon="12.5137389"/>
+    <nd ref="5023951248" lat="43.5611520" lon="12.5136128"/>
+    <nd ref="5023951247" lat="43.5612725" lon="12.5134385"/>
+    <nd ref="5023951246" lat="43.5619119" lon="12.5129127"/>
+    <nd ref="5023951245" lat="43.5623823" lon="12.5125453"/>
+    <nd ref="5023951244" lat="43.5628332" lon="12.5121590"/>
+    <nd ref="5023951243" lat="43.5630372" lon="12.5119901"/>
+    <nd ref="5023951242" lat="43.5631383" lon="12.5119659"/>
+    <nd ref="5023951241" lat="43.5632355" lon="12.5119753"/>
+    <nd ref="3012753307" lat="43.5633204" lon="12.5119956"/>
+    <tag k="highway" v="path"/>
+  </way>
+</old>
+<new>
+  <way id="514170573" version="5" timestamp="2023-09-15T09:41:00Z" changeset="141294312" uid="4188272" user="dp7">
+    <bounds minlat="43.5587936" minlon="12.5119659" maxlat="43.5633204" maxlon="12.5158154"/>
+    <nd ref="5023951237" lat="43.5587936" lon="12.5158154"/>
+    <nd ref="6310729530" lat="43.5588079" lon="12.5156566"/>
+    <nd ref="1232198650" lat="43.5588043" lon="12.5155432"/>
+    <nd ref="5023951257" lat="43.5588225" lon="12.5155011"/>
+    <nd ref="5023951256" lat="43.5588526" lon="12.5154703"/>
+    <nd ref="5023951255" lat="43.5590547" lon="12.5153147"/>
+    <nd ref="5023951254" lat="43.5593016" lon="12.5151028"/>
+    <nd ref="5023951253" lat="43.5594464" lon="12.5149874"/>
+    <nd ref="5023951252" lat="43.5596554" lon="12.5148359"/>
+    <nd ref="5023951251" lat="43.5602628" lon="12.5143276"/>
+    <nd ref="5023951250" lat="43.5604736" lon="12.5141412"/>
+    <nd ref="5023951249" lat="43.5609391" lon="12.5137389"/>
+    <nd ref="5023951248" lat="43.5611520" lon="12.5136128"/>
+    <nd ref="5023951247" lat="43.5612725" lon="12.5134385"/>
+    <nd ref="5023951246" lat="43.5619119" lon="12.5129127"/>
+    <nd ref="5023951245" lat="43.5623823" lon="12.5125453"/>
+    <nd ref="5023951244" lat="43.5628332" lon="12.5121590"/>
+    <nd ref="5023951243" lat="43.5630372" lon="12.5119901"/>
+    <nd ref="5023951242" lat="43.5631383" lon="12.5119659"/>
+    <nd ref="5023951241" lat="43.5632355" lon="12.5119753"/>
+    <nd ref="3012753307" lat="43.5633204" lon="12.5119956"/>
+    <tag k="highway" v="path"/>
+  </way>
+</new>
+</action>
+
+</osm>
