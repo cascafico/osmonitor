@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2023-11-13T00:42:40Z" areas="2023-11-12T23:35:09Z"/>
+
+<action type="modify">
+<old>
+  <way id="80391038" version="7" timestamp="2021-12-28T20:54:46Z" changeset="115488527" uid="2976645" user="Jrachi">
+    <bounds minlat="45.0944384" minlon="8.2754968" maxlat="45.0944464" maxlon="8.2755387"/>
+    <nd ref="1981210030" lat="45.0944384" lon="8.2755387"/>
+    <nd ref="2999472619" lat="45.0944464" lon="8.2754968"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="foot" v="official"/>
+    <tag k="motor_vehicle" v="no"/>
+    <tag k="highway" v="footway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="gravel"/>
+  </way>
+</old>
+<new>
+  <way id="80391038" version="8" timestamp="2023-11-12T09:16:48Z" changeset="143925701" uid="90379" user="Andrea Musuruane">
+    <bounds minlat="45.0944384" minlon="8.2754968" maxlat="45.0944464" maxlon="8.2755387"/>
+    <nd ref="1981210030" lat="45.0944384" lon="8.2755387"/>
+    <nd ref="2999472619" lat="45.0944464" lon="8.2754968"/>
+    <tag k="highway" v="footway"/>
+    <tag k="lit" v="yes"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="gravel"/>
+  </way>
+</new>
+</action>
+
+</osm>
