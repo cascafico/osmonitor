@@ -1,49 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2023-12-25T00:42:58Z" areas="2023-12-24T20:12:57Z"/>
+<meta osm_base="2023-12-26T00:41:13Z" areas="2023-12-25T21:43:45Z"/>
 
 <action type="modify">
 <old>
-  <node id="577602421" lat="45.1179309" lon="7.4601822" version="2" timestamp="2017-09-25T19:03:10Z" changeset="52364664" uid="2976645" user="Jrachi"/>
+  <node id="6867712382" lat="45.3866648" lon="7.2074388" version="1" timestamp="2019-10-10T17:32:02Z" changeset="75526774" uid="2976645" user="Jrachi"/>
 </old>
 <new>
-  <node id="577602421" lat="45.1179309" lon="7.4601822" version="3" timestamp="2023-12-24T15:32:02Z" changeset="145472913" uid="15137462" user="FabrizioBx">
-    <tag k="information" v="guidepost"/>
-    <tag k="name" v="Pian d'la Feja"/>
-    <tag k="tourism" v="information"/>
+  <node id="6867712382" lat="45.3866648" lon="7.2074388" version="2" timestamp="2023-12-25T18:36:44Z" changeset="145508121" uid="6645382" user="canfe">
+    <tag k="ford" v="yes"/>
   </node>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="377715230" version="7" timestamp="2023-04-09T10:26:06Z" changeset="134681809" uid="2976645" user="Jrachi">
-    <bounds minlat="45.1042065" minlon="7.3717433" maxlat="45.1042912" maxlon="7.3719174"/>
-    <nd ref="4690945455" lat="45.1042912" lon="7.3719174"/>
-    <nd ref="5129283525" lat="45.1042590" lon="7.3718357"/>
-    <nd ref="3811027919" lat="45.1042065" lon="7.3717433"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="name" v="Via Villardora"/>
-    <tag k="ref" v="SP198"/>
-    <tag k="sac_scale" v="hiking"/>
-  </way>
-</old>
-<new>
-  <way id="377715230" version="8" timestamp="2023-12-24T11:51:27Z" changeset="145466177" uid="14324361" user="ettosilvia">
-    <bounds minlat="45.1042065" minlon="7.3717433" maxlat="45.1042912" maxlon="7.3719174"/>
-    <nd ref="4690945455" lat="45.1042912" lon="7.3719174"/>
-    <nd ref="5129283525" lat="45.1042590" lon="7.3718357"/>
-    <nd ref="3811027919" lat="45.1042065" lon="7.3717433"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="lane_markings" v="no"/>
-    <tag k="name" v="Via Villardora"/>
-    <tag k="ref" v="SP198"/>
-    <tag k="sac_scale" v="hiking"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
 </new>
 </action>
 
