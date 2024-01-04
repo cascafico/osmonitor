@@ -1,105 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-01-03T00:41:30Z" areas="2024-01-02T21:31:56Z"/>
+<meta osm_base="2024-01-04T00:41:00Z" areas="2024-01-03T21:29:02Z"/>
 
-<action type="delete">
+<action type="modify">
 <old>
-  <relation id="14095052" version="6" timestamp="2023-10-16T07:49:29Z" changeset="142650404" uid="3538539" user="micheleOSM3">
-    <bounds minlat="46.5157915" minlon="13.3235994" maxlat="46.5162044" maxlon="13.3239894"/>
-    <member type="way" ref="305977444" role="">
-      <nd lat="46.5162044" lon="13.3235994"/>
-      <nd lat="46.5161635" lon="13.3236275"/>
-      <nd lat="46.5161476" lon="13.3236291"/>
-      <nd lat="46.5161294" lon="13.3236473"/>
-      <nd lat="46.5160908" lon="13.3236658"/>
-      <nd lat="46.5160566" lon="13.3236704"/>
-      <nd lat="46.5160384" lon="13.3236952"/>
-      <nd lat="46.5160179" lon="13.3237018"/>
-      <nd lat="46.5159781" lon="13.3237498"/>
-      <nd lat="46.5159633" lon="13.3237779"/>
-      <nd lat="46.5159474" lon="13.3237944"/>
-      <nd lat="46.5158791" lon="13.3238539"/>
-      <nd lat="46.5158439" lon="13.3238754"/>
-      <nd lat="46.5158018" lon="13.3239200"/>
-      <nd lat="46.5157915" lon="13.3239894"/>
-    </member>
-    <tag k="cai_scale" v="EEA"/>
-    <tag k="name" v="qq"/>
-    <tag k="network" v="lwn"/>
-    <tag k="note" v="Il CAI ha in progetto di chiamarlo 521aF"/>
+  <node id="5041444945" lat="46.4683022" lon="12.5981127" version="1" timestamp="2017-08-17T16:38:01Z" changeset="51210469" uid="6081156" user="ddm-dolomitico">
+    <tag k="destination" v="C.ra Razzo 1.00; 208 | C.ra Tartoi; 208 | 224; F.lla Tragonia; bivio snt. 209"/>
+    <tag k="ele" v="2210"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
     <tag k="operator" v="Club Alpino Italiano"/>
-    <tag k="route" v="hiking"/>
-    <tag k="short_name" v="F.Ferr."/>
-    <tag k="type" v="route"/>
-    <tag k="website" v="https://www.cai-fvg.it/sentieri-cai-fvg/settore-5-alpi-giulie/ferrata-tenente-antonio-ferrante-di-ruffano/"/>
-  </relation>
+    <tag k="tourism" v="information"/>
+  </node>
 </old>
 <new>
-  <relation id="14095052" visible="false" version="7" timestamp="2024-01-02T06:35:35Z" changeset="145785641" uid="3538539" user="micheleOSM3"/>
+  <node id="5041444945" lat="46.4683022" lon="12.5981127" version="2" timestamp="2024-01-03T17:21:10Z" changeset="145848547" uid="1878771" user="o3o">
+    <tag k="destination" v="C.ra Razzo 1.00;208 | C.ra Tartoi;208 | 224;F.lla Tragonia;bivio snt. 209"/>
+    <tag k="ele" v="2210"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="operator" v="Club Alpino Italiano"/>
+    <tag k="tourism" v="information"/>
+  </node>
 </new>
 </action>
-<action type="delete">
+<action type="modify">
 <old>
-  <relation id="14546562" version="3" timestamp="2023-10-06T09:14:05Z" changeset="142223045" uid="3538539" user="micheleOSM3">
-    <bounds minlat="46.3652259" minlon="13.4314657" maxlat="46.3659290" maxlon="13.4333928"/>
-    <member type="way" ref="362080233" role="">
-      <nd lat="46.3659290" lon="13.4314657"/>
-      <nd lat="46.3658274" lon="13.4315961"/>
-      <nd lat="46.3658195" lon="13.4316331"/>
-      <nd lat="46.3658098" lon="13.4316472"/>
-      <nd lat="46.3658061" lon="13.4316629"/>
-      <nd lat="46.3658124" lon="13.4316880"/>
-      <nd lat="46.3658187" lon="13.4317002"/>
-      <nd lat="46.3658195" lon="13.4317242"/>
-      <nd lat="46.3658198" lon="13.4317463"/>
-      <nd lat="46.3658132" lon="13.4317611"/>
-      <nd lat="46.3658024" lon="13.4317882"/>
-      <nd lat="46.3657785" lon="13.4318130"/>
-      <nd lat="46.3657742" lon="13.4318308"/>
-      <nd lat="46.3657801" lon="13.4318408"/>
-      <nd lat="46.3658064" lon="13.4318415"/>
-      <nd lat="46.3658200" lon="13.4318506"/>
-      <nd lat="46.3658074" lon="13.4318917"/>
-      <nd lat="46.3658258" lon="13.4319123"/>
-      <nd lat="46.3658247" lon="13.4319596"/>
-      <nd lat="46.3658484" lon="13.4319946"/>
-      <nd lat="46.3658773" lon="13.4320266"/>
-      <nd lat="46.3658994" lon="13.4320403"/>
-      <nd lat="46.3659083" lon="13.4320563"/>
-      <nd lat="46.3658883" lon="13.4321051"/>
-      <nd lat="46.3658652" lon="13.4321569"/>
-      <nd lat="46.3658536" lon="13.4322225"/>
-      <nd lat="46.3658422" lon="13.4322523"/>
-      <nd lat="46.3658032" lon="13.4323101"/>
-      <nd lat="46.3658126" lon="13.4323276"/>
-      <nd lat="46.3656464" lon="13.4324511"/>
-      <nd lat="46.3655234" lon="13.4326123"/>
-      <nd lat="46.3654208" lon="13.4326912"/>
-      <nd lat="46.3654000" lon="13.4327701"/>
-      <nd lat="46.3653641" lon="13.4328979"/>
-      <nd lat="46.3653197" lon="13.4329771"/>
-      <nd lat="46.3653119" lon="13.4330181"/>
-      <nd lat="46.3652932" lon="13.4330649"/>
-      <nd lat="46.3652680" lon="13.4331282"/>
-      <nd lat="46.3652457" lon="13.4331698"/>
-      <nd lat="46.3652267" lon="13.4332288"/>
-      <nd lat="46.3652259" lon="13.4333119"/>
-      <nd lat="46.3652304" lon="13.4333928"/>
-    </member>
-    <tag k="cai_scale" v="EEA"/>
-    <tag k="name" v="qqqqq"/>
-    <tag k="network" v="lwn"/>
-    <tag k="note" v="Il CAI ha in progetto di chiamarlo 632cF"/>
-    <tag k="operator" v="Club Alpino Italiano"/>
-    <tag k="route" v="hiking"/>
-    <tag k="short_name" v="Grass"/>
-    <tag k="type" v="route"/>
-    <tag k="website" v="https://www.cai-fvg.it/sentieri-cai-fvg/settore-6-alpi-giulie/ferrata-rosalba-grasselli/"/>
-  </relation>
+  <way id="166888024" version="10" timestamp="2020-07-07T16:44:23Z" changeset="87665669" uid="3821761" user="Gabriele Dri">
+    <bounds minlat="45.6792483" minlon="13.7813748" maxlat="45.6796065" maxlon="13.7826639"/>
+    <nd ref="738025112" lat="45.6792483" lon="13.7826639"/>
+    <nd ref="68460659" lat="45.6792933" lon="13.7824586"/>
+    <nd ref="68460654" lat="45.6793660" lon="13.7821309"/>
+    <nd ref="6099034962" lat="45.6794156" lon="13.7819072"/>
+    <nd ref="68460645" lat="45.6794640" lon="13.7817063"/>
+    <nd ref="1270173349" lat="45.6794982" lon="13.7816041"/>
+    <nd ref="637454030" lat="45.6795625" lon="13.7814512"/>
+    <nd ref="68460638" lat="45.6796065" lon="13.7813748"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="primary"/>
+    <tag k="int_ref" v="E 61"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Strada Nuova per Opicina"/>
+    <tag k="old_ref" v="SS58"/>
+    <tag k="oneway" v="no"/>
+    <tag k="ref" v="SR58"/>
+    <tag k="source:maxspeed" v="IT:urban"/>
+  </way>
 </old>
 <new>
-  <relation id="14546562" visible="false" version="4" timestamp="2024-01-02T06:37:54Z" changeset="145785684" uid="3538539" user="micheleOSM3"/>
+  <way id="166888024" version="11" timestamp="2024-01-03T20:01:42Z" changeset="145853066" uid="9458168" user="Gorka115">
+    <bounds minlat="45.6792483" minlon="13.7813748" maxlat="45.6796065" maxlon="13.7826639"/>
+    <nd ref="738025112" lat="45.6792483" lon="13.7826639"/>
+    <nd ref="68460659" lat="45.6792933" lon="13.7824586"/>
+    <nd ref="68460654" lat="45.6793660" lon="13.7821309"/>
+    <nd ref="6099034962" lat="45.6794156" lon="13.7819072"/>
+    <nd ref="68460645" lat="45.6794640" lon="13.7817063"/>
+    <nd ref="1270173349" lat="45.6794982" lon="13.7816041"/>
+    <nd ref="637454030" lat="45.6795625" lon="13.7814512"/>
+    <nd ref="68460638" lat="45.6796065" lon="13.7813748"/>
+    <tag k="highway" v="primary"/>
+    <tag k="int_ref" v="E 61"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Strada Nuova per Opicina"/>
+    <tag k="old_ref" v="SS58"/>
+    <tag k="oneway" v="no"/>
+    <tag k="ref" v="SR58"/>
+    <tag k="source:maxspeed" v="IT:urban"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="166888110" version="6" timestamp="2022-10-19T00:20:19Z" changeset="127751904" uid="12294600" user="alessandrocarmeli">
+    <bounds minlat="45.6792483" minlon="13.7821750" maxlat="45.6799436" maxlon="13.7828876"/>
+    <nd ref="738025103" lat="45.6799436" lon="13.7828876"/>
+    <nd ref="738025123" lat="45.6798870" lon="13.7828292"/>
+    <nd ref="738025117" lat="45.6798275" lon="13.7827441"/>
+    <nd ref="1061279280" lat="45.6798061" lon="13.7826741"/>
+    <nd ref="738025051" lat="45.6797879" lon="13.7826144"/>
+    <nd ref="738025082" lat="45.6797845" lon="13.7825413"/>
+    <nd ref="738025096" lat="45.6797816" lon="13.7824467"/>
+    <nd ref="738025042" lat="45.6797683" lon="13.7823411"/>
+    <nd ref="738025071" lat="45.6797453" lon="13.7822893"/>
+    <nd ref="1270173274" lat="45.6797125" lon="13.7822480"/>
+    <nd ref="9191028196" lat="45.6797035" lon="13.7822404"/>
+    <nd ref="738025098" lat="45.6796786" lon="13.7822191"/>
+    <nd ref="1270173300" lat="45.6796213" lon="13.7821921"/>
+    <nd ref="738025086" lat="45.6795597" lon="13.7821754"/>
+    <nd ref="4949857363" lat="45.6795404" lon="13.7821750"/>
+    <nd ref="738025092" lat="45.6795186" lon="13.7821901"/>
+    <nd ref="738025108" lat="45.6794849" lon="13.7822396"/>
+    <nd ref="4949857364" lat="45.6794711" lon="13.7822628"/>
+    <nd ref="4949857362" lat="45.6794580" lon="13.7822896"/>
+    <nd ref="738025101" lat="45.6794470" lon="13.7823245"/>
+    <nd ref="738025121" lat="45.6794102" lon="13.7824813"/>
+    <nd ref="738025075" lat="45.6793772" lon="13.7826272"/>
+    <nd ref="4949857365" lat="45.6793680" lon="13.7826571"/>
+    <nd ref="738025079" lat="45.6793492" lon="13.7826821"/>
+    <nd ref="4949857366" lat="45.6793296" lon="13.7826893"/>
+    <nd ref="738025112" lat="45.6792483" lon="13.7826639"/>
+    <tag k="highway" v="unclassified"/>
+  </way>
+</old>
+<new>
+  <way id="166888110" version="7" timestamp="2024-01-03T20:01:56Z" changeset="145853081" uid="9458168" user="Gorka115">
+    <bounds minlat="45.6792483" minlon="13.7821750" maxlat="45.6799436" maxlon="13.7828876"/>
+    <nd ref="738025103" lat="45.6799436" lon="13.7828876"/>
+    <nd ref="738025123" lat="45.6798870" lon="13.7828292"/>
+    <nd ref="738025117" lat="45.6798275" lon="13.7827441"/>
+    <nd ref="1061279280" lat="45.6798061" lon="13.7826741"/>
+    <nd ref="738025051" lat="45.6797879" lon="13.7826144"/>
+    <nd ref="738025082" lat="45.6797845" lon="13.7825413"/>
+    <nd ref="738025096" lat="45.6797816" lon="13.7824467"/>
+    <nd ref="738025042" lat="45.6797683" lon="13.7823411"/>
+    <nd ref="738025071" lat="45.6797453" lon="13.7822893"/>
+    <nd ref="1270173274" lat="45.6797125" lon="13.7822480"/>
+    <nd ref="9191028196" lat="45.6797035" lon="13.7822404"/>
+    <nd ref="738025098" lat="45.6796786" lon="13.7822191"/>
+    <nd ref="1270173300" lat="45.6796213" lon="13.7821921"/>
+    <nd ref="738025086" lat="45.6795597" lon="13.7821754"/>
+    <nd ref="4949857363" lat="45.6795404" lon="13.7821750"/>
+    <nd ref="738025092" lat="45.6795186" lon="13.7821901"/>
+    <nd ref="738025108" lat="45.6794849" lon="13.7822396"/>
+    <nd ref="4949857364" lat="45.6794711" lon="13.7822628"/>
+    <nd ref="4949857362" lat="45.6794580" lon="13.7822896"/>
+    <nd ref="738025101" lat="45.6794470" lon="13.7823245"/>
+    <nd ref="738025121" lat="45.6794102" lon="13.7824813"/>
+    <nd ref="738025075" lat="45.6793772" lon="13.7826272"/>
+    <nd ref="4949857365" lat="45.6793680" lon="13.7826571"/>
+    <nd ref="738025079" lat="45.6793492" lon="13.7826821"/>
+    <nd ref="4949857366" lat="45.6793296" lon="13.7826893"/>
+    <nd ref="738025112" lat="45.6792483" lon="13.7826639"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
 </new>
 </action>
 
