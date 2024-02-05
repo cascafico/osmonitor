@@ -1,92 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-02-04T00:41:58Z" areas="2024-02-03T22:41:13Z"/>
+<meta osm_base="2024-02-05T00:40:00Z" areas="2024-02-04T22:40:02Z"/>
 
 <action type="modify">
 <old>
-  <way id="253309256" version="1" timestamp="2013-12-24T10:56:06Z" changeset="19615415" uid="1170287" user="Ghostraider">
-    <bounds minlat="45.9189389" minlon="13.6010727" maxlat="45.9191986" maxlon="13.6011665"/>
-    <nd ref="272447197" lat="45.9189389" lon="13.6010727"/>
-    <nd ref="275647106" lat="45.9191986" lon="13.6011665"/>
-    <tag k="name" v="Via del San Michele"/>
-    <tag k="highway" v="unclassified"/>
-  </way>
-</old>
-<new>
-  <way id="253309256" version="3" timestamp="2024-02-03T18:14:10Z" changeset="147029518" uid="9458168" user="Gorka115">
-    <bounds minlat="45.9189389" minlon="13.6010727" maxlat="45.9191986" maxlon="13.6011665"/>
-    <nd ref="272447197" lat="45.9189389" lon="13.6010727"/>
-    <nd ref="275647106" lat="45.9191986" lon="13.6011665"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="lanes" v="2"/>
-    <tag k="name" v="Via del San Michele"/>
+  <way id="27762415" version="8" timestamp="2022-10-10T17:50:48Z" changeset="127316850" uid="9458168" user="Gorka115">
+    <bounds minlat="45.9214651" minlon="13.5276806" maxlat="45.9266947" maxlon="13.5295819"/>
+    <nd ref="299306004" lat="45.9214651" lon="13.5295819"/>
+    <nd ref="271733108" lat="45.9215718" lon="13.5295547"/>
+    <nd ref="299305504" lat="45.9233317" lon="13.5292483"/>
+    <nd ref="271733109" lat="45.9237263" lon="13.5291595"/>
+    <nd ref="2976443530" lat="45.9239578" lon="13.5290764"/>
+    <nd ref="271733110" lat="45.9243900" lon="13.5288509"/>
+    <nd ref="401567162" lat="45.9247557" lon="13.5286704"/>
+    <nd ref="2976444336" lat="45.9249165" lon="13.5285895"/>
+    <nd ref="299305416" lat="45.9250237" lon="13.5285380"/>
+    <nd ref="2976444340" lat="45.9261430" lon="13.5279588"/>
+    <nd ref="2976444342" lat="45.9263991" lon="13.5278282"/>
+    <nd ref="9525362244" lat="45.9266947" lon="13.5276806"/>
     <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="253309259" version="1" timestamp="2013-12-24T10:56:06Z" changeset="19615415" uid="1170287" user="Ghostraider">
-    <bounds minlat="45.9191986" minlon="13.6011665" maxlat="45.9200849" maxlon="13.6012872"/>
-    <nd ref="275647106" lat="45.9191986" lon="13.6011665"/>
-    <nd ref="272447198" lat="45.9195045" lon="13.6012563"/>
-    <nd ref="272447199" lat="45.9198390" lon="13.6012684"/>
-    <nd ref="271732129" lat="45.9200849" lon="13.6012872"/>
-    <tag k="name" v="Via del San Michele"/>
-    <tag k="highway" v="unclassified"/>
+    <tag k="highway" v="residential"/>
+    <tag k="maxspeed" v="40"/>
+    <tag k="name" v="Via Gavinana"/>
   </way>
 </old>
 <new>
-  <way id="253309259" version="3" timestamp="2024-02-03T18:14:17Z" changeset="147029518" uid="9458168" user="Gorka115">
-    <bounds minlat="45.9191986" minlon="13.6011665" maxlat="45.9200849" maxlon="13.6012872"/>
-    <nd ref="275647106" lat="45.9191986" lon="13.6011665"/>
-    <nd ref="272447198" lat="45.9195045" lon="13.6012563"/>
-    <nd ref="272447199" lat="45.9198390" lon="13.6012684"/>
-    <nd ref="271732129" lat="45.9200849" lon="13.6012872"/>
-    <tag k="highway" v="unclassified"/>
+  <way id="27762415" version="9" timestamp="2024-02-04T18:57:14Z" changeset="147065465" uid="9458168" user="Gorka115">
+    <bounds minlat="45.9214651" minlon="13.5276806" maxlat="45.9266947" maxlon="13.5295819"/>
+    <nd ref="299306004" lat="45.9214651" lon="13.5295819"/>
+    <nd ref="271733108" lat="45.9215718" lon="13.5295547"/>
+    <nd ref="299305504" lat="45.9233317" lon="13.5292483"/>
+    <nd ref="271733109" lat="45.9237263" lon="13.5291595"/>
+    <nd ref="2976443530" lat="45.9239578" lon="13.5290764"/>
+    <nd ref="271733110" lat="45.9243900" lon="13.5288509"/>
+    <nd ref="401567162" lat="45.9247557" lon="13.5286704"/>
+    <nd ref="2976444336" lat="45.9249165" lon="13.5285895"/>
+    <nd ref="299305416" lat="45.9250237" lon="13.5285380"/>
+    <nd ref="2976444340" lat="45.9261430" lon="13.5279588"/>
+    <nd ref="2976444342" lat="45.9263991" lon="13.5278282"/>
+    <nd ref="9525362244" lat="45.9266947" lon="13.5276806"/>
+    <tag k="highway" v="residential"/>
     <tag k="lanes" v="2"/>
-    <tag k="name" v="Via del San Michele"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="885210603" version="2" timestamp="2022-02-05T09:20:52Z" changeset="117036457" uid="3538539" user="micheleOSM3">
-    <bounds minlat="45.9150267" minlon="13.5998026" maxlat="45.9189389" maxlon="13.6010727"/>
-    <nd ref="8231838167" lat="45.9150267" lon="13.5998026"/>
-    <nd ref="272447194" lat="45.9152905" lon="13.6001059"/>
-    <nd ref="2090337016" lat="45.9153770" lon="13.6001732"/>
-    <nd ref="9480567017" lat="45.9155669" lon="13.6002508"/>
-    <nd ref="272447195" lat="45.9157603" lon="13.6003130"/>
-    <nd ref="280286148" lat="45.9164531" lon="13.6005131"/>
-    <nd ref="9480567019" lat="45.9170710" lon="13.6006799"/>
-    <nd ref="272447196" lat="45.9176425" lon="13.6008490"/>
-    <nd ref="9480567020" lat="45.9180077" lon="13.6009347"/>
-    <nd ref="1479510347" lat="45.9187555" lon="13.6010395"/>
-    <nd ref="272447197" lat="45.9189389" lon="13.6010727"/>
-    <tag k="name" v="Via del San Michele"/>
-    <tag k="highway" v="unclassified"/>
-  </way>
-</old>
-<new>
-  <way id="885210603" version="4" timestamp="2024-02-03T18:13:55Z" changeset="147029518" uid="9458168" user="Gorka115">
-    <bounds minlat="45.9150267" minlon="13.5998026" maxlat="45.9189389" maxlon="13.6010727"/>
-    <nd ref="8231838167" lat="45.9150267" lon="13.5998026"/>
-    <nd ref="272447194" lat="45.9152905" lon="13.6001059"/>
-    <nd ref="2090337016" lat="45.9153770" lon="13.6001732"/>
-    <nd ref="9480567017" lat="45.9155669" lon="13.6002508"/>
-    <nd ref="272447195" lat="45.9157603" lon="13.6003130"/>
-    <nd ref="280286148" lat="45.9164531" lon="13.6005131"/>
-    <nd ref="9480567019" lat="45.9170710" lon="13.6006799"/>
-    <nd ref="272447196" lat="45.9176425" lon="13.6008490"/>
-    <nd ref="9480567020" lat="45.9180077" lon="13.6009347"/>
-    <nd ref="1479510347" lat="45.9187555" lon="13.6010395"/>
-    <nd ref="272447197" lat="45.9189389" lon="13.6010727"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="lanes" v="2"/>
-    <tag k="name" v="Via del San Michele"/>
+    <tag k="maxspeed" v="40"/>
+    <tag k="name" v="Via Gavinana"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
