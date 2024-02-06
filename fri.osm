@@ -1,51 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-02-05T00:40:00Z" areas="2024-02-04T22:40:02Z"/>
+<meta osm_base="2024-02-06T00:38:59Z" areas="2024-02-05T22:53:28Z"/>
 
 <action type="modify">
 <old>
-  <way id="27762415" version="8" timestamp="2022-10-10T17:50:48Z" changeset="127316850" uid="9458168" user="Gorka115">
-    <bounds minlat="45.9214651" minlon="13.5276806" maxlat="45.9266947" maxlon="13.5295819"/>
-    <nd ref="299306004" lat="45.9214651" lon="13.5295819"/>
-    <nd ref="271733108" lat="45.9215718" lon="13.5295547"/>
-    <nd ref="299305504" lat="45.9233317" lon="13.5292483"/>
-    <nd ref="271733109" lat="45.9237263" lon="13.5291595"/>
-    <nd ref="2976443530" lat="45.9239578" lon="13.5290764"/>
-    <nd ref="271733110" lat="45.9243900" lon="13.5288509"/>
-    <nd ref="401567162" lat="45.9247557" lon="13.5286704"/>
-    <nd ref="2976444336" lat="45.9249165" lon="13.5285895"/>
-    <nd ref="299305416" lat="45.9250237" lon="13.5285380"/>
-    <nd ref="2976444340" lat="45.9261430" lon="13.5279588"/>
-    <nd ref="2976444342" lat="45.9263991" lon="13.5278282"/>
-    <nd ref="9525362244" lat="45.9266947" lon="13.5276806"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="highway" v="residential"/>
-    <tag k="maxspeed" v="40"/>
-    <tag k="name" v="Via Gavinana"/>
-  </way>
+  <node id="876295666" lat="46.2845680" lon="13.3694655" version="7" timestamp="2023-07-16T06:23:08Z" changeset="138566238" uid="188429" user="gpstracks">
+    <tag k="name" v="Punta di Montemaggiore"/>
+    <tag k="ele" v="1613"/>
+    <tag k="name:sl" v="Breški Jalovec"/>
+    <tag k="natural" v="peak"/>
+    <tag k="summit:cross" v="yes"/>
+    <tag k="summit:register" v="yes"/>
+  </node>
 </old>
 <new>
-  <way id="27762415" version="9" timestamp="2024-02-04T18:57:14Z" changeset="147065465" uid="9458168" user="Gorka115">
-    <bounds minlat="45.9214651" minlon="13.5276806" maxlat="45.9266947" maxlon="13.5295819"/>
-    <nd ref="299306004" lat="45.9214651" lon="13.5295819"/>
-    <nd ref="271733108" lat="45.9215718" lon="13.5295547"/>
-    <nd ref="299305504" lat="45.9233317" lon="13.5292483"/>
-    <nd ref="271733109" lat="45.9237263" lon="13.5291595"/>
-    <nd ref="2976443530" lat="45.9239578" lon="13.5290764"/>
-    <nd ref="271733110" lat="45.9243900" lon="13.5288509"/>
-    <nd ref="401567162" lat="45.9247557" lon="13.5286704"/>
-    <nd ref="2976444336" lat="45.9249165" lon="13.5285895"/>
-    <nd ref="299305416" lat="45.9250237" lon="13.5285380"/>
-    <nd ref="2976444340" lat="45.9261430" lon="13.5279588"/>
-    <nd ref="2976444342" lat="45.9263991" lon="13.5278282"/>
-    <nd ref="9525362244" lat="45.9266947" lon="13.5276806"/>
-    <tag k="highway" v="residential"/>
-    <tag k="lanes" v="2"/>
-    <tag k="maxspeed" v="40"/>
-    <tag k="name" v="Via Gavinana"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="876295666" lat="46.2845680" lon="13.3694655" version="8" timestamp="2024-02-05T09:15:16Z" changeset="147084761" uid="8714795" user="Igorbaloh">
+    <tag k="ele" v="1613"/>
+    <tag k="name" v="Punta di Montemaggiore/Breški Jalovec"/>
+    <tag k="name:sl" v="Breški Jalovec"/>
+    <tag k="natural" v="peak"/>
+    <tag k="summit:cross" v="yes"/>
+    <tag k="summit:register" v="yes"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="890553774" lat="46.2895008" lon="13.3414790" version="8" timestamp="2023-06-13T06:35:52Z" changeset="137270801" uid="684800" user="fabiotofy">
+    <tag k="name" v="Sella Kriz"/>
+    <tag k="natural" v="saddle"/>
+    <tag k="name:sl" v="Sedlo Križ"/>
+    <tag k="ele" v="1529"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name:it" v="Sella Kriz"/>
+  </node>
+</old>
+<new>
+  <node id="890553774" lat="46.2895008" lon="13.3414790" version="10" timestamp="2024-02-05T09:27:32Z" changeset="147085243" uid="8714795" user="Igorbaloh">
+    <tag k="ele" v="1529"/>
+    <tag k="historic" v="wayside_cross"/>
+    <tag k="man_made" v="cross"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Sella Kriz / Sedlo Križ"/>
+    <tag k="name:it" v="Sella Kriz"/>
+    <tag k="name:sl" v="Sedlo Križ"/>
+    <tag k="natural" v="saddle"/>
+  </node>
 </new>
 </action>
 
