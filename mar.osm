@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2024-02-11T00:42:12Z" areas="2024-02-10T21:56:09Z"/>
+
+<action type="modify">
+<old>
+  <way id="239825693" version="2" timestamp="2022-10-10T20:25:24Z" changeset="127322729" uid="461682" user="Griphon">
+    <bounds minlat="43.6450770" minlon="12.3366107" maxlat="43.6453338" maxlon="12.3366400"/>
+    <nd ref="2476002520" lat="43.6450770" lon="12.3366400"/>
+    <nd ref="2476002525" lat="43.6453338" lon="12.3366107"/>
+    <tag k="name" v="Via San Martino"/>
+    <tag k="layer" v="1"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="residential"/>
+  </way>
+</old>
+<new>
+  <way id="239825693" version="4" timestamp="2024-02-10T17:14:29Z" changeset="147301140" uid="14055316" user="llamborda">
+    <bounds minlat="43.6450770" minlon="12.3366107" maxlat="43.6453338" maxlon="12.3366400"/>
+    <nd ref="2476002520" lat="43.6450770" lon="12.3366400"/>
+    <nd ref="2476002525" lat="43.6453338" lon="12.3366107"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxweight:signed" v="no"/>
+    <tag k="name" v="Via San Martino"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
