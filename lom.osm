@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-03-08T00:39:57Z" areas="2024-03-07T19:54:59Z"/>
+<meta osm_base="2024-03-09T00:38:44Z" areas="2024-03-08T23:42:27Z"/>
 
 <action type="modify">
 <old>
-  <way id="362071076" version="8" timestamp="2022-11-26T23:06:32Z" changeset="129418099" uid="10843011" user="Davide Pastelli">
+  <way id="362071076" version="9" timestamp="2024-03-07T12:58:35Z" changeset="148340776" uid="11436704" user="ValeBG">
     <bounds minlat="45.6421236" minlon="10.5342174" maxlat="45.6581633" maxlon="10.5455131"/>
     <nd ref="3664512304" lat="45.6421236" lon="10.5455131"/>
     <nd ref="3664512305" lat="45.6425884" lon="10.5448607"/>
@@ -49,18 +49,18 @@
     <nd ref="3664512627" lat="45.6569432" lon="10.5348615"/>
     <nd ref="3664512628" lat="45.6574981" lon="10.5347971"/>
     <nd ref="3652541451" lat="45.6581633" lon="10.5342174"/>
-    <tag k="mtb:scale" v="2"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
     <tag k="highway" v="path"/>
     <tag k="incline" v="up"/>
+    <tag k="mtb:scale" v="0"/>
     <tag k="mtb:scale:uphill" v="2"/>
     <tag k="name" v="Sentér Lonc"/>
-    <tag k="sac_scale" v="mountain_hiking"/>
     <tag k="surface" v="ground"/>
     <tag k="trail_visibility" v="excellent"/>
   </way>
 </old>
 <new>
-  <way id="362071076" version="9" timestamp="2024-03-07T12:58:35Z" changeset="148340776" uid="11436704" user="ValeBG">
+  <way id="362071076" version="10" timestamp="2024-03-08T17:51:46Z" changeset="148395387" uid="350864" user="demon_box">
     <bounds minlat="45.6421236" minlon="10.5342174" maxlat="45.6581633" maxlon="10.5455131"/>
     <nd ref="3664512304" lat="45.6421236" lon="10.5455131"/>
     <nd ref="3664512305" lat="45.6425884" lon="10.5448607"/>
@@ -109,7 +109,7 @@
     <tag k="mtb:scale" v="0"/>
     <tag k="mtb:scale:uphill" v="2"/>
     <tag k="name" v="Sentér Lonc"/>
-    <tag k="sac_scale" v="mountain_hiking"/>
+    <tag k="sac_scale" v="hiking"/>
     <tag k="surface" v="ground"/>
     <tag k="trail_visibility" v="excellent"/>
   </way>
