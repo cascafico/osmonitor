@@ -1,182 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.61.5 4133829e">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-03-14T00:38:58Z" areas="2024-03-13T20:44:43Z"/>
+<meta osm_base="2024-03-15T00:39:43Z" areas="2024-03-14T20:04:00Z"/>
 
 <action type="modify">
 <old>
-  <way id="60914815" version="9" timestamp="2023-02-22T19:35:54Z" changeset="132896859" uid="12294600" user="alessandrocarmeli">
-    <bounds minlat="46.1813259" minlon="12.7554310" maxlat="46.1856967" maxlon="12.7590462"/>
-    <nd ref="767169464" lat="46.1813259" lon="12.7590462"/>
-    <nd ref="762538653" lat="46.1814274" lon="12.7589608"/>
-    <nd ref="762538649" lat="46.1815758" lon="12.7588147"/>
-    <nd ref="762538646" lat="46.1818278" lon="12.7585614"/>
-    <nd ref="762538644" lat="46.1820535" lon="12.7583983"/>
-    <nd ref="762681428" lat="46.1821935" lon="12.7583202"/>
-    <nd ref="762681414" lat="46.1823009" lon="12.7582668"/>
-    <nd ref="767169465" lat="46.1824203" lon="12.7582098"/>
-    <nd ref="767166971" lat="46.1824590" lon="12.7581750"/>
-    <nd ref="762539571" lat="46.1826065" lon="12.7580311"/>
-    <nd ref="762512879" lat="46.1827991" lon="12.7578089"/>
-    <nd ref="762512877" lat="46.1829000" lon="12.7576911"/>
-    <nd ref="762512874" lat="46.1830365" lon="12.7576146"/>
-    <nd ref="762512872" lat="46.1831182" lon="12.7575731"/>
-    <nd ref="762512871" lat="46.1834571" lon="12.7573920"/>
-    <nd ref="762512869" lat="46.1838359" lon="12.7571855"/>
-    <nd ref="762533868" lat="46.1841478" lon="12.7570689"/>
-    <nd ref="762512868" lat="46.1842305" lon="12.7570353"/>
-    <nd ref="762512866" lat="46.1845266" lon="12.7569723"/>
-    <nd ref="762512865" lat="46.1846757" lon="12.7569098"/>
-    <nd ref="762512864" lat="46.1848435" lon="12.7567857"/>
-    <nd ref="762512862" lat="46.1849854" lon="12.7566517"/>
-    <nd ref="762512861" lat="46.1851680" lon="12.7563824"/>
-    <nd ref="762512859" lat="46.1854329" lon="12.7560053"/>
-    <nd ref="762512858" lat="46.1855629" lon="12.7557599"/>
-    <nd ref="762512853" lat="46.1856967" lon="12.7554310"/>
-    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
-    <tag k="name" v="Via Visinale"/>
-    <tag k="highway" v="tertiary"/>
-  </way>
+  <node id="5180162704" lat="46.3302940" lon="13.4276426" version="3" timestamp="2019-02-06T16:49:51Z" changeset="66969897" uid="188429" user="gpstracks">
+    <tag k="wikimedia_commons" v="File:IMG-20180722-WA0013.jpg"/>
+    <tag k="description" v="Tabella segnavia del sentiero cai 642"/>
+    <tag k="destination" v="Casera Canin 1:15|Biv. Costantini (biv. 731)| 1:30|M.te Guarda (biv. 741) 1:45|Agriturismo Malga Coot"/>
+    <tag k="ele" v="1178"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="support" v="pole"/>
+    <tag k="survey:date" v="2018-07-29"/>
+    <tag k="tourism" v="information"/>
+  </node>
 </old>
 <new>
-  <way id="60914815" version="11" timestamp="2024-03-13T18:18:32Z" changeset="148607291" uid="9458168" user="Gorka115">
-    <bounds minlat="46.1813259" minlon="12.7554310" maxlat="46.1856967" maxlon="12.7590462"/>
-    <nd ref="767169464" lat="46.1813259" lon="12.7590462"/>
-    <nd ref="762538653" lat="46.1814274" lon="12.7589608"/>
-    <nd ref="762538649" lat="46.1815758" lon="12.7588147"/>
-    <nd ref="762538646" lat="46.1818278" lon="12.7585614"/>
-    <nd ref="762538644" lat="46.1820535" lon="12.7583983"/>
-    <nd ref="762681428" lat="46.1821935" lon="12.7583202"/>
-    <nd ref="762681414" lat="46.1823009" lon="12.7582668"/>
-    <nd ref="767169465" lat="46.1824203" lon="12.7582098"/>
-    <nd ref="767166971" lat="46.1824590" lon="12.7581750"/>
-    <nd ref="762539571" lat="46.1826065" lon="12.7580311"/>
-    <nd ref="762512879" lat="46.1827991" lon="12.7578089"/>
-    <nd ref="762512877" lat="46.1829000" lon="12.7576911"/>
-    <nd ref="762512874" lat="46.1830365" lon="12.7576146"/>
-    <nd ref="762512872" lat="46.1831182" lon="12.7575731"/>
-    <nd ref="762512871" lat="46.1834571" lon="12.7573920"/>
-    <nd ref="762512869" lat="46.1838359" lon="12.7571855"/>
-    <nd ref="762533868" lat="46.1841478" lon="12.7570689"/>
-    <nd ref="762512868" lat="46.1842305" lon="12.7570353"/>
-    <nd ref="762512866" lat="46.1845266" lon="12.7569723"/>
-    <nd ref="762512865" lat="46.1846757" lon="12.7569098"/>
-    <nd ref="762512864" lat="46.1848435" lon="12.7567857"/>
-    <nd ref="762512862" lat="46.1849854" lon="12.7566517"/>
-    <nd ref="762512861" lat="46.1851680" lon="12.7563824"/>
-    <nd ref="762512859" lat="46.1854329" lon="12.7560053"/>
-    <nd ref="762512858" lat="46.1855629" lon="12.7557599"/>
-    <nd ref="762512853" lat="46.1856967" lon="12.7554310"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="name" v="Via Visinale"/>
-    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="60925765" version="1" timestamp="2010-06-02T20:59:38Z" changeset="4887516" uid="290195" user="Marco Scapin">
-    <bounds minlat="46.1859361" minlon="12.7522221" maxlat="46.1861294" maxlon="12.7532679"/>
-    <nd ref="762534122" lat="46.1861294" lon="12.7532679"/>
-    <nd ref="762534125" lat="46.1861021" lon="12.7530987"/>
-    <nd ref="762534128" lat="46.1860642" lon="12.7527827"/>
-    <nd ref="762534131" lat="46.1859936" lon="12.7524528"/>
-    <nd ref="762534135" lat="46.1859361" lon="12.7522221"/>
-    <tag k="name" v="Via Roma"/>
-    <tag k="highway" v="tertiary"/>
-  </way>
-</old>
-<new>
-  <way id="60925765" version="3" timestamp="2024-03-13T19:20:48Z" changeset="148609548" uid="9458168" user="Gorka115">
-    <bounds minlat="46.1859361" minlon="12.7522221" maxlat="46.1861294" maxlon="12.7532679"/>
-    <nd ref="762534122" lat="46.1861294" lon="12.7532679"/>
-    <nd ref="762534125" lat="46.1861021" lon="12.7530987"/>
-    <nd ref="762534128" lat="46.1860642" lon="12.7527827"/>
-    <nd ref="762534131" lat="46.1859936" lon="12.7524528"/>
-    <nd ref="762534135" lat="46.1859361" lon="12.7522221"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="name" v="Via Roma"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="60927148" version="5" timestamp="2015-03-12T17:14:24Z" changeset="29430688" uid="609680" user="rovinatissimo">
-    <bounds minlat="46.1864078" minlon="12.7452714" maxlat="46.1896050" maxlon="12.7516083"/>
-    <nd ref="762749638" lat="46.1864078" lon="12.7516083"/>
-    <nd ref="762749665" lat="46.1864228" lon="12.7514675"/>
-    <nd ref="762749668" lat="46.1864488" lon="12.7512690"/>
-    <nd ref="762749671" lat="46.1864079" lon="12.7509739"/>
-    <nd ref="762749673" lat="46.1864110" lon="12.7507218"/>
-    <nd ref="762749676" lat="46.1864188" lon="12.7505509"/>
-    <nd ref="762749679" lat="46.1864529" lon="12.7503936"/>
-    <nd ref="762749681" lat="46.1865186" lon="12.7501351"/>
-    <nd ref="762749684" lat="46.1866851" lon="12.7497715"/>
-    <nd ref="762749688" lat="46.1868801" lon="12.7494851"/>
-    <nd ref="965437229" lat="46.1869637" lon="12.7494020"/>
-    <nd ref="762749693" lat="46.1870578" lon="12.7492359"/>
-    <nd ref="762749698" lat="46.1871409" lon="12.7490247"/>
-    <nd ref="762749707" lat="46.1870761" lon="12.7486624"/>
-    <nd ref="762749709" lat="46.1870360" lon="12.7484090"/>
-    <nd ref="762749711" lat="46.1869728" lon="12.7480909"/>
-    <nd ref="762749720" lat="46.1869195" lon="12.7478247"/>
-    <nd ref="965438070" lat="46.1868891" lon="12.7476565"/>
-    <nd ref="762749722" lat="46.1868679" lon="12.7474601"/>
-    <nd ref="762749724" lat="46.1868907" lon="12.7472296"/>
-    <nd ref="762749726" lat="46.1869278" lon="12.7469775"/>
-    <nd ref="762749729" lat="46.1869241" lon="12.7464678"/>
-    <nd ref="965437591" lat="46.1869098" lon="12.7462598"/>
-    <nd ref="762749731" lat="46.1868900" lon="12.7461562"/>
-    <nd ref="763037599" lat="46.1877805" lon="12.7457588"/>
-    <nd ref="763037600" lat="46.1883066" lon="12.7455755"/>
-    <nd ref="763037601" lat="46.1888870" lon="12.7454407"/>
-    <nd ref="763037602" lat="46.1892447" lon="12.7453465"/>
-    <nd ref="763037587" lat="46.1896050" lon="12.7452714"/>
-    <tag k="name" v="Via Toffoli"/>
-    <tag k="highway" v="residential"/>
-  </way>
-</old>
-<new>
-  <way id="60927148" version="7" timestamp="2024-03-13T18:19:06Z" changeset="148607291" uid="9458168" user="Gorka115">
-    <bounds minlat="46.1864078" minlon="12.7452714" maxlat="46.1896050" maxlon="12.7516083"/>
-    <nd ref="762749638" lat="46.1864078" lon="12.7516083"/>
-    <nd ref="762749665" lat="46.1864228" lon="12.7514675"/>
-    <nd ref="762749668" lat="46.1864488" lon="12.7512690"/>
-    <nd ref="762749671" lat="46.1864079" lon="12.7509739"/>
-    <nd ref="762749673" lat="46.1864110" lon="12.7507218"/>
-    <nd ref="762749676" lat="46.1864188" lon="12.7505509"/>
-    <nd ref="762749679" lat="46.1864529" lon="12.7503936"/>
-    <nd ref="762749681" lat="46.1865186" lon="12.7501351"/>
-    <nd ref="762749684" lat="46.1866851" lon="12.7497715"/>
-    <nd ref="762749688" lat="46.1868801" lon="12.7494851"/>
-    <nd ref="965437229" lat="46.1869637" lon="12.7494020"/>
-    <nd ref="762749693" lat="46.1870578" lon="12.7492359"/>
-    <nd ref="762749698" lat="46.1871409" lon="12.7490247"/>
-    <nd ref="762749707" lat="46.1870761" lon="12.7486624"/>
-    <nd ref="762749709" lat="46.1870360" lon="12.7484090"/>
-    <nd ref="762749711" lat="46.1869728" lon="12.7480909"/>
-    <nd ref="762749720" lat="46.1869195" lon="12.7478247"/>
-    <nd ref="965438070" lat="46.1868891" lon="12.7476565"/>
-    <nd ref="762749722" lat="46.1868679" lon="12.7474601"/>
-    <nd ref="762749724" lat="46.1868907" lon="12.7472296"/>
-    <nd ref="762749726" lat="46.1869278" lon="12.7469775"/>
-    <nd ref="762749729" lat="46.1869241" lon="12.7464678"/>
-    <nd ref="965437591" lat="46.1869098" lon="12.7462598"/>
-    <nd ref="762749731" lat="46.1868900" lon="12.7461562"/>
-    <nd ref="763037599" lat="46.1877805" lon="12.7457588"/>
-    <nd ref="763037600" lat="46.1883066" lon="12.7455755"/>
-    <nd ref="763037601" lat="46.1888870" lon="12.7454407"/>
-    <nd ref="763037602" lat="46.1892447" lon="12.7453465"/>
-    <nd ref="763037587" lat="46.1896050" lon="12.7452714"/>
-    <tag k="highway" v="residential"/>
-    <tag k="lanes" v="2"/>
-    <tag k="name" v="Via Toffoli"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="5180162704" lat="46.3302940" lon="13.4276426" version="4" timestamp="2024-03-14T11:49:18Z" changeset="148637618" uid="11220113" user="ivanbranco">
+    <tag k="description" v="Tabella segnavia del sentiero cai 642"/>
+    <tag k="destination" v="Casera Canin 1:15|Biv. Costantini (biv. 731)| 1:30|M.te Guarda (biv. 741) 1:45|Agriturismo Malga Coot"/>
+    <tag k="ele" v="1178"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="support" v="pole"/>
+    <tag k="survey:date" v="2018-07-29"/>
+    <tag k="tourism" v="information"/>
+  </node>
 </new>
 </action>
 
