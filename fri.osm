@@ -1,98 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.1 084b4234">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-04-06T00:38:42Z" areas="2024-04-05T19:02:36Z"/>
+<meta osm_base="2024-04-07T00:44:15Z" areas="2024-04-06T19:47:01Z"/>
 
 <action type="modify">
 <old>
-  <way id="41978960" version="7" timestamp="2013-08-20T15:38:48Z" changeset="17428241" uid="297310" user="Tiziano Zorzenon">
-    <bounds minlat="46.3743828" minlon="13.0912450" maxlat="46.3767897" maxlon="13.0919938"/>
-    <nd ref="520361144" lat="46.3767897" lon="13.0916933"/>
-    <nd ref="1142029995" lat="46.3767221" lon="13.0916598"/>
-    <nd ref="1142030071" lat="46.3766767" lon="13.0916121"/>
-    <nd ref="520364543" lat="46.3766290" lon="13.0915429"/>
-    <nd ref="1142030034" lat="46.3765742" lon="13.0913785"/>
-    <nd ref="1142030099" lat="46.3765476" lon="13.0913297"/>
-    <nd ref="2109411642" lat="46.3765146" lon="13.0912771"/>
-    <nd ref="1142029979" lat="46.3764927" lon="13.0912526"/>
-    <nd ref="520364607" lat="46.3764256" lon="13.0912450"/>
-    <nd ref="1142030103" lat="46.3761181" lon="13.0913259"/>
-    <nd ref="2425653358" lat="46.3761090" lon="13.0913280"/>
-    <nd ref="520364626" lat="46.3757886" lon="13.0914035"/>
-    <nd ref="1142029990" lat="46.3756462" lon="13.0914706"/>
-    <nd ref="1142030048" lat="46.3754964" lon="13.0914968"/>
-    <nd ref="1142030102" lat="46.3752515" lon="13.0914863"/>
-    <nd ref="1142029984" lat="46.3751557" lon="13.0915033"/>
-    <nd ref="1142030031" lat="46.3750165" lon="13.0915483"/>
-    <nd ref="520364633" lat="46.3749176" lon="13.0916141"/>
-    <nd ref="2425653333" lat="46.3748564" lon="13.0917051"/>
-    <nd ref="2425653328" lat="46.3747364" lon="13.0918565"/>
-    <nd ref="1142030095" lat="46.3746579" lon="13.0919302"/>
-    <nd ref="1142030014" lat="46.3745778" lon="13.0919703"/>
-    <nd ref="2425653341" lat="46.3745043" lon="13.0919866"/>
-    <nd ref="1142030079" lat="46.3743828" lon="13.0919938"/>
-    <tag k="name" v="Via Giacomo Leopardi"/>
-    <tag k="highway" v="residential"/>
+  <way id="33519169" version="6" timestamp="2022-05-26T22:51:23Z" changeset="121548616" uid="9458168" user="Gorka115">
+    <bounds minlat="45.9342153" minlon="13.6064636" maxlat="45.9343970" maxlon="13.6067124"/>
+    <nd ref="382216399" lat="45.9342153" lon="13.6067124"/>
+    <nd ref="4240851196" lat="45.9342493" lon="13.6066241"/>
+    <nd ref="4240851292" lat="45.9343122" lon="13.6065291"/>
+    <nd ref="4240851197" lat="45.9343482" lon="13.6064886"/>
+    <nd ref="382216400" lat="45.9343970" lon="13.6064636"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="cycleway:right" v="no"/>
+    <tag k="name" v="Viale Fatebenefratelli"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </old>
 <new>
-  <way id="41978960" version="9" timestamp="2024-04-05T15:31:52Z" changeset="149620659" uid="9458168" user="Gorka115">
-    <bounds minlat="46.3743828" minlon="13.0912450" maxlat="46.3767897" maxlon="13.0919938"/>
-    <nd ref="520361144" lat="46.3767897" lon="13.0916933"/>
-    <nd ref="1142029995" lat="46.3767221" lon="13.0916598"/>
-    <nd ref="1142030071" lat="46.3766767" lon="13.0916121"/>
-    <nd ref="520364543" lat="46.3766290" lon="13.0915429"/>
-    <nd ref="1142030034" lat="46.3765742" lon="13.0913785"/>
-    <nd ref="1142030099" lat="46.3765476" lon="13.0913297"/>
-    <nd ref="2109411642" lat="46.3765146" lon="13.0912771"/>
-    <nd ref="1142029979" lat="46.3764927" lon="13.0912526"/>
-    <nd ref="520364607" lat="46.3764256" lon="13.0912450"/>
-    <nd ref="1142030103" lat="46.3761181" lon="13.0913259"/>
-    <nd ref="2425653358" lat="46.3761090" lon="13.0913280"/>
-    <nd ref="520364626" lat="46.3757886" lon="13.0914035"/>
-    <nd ref="1142029990" lat="46.3756462" lon="13.0914706"/>
-    <nd ref="1142030048" lat="46.3754964" lon="13.0914968"/>
-    <nd ref="1142030102" lat="46.3752515" lon="13.0914863"/>
-    <nd ref="1142029984" lat="46.3751557" lon="13.0915033"/>
-    <nd ref="1142030031" lat="46.3750165" lon="13.0915483"/>
-    <nd ref="520364633" lat="46.3749176" lon="13.0916141"/>
-    <nd ref="2425653333" lat="46.3748564" lon="13.0917051"/>
-    <nd ref="2425653328" lat="46.3747364" lon="13.0918565"/>
-    <nd ref="1142030095" lat="46.3746579" lon="13.0919302"/>
-    <nd ref="1142030014" lat="46.3745778" lon="13.0919703"/>
-    <nd ref="2425653341" lat="46.3745043" lon="13.0919866"/>
-    <nd ref="1142030079" lat="46.3743828" lon="13.0919938"/>
-    <tag k="highway" v="residential"/>
-    <tag k="lanes" v="2"/>
-    <tag k="name" v="Via Giacomo Leopardi"/>
+  <way id="33519169" version="7" timestamp="2024-04-06T08:03:55Z" changeset="149643466" uid="17146589" user="matej_008">
+    <bounds minlat="45.9342153" minlon="13.6064636" maxlat="45.9343970" maxlon="13.6067124"/>
+    <nd ref="382216399" lat="45.9342153" lon="13.6067124"/>
+    <nd ref="4240851196" lat="45.9342493" lon="13.6066241"/>
+    <nd ref="4240851292" lat="45.9343122" lon="13.6065291"/>
+    <nd ref="4240851197" lat="45.9343482" lon="13.6064886"/>
+    <nd ref="382216400" lat="45.9343970" lon="13.6064636"/>
+    <tag k="cycleway:right" v="no"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Viale Fatebenefratelli"/>
+    <tag k="oneway" v="yes"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="193075920" version="2" timestamp="2013-08-20T15:38:48Z" changeset="17428241" uid="297310" user="Tiziano Zorzenon">
-    <bounds minlat="46.3728704" minlon="13.0919701" maxlat="46.3743828" maxlon="13.0926356"/>
-    <nd ref="1142030079" lat="46.3743828" lon="13.0919938"/>
-    <nd ref="1299472909" lat="46.3741229" lon="13.0919701"/>
-    <nd ref="2425653367" lat="46.3739973" lon="13.0920230"/>
-    <nd ref="520364642" lat="46.3736995" lon="13.0921542"/>
-    <nd ref="452437751" lat="46.3728704" lon="13.0926356"/>
-    <tag k="name" v="Via Giacomo Leopardi"/>
-    <tag k="highway" v="residential"/>
+  <way id="39234505" version="4" timestamp="2022-05-26T22:51:19Z" changeset="121548616" uid="9458168" user="Gorka115">
+    <bounds minlat="45.9340480" minlon="13.6062121" maxlat="45.9343970" maxlon="13.6064636"/>
+    <nd ref="382216400" lat="45.9343970" lon="13.6064636"/>
+    <nd ref="4240850991" lat="45.9340958" lon="13.6062292"/>
+    <nd ref="470020057" lat="45.9340480" lon="13.6062121"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Viale Fatebenefratelli"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </old>
 <new>
-  <way id="193075920" version="4" timestamp="2024-04-05T15:31:56Z" changeset="149620659" uid="9458168" user="Gorka115">
-    <bounds minlat="46.3728704" minlon="13.0919701" maxlat="46.3743828" maxlon="13.0926356"/>
-    <nd ref="1142030079" lat="46.3743828" lon="13.0919938"/>
-    <nd ref="1299472909" lat="46.3741229" lon="13.0919701"/>
-    <nd ref="2425653367" lat="46.3739973" lon="13.0920230"/>
-    <nd ref="520364642" lat="46.3736995" lon="13.0921542"/>
-    <nd ref="452437751" lat="46.3728704" lon="13.0926356"/>
-    <tag k="highway" v="residential"/>
-    <tag k="lanes" v="2"/>
-    <tag k="name" v="Via Giacomo Leopardi"/>
+  <way id="39234505" version="5" timestamp="2024-04-06T08:03:55Z" changeset="149643466" uid="17146589" user="matej_008">
+    <bounds minlat="45.9340480" minlon="13.6062121" maxlat="45.9343970" maxlon="13.6064636"/>
+    <nd ref="382216400" lat="45.9343970" lon="13.6064636"/>
+    <nd ref="4240850991" lat="45.9340958" lon="13.6062292"/>
+    <nd ref="470020057" lat="45.9340480" lon="13.6062121"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Viale Fatebenefratelli"/>
+    <tag k="oneway" v="yes"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
