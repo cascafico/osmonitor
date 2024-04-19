@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.1 084b4234">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2024-04-19T00:40:15Z" areas="2024-04-18T22:45:16Z"/>
+
+<action type="modify">
+<old>
+  <node id="3282009205" lat="43.4265022" lon="12.8481983" version="1" timestamp="2015-01-11T13:35:26Z" changeset="28062198" uid="2566676" user="Carlo55"/>
+</old>
+<new>
+  <node id="3282009205" lat="43.4265022" lon="12.8481983" version="2" timestamp="2024-04-18T21:10:34Z" changeset="150194733" uid="123412" user="totera"/>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="483528068" version="3" timestamp="2017-11-17T22:42:24Z" changeset="53887839" uid="160229" user="sorcrosc">
+    <bounds minlat="43.4245825" minlon="12.8481983" maxlat="43.4265022" maxlon="12.8491375"/>
+    <nd ref="618143113" lat="43.4245825" lon="12.8491375"/>
+    <nd ref="3282009203" lat="43.4253524" lon="12.8486560"/>
+    <nd ref="3282009204" lat="43.4261834" lon="12.8482403"/>
+    <nd ref="4762781944" lat="43.4263494" lon="12.8482014"/>
+    <nd ref="3282009205" lat="43.4265022" lon="12.8481983"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Strada della Rondinella"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</old>
+<new>
+  <way id="483528068" version="4" timestamp="2024-04-18T21:10:34Z" changeset="150194733" uid="123412" user="totera">
+    <bounds minlat="43.4245825" minlon="12.8481983" maxlat="43.4265022" maxlon="12.8491375"/>
+    <nd ref="618143113" lat="43.4245825" lon="12.8491375"/>
+    <nd ref="3282009203" lat="43.4253524" lon="12.8486560"/>
+    <nd ref="3282009204" lat="43.4261834" lon="12.8482403"/>
+    <nd ref="4762781944" lat="43.4263494" lon="12.8482014"/>
+    <nd ref="3282009205" lat="43.4265022" lon="12.8481983"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="name" v="Strada della Rondinella"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
