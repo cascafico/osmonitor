@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.1 084b4234">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2024-05-16T00:41:34Z" areas="2024-05-15T22:38:35Z"/>
+
+<action type="modify">
+<old>
+  <way id="510889924" version="1" timestamp="2017-07-28T00:34:31Z" changeset="50634766" uid="1928626" user="Gianfranco2014">
+    <bounds minlat="42.4994805" minlon="13.5581956" maxlat="42.4996965" maxlon="13.5593406"/>
+    <nd ref="1480907524" lat="42.4994805" lon="13.5593406"/>
+    <nd ref="868379793" lat="42.4995372" lon="13.5585940"/>
+    <nd ref="868379785" lat="42.4996965" lon="13.5581956"/>
+    <tag k="source" v="Mountainbike-Magazin Trans-Abruzzen"/>
+    <tag k="highway" v="unclassified"/>
+  </way>
+</old>
+<new>
+  <way id="510889924" version="4" timestamp="2024-05-15T20:11:06Z" changeset="151379748" uid="1914637" user="a1ca424">
+    <bounds minlat="42.4994805" minlon="13.5581956" maxlat="42.4996965" maxlon="13.5593406"/>
+    <nd ref="1480907524" lat="42.4994805" lon="13.5593406"/>
+    <nd ref="868379793" lat="42.4995372" lon="13.5585940"/>
+    <nd ref="868379785" lat="42.4996965" lon="13.5581956"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="source" v="Mountainbike-Magazin Trans-Abruzzen"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="511304006" version="2" timestamp="2018-09-05T13:36:58Z" changeset="62312372" uid="143040" user="cartojo">
+    <bounds minlat="42.4996965" minlon="13.5568425" maxlat="42.4999360" maxlon="13.5581956"/>
+    <nd ref="868379785" lat="42.4996965" lon="13.5581956"/>
+    <nd ref="5884817409" lat="42.4997654" lon="13.5578063"/>
+    <nd ref="506983358" lat="42.4999360" lon="13.5568425"/>
+    <tag k="surface" v="paved"/>
+    <tag k="source" v="Mountainbike-Magazin Trans-Abruzzen"/>
+    <tag k="name" v="strada Provinciale 43"/>
+    <tag k="highway" v="unclassified"/>
+  </way>
+</old>
+<new>
+  <way id="511304006" version="5" timestamp="2024-05-15T20:12:21Z" changeset="151379748" uid="1914637" user="a1ca424">
+    <bounds minlat="42.4996965" minlon="13.5568425" maxlat="42.4999360" maxlon="13.5581956"/>
+    <nd ref="868379785" lat="42.4996965" lon="13.5581956"/>
+    <nd ref="5884817409" lat="42.4997654" lon="13.5578063"/>
+    <nd ref="506983358" lat="42.4999360" lon="13.5568425"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="strada Provinciale 43"/>
+    <tag k="source" v="Mountainbike-Magazin Trans-Abruzzen"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
