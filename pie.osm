@@ -1,135 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.1 084b4234">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-06-27T00:47:53Z" areas="2024-06-13T01:59:49Z"/>
+<meta osm_base="2024-06-28T00:47:00Z" areas="2024-06-13T01:59:49Z"/>
 
 <action type="modify">
 <old>
-  <way id="376230148" version="14" timestamp="2023-05-01T20:41:49Z" changeset="135590536" uid="675302" user="Martj9">
-    <bounds minlat="45.1381573" minlon="7.0600549" maxlat="45.1384529" maxlon="7.0608900"/>
-    <nd ref="1476574716" lat="45.1384529" lon="7.0600549"/>
-    <nd ref="865019011" lat="45.1381573" lon="7.0608900"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="highway" v="residential"/>
-    <tag k="lanes" v="2"/>
-    <tag k="lit" v="yes"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Via Montello"/>
-    <tag k="parking:both" v="no"/>
-    <tag k="parking:both:restriction" v="no_parking"/>
-    <tag k="ref" v="SP225"/>
+  <way id="1037512139" version="1" timestamp="2022-03-06T10:21:00Z" changeset="118152623" uid="2976645" user="Jrachi">
+    <bounds minlat="45.7063468" minlon="8.1755431" maxlat="45.7067034" maxlon="8.1758737"/>
+    <nd ref="764145420" lat="45.7067034" lon="8.1755431"/>
+    <nd ref="859766865" lat="45.7066708" lon="8.1755862"/>
+    <nd ref="859767769" lat="45.7065709" lon="8.1757050"/>
+    <nd ref="859766639" lat="45.7064743" lon="8.1757931"/>
+    <nd ref="859767574" lat="45.7063468" lon="8.1758737"/>
     <tag k="sac_scale" v="hiking"/>
-    <tag k="sidewalk" v="no"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Giovanni Porta"/>
   </way>
 </old>
 <new>
-  <way id="376230148" version="15" timestamp="2024-06-26T14:16:52Z" changeset="153205412" uid="305001" user="voschix">
-    <bounds minlat="45.1381573" minlon="7.0600549" maxlat="45.1384529" maxlon="7.0608900"/>
-    <nd ref="1476574716" lat="45.1384529" lon="7.0600549"/>
-    <nd ref="865019011" lat="45.1381573" lon="7.0608900"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="highway" v="residential"/>
-    <tag k="lanes" v="2"/>
-    <tag k="lit" v="yes"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Via Montello"/>
-    <tag k="parking:both" v="no"/>
-    <tag k="parking:both:restriction" v="no_parking"/>
-    <tag k="ref" v="SP225"/>
+  <way id="1037512139" version="2" timestamp="2024-06-27T13:19:12Z" changeset="153247655" uid="20827557" user="Jacopo Nasi">
+    <bounds minlat="45.7063468" minlon="8.1755431" maxlat="45.7067034" maxlon="8.1758737"/>
+    <nd ref="764145420" lat="45.7067034" lon="8.1755431"/>
+    <nd ref="859766865" lat="45.7066708" lon="8.1755862"/>
+    <nd ref="859767769" lat="45.7065709" lon="8.1757050"/>
+    <nd ref="859766639" lat="45.7064743" lon="8.1757931"/>
+    <nd ref="859767574" lat="45.7063468" lon="8.1758737"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Giovanni Porta"/>
     <tag k="sac_scale" v="hiking"/>
-    <tag k="sidewalk" v="no"/>
-    <tag k="smoothness" v="good"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="377715232" version="5" timestamp="2022-09-10T15:52:22Z" changeset="126020939" uid="2976645" user="Jrachi">
-    <bounds minlat="45.1009910" minlon="7.3671956" maxlat="45.1035227" maxlon="7.3699482"/>
-    <nd ref="780196028" lat="45.1035227" lon="7.3699482"/>
-    <nd ref="3811027923" lat="45.1034239" lon="7.3697621"/>
-    <nd ref="3811027924" lat="45.1032629" lon="7.3694956"/>
-    <nd ref="3811027925" lat="45.1030291" lon="7.3691811"/>
-    <nd ref="3811027926" lat="45.1026139" lon="7.3687730"/>
-    <nd ref="3811027927" lat="45.1018091" lon="7.3679880"/>
-    <nd ref="774859204" lat="45.1009910" lon="7.3671956"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="name" v="Via Villardora"/>
-    <tag k="ref" v="SP198"/>
-    <tag k="sac_scale" v="hiking"/>
-  </way>
-</old>
-<new>
-  <way id="377715232" version="6" timestamp="2024-06-26T14:16:52Z" changeset="153205412" uid="305001" user="voschix">
-    <bounds minlat="45.1009910" minlon="7.3671956" maxlat="45.1035227" maxlon="7.3699482"/>
-    <nd ref="780196028" lat="45.1035227" lon="7.3699482"/>
-    <nd ref="3811027923" lat="45.1034239" lon="7.3697621"/>
-    <nd ref="3811027924" lat="45.1032629" lon="7.3694956"/>
-    <nd ref="3811027925" lat="45.1030291" lon="7.3691811"/>
-    <nd ref="3811027926" lat="45.1026139" lon="7.3687730"/>
-    <nd ref="3811027927" lat="45.1018091" lon="7.3679880"/>
-    <nd ref="774859204" lat="45.1009910" lon="7.3671956"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="name" v="Via Villardora"/>
-    <tag k="ref" v="SP198"/>
-    <tag k="sac_scale" v="hiking"/>
-    <tag k="smoothness" v="good"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="461665703" version="11" timestamp="2023-05-01T20:39:27Z" changeset="135590468" uid="675302" user="Martj9">
-    <bounds minlat="45.1384529" minlon="7.0580782" maxlat="45.1390956" maxlon="7.0600549"/>
-    <nd ref="4571382000" lat="45.1390956" lon="7.0580782"/>
-    <nd ref="9814477677" lat="45.1390603" lon="7.0581853"/>
-    <nd ref="2951390610" lat="45.1389814" lon="7.0584248"/>
-    <nd ref="2951390605" lat="45.1388626" lon="7.0587863"/>
-    <nd ref="9814477694" lat="45.1387803" lon="7.0590413"/>
-    <nd ref="9814477697" lat="45.1386286" lon="7.0595108"/>
-    <nd ref="1476574716" lat="45.1384529" lon="7.0600549"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="highway" v="residential"/>
-    <tag k="lanes" v="2"/>
-    <tag k="lit" v="yes"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Via Montello"/>
-    <tag k="parking:both" v="no"/>
-    <tag k="parking:both:restriction" v="no_parking"/>
-    <tag k="ref" v="SP225"/>
-    <tag k="sac_scale" v="hiking"/>
-    <tag k="sidewalk" v="no"/>
-  </way>
-</old>
-<new>
-  <way id="461665703" version="12" timestamp="2024-06-26T14:16:52Z" changeset="153205412" uid="305001" user="voschix">
-    <bounds minlat="45.1384529" minlon="7.0580782" maxlat="45.1390956" maxlon="7.0600549"/>
-    <nd ref="4571382000" lat="45.1390956" lon="7.0580782"/>
-    <nd ref="9814477677" lat="45.1390603" lon="7.0581853"/>
-    <nd ref="2951390610" lat="45.1389814" lon="7.0584248"/>
-    <nd ref="2951390605" lat="45.1388626" lon="7.0587863"/>
-    <nd ref="9814477694" lat="45.1387803" lon="7.0590413"/>
-    <nd ref="9814477697" lat="45.1386286" lon="7.0595108"/>
-    <nd ref="1476574716" lat="45.1384529" lon="7.0600549"/>
-    <tag k="cycleway:both" v="no"/>
-    <tag k="highway" v="residential"/>
-    <tag k="lanes" v="2"/>
-    <tag k="lit" v="yes"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Via Montello"/>
-    <tag k="parking:both" v="no"/>
-    <tag k="parking:both:restriction" v="no_parking"/>
-    <tag k="ref" v="SP225"/>
-    <tag k="sac_scale" v="hiking"/>
-    <tag k="sidewalk" v="no"/>
-    <tag k="smoothness" v="good"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
