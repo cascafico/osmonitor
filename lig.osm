@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.1 084b4234">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-07-12T00:46:40Z" areas="2024-07-11T23:10:46Z"/>
+<meta osm_base="2024-07-12T00:48:43Z" areas="2024-07-11T21:32:35Z"/>
 
 <action type="modify">
 <old>
@@ -593,47 +593,6 @@
     <nd ref="3997326144" lat="44.4729873" lon="9.5109085"/>
     <nd ref="3997326145" lat="44.4730147" lon="9.5107967"/>
     <tag k="highway" v="path"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="1014357118" version="4" timestamp="2024-02-10T16:08:44Z" changeset="147298759" uid="683102" user="NonnEmilia">
-    <bounds minlat="44.6955012" minlon="10.6296328" maxlat="44.6955553" maxlon="10.6296911"/>
-    <nd ref="611278880" lat="44.6955012" lon="10.6296911"/>
-    <nd ref="502929352" lat="44.6955553" lon="10.6296328"/>
-    <tag k="taxi" v="yes"/>
-    <tag k="bus" v="yes"/>
-    <tag k="disabled" v="yes"/>
-    <tag k="electric_car" v="yes"/>
-    <tag k="emergency" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="moped" v="yes"/>
-    <tag k="motor_vehicle" v="permit"/>
-    <tag k="name" v="Via Ludovico Ariosto"/>
-    <tag k="name:en" v="Ludovico Arioso Street"/>
-    <tag k="name:etymology:wikidata" v="Q48900"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</old>
-<new>
-  <way id="1014357118" version="5" timestamp="2024-07-11T17:29:49Z" changeset="153822083" uid="207544" user="cacaito76it">
-    <bounds minlat="44.6955012" minlon="10.6296328" maxlat="44.6955553" maxlon="10.6296911"/>
-    <nd ref="611278880" lat="44.6955012" lon="10.6296911"/>
-    <nd ref="502929352" lat="44.6955553" lon="10.6296328"/>
-    <tag k="bus" v="yes"/>
-    <tag k="disabled" v="yes"/>
-    <tag k="electric_car" v="yes"/>
-    <tag k="emergency" v="yes"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="moped" v="yes"/>
-    <tag k="motor_vehicle" v="permit"/>
-    <tag k="name" v="Via Ludovico Ariosto"/>
-    <tag k="name:en" v="Ludovico Arioso Street"/>
-    <tag k="name:etymology:wikidata" v="Q48900"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="taxi" v="yes"/>
   </way>
 </new>
 </action>
