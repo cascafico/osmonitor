@@ -1,300 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.1 084b4234">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-07-14T00:53:44Z" areas="2024-07-13T22:43:15Z"/>
+<meta osm_base="2024-07-15T00:52:13Z" areas="2024-07-14T23:04:35Z"/>
 
-<action type="modify">
+<action type="delete">
 <old>
-  <node id="448010257" lat="44.4811066" lon="9.4921753" version="3" timestamp="2015-01-24T11:00:38Z" changeset="28369572" uid="195228" user="vancori"/>
+  <node id="448010240" lat="44.4819855" lon="9.4937913" version="4" timestamp="2017-05-06T20:43:02Z" changeset="48461198" uid="2175620" user="AlfredoSP"/>
 </old>
 <new>
-  <node id="448010257" lat="44.4811603" lon="9.4920818" version="4" timestamp="2024-07-13T19:52:36Z" changeset="153907731" uid="9548407" user="Emanuele Maz"/>
+  <node id="448010240" visible="false" version="5" timestamp="2024-07-14T08:10:46Z" changeset="153919940" uid="9548407" user="Emanuele Maz"/>
 </new>
 </action>
 <action type="modify">
 <old>
-  <node id="448010260" lat="44.4811890" lon="9.4923822" version="4" timestamp="2024-03-10T16:43:56Z" changeset="148470957" uid="9548407" user="Emanuele Maz"/>
+  <node id="5415790451" version="1" timestamp="2018-02-16T06:45:20Z" changeset="56404501" uid="1229015" user="franca_c"/>
 </old>
 <new>
-  <node id="448010260" lat="44.4811875" lon="9.4923395" version="5" timestamp="2024-07-13T19:52:36Z" changeset="153907731" uid="9548407" user="Emanuele Maz"/>
+  <node id="5415790451" lat="44.4819855" lon="9.4937913" version="2" timestamp="2024-07-14T08:10:46Z" changeset="153919940" uid="9548407" user="Emanuele Maz">
+    <tag k="ele" v="1655"/>
+    <tag k="name" v="Forcella del Penna"/>
+    <tag k="natural" v="saddle"/>
+  </node>
 </new>
 </action>
 <action type="modify">
 <old>
-  <node id="448010261" lat="44.4811635" lon="9.4922688" version="5" timestamp="2024-03-10T16:43:56Z" changeset="148470957" uid="9548407" user="Emanuele Maz"/>
-</old>
-<new>
-  <node id="448010261" lat="44.4812172" lon="9.4922220" version="6" timestamp="2024-07-13T19:52:36Z" changeset="153907731" uid="9548407" user="Emanuele Maz"/>
-</new>
-</action>
-<action type="modify">
-<old>
-  <node id="3307310338" lat="44.4811376" lon="9.4922256" version="2" timestamp="2024-03-10T16:43:56Z" changeset="148470957" uid="9548407" user="Emanuele Maz"/>
-</old>
-<new>
-  <node id="3307310338" lat="44.4812116" lon="9.4921504" version="3" timestamp="2024-07-13T19:52:36Z" changeset="153907731" uid="9548407" user="Emanuele Maz"/>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="38089607" version="12" timestamp="2024-03-10T16:43:56Z" changeset="148470957" uid="9548407" user="Emanuele Maz">
-    <bounds minlat="44.4792300" minlon="9.4815195" maxlat="44.4811890" maxlon="9.4923822"/>
-    <nd ref="448010303" lat="44.4792300" lon="9.4815195"/>
-    <nd ref="448010300" lat="44.4792973" lon="9.4816880"/>
-    <nd ref="448010301" lat="44.4794044" lon="9.4819029"/>
-    <nd ref="448010297" lat="44.4796167" lon="9.4823985"/>
-    <nd ref="448010299" lat="44.4796911" lon="9.4826680"/>
-    <nd ref="2800494144" lat="44.4796991" lon="9.4828079"/>
-    <nd ref="448010295" lat="44.4796596" lon="9.4831464"/>
-    <nd ref="448010296" lat="44.4796439" lon="9.4836031"/>
-    <nd ref="448010276" lat="44.4795372" lon="9.4841112"/>
-    <nd ref="448010277" lat="44.4794926" lon="9.4847059"/>
-    <nd ref="448010279" lat="44.4795758" lon="9.4854780"/>
-    <nd ref="448010280" lat="44.4797633" lon="9.4861707"/>
-    <nd ref="448010281" lat="44.4797822" lon="9.4867328"/>
-    <nd ref="448010282" lat="44.4797900" lon="9.4878573"/>
-    <nd ref="448010283" lat="44.4799238" lon="9.4888621"/>
-    <nd ref="448010284" lat="44.4801523" lon="9.4894608"/>
-    <nd ref="448010267" lat="44.4803266" lon="9.4898561"/>
-    <nd ref="448010268" lat="44.4803806" lon="9.4904692"/>
-    <nd ref="448010269" lat="44.4805313" lon="9.4907983"/>
-    <nd ref="448010271" lat="44.4807221" lon="9.4910369"/>
-    <nd ref="448010272" lat="44.4808841" lon="9.4912621"/>
-    <nd ref="448010273" lat="44.4809270" lon="9.4914658"/>
-    <nd ref="448010274" lat="44.4809858" lon="9.4917917"/>
-    <nd ref="448010275" lat="44.4810427" lon="9.4918805"/>
-    <nd ref="448010259" lat="44.4810665" lon="9.4920074"/>
-    <nd ref="448010257" lat="44.4811066" lon="9.4921753"/>
-    <nd ref="3307310338" lat="44.4811376" lon="9.4922256"/>
-    <nd ref="448010261" lat="44.4811635" lon="9.4922688"/>
-    <nd ref="448010260" lat="44.4811890" lon="9.4923822"/>
+  <way id="71356561" version="11" timestamp="2017-12-06T21:10:12Z" changeset="54414576" uid="2175620" user="AlfredoSP">
+    <bounds minlat="44.4818756" minlon="9.4935849" maxlat="44.4825538" maxlon="9.4957087"/>
+    <nd ref="448010241" lat="44.4824150" lon="9.4957087"/>
+    <nd ref="2823255637" lat="44.4824164" lon="9.4955598"/>
+    <nd ref="4839116787" lat="44.4823968" lon="9.4954559"/>
+    <nd ref="448010247" lat="44.4824562" lon="9.4952987"/>
+    <nd ref="4839116788" lat="44.4824671" lon="9.4951411"/>
+    <nd ref="448010246" lat="44.4825236" lon="9.4949040"/>
+    <nd ref="2823255639" lat="44.4825538" lon="9.4947601"/>
+    <nd ref="4839116790" lat="44.4825405" lon="9.4946535"/>
+    <nd ref="448010238" lat="44.4824872" lon="9.4945650"/>
+    <nd ref="4839116782" lat="44.4824131" lon="9.4944542"/>
+    <nd ref="4839116784" lat="44.4823387" lon="9.4943075"/>
+    <nd ref="448010236" lat="44.4821969" lon="9.4942029"/>
+    <nd ref="2724969258" lat="44.4820743" lon="9.4940174"/>
+    <nd ref="2724969257" lat="44.4820027" lon="9.4939155"/>
+    <nd ref="448010240" lat="44.4819855" lon="9.4937913"/>
+    <nd ref="1033927852" lat="44.4819982" lon="9.4936976"/>
+    <nd ref="448010239" lat="44.4819490" lon="9.4935935"/>
+    <nd ref="448010255" lat="44.4818756" lon="9.4935849"/>
     <tag k="highway" v="path"/>
     <tag k="sac_scale" v="mountain_hiking"/>
     <tag k="surface" v="dirt"/>
-    <tag k="symbol:it" v="A5; quadrato pieno giallo; + giallo"/>
+    <tag k="symbol:it" v="triangolo giallo"/>
     <tag k="trail_visibility" v="good"/>
   </way>
 </old>
 <new>
-  <way id="38089607" version="12" timestamp="2024-03-10T16:43:56Z" changeset="148470957" uid="9548407" user="Emanuele Maz">
-    <bounds minlat="44.4792300" minlon="9.4815195" maxlat="44.4812172" maxlon="9.4923395"/>
-    <nd ref="448010303" lat="44.4792300" lon="9.4815195"/>
-    <nd ref="448010300" lat="44.4792973" lon="9.4816880"/>
-    <nd ref="448010301" lat="44.4794044" lon="9.4819029"/>
-    <nd ref="448010297" lat="44.4796167" lon="9.4823985"/>
-    <nd ref="448010299" lat="44.4796911" lon="9.4826680"/>
-    <nd ref="2800494144" lat="44.4796991" lon="9.4828079"/>
-    <nd ref="448010295" lat="44.4796596" lon="9.4831464"/>
-    <nd ref="448010296" lat="44.4796439" lon="9.4836031"/>
-    <nd ref="448010276" lat="44.4795372" lon="9.4841112"/>
-    <nd ref="448010277" lat="44.4794926" lon="9.4847059"/>
-    <nd ref="448010279" lat="44.4795758" lon="9.4854780"/>
-    <nd ref="448010280" lat="44.4797633" lon="9.4861707"/>
-    <nd ref="448010281" lat="44.4797822" lon="9.4867328"/>
-    <nd ref="448010282" lat="44.4797900" lon="9.4878573"/>
-    <nd ref="448010283" lat="44.4799238" lon="9.4888621"/>
-    <nd ref="448010284" lat="44.4801523" lon="9.4894608"/>
-    <nd ref="448010267" lat="44.4803266" lon="9.4898561"/>
-    <nd ref="448010268" lat="44.4803806" lon="9.4904692"/>
-    <nd ref="448010269" lat="44.4805313" lon="9.4907983"/>
-    <nd ref="448010271" lat="44.4807221" lon="9.4910369"/>
-    <nd ref="448010272" lat="44.4808841" lon="9.4912621"/>
-    <nd ref="448010273" lat="44.4809270" lon="9.4914658"/>
-    <nd ref="448010274" lat="44.4809858" lon="9.4917917"/>
-    <nd ref="448010275" lat="44.4810427" lon="9.4918805"/>
-    <nd ref="448010259" lat="44.4810665" lon="9.4920074"/>
-    <nd ref="448010257" lat="44.4811603" lon="9.4920818"/>
-    <nd ref="3307310338" lat="44.4812116" lon="9.4921504"/>
-    <nd ref="448010261" lat="44.4812172" lon="9.4922220"/>
-    <nd ref="448010260" lat="44.4811875" lon="9.4923395"/>
+  <way id="71356561" version="12" timestamp="2024-07-14T08:10:46Z" changeset="153919940" uid="9548407" user="Emanuele Maz">
+    <bounds minlat="44.4818756" minlon="9.4935849" maxlat="44.4825538" maxlon="9.4957087"/>
+    <nd ref="448010241" lat="44.4824150" lon="9.4957087"/>
+    <nd ref="2823255637" lat="44.4824164" lon="9.4955598"/>
+    <nd ref="4839116787" lat="44.4823968" lon="9.4954559"/>
+    <nd ref="448010247" lat="44.4824562" lon="9.4952987"/>
+    <nd ref="4839116788" lat="44.4824671" lon="9.4951411"/>
+    <nd ref="448010246" lat="44.4825236" lon="9.4949040"/>
+    <nd ref="2823255639" lat="44.4825538" lon="9.4947601"/>
+    <nd ref="4839116790" lat="44.4825405" lon="9.4946535"/>
+    <nd ref="448010238" lat="44.4824872" lon="9.4945650"/>
+    <nd ref="4839116782" lat="44.4824131" lon="9.4944542"/>
+    <nd ref="4839116784" lat="44.4823387" lon="9.4943075"/>
+    <nd ref="448010236" lat="44.4821969" lon="9.4942029"/>
+    <nd ref="2724969258" lat="44.4820743" lon="9.4940174"/>
+    <nd ref="2724969257" lat="44.4820027" lon="9.4939155"/>
+    <nd ref="5415790451" lat="44.4819855" lon="9.4937913"/>
+    <nd ref="1033927852" lat="44.4819982" lon="9.4936976"/>
+    <nd ref="448010239" lat="44.4819490" lon="9.4935935"/>
+    <nd ref="448010255" lat="44.4818756" lon="9.4935849"/>
     <tag k="highway" v="path"/>
     <tag k="sac_scale" v="mountain_hiking"/>
     <tag k="surface" v="dirt"/>
-    <tag k="symbol:it" v="A5; quadrato pieno giallo; + giallo"/>
+    <tag k="symbol:it" v="triangolo giallo"/>
     <tag k="trail_visibility" v="good"/>
   </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="1259737771" version="1" timestamp="2024-03-10T16:43:56Z" changeset="148470957" uid="9548407" user="Emanuele Maz">
-    <bounds minlat="44.4811890" minlon="9.4923822" maxlat="44.4813175" maxlon="9.4926856"/>
-    <nd ref="448010260" lat="44.4811890" lon="9.4923822"/>
-    <nd ref="3307310339" lat="44.4811983" lon="9.4924583"/>
-    <nd ref="448010264" lat="44.4812098" lon="9.4925007"/>
-    <nd ref="2800494434" lat="44.4812319" lon="9.4925564"/>
-    <nd ref="2800494436" lat="44.4812467" lon="9.4925949"/>
-    <nd ref="2800494435" lat="44.4812617" lon="9.4926278"/>
-    <nd ref="2800494437" lat="44.4812859" lon="9.4926618"/>
-    <nd ref="448010262" lat="44.4813175" lon="9.4926856"/>
-    <tag k="highway" v="path"/>
-    <tag k="sac_scale" v="mountain_hiking"/>
-    <tag k="surface" v="dirt"/>
-    <tag k="symbol:it" v="A5; quadrato pieno giallo; + giallo"/>
-    <tag k="trail_visibility" v="good"/>
-  </way>
-</old>
-<new>
-  <way id="1259737771" version="1" timestamp="2024-03-10T16:43:56Z" changeset="148470957" uid="9548407" user="Emanuele Maz">
-    <bounds minlat="44.4811875" minlon="9.4923395" maxlat="44.4813175" maxlon="9.4926856"/>
-    <nd ref="448010260" lat="44.4811875" lon="9.4923395"/>
-    <nd ref="3307310339" lat="44.4811983" lon="9.4924583"/>
-    <nd ref="448010264" lat="44.4812098" lon="9.4925007"/>
-    <nd ref="2800494434" lat="44.4812319" lon="9.4925564"/>
-    <nd ref="2800494436" lat="44.4812467" lon="9.4925949"/>
-    <nd ref="2800494435" lat="44.4812617" lon="9.4926278"/>
-    <nd ref="2800494437" lat="44.4812859" lon="9.4926618"/>
-    <nd ref="448010262" lat="44.4813175" lon="9.4926856"/>
-    <tag k="highway" v="path"/>
-    <tag k="sac_scale" v="mountain_hiking"/>
-    <tag k="surface" v="dirt"/>
-    <tag k="symbol:it" v="A5; quadrato pieno giallo; + giallo"/>
-    <tag k="trail_visibility" v="good"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <relation id="1114311" version="13" timestamp="2024-03-10T16:43:56Z" changeset="148470957" uid="9548407" user="Emanuele Maz">
-    <bounds minlat="44.4792300" minlon="9.4815195" maxlat="44.4813175" maxlon="9.4926856"/>
-    <member type="way" ref="38089607" role="">
-      <nd lat="44.4792300" lon="9.4815195"/>
-      <nd lat="44.4792973" lon="9.4816880"/>
-      <nd lat="44.4794044" lon="9.4819029"/>
-      <nd lat="44.4796167" lon="9.4823985"/>
-      <nd lat="44.4796911" lon="9.4826680"/>
-      <nd lat="44.4796991" lon="9.4828079"/>
-      <nd lat="44.4796596" lon="9.4831464"/>
-      <nd lat="44.4796439" lon="9.4836031"/>
-      <nd lat="44.4795372" lon="9.4841112"/>
-      <nd lat="44.4794926" lon="9.4847059"/>
-      <nd lat="44.4795758" lon="9.4854780"/>
-      <nd lat="44.4797633" lon="9.4861707"/>
-      <nd lat="44.4797822" lon="9.4867328"/>
-      <nd lat="44.4797900" lon="9.4878573"/>
-      <nd lat="44.4799238" lon="9.4888621"/>
-      <nd lat="44.4801523" lon="9.4894608"/>
-      <nd lat="44.4803266" lon="9.4898561"/>
-      <nd lat="44.4803806" lon="9.4904692"/>
-      <nd lat="44.4805313" lon="9.4907983"/>
-      <nd lat="44.4807221" lon="9.4910369"/>
-      <nd lat="44.4808841" lon="9.4912621"/>
-      <nd lat="44.4809270" lon="9.4914658"/>
-      <nd lat="44.4809858" lon="9.4917917"/>
-      <nd lat="44.4810427" lon="9.4918805"/>
-      <nd lat="44.4810665" lon="9.4920074"/>
-      <nd lat="44.4811066" lon="9.4921753"/>
-      <nd lat="44.4811376" lon="9.4922256"/>
-      <nd lat="44.4811635" lon="9.4922688"/>
-      <nd lat="44.4811890" lon="9.4923822"/>
-    </member>
-    <member type="way" ref="1259737771" role="">
-      <nd lat="44.4811890" lon="9.4923822"/>
-      <nd lat="44.4811983" lon="9.4924583"/>
-      <nd lat="44.4812098" lon="9.4925007"/>
-      <nd lat="44.4812319" lon="9.4925564"/>
-      <nd lat="44.4812467" lon="9.4925949"/>
-      <nd lat="44.4812617" lon="9.4926278"/>
-      <nd lat="44.4812859" lon="9.4926618"/>
-      <nd lat="44.4813175" lon="9.4926856"/>
-    </member>
-    <tag k="ascent" v="165"/>
-    <tag k="cai_scale" v="E"/>
-    <tag k="descent" v="25"/>
-    <tag k="distance" v="0.959"/>
-    <tag k="duration:backward" v="00:20"/>
-    <tag k="duration:forward" v="00:30"/>
-    <tag k="email" v="sentieri@caiparma.it"/>
-    <tag k="from" v="Passo dell'Incisa"/>
-    <tag k="name" v="Passo dell'Incisa - Monte Penna (Variante 871)"/>
-    <tag k="network" v="lwn"/>
-    <tag k="note" v="relation maintained by Colombini CAI Parma - Gruppo territoriale Alta Val Taro"/>
-    <tag k="note:it" v="relation manutenuta da Colombini CAI Parma - Gruppo territoriale Alta Val Taro"/>
-    <tag k="operator" v="Club Alpino Italiano - Sezione di Parma - Gruppo territoriale Alta Val Taro"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:871V:black"/>
-    <tag k="ref" v="871V"/>
-    <tag k="route" v="hiking"/>
-    <tag k="rwn:name" v="Rete Escursionistica Emilia-Romagna (REER)"/>
-    <tag k="source" v="survey:CAI"/>
-    <tag k="source:ref" v="9224001"/>
-    <tag k="survey:date" v="2022-11-17"/>
-    <tag k="symbol" v="871V on white red flags"/>
-    <tag k="symbol:it" v="871V su bandierina bianca e rossa"/>
-    <tag k="to" v="Monte Penna"/>
-    <tag k="type" v="route"/>
-    <tag k="website" v="https://www.caiparma.it/"/>
-  </relation>
-</old>
-<new>
-  <relation id="1114311" version="13" timestamp="2024-03-10T16:43:56Z" changeset="148470957" uid="9548407" user="Emanuele Maz">
-    <bounds minlat="44.4792300" minlon="9.4815195" maxlat="44.4813175" maxlon="9.4926856"/>
-    <member type="way" ref="38089607" role="">
-      <nd lat="44.4792300" lon="9.4815195"/>
-      <nd lat="44.4792973" lon="9.4816880"/>
-      <nd lat="44.4794044" lon="9.4819029"/>
-      <nd lat="44.4796167" lon="9.4823985"/>
-      <nd lat="44.4796911" lon="9.4826680"/>
-      <nd lat="44.4796991" lon="9.4828079"/>
-      <nd lat="44.4796596" lon="9.4831464"/>
-      <nd lat="44.4796439" lon="9.4836031"/>
-      <nd lat="44.4795372" lon="9.4841112"/>
-      <nd lat="44.4794926" lon="9.4847059"/>
-      <nd lat="44.4795758" lon="9.4854780"/>
-      <nd lat="44.4797633" lon="9.4861707"/>
-      <nd lat="44.4797822" lon="9.4867328"/>
-      <nd lat="44.4797900" lon="9.4878573"/>
-      <nd lat="44.4799238" lon="9.4888621"/>
-      <nd lat="44.4801523" lon="9.4894608"/>
-      <nd lat="44.4803266" lon="9.4898561"/>
-      <nd lat="44.4803806" lon="9.4904692"/>
-      <nd lat="44.4805313" lon="9.4907983"/>
-      <nd lat="44.4807221" lon="9.4910369"/>
-      <nd lat="44.4808841" lon="9.4912621"/>
-      <nd lat="44.4809270" lon="9.4914658"/>
-      <nd lat="44.4809858" lon="9.4917917"/>
-      <nd lat="44.4810427" lon="9.4918805"/>
-      <nd lat="44.4810665" lon="9.4920074"/>
-      <nd lat="44.4811603" lon="9.4920818"/>
-      <nd lat="44.4812116" lon="9.4921504"/>
-      <nd lat="44.4812172" lon="9.4922220"/>
-      <nd lat="44.4811875" lon="9.4923395"/>
-    </member>
-    <member type="way" ref="1259737771" role="">
-      <nd lat="44.4811875" lon="9.4923395"/>
-      <nd lat="44.4811983" lon="9.4924583"/>
-      <nd lat="44.4812098" lon="9.4925007"/>
-      <nd lat="44.4812319" lon="9.4925564"/>
-      <nd lat="44.4812467" lon="9.4925949"/>
-      <nd lat="44.4812617" lon="9.4926278"/>
-      <nd lat="44.4812859" lon="9.4926618"/>
-      <nd lat="44.4813175" lon="9.4926856"/>
-    </member>
-    <tag k="ascent" v="165"/>
-    <tag k="cai_scale" v="E"/>
-    <tag k="descent" v="25"/>
-    <tag k="distance" v="0.959"/>
-    <tag k="duration:backward" v="00:20"/>
-    <tag k="duration:forward" v="00:30"/>
-    <tag k="email" v="sentieri@caiparma.it"/>
-    <tag k="from" v="Passo dell'Incisa"/>
-    <tag k="name" v="Passo dell'Incisa - Monte Penna (Variante 871)"/>
-    <tag k="network" v="lwn"/>
-    <tag k="note" v="relation maintained by Colombini CAI Parma - Gruppo territoriale Alta Val Taro"/>
-    <tag k="note:it" v="relation manutenuta da Colombini CAI Parma - Gruppo territoriale Alta Val Taro"/>
-    <tag k="operator" v="Club Alpino Italiano - Sezione di Parma - Gruppo territoriale Alta Val Taro"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:871V:black"/>
-    <tag k="ref" v="871V"/>
-    <tag k="route" v="hiking"/>
-    <tag k="rwn:name" v="Rete Escursionistica Emilia-Romagna (REER)"/>
-    <tag k="source" v="survey:CAI"/>
-    <tag k="source:ref" v="9224001"/>
-    <tag k="survey:date" v="2022-11-17"/>
-    <tag k="symbol" v="871V on white red flags"/>
-    <tag k="symbol:it" v="871V su bandierina bianca e rossa"/>
-    <tag k="to" v="Monte Penna"/>
-    <tag k="type" v="route"/>
-    <tag k="website" v="https://www.caiparma.it/"/>
-  </relation>
 </new>
 </action>
 
