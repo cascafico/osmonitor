@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.1 084b4234">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-07-30T00:46:36Z" areas="2024-07-29T23:14:14Z"/>
+<meta osm_base="2024-07-31T00:38:14Z" areas="2024-07-30T23:03:13Z"/>
 
 <action type="modify">
 <old>
-  <way id="133158910" version="17" timestamp="2024-01-30T23:53:03Z" changeset="146883276" uid="123412" user="totera">
+  <way id="133158910" version="18" timestamp="2024-07-29T21:20:08Z" changeset="154581376" uid="123412" user="totera">
     <bounds minlat="43.3322777" minlon="12.9016349" maxlat="43.3329289" maxlon="12.9027450"/>
     <nd ref="1465157942" lat="43.3322777" lon="12.9016349"/>
     <nd ref="9043614198" lat="43.3323202" lon="12.9016791"/>
@@ -17,16 +17,18 @@
     <nd ref="1465156736" lat="43.3326592" lon="12.9022139"/>
     <nd ref="1466722783" lat="43.3328363" lon="12.9025633"/>
     <nd ref="1465218140" lat="43.3329289" lon="12.9027450"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="name" v="Viale Zobicco"/>
     <tag k="cycleway:right" v="no"/>
     <tag k="highway" v="unclassified"/>
     <tag k="lane_markings" v="no"/>
-    <tag k="name" v="Viale Zobicco"/>
+    <tag k="maxspeed" v="35"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="zone:maxspeed" v="IT:35"/>
   </way>
 </old>
 <new>
-  <way id="133158910" version="18" timestamp="2024-07-29T21:20:08Z" changeset="154581376" uid="123412" user="totera">
+  <way id="133158910" version="19" timestamp="2024-07-30T22:59:46Z" changeset="154626201" uid="123412" user="totera">
     <bounds minlat="43.3322777" minlon="12.9016349" maxlat="43.3329289" maxlon="12.9027450"/>
     <nd ref="1465157942" lat="43.3322777" lon="12.9016349"/>
     <nd ref="9043614198" lat="43.3323202" lon="12.9016791"/>
@@ -42,7 +44,7 @@
     <tag k="highway" v="unclassified"/>
     <tag k="lane_markings" v="no"/>
     <tag k="maxspeed" v="35"/>
-    <tag k="name" v="Viale Zobicco"/>
+    <tag k="name" v="Viale Giambattista Zobicco"/>
     <tag k="oneway" v="yes"/>
     <tag k="surface" v="asphalt"/>
     <tag k="zone:maxspeed" v="IT:35"/>
