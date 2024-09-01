@@ -1,24 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.1 084b4234">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-08-31T00:52:14Z" areas="2024-08-30T21:06:26Z"/>
+<meta osm_base="2024-09-01T01:02:58Z" areas="2024-08-31T22:08:14Z"/>
 
 <action type="modify">
 <old>
-  <node id="5074209123" lat="45.2877575" lon="7.1908122" version="2" timestamp="2022-12-07T16:18:12Z" changeset="129828258" uid="13062646" user="GiaMar">
-    <tag k="loc_name" v="Ghicet du Rat"/>
-    <tag k="natural" v="saddle"/>
-    <tag k="ele" v="2438"/>
-    <tag k="mountain_pass" v="yes"/>
-  </node>
+  <way id="202808705" version="6" timestamp="2021-05-23T19:27:37Z" changeset="105182029" uid="1550808" user="marcogino">
+    <bounds minlat="45.4436468" minlon="7.4751811" maxlat="45.4439879" maxlon="7.4791853"/>
+    <nd ref="1855307255" lat="45.4439879" lon="7.4751811"/>
+    <nd ref="2127477546" lat="45.4439293" lon="7.4755944"/>
+    <nd ref="1855307248" lat="45.4439212" lon="7.4757577"/>
+    <nd ref="8758644200" lat="45.4439286" lon="7.4760343"/>
+    <nd ref="8758644199" lat="45.4438450" lon="7.4760577"/>
+    <nd ref="1855307240" lat="45.4438299" lon="7.4762646"/>
+    <nd ref="1855307236" lat="45.4437976" lon="7.4767316"/>
+    <nd ref="1855307234" lat="45.4437790" lon="7.4770546"/>
+    <nd ref="1855307233" lat="45.4437301" lon="7.4774282"/>
+    <nd ref="1855307231" lat="45.4436771" lon="7.4779260"/>
+    <nd ref="1855307228" lat="45.4436468" lon="7.4785429"/>
+    <nd ref="1855307232" lat="45.4436884" lon="7.4791853"/>
+    <tag k="trail_visibility" v="good"/>
+    <tag k="highway" v="path"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+  </way>
 </old>
 <new>
-  <node id="5074209123" lat="45.2877575" lon="7.1908122" version="3" timestamp="2024-08-30T19:05:55Z" changeset="155988349" uid="13062646" user="GiaMar">
-    <tag k="ele" v="2438"/>
-    <tag k="mountain_pass" v="yes"/>
-    <tag k="name" v="Ghicet dou Rat"/>
-    <tag k="natural" v="saddle"/>
-  </node>
+  <way id="202808705" version="8" timestamp="2024-08-31T10:04:25Z" changeset="156007171" uid="17072368" user="bassl">
+    <bounds minlat="45.4436468" minlon="7.4751811" maxlat="45.4439879" maxlon="7.4791853"/>
+    <nd ref="1855307255" lat="45.4439879" lon="7.4751811"/>
+    <nd ref="2127477546" lat="45.4439293" lon="7.4755944"/>
+    <nd ref="1855307248" lat="45.4439212" lon="7.4757577"/>
+    <nd ref="8758644200" lat="45.4439286" lon="7.4760343"/>
+    <nd ref="8758644199" lat="45.4438450" lon="7.4760577"/>
+    <nd ref="1855307240" lat="45.4438299" lon="7.4762646"/>
+    <nd ref="1855307236" lat="45.4437976" lon="7.4767316"/>
+    <nd ref="1855307234" lat="45.4437790" lon="7.4770546"/>
+    <nd ref="1855307233" lat="45.4437301" lon="7.4774282"/>
+    <nd ref="1855307231" lat="45.4436771" lon="7.4779260"/>
+    <nd ref="1855307228" lat="45.4436468" lon="7.4785429"/>
+    <nd ref="1855307232" lat="45.4436884" lon="7.4791853"/>
+    <tag k="highway" v="path"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="202808706" version="7" timestamp="2020-02-08T10:52:21Z" changeset="80719963" uid="2976645" user="Jrachi">
+    <bounds minlat="45.4436884" minlon="7.4791853" maxlat="45.4463387" maxlon="7.4881659"/>
+    <nd ref="1855307232" lat="45.4436884" lon="7.4791853"/>
+    <nd ref="1855307239" lat="45.4438197" lon="7.4798212"/>
+    <nd ref="1855307249" lat="45.4439065" lon="7.4800416"/>
+    <nd ref="1855307256" lat="45.4440290" lon="7.4801879"/>
+    <nd ref="1855307258" lat="45.4440434" lon="7.4802803"/>
+    <nd ref="1855307253" lat="45.4439497" lon="7.4803240"/>
+    <nd ref="1855307252" lat="45.4439479" lon="7.4803907"/>
+    <nd ref="1855307260" lat="45.4441173" lon="7.4806834"/>
+    <nd ref="1855307262" lat="45.4442091" lon="7.4807476"/>
+    <nd ref="1855307267" lat="45.4443436" lon="7.4811149"/>
+    <nd ref="1855307270" lat="45.4444498" lon="7.4812535"/>
+    <nd ref="1855307268" lat="45.4444160" lon="7.4813255"/>
+    <nd ref="1855307272" lat="45.4444852" lon="7.4814741"/>
+    <nd ref="1855307273" lat="45.4445410" lon="7.4815402"/>
+    <nd ref="1855307277" lat="45.4446360" lon="7.4818644"/>
+    <nd ref="1855307275" lat="45.4446162" lon="7.4820980"/>
+    <nd ref="1855307278" lat="45.4447189" lon="7.4824420"/>
+    <nd ref="1855307284" lat="45.4448954" lon="7.4829760"/>
+    <nd ref="1855307292" lat="45.4453502" lon="7.4839545"/>
+    <nd ref="1855307293" lat="45.4456625" lon="7.4848587"/>
+    <nd ref="1855307294" lat="45.4458049" lon="7.4856934"/>
+    <nd ref="1855307295" lat="45.4458954" lon="7.4862960"/>
+    <nd ref="1855307296" lat="45.4461624" lon="7.4868512"/>
+    <nd ref="1855307300" lat="45.4462877" lon="7.4874761"/>
+    <nd ref="1855307299" lat="45.4462374" lon="7.4876794"/>
+    <nd ref="1855307297" lat="45.4461324" lon="7.4878668"/>
+    <nd ref="1855307298" lat="45.4462317" lon="7.4879799"/>
+    <nd ref="2127477691" lat="45.4462090" lon="7.4880330"/>
+    <nd ref="2127477750" lat="45.4462837" lon="7.4881195"/>
+    <nd ref="1855307301" lat="45.4463387" lon="7.4881659"/>
+    <tag k="trail_visibility" v="good"/>
+    <tag k="highway" v="path"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+  </way>
+</old>
+<new>
+  <way id="202808706" version="9" timestamp="2024-08-31T10:04:35Z" changeset="156007171" uid="17072368" user="bassl">
+    <bounds minlat="45.4436884" minlon="7.4791853" maxlat="45.4463387" maxlon="7.4881659"/>
+    <nd ref="1855307232" lat="45.4436884" lon="7.4791853"/>
+    <nd ref="1855307239" lat="45.4438197" lon="7.4798212"/>
+    <nd ref="1855307249" lat="45.4439065" lon="7.4800416"/>
+    <nd ref="1855307256" lat="45.4440290" lon="7.4801879"/>
+    <nd ref="1855307258" lat="45.4440434" lon="7.4802803"/>
+    <nd ref="1855307253" lat="45.4439497" lon="7.4803240"/>
+    <nd ref="1855307252" lat="45.4439479" lon="7.4803907"/>
+    <nd ref="1855307260" lat="45.4441173" lon="7.4806834"/>
+    <nd ref="1855307262" lat="45.4442091" lon="7.4807476"/>
+    <nd ref="1855307267" lat="45.4443436" lon="7.4811149"/>
+    <nd ref="1855307270" lat="45.4444498" lon="7.4812535"/>
+    <nd ref="1855307268" lat="45.4444160" lon="7.4813255"/>
+    <nd ref="1855307272" lat="45.4444852" lon="7.4814741"/>
+    <nd ref="1855307273" lat="45.4445410" lon="7.4815402"/>
+    <nd ref="1855307277" lat="45.4446360" lon="7.4818644"/>
+    <nd ref="1855307275" lat="45.4446162" lon="7.4820980"/>
+    <nd ref="1855307278" lat="45.4447189" lon="7.4824420"/>
+    <nd ref="1855307284" lat="45.4448954" lon="7.4829760"/>
+    <nd ref="1855307292" lat="45.4453502" lon="7.4839545"/>
+    <nd ref="1855307293" lat="45.4456625" lon="7.4848587"/>
+    <nd ref="1855307294" lat="45.4458049" lon="7.4856934"/>
+    <nd ref="1855307295" lat="45.4458954" lon="7.4862960"/>
+    <nd ref="1855307296" lat="45.4461624" lon="7.4868512"/>
+    <nd ref="1855307300" lat="45.4462877" lon="7.4874761"/>
+    <nd ref="1855307299" lat="45.4462374" lon="7.4876794"/>
+    <nd ref="1855307297" lat="45.4461324" lon="7.4878668"/>
+    <nd ref="1855307298" lat="45.4462317" lon="7.4879799"/>
+    <nd ref="2127477691" lat="45.4462090" lon="7.4880330"/>
+    <nd ref="2127477750" lat="45.4462837" lon="7.4881195"/>
+    <nd ref="1855307301" lat="45.4463387" lon="7.4881659"/>
+    <tag k="highway" v="path"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+    <tag k="trail_visibility" v="good"/>
+  </way>
 </new>
 </action>
 
