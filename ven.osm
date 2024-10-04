@@ -1,65 +1,274 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.1 084b4234">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-10-03T00:55:00Z" areas="2024-09-16T09:46:45Z"/>
+<meta osm_base="2024-10-04T00:54:37Z" areas="2024-09-16T09:46:45Z"/>
 
 <action type="modify">
 <old>
-  <way id="46346085" version="4" timestamp="2022-03-27T21:45:31Z" changeset="118997185" uid="305001" user="voschix">
-    <bounds minlat="45.5194313" minlon="11.0157831" maxlat="45.5195132" maxlon="11.0165660"/>
-    <nd ref="592296134" lat="45.5194313" lon="11.0157831"/>
-    <nd ref="9611693787" lat="45.5194944" lon="11.0162213"/>
-    <nd ref="9611693786" lat="45.5195132" lon="11.0164078"/>
-    <nd ref="592296140" lat="45.5195054" lon="11.0165660"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="lanes" v="1"/>
-    <tag k="highway" v="residential"/>
-  </way>
+  <relation id="9426368" version="12" timestamp="2019-05-04T14:31:59Z" changeset="69877472" uid="852319" user="vrmap">
+    <bounds minlat="45.7996892" minlon="10.8438547" maxlat="45.8077559" maxlon="10.8497508"/>
+    <member type="way" ref="325064701" role="">
+      <nd lat="45.8008817" lon="10.8464245"/>
+      <nd lat="45.8008830" lon="10.8463098"/>
+      <nd lat="45.8008917" lon="10.8461480"/>
+      <nd lat="45.8009004" lon="10.8459780"/>
+      <nd lat="45.8009119" lon="10.8458951"/>
+      <nd lat="45.8009148" lon="10.8457915"/>
+      <nd lat="45.8008946" lon="10.8457002"/>
+      <nd lat="45.8008252" lon="10.8456380"/>
+      <nd lat="45.8007530" lon="10.8455717"/>
+      <nd lat="45.8006258" lon="10.8454680"/>
+      <nd lat="45.8004437" lon="10.8453437"/>
+      <nd lat="45.8003656" lon="10.8453354"/>
+      <nd lat="45.8002962" lon="10.8453478"/>
+      <nd lat="45.8002240" lon="10.8454432"/>
+      <nd lat="45.8001286" lon="10.8455924"/>
+      <nd lat="45.8000823" lon="10.8456380"/>
+      <nd lat="45.8000129" lon="10.8456297"/>
+      <nd lat="45.7999436" lon="10.8455717"/>
+      <nd lat="45.7998915" lon="10.8453768"/>
+      <nd lat="45.7998135" lon="10.8451488"/>
+      <nd lat="45.7997672" lon="10.8449871"/>
+      <nd lat="45.7997296" lon="10.8447590"/>
+      <nd lat="45.7996892" lon="10.8446097"/>
+      <nd lat="45.7997296" lon="10.8443071"/>
+      <nd lat="45.7997643" lon="10.8441412"/>
+      <nd lat="45.7997846" lon="10.8439919"/>
+      <nd lat="45.7998318" lon="10.8438547"/>
+    </member>
+    <member type="way" ref="75088274" role="">
+      <nd lat="45.8026508" lon="10.8497508"/>
+      <nd lat="45.8025326" lon="10.8496643"/>
+      <nd lat="45.8025113" lon="10.8496487"/>
+      <nd lat="45.8024825" lon="10.8495689"/>
+      <nd lat="45.8024951" lon="10.8493402"/>
+      <nd lat="45.8025562" lon="10.8491396"/>
+      <nd lat="45.8026759" lon="10.8488821"/>
+      <nd lat="45.8027956" lon="10.8484958"/>
+      <nd lat="45.8029044" lon="10.8482754"/>
+      <nd lat="45.8029672" lon="10.8480439"/>
+      <nd lat="45.8030124" lon="10.8479296"/>
+      <nd lat="45.8030841" lon="10.8477925"/>
+      <nd lat="45.8031013" lon="10.8477335"/>
+      <nd lat="45.8031159" lon="10.8476668"/>
+      <nd lat="45.8031000" lon="10.8476287"/>
+      <nd lat="45.8030602" lon="10.8476078"/>
+      <nd lat="45.8029731" lon="10.8476050"/>
+      <nd lat="45.8028354" lon="10.8476068"/>
+      <nd lat="45.8026614" lon="10.8476734"/>
+      <nd lat="45.8025194" lon="10.8477417"/>
+      <nd lat="45.8024174" lon="10.8478651"/>
+      <nd lat="45.8022715" lon="10.8479230"/>
+      <nd lat="45.8020581" lon="10.8480526"/>
+      <nd lat="45.8019185" lon="10.8481217"/>
+      <nd lat="45.8017433" lon="10.8481496"/>
+      <nd lat="45.8016536" lon="10.8480872"/>
+      <nd lat="45.8015351" lon="10.8479592"/>
+      <nd lat="45.8014178" lon="10.8478825"/>
+      <nd lat="45.8013067" lon="10.8477245"/>
+      <nd lat="45.8012469" lon="10.8476262"/>
+      <nd lat="45.8012297" lon="10.8475976"/>
+      <nd lat="45.8011494" lon="10.8474645"/>
+      <nd lat="45.8011258" lon="10.8470644"/>
+      <nd lat="45.8010512" lon="10.8467451"/>
+      <nd lat="45.8008817" lon="10.8464245"/>
+    </member>
+    <member type="way" ref="75088257" role="">
+      <nd lat="45.8049760" lon="10.8465623"/>
+      <nd lat="45.8047156" lon="10.8470272"/>
+      <nd lat="45.8044996" lon="10.8473430"/>
+      <nd lat="45.8044902" lon="10.8473515"/>
+      <nd lat="45.8043500" lon="10.8476856"/>
+      <nd lat="45.8041345" lon="10.8480007"/>
+      <nd lat="45.8039550" lon="10.8482776"/>
+      <nd lat="45.8038028" lon="10.8484639"/>
+      <nd lat="45.8036944" lon="10.8486506"/>
+      <nd lat="45.8035627" lon="10.8489250"/>
+      <nd lat="45.8033949" lon="10.8491678"/>
+      <nd lat="45.8031761" lon="10.8493263"/>
+      <nd lat="45.8029751" lon="10.8494400"/>
+      <nd lat="45.8027956" lon="10.8496546"/>
+      <nd lat="45.8026508" lon="10.8497508"/>
+    </member>
+    <member type="way" ref="38106244" role="">
+      <nd lat="45.8077559" lon="10.8481513"/>
+      <nd lat="45.8076008" lon="10.8481941"/>
+      <nd lat="45.8072869" lon="10.8480874"/>
+      <nd lat="45.8070273" lon="10.8479396"/>
+      <nd lat="45.8065950" lon="10.8475946"/>
+      <nd lat="45.8060215" lon="10.8473085"/>
+      <nd lat="45.8056975" lon="10.8470796"/>
+      <nd lat="45.8055180" lon="10.8469509"/>
+      <nd lat="45.8053019" lon="10.8468463"/>
+      <nd lat="45.8052027" lon="10.8467583"/>
+      <nd lat="45.8050877" lon="10.8466589"/>
+      <nd lat="45.8049760" lon="10.8465623"/>
+    </member>
+    <member type="way" ref="680201938" role="">
+      <nd lat="45.8075028" lon="10.8477623"/>
+      <nd lat="45.8074711" lon="10.8478529"/>
+      <nd lat="45.8076452" lon="10.8480323"/>
+      <nd lat="45.8077559" lon="10.8481513"/>
+    </member>
+    <member type="node" ref="6368954275" role="" lat="45.7998157" lon="10.8438551"/>
+    <tag k="website" v="https://www.cesarebattisti.org/"/>
+    <tag k="distance" v="1.700"/>
+    <tag k="name" v="Collegamento sent.4 con fermata Bus Terme di Navene"/>
+    <tag k="ascent" v="50"/>
+    <tag k="cai_scale" v="E"/>
+    <tag k="descent" v="150"/>
+    <tag k="duration:backward" v="01:00"/>
+    <tag k="duration:forward" v="00:45"/>
+    <tag k="from" v="Intersezione sentiero 4 sopra Navene"/>
+    <tag k="network" v="lwn"/>
+    <tag k="note" v="relation mantained by Club Alpino Italiano Sezione Cesare Battisti di Verona, before making changes contact the CAI structure"/>
+    <tag k="note:it" v="relazione mantenuta da Club Alpino Italiano Sezione Cesare Battisti di Verona, prima di effettuare modifiche contattare la struttura del CAI"/>
+    <tag k="note:project_page" v="https://wiki.openstreetmap.org/wiki/Veneto/Sentieri"/>
+    <tag k="operator" v="Club Alpino Italiano Sezione Cesare Battisti di Verona"/>
+    <tag k="osmc:symbol" v="red:red:white_stripe:4B:black"/>
+    <tag k="ref" v="4B"/>
+    <tag k="roundtrip" v="no"/>
+    <tag k="route" v="hiking"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="survey:date" v="2017-04-22"/>
+    <tag k="symbol" v="4B on white red flag"/>
+    <tag k="symbol:it" v="4B su bandierina bianca e rossa"/>
+    <tag k="to" v="Strada Regionale 249 Gardesana Orientale presso fermata autobus e parcheggio località Casello"/>
+    <tag k="type" v="route"/>
+  </relation>
 </old>
 <new>
-  <way id="46346085" version="6" timestamp="2024-10-02T06:24:25Z" changeset="157364825" uid="22002619" user="LucaVR90">
-    <bounds minlat="45.5194313" minlon="11.0157831" maxlat="45.5195132" maxlon="11.0165660"/>
-    <nd ref="592296134" lat="45.5194313" lon="11.0157831"/>
-    <nd ref="9611693787" lat="45.5194944" lon="11.0162213"/>
-    <nd ref="9611693786" lat="45.5195132" lon="11.0164078"/>
-    <nd ref="592296140" lat="45.5195054" lon="11.0165660"/>
-    <tag k="highway" v="residential"/>
-    <tag k="lanes" v="1"/>
-    <tag k="layer" v="-1"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Via Fontana Vecchia"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="378001412" version="2" timestamp="2022-05-29T11:03:51Z" changeset="121650960" uid="351361" user="dvdzero">
-    <bounds minlat="45.5194313" minlon="11.0157032" maxlat="45.5194365" maxlon="11.0157831"/>
-    <nd ref="386855065" lat="45.5194365" lon="11.0157032"/>
-    <nd ref="592296134" lat="45.5194313" lon="11.0157831"/>
-    <tag k="width" v="5"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="name" v="Viale della Rimembranza"/>
-    <tag k="highway" v="residential"/>
-    <tag k="oneway" v="yes"/>
-  </way>
-</old>
-<new>
-  <way id="378001412" version="3" timestamp="2024-10-02T06:23:44Z" changeset="157364805" uid="22002619" user="LucaVR90">
-    <bounds minlat="45.5194313" minlon="11.0157032" maxlat="45.5194365" maxlon="11.0157831"/>
-    <nd ref="386855065" lat="45.5194365" lon="11.0157032"/>
-    <nd ref="592296134" lat="45.5194313" lon="11.0157831"/>
-    <tag k="highway" v="residential"/>
-    <tag k="lanes" v="1"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Via Fontana Vecchia"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="width" v="5"/>
-  </way>
+  <relation id="9426368" version="13" timestamp="2024-10-03T19:39:08Z" changeset="157434305" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="45.7996892" minlon="10.8438547" maxlat="45.8077559" maxlon="10.8497508"/>
+    <member type="way" ref="325064701" role="">
+      <nd lat="45.8008817" lon="10.8464245"/>
+      <nd lat="45.8008830" lon="10.8463098"/>
+      <nd lat="45.8008917" lon="10.8461480"/>
+      <nd lat="45.8009004" lon="10.8459780"/>
+      <nd lat="45.8009119" lon="10.8458951"/>
+      <nd lat="45.8009148" lon="10.8457915"/>
+      <nd lat="45.8008946" lon="10.8457002"/>
+      <nd lat="45.8008252" lon="10.8456380"/>
+      <nd lat="45.8007530" lon="10.8455717"/>
+      <nd lat="45.8006258" lon="10.8454680"/>
+      <nd lat="45.8004437" lon="10.8453437"/>
+      <nd lat="45.8003656" lon="10.8453354"/>
+      <nd lat="45.8002962" lon="10.8453478"/>
+      <nd lat="45.8002240" lon="10.8454432"/>
+      <nd lat="45.8001286" lon="10.8455924"/>
+      <nd lat="45.8000823" lon="10.8456380"/>
+      <nd lat="45.8000129" lon="10.8456297"/>
+      <nd lat="45.7999436" lon="10.8455717"/>
+      <nd lat="45.7998915" lon="10.8453768"/>
+      <nd lat="45.7998135" lon="10.8451488"/>
+      <nd lat="45.7997672" lon="10.8449871"/>
+      <nd lat="45.7997296" lon="10.8447590"/>
+      <nd lat="45.7996892" lon="10.8446097"/>
+      <nd lat="45.7997296" lon="10.8443071"/>
+      <nd lat="45.7997643" lon="10.8441412"/>
+      <nd lat="45.7997846" lon="10.8439919"/>
+      <nd lat="45.7998318" lon="10.8438547"/>
+    </member>
+    <member type="way" ref="75088274" role="">
+      <nd lat="45.8026508" lon="10.8497508"/>
+      <nd lat="45.8025326" lon="10.8496643"/>
+      <nd lat="45.8025113" lon="10.8496487"/>
+      <nd lat="45.8024825" lon="10.8495689"/>
+      <nd lat="45.8024951" lon="10.8493402"/>
+      <nd lat="45.8025562" lon="10.8491396"/>
+      <nd lat="45.8026759" lon="10.8488821"/>
+      <nd lat="45.8027956" lon="10.8484958"/>
+      <nd lat="45.8029044" lon="10.8482754"/>
+      <nd lat="45.8029672" lon="10.8480439"/>
+      <nd lat="45.8030124" lon="10.8479296"/>
+      <nd lat="45.8030841" lon="10.8477925"/>
+      <nd lat="45.8031013" lon="10.8477335"/>
+      <nd lat="45.8031159" lon="10.8476668"/>
+      <nd lat="45.8031000" lon="10.8476287"/>
+      <nd lat="45.8030602" lon="10.8476078"/>
+      <nd lat="45.8029731" lon="10.8476050"/>
+      <nd lat="45.8028354" lon="10.8476068"/>
+      <nd lat="45.8026614" lon="10.8476734"/>
+      <nd lat="45.8025194" lon="10.8477417"/>
+      <nd lat="45.8024174" lon="10.8478651"/>
+      <nd lat="45.8022715" lon="10.8479230"/>
+      <nd lat="45.8020581" lon="10.8480526"/>
+      <nd lat="45.8019185" lon="10.8481217"/>
+      <nd lat="45.8017433" lon="10.8481496"/>
+      <nd lat="45.8016536" lon="10.8480872"/>
+      <nd lat="45.8015351" lon="10.8479592"/>
+      <nd lat="45.8014178" lon="10.8478825"/>
+      <nd lat="45.8013067" lon="10.8477245"/>
+      <nd lat="45.8012469" lon="10.8476262"/>
+      <nd lat="45.8012297" lon="10.8475976"/>
+      <nd lat="45.8011494" lon="10.8474645"/>
+      <nd lat="45.8011258" lon="10.8470644"/>
+      <nd lat="45.8010512" lon="10.8467451"/>
+      <nd lat="45.8008817" lon="10.8464245"/>
+    </member>
+    <member type="way" ref="75088257" role="">
+      <nd lat="45.8049760" lon="10.8465623"/>
+      <nd lat="45.8047156" lon="10.8470272"/>
+      <nd lat="45.8044996" lon="10.8473430"/>
+      <nd lat="45.8044902" lon="10.8473515"/>
+      <nd lat="45.8043500" lon="10.8476856"/>
+      <nd lat="45.8041345" lon="10.8480007"/>
+      <nd lat="45.8039550" lon="10.8482776"/>
+      <nd lat="45.8038028" lon="10.8484639"/>
+      <nd lat="45.8036944" lon="10.8486506"/>
+      <nd lat="45.8035627" lon="10.8489250"/>
+      <nd lat="45.8033949" lon="10.8491678"/>
+      <nd lat="45.8031761" lon="10.8493263"/>
+      <nd lat="45.8029751" lon="10.8494400"/>
+      <nd lat="45.8027956" lon="10.8496546"/>
+      <nd lat="45.8026508" lon="10.8497508"/>
+    </member>
+    <member type="way" ref="38106244" role="">
+      <nd lat="45.8077559" lon="10.8481513"/>
+      <nd lat="45.8076008" lon="10.8481941"/>
+      <nd lat="45.8072869" lon="10.8480874"/>
+      <nd lat="45.8070273" lon="10.8479396"/>
+      <nd lat="45.8065950" lon="10.8475946"/>
+      <nd lat="45.8060215" lon="10.8473085"/>
+      <nd lat="45.8056975" lon="10.8470796"/>
+      <nd lat="45.8055180" lon="10.8469509"/>
+      <nd lat="45.8053019" lon="10.8468463"/>
+      <nd lat="45.8052027" lon="10.8467583"/>
+      <nd lat="45.8050877" lon="10.8466589"/>
+      <nd lat="45.8049760" lon="10.8465623"/>
+    </member>
+    <member type="way" ref="680201938" role="">
+      <nd lat="45.8075028" lon="10.8477623"/>
+      <nd lat="45.8074711" lon="10.8478529"/>
+      <nd lat="45.8076452" lon="10.8480323"/>
+      <nd lat="45.8077559" lon="10.8481513"/>
+    </member>
+    <member type="node" ref="6368954275" role="" lat="45.7998157" lon="10.8438551"/>
+    <tag k="ascent" v="50"/>
+    <tag k="cai_scale" v="E"/>
+    <tag k="descent" v="150"/>
+    <tag k="description:it" v="Collegamento sent.4 con fermata Bus Terme di Navene"/>
+    <tag k="distance" v="1.7"/>
+    <tag k="duration:backward" v="01:00"/>
+    <tag k="duration:forward" v="00:45"/>
+    <tag k="from" v="Intersezione sentiero 4 sopra Navene"/>
+    <tag k="network" v="lwn"/>
+    <tag k="note" v="relation mantained by Club Alpino Italiano Sezione Cesare Battisti di Verona, before making changes contact the CAI structure"/>
+    <tag k="note:it" v="relazione mantenuta da Club Alpino Italiano Sezione Cesare Battisti di Verona, prima di effettuare modifiche contattare la struttura del CAI"/>
+    <tag k="note:project_page" v="https://wiki.openstreetmap.org/wiki/Veneto/Sentieri"/>
+    <tag k="operator" v="Club Alpino Italiano Sezione Cesare Battisti di Verona"/>
+    <tag k="osmc:symbol" v="red:red:white_stripe:4B:black"/>
+    <tag k="ref" v="4B"/>
+    <tag k="roundtrip" v="no"/>
+    <tag k="route" v="hiking"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="survey:date" v="2017-04-22"/>
+    <tag k="symbol" v="4B on white red flag"/>
+    <tag k="symbol:it" v="4B su bandierina bianca e rossa"/>
+    <tag k="to" v="Strada Regionale 249 Gardesana Orientale presso fermata autobus e parcheggio località Casello"/>
+    <tag k="type" v="route"/>
+    <tag k="website" v="https://www.cesarebattisti.org/"/>
+  </relation>
 </new>
 </action>
 
