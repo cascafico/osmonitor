@@ -1,90 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.1 084b4234">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2024-11-02T00:55:19Z" areas="2024-11-01T21:08:12Z"/>
+<meta osm_base="2024-11-03T01:00:01Z" areas="2024-10-28T01:00:14Z"/>
 
 <action type="modify">
 <old>
-  <node id="5290300793" lat="44.0402704" lon="11.4829880" version="3" timestamp="2024-05-07T20:31:00Z" changeset="151027832" uid="18411784" user="SS82">
-    <tag k="tourism" v="information"/>
-    <tag k="operator" v="CAI Faenza"/>
-    <tag k="check_date" v="2024-05-05"/>
-    <tag k="hiking" v="yes"/>
-    <tag k="information" v="guidepost"/>
+  <node id="2525713487" lat="44.3461284" lon="11.1651593" version="3" timestamp="2023-11-27T11:33:47Z" changeset="144504395" uid="2498239" user="maurizioa">
+    <tag k="ele" v="425"/>
+    <tag k="highway" v="trailhead"/>
+    <tag k="operator" v="CAI Bologna"/>
+    <tag k="name" v="CAI 140A"/>
   </node>
 </old>
 <new>
-  <node id="5290300793" lat="44.0402704" lon="11.4829880" version="4" timestamp="2024-11-01T08:11:34Z" changeset="158608304" uid="7078274" user="gabriele_sani">
-    <tag k="check_date" v="2024-05-05"/>
+  <node id="2525713487" lat="44.3461284" lon="11.1651593" version="4" timestamp="2024-11-02T10:42:07Z" changeset="158652472" uid="20111612" user="Federico Piretti">
     <tag k="hiking" v="yes"/>
     <tag k="information" v="guidepost"/>
-    <tag k="operator" v="CAI Faenza"/>
-    <tag k="source:ref" v="9224011"/>
-    <tag k="support" v="pole"/>
+    <tag k="name" v="CAI 140A"/>
+    <tag k="note" v="Relation maintained by CAI Bologna"/>
+    <tag k="operator" v="CAI Bologna"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="source_ref" v="9224002"/>
+    <tag k="survey:date" v="2024-10-30"/>
     <tag k="tourism" v="information"/>
+    <tag k="website" v="https://www.caibo.it/"/>
   </node>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="1039277263" version="2" timestamp="2024-03-14T21:54:43Z" changeset="148663293" uid="7078274" user="gabriele_sani">
-    <bounds minlat="44.0387192" minlon="11.4830062" maxlat="44.0402617" maxlon="11.4839815"/>
-    <nd ref="672067187" lat="44.0402617" lon="11.4830062"/>
-    <nd ref="5393858160" lat="44.0402452" lon="11.4831051"/>
-    <nd ref="257366896" lat="44.0402422" lon="11.4832197"/>
-    <nd ref="2992192839" lat="44.0402303" lon="11.4832898"/>
-    <nd ref="2992197814" lat="44.0401922" lon="11.4833885"/>
-    <nd ref="2992192842" lat="44.0401306" lon="11.4834506"/>
-    <nd ref="5393858161" lat="44.0400468" lon="11.4834850"/>
-    <nd ref="5393858162" lat="44.0399824" lon="11.4834960"/>
-    <nd ref="2992192845" lat="44.0399315" lon="11.4835195"/>
-    <nd ref="5393858163" lat="44.0398870" lon="11.4835782"/>
-    <nd ref="257366897" lat="44.0398605" lon="11.4836308"/>
-    <nd ref="5393858164" lat="44.0398099" lon="11.4837349"/>
-    <nd ref="2992192843" lat="44.0397368" lon="11.4838140"/>
-    <nd ref="5393858165" lat="44.0397008" lon="11.4838494"/>
-    <nd ref="772938907" lat="44.0396491" lon="11.4838817"/>
-    <nd ref="5393858166" lat="44.0394749" lon="11.4839213"/>
-    <nd ref="257366898" lat="44.0391630" lon="11.4839765"/>
-    <nd ref="5393858167" lat="44.0390304" lon="11.4839815"/>
-    <nd ref="2992192836" lat="44.0389407" lon="11.4839615"/>
-    <nd ref="2992192838" lat="44.0387671" lon="11.4838943"/>
-    <nd ref="919848054" lat="44.0387192" lon="11.4838707"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="ref" v="SP477"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</old>
-<new>
-  <way id="1039277263" version="3" timestamp="2024-11-01T08:00:10Z" changeset="158608083" uid="7078274" user="gabriele_sani">
-    <bounds minlat="44.0387192" minlon="11.4830062" maxlat="44.0402617" maxlon="11.4839815"/>
-    <nd ref="672067187" lat="44.0402617" lon="11.4830062"/>
-    <nd ref="5393858160" lat="44.0402452" lon="11.4831051"/>
-    <nd ref="257366896" lat="44.0402422" lon="11.4832197"/>
-    <nd ref="2992192839" lat="44.0402303" lon="11.4832898"/>
-    <nd ref="2992197814" lat="44.0401922" lon="11.4833885"/>
-    <nd ref="2992192842" lat="44.0401306" lon="11.4834506"/>
-    <nd ref="5393858161" lat="44.0400468" lon="11.4834850"/>
-    <nd ref="5393858162" lat="44.0399824" lon="11.4834960"/>
-    <nd ref="2992192845" lat="44.0399315" lon="11.4835195"/>
-    <nd ref="5393858163" lat="44.0398870" lon="11.4835782"/>
-    <nd ref="257366897" lat="44.0398605" lon="11.4836308"/>
-    <nd ref="5393858164" lat="44.0398099" lon="11.4837349"/>
-    <nd ref="2992192843" lat="44.0397368" lon="11.4838140"/>
-    <nd ref="5393858165" lat="44.0397008" lon="11.4838494"/>
-    <nd ref="772938907" lat="44.0396491" lon="11.4838817"/>
-    <nd ref="5393858166" lat="44.0394749" lon="11.4839213"/>
-    <nd ref="257366898" lat="44.0391630" lon="11.4839765"/>
-    <nd ref="5393858167" lat="44.0390304" lon="11.4839815"/>
-    <nd ref="2992192836" lat="44.0389407" lon="11.4839615"/>
-    <nd ref="2992192838" lat="44.0387671" lon="11.4838943"/>
-    <nd ref="919848054" lat="44.0387192" lon="11.4838707"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="ref" v="SP477"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
 </new>
 </action>
 
