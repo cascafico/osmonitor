@@ -1,61 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.5 1bd436f1">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2025-04-07T01:00:56Z" areas="2025-02-06T02:17:44Z"/>
+<meta osm_base="2025-04-08T00:59:24Z" areas="2025-02-06T02:17:44Z"/>
 
 <action type="modify">
 <old>
-  <way id="203413500" version="5" timestamp="2023-02-22T19:30:46Z" changeset="132896683" uid="12294600" user="alessandrocarmeli">
-    <bounds minlat="45.8846488" minlon="13.5385459" maxlat="45.8856456" maxlon="13.5411152"/>
-    <nd ref="928306189" lat="45.8856456" lon="13.5411152"/>
-    <nd ref="271727504" lat="45.8856174" lon="13.5410380"/>
-    <nd ref="1794781874" lat="45.8855742" lon="13.5409137"/>
-    <nd ref="928306205" lat="45.8854741" lon="13.5406746"/>
-    <nd ref="271727505" lat="45.8853823" lon="13.5404982"/>
-    <nd ref="2134244800" lat="45.8852904" lon="13.5403768"/>
-    <nd ref="9472427907" lat="45.8852039" lon="13.5402826"/>
-    <nd ref="271727506" lat="45.8851195" lon="13.5401835"/>
-    <nd ref="9472427908" lat="45.8850835" lon="13.5401210"/>
-    <nd ref="271727507" lat="45.8850538" lon="13.5400460"/>
-    <nd ref="9472427909" lat="45.8850326" lon="13.5399681"/>
-    <nd ref="2134244753" lat="45.8850308" lon="13.5398872"/>
-    <nd ref="271727509" lat="45.8850207" lon="13.5396755"/>
-    <nd ref="9472427910" lat="45.8850041" lon="13.5395966"/>
-    <nd ref="9472427911" lat="45.8849775" lon="13.5395142"/>
-    <nd ref="1794781873" lat="45.8849282" lon="13.5393569"/>
-    <nd ref="2134244746" lat="45.8846913" lon="13.5386382"/>
-    <nd ref="561060544" lat="45.8846488" lon="13.5385459"/>
-    <tag k="ref" v="SP24"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="name" v="Strada Provinciale &quot;Peteano - San Martino&quot;"/>
-    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
+  <way id="198609631" version="20" timestamp="2024-08-23T23:54:53Z" changeset="155675939" uid="12294600" user="alessandrocarmeli">
+    <bounds minlat="45.6938106" minlon="13.7496730" maxlat="45.6941557" maxlon="13.7502640"/>
+    <nd ref="597361139" lat="45.6938106" lon="13.7502389"/>
+    <nd ref="486391828" lat="45.6938724" lon="13.7502619"/>
+    <nd ref="597361141" lat="45.6939076" lon="13.7502640"/>
+    <nd ref="597361156" lat="45.6939458" lon="13.7502520"/>
+    <nd ref="597361142" lat="45.6939901" lon="13.7501960"/>
+    <nd ref="597361145" lat="45.6940257" lon="13.7501158"/>
+    <nd ref="597361051" lat="45.6940561" lon="13.7500424"/>
+    <nd ref="486391829" lat="45.6940862" lon="13.7499088"/>
+    <nd ref="6027534303" lat="45.6941209" lon="13.7497776"/>
+    <nd ref="486391819" lat="45.6941557" lon="13.7496730"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="proposed:name" v="Via Giovanni Paolo II"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lit" v="yes"/>
+    <tag k="noname" v="yes"/>
+    <tag k="oneway" v="yes"/>
   </way>
 </old>
 <new>
-  <way id="203413500" version="6" timestamp="2025-04-06T17:28:13Z" changeset="164601989" uid="15838700" user="simhro">
-    <bounds minlat="45.8846488" minlon="13.5385459" maxlat="45.8856456" maxlon="13.5411152"/>
-    <nd ref="928306189" lat="45.8856456" lon="13.5411152"/>
-    <nd ref="271727504" lat="45.8856174" lon="13.5410380"/>
-    <nd ref="1794781874" lat="45.8855742" lon="13.5409137"/>
-    <nd ref="928306205" lat="45.8854741" lon="13.5406746"/>
-    <nd ref="271727505" lat="45.8853823" lon="13.5404982"/>
-    <nd ref="2134244800" lat="45.8852904" lon="13.5403768"/>
-    <nd ref="9472427907" lat="45.8852039" lon="13.5402826"/>
-    <nd ref="271727506" lat="45.8851195" lon="13.5401835"/>
-    <nd ref="9472427908" lat="45.8850835" lon="13.5401210"/>
-    <nd ref="271727507" lat="45.8850538" lon="13.5400460"/>
-    <nd ref="9472427909" lat="45.8850326" lon="13.5399681"/>
-    <nd ref="2134244753" lat="45.8850308" lon="13.5398872"/>
-    <nd ref="271727509" lat="45.8850207" lon="13.5396755"/>
-    <nd ref="9472427910" lat="45.8850041" lon="13.5395966"/>
-    <nd ref="9472427911" lat="45.8849775" lon="13.5395142"/>
-    <nd ref="1794781873" lat="45.8849282" lon="13.5393569"/>
-    <nd ref="2134244746" lat="45.8846913" lon="13.5386382"/>
-    <nd ref="561060544" lat="45.8846488" lon="13.5385459"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="name" v="Strada Provinciale &quot;Peteano - San Martino&quot;"/>
-    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
-    <tag k="ref" v="SP24"/>
+  <way id="198609631" version="21" timestamp="2025-04-07T19:44:28Z" changeset="164650506" uid="12294600" user="alessandrocarmeli">
+    <bounds minlat="45.6938106" minlon="13.7496730" maxlat="45.6941557" maxlon="13.7502640"/>
+    <nd ref="597361139" lat="45.6938106" lon="13.7502389"/>
+    <nd ref="486391828" lat="45.6938724" lon="13.7502619"/>
+    <nd ref="597361141" lat="45.6939076" lon="13.7502640"/>
+    <nd ref="597361156" lat="45.6939458" lon="13.7502520"/>
+    <nd ref="597361142" lat="45.6939901" lon="13.7501960"/>
+    <nd ref="597361145" lat="45.6940257" lon="13.7501158"/>
+    <nd ref="597361051" lat="45.6940561" lon="13.7500424"/>
+    <nd ref="486391829" lat="45.6940862" lon="13.7499088"/>
+    <nd ref="6027534303" lat="45.6941209" lon="13.7497776"/>
+    <nd ref="486391819" lat="45.6941557" lon="13.7496730"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Via Papa Paolo Giovanni Secondo"/>
+    <tag k="noname" v="yes"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="proposed:name" v="Via Giovanni Paolo II"/>
+    <tag k="start_date:name" v="2025-04-04"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="198609632" version="19" timestamp="2024-08-23T23:54:53Z" changeset="155675939" uid="12294600" user="alessandrocarmeli">
+    <bounds minlat="45.6941557" minlon="13.7487291" maxlat="45.6950680" maxlon="13.7496730"/>
+    <nd ref="486391813" lat="45.6950680" lon="13.7487291"/>
+    <nd ref="486391817" lat="45.6948609" lon="13.7489319"/>
+    <nd ref="6770539090" lat="45.6942383" lon="13.7495862"/>
+    <nd ref="486391819" lat="45.6941557" lon="13.7496730"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="proposed:name" v="Via Giovanni Paolo II"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="no"/>
+    <tag k="noname" v="yes"/>
+  </way>
+</old>
+<new>
+  <way id="198609632" version="20" timestamp="2025-04-07T19:44:28Z" changeset="164650506" uid="12294600" user="alessandrocarmeli">
+    <bounds minlat="45.6941557" minlon="13.7487291" maxlat="45.6950680" maxlon="13.7496730"/>
+    <nd ref="486391813" lat="45.6950680" lon="13.7487291"/>
+    <nd ref="486391817" lat="45.6948609" lon="13.7489319"/>
+    <nd ref="6770539090" lat="45.6942383" lon="13.7495862"/>
+    <nd ref="486391819" lat="45.6941557" lon="13.7496730"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lit" v="no"/>
+    <tag k="name" v="Via Papa Paolo Giovanni Secondo"/>
+    <tag k="noname" v="yes"/>
+    <tag k="proposed:name" v="Via Giovanni Paolo II"/>
+    <tag k="start_date:name" v="2025-04-04"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
