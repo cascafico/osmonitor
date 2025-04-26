@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.5 1bd436f1">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2025-04-26T01:01:17Z" areas="2024-12-31T00:49:33Z"/>
+
+<action type="modify">
+<old>
+  <way id="1315978121" version="1" timestamp="2024-09-16T17:26:42Z" changeset="156698454" uid="821025" user="PaoloRE1981">
+    <bounds minlat="44.7003605" minlon="10.6318382" maxlat="44.7003665" maxlon="10.6318762"/>
+    <nd ref="12180680718" lat="44.7003665" lon="10.6318382"/>
+    <nd ref="12180680719" lat="44.7003605" lon="10.6318762"/>
+    <tag k="surface" v="paving_stones"/>
+    <tag k="highway" v="steps"/>
+  </way>
+</old>
+<new>
+  <way id="1315978121" version="5" timestamp="2025-04-25T16:31:17Z" changeset="165433066" uid="13347588" user="matteop3_">
+    <bounds minlat="44.7003605" minlon="10.6318382" maxlat="44.7003665" maxlon="10.6318762"/>
+    <nd ref="12180680718" lat="44.7003665" lon="10.6318382"/>
+    <nd ref="12180680719" lat="44.7003605" lon="10.6318762"/>
+    <tag k="handrail" v="no"/>
+    <tag k="highway" v="steps"/>
+    <tag k="incline" v="down"/>
+    <tag k="ramp" v="separate"/>
+    <tag k="ramp:wheelchair" v="separate"/>
+    <tag k="surface" v="paving_stones"/>
+    <tag k="tactile_paving" v="no"/>
+  </way>
+</new>
+</action>
+
+</osm>
