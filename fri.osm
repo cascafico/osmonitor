@@ -1,33 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.5 1bd436f1">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2025-04-26T00:59:24Z" areas="2024-12-31T00:49:33Z"/>
+<meta osm_base="2025-04-27T01:04:58Z" areas="2025-02-06T02:17:44Z"/>
 
 <action type="modify">
 <old>
-  <way id="46930252" version="6" timestamp="2022-05-21T17:40:44Z" changeset="121291936" uid="12294600" user="alessandrocarmeli">
-    <bounds minlat="45.6985483" minlon="13.8312623" maxlat="45.6990667" maxlon="13.8317007"/>
-    <nd ref="7560599468" lat="45.6990667" lon="13.8312623"/>
-    <nd ref="599024635" lat="45.6986580" lon="13.8316079"/>
-    <nd ref="3267716972" lat="45.6985711" lon="13.8316814"/>
-    <nd ref="381955559" lat="45.6985483" lon="13.8317007"/>
+  <way id="194908274" version="4" timestamp="2019-02-25T20:52:37Z" changeset="67561367" uid="9458168" user="Gorka115">
+    <bounds minlat="45.6056954" minlon="13.7440579" maxlat="45.6061221" maxlon="13.7454976"/>
+    <nd ref="626088025" lat="45.6056954" lon="13.7454976"/>
+    <nd ref="2054189690" lat="45.6057588" lon="13.7454785"/>
+    <nd ref="2054189699" lat="45.6058201" lon="13.7454056"/>
+    <nd ref="2054189710" lat="45.6058833" lon="13.7453180"/>
+    <nd ref="2054189720" lat="45.6059364" lon="13.7452334"/>
+    <nd ref="2054189724" lat="45.6059997" lon="13.7451488"/>
+    <nd ref="2054189728" lat="45.6060446" lon="13.7450584"/>
+    <nd ref="2054189735" lat="45.6060874" lon="13.7449213"/>
+    <nd ref="2054189742" lat="45.6061160" lon="13.7447783"/>
+    <nd ref="2054189744" lat="45.6061201" lon="13.7445858"/>
+    <nd ref="2054189745" lat="45.6061221" lon="13.7444953"/>
+    <nd ref="2054189743" lat="45.6061181" lon="13.7443203"/>
+    <nd ref="2054189741" lat="45.6061119" lon="13.7441715"/>
+    <nd ref="2054189740" lat="45.6061061" lon="13.7440579"/>
     <tag k="surface" v="asphalt"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="noname" v="yes"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lit" v="no"/>
+    <tag k="name" v="Strada per Chiampore"/>
   </way>
 </old>
 <new>
-  <way id="46930252" version="7" timestamp="2025-04-25T07:58:07Z" changeset="165410393" uid="22825318" user="04rko">
-    <bounds minlat="45.6985483" minlon="13.8312623" maxlat="45.6990667" maxlon="13.8317007"/>
-    <nd ref="7560599468" lat="45.6990667" lon="13.8312623"/>
-    <nd ref="599024635" lat="45.6986580" lon="13.8316079"/>
-    <nd ref="3267716972" lat="45.6985711" lon="13.8316814"/>
-    <nd ref="381955559" lat="45.6985483" lon="13.8317007"/>
+  <way id="194908274" version="5" timestamp="2025-04-26T12:47:00Z" changeset="165464046" uid="3834" user="StefanB">
+    <bounds minlat="45.6056954" minlon="13.7440579" maxlat="45.6061221" maxlon="13.7454976"/>
+    <nd ref="626088025" lat="45.6056954" lon="13.7454976"/>
+    <nd ref="2054189690" lat="45.6057588" lon="13.7454785"/>
+    <nd ref="2054189699" lat="45.6058201" lon="13.7454056"/>
+    <nd ref="2054189710" lat="45.6058833" lon="13.7453180"/>
+    <nd ref="2054189720" lat="45.6059364" lon="13.7452334"/>
+    <nd ref="2054189724" lat="45.6059997" lon="13.7451488"/>
+    <nd ref="2054189728" lat="45.6060446" lon="13.7450584"/>
+    <nd ref="2054189735" lat="45.6060874" lon="13.7449213"/>
+    <nd ref="2054189742" lat="45.6061160" lon="13.7447783"/>
+    <nd ref="2054189744" lat="45.6061201" lon="13.7445858"/>
+    <nd ref="2054189745" lat="45.6061221" lon="13.7444953"/>
+    <nd ref="2054189743" lat="45.6061181" lon="13.7443203"/>
+    <nd ref="2054189741" lat="45.6061119" lon="13.7441715"/>
+    <nd ref="2054189740" lat="45.6061061" lon="13.7440579"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lit" v="no"/>
+    <tag k="name" v="Strada per Chiampore"/>
+    <tag k="name:etymology:wikidata" v="Q3667428"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="202630965" version="4" timestamp="2024-01-17T08:59:05Z" changeset="146352683" uid="9458168" user="Gorka115">
+    <bounds minlat="45.6050570" minlon="13.7442483" maxlat="45.6057467" maxlon="13.7454976"/>
+    <nd ref="626088025" lat="45.6056954" lon="13.7454976"/>
+    <nd ref="345135892" lat="45.6057345" lon="13.7454013"/>
+    <nd ref="626088023" lat="45.6057467" lon="13.7452866"/>
+    <nd ref="626088014" lat="45.6057354" lon="13.7451885"/>
+    <nd ref="626088012" lat="45.6057098" lon="13.7450976"/>
+    <nd ref="345135894" lat="45.6056678" lon="13.7450230"/>
+    <nd ref="345135901" lat="45.6056043" lon="13.7449635"/>
+    <nd ref="626088000" lat="45.6055305" lon="13.7449350"/>
+    <nd ref="626087999" lat="45.6054433" lon="13.7449409"/>
+    <nd ref="345135913" lat="45.6052962" lon="13.7449591"/>
+    <nd ref="626087997" lat="45.6052087" lon="13.7449365"/>
+    <nd ref="626087996" lat="45.6051256" lon="13.7448559"/>
+    <nd ref="345135915" lat="45.6050749" lon="13.7447586"/>
+    <nd ref="626087992" lat="45.6050570" lon="13.7446626"/>
+    <nd ref="345135917" lat="45.6050690" lon="13.7444972"/>
+    <nd ref="345135920" lat="45.6051105" lon="13.7442483"/>
+    <tag k="surface" v="asphalt"/>
     <tag k="highway" v="tertiary"/>
-    <tag k="lanes" v="1"/>
-    <tag k="noname" v="yes"/>
-    <tag k="oneway" v="yes"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Strada per Chiampore"/>
+    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
+    <tag k="ref" v="SP17"/>
+  </way>
+</old>
+<new>
+  <way id="202630965" version="5" timestamp="2025-04-26T12:47:00Z" changeset="165464046" uid="3834" user="StefanB">
+    <bounds minlat="45.6050570" minlon="13.7442483" maxlat="45.6057467" maxlon="13.7454976"/>
+    <nd ref="626088025" lat="45.6056954" lon="13.7454976"/>
+    <nd ref="345135892" lat="45.6057345" lon="13.7454013"/>
+    <nd ref="626088023" lat="45.6057467" lon="13.7452866"/>
+    <nd ref="626088014" lat="45.6057354" lon="13.7451885"/>
+    <nd ref="626088012" lat="45.6057098" lon="13.7450976"/>
+    <nd ref="345135894" lat="45.6056678" lon="13.7450230"/>
+    <nd ref="345135901" lat="45.6056043" lon="13.7449635"/>
+    <nd ref="626088000" lat="45.6055305" lon="13.7449350"/>
+    <nd ref="626087999" lat="45.6054433" lon="13.7449409"/>
+    <nd ref="345135913" lat="45.6052962" lon="13.7449591"/>
+    <nd ref="626087997" lat="45.6052087" lon="13.7449365"/>
+    <nd ref="626087996" lat="45.6051256" lon="13.7448559"/>
+    <nd ref="345135915" lat="45.6050749" lon="13.7447586"/>
+    <nd ref="626087992" lat="45.6050570" lon="13.7446626"/>
+    <nd ref="345135917" lat="45.6050690" lon="13.7444972"/>
+    <nd ref="345135920" lat="45.6051105" lon="13.7442483"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Strada per Chiampore"/>
+    <tag k="name:etymology:wikidata" v="Q3667428"/>
+    <tag k="operator" v="Friuli Venezia Giulia Strade"/>
+    <tag k="ref" v="SP17"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
