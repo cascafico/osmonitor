@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.5 1bd436f1">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2025-04-27T01:04:58Z" areas="2024-12-31T00:49:33Z"/>
+<meta osm_base="2025-04-28T01:02:12Z" areas="2024-12-31T00:49:33Z"/>
 
-<action type="delete">
+<action type="modify">
 <old>
-  <node id="12786463113" lat="43.2947281" lon="13.0511111" version="1" timestamp="2025-04-25T16:41:31Z" changeset="165433571" uid="22832471" user="Andypicio"/>
+  <node id="12786463113" version="1" timestamp="2025-04-25T16:41:31Z" changeset="165433571" uid="22832471" user="Andypicio"/>
 </old>
 <new>
-  <node id="12786463113" visible="true" version="1" timestamp="2025-04-25T16:41:31Z" changeset="165433571" uid="22832471" user="Andypicio"/>
+  <node id="12786463113" lat="43.2947281" lon="13.0511111" version="1" timestamp="2025-04-25T16:41:31Z" changeset="165433571" uid="22832471" user="Andypicio"/>
 </new>
 </action>
-<action type="create">
+<action type="delete">
+<old>
   <node id="12789001827" lat="43.2947281" lon="13.0511111" version="1" timestamp="2025-04-26T16:39:04Z" changeset="165473732" uid="22832471" user="Andypicio"/>
+</old>
+<new>
+  <node id="12789001827" visible="false" version="2" timestamp="2025-04-27T03:45:01Z" changeset="165489015" uid="474183" user="ratrun"/>
+</new>
 </action>
 <action type="modify">
 <old>
-  <way id="109844826" version="15" timestamp="2025-04-25T16:41:31Z" changeset="165433571" uid="22832471" user="Andypicio">
+  <way id="109844826" version="16" timestamp="2025-04-26T16:39:04Z" changeset="165473732" uid="22832471" user="Andypicio">
     <bounds minlat="43.2893131" minlon="13.0501272" maxlat="43.2999730" maxlon="13.0534940"/>
     <nd ref="1256457450" lat="43.2999730" lon="13.0518250"/>
     <nd ref="1256457444" lat="43.2997918" lon="13.0519968"/>
@@ -36,7 +41,7 @@
     <nd ref="10230951030" lat="43.2951617" lon="13.0507461"/>
     <nd ref="1256457445" lat="43.2951367" lon="13.0507602"/>
     <nd ref="8158510007" lat="43.2949247" lon="13.0509422"/>
-    <nd ref="12786463113" lat="43.2947281" lon="13.0511111"/>
+    <nd ref="12789001827" lat="43.2947281" lon="13.0511111"/>
     <nd ref="1256457429" lat="43.2943871" lon="13.0514039"/>
     <nd ref="11930994507" lat="43.2943019" lon="13.0514309"/>
     <nd ref="1256457425" lat="43.2936838" lon="13.0516264"/>
@@ -60,7 +65,7 @@
   </way>
 </old>
 <new>
-  <way id="109844826" version="16" timestamp="2025-04-26T16:39:04Z" changeset="165473732" uid="22832471" user="Andypicio">
+  <way id="109844826" version="17" timestamp="2025-04-27T03:45:01Z" changeset="165489015" uid="474183" user="ratrun">
     <bounds minlat="43.2893131" minlon="13.0501272" maxlat="43.2999730" maxlon="13.0534940"/>
     <nd ref="1256457450" lat="43.2999730" lon="13.0518250"/>
     <nd ref="1256457444" lat="43.2997918" lon="13.0519968"/>
@@ -80,7 +85,7 @@
     <nd ref="10230951030" lat="43.2951617" lon="13.0507461"/>
     <nd ref="1256457445" lat="43.2951367" lon="13.0507602"/>
     <nd ref="8158510007" lat="43.2949247" lon="13.0509422"/>
-    <nd ref="12789001827" lat="43.2947281" lon="13.0511111"/>
+    <nd ref="12786463113" lat="43.2947281" lon="13.0511111"/>
     <nd ref="1256457429" lat="43.2943871" lon="13.0514039"/>
     <nd ref="11930994507" lat="43.2943019" lon="13.0514309"/>
     <nd ref="1256457425" lat="43.2936838" lon="13.0516264"/>
