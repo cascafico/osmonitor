@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.7 375dc00a">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2025-07-05T01:03:30Z" areas="2025-06-25T21:32:45Z"/>
+
+<action type="modify">
+<old>
+  <way id="439446850" version="13" timestamp="2025-07-02T11:29:10Z" changeset="168393937" uid="684800" user="fabiotofy">
+    <bounds minlat="46.4339034" minlon="13.4395629" maxlat="46.4341442" maxlon="13.4397040"/>
+    <nd ref="2705372839" lat="46.4339034" lon="13.4397040"/>
+    <nd ref="402897142" lat="46.4339219" lon="13.4396459"/>
+    <nd ref="402897145" lat="46.4339677" lon="13.4396232"/>
+    <nd ref="402897148" lat="46.4340241" lon="13.4396020"/>
+    <nd ref="4370651737" lat="46.4341442" lon="13.4395629"/>
+    <tag k="highway" v="ladder"/>
+    <tag k="via_ferrata_scale" v="3"/>
+    <tag k="assisted_trail" v="yes"/>
+    <tag k="bicycle" v="no"/>
+    <tag k="horse" v="no"/>
+    <tag k="incline" v="up"/>
+    <tag k="material" v="metal"/>
+    <tag k="name" v="Scala Pipan"/>
+    <tag k="name:en" v="Pipan's Ladder"/>
+    <tag k="name:sl" v="Pipanova lestev"/>
+    <tag k="sac_scale" v="difficult_alpine_hiking"/>
+    <tag k="surface" v="metal"/>
+  </way>
+</old>
+<new>
+  <way id="439446850" version="14" timestamp="2025-07-04T08:29:26Z" changeset="168474888" uid="3538539" user="micheleOSM3">
+    <bounds minlat="46.4339034" minlon="13.4395629" maxlat="46.4341442" maxlon="13.4397040"/>
+    <nd ref="2705372839" lat="46.4339034" lon="13.4397040"/>
+    <nd ref="402897142" lat="46.4339219" lon="13.4396459"/>
+    <nd ref="402897145" lat="46.4339677" lon="13.4396232"/>
+    <nd ref="402897148" lat="46.4340241" lon="13.4396020"/>
+    <nd ref="4370651737" lat="46.4341442" lon="13.4395629"/>
+    <tag k="assisted_trail" v="yes"/>
+    <tag k="bicycle" v="no"/>
+    <tag k="highway" v="via_ferrata"/>
+    <tag k="horse" v="no"/>
+    <tag k="incline" v="up"/>
+    <tag k="ladder" v="yes"/>
+    <tag k="material" v="metal"/>
+    <tag k="name" v="Scala Pipan"/>
+    <tag k="name:en" v="Pipan's Ladder"/>
+    <tag k="name:sl" v="Pipanova lestev"/>
+    <tag k="sac_scale" v="difficult_alpine_hiking"/>
+    <tag k="surface" v="metal"/>
+    <tag k="via_ferrata_scale" v="3"/>
+  </way>
+</new>
+</action>
+
+</osm>
