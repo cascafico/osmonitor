@@ -1,722 +1,2453 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.7 375dc00a">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2025-08-06T01:11:47Z" areas="2025-08-05T20:44:33Z"/>
+<meta osm_base="2025-08-07T01:12:42Z" areas="2025-08-06T22:08:16Z"/>
 
-<action type="modify">
+<action type="delete">
 <old>
-  <node id="2582320035" lat="46.3071684" lon="13.3517470" version="3" timestamp="2021-02-08T17:45:53Z" changeset="98923843" uid="45347" user="eriosw">
-    <tag k="shelter" v="no"/>
-    <tag k="public_transport" v="stop_position"/>
-    <tag k="bus" v="yes"/>
-    <tag k="highway" v="bus_stop"/>
-    <tag k="name" v="Passo Tanamea"/>
-    <tag k="network" v="C03 Tarcentino"/>
-    <tag k="old_operator" v="SAF"/>
-    <tag k="operator" v="TPL FVG"/>
-  </node>
+  <node id="403578451" lat="46.3454195" lon="12.8686863" version="2" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
 </old>
 <new>
-  <node id="2582320035" lat="46.3071684" lon="13.3517470" version="4" timestamp="2025-08-05T23:27:25Z" changeset="170031635" uid="4365159" user="wildmaps">
-    <tag k="bus" v="yes"/>
-    <tag k="highway" v="bus_stop"/>
-    <tag k="name" v="Passo Tanamea"/>
-    <tag k="network" v="C03 Tarcentino"/>
-    <tag k="old_operator" v="SAF"/>
-    <tag k="operator" v="TPL FVG"/>
-    <tag k="operator:wikidata" v="Q109614879"/>
-    <tag k="operator:wikipedia" v="it:TPL FVG"/>
-    <tag k="public_transport" v="stop_position"/>
-    <tag k="shelter" v="no"/>
-  </node>
+  <node id="403578451" visible="true" version="2" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <node id="11179482137" lat="46.1582185" lon="13.6454497" version="1" timestamp="2023-09-09T20:43:05Z" changeset="141039543" uid="1730440" user="LB_Manzano">
-    <tag k="public_transport" v="platform"/>
-    <tag k="operator" v="TPL FVG"/>
-    <tag k="bus" v="yes"/>
-    <tag k="highway" v="bus_stop"/>
-    <tag k="network" v="Arriva Udine"/>
-    <tag k="network:wikidata" v="Q3943391"/>
-  </node>
+  <node id="403578453" lat="46.3455233" lon="12.8692193" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <node id="11179482137" lat="46.1582185" lon="13.6454497" version="2" timestamp="2025-08-05T23:27:33Z" changeset="170031635" uid="4365159" user="wildmaps">
-    <tag k="bus" v="yes"/>
-    <tag k="highway" v="bus_stop"/>
-    <tag k="network" v="Arriva Udine"/>
-    <tag k="network:wikidata" v="Q3943391"/>
-    <tag k="operator" v="TPL FVG"/>
-    <tag k="operator:wikidata" v="Q109614879"/>
-    <tag k="operator:wikipedia" v="it:TPL FVG"/>
-    <tag k="public_transport" v="platform"/>
-  </node>
+  <node id="403578453" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="26127821" version="14" timestamp="2024-08-30T12:11:04Z" changeset="155970916" uid="21811641" user="lucacarraro">
-    <bounds minlat="45.9425979" minlon="13.6201279" maxlat="45.9440285" maxlon="13.6210892"/>
-    <nd ref="270963970" lat="45.9425979" lon="13.6201279"/>
-    <nd ref="4242964593" lat="45.9427082" lon="13.6202020"/>
-    <nd ref="331527216" lat="45.9429328" lon="13.6203529"/>
-    <nd ref="270765766" lat="45.9431971" lon="13.6205305"/>
-    <nd ref="429835137" lat="45.9435907" lon="13.6207970"/>
-    <nd ref="9257953294" lat="45.9439371" lon="13.6210278"/>
-    <nd ref="271688075" lat="45.9440285" lon="13.6210892"/>
-    <tag k="name:sl" v="Korzo Giuseppe Verdi"/>
-    <tag k="access" v="destination"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="foot" v="designated"/>
-    <tag k="highway" v="pedestrian"/>
-    <tag k="maxspeed" v="walk"/>
-    <tag k="name" v="Corso Giuseppe Verdi"/>
-    <tag k="short_name" v="Corso Verdi"/>
-    <tag k="short_name:sl" v="Korzo Verdi"/>
-    <tag k="surface" v="paved"/>
-  </way>
+  <node id="403578455" lat="46.3455861" lon="12.8694320" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="26127821" version="15" timestamp="2025-08-05T14:11:30Z" changeset="170009410" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9425979" minlon="13.6201279" maxlat="45.9440285" maxlon="13.6210892"/>
-    <nd ref="270963970" lat="45.9425979" lon="13.6201279"/>
-    <nd ref="4242964593" lat="45.9427082" lon="13.6202020"/>
-    <nd ref="331527216" lat="45.9429328" lon="13.6203529"/>
-    <nd ref="270765766" lat="45.9431971" lon="13.6205305"/>
-    <nd ref="429835137" lat="45.9435907" lon="13.6207970"/>
-    <nd ref="9257953294" lat="45.9439371" lon="13.6210278"/>
-    <nd ref="271688075" lat="45.9440285" lon="13.6210892"/>
-    <tag k="access" v="destination"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="foot" v="designated"/>
-    <tag k="highway" v="pedestrian"/>
-    <tag k="maxspeed" v="walk"/>
-    <tag k="name" v="Corso Giuseppe Verdi"/>
-    <tag k="name:sl" v="Verdijev Korzo"/>
-    <tag k="short_name" v="Corso Verdi"/>
-    <tag k="short_name:sl" v="Korzo Verdi"/>
-    <tag k="surface" v="paved"/>
-  </way>
+  <node id="403578455" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="39233869" version="8" timestamp="2023-02-01T13:53:20Z" changeset="131964642" uid="12294600" user="alessandrocarmeli">
-    <bounds minlat="45.9346082" minlon="13.6083598" maxlat="45.9346476" maxlon="13.6084750"/>
-    <nd ref="470014190" lat="45.9346476" lon="13.6084750"/>
-    <nd ref="470014205" lat="45.9346432" lon="13.6084312"/>
-    <nd ref="470014170" lat="45.9346296" lon="13.6083916"/>
-    <nd ref="470014200" lat="45.9346082" lon="13.6083598"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="highway" v="primary"/>
-    <tag k="junction" v="roundabout"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Piazzale Umberto Saba"/>
-  </way>
+  <node id="403578457" lat="46.3456297" lon="12.8694816" version="2" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
 </old>
 <new>
-  <way id="39233869" version="9" timestamp="2025-08-05T14:07:09Z" changeset="170009117" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9346082" minlon="13.6083598" maxlat="45.9346476" maxlon="13.6084750"/>
-    <nd ref="470014190" lat="45.9346476" lon="13.6084750"/>
-    <nd ref="470014205" lat="45.9346432" lon="13.6084312"/>
-    <nd ref="470014170" lat="45.9346296" lon="13.6083916"/>
-    <nd ref="470014200" lat="45.9346082" lon="13.6083598"/>
-    <tag k="highway" v="primary"/>
-    <tag k="junction" v="roundabout"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Piazzale Umberto Saba"/>
-    <tag k="name:sl" v="Sabov trg"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="403578457" visible="true" version="2" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="39233871" version="8" timestamp="2022-05-26T22:50:07Z" changeset="121548616" uid="9458168" user="Gorka115">
-    <bounds minlat="45.9346388" minlon="13.6085321" maxlat="45.9346764" maxlon="13.6085574"/>
-    <nd ref="470014183" lat="45.9346388" lon="13.6085321"/>
-    <nd ref="470014220" lat="45.9346764" lon="13.6085574"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="old_name" v="Corso Vittorrio Emanuele III"/>
-  </way>
+  <node id="403578461" lat="46.3459458" lon="12.8694494" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="39233871" version="9" timestamp="2025-08-05T14:07:09Z" changeset="170009117" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9346388" minlon="13.6085321" maxlat="45.9346764" maxlon="13.6085574"/>
-    <nd ref="470014183" lat="45.9346388" lon="13.6085321"/>
-    <nd ref="470014220" lat="45.9346764" lon="13.6085574"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="name:sl" v="Korzo Italije"/>
-    <tag k="old_name" v="Corso Vittorrio Emanuele III"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="403578461" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="147289492" version="3" timestamp="2016-06-14T15:10:14Z" changeset="40019443" uid="616481" user="gigi2037">
-    <bounds minlat="45.9483946" minlon="13.6224667" maxlat="45.9492222" maxlon="13.6233404"/>
-    <nd ref="272510203" lat="45.9483946" lon="13.6233404"/>
-    <nd ref="4242960703" lat="45.9484483" lon="13.6232738"/>
-    <nd ref="272511977" lat="45.9486162" lon="13.6230455"/>
-    <nd ref="272511978" lat="45.9487986" lon="13.6228783"/>
-    <nd ref="1605186419" lat="45.9492222" lon="13.6224667"/>
-    <tag k="name" v="Piazza Nicolò Tommaseo"/>
-    <tag k="highway" v="unclassified"/>
-  </way>
+  <node id="403578464" lat="46.3460801" lon="12.8695021" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="147289492" version="4" timestamp="2025-08-05T19:47:47Z" changeset="170025614" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9483946" minlon="13.6224667" maxlat="45.9492222" maxlon="13.6233404"/>
-    <nd ref="272510203" lat="45.9483946" lon="13.6233404"/>
-    <nd ref="4242960703" lat="45.9484483" lon="13.6232738"/>
-    <nd ref="272511977" lat="45.9486162" lon="13.6230455"/>
-    <nd ref="272511978" lat="45.9487986" lon="13.6228783"/>
-    <nd ref="1605186419" lat="45.9492222" lon="13.6224667"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="name" v="Piazza Nicolò Tommaseo"/>
-    <tag k="name:sl" v="Mali trg (Tommaseov trg)"/>
-  </way>
+  <node id="403578464" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="147289494" version="2" timestamp="2022-02-05T00:20:02Z" changeset="117028240" uid="3538539" user="micheleOSM3">
-    <bounds minlat="45.9492222" minlon="13.6215971" maxlat="45.9507300" maxlon="13.6224667"/>
-    <nd ref="1605186419" lat="45.9492222" lon="13.6224667"/>
-    <nd ref="272510693" lat="45.9497732" lon="13.6220106"/>
-    <nd ref="9477313268" lat="45.9499254" lon="13.6219324"/>
-    <nd ref="272796152" lat="45.9500797" lon="13.6218910"/>
-    <nd ref="272510694" lat="45.9507300" lon="13.6215971"/>
-    <tag k="name" v="Riva Piazzutta"/>
-    <tag k="highway" v="unclassified"/>
-  </way>
+  <node id="403578465" lat="46.3462696" lon="12.8695509" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="147289494" version="3" timestamp="2025-08-05T19:47:47Z" changeset="170025614" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9492222" minlon="13.6215971" maxlat="45.9507300" maxlon="13.6224667"/>
-    <nd ref="1605186419" lat="45.9492222" lon="13.6224667"/>
-    <nd ref="272510693" lat="45.9497732" lon="13.6220106"/>
-    <nd ref="9477313268" lat="45.9499254" lon="13.6219324"/>
-    <nd ref="272796152" lat="45.9500797" lon="13.6218910"/>
-    <nd ref="272510694" lat="45.9507300" lon="13.6215971"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="name" v="Riva Piazzutta"/>
-    <tag k="name:sl" v="Placuta"/>
-  </way>
+  <node id="403578465" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="156588060" version="5" timestamp="2023-08-03T07:55:09Z" changeset="139379265" uid="18306404" user="over_the_edge">
-    <bounds minlat="45.9241217" minlon="13.6031442" maxlat="45.9243889" maxlon="13.6033042"/>
-    <nd ref="1688171447" lat="45.9241217" lon="13.6031442"/>
-    <nd ref="9654904606" lat="45.9241840" lon="13.6031969"/>
-    <nd ref="9654904598" lat="45.9242579" lon="13.6032361"/>
-    <nd ref="9654904604" lat="45.9243440" lon="13.6032956"/>
-    <nd ref="9654904603" lat="45.9243709" lon="13.6033042"/>
-    <nd ref="1688171454" lat="45.9243889" lon="13.6032931"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway:right" v="no"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="lanes" v="1"/>
-    <tag k="name" v="Via del San Michele"/>
-    <tag k="oneway" v="yes"/>
-  </way>
+  <node id="403578468" lat="46.3463842" lon="12.8696179" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="156588060" version="6" timestamp="2025-08-05T14:07:09Z" changeset="170009117" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9241217" minlon="13.6031442" maxlat="45.9243889" maxlon="13.6033042"/>
-    <nd ref="1688171447" lat="45.9241217" lon="13.6031442"/>
-    <nd ref="9654904606" lat="45.9241840" lon="13.6031969"/>
-    <nd ref="9654904598" lat="45.9242579" lon="13.6032361"/>
-    <nd ref="9654904604" lat="45.9243440" lon="13.6032956"/>
-    <nd ref="9654904603" lat="45.9243709" lon="13.6033042"/>
-    <nd ref="1688171454" lat="45.9243889" lon="13.6032931"/>
-    <tag k="cycleway:right" v="no"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="lanes" v="1"/>
-    <tag k="name" v="Via del San Michele"/>
-    <tag k="name:sl" v="Ulica Debele griže"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="403578468" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="156588064" version="4" timestamp="2022-04-09T23:22:30Z" changeset="119520070" uid="97922" user="damjang">
-    <bounds minlat="45.9245107" minlon="13.6032713" maxlat="45.9247129" maxlon="13.6032965"/>
-    <nd ref="1688171463" lat="45.9245107" lon="13.6032732"/>
-    <nd ref="1688171466" lat="45.9245478" lon="13.6032713"/>
-    <nd ref="9654904610" lat="45.9246256" lon="13.6032858"/>
-    <nd ref="312016366" lat="45.9247129" lon="13.6032965"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway:right" v="no"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Via del San Michele"/>
-    <tag k="oneway" v="yes"/>
-  </way>
+  <node id="403578470" lat="46.3464756" lon="12.8695954" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="156588064" version="5" timestamp="2025-08-05T14:07:09Z" changeset="170009117" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9245107" minlon="13.6032713" maxlat="45.9247129" maxlon="13.6032965"/>
-    <nd ref="1688171463" lat="45.9245107" lon="13.6032732"/>
-    <nd ref="1688171466" lat="45.9245478" lon="13.6032713"/>
-    <nd ref="9654904610" lat="45.9246256" lon="13.6032858"/>
-    <nd ref="312016366" lat="45.9247129" lon="13.6032965"/>
-    <tag k="cycleway:right" v="no"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="name" v="Via del San Michele"/>
-    <tag k="name:sl" v="Ulica Debele griže"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="403578470" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="164489981" version="4" timestamp="2022-05-26T22:49:44Z" changeset="121548616" uid="9458168" user="Gorka115">
-    <bounds minlat="45.9346388" minlon="13.6084750" maxlat="45.9346476" maxlon="13.6085321"/>
-    <nd ref="470014183" lat="45.9346388" lon="13.6085321"/>
-    <nd ref="470014190" lat="45.9346476" lon="13.6084750"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="highway" v="primary"/>
-    <tag k="junction" v="roundabout"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Piazzale Umberto Saba"/>
-  </way>
+  <node id="403578472" lat="46.3468161" lon="12.8694619" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="164489981" version="5" timestamp="2025-08-05T14:07:09Z" changeset="170009117" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9346388" minlon="13.6084750" maxlat="45.9346476" maxlon="13.6085321"/>
-    <nd ref="470014183" lat="45.9346388" lon="13.6085321"/>
-    <nd ref="470014190" lat="45.9346476" lon="13.6084750"/>
-    <tag k="highway" v="primary"/>
-    <tag k="junction" v="roundabout"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Piazzale Umberto Saba"/>
-    <tag k="name:sl" v="Sabov trg"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="403578472" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="253309258" version="5" timestamp="2022-11-28T15:07:44Z" changeset="129480741" uid="3821761" user="Gabriele Dri">
-    <bounds minlat="45.9244298" minlon="13.6032999" maxlat="45.9244967" maxlon="13.6033292"/>
-    <nd ref="1688171458" lat="45.9244298" lon="13.6033277"/>
-    <nd ref="9654904596" lat="45.9244539" lon="13.6033292"/>
-    <nd ref="9654927166" lat="45.9244770" lon="13.6033196"/>
-    <nd ref="271713114" lat="45.9244967" lon="13.6032999"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway:right" v="no"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="junction" v="roundabout"/>
-    <tag k="lanes" v="1"/>
-    <tag k="name" v="Via del San Michele"/>
-  </way>
+  <node id="403578474" lat="46.3469401" lon="12.8693710" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="253309258" version="6" timestamp="2025-08-05T14:07:09Z" changeset="170009117" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9244298" minlon="13.6032999" maxlat="45.9244967" maxlon="13.6033292"/>
-    <nd ref="1688171458" lat="45.9244298" lon="13.6033277"/>
-    <nd ref="9654904596" lat="45.9244539" lon="13.6033292"/>
-    <nd ref="9654927166" lat="45.9244770" lon="13.6033196"/>
-    <nd ref="271713114" lat="45.9244967" lon="13.6032999"/>
-    <tag k="cycleway:right" v="no"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="junction" v="roundabout"/>
-    <tag k="lanes" v="1"/>
-    <tag k="name" v="Via del San Michele"/>
-    <tag k="name:sl" v="Ulica Debele griže"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="403578474" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="290404410" version="5" timestamp="2024-09-24T13:30:14Z" changeset="157040002" uid="361003" user="Cascafico">
-    <bounds minlat="45.9474070" minlon="13.6233404" maxlat="45.9483946" maxlon="13.6248997"/>
-    <nd ref="272510685" lat="45.9474070" lon="13.6248997"/>
-    <nd ref="429827726" lat="45.9476692" lon="13.6244606"/>
-    <nd ref="429827724" lat="45.9480175" lon="13.6238034"/>
-    <nd ref="9477313267" lat="45.9481677" lon="13.6236101"/>
-    <nd ref="9477313266" lat="45.9482414" lon="13.6235042"/>
-    <nd ref="9477313265" lat="45.9482815" lon="13.6234599"/>
-    <nd ref="4242961298" lat="45.9483166" lon="13.6234185"/>
-    <nd ref="272510203" lat="45.9483946" lon="13.6233404"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Via del Seminario"/>
-    <tag k="source:maxspeed" v="IT:urban"/>
-  </way>
+  <node id="403578478" lat="46.3473640" lon="12.8688966" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="290404410" version="6" timestamp="2025-08-05T19:47:47Z" changeset="170025614" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9474070" minlon="13.6233404" maxlat="45.9483946" maxlon="13.6248997"/>
-    <nd ref="272510685" lat="45.9474070" lon="13.6248997"/>
-    <nd ref="429827726" lat="45.9476692" lon="13.6244606"/>
-    <nd ref="429827724" lat="45.9480175" lon="13.6238034"/>
-    <nd ref="9477313267" lat="45.9481677" lon="13.6236101"/>
-    <nd ref="9477313266" lat="45.9482414" lon="13.6235042"/>
-    <nd ref="9477313265" lat="45.9482815" lon="13.6234599"/>
-    <nd ref="4242961298" lat="45.9483166" lon="13.6234185"/>
-    <nd ref="272510203" lat="45.9483946" lon="13.6233404"/>
-    <tag k="highway" v="unclassified"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Via del Seminario"/>
-    <tag k="name:sl" v="Semeniška ulica"/>
-    <tag k="source:maxspeed" v="IT:urban"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="403578478" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="311299907" version="6" timestamp="2024-09-05T07:59:33Z" changeset="156217796" uid="21811641" user="lucacarraro">
-    <bounds minlat="45.9412126" minlon="13.6180151" maxlat="45.9412844" maxlon="13.6181675"/>
-    <nd ref="313877537" lat="45.9412126" lon="13.6180151"/>
-    <nd ref="3262135365" lat="45.9412653" lon="13.6181270"/>
-    <nd ref="3262135366" lat="45.9412844" lon="13.6181675"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="crossing"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="segregated" v="no"/>
-  </way>
+  <node id="403578483" lat="46.3477978" lon="12.8685495" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="311299907" version="7" timestamp="2025-08-05T14:11:30Z" changeset="170009410" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9412126" minlon="13.6180151" maxlat="45.9412844" maxlon="13.6181675"/>
-    <nd ref="313877537" lat="45.9412126" lon="13.6180151"/>
-    <nd ref="3262135365" lat="45.9412653" lon="13.6181270"/>
-    <nd ref="3262135366" lat="45.9412844" lon="13.6181675"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="crossing"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="name:sl" v="Korzo Italije"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="segregated" v="no"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="403578483" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="311299908" version="5" timestamp="2024-09-05T07:59:33Z" changeset="156217796" uid="21811641" user="lucacarraro">
-    <bounds minlat="45.9413425" minlon="13.6182908" maxlat="45.9417152" maxlon="13.6190814"/>
-    <nd ref="3169036203" lat="45.9413425" lon="13.6182908"/>
-    <nd ref="12157253890" lat="45.9414256" lon="13.6184671"/>
-    <nd ref="3262135374" lat="45.9417152" lon="13.6190814"/>
-    <tag k="surface" v="paved"/>
-    <tag k="segregated" v="yes"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="foot" v="designated"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="oneway" v="yes"/>
-  </way>
+  <node id="403578487" lat="46.3480564" lon="12.8684657" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="311299908" version="6" timestamp="2025-08-05T14:11:30Z" changeset="170009410" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9413425" minlon="13.6182908" maxlat="45.9417152" maxlon="13.6190814"/>
-    <nd ref="3169036203" lat="45.9413425" lon="13.6182908"/>
-    <nd ref="12157253890" lat="45.9414256" lon="13.6184671"/>
-    <nd ref="3262135374" lat="45.9417152" lon="13.6190814"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="foot" v="designated"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="name:sl" v="Korzo Italije"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="segregated" v="yes"/>
-    <tag k="surface" v="paved"/>
-  </way>
+  <node id="403578487" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="319751575" version="6" timestamp="2024-09-05T07:59:33Z" changeset="156217796" uid="21811641" user="lucacarraro">
-    <bounds minlat="45.9403279" minlon="13.6162215" maxlat="45.9411516" maxlon="13.6178914"/>
-    <nd ref="3262133454" lat="45.9403279" lon="13.6162215"/>
-    <nd ref="3262133460" lat="45.9411516" lon="13.6178914"/>
-    <tag k="surface" v="paved"/>
-    <tag k="segregated" v="yes"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="foot" v="designated"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="oneway" v="yes"/>
-  </way>
+  <node id="403578489" lat="46.3481888" lon="12.8683671" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="319751575" version="7" timestamp="2025-08-05T14:11:30Z" changeset="170009410" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9403279" minlon="13.6162215" maxlat="45.9411516" maxlon="13.6178914"/>
-    <nd ref="3262133454" lat="45.9403279" lon="13.6162215"/>
-    <nd ref="3262133460" lat="45.9411516" lon="13.6178914"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="foot" v="designated"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="name:sl" v="Korzo Italije"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="segregated" v="yes"/>
-    <tag k="surface" v="paved"/>
-  </way>
+  <node id="403578489" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="319751579" version="4" timestamp="2024-09-05T07:59:33Z" changeset="156217796" uid="21811641" user="lucacarraro">
-    <bounds minlat="45.9397606" minlon="13.6150236" maxlat="45.9402789" maxlon="13.6161195"/>
-    <nd ref="3262133445" lat="45.9397606" lon="13.6150236"/>
-    <nd ref="3262133451" lat="45.9402789" lon="13.6161195"/>
-    <tag k="surface" v="paved"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="oneway" v="yes"/>
-  </way>
+  <node id="403578495" lat="46.3486444" lon="12.8678382" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="319751579" version="5" timestamp="2025-08-05T14:11:30Z" changeset="170009410" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9397606" minlon="13.6150236" maxlat="45.9402789" maxlon="13.6161195"/>
-    <nd ref="3262133445" lat="45.9397606" lon="13.6150236"/>
-    <nd ref="3262133451" lat="45.9402789" lon="13.6161195"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="name:sl" v="Korzo Italije"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="surface" v="paved"/>
-  </way>
+  <node id="403578495" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="319751582" version="4" timestamp="2024-09-05T07:59:33Z" changeset="156217796" uid="21811641" user="lucacarraro">
-    <bounds minlat="45.9417919" minlon="13.6192269" maxlat="45.9420646" maxlon="13.6197071"/>
-    <nd ref="3262135375" lat="45.9417919" lon="13.6192269"/>
-    <nd ref="313877541" lat="45.9420646" lon="13.6197071"/>
-    <tag k="surface" v="paved"/>
-    <tag k="segregated" v="yes"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="foot" v="designated"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="oneway" v="yes"/>
-  </way>
+  <node id="403578497" lat="46.3487218" lon="12.8678206" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="319751582" version="5" timestamp="2025-08-05T14:11:30Z" changeset="170009410" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9417919" minlon="13.6192269" maxlat="45.9420646" maxlon="13.6197071"/>
-    <nd ref="3262135375" lat="45.9417919" lon="13.6192269"/>
-    <nd ref="313877541" lat="45.9420646" lon="13.6197071"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="foot" v="designated"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="name:sl" v="Korzo Italije"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="segregated" v="yes"/>
-    <tag k="surface" v="paved"/>
-  </way>
+  <node id="403578497" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="319751587" version="5" timestamp="2024-09-11T15:01:49Z" changeset="156489132" uid="21838913" user="marcidal">
-    <bounds minlat="45.9417152" minlon="13.6190814" maxlat="45.9417919" maxlon="13.6192269"/>
-    <nd ref="3262135374" lat="45.9417152" lon="13.6190814"/>
-    <nd ref="313877539" lat="45.9417440" lon="13.6191425"/>
-    <nd ref="3262135375" lat="45.9417919" lon="13.6192269"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="crossing"/>
-    <tag k="cycleway:surface" v="asphalt"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="segregated" v="yes"/>
-  </way>
+  <node id="403578499" lat="46.3488708" lon="12.8679460" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="319751587" version="6" timestamp="2025-08-05T14:11:30Z" changeset="170009410" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9417152" minlon="13.6190814" maxlat="45.9417919" maxlon="13.6192269"/>
-    <nd ref="3262135374" lat="45.9417152" lon="13.6190814"/>
-    <nd ref="313877539" lat="45.9417440" lon="13.6191425"/>
-    <nd ref="3262135375" lat="45.9417919" lon="13.6192269"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="crossing"/>
-    <tag k="cycleway:surface" v="asphalt"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="name:sl" v="Korzo Italije"/>
-    <tag k="segregated" v="yes"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="403578499" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="319751588" version="5" timestamp="2024-09-05T07:59:33Z" changeset="156217796" uid="21811641" user="lucacarraro">
-    <bounds minlat="45.9411516" minlon="13.6178914" maxlat="45.9412126" maxlon="13.6180151"/>
-    <nd ref="3262133460" lat="45.9411516" lon="13.6178914"/>
-    <nd ref="3262135361" lat="45.9411745" lon="13.6179378"/>
-    <nd ref="313877537" lat="45.9412126" lon="13.6180151"/>
-    <tag k="surface" v="paved"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="crossing"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="segregated" v="yes"/>
-  </way>
+  <node id="403578501" lat="46.3489709" lon="12.8680298" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="319751588" version="6" timestamp="2025-08-05T14:11:30Z" changeset="170009410" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9411516" minlon="13.6178914" maxlat="45.9412126" maxlon="13.6180151"/>
-    <nd ref="3262133460" lat="45.9411516" lon="13.6178914"/>
-    <nd ref="3262135361" lat="45.9411745" lon="13.6179378"/>
-    <nd ref="313877537" lat="45.9412126" lon="13.6180151"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="cycleway" v="crossing"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="name:sl" v="Korzo Italije"/>
-    <tag k="segregated" v="yes"/>
-    <tag k="surface" v="paved"/>
-  </way>
+  <node id="403578501" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="319751593" version="7" timestamp="2025-01-09T07:55:37Z" changeset="161159400" uid="109705" user="gscholz">
-    <bounds minlat="45.9386012" minlon="13.6126575" maxlat="45.9391224" maxlon="13.6136951"/>
-    <nd ref="3262133431" lat="45.9386012" lon="13.6126575"/>
-    <nd ref="313877531" lat="45.9391071" lon="13.6136634"/>
-    <nd ref="3262133436" lat="45.9391224" lon="13.6136951"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="oneway" v="yes"/>
-  </way>
+  <node id="403578504" lat="46.3490766" lon="12.8680874" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="319751593" version="8" timestamp="2025-08-05T14:11:30Z" changeset="170009410" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9386012" minlon="13.6126575" maxlat="45.9391224" maxlon="13.6136951"/>
-    <nd ref="3262133431" lat="45.9386012" lon="13.6126575"/>
-    <nd ref="313877531" lat="45.9391071" lon="13.6136634"/>
-    <nd ref="3262133436" lat="45.9391224" lon="13.6136951"/>
-    <tag k="bicycle" v="designated"/>
-    <tag k="highway" v="cycleway"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="name:sl" v="Korzo Italije"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="403578504" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="428607535" version="4" timestamp="2022-04-09T23:22:30Z" changeset="119520070" uid="97922" user="damjang">
-    <bounds minlat="45.9244967" minlon="13.6032732" maxlat="45.9245107" maxlon="13.6032999"/>
-    <nd ref="271713114" lat="45.9244967" lon="13.6032999"/>
-    <nd ref="1688171463" lat="45.9245107" lon="13.6032732"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="cycleway:right" v="no"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="junction" v="roundabout"/>
-    <tag k="lanes" v="1"/>
-    <tag k="name" v="Via del San Michele"/>
-  </way>
+  <node id="403578505" lat="46.3491944" lon="12.8681223" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="428607535" version="5" timestamp="2025-08-05T14:07:09Z" changeset="170009117" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9244967" minlon="13.6032732" maxlat="45.9245107" maxlon="13.6032999"/>
-    <nd ref="271713114" lat="45.9244967" lon="13.6032999"/>
-    <nd ref="1688171463" lat="45.9245107" lon="13.6032732"/>
-    <tag k="cycleway:right" v="no"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="junction" v="roundabout"/>
-    <tag k="lanes" v="1"/>
-    <tag k="name" v="Via del San Michele"/>
-    <tag k="name:sl" v="Ulica Debele griže"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
+  <node id="403578505" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="660927088" version="4" timestamp="2021-12-15T16:47:41Z" changeset="114971984" uid="45073" user="iiizio">
-    <bounds minlat="45.9420968" minlon="13.6196434" maxlat="45.9425979" maxlon="13.6201279"/>
-    <nd ref="270765250" lat="45.9420968" lon="13.6196434"/>
-    <nd ref="271808809" lat="45.9424887" lon="13.6200389"/>
-    <nd ref="3262135378" lat="45.9425033" lon="13.6200500"/>
-    <nd ref="270963970" lat="45.9425979" lon="13.6201279"/>
-    <tag k="old_name" v="Corso Vittorrio Emanuele III"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Corso Italia"/>
-  </way>
+  <node id="403578506" lat="46.3493435" lon="12.8681016" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </old>
 <new>
-  <way id="660927088" version="5" timestamp="2025-08-05T14:11:30Z" changeset="170009410" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9420968" minlon="13.6196434" maxlat="45.9425979" maxlon="13.6201279"/>
-    <nd ref="270765250" lat="45.9420968" lon="13.6196434"/>
-    <nd ref="271808809" lat="45.9424887" lon="13.6200389"/>
-    <nd ref="3262135378" lat="45.9425033" lon="13.6200500"/>
-    <nd ref="270963970" lat="45.9425979" lon="13.6201279"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Corso Italia"/>
-    <tag k="name:sl" v="Korzo Italije"/>
-    <tag k="old_name" v="Corso Vittorrio Emanuele III"/>
-  </way>
+  <node id="403578506" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
-<action type="modify">
+<action type="delete">
 <old>
-  <way id="935467935" version="2" timestamp="2021-11-16T18:57:54Z" changeset="113865154" uid="97922" user="damjang">
-    <bounds minlat="45.9440285" minlon="13.6210892" maxlat="45.9443026" maxlon="13.6212676"/>
-    <nd ref="271688075" lat="45.9440285" lon="13.6210892"/>
-    <nd ref="9257953296" lat="45.9440955" lon="13.6211328"/>
-    <nd ref="270965057" lat="45.9443026" lon="13.6212676"/>
-    <tag k="name:sl" v="Korzo Giuseppe Verdi"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Corso Giuseppe Verdi"/>
-    <tag k="old_name" v="Contrada del Giardino"/>
-    <tag k="short_name" v="Corso Verdi"/>
-    <tag k="short_name:sl" v="Korzo Verdi"/>
+  <node id="403578507" lat="46.3495357" lon="12.8680133" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578507" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578510" lat="46.3499104" lon="12.8676443" version="1" timestamp="2009-05-17T22:46:42Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578510" visible="true" version="1" timestamp="2009-05-17T22:46:42Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578514" lat="46.3502581" lon="12.8677841" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578514" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578515" lat="46.3504146" lon="12.8677383" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578515" visible="true" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578516" lat="46.3505307" lon="12.8677148" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578516" visible="true" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578518" lat="46.3507667" lon="12.8675802" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578518" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578519" lat="46.3508647" lon="12.8674550" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578519" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578520" lat="46.3509496" lon="12.8673251" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578520" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578521" lat="46.3511045" lon="12.8671229" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578521" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578523" lat="46.3511648" lon="12.8669867" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578523" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578525" lat="46.3512919" lon="12.8665848" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578525" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578526" lat="46.3513736" lon="12.8661651" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578526" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578527" lat="46.3514281" lon="12.8658889" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578527" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578528" lat="46.3515043" lon="12.8655897" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578528" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578529" lat="46.3515908" lon="12.8655420" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578529" visible="true" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578530" lat="46.3516664" lon="12.8654866" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578530" visible="true" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578532" lat="46.3518966" lon="12.8654097" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578532" visible="true" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578533" lat="46.3520693" lon="12.8648896" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578533" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578535" lat="46.3521656" lon="12.8647404" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578535" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578536" lat="46.3522629" lon="12.8647463" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578536" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578537" lat="46.3524617" lon="12.8647264" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578537" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578538" lat="46.3526407" lon="12.8645778" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578538" visible="true" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578539" lat="46.3527187" lon="12.8644832" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578539" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578540" lat="46.3527729" lon="12.8643658" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578540" visible="true" version="1" timestamp="2009-05-17T22:46:43Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578541" lat="46.3528373" lon="12.8643542" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578541" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578542" lat="46.3528894" lon="12.8643158" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578542" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578544" lat="46.3530329" lon="12.8643731" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578544" visible="true" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578545" lat="46.3531482" lon="12.8644293" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578545" visible="true" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578546" lat="46.3532719" lon="12.8644659" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578546" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578547" lat="46.3533615" lon="12.8644070" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578547" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578548" lat="46.3534864" lon="12.8641842" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578548" visible="true" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578549" lat="46.3536164" lon="12.8639061" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578549" visible="true" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578550" lat="46.3536965" lon="12.8637899" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578550" visible="true" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578551" lat="46.3537856" lon="12.8637260" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578551" visible="true" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578552" lat="46.3538610" lon="12.8636909" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578552" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578553" lat="46.3540216" lon="12.8636805" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578553" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578555" lat="46.3543029" lon="12.8638275" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578555" visible="true" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578558" lat="46.3547658" lon="12.8640214" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578558" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578559" lat="46.3548880" lon="12.8639220" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578559" visible="true" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578562" lat="46.3553258" lon="12.8635881" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578562" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578564" lat="46.3558510" lon="12.8635082" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578564" visible="true" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578565" lat="46.3560352" lon="12.8633915" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578565" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578566" lat="46.3563511" lon="12.8633405" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578566" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578567" lat="46.3565948" lon="12.8632337" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578567" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578569" lat="46.3568805" lon="12.8630662" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578569" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578570" lat="46.3570493" lon="12.8628878" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578570" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578571" lat="46.3571500" lon="12.8627587" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578571" visible="true" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578573" lat="46.3572449" lon="12.8625151" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578573" visible="true" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578575" lat="46.3573033" lon="12.8622401" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578575" visible="true" version="1" timestamp="2009-05-17T22:46:44Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578576" lat="46.3573290" lon="12.8621666" version="1" timestamp="2009-05-17T22:46:45Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578576" visible="true" version="1" timestamp="2009-05-17T22:46:45Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578577" lat="46.3573672" lon="12.8621265" version="1" timestamp="2009-05-17T22:46:45Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578577" visible="true" version="1" timestamp="2009-05-17T22:46:45Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578579" lat="46.3575953" lon="12.8620881" version="2" timestamp="2012-08-06T21:23:10Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578579" visible="true" version="2" timestamp="2012-08-06T21:23:10Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578580" lat="46.3578297" lon="12.8619546" version="2" timestamp="2012-08-06T21:23:10Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578580" visible="true" version="2" timestamp="2012-08-06T21:23:10Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578582" lat="46.3579914" lon="12.8619020" version="3" timestamp="2013-12-26T16:35:57Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578582" visible="true" version="3" timestamp="2013-12-26T16:35:57Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578583" lat="46.3582942" lon="12.8618479" version="3" timestamp="2013-12-26T16:35:57Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578583" visible="true" version="3" timestamp="2013-12-26T16:35:57Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578584" lat="46.3582000" lon="12.8617323" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578584" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578586" lat="46.3578974" lon="12.8614509" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578586" visible="true" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578587" lat="46.3576394" lon="12.8613237" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578587" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578588" lat="46.3574709" lon="12.8612056" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578588" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578589" lat="46.3571710" lon="12.8611198" version="4" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578589" visible="true" version="4" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578592" lat="46.3569433" lon="12.8613746" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578592" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578594" lat="46.3568970" lon="12.8615355" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578594" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578596" lat="46.3567805" lon="12.8618257" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578596" visible="true" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578597" lat="46.3567363" lon="12.8618192" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578597" visible="true" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578598" lat="46.3567417" lon="12.8616937" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578598" visible="true" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578599" lat="46.3567585" lon="12.8615786" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578599" visible="true" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578600" lat="46.3567716" lon="12.8613990" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578600" visible="true" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578603" lat="46.3567934" lon="12.8611708" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578603" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578604" lat="46.3568547" lon="12.8607877" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578604" visible="true" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578606" lat="46.3569711" lon="12.8605056" version="4" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578606" visible="true" version="4" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578607" lat="46.3572551" lon="12.8604723" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578607" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578609" lat="46.3574995" lon="12.8604218" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578609" visible="true" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578610" lat="46.3575883" lon="12.8601604" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578610" visible="true" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578612" lat="46.3578060" lon="12.8600684" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578612" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578613" lat="46.3579892" lon="12.8600657" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578613" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578614" lat="46.3582265" lon="12.8599752" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578614" visible="true" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578615" lat="46.3583454" lon="12.8597361" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578615" visible="true" version="2" timestamp="2012-08-06T21:23:11Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578616" lat="46.3583664" lon="12.8594357" version="2" timestamp="2012-08-06T21:23:12Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578616" visible="true" version="2" timestamp="2012-08-06T21:23:12Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578618" lat="46.3580060" lon="12.8584070" version="2" timestamp="2012-08-06T21:23:12Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578618" visible="true" version="2" timestamp="2012-08-06T21:23:12Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578621" lat="46.3578967" lon="12.8580272" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578621" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578624" lat="46.3576153" lon="12.8574961" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578624" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578625" lat="46.3575801" lon="12.8572130" version="2" timestamp="2012-08-06T21:23:12Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="403578625" visible="true" version="2" timestamp="2012-08-06T21:23:12Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578628" lat="46.3575528" lon="12.8568953" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578628" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578630" lat="46.3575547" lon="12.8568236" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578630" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578631" lat="46.3575505" lon="12.8567183" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578631" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578632" lat="46.3575709" lon="12.8563589" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578632" visible="true" version="3" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578633" lat="46.3576134" lon="12.8561872" version="2" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578633" visible="true" version="2" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578635" lat="46.3576856" lon="12.8559673" version="2" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="403578635" visible="true" version="2" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578636" lat="46.3577991" lon="12.8557293" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578636" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578640" lat="46.3581383" lon="12.8551839" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578640" visible="true" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578643" lat="46.3585087" lon="12.8545926" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578643" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578645" lat="46.3586445" lon="12.8543802" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578645" visible="true" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578647" lat="46.3588367" lon="12.8542087" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578647" visible="true" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578650" lat="46.3591849" lon="12.8539605" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578650" visible="true" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578652" lat="46.3593934" lon="12.8538649" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578652" visible="true" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578655" lat="46.3598068" lon="12.8537276" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578655" visible="true" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578656" lat="46.3599126" lon="12.8536640" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578656" visible="true" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578660" lat="46.3602433" lon="12.8532506" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578660" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578661" lat="46.3604053" lon="12.8531223" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578661" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578662" lat="46.3604361" lon="12.8529773" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578662" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578663" lat="46.3603927" lon="12.8528513" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578663" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578665" lat="46.3602659" lon="12.8521623" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578665" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578666" lat="46.3601629" lon="12.8519339" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578666" visible="true" version="1" timestamp="2009-05-17T22:46:47Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578668" lat="46.3600785" lon="12.8515411" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578668" visible="true" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578669" lat="46.3600351" lon="12.8514148" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578669" visible="true" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578672" lat="46.3600493" lon="12.8513028" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578672" visible="true" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578674" lat="46.3601303" lon="12.8511626" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578674" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578675" lat="46.3601715" lon="12.8510603" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578675" visible="true" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578678" lat="46.3601795" lon="12.8508530" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578678" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578680" lat="46.3601760" lon="12.8507077" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578680" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578681" lat="46.3601471" lon="12.8506200" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578681" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578683" lat="46.3601206" lon="12.8505499" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578683" visible="true" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578685" lat="46.3599645" lon="12.8506264" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578685" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578686" lat="46.3598369" lon="12.8506781" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578686" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578687" lat="46.3596973" lon="12.8505506" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578687" visible="true" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578689" lat="46.3595431" lon="12.8504608" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578689" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578691" lat="46.3593048" lon="12.8504219" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578691" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578693" lat="46.3591052" lon="12.8502778" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578693" visible="true" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578694" lat="46.3589176" lon="12.8500890" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578694" visible="true" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578696" lat="46.3587180" lon="12.8495586" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578696" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578697" lat="46.3586513" lon="12.8493562" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</old>
+<new>
+  <node id="403578697" visible="true" version="1" timestamp="2009-05-17T22:46:48Z" changeset="1229567" uid="86130" user="Stefano Salvador"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578698" lat="46.3586599" lon="12.8490656" version="4" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578698" visible="true" version="4" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578700" lat="46.3586810" lon="12.8488115" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578700" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578701" lat="46.3586873" lon="12.8484369" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578701" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578702" lat="46.3586046" lon="12.8482950" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578702" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578703" lat="46.3585983" lon="12.8481610" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578703" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578704" lat="46.3586389" lon="12.8479534" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578704" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578705" lat="46.3586757" lon="12.8477664" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578705" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578706" lat="46.3586751" lon="12.8475512" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578706" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578707" lat="46.3586479" lon="12.8474428" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578707" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578708" lat="46.3586155" lon="12.8473379" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578708" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578709" lat="46.3585856" lon="12.8472580" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578709" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578710" lat="46.3585466" lon="12.8471514" version="2" timestamp="2014-04-11T22:48:15Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578710" visible="true" version="2" timestamp="2014-04-11T22:48:15Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578711" lat="46.3584945" lon="12.8469070" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578711" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578712" lat="46.3584221" lon="12.8466783" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578712" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578713" lat="46.3583913" lon="12.8465068" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578713" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578714" lat="46.3583546" lon="12.8464181" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578714" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578715" lat="46.3583345" lon="12.8463223" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578715" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578716" lat="46.3583162" lon="12.8461318" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578716" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578717" lat="46.3583367" lon="12.8459916" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578717" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578718" lat="46.3583691" lon="12.8457840" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578718" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578719" lat="46.3583805" lon="12.8455543" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578719" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578725" lat="46.3583865" lon="12.8450502" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578725" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578726" lat="46.3583895" lon="12.8449319" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578726" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578727" lat="46.3584059" lon="12.8448133" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578727" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578728" lat="46.3584146" lon="12.8447748" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578728" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578729" lat="46.3584271" lon="12.8447367" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578729" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578730" lat="46.3584419" lon="12.8447017" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578730" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578731" lat="46.3584620" lon="12.8446347" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="403578731" visible="true" version="3" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578732" lat="46.3584797" lon="12.8446026" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578732" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578733" lat="46.3584926" lon="12.8445652" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578733" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578734" lat="46.3585086" lon="12.8445317" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578734" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578735" lat="46.3585280" lon="12.8444985" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578735" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578736" lat="46.3585541" lon="12.8444738" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578736" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578737" lat="46.3585851" lon="12.8444636" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578737" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578738" lat="46.3586412" lon="12.8444561" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578738" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578739" lat="46.3587244" lon="12.8444740" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578739" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578740" lat="46.3588031" lon="12.8445155" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578740" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578741" lat="46.3589001" lon="12.8445885" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578741" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578742" lat="46.3589699" lon="12.8446458" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578742" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578743" lat="46.3589914" lon="12.8446564" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578743" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578744" lat="46.3590415" lon="12.8446474" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578744" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578745" lat="46.3590789" lon="12.8446291" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578745" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578746" lat="46.3591115" lon="12.8445901" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578746" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578747" lat="46.3591663" lon="12.8445044" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578747" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578748" lat="46.3591945" lon="12.8444412" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578748" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578749" lat="46.3592042" lon="12.8444071" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578749" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578750" lat="46.3592190" lon="12.8443338" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578750" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="403578751" lat="46.3592239" lon="12.8442971" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</old>
+<new>
+  <node id="403578751" visible="true" version="2" timestamp="2014-04-11T22:48:16Z" changeset="21636691" uid="893327" user="mcheckimport"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="1854967924" lat="46.3580401" lon="12.8616071" version="1" timestamp="2012-08-06T21:22:57Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="1854967924" visible="true" version="1" timestamp="2012-08-06T21:22:57Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="1854967925" lat="46.3581262" lon="12.8589129" version="1" timestamp="2012-08-06T21:22:57Z" changeset="12639179" uid="198522" user="abrondi"/>
+</old>
+<new>
+  <node id="1854967925" visible="true" version="1" timestamp="2012-08-06T21:22:57Z" changeset="12639179" uid="198522" user="abrondi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="2595520438" lat="46.3581451" lon="12.8618851" version="1" timestamp="2013-12-26T16:35:15Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="2595520438" visible="true" version="1" timestamp="2013-12-26T16:35:15Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="2595520443" lat="46.3582395" lon="12.8618973" version="1" timestamp="2013-12-26T16:35:15Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="2595520443" visible="true" version="1" timestamp="2013-12-26T16:35:15Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="2595520445" lat="46.3582663" lon="12.8618861" version="1" timestamp="2013-12-26T16:35:15Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="2595520445" visible="true" version="1" timestamp="2013-12-26T16:35:15Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="2595520446" lat="46.3582698" lon="12.8617697" version="1" timestamp="2013-12-26T16:35:15Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="2595520446" visible="true" version="1" timestamp="2013-12-26T16:35:15Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="2595520450" lat="46.3582888" lon="12.8618044" version="1" timestamp="2013-12-26T16:35:15Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="2595520450" visible="true" version="1" timestamp="2013-12-26T16:35:15Z" changeset="19647066" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807105013" lat="46.3453510" lon="12.8683725" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807105013" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807105014" lat="46.3453853" lon="12.8685670" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807105014" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807105015" lat="46.3453733" lon="12.8684865" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807105015" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807105016" lat="46.3453631" lon="12.8684033" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807105016" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114617" lat="46.3453399" lon="12.8683604" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114617" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114618" lat="46.3454797" lon="12.8688580" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114618" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114619" lat="46.3455167" lon="12.8690176" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114619" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114620" lat="46.3457343" lon="12.8694682" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114620" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114621" lat="46.3455991" lon="12.8694548" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114621" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114622" lat="46.3455418" lon="12.8692992" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="8807114622" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114623" lat="46.3577893" lon="12.8613532" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114623" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114624" lat="46.3573561" lon="12.8611439" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114624" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114625" lat="46.3572469" lon="12.8610903" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114625" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114626" lat="46.3570673" lon="12.8604734" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114626" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114627" lat="46.3575635" lon="12.8603446" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114627" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114628" lat="46.3575875" lon="12.8602561" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114628" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114629" lat="46.3576634" lon="12.8601113" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114629" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114632" lat="46.3576412" lon="12.8576329" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114632" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114633" lat="46.3579633" lon="12.8581184" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114633" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8807114634" lat="46.3576782" lon="12.8577134" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</old>
+<new>
+  <node id="8807114634" visible="true" version="1" timestamp="2021-06-05T14:57:21Z" changeset="105885751" uid="188429" user="gpstracks"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="9422368421" lat="46.3579020" lon="12.8619311" version="1" timestamp="2022-01-16T11:26:49Z" changeset="116210075" uid="3217726" user="maicolgalante"/>
+</old>
+<new>
+  <node id="9422368421" visible="true" version="1" timestamp="2022-01-16T11:26:49Z" changeset="116210075" uid="3217726" user="maicolgalante"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="9422368434" lat="46.3550881" lon="12.8637757" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="9422368434" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="9422368436" lat="46.3472016" lon="12.8690403" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="9422368436" visible="true" version="2" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633057" lat="46.3478793" lon="12.8684905" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633057" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633058" lat="46.3500806" lon="12.8677341" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633058" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633059" lat="46.3498362" lon="12.8676751" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633059" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633060" lat="46.3496604" lon="12.8679085" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633060" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633061" lat="46.3520060" lon="12.8651968" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633061" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633062" lat="46.3526003" lon="12.8646523" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633062" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633063" lat="46.3529909" lon="12.8643197" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633063" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633064" lat="46.3541850" lon="12.8637296" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633064" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633065" lat="46.3546700" lon="12.8640568" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633065" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633067" lat="46.3551791" lon="12.8636599" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633067" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633068" lat="46.3557178" lon="12.8635365" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633068" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633069" lat="46.3555901" lon="12.8635016" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633069" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633073" lat="46.3569119" lon="12.8606316" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633073" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633074" lat="46.3583817" lon="12.8595936" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633074" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633075" lat="46.3587908" lon="12.8498304" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633075" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633076" lat="46.3583780" lon="12.8453189" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633076" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633077" lat="46.3600254" lon="12.8535399" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633077" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633078" lat="46.3601143" lon="12.8533521" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633078" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633079" lat="46.3603308" lon="12.8523946" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633079" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="10536633080" lat="46.3601124" lon="12.8517723" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</old>
+<new>
+  <node id="10536633080" visible="true" version="1" timestamp="2023-01-10T11:14:59Z" changeset="131102044" uid="3538539" user="micheleOSM3"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <way id="34682299" version="17" timestamp="2024-03-19T19:54:20Z" changeset="148878962" uid="421035" user="Mattia P">
+    <bounds minlat="46.3453251" minlon="12.8442599" maxlat="46.3604361" maxlon="12.8696179"/>
+    <nd ref="403578448" lat="46.3453251" lon="12.8683604"/>
+    <nd ref="8807114617" lat="46.3453399" lon="12.8683604"/>
+    <nd ref="8807105013" lat="46.3453510" lon="12.8683725"/>
+    <nd ref="8807105016" lat="46.3453631" lon="12.8684033"/>
+    <nd ref="8807105015" lat="46.3453733" lon="12.8684865"/>
+    <nd ref="8807105014" lat="46.3453853" lon="12.8685670"/>
+    <nd ref="403578451" lat="46.3454195" lon="12.8686863"/>
+    <nd ref="8807114618" lat="46.3454797" lon="12.8688580"/>
+    <nd ref="8807114619" lat="46.3455167" lon="12.8690176"/>
+    <nd ref="403578453" lat="46.3455233" lon="12.8692193"/>
+    <nd ref="8807114622" lat="46.3455418" lon="12.8692992"/>
+    <nd ref="403578455" lat="46.3455861" lon="12.8694320"/>
+    <nd ref="8807114621" lat="46.3455991" lon="12.8694548"/>
+    <nd ref="403578457" lat="46.3456297" lon="12.8694816"/>
+    <nd ref="8807114620" lat="46.3457343" lon="12.8694682"/>
+    <nd ref="403578461" lat="46.3459458" lon="12.8694494"/>
+    <nd ref="403578464" lat="46.3460801" lon="12.8695021"/>
+    <nd ref="403578465" lat="46.3462696" lon="12.8695509"/>
+    <nd ref="403578468" lat="46.3463842" lon="12.8696179"/>
+    <nd ref="403578470" lat="46.3464756" lon="12.8695954"/>
+    <nd ref="403578472" lat="46.3468161" lon="12.8694619"/>
+    <nd ref="403578474" lat="46.3469401" lon="12.8693710"/>
+    <nd ref="9422368436" lat="46.3472016" lon="12.8690403"/>
+    <nd ref="403578478" lat="46.3473640" lon="12.8688966"/>
+    <nd ref="403578483" lat="46.3477978" lon="12.8685495"/>
+    <nd ref="10536633057" lat="46.3478793" lon="12.8684905"/>
+    <nd ref="403578487" lat="46.3480564" lon="12.8684657"/>
+    <nd ref="403578489" lat="46.3481888" lon="12.8683671"/>
+    <nd ref="403578495" lat="46.3486444" lon="12.8678382"/>
+    <nd ref="403578497" lat="46.3487218" lon="12.8678206"/>
+    <nd ref="403578499" lat="46.3488708" lon="12.8679460"/>
+    <nd ref="403578501" lat="46.3489709" lon="12.8680298"/>
+    <nd ref="403578504" lat="46.3490766" lon="12.8680874"/>
+    <nd ref="403578505" lat="46.3491944" lon="12.8681223"/>
+    <nd ref="403578506" lat="46.3493435" lon="12.8681016"/>
+    <nd ref="403578507" lat="46.3495357" lon="12.8680133"/>
+    <nd ref="10536633060" lat="46.3496604" lon="12.8679085"/>
+    <nd ref="10536633059" lat="46.3498362" lon="12.8676751"/>
+    <nd ref="403578510" lat="46.3499104" lon="12.8676443"/>
+    <nd ref="10536633058" lat="46.3500806" lon="12.8677341"/>
+    <nd ref="403578514" lat="46.3502581" lon="12.8677841"/>
+    <nd ref="403578515" lat="46.3504146" lon="12.8677383"/>
+    <nd ref="403578516" lat="46.3505307" lon="12.8677148"/>
+    <nd ref="403578518" lat="46.3507667" lon="12.8675802"/>
+    <nd ref="403578519" lat="46.3508647" lon="12.8674550"/>
+    <nd ref="403578520" lat="46.3509496" lon="12.8673251"/>
+    <nd ref="403578521" lat="46.3511045" lon="12.8671229"/>
+    <nd ref="403578523" lat="46.3511648" lon="12.8669867"/>
+    <nd ref="403578525" lat="46.3512919" lon="12.8665848"/>
+    <nd ref="403578526" lat="46.3513736" lon="12.8661651"/>
+    <nd ref="403578527" lat="46.3514281" lon="12.8658889"/>
+    <nd ref="403578528" lat="46.3515043" lon="12.8655897"/>
+    <nd ref="403578529" lat="46.3515908" lon="12.8655420"/>
+    <nd ref="403578530" lat="46.3516664" lon="12.8654866"/>
+    <nd ref="403578532" lat="46.3518966" lon="12.8654097"/>
+    <nd ref="10536633061" lat="46.3520060" lon="12.8651968"/>
+    <nd ref="403578533" lat="46.3520693" lon="12.8648896"/>
+    <nd ref="403578535" lat="46.3521656" lon="12.8647404"/>
+    <nd ref="403578536" lat="46.3522629" lon="12.8647463"/>
+    <nd ref="403578537" lat="46.3524617" lon="12.8647264"/>
+    <nd ref="10536633062" lat="46.3526003" lon="12.8646523"/>
+    <nd ref="403578538" lat="46.3526407" lon="12.8645778"/>
+    <nd ref="403578539" lat="46.3527187" lon="12.8644832"/>
+    <nd ref="403578540" lat="46.3527729" lon="12.8643658"/>
+    <nd ref="403578541" lat="46.3528373" lon="12.8643542"/>
+    <nd ref="403578542" lat="46.3528894" lon="12.8643158"/>
+    <nd ref="10536633063" lat="46.3529909" lon="12.8643197"/>
+    <nd ref="403578544" lat="46.3530329" lon="12.8643731"/>
+    <nd ref="403578545" lat="46.3531482" lon="12.8644293"/>
+    <nd ref="403578546" lat="46.3532719" lon="12.8644659"/>
+    <nd ref="403578547" lat="46.3533615" lon="12.8644070"/>
+    <nd ref="403578548" lat="46.3534864" lon="12.8641842"/>
+    <nd ref="403578549" lat="46.3536164" lon="12.8639061"/>
+    <nd ref="403578550" lat="46.3536965" lon="12.8637899"/>
+    <nd ref="403578551" lat="46.3537856" lon="12.8637260"/>
+    <nd ref="403578552" lat="46.3538610" lon="12.8636909"/>
+    <nd ref="403578553" lat="46.3540216" lon="12.8636805"/>
+    <nd ref="10536633064" lat="46.3541850" lon="12.8637296"/>
+    <nd ref="403578555" lat="46.3543029" lon="12.8638275"/>
+    <nd ref="10536633065" lat="46.3546700" lon="12.8640568"/>
+    <nd ref="403578558" lat="46.3547658" lon="12.8640214"/>
+    <nd ref="403578559" lat="46.3548880" lon="12.8639220"/>
+    <nd ref="9422368434" lat="46.3550881" lon="12.8637757"/>
+    <nd ref="10536633067" lat="46.3551791" lon="12.8636599"/>
+    <nd ref="403578562" lat="46.3553258" lon="12.8635881"/>
+    <nd ref="10536633069" lat="46.3555901" lon="12.8635016"/>
+    <nd ref="10536633068" lat="46.3557178" lon="12.8635365"/>
+    <nd ref="403578564" lat="46.3558510" lon="12.8635082"/>
+    <nd ref="403578565" lat="46.3560352" lon="12.8633915"/>
+    <nd ref="403578566" lat="46.3563511" lon="12.8633405"/>
+    <nd ref="403578567" lat="46.3565948" lon="12.8632337"/>
+    <nd ref="403578569" lat="46.3568805" lon="12.8630662"/>
+    <nd ref="403578570" lat="46.3570493" lon="12.8628878"/>
+    <nd ref="403578571" lat="46.3571500" lon="12.8627587"/>
+    <nd ref="403578573" lat="46.3572449" lon="12.8625151"/>
+    <nd ref="403578575" lat="46.3573033" lon="12.8622401"/>
+    <nd ref="403578576" lat="46.3573290" lon="12.8621666"/>
+    <nd ref="403578577" lat="46.3573672" lon="12.8621265"/>
+    <nd ref="403578579" lat="46.3575953" lon="12.8620881"/>
+    <nd ref="403578580" lat="46.3578297" lon="12.8619546"/>
+    <nd ref="9422368421" lat="46.3579020" lon="12.8619311"/>
+    <nd ref="403578582" lat="46.3579914" lon="12.8619020"/>
+    <nd ref="2595520438" lat="46.3581451" lon="12.8618851"/>
+    <nd ref="2595520443" lat="46.3582395" lon="12.8618973"/>
+    <nd ref="2595520445" lat="46.3582663" lon="12.8618861"/>
+    <nd ref="403578583" lat="46.3582942" lon="12.8618479"/>
+    <nd ref="2595520450" lat="46.3582888" lon="12.8618044"/>
+    <nd ref="2595520446" lat="46.3582698" lon="12.8617697"/>
+    <nd ref="403578584" lat="46.3582000" lon="12.8617323"/>
+    <nd ref="1854967924" lat="46.3580401" lon="12.8616071"/>
+    <nd ref="403578586" lat="46.3578974" lon="12.8614509"/>
+    <nd ref="8807114623" lat="46.3577893" lon="12.8613532"/>
+    <nd ref="403578587" lat="46.3576394" lon="12.8613237"/>
+    <nd ref="403578588" lat="46.3574709" lon="12.8612056"/>
+    <nd ref="8807114624" lat="46.3573561" lon="12.8611439"/>
+    <nd ref="8807114625" lat="46.3572469" lon="12.8610903"/>
+    <nd ref="403578589" lat="46.3571710" lon="12.8611198"/>
+    <nd ref="403578592" lat="46.3569433" lon="12.8613746"/>
+    <nd ref="403578594" lat="46.3568970" lon="12.8615355"/>
+    <nd ref="403578596" lat="46.3567805" lon="12.8618257"/>
+    <nd ref="403578597" lat="46.3567363" lon="12.8618192"/>
+    <nd ref="403578598" lat="46.3567417" lon="12.8616937"/>
+    <nd ref="403578599" lat="46.3567585" lon="12.8615786"/>
+    <nd ref="403578600" lat="46.3567716" lon="12.8613990"/>
+    <nd ref="403578603" lat="46.3567934" lon="12.8611708"/>
+    <nd ref="403578604" lat="46.3568547" lon="12.8607877"/>
+    <nd ref="10536633073" lat="46.3569119" lon="12.8606316"/>
+    <nd ref="403578606" lat="46.3569711" lon="12.8605056"/>
+    <nd ref="8807114626" lat="46.3570673" lon="12.8604734"/>
+    <nd ref="403578607" lat="46.3572551" lon="12.8604723"/>
+    <nd ref="403578609" lat="46.3574995" lon="12.8604218"/>
+    <nd ref="8807114627" lat="46.3575635" lon="12.8603446"/>
+    <nd ref="8807114628" lat="46.3575875" lon="12.8602561"/>
+    <nd ref="403578610" lat="46.3575883" lon="12.8601604"/>
+    <nd ref="8807114629" lat="46.3576634" lon="12.8601113"/>
+    <nd ref="403578612" lat="46.3578060" lon="12.8600684"/>
+    <nd ref="403578613" lat="46.3579892" lon="12.8600657"/>
+    <nd ref="403578614" lat="46.3582265" lon="12.8599752"/>
+    <nd ref="403578615" lat="46.3583454" lon="12.8597361"/>
+    <nd ref="10536633074" lat="46.3583817" lon="12.8595936"/>
+    <nd ref="403578616" lat="46.3583664" lon="12.8594357"/>
+    <nd ref="1854967925" lat="46.3581262" lon="12.8589129"/>
+    <nd ref="403578618" lat="46.3580060" lon="12.8584070"/>
+    <nd ref="8807114633" lat="46.3579633" lon="12.8581184"/>
+    <nd ref="403578621" lat="46.3578967" lon="12.8580272"/>
+    <nd ref="8807114634" lat="46.3576782" lon="12.8577134"/>
+    <nd ref="8807114632" lat="46.3576412" lon="12.8576329"/>
+    <nd ref="403578624" lat="46.3576153" lon="12.8574961"/>
+    <nd ref="403578625" lat="46.3575801" lon="12.8572130"/>
+    <nd ref="403578628" lat="46.3575528" lon="12.8568953"/>
+    <nd ref="403578630" lat="46.3575547" lon="12.8568236"/>
+    <nd ref="403578631" lat="46.3575505" lon="12.8567183"/>
+    <nd ref="403578632" lat="46.3575709" lon="12.8563589"/>
+    <nd ref="403578633" lat="46.3576134" lon="12.8561872"/>
+    <nd ref="403578635" lat="46.3576856" lon="12.8559673"/>
+    <nd ref="403578636" lat="46.3577991" lon="12.8557293"/>
+    <nd ref="403578640" lat="46.3581383" lon="12.8551839"/>
+    <nd ref="403578643" lat="46.3585087" lon="12.8545926"/>
+    <nd ref="403578645" lat="46.3586445" lon="12.8543802"/>
+    <nd ref="403578647" lat="46.3588367" lon="12.8542087"/>
+    <nd ref="403578650" lat="46.3591849" lon="12.8539605"/>
+    <nd ref="403578652" lat="46.3593934" lon="12.8538649"/>
+    <nd ref="403578655" lat="46.3598068" lon="12.8537276"/>
+    <nd ref="403578656" lat="46.3599126" lon="12.8536640"/>
+    <nd ref="10536633077" lat="46.3600254" lon="12.8535399"/>
+    <nd ref="10536633078" lat="46.3601143" lon="12.8533521"/>
+    <nd ref="403578660" lat="46.3602433" lon="12.8532506"/>
+    <nd ref="403578661" lat="46.3604053" lon="12.8531223"/>
+    <nd ref="403578662" lat="46.3604361" lon="12.8529773"/>
+    <nd ref="403578663" lat="46.3603927" lon="12.8528513"/>
+    <nd ref="10536633079" lat="46.3603308" lon="12.8523946"/>
+    <nd ref="403578665" lat="46.3602659" lon="12.8521623"/>
+    <nd ref="403578666" lat="46.3601629" lon="12.8519339"/>
+    <nd ref="10536633080" lat="46.3601124" lon="12.8517723"/>
+    <nd ref="403578668" lat="46.3600785" lon="12.8515411"/>
+    <nd ref="403578669" lat="46.3600351" lon="12.8514148"/>
+    <nd ref="403578672" lat="46.3600493" lon="12.8513028"/>
+    <nd ref="403578674" lat="46.3601303" lon="12.8511626"/>
+    <nd ref="403578675" lat="46.3601715" lon="12.8510603"/>
+    <nd ref="403578678" lat="46.3601795" lon="12.8508530"/>
+    <nd ref="403578680" lat="46.3601760" lon="12.8507077"/>
+    <nd ref="403578681" lat="46.3601471" lon="12.8506200"/>
+    <nd ref="403578683" lat="46.3601206" lon="12.8505499"/>
+    <nd ref="403578685" lat="46.3599645" lon="12.8506264"/>
+    <nd ref="403578686" lat="46.3598369" lon="12.8506781"/>
+    <nd ref="403578687" lat="46.3596973" lon="12.8505506"/>
+    <nd ref="403578689" lat="46.3595431" lon="12.8504608"/>
+    <nd ref="403578691" lat="46.3593048" lon="12.8504219"/>
+    <nd ref="403578693" lat="46.3591052" lon="12.8502778"/>
+    <nd ref="403578694" lat="46.3589176" lon="12.8500890"/>
+    <nd ref="10536633075" lat="46.3587908" lon="12.8498304"/>
+    <nd ref="403578696" lat="46.3587180" lon="12.8495586"/>
+    <nd ref="403578697" lat="46.3586513" lon="12.8493562"/>
+    <nd ref="403578698" lat="46.3586599" lon="12.8490656"/>
+    <nd ref="403578700" lat="46.3586810" lon="12.8488115"/>
+    <nd ref="403578701" lat="46.3586873" lon="12.8484369"/>
+    <nd ref="403578702" lat="46.3586046" lon="12.8482950"/>
+    <nd ref="403578703" lat="46.3585983" lon="12.8481610"/>
+    <nd ref="403578704" lat="46.3586389" lon="12.8479534"/>
+    <nd ref="403578705" lat="46.3586757" lon="12.8477664"/>
+    <nd ref="403578706" lat="46.3586751" lon="12.8475512"/>
+    <nd ref="403578707" lat="46.3586479" lon="12.8474428"/>
+    <nd ref="403578708" lat="46.3586155" lon="12.8473379"/>
+    <nd ref="403578709" lat="46.3585856" lon="12.8472580"/>
+    <nd ref="403578710" lat="46.3585466" lon="12.8471514"/>
+    <nd ref="403578711" lat="46.3584945" lon="12.8469070"/>
+    <nd ref="403578712" lat="46.3584221" lon="12.8466783"/>
+    <nd ref="403578713" lat="46.3583913" lon="12.8465068"/>
+    <nd ref="403578714" lat="46.3583546" lon="12.8464181"/>
+    <nd ref="403578715" lat="46.3583345" lon="12.8463223"/>
+    <nd ref="403578716" lat="46.3583162" lon="12.8461318"/>
+    <nd ref="403578717" lat="46.3583367" lon="12.8459916"/>
+    <nd ref="403578718" lat="46.3583691" lon="12.8457840"/>
+    <nd ref="403578719" lat="46.3583805" lon="12.8455543"/>
+    <nd ref="10536633076" lat="46.3583780" lon="12.8453189"/>
+    <nd ref="403578725" lat="46.3583865" lon="12.8450502"/>
+    <nd ref="403578726" lat="46.3583895" lon="12.8449319"/>
+    <nd ref="403578727" lat="46.3584059" lon="12.8448133"/>
+    <nd ref="403578728" lat="46.3584146" lon="12.8447748"/>
+    <nd ref="403578729" lat="46.3584271" lon="12.8447367"/>
+    <nd ref="403578730" lat="46.3584419" lon="12.8447017"/>
+    <nd ref="403578731" lat="46.3584620" lon="12.8446347"/>
+    <nd ref="403578732" lat="46.3584797" lon="12.8446026"/>
+    <nd ref="403578733" lat="46.3584926" lon="12.8445652"/>
+    <nd ref="403578734" lat="46.3585086" lon="12.8445317"/>
+    <nd ref="403578735" lat="46.3585280" lon="12.8444985"/>
+    <nd ref="403578736" lat="46.3585541" lon="12.8444738"/>
+    <nd ref="403578737" lat="46.3585851" lon="12.8444636"/>
+    <nd ref="403578738" lat="46.3586412" lon="12.8444561"/>
+    <nd ref="403578739" lat="46.3587244" lon="12.8444740"/>
+    <nd ref="403578740" lat="46.3588031" lon="12.8445155"/>
+    <nd ref="403578741" lat="46.3589001" lon="12.8445885"/>
+    <nd ref="403578742" lat="46.3589699" lon="12.8446458"/>
+    <nd ref="403578743" lat="46.3589914" lon="12.8446564"/>
+    <nd ref="403578744" lat="46.3590415" lon="12.8446474"/>
+    <nd ref="403578745" lat="46.3590789" lon="12.8446291"/>
+    <nd ref="403578746" lat="46.3591115" lon="12.8445901"/>
+    <nd ref="403578747" lat="46.3591663" lon="12.8445044"/>
+    <nd ref="403578748" lat="46.3591945" lon="12.8444412"/>
+    <nd ref="403578749" lat="46.3592042" lon="12.8444071"/>
+    <nd ref="403578750" lat="46.3592190" lon="12.8443338"/>
+    <nd ref="403578751" lat="46.3592239" lon="12.8442971"/>
+    <nd ref="403578752" lat="46.3592233" lon="12.8442599"/>
+    <tag k="highway" v="track"/>
+    <tag k="tracktype" v="grade2"/>
+    <tag k="trail_visibility" v="excellent"/>
   </way>
 </old>
 <new>
-  <way id="935467935" version="3" timestamp="2025-08-05T19:47:47Z" changeset="170025614" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9440285" minlon="13.6210892" maxlat="45.9443026" maxlon="13.6212676"/>
-    <nd ref="271688075" lat="45.9440285" lon="13.6210892"/>
-    <nd ref="9257953296" lat="45.9440955" lon="13.6211328"/>
-    <nd ref="270965057" lat="45.9443026" lon="13.6212676"/>
-    <tag k="cycleway" v="lane"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Corso Giuseppe Verdi"/>
-    <tag k="name:sl" v="Verdijev Korzo"/>
-    <tag k="old_name" v="Contrada del Giardino"/>
-    <tag k="short_name" v="Corso Verdi"/>
-    <tag k="short_name:sl" v="Korzo Verdi"/>
-  </way>
+  <way id="34682299" visible="true" version="17" timestamp="2024-03-19T19:54:20Z" changeset="148878962" uid="421035" user="Mattia P"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <relation id="17364529" version="1" timestamp="2024-03-19T19:54:20Z" changeset="148878962" uid="421035" user="Mattia P">
+    <bounds minlat="46.3453251" minlon="12.8442599" maxlat="46.3604361" maxlon="12.8696179"/>
+    <member type="way" ref="34682299" role="">
+      <nd lat="46.3453251" lon="12.8683604"/>
+      <nd lat="46.3453399" lon="12.8683604"/>
+      <nd lat="46.3453510" lon="12.8683725"/>
+      <nd lat="46.3453631" lon="12.8684033"/>
+      <nd lat="46.3453733" lon="12.8684865"/>
+      <nd lat="46.3453853" lon="12.8685670"/>
+      <nd lat="46.3454195" lon="12.8686863"/>
+      <nd lat="46.3454797" lon="12.8688580"/>
+      <nd lat="46.3455167" lon="12.8690176"/>
+      <nd lat="46.3455233" lon="12.8692193"/>
+      <nd lat="46.3455418" lon="12.8692992"/>
+      <nd lat="46.3455861" lon="12.8694320"/>
+      <nd lat="46.3455991" lon="12.8694548"/>
+      <nd lat="46.3456297" lon="12.8694816"/>
+      <nd lat="46.3457343" lon="12.8694682"/>
+      <nd lat="46.3459458" lon="12.8694494"/>
+      <nd lat="46.3460801" lon="12.8695021"/>
+      <nd lat="46.3462696" lon="12.8695509"/>
+      <nd lat="46.3463842" lon="12.8696179"/>
+      <nd lat="46.3464756" lon="12.8695954"/>
+      <nd lat="46.3468161" lon="12.8694619"/>
+      <nd lat="46.3469401" lon="12.8693710"/>
+      <nd lat="46.3472016" lon="12.8690403"/>
+      <nd lat="46.3473640" lon="12.8688966"/>
+      <nd lat="46.3477978" lon="12.8685495"/>
+      <nd lat="46.3478793" lon="12.8684905"/>
+      <nd lat="46.3480564" lon="12.8684657"/>
+      <nd lat="46.3481888" lon="12.8683671"/>
+      <nd lat="46.3486444" lon="12.8678382"/>
+      <nd lat="46.3487218" lon="12.8678206"/>
+      <nd lat="46.3488708" lon="12.8679460"/>
+      <nd lat="46.3489709" lon="12.8680298"/>
+      <nd lat="46.3490766" lon="12.8680874"/>
+      <nd lat="46.3491944" lon="12.8681223"/>
+      <nd lat="46.3493435" lon="12.8681016"/>
+      <nd lat="46.3495357" lon="12.8680133"/>
+      <nd lat="46.3496604" lon="12.8679085"/>
+      <nd lat="46.3498362" lon="12.8676751"/>
+      <nd lat="46.3499104" lon="12.8676443"/>
+      <nd lat="46.3500806" lon="12.8677341"/>
+      <nd lat="46.3502581" lon="12.8677841"/>
+      <nd lat="46.3504146" lon="12.8677383"/>
+      <nd lat="46.3505307" lon="12.8677148"/>
+      <nd lat="46.3507667" lon="12.8675802"/>
+      <nd lat="46.3508647" lon="12.8674550"/>
+      <nd lat="46.3509496" lon="12.8673251"/>
+      <nd lat="46.3511045" lon="12.8671229"/>
+      <nd lat="46.3511648" lon="12.8669867"/>
+      <nd lat="46.3512919" lon="12.8665848"/>
+      <nd lat="46.3513736" lon="12.8661651"/>
+      <nd lat="46.3514281" lon="12.8658889"/>
+      <nd lat="46.3515043" lon="12.8655897"/>
+      <nd lat="46.3515908" lon="12.8655420"/>
+      <nd lat="46.3516664" lon="12.8654866"/>
+      <nd lat="46.3518966" lon="12.8654097"/>
+      <nd lat="46.3520060" lon="12.8651968"/>
+      <nd lat="46.3520693" lon="12.8648896"/>
+      <nd lat="46.3521656" lon="12.8647404"/>
+      <nd lat="46.3522629" lon="12.8647463"/>
+      <nd lat="46.3524617" lon="12.8647264"/>
+      <nd lat="46.3526003" lon="12.8646523"/>
+      <nd lat="46.3526407" lon="12.8645778"/>
+      <nd lat="46.3527187" lon="12.8644832"/>
+      <nd lat="46.3527729" lon="12.8643658"/>
+      <nd lat="46.3528373" lon="12.8643542"/>
+      <nd lat="46.3528894" lon="12.8643158"/>
+      <nd lat="46.3529909" lon="12.8643197"/>
+      <nd lat="46.3530329" lon="12.8643731"/>
+      <nd lat="46.3531482" lon="12.8644293"/>
+      <nd lat="46.3532719" lon="12.8644659"/>
+      <nd lat="46.3533615" lon="12.8644070"/>
+      <nd lat="46.3534864" lon="12.8641842"/>
+      <nd lat="46.3536164" lon="12.8639061"/>
+      <nd lat="46.3536965" lon="12.8637899"/>
+      <nd lat="46.3537856" lon="12.8637260"/>
+      <nd lat="46.3538610" lon="12.8636909"/>
+      <nd lat="46.3540216" lon="12.8636805"/>
+      <nd lat="46.3541850" lon="12.8637296"/>
+      <nd lat="46.3543029" lon="12.8638275"/>
+      <nd lat="46.3546700" lon="12.8640568"/>
+      <nd lat="46.3547658" lon="12.8640214"/>
+      <nd lat="46.3548880" lon="12.8639220"/>
+      <nd lat="46.3550881" lon="12.8637757"/>
+      <nd lat="46.3551791" lon="12.8636599"/>
+      <nd lat="46.3553258" lon="12.8635881"/>
+      <nd lat="46.3555901" lon="12.8635016"/>
+      <nd lat="46.3557178" lon="12.8635365"/>
+      <nd lat="46.3558510" lon="12.8635082"/>
+      <nd lat="46.3560352" lon="12.8633915"/>
+      <nd lat="46.3563511" lon="12.8633405"/>
+      <nd lat="46.3565948" lon="12.8632337"/>
+      <nd lat="46.3568805" lon="12.8630662"/>
+      <nd lat="46.3570493" lon="12.8628878"/>
+      <nd lat="46.3571500" lon="12.8627587"/>
+      <nd lat="46.3572449" lon="12.8625151"/>
+      <nd lat="46.3573033" lon="12.8622401"/>
+      <nd lat="46.3573290" lon="12.8621666"/>
+      <nd lat="46.3573672" lon="12.8621265"/>
+      <nd lat="46.3575953" lon="12.8620881"/>
+      <nd lat="46.3578297" lon="12.8619546"/>
+      <nd lat="46.3579020" lon="12.8619311"/>
+      <nd lat="46.3579914" lon="12.8619020"/>
+      <nd lat="46.3581451" lon="12.8618851"/>
+      <nd lat="46.3582395" lon="12.8618973"/>
+      <nd lat="46.3582663" lon="12.8618861"/>
+      <nd lat="46.3582942" lon="12.8618479"/>
+      <nd lat="46.3582888" lon="12.8618044"/>
+      <nd lat="46.3582698" lon="12.8617697"/>
+      <nd lat="46.3582000" lon="12.8617323"/>
+      <nd lat="46.3580401" lon="12.8616071"/>
+      <nd lat="46.3578974" lon="12.8614509"/>
+      <nd lat="46.3577893" lon="12.8613532"/>
+      <nd lat="46.3576394" lon="12.8613237"/>
+      <nd lat="46.3574709" lon="12.8612056"/>
+      <nd lat="46.3573561" lon="12.8611439"/>
+      <nd lat="46.3572469" lon="12.8610903"/>
+      <nd lat="46.3571710" lon="12.8611198"/>
+      <nd lat="46.3569433" lon="12.8613746"/>
+      <nd lat="46.3568970" lon="12.8615355"/>
+      <nd lat="46.3567805" lon="12.8618257"/>
+      <nd lat="46.3567363" lon="12.8618192"/>
+      <nd lat="46.3567417" lon="12.8616937"/>
+      <nd lat="46.3567585" lon="12.8615786"/>
+      <nd lat="46.3567716" lon="12.8613990"/>
+      <nd lat="46.3567934" lon="12.8611708"/>
+      <nd lat="46.3568547" lon="12.8607877"/>
+      <nd lat="46.3569119" lon="12.8606316"/>
+      <nd lat="46.3569711" lon="12.8605056"/>
+      <nd lat="46.3570673" lon="12.8604734"/>
+      <nd lat="46.3572551" lon="12.8604723"/>
+      <nd lat="46.3574995" lon="12.8604218"/>
+      <nd lat="46.3575635" lon="12.8603446"/>
+      <nd lat="46.3575875" lon="12.8602561"/>
+      <nd lat="46.3575883" lon="12.8601604"/>
+      <nd lat="46.3576634" lon="12.8601113"/>
+      <nd lat="46.3578060" lon="12.8600684"/>
+      <nd lat="46.3579892" lon="12.8600657"/>
+      <nd lat="46.3582265" lon="12.8599752"/>
+      <nd lat="46.3583454" lon="12.8597361"/>
+      <nd lat="46.3583817" lon="12.8595936"/>
+      <nd lat="46.3583664" lon="12.8594357"/>
+      <nd lat="46.3581262" lon="12.8589129"/>
+      <nd lat="46.3580060" lon="12.8584070"/>
+      <nd lat="46.3579633" lon="12.8581184"/>
+      <nd lat="46.3578967" lon="12.8580272"/>
+      <nd lat="46.3576782" lon="12.8577134"/>
+      <nd lat="46.3576412" lon="12.8576329"/>
+      <nd lat="46.3576153" lon="12.8574961"/>
+      <nd lat="46.3575801" lon="12.8572130"/>
+      <nd lat="46.3575528" lon="12.8568953"/>
+      <nd lat="46.3575547" lon="12.8568236"/>
+      <nd lat="46.3575505" lon="12.8567183"/>
+      <nd lat="46.3575709" lon="12.8563589"/>
+      <nd lat="46.3576134" lon="12.8561872"/>
+      <nd lat="46.3576856" lon="12.8559673"/>
+      <nd lat="46.3577991" lon="12.8557293"/>
+      <nd lat="46.3581383" lon="12.8551839"/>
+      <nd lat="46.3585087" lon="12.8545926"/>
+      <nd lat="46.3586445" lon="12.8543802"/>
+      <nd lat="46.3588367" lon="12.8542087"/>
+      <nd lat="46.3591849" lon="12.8539605"/>
+      <nd lat="46.3593934" lon="12.8538649"/>
+      <nd lat="46.3598068" lon="12.8537276"/>
+      <nd lat="46.3599126" lon="12.8536640"/>
+      <nd lat="46.3600254" lon="12.8535399"/>
+      <nd lat="46.3601143" lon="12.8533521"/>
+      <nd lat="46.3602433" lon="12.8532506"/>
+      <nd lat="46.3604053" lon="12.8531223"/>
+      <nd lat="46.3604361" lon="12.8529773"/>
+      <nd lat="46.3603927" lon="12.8528513"/>
+      <nd lat="46.3603308" lon="12.8523946"/>
+      <nd lat="46.3602659" lon="12.8521623"/>
+      <nd lat="46.3601629" lon="12.8519339"/>
+      <nd lat="46.3601124" lon="12.8517723"/>
+      <nd lat="46.3600785" lon="12.8515411"/>
+      <nd lat="46.3600351" lon="12.8514148"/>
+      <nd lat="46.3600493" lon="12.8513028"/>
+      <nd lat="46.3601303" lon="12.8511626"/>
+      <nd lat="46.3601715" lon="12.8510603"/>
+      <nd lat="46.3601795" lon="12.8508530"/>
+      <nd lat="46.3601760" lon="12.8507077"/>
+      <nd lat="46.3601471" lon="12.8506200"/>
+      <nd lat="46.3601206" lon="12.8505499"/>
+      <nd lat="46.3599645" lon="12.8506264"/>
+      <nd lat="46.3598369" lon="12.8506781"/>
+      <nd lat="46.3596973" lon="12.8505506"/>
+      <nd lat="46.3595431" lon="12.8504608"/>
+      <nd lat="46.3593048" lon="12.8504219"/>
+      <nd lat="46.3591052" lon="12.8502778"/>
+      <nd lat="46.3589176" lon="12.8500890"/>
+      <nd lat="46.3587908" lon="12.8498304"/>
+      <nd lat="46.3587180" lon="12.8495586"/>
+      <nd lat="46.3586513" lon="12.8493562"/>
+      <nd lat="46.3586599" lon="12.8490656"/>
+      <nd lat="46.3586810" lon="12.8488115"/>
+      <nd lat="46.3586873" lon="12.8484369"/>
+      <nd lat="46.3586046" lon="12.8482950"/>
+      <nd lat="46.3585983" lon="12.8481610"/>
+      <nd lat="46.3586389" lon="12.8479534"/>
+      <nd lat="46.3586757" lon="12.8477664"/>
+      <nd lat="46.3586751" lon="12.8475512"/>
+      <nd lat="46.3586479" lon="12.8474428"/>
+      <nd lat="46.3586155" lon="12.8473379"/>
+      <nd lat="46.3585856" lon="12.8472580"/>
+      <nd lat="46.3585466" lon="12.8471514"/>
+      <nd lat="46.3584945" lon="12.8469070"/>
+      <nd lat="46.3584221" lon="12.8466783"/>
+      <nd lat="46.3583913" lon="12.8465068"/>
+      <nd lat="46.3583546" lon="12.8464181"/>
+      <nd lat="46.3583345" lon="12.8463223"/>
+      <nd lat="46.3583162" lon="12.8461318"/>
+      <nd lat="46.3583367" lon="12.8459916"/>
+      <nd lat="46.3583691" lon="12.8457840"/>
+      <nd lat="46.3583805" lon="12.8455543"/>
+      <nd lat="46.3583780" lon="12.8453189"/>
+      <nd lat="46.3583865" lon="12.8450502"/>
+      <nd lat="46.3583895" lon="12.8449319"/>
+      <nd lat="46.3584059" lon="12.8448133"/>
+      <nd lat="46.3584146" lon="12.8447748"/>
+      <nd lat="46.3584271" lon="12.8447367"/>
+      <nd lat="46.3584419" lon="12.8447017"/>
+      <nd lat="46.3584620" lon="12.8446347"/>
+      <nd lat="46.3584797" lon="12.8446026"/>
+      <nd lat="46.3584926" lon="12.8445652"/>
+      <nd lat="46.3585086" lon="12.8445317"/>
+      <nd lat="46.3585280" lon="12.8444985"/>
+      <nd lat="46.3585541" lon="12.8444738"/>
+      <nd lat="46.3585851" lon="12.8444636"/>
+      <nd lat="46.3586412" lon="12.8444561"/>
+      <nd lat="46.3587244" lon="12.8444740"/>
+      <nd lat="46.3588031" lon="12.8445155"/>
+      <nd lat="46.3589001" lon="12.8445885"/>
+      <nd lat="46.3589699" lon="12.8446458"/>
+      <nd lat="46.3589914" lon="12.8446564"/>
+      <nd lat="46.3590415" lon="12.8446474"/>
+      <nd lat="46.3590789" lon="12.8446291"/>
+      <nd lat="46.3591115" lon="12.8445901"/>
+      <nd lat="46.3591663" lon="12.8445044"/>
+      <nd lat="46.3591945" lon="12.8444412"/>
+      <nd lat="46.3592042" lon="12.8444071"/>
+      <nd lat="46.3592190" lon="12.8443338"/>
+      <nd lat="46.3592239" lon="12.8442971"/>
+      <nd lat="46.3592233" lon="12.8442599"/>
+    </member>
+    <tag k="operator" v="Club Alpino Italiano"/>
+    <tag k="osmc:name" v="CAI 802"/>
+    <tag k="ref" v="802"/>
+    <tag k="cai_scale" v="E"/>
+    <tag k="network" v="lwn"/>
+    <tag k="osmc:symbol" v="red:red:white_stripe:802:black"/>
+    <tag k="route" v="hiking"/>
+    <tag k="type" v="route"/>
+  </relation>
+</old>
+<new>
+  <relation id="17364529" visible="true" version="2" timestamp="2025-08-06T18:38:52Z" changeset="170073491" uid="3538539" user="micheleOSM3"/>
 </new>
 </action>
 
