@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.7 375dc00a">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2025-08-12T01:06:55Z" areas="2025-08-11T20:06:11Z"/>
+<meta osm_base="2025-08-12T01:11:01Z" areas="2025-08-11T20:06:11Z"/>
 
 <action type="modify">
 <old>
@@ -33,6 +33,22 @@
 </old>
 <new>
   <node id="1945899607" lat="44.1186027" lon="10.6074838" version="2" timestamp="2025-08-11T20:37:43Z" changeset="170312445" uid="18411784" user="SS82"/>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="3477384703" lat="43.7874891" lon="10.9266066" version="5" timestamp="2023-05-13T15:13:52Z" changeset="136057417" uid="366321" user="Peter Bremer">
+    <tag k="highway" v="crossing"/>
+  </node>
+</old>
+<new>
+  <node id="3477384703" lat="43.7874891" lon="10.9266066" version="9" timestamp="2025-08-11T16:31:57Z" changeset="170302687" uid="12936769" user="Julius_">
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="kerb" v="flush"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
 </new>
 </action>
 <action type="create">
