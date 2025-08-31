@@ -1,36 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2025-08-30T01:00:29Z" areas="2025-08-29T18:41:08Z"/>
+<meta osm_base="2025-08-31T01:07:40Z" areas="2025-08-30T22:04:29Z"/>
 
 <action type="modify">
 <old>
-  <way id="981823877" version="1" timestamp="2021-09-10T18:06:59Z" changeset="111036356" uid="2976645" user="Jrachi">
-    <bounds minlat="45.2155219" minlon="7.3768807" maxlat="45.2155470" maxlon="7.3773369"/>
-    <nd ref="4533656602" lat="45.2155291" lon="7.3773369"/>
-    <nd ref="4533656601" lat="45.2155380" lon="7.3772239"/>
-    <nd ref="4533656519" lat="45.2155219" lon="7.3771739"/>
-    <nd ref="4533657705" lat="45.2155470" lon="7.3770248"/>
-    <nd ref="4533656710" lat="45.2155355" lon="7.3768807"/>
-    <tag k="highway" v="footway"/>
-    <tag k="trail_visibility" v="excellent"/>
-    <tag k="sac_scale" v="hiking"/>
-    <tag k="surface" v="asphalt"/>
+  <way id="401342585" version="3" timestamp="2016-09-08T02:47:51Z" changeset="41987322" uid="893327" user="mcheckimport">
+    <bounds minlat="45.4746010" minlon="7.5713718" maxlat="45.4752408" maxlon="7.5714527"/>
+    <nd ref="2157033533" lat="45.4746010" lon="7.5713718"/>
+    <nd ref="4037810408" lat="45.4746942" lon="7.5713836"/>
+    <nd ref="4037810420" lat="45.4748012" lon="7.5713971"/>
+    <nd ref="4037810427" lat="45.4749286" lon="7.5714132"/>
+    <nd ref="4037810435" lat="45.4750235" lon="7.5714252"/>
+    <nd ref="4037810444" lat="45.4751095" lon="7.5714361"/>
+    <nd ref="4037810453" lat="45.4751888" lon="7.5714461"/>
+    <nd ref="4037810455" lat="45.4752408" lon="7.5714527"/>
+    <tag k="ref" v="602B"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="path"/>
+    <tag k="layer" v="1"/>
+    <tag k="source" v="gps"/>
   </way>
 </old>
 <new>
-  <way id="981823877" version="2" timestamp="2025-08-29T12:05:02Z" changeset="171180598" uid="348712" user="lukasbrunner">
-    <bounds minlat="45.2155219" minlon="7.3768807" maxlat="45.2155470" maxlon="7.3773369"/>
-    <nd ref="4533656602" lat="45.2155291" lon="7.3773369"/>
-    <nd ref="4533656601" lat="45.2155380" lon="7.3772239"/>
-    <nd ref="4533656519" lat="45.2155219" lon="7.3771739"/>
-    <nd ref="4533657705" lat="45.2155470" lon="7.3770248"/>
-    <nd ref="4533656710" lat="45.2155355" lon="7.3768807"/>
-    <tag k="highway" v="residential"/>
-    <tag k="noname" v="yes"/>
-    <tag k="sac_scale" v="hiking"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="trail_visibility" v="excellent"/>
+  <way id="401342585" version="4" timestamp="2025-08-30T15:15:18Z" changeset="171233273" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="45.4746010" minlon="7.5713718" maxlat="45.4752408" maxlon="7.5714527"/>
+    <nd ref="2157033533" lat="45.4746010" lon="7.5713718"/>
+    <nd ref="4037810408" lat="45.4746942" lon="7.5713836"/>
+    <nd ref="4037810420" lat="45.4748012" lon="7.5713971"/>
+    <nd ref="4037810427" lat="45.4749286" lon="7.5714132"/>
+    <nd ref="4037810435" lat="45.4750235" lon="7.5714252"/>
+    <nd ref="4037810444" lat="45.4751095" lon="7.5714361"/>
+    <nd ref="4037810453" lat="45.4751888" lon="7.5714461"/>
+    <nd ref="4037810455" lat="45.4752408" lon="7.5714527"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="path"/>
+    <tag k="layer" v="1"/>
+    <tag k="source" v="gps"/>
   </way>
 </new>
 </action>
