@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2025-09-08T01:03:16Z" areas="2025-09-07T22:03:57Z"/>
+
+<action type="modify">
+<old>
+  <node id="795977442" lat="44.4903683" lon="11.3260893" version="5" timestamp="2025-06-10T08:18:27Z" changeset="167431847" uid="554744" user="Catweazle2011">
+    <tag k="tactile_paving" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="traffic_signals"/>
+  </node>
+</old>
+<new>
+  <node id="795977442" lat="44.4903683" lon="11.3260893" version="8" timestamp="2025-09-07T20:18:22Z" changeset="171603470" uid="17072368" user="bassl">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing" v="traffic_signals"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="2957176872" lat="44.4904579" lon="11.3308301" version="4" timestamp="2024-02-25T10:51:13Z" changeset="147885257" uid="36030" user="WinstonSmith">
+    <tag k="tactile_paving" v="no"/>
+    <tag k="crossing" v="zebra"/>
+    <tag k="highway" v="crossing"/>
+  </node>
+</old>
+<new>
+  <node id="2957176872" lat="44.4904579" lon="11.3308301" version="5" timestamp="2025-09-07T20:25:54Z" changeset="171602907" uid="17072368" user="bassl">
+    <tag k="crossing" v="zebra"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="10876659661" lat="44.4892544" lon="11.3157204" version="1" timestamp="2023-05-07T22:50:40Z" changeset="135829149" uid="11644547" user="Plaintelive"/>
+</old>
+<new>
+  <node id="10876659661" lat="44.4892544" lon="11.3157204" version="7" timestamp="2025-09-07T20:04:38Z" changeset="171603470" uid="17072368" user="bassl">
+    <tag k="button_operated" v="no"/>
+    <tag k="crossing:signals" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+    <tag k="traffic_signals:sound" v="no"/>
+    <tag k="traffic_signals:vibration" v="no"/>
+  </node>
+</new>
+</action>
+
+</osm>
