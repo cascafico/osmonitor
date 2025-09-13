@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2025-09-13T00:59:36Z" areas="2025-09-12T23:33:05Z"/>
+<meta osm_base="2025-09-13T00:56:35Z" areas="2025-09-12T23:33:05Z"/>
 
 <action type="modify">
 <old>
@@ -18,6 +18,18 @@
     <tag k="mountain_pass" v="yes"/>
     <tag k="name" v="Colla Tre Faggi"/>
     <tag k="natural" v="saddle"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="251845163" lat="44.4912881" lon="11.3417409" version="16" timestamp="2023-05-22T19:09:11Z" changeset="136427227" uid="11644547" user="Plaintelive"/>
+</old>
+<new>
+  <node id="251845163" lat="44.4912881" lon="11.3417409" version="17" timestamp="2025-09-12T14:59:44Z" changeset="171836874" uid="3240268" user="Max Ciaone">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
   </node>
 </new>
 </action>
