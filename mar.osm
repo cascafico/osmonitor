@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2025-10-20T01:03:41Z" areas="2025-10-19T22:54:46Z"/>
+
+<action type="modify">
+<old>
+  <way id="1344410998" version="2" timestamp="2024-12-29T22:44:28Z" changeset="160770586" uid="123412" user="totera">
+    <bounds minlat="43.3298854" minlon="12.8987066" maxlat="43.3302256" maxlon="12.8989973"/>
+    <nd ref="12437556159" lat="43.3302256" lon="12.8989973"/>
+    <nd ref="12437556160" lat="43.3299838" lon="12.8987684"/>
+    <nd ref="392698736" lat="43.3298854" lon="12.8987066"/>
+    <tag k="turn:lanes" v="left|through"/>
+    <tag k="cycleway:right" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Viale Giuseppe Miliani"/>
+    <tag k="name:etymology:wikidata" v="Q113563728"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</old>
+<new>
+  <way id="1344410998" version="3" timestamp="2025-10-19T10:57:05Z" changeset="173485216" uid="19710820" user="Explorer0999">
+    <bounds minlat="43.3298854" minlon="12.8987066" maxlat="43.3302256" maxlon="12.8989973"/>
+    <nd ref="12437556159" lat="43.3302256" lon="12.8989973"/>
+    <nd ref="12437556160" lat="43.3299838" lon="12.8987684"/>
+    <nd ref="392698736" lat="43.3298854" lon="12.8987066"/>
+    <tag k="cycleway:right" v="no"/>
+    <tag k="highway" v="secondary"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Viale Giuseppe Miliani"/>
+    <tag k="name:etymology:wikidata" v="Q113563728"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="smoothness" v="good"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="turn:lanes" v="left|through"/>
+  </way>
+</new>
+</action>
+
+</osm>
