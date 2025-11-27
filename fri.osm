@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2025-11-27T01:02:13Z" areas="2025-11-26T22:06:51Z"/>
+
+<action type="modify">
+<old>
+  <way id="1425221176" version="1" timestamp="2025-08-27T05:56:54Z" changeset="171061300" uid="3538539" user="micheleOSM3">
+    <bounds minlat="46.6004553" minlon="12.9472908" maxlat="46.6005487" maxlon="12.9478663"/>
+    <nd ref="13099849603" lat="46.6004553" lon="12.9472908"/>
+    <nd ref="13099849602" lat="46.6004716" lon="12.9474186"/>
+    <nd ref="10578523581" lat="46.6005487" lon="12.9478663"/>
+    <tag k="fixme" v="verificare l'esatto percorso e l'esatta disposizione del cavo"/>
+    <tag k="sac_scale" v="unknown"/>
+    <tag k="assisted_trail" v="yes"/>
+    <tag k="highway" v="path"/>
+  </way>
+</old>
+<new>
+  <way id="1425221176" version="2" timestamp="2025-11-26T12:00:23Z" changeset="175151421" uid="8971394" user="vojtechzaboril">
+    <bounds minlat="46.6004553" minlon="12.9472908" maxlat="46.6005487" maxlon="12.9478663"/>
+    <nd ref="13099849603" lat="46.6004553" lon="12.9472908"/>
+    <nd ref="13099849602" lat="46.6004716" lon="12.9474186"/>
+    <nd ref="10578523581" lat="46.6005487" lon="12.9478663"/>
+    <tag k="assisted_trail" v="yes"/>
+    <tag k="highway" v="path"/>
+    <tag k="sac_scale" v="alpine_hiking"/>
+  </way>
+</new>
+</action>
+
+</osm>
