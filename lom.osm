@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2025-11-30T01:14:08Z" areas="2025-11-29T22:26:14Z"/>
+
+<action type="modify">
+<old>
+  <node id="913566810" lat="45.8000377" lon="9.7709082" version="2" timestamp="2010-09-15T17:23:49Z" changeset="5789091" uid="69717" user="kaitu">
+    <tag k="source" v="PCN ortofoto a colori 2006"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing_ref" v="zebra"/>
+    <tag k="crossing" v="uncontrolled"/>
+  </node>
+</old>
+<new>
+  <node id="913566810" lat="45.8000377" lon="9.7709082" version="5" timestamp="2025-11-29T11:53:06Z" changeset="175272264" uid="13357387" user="lucanomax">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing:island" v="no"/>
+    <tag k="crossing_ref" v="zebra"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="kerb" v="no"/>
+    <tag k="source" v="PCN ortofoto a colori 2006"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="913722887" lat="45.8003451" lon="9.7711711" version="1" timestamp="2010-09-15T17:55:01Z" changeset="5789091" uid="69717" user="kaitu">
+    <tag k="source" v="survey"/>
+    <tag k="barrier" v="bollard"/>
+    <tag k="bicycle" v="no"/>
+    <tag k="foot" v="yes"/>
+  </node>
+</old>
+<new>
+  <node id="913722887" lat="45.8003451" lon="9.7711711" version="2" timestamp="2025-11-29T13:07:11Z" changeset="175274547" uid="13357387" user="lucanomax">
+    <tag k="barrier" v="bollard"/>
+    <tag k="bicycle" v="no"/>
+    <tag k="bollard" v="fixed"/>
+    <tag k="foot" v="yes"/>
+    <tag k="source" v="survey"/>
+  </node>
+</new>
+</action>
+
+</osm>
