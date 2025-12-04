@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2025-12-04T01:05:15Z" areas="2025-12-03T21:05:30Z"/>
+
+<action type="modify">
+<old>
+  <node id="402825184" lat="46.5965020" lon="13.0359013" version="11" timestamp="2022-11-23T19:15:13Z" changeset="129294710" uid="365601" user="Luzandro">
+    <tag k="wikidata" v="Q21873145"/>
+    <tag k="alt_name" v="Passo Pramosio"/>
+    <tag k="ele" v="1792"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Passo Promosio / Kronhof Törl"/>
+    <tag k="name:de" v="Kronhof Törl"/>
+    <tag k="name:it" v="Passo Promosio"/>
+    <tag k="natural" v="saddle"/>
+  </node>
+</old>
+<new>
+  <node id="402825184" lat="46.5965020" lon="13.0359013" version="12" timestamp="2025-12-03T20:38:50Z" changeset="175463178" uid="129060" user="Klenje">
+    <tag k="alt_name" v="Passo Pramosio"/>
+    <tag k="ele" v="1792"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Passo Promosio / Kronhof Törl"/>
+    <tag k="name:de" v="Kronhof Törl"/>
+    <tag k="name:fur" v="Pas di Promôs"/>
+    <tag k="name:it" v="Passo Promosio"/>
+    <tag k="natural" v="saddle"/>
+    <tag k="wikidata" v="Q21873145"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="403350657" lat="46.5756120" lon="13.1864536" version="9" timestamp="2019-03-22T18:15:58Z" changeset="68422235" uid="188429" user="gpstracks">
+    <tag k="name:at" v="Rattendorfer Sattel"/>
+    <tag k="natural" v="saddle"/>
+    <tag k="ele" v="1781"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Sella di Val Dolce / Rattendorfer Sattel"/>
+    <tag k="name:it" v="Sella di Val Dolce"/>
+  </node>
+</old>
+<new>
+  <node id="403350657" lat="46.5756120" lon="13.1864536" version="10" timestamp="2025-12-03T20:38:50Z" changeset="175463178" uid="129060" user="Klenje">
+    <tag k="ele" v="1781"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Sella di Val Dolce / Rattendorfer Sattel"/>
+    <tag k="name:de" v="Rattendorfer Sattel"/>
+    <tag k="name:it" v="Sella di Val Dolce"/>
+    <tag k="natural" v="saddle"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="403350964" lat="46.5886971" lon="13.1570798" version="7" timestamp="2019-03-22T18:15:58Z" changeset="68422235" uid="188429" user="gpstracks">
+    <tag k="natural" v="saddle"/>
+    <tag k="name" v="Sella di Cordin / Kordin Sattel"/>
+    <tag k="ele" v="1776"/>
+    <tag k="mountain_pass" v="yes"/>
+  </node>
+</old>
+<new>
+  <node id="403350964" lat="46.5886971" lon="13.1570798" version="8" timestamp="2025-12-03T20:38:50Z" changeset="175463178" uid="129060" user="Klenje">
+    <tag k="ele" v="1776"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Sella di Cordin / Kordin Sattel"/>
+    <tag k="name:de" v="Kordin Sattel"/>
+    <tag k="name:it" v="Sella di Cordin"/>
+    <tag k="natural" v="saddle"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="25303634" version="5" timestamp="2024-09-24T13:30:14Z" changeset="157040002" uid="361003" user="Cascafico">
+    <bounds minlat="45.9474070" minlon="13.6248997" maxlat="45.9481739" maxlon="13.6255505"/>
+    <nd ref="275620832" lat="45.9481739" lon="13.6255505"/>
+    <nd ref="275620833" lat="45.9476164" lon="13.6251553"/>
+    <nd ref="272510685" lat="45.9474070" lon="13.6248997"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="name" v="Via San Giovanni"/>
+    <tag k="highway" v="pedestrian"/>
+    <tag k="surface" v="sett"/>
+  </way>
+</old>
+<new>
+  <way id="25303634" version="7" timestamp="2025-12-03T10:09:38Z" changeset="175439052" uid="23479882" user="EmanueleAby">
+    <bounds minlat="45.9474070" minlon="13.6248997" maxlat="45.9481739" maxlon="13.6255505"/>
+    <nd ref="275620832" lat="45.9481739" lon="13.6255505"/>
+    <nd ref="275620833" lat="45.9476164" lon="13.6251553"/>
+    <nd ref="272510685" lat="45.9474070" lon="13.6248997"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="cycleway" v="opposite_lane"/>
+    <tag k="cycleway:right" v="opposite_lane"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Via San Giovanni"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="paving_stones"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="25484570" version="9" timestamp="2025-08-04T11:23:52Z" changeset="169949676" uid="23125467" user="Kurnin">
+    <bounds minlat="45.9481739" minlon="13.6255505" maxlat="45.9488250" maxlon="13.6260715"/>
+    <nd ref="275620836" lat="45.9488250" lon="13.6260715"/>
+    <nd ref="9837126152" lat="45.9488155" lon="13.6260616"/>
+    <nd ref="2531862827" lat="45.9487812" lon="13.6260256"/>
+    <nd ref="275620837" lat="45.9484949" lon="13.6258022"/>
+    <nd ref="1719250853" lat="45.9483487" lon="13.6256972"/>
+    <nd ref="11050881675" lat="45.9482645" lon="13.6256263"/>
+    <nd ref="275620832" lat="45.9481739" lon="13.6255505"/>
+    <tag k="surface" v="sett"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="highway" v="pedestrian"/>
+    <tag k="name" v="Via Graziadio Isaia Ascoli"/>
+    <tag k="name:sl" v="Ascolijeva ulica"/>
+  </way>
+</old>
+<new>
+  <way id="25484570" version="10" timestamp="2025-12-03T10:08:43Z" changeset="175438984" uid="23479882" user="EmanueleAby">
+    <bounds minlat="45.9481739" minlon="13.6255505" maxlat="45.9488250" maxlon="13.6260715"/>
+    <nd ref="275620836" lat="45.9488250" lon="13.6260715"/>
+    <nd ref="9837126152" lat="45.9488155" lon="13.6260616"/>
+    <nd ref="2531862827" lat="45.9487812" lon="13.6260256"/>
+    <nd ref="275620837" lat="45.9484949" lon="13.6258022"/>
+    <nd ref="1719250853" lat="45.9483487" lon="13.6256972"/>
+    <nd ref="11050881675" lat="45.9482645" lon="13.6256263"/>
+    <nd ref="275620832" lat="45.9481739" lon="13.6255505"/>
+    <tag k="cycleway" v="opposite_lane"/>
+    <tag k="cycleway:right" v="opposite_lane"/>
+    <tag k="highway" v="residential"/>
+    <tag k="name" v="Via Graziadio Isaia Ascoli"/>
+    <tag k="name:sl" v="Ascolijeva ulica"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="surface" v="sett"/>
+  </way>
+</new>
+</action>
+
+</osm>
