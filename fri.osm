@@ -1,141 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2025-12-04T01:05:15Z" areas="2025-12-03T21:05:30Z"/>
+<meta osm_base="2025-12-05T01:05:58Z" areas="2025-12-04T16:28:51Z"/>
 
 <action type="modify">
 <old>
-  <node id="402825184" lat="46.5965020" lon="13.0359013" version="11" timestamp="2022-11-23T19:15:13Z" changeset="129294710" uid="365601" user="Luzandro">
-    <tag k="wikidata" v="Q21873145"/>
-    <tag k="alt_name" v="Passo Pramosio"/>
-    <tag k="ele" v="1792"/>
-    <tag k="mountain_pass" v="yes"/>
-    <tag k="name" v="Passo Promosio / Kronhof Törl"/>
-    <tag k="name:de" v="Kronhof Törl"/>
-    <tag k="name:it" v="Passo Promosio"/>
-    <tag k="natural" v="saddle"/>
-  </node>
-</old>
-<new>
-  <node id="402825184" lat="46.5965020" lon="13.0359013" version="12" timestamp="2025-12-03T20:38:50Z" changeset="175463178" uid="129060" user="Klenje">
-    <tag k="alt_name" v="Passo Pramosio"/>
-    <tag k="ele" v="1792"/>
-    <tag k="mountain_pass" v="yes"/>
-    <tag k="name" v="Passo Promosio / Kronhof Törl"/>
-    <tag k="name:de" v="Kronhof Törl"/>
-    <tag k="name:fur" v="Pas di Promôs"/>
-    <tag k="name:it" v="Passo Promosio"/>
-    <tag k="natural" v="saddle"/>
-    <tag k="wikidata" v="Q21873145"/>
-  </node>
-</new>
-</action>
-<action type="modify">
-<old>
-  <node id="403350657" lat="46.5756120" lon="13.1864536" version="9" timestamp="2019-03-22T18:15:58Z" changeset="68422235" uid="188429" user="gpstracks">
-    <tag k="name:at" v="Rattendorfer Sattel"/>
-    <tag k="natural" v="saddle"/>
-    <tag k="ele" v="1781"/>
-    <tag k="mountain_pass" v="yes"/>
-    <tag k="name" v="Sella di Val Dolce / Rattendorfer Sattel"/>
-    <tag k="name:it" v="Sella di Val Dolce"/>
-  </node>
-</old>
-<new>
-  <node id="403350657" lat="46.5756120" lon="13.1864536" version="10" timestamp="2025-12-03T20:38:50Z" changeset="175463178" uid="129060" user="Klenje">
-    <tag k="ele" v="1781"/>
-    <tag k="mountain_pass" v="yes"/>
-    <tag k="name" v="Sella di Val Dolce / Rattendorfer Sattel"/>
-    <tag k="name:de" v="Rattendorfer Sattel"/>
-    <tag k="name:it" v="Sella di Val Dolce"/>
-    <tag k="natural" v="saddle"/>
-  </node>
-</new>
-</action>
-<action type="modify">
-<old>
-  <node id="403350964" lat="46.5886971" lon="13.1570798" version="7" timestamp="2019-03-22T18:15:58Z" changeset="68422235" uid="188429" user="gpstracks">
-    <tag k="natural" v="saddle"/>
-    <tag k="name" v="Sella di Cordin / Kordin Sattel"/>
-    <tag k="ele" v="1776"/>
-    <tag k="mountain_pass" v="yes"/>
-  </node>
-</old>
-<new>
-  <node id="403350964" lat="46.5886971" lon="13.1570798" version="8" timestamp="2025-12-03T20:38:50Z" changeset="175463178" uid="129060" user="Klenje">
-    <tag k="ele" v="1776"/>
-    <tag k="mountain_pass" v="yes"/>
-    <tag k="name" v="Sella di Cordin / Kordin Sattel"/>
-    <tag k="name:de" v="Kordin Sattel"/>
-    <tag k="name:it" v="Sella di Cordin"/>
-    <tag k="natural" v="saddle"/>
-  </node>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="25303634" version="5" timestamp="2024-09-24T13:30:14Z" changeset="157040002" uid="361003" user="Cascafico">
-    <bounds minlat="45.9474070" minlon="13.6248997" maxlat="45.9481739" maxlon="13.6255505"/>
-    <nd ref="275620832" lat="45.9481739" lon="13.6255505"/>
-    <nd ref="275620833" lat="45.9476164" lon="13.6251553"/>
-    <nd ref="272510685" lat="45.9474070" lon="13.6248997"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="name" v="Via San Giovanni"/>
-    <tag k="highway" v="pedestrian"/>
-    <tag k="surface" v="sett"/>
+  <way id="470806000" version="11" timestamp="2024-05-03T08:49:58Z" changeset="150825826" uid="281699" user="hobbie">
+    <bounds minlat="46.2672058" minlon="13.3697330" maxlat="46.2682858" maxlon="13.3708528"/>
+    <nd ref="778693919" lat="46.2672058" lon="13.3707776"/>
+    <nd ref="6271874480" lat="46.2672370" lon="13.3708186"/>
+    <nd ref="778694015" lat="46.2672667" lon="13.3708460"/>
+    <nd ref="6271874482" lat="46.2673060" lon="13.3708528"/>
+    <nd ref="6271874481" lat="46.2673403" lon="13.3708488"/>
+    <nd ref="778693564" lat="46.2673794" lon="13.3708378"/>
+    <nd ref="778694030" lat="46.2675545" lon="13.3707724"/>
+    <nd ref="6271874445" lat="46.2676342" lon="13.3707362"/>
+    <nd ref="778694161" lat="46.2676699" lon="13.3707120"/>
+    <nd ref="6271874446" lat="46.2676945" lon="13.3706792"/>
+    <nd ref="6271874447" lat="46.2677153" lon="13.3706443"/>
+    <nd ref="778693353" lat="46.2677367" lon="13.3705846"/>
+    <nd ref="778693773" lat="46.2677710" lon="13.3704579"/>
+    <nd ref="6271874448" lat="46.2677969" lon="13.3703553"/>
+    <nd ref="778693956" lat="46.2678442" lon="13.3701796"/>
+    <nd ref="6271874449" lat="46.2678669" lon="13.3701012"/>
+    <nd ref="778694055" lat="46.2678920" lon="13.3700522"/>
+    <nd ref="6271874450" lat="46.2679184" lon="13.3700180"/>
+    <nd ref="778693250" lat="46.2679833" lon="13.3699557"/>
+    <nd ref="778693527" lat="46.2680756" lon="13.3698941"/>
+    <nd ref="6271874452" lat="46.2681808" lon="13.3698489"/>
+    <nd ref="6271874451" lat="46.2682307" lon="13.3698327"/>
+    <nd ref="778693855" lat="46.2682622" lon="13.3698198"/>
+    <nd ref="6271874455" lat="46.2682786" lon="13.3697989"/>
+    <nd ref="4103637817" lat="46.2682858" lon="13.3697690"/>
+    <nd ref="6271874454" lat="46.2682858" lon="13.3697506"/>
+    <nd ref="778693466" lat="46.2682818" lon="13.3697330"/>
+    <tag k="name" v="Via Montemaggiore"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lanes" v="1"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="note" v="The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: + iwn: Via Alpina Yellow B5 + nrw: Sent. Italia A12 + rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 16b, Cammino Celeste Italia, 742 + lwn:"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </old>
 <new>
-  <way id="25303634" version="7" timestamp="2025-12-03T10:09:38Z" changeset="175439052" uid="23479882" user="EmanueleAby">
-    <bounds minlat="45.9474070" minlon="13.6248997" maxlat="45.9481739" maxlon="13.6255505"/>
-    <nd ref="275620832" lat="45.9481739" lon="13.6255505"/>
-    <nd ref="275620833" lat="45.9476164" lon="13.6251553"/>
-    <nd ref="272510685" lat="45.9474070" lon="13.6248997"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="cycleway" v="opposite_lane"/>
-    <tag k="cycleway:right" v="opposite_lane"/>
+  <way id="470806000" version="12" timestamp="2025-12-04T08:24:46Z" changeset="175477971" uid="15490683" user="Tinbertos">
+    <bounds minlat="46.2672058" minlon="13.3697330" maxlat="46.2682858" maxlon="13.3708528"/>
+    <nd ref="778693919" lat="46.2672058" lon="13.3707776"/>
+    <nd ref="6271874480" lat="46.2672370" lon="13.3708186"/>
+    <nd ref="778694015" lat="46.2672667" lon="13.3708460"/>
+    <nd ref="6271874482" lat="46.2673060" lon="13.3708528"/>
+    <nd ref="6271874481" lat="46.2673403" lon="13.3708488"/>
+    <nd ref="778693564" lat="46.2673794" lon="13.3708378"/>
+    <nd ref="778694030" lat="46.2675545" lon="13.3707724"/>
+    <nd ref="6271874445" lat="46.2676342" lon="13.3707362"/>
+    <nd ref="778694161" lat="46.2676699" lon="13.3707120"/>
+    <nd ref="6271874446" lat="46.2676945" lon="13.3706792"/>
+    <nd ref="6271874447" lat="46.2677153" lon="13.3706443"/>
+    <nd ref="778693353" lat="46.2677367" lon="13.3705846"/>
+    <nd ref="778693773" lat="46.2677710" lon="13.3704579"/>
+    <nd ref="6271874448" lat="46.2677969" lon="13.3703553"/>
+    <nd ref="778693956" lat="46.2678442" lon="13.3701796"/>
+    <nd ref="6271874449" lat="46.2678669" lon="13.3701012"/>
+    <nd ref="778694055" lat="46.2678920" lon="13.3700522"/>
+    <nd ref="6271874450" lat="46.2679184" lon="13.3700180"/>
+    <nd ref="778693250" lat="46.2679833" lon="13.3699557"/>
+    <nd ref="778693527" lat="46.2680756" lon="13.3698941"/>
+    <nd ref="6271874452" lat="46.2681808" lon="13.3698489"/>
+    <nd ref="6271874451" lat="46.2682307" lon="13.3698327"/>
+    <nd ref="778693855" lat="46.2682622" lon="13.3698198"/>
+    <nd ref="6271874455" lat="46.2682786" lon="13.3697989"/>
+    <nd ref="4103637817" lat="46.2682858" lon="13.3697690"/>
+    <nd ref="6271874454" lat="46.2682858" lon="13.3697506"/>
+    <nd ref="778693466" lat="46.2682818" lon="13.3697330"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lanes" v="1"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Frazione Montemaggiore"/>
+    <tag k="note" v="The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: + iwn: Via Alpina Yellow B5 + nrw: Sent. Italia A12 + rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 16b, Cammino Celeste Italia, 742 + lwn:"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="494367863" version="9" timestamp="2024-05-03T08:49:58Z" changeset="150825826" uid="281699" user="hobbie">
+    <bounds minlat="46.2671658" minlon="13.3703273" maxlat="46.2672058" maxlon="13.3707776"/>
+    <nd ref="4861180899" lat="46.2671658" lon="13.3703273"/>
+    <nd ref="778693299" lat="46.2671698" lon="13.3705637"/>
+    <nd ref="778693647" lat="46.2671821" lon="13.3706898"/>
+    <nd ref="6271874479" lat="46.2671911" lon="13.3707382"/>
+    <nd ref="778693919" lat="46.2672058" lon="13.3707776"/>
+    <tag k="name" v="Via Montemaggiore"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lanes" v="1"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="note" v="The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: + iwn: Via Alpina Yellow B5 + nrw: Sent. Italia A12 + rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 16b + lwn:"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</old>
+<new>
+  <way id="494367863" version="10" timestamp="2025-12-04T08:24:46Z" changeset="175477971" uid="15490683" user="Tinbertos">
+    <bounds minlat="46.2671658" minlon="13.3703273" maxlat="46.2672058" maxlon="13.3707776"/>
+    <nd ref="4861180899" lat="46.2671658" lon="13.3703273"/>
+    <nd ref="778693299" lat="46.2671698" lon="13.3705637"/>
+    <nd ref="778693647" lat="46.2671821" lon="13.3706898"/>
+    <nd ref="6271874479" lat="46.2671911" lon="13.3707382"/>
+    <nd ref="778693919" lat="46.2672058" lon="13.3707776"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lanes" v="1"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Frazione Montemaggiore"/>
+    <tag k="note" v="The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: + iwn: Via Alpina Yellow B5 + nrw: Sent. Italia A12 + rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 16b + lwn:"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="917140734" version="3" timestamp="2025-07-10T14:12:36Z" changeset="168745855" uid="14202171" user="Alessandro Ambrosino">
+    <bounds minlat="46.2586823" minlon="12.8151557" maxlat="46.2588872" maxlon="12.8157021"/>
+    <nd ref="1437957261" lat="46.2586823" lon="12.8157021"/>
+    <nd ref="12803502005" lat="46.2587784" lon="12.8154230"/>
+    <nd ref="1437957274" lat="46.2588872" lon="12.8151557"/>
+    <tag k="name" v="Località Sghittosa di Sopra / Localitât Sghitose Disore"/>
     <tag k="highway" v="residential"/>
-    <tag k="name" v="Via San Giovanni"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="surface" v="paving_stones"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="25484570" version="9" timestamp="2025-08-04T11:23:52Z" changeset="169949676" uid="23125467" user="Kurnin">
-    <bounds minlat="45.9481739" minlon="13.6255505" maxlat="45.9488250" maxlon="13.6260715"/>
-    <nd ref="275620836" lat="45.9488250" lon="13.6260715"/>
-    <nd ref="9837126152" lat="45.9488155" lon="13.6260616"/>
-    <nd ref="2531862827" lat="45.9487812" lon="13.6260256"/>
-    <nd ref="275620837" lat="45.9484949" lon="13.6258022"/>
-    <nd ref="1719250853" lat="45.9483487" lon="13.6256972"/>
-    <nd ref="11050881675" lat="45.9482645" lon="13.6256263"/>
-    <nd ref="275620832" lat="45.9481739" lon="13.6255505"/>
-    <tag k="surface" v="sett"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="highway" v="pedestrian"/>
-    <tag k="name" v="Via Graziadio Isaia Ascoli"/>
-    <tag k="name:sl" v="Ascolijeva ulica"/>
   </way>
 </old>
 <new>
-  <way id="25484570" version="10" timestamp="2025-12-03T10:08:43Z" changeset="175438984" uid="23479882" user="EmanueleAby">
-    <bounds minlat="45.9481739" minlon="13.6255505" maxlat="45.9488250" maxlon="13.6260715"/>
-    <nd ref="275620836" lat="45.9488250" lon="13.6260715"/>
-    <nd ref="9837126152" lat="45.9488155" lon="13.6260616"/>
-    <nd ref="2531862827" lat="45.9487812" lon="13.6260256"/>
-    <nd ref="275620837" lat="45.9484949" lon="13.6258022"/>
-    <nd ref="1719250853" lat="45.9483487" lon="13.6256972"/>
-    <nd ref="11050881675" lat="45.9482645" lon="13.6256263"/>
-    <nd ref="275620832" lat="45.9481739" lon="13.6255505"/>
-    <tag k="cycleway" v="opposite_lane"/>
-    <tag k="cycleway:right" v="opposite_lane"/>
+  <way id="917140734" version="4" timestamp="2025-12-04T20:19:34Z" changeset="175517018" uid="129060" user="Klenje">
+    <bounds minlat="46.2586823" minlon="12.8151557" maxlat="46.2588872" maxlon="12.8157021"/>
+    <nd ref="1437957261" lat="46.2586823" lon="12.8157021"/>
+    <nd ref="12803502005" lat="46.2587784" lon="12.8154230"/>
+    <nd ref="1437957274" lat="46.2588872" lon="12.8151557"/>
     <tag k="highway" v="residential"/>
-    <tag k="name" v="Via Graziadio Isaia Ascoli"/>
-    <tag k="name:sl" v="Ascolijeva ulica"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="surface" v="sett"/>
+    <tag k="loc_name:fur" v="Localitât La Sghitosa Disora"/>
+    <tag k="name" v="Località Sghittosa di Sopra / Localitât Sghitose Disore"/>
+    <tag k="name:fur" v="Localitât La Sghitose Disore"/>
+    <tag k="name:it" v="Località Sghittosa di Sopra"/>
   </way>
 </new>
 </action>
