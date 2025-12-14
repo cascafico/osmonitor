@@ -1,60 +1,309 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2025-12-13T01:04:49Z" areas="2025-12-12T21:44:44Z"/>
+<meta osm_base="2025-12-14T01:14:09Z" areas="2025-12-13T19:18:06Z"/>
 
 <action type="modify">
 <old>
-  <way id="621618738" version="2" timestamp="2023-06-18T20:46:17Z" changeset="137492742" uid="1834719" user="LvdT">
-    <bounds minlat="44.5955756" minlon="10.6487691" maxlat="44.5973666" maxlon="10.6519230"/>
-    <nd ref="580124263" lat="44.5973666" lon="10.6487691"/>
-    <nd ref="10985036403" lat="44.5973496" lon="10.6487966"/>
-    <nd ref="10985036402" lat="44.5973356" lon="10.6488274"/>
-    <nd ref="580124264" lat="44.5972843" lon="10.6489556"/>
-    <nd ref="580124265" lat="44.5972303" lon="10.6490973"/>
-    <nd ref="10985037808" lat="44.5972078" lon="10.6491597"/>
-    <nd ref="10985037807" lat="44.5971775" lon="10.6492288"/>
-    <nd ref="580124280" lat="44.5967441" lon="10.6500303"/>
-    <nd ref="580124281" lat="44.5965645" lon="10.6503594"/>
-    <nd ref="580115986" lat="44.5960985" lon="10.6511835"/>
-    <nd ref="592655890" lat="44.5960129" lon="10.6513296"/>
-    <nd ref="10985037820" lat="44.5959356" lon="10.6514449"/>
-    <nd ref="10985037821" lat="44.5958067" lon="10.6516099"/>
-    <nd ref="10985037822" lat="44.5957699" lon="10.6516501"/>
-    <nd ref="592655887" lat="44.5957312" lon="10.6516897"/>
-    <nd ref="10985037823" lat="44.5956835" lon="10.6517460"/>
-    <nd ref="10985037824" lat="44.5956515" lon="10.6517876"/>
-    <nd ref="10985037825" lat="44.5956104" lon="10.6518479"/>
-    <nd ref="592655879" lat="44.5955756" lon="10.6519230"/>
-    <tag k="name" v="Via Achille Peri"/>
+  <node id="2440684303" lat="44.6929375" lon="10.6292709" version="3" timestamp="2025-03-23T17:48:49Z" changeset="163999227" uid="5721717" user="Stefano Manfredini"/>
+</old>
+<new>
+  <node id="2440684303" lat="44.6929375" lon="10.6292709" version="4" timestamp="2025-12-13T12:02:57Z" changeset="175880633" uid="207544" user="cacaito76it">
+    <tag k="crossing" v="no"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="2440684307" lat="44.6911959" lon="10.6296021" version="3" timestamp="2024-09-03T15:54:16Z" changeset="156148851" uid="821025" user="PaoloRE1981"/>
+</old>
+<new>
+  <node id="2440684307" lat="44.6911959" lon="10.6296021" version="7" timestamp="2025-12-13T20:15:54Z" changeset="175897322" uid="207544" user="cacaito76it">
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="crossing:signals" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="2440684308" lat="44.6905464" lon="10.6291320" version="4" timestamp="2024-09-13T14:14:44Z" changeset="156574604" uid="821025" user="PaoloRE1981"/>
+</old>
+<new>
+  <node id="2440684308" lat="44.6905464" lon="10.6291320" version="8" timestamp="2025-12-13T20:16:00Z" changeset="175897322" uid="207544" user="cacaito76it">
+    <tag k="crossing:markings" v="no"/>
+    <tag k="crossing:signals" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="2440684309" lat="44.6901240" lon="10.6288471" version="2" timestamp="2024-09-03T15:54:16Z" changeset="156148851" uid="821025" user="PaoloRE1981"/>
+</old>
+<new>
+  <node id="2440684309" lat="44.6901240" lon="10.6288471" version="6" timestamp="2025-12-13T20:16:05Z" changeset="175897322" uid="207544" user="cacaito76it">
+    <tag k="crossing:markings" v="no"/>
+    <tag k="crossing:signals" v="no"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="29154035" version="27" timestamp="2024-02-25T12:05:37Z" changeset="147885518" uid="36030" user="WinstonSmith">
+    <bounds minlat="44.4755866" minlon="11.2936749" maxlat="44.4793144" maxlon="11.2958723"/>
+    <nd ref="1400760192" lat="44.4793144" lon="11.2958723"/>
+    <nd ref="2466715234" lat="44.4792430" lon="11.2956513"/>
+    <nd ref="283046567" lat="44.4791612" lon="11.2954780"/>
+    <nd ref="2466715233" lat="44.4790710" lon="11.2953088"/>
+    <nd ref="283046568" lat="44.4789477" lon="11.2951105"/>
+    <nd ref="2466715232" lat="44.4788122" lon="11.2949211"/>
+    <nd ref="2466715231" lat="44.4787226" lon="11.2948677"/>
+    <nd ref="283046570" lat="44.4785707" lon="11.2947898"/>
+    <nd ref="2466715230" lat="44.4783513" lon="11.2946528"/>
+    <nd ref="2466715229" lat="44.4782324" lon="11.2945651"/>
+    <nd ref="283046573" lat="44.4781192" lon="11.2945444"/>
+    <nd ref="283046574" lat="44.4780345" lon="11.2945395"/>
+    <nd ref="283046575" lat="44.4779358" lon="11.2945385"/>
+    <nd ref="2466715228" lat="44.4776801" lon="11.2945599"/>
+    <nd ref="283046576" lat="44.4775062" lon="11.2945766"/>
+    <nd ref="2466715626" lat="44.4774021" lon="11.2946012"/>
+    <nd ref="283046577" lat="44.4772911" lon="11.2946441"/>
+    <nd ref="283046578" lat="44.4770180" lon="11.2947589"/>
+    <nd ref="2466715624" lat="44.4769603" lon="11.2947740"/>
+    <nd ref="283046579" lat="44.4768853" lon="11.2947762"/>
+    <nd ref="283046580" lat="44.4767900" lon="11.2947523"/>
+    <nd ref="283046581" lat="44.4762763" lon="11.2946497"/>
+    <nd ref="4396819196" lat="44.4762465" lon="11.2946387"/>
+    <nd ref="283046582" lat="44.4761538" lon="11.2945816"/>
+    <nd ref="11052554037" lat="44.4760739" lon="11.2945009"/>
+    <nd ref="283046583" lat="44.4760165" lon="11.2943857"/>
+    <nd ref="6705254957" lat="44.4759252" lon="11.2941701"/>
+    <nd ref="283046584" lat="44.4758990" lon="11.2941084"/>
+    <nd ref="283046585" lat="44.4758119" lon="11.2939342"/>
+    <nd ref="283046586" lat="44.4757260" lon="11.2938202"/>
+    <nd ref="4396819197" lat="44.4756262" lon="11.2937146"/>
+    <nd ref="10911199620" lat="44.4755866" lon="11.2936749"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="source:maxspeed" v="https://wiki.osm.org/?curid=306950"/>
+    <tag k="cycleway:both" v="no"/>
     <tag k="highway" v="unclassified"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Via di Monte Albano"/>
+    <tag k="sidewalk" v="no"/>
+    <tag k="smoothness" v="excellent"/>
   </way>
 </old>
 <new>
-  <way id="621618738" version="3" timestamp="2025-12-12T12:59:02Z" changeset="175845313" uid="207544" user="cacaito76it">
-    <bounds minlat="44.5955756" minlon="10.6487691" maxlat="44.5973666" maxlon="10.6519230"/>
-    <nd ref="580124263" lat="44.5973666" lon="10.6487691"/>
-    <nd ref="10985036403" lat="44.5973496" lon="10.6487966"/>
-    <nd ref="10985036402" lat="44.5973356" lon="10.6488274"/>
-    <nd ref="580124264" lat="44.5972843" lon="10.6489556"/>
-    <nd ref="580124265" lat="44.5972303" lon="10.6490973"/>
-    <nd ref="10985037808" lat="44.5972078" lon="10.6491597"/>
-    <nd ref="10985037807" lat="44.5971775" lon="10.6492288"/>
-    <nd ref="580124280" lat="44.5967441" lon="10.6500303"/>
-    <nd ref="580124281" lat="44.5965645" lon="10.6503594"/>
-    <nd ref="580115986" lat="44.5960985" lon="10.6511835"/>
-    <nd ref="592655890" lat="44.5960129" lon="10.6513296"/>
-    <nd ref="10985037820" lat="44.5959356" lon="10.6514449"/>
-    <nd ref="10985037821" lat="44.5958067" lon="10.6516099"/>
-    <nd ref="10985037822" lat="44.5957699" lon="10.6516501"/>
-    <nd ref="592655887" lat="44.5957312" lon="10.6516897"/>
-    <nd ref="10985037823" lat="44.5956835" lon="10.6517460"/>
-    <nd ref="10985037824" lat="44.5956515" lon="10.6517876"/>
-    <nd ref="10985037825" lat="44.5956104" lon="10.6518479"/>
-    <nd ref="592655879" lat="44.5955756" lon="10.6519230"/>
+  <way id="29154035" version="28" timestamp="2025-12-13T22:23:52Z" changeset="175901116" uid="36030" user="WinstonSmith">
+    <bounds minlat="44.4755866" minlon="11.2936749" maxlat="44.4793144" maxlon="11.2958723"/>
+    <nd ref="1400760192" lat="44.4793144" lon="11.2958723"/>
+    <nd ref="2466715234" lat="44.4792430" lon="11.2956513"/>
+    <nd ref="283046567" lat="44.4791612" lon="11.2954780"/>
+    <nd ref="2466715233" lat="44.4790710" lon="11.2953088"/>
+    <nd ref="283046568" lat="44.4789477" lon="11.2951105"/>
+    <nd ref="2466715232" lat="44.4788122" lon="11.2949211"/>
+    <nd ref="2466715231" lat="44.4787226" lon="11.2948677"/>
+    <nd ref="283046570" lat="44.4785707" lon="11.2947898"/>
+    <nd ref="2466715230" lat="44.4783513" lon="11.2946528"/>
+    <nd ref="2466715229" lat="44.4782324" lon="11.2945651"/>
+    <nd ref="283046573" lat="44.4781192" lon="11.2945444"/>
+    <nd ref="283046574" lat="44.4780345" lon="11.2945395"/>
+    <nd ref="283046575" lat="44.4779358" lon="11.2945385"/>
+    <nd ref="2466715228" lat="44.4776801" lon="11.2945599"/>
+    <nd ref="283046576" lat="44.4775062" lon="11.2945766"/>
+    <nd ref="2466715626" lat="44.4774021" lon="11.2946012"/>
+    <nd ref="283046577" lat="44.4772911" lon="11.2946441"/>
+    <nd ref="283046578" lat="44.4770180" lon="11.2947589"/>
+    <nd ref="2466715624" lat="44.4769603" lon="11.2947740"/>
+    <nd ref="283046579" lat="44.4768853" lon="11.2947762"/>
+    <nd ref="283046580" lat="44.4767900" lon="11.2947523"/>
+    <nd ref="283046581" lat="44.4762763" lon="11.2946497"/>
+    <nd ref="4396819196" lat="44.4762465" lon="11.2946387"/>
+    <nd ref="283046582" lat="44.4761538" lon="11.2945816"/>
+    <nd ref="11052554037" lat="44.4760739" lon="11.2945009"/>
+    <nd ref="283046583" lat="44.4760165" lon="11.2943857"/>
+    <nd ref="6705254957" lat="44.4759252" lon="11.2941701"/>
+    <nd ref="283046584" lat="44.4758990" lon="11.2941084"/>
+    <nd ref="283046585" lat="44.4758119" lon="11.2939342"/>
+    <nd ref="283046586" lat="44.4757260" lon="11.2938202"/>
+    <nd ref="4396819197" lat="44.4756262" lon="11.2937146"/>
+    <nd ref="10911199620" lat="44.4755866" lon="11.2936749"/>
+    <tag k="cycleway:both" v="no"/>
     <tag k="highway" v="unclassified"/>
-    <tag k="name" v="Via Achille Peri"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="maxspeed:type" v="sign"/>
+    <tag k="name" v="Via di Monte Albano"/>
+    <tag k="sidewalk" v="no"/>
+    <tag k="smoothness" v="excellent"/>
     <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="331120144" version="4" timestamp="2019-10-03T14:15:14Z" changeset="75237816" uid="10066173" user="Alessandro1221">
+    <bounds minlat="44.6954461" minlon="10.6292926" maxlat="44.6956367" maxlon="10.6296332"/>
+    <nd ref="3381786135" lat="44.6954461" lon="10.6296332"/>
+    <nd ref="3381786136" lat="44.6956367" lon="10.6292926"/>
+    <tag k="highway" v="footway"/>
+    <tag k="bicycle" v="yes"/>
+  </way>
+</old>
+<new>
+  <way id="331120144" version="5" timestamp="2025-12-13T20:15:41Z" changeset="175897304" uid="207544" user="cacaito76it">
+    <bounds minlat="44.6954461" minlon="10.6292926" maxlat="44.6956367" maxlon="10.6296332"/>
+    <nd ref="3381786135" lat="44.6954461" lon="10.6296332"/>
+    <nd ref="3381786136" lat="44.6956367" lon="10.6292926"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="sett"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="456639479" version="8" timestamp="2023-08-26T15:13:18Z" changeset="140416421" uid="4425563" user="Danysan95">
+    <bounds minlat="44.4793144" minlon="11.2958723" maxlat="44.4793887" maxlon="11.2963334"/>
+    <nd ref="283046559" lat="44.4793887" lon="11.2963334"/>
+    <nd ref="2466715236" lat="44.4793707" lon="11.2961927"/>
+    <nd ref="2466715235" lat="44.4793557" lon="11.2961016"/>
+    <nd ref="5140810571" lat="44.4793338" lon="11.2959799"/>
+    <nd ref="1400760192" lat="44.4793144" lon="11.2958723"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="source:maxspeed" v="https://wiki.osm.org/?curid=306950"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Piazzale Giovanni Battista Nasalli Rocca"/>
+    <tag k="oneway" v="no"/>
+  </way>
+</old>
+<new>
+  <way id="456639479" version="9" timestamp="2025-12-13T22:23:52Z" changeset="175901116" uid="36030" user="WinstonSmith">
+    <bounds minlat="44.4793144" minlon="11.2958723" maxlat="44.4793887" maxlon="11.2963334"/>
+    <nd ref="283046559" lat="44.4793887" lon="11.2963334"/>
+    <nd ref="2466715236" lat="44.4793707" lon="11.2961927"/>
+    <nd ref="2466715235" lat="44.4793557" lon="11.2961016"/>
+    <nd ref="5140810571" lat="44.4793338" lon="11.2959799"/>
+    <nd ref="1400760192" lat="44.4793144" lon="11.2958723"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="maxspeed:type" v="sign"/>
+    <tag k="name" v="Piazzale Giovanni Battista Nasalli Rocca"/>
+    <tag k="oneway" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="516194190" version="9" timestamp="2025-01-08T11:49:23Z" changeset="161130465" uid="11220113" user="ivanbranco">
+    <bounds minlat="44.4793887" minlon="11.2963334" maxlat="44.4793931" maxlon="11.2966617"/>
+    <nd ref="12484276858" lat="44.4793923" lon="11.2966617"/>
+    <nd ref="283046558" lat="44.4793931" lon="11.2965779"/>
+    <nd ref="283046559" lat="44.4793887" lon="11.2963334"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="source:maxspeed" v="https://wiki.osm.org/?curid=306950"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lanes" v="2"/>
+    <tag k="name" v="Piazzale Giovanni Battista Nasalli Rocca"/>
+    <tag k="oneway" v="no"/>
+    <tag k="sidewalk" v="left"/>
+  </way>
+</old>
+<new>
+  <way id="516194190" version="10" timestamp="2025-12-13T22:23:52Z" changeset="175901116" uid="36030" user="WinstonSmith">
+    <bounds minlat="44.4793887" minlon="11.2963334" maxlat="44.4793931" maxlon="11.2966617"/>
+    <nd ref="12484276858" lat="44.4793923" lon="11.2966617"/>
+    <nd ref="283046558" lat="44.4793931" lon="11.2965779"/>
+    <nd ref="283046559" lat="44.4793887" lon="11.2963334"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="maxspeed:type" v="sign"/>
+    <tag k="name" v="Piazzale Giovanni Battista Nasalli Rocca"/>
+    <tag k="oneway" v="no"/>
+    <tag k="sidewalk" v="left"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="881320160" version="3" timestamp="2024-09-17T14:14:27Z" changeset="156731991" uid="821025" user="PaoloRE1981">
+    <bounds minlat="44.6956617" minlon="10.6292294" maxlat="44.6957391" maxlon="10.6293086"/>
+    <nd ref="6554705823" lat="44.6956617" lon="10.6292294"/>
+    <nd ref="3381786137" lat="44.6957391" lon="10.6293086"/>
+    <tag k="taxi" v="yes"/>
+    <tag k="access" v="no"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="bus" v="yes"/>
+    <tag k="disabled" v="yes"/>
+    <tag k="electric_car" v="yes"/>
+    <tag k="emergency" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="service"/>
+    <tag k="moped" v="yes"/>
+    <tag k="motor_vehicle" v="permit"/>
+    <tag k="name" v="Via Antignoli"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="service" v="alley"/>
+  </way>
+</old>
+<new>
+  <way id="881320160" version="4" timestamp="2025-12-13T20:15:39Z" changeset="175897305" uid="207544" user="cacaito76it">
+    <bounds minlat="44.6956617" minlon="10.6292294" maxlat="44.6957391" maxlon="10.6293086"/>
+    <nd ref="6554705823" lat="44.6956617" lon="10.6292294"/>
+    <nd ref="3381786137" lat="44.6957391" lon="10.6293086"/>
+    <tag k="access" v="no"/>
+    <tag k="bicycle" v="yes"/>
+    <tag k="bus" v="yes"/>
+    <tag k="disabled" v="yes"/>
+    <tag k="electric_car" v="yes"/>
+    <tag k="emergency" v="yes"/>
+    <tag k="foot" v="yes"/>
+    <tag k="highway" v="service"/>
+    <tag k="moped" v="yes"/>
+    <tag k="motor_vehicle" v="permit"/>
+    <tag k="name" v="Via Antignoli"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="oneway:bicycle" v="no"/>
+    <tag k="service" v="alley"/>
+    <tag k="surface" v="sett"/>
+    <tag k="taxi" v="yes"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="881320161" version="2" timestamp="2021-04-06T11:36:33Z" changeset="102404056" uid="337662" user="camperxr">
+    <bounds minlat="44.6956367" minlon="10.6292294" maxlat="44.6956617" maxlon="10.6292926"/>
+    <nd ref="3381786136" lat="44.6956367" lon="10.6292926"/>
+    <nd ref="6554705823" lat="44.6956617" lon="10.6292294"/>
+    <tag k="highway" v="footway"/>
+  </way>
+</old>
+<new>
+  <way id="881320161" version="3" timestamp="2025-12-13T20:15:39Z" changeset="175897304" uid="207544" user="cacaito76it">
+    <bounds minlat="44.6956367" minlon="10.6292294" maxlat="44.6956617" maxlon="10.6292926"/>
+    <nd ref="3381786136" lat="44.6956367" lon="10.6292926"/>
+    <nd ref="6554705823" lat="44.6956617" lon="10.6292294"/>
+    <tag k="highway" v="footway"/>
+    <tag k="surface" v="sett"/>
   </way>
 </new>
 </action>
