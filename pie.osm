@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2025-12-22T01:12:36Z" areas="2025-12-21T20:54:13Z"/>
+
+<action type="modify">
+<old>
+  <node id="4859931711" version="3" timestamp="2024-08-14T14:13:55Z" changeset="155243547" uid="2976645" user="Jrachi"/>
+</old>
+<new>
+  <node id="4859931711" lat="44.9498111" lon="7.1097113" version="3" timestamp="2024-08-14T14:13:55Z" changeset="155243547" uid="2976645" user="Jrachi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="7170073979" lat="44.9501519" lon="7.1041591" version="1" timestamp="2020-01-29T18:26:09Z" changeset="80273891" uid="10712089" user="e_tron"/>
+</old>
+<new>
+  <node id="7170073979" visible="true" version="1" timestamp="2020-01-29T18:26:09Z" changeset="80273891" uid="10712089" user="e_tron"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="8449187088" lat="44.9502115" lon="7.1041366" version="2" timestamp="2024-08-14T14:13:55Z" changeset="155243547" uid="2976645" user="Jrachi"/>
+</old>
+<new>
+  <node id="8449187088" visible="true" version="2" timestamp="2024-08-14T14:13:55Z" changeset="155243547" uid="2976645" user="Jrachi"/>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="12110496925" version="1" timestamp="2024-08-14T14:13:55Z" changeset="155243547" uid="2976645" user="Jrachi"/>
+</old>
+<new>
+  <node id="12110496925" lat="44.9497637" lon="7.1098629" version="1" timestamp="2024-08-14T14:13:55Z" changeset="155243547" uid="2976645" user="Jrachi"/>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="12110496926" version="1" timestamp="2024-08-14T14:13:55Z" changeset="155243547" uid="2976645" user="Jrachi"/>
+</old>
+<new>
+  <node id="12110496926" lat="44.9497893" lon="7.1097448" version="1" timestamp="2024-08-14T14:13:55Z" changeset="155243547" uid="2976645" user="Jrachi"/>
+</new>
+</action>
+<action type="modify">
+<old>
+  <node id="12110496927" version="1" timestamp="2024-08-14T14:13:55Z" changeset="155243547" uid="2976645" user="Jrachi"/>
+</old>
+<new>
+  <node id="12110496927" lat="44.9498653" lon="7.1096885" version="1" timestamp="2024-08-14T14:13:55Z" changeset="155243547" uid="2976645" user="Jrachi"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <way id="1016623342" version="2" timestamp="2024-08-14T14:13:55Z" changeset="155243547" uid="2976645" user="Jrachi">
+    <bounds minlat="44.9500805" minlon="7.1041366" maxlat="44.9502115" maxlon="7.1042515"/>
+    <nd ref="8449187088" lat="44.9502115" lon="7.1041366"/>
+    <nd ref="7170073979" lat="44.9501519" lon="7.1041591"/>
+    <nd ref="4870284223" lat="44.9500805" lon="7.1042515"/>
+    <tag k="highway" v="path"/>
+    <tag k="mtb:scale" v="1"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="smoothness" v="horrible"/>
+    <tag k="surface" v="ground"/>
+    <tag k="trail_visibility" v="intermediate"/>
+  </way>
+</old>
+<new>
+  <way id="1016623342" visible="true" version="2" timestamp="2024-08-14T14:13:55Z" changeset="155243547" uid="2976645" user="Jrachi"/>
+</new>
+</action>
+<action type="create">
+  <way id="1460217833" version="1" timestamp="2025-12-21T10:38:46Z" changeset="176211471" uid="2976645" user="Jrachi">
+    <bounds minlat="44.9497637" minlon="7.1096354" maxlat="44.9498974" maxlon="7.1100600"/>
+    <nd ref="4870284003" lat="44.9498974" lon="7.1096354"/>
+    <nd ref="12110496927" lat="44.9498653" lon="7.1096885"/>
+    <nd ref="4859931711" lat="44.9498111" lon="7.1097113"/>
+    <nd ref="12110496926" lat="44.9497893" lon="7.1097448"/>
+    <nd ref="12110496925" lat="44.9497637" lon="7.1098629"/>
+    <nd ref="4859931712" lat="44.9497647" lon="7.1100600"/>
+    <tag k="highway" v="path"/>
+    <tag k="incline" v="up"/>
+    <tag k="mtb:scale" v="2"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+    <tag k="smoothness" v="horrible"/>
+    <tag k="surface" v="ground"/>
+    <tag k="trail_visibility" v="intermediate"/>
+  </way>
+</action>
+<action type="modify">
+<old>
+  <relation id="12357833" version="5" timestamp="2025-01-13T23:39:28Z" changeset="161328438" uid="4365159" user="wildmaps">
+    <bounds minlat="44.9497647" minlon="7.1030756" maxlat="44.9529776" maxlon="7.1163903"/>
+    <member type="way" ref="910405463" role="east">
+      <nd lat="44.9497647" lon="7.1100600"/>
+      <nd lat="44.9497852" lon="7.1104960"/>
+      <nd lat="44.9497975" lon="7.1107573"/>
+      <nd lat="44.9499717" lon="7.1115940"/>
+      <nd lat="44.9501117" lon="7.1122773"/>
+      <nd lat="44.9502991" lon="7.1125785"/>
+      <nd lat="44.9504362" lon="7.1127988"/>
+      <nd lat="44.9506716" lon="7.1134731"/>
+      <nd lat="44.9506080" lon="7.1143812"/>
+      <nd lat="44.9503662" lon="7.1150016"/>
+      <nd lat="44.9501562" lon="7.1156759"/>
+      <nd lat="44.9501460" lon="7.1161991"/>
+    </member>
+    <member type="way" ref="1016623342" role="east">
+      <nd lat="44.9502115" lon="7.1041366"/>
+      <nd lat="44.9501519" lon="7.1041591"/>
+      <nd lat="44.9500805" lon="7.1042515"/>
+    </member>
+    <member type="way" ref="495252607" role="east">
+      <nd lat="44.9500805" lon="7.1042515"/>
+      <nd lat="44.9500700" lon="7.1042817"/>
+      <nd lat="44.9500772" lon="7.1043218"/>
+      <nd lat="44.9500784" lon="7.1044109"/>
+      <nd lat="44.9500662" lon="7.1044742"/>
+      <nd lat="44.9500438" lon="7.1045702"/>
+      <nd lat="44.9500365" lon="7.1047087"/>
+      <nd lat="44.9500451" lon="7.1048924"/>
+      <nd lat="44.9500456" lon="7.1051784"/>
+      <nd lat="44.9500613" lon="7.1053647"/>
+      <nd lat="44.9500586" lon="7.1055439"/>
+      <nd lat="44.9500655" lon="7.1056589"/>
+      <nd lat="44.9501035" lon="7.1058483"/>
+      <nd lat="44.9501516" lon="7.1059703"/>
+      <nd lat="44.9501700" lon="7.1061139"/>
+      <nd lat="44.9501740" lon="7.1062428"/>
+      <nd lat="44.9501201" lon="7.1064026"/>
+      <nd lat="44.9501170" lon="7.1064391"/>
+      <nd lat="44.9501257" lon="7.1065017"/>
+      <nd lat="44.9501203" lon="7.1065615"/>
+      <nd lat="44.9501082" lon="7.1066250"/>
+      <nd lat="44.9501137" lon="7.1066654"/>
+      <nd lat="44.9501498" lon="7.1068222"/>
+      <nd lat="44.9501861" lon="7.1069114"/>
+      <nd lat="44.9501832" lon="7.1070103"/>
+      <nd lat="44.9501579" lon="7.1072604"/>
+      <nd lat="44.9501404" lon="7.1073201"/>
+      <nd lat="44.9501411" lon="7.1073675"/>
+      <nd lat="44.9501176" lon="7.1074330"/>
+      <nd lat="44.9500579" lon="7.1075159"/>
+      <nd lat="44.9499962" lon="7.1076264"/>
+      <nd lat="44.9499729" lon="7.1077648"/>
+      <nd lat="44.9499183" lon="7.1079384"/>
+      <nd lat="44.9498634" lon="7.1082039"/>
+      <nd lat="44.9498408" lon="7.1085819"/>
+      <nd lat="44.9498633" lon="7.1087663"/>
+      <nd lat="44.9498914" lon="7.1090371"/>
+      <nd lat="44.9498975" lon="7.1091579"/>
+      <nd lat="44.9498639" lon="7.1093561"/>
+      <nd lat="44.9498733" lon="7.1094917"/>
+      <nd lat="44.9498974" lon="7.1096354"/>
+    </member>
+    <member type="way" ref="767933542" role="east">
+      <nd lat="44.9505520" lon="7.1030817"/>
+      <nd lat="44.9505264" lon="7.1030756"/>
+      <nd lat="44.9504612" lon="7.1032288"/>
+      <nd lat="44.9504519" lon="7.1034408"/>
+      <nd lat="44.9504054" lon="7.1036330"/>
+      <nd lat="44.9503503" lon="7.1037689"/>
+      <nd lat="44.9502823" lon="7.1038797"/>
+      <nd lat="44.9501941" lon="7.1039995"/>
+      <nd lat="44.9501040" lon="7.1040683"/>
+      <nd lat="44.9500599" lon="7.1041569"/>
+      <nd lat="44.9500805" lon="7.1042515"/>
+    </member>
+    <member type="way" ref="910405467" role="">
+      <nd lat="44.9505520" lon="7.1030817"/>
+      <nd lat="44.9509236" lon="7.1032971"/>
+      <nd lat="44.9509035" lon="7.1035962"/>
+      <nd lat="44.9508787" lon="7.1040813"/>
+      <nd lat="44.9508915" lon="7.1045949"/>
+      <nd lat="44.9509402" lon="7.1048832"/>
+      <nd lat="44.9512030" lon="7.1050510"/>
+      <nd lat="44.9512683" lon="7.1051855"/>
+    </member>
+    <member type="way" ref="910405464" role="west">
+      <nd lat="44.9528656" lon="7.1132406"/>
+      <nd lat="44.9529776" lon="7.1130104"/>
+      <nd lat="44.9529696" lon="7.1129223"/>
+      <nd lat="44.9529513" lon="7.1127193"/>
+      <nd lat="44.9528404" lon="7.1126075"/>
+      <nd lat="44.9525643" lon="7.1122978"/>
+      <nd lat="44.9525993" lon="7.1119758"/>
+      <nd lat="44.9525467" lon="7.1113813"/>
+      <nd lat="44.9525996" lon="7.1108422"/>
+      <nd lat="44.9526834" lon="7.1102754"/>
+      <nd lat="44.9527118" lon="7.1100830"/>
+      <nd lat="44.9523977" lon="7.1094434"/>
+      <nd lat="44.9522592" lon="7.1090649"/>
+      <nd lat="44.9520467" lon="7.1086863"/>
+      <nd lat="44.9520282" lon="7.1082164"/>
+      <nd lat="44.9520744" lon="7.1071591"/>
+      <nd lat="44.9519543" lon="7.1064804"/>
+      <nd lat="44.9518158" lon="7.1059060"/>
+      <nd lat="44.9516218" lon="7.1056711"/>
+      <nd lat="44.9512683" lon="7.1051855"/>
+    </member>
+    <member type="way" ref="910405465" role="north">
+      <nd lat="44.9528656" lon="7.1132406"/>
+      <nd lat="44.9526739" lon="7.1132513"/>
+      <nd lat="44.9525524" lon="7.1133613"/>
+      <nd lat="44.9525372" lon="7.1136027"/>
+      <nd lat="44.9525235" lon="7.1136443"/>
+      <nd lat="44.9524860" lon="7.1137583"/>
+      <nd lat="44.9523664" lon="7.1138173"/>
+      <nd lat="44.9523057" lon="7.1140104"/>
+      <nd lat="44.9521462" lon="7.1144395"/>
+      <nd lat="44.9520532" lon="7.1148097"/>
+      <nd lat="44.9516171" lon="7.1156465"/>
+      <nd lat="44.9508749" lon="7.1161615"/>
+      <nd lat="44.9504155" lon="7.1161454"/>
+      <nd lat="44.9501460" lon="7.1161991"/>
+      <nd lat="44.9499974" lon="7.1163903"/>
+    </member>
+    <tag k="website" v="http://invalchisone.it/13.06-Perrero%20anello%20di%20Parant.htm"/>
+    <tag k="operator" v="CAI"/>
+    <tag k="ref" v="13.06"/>
+    <tag k="from" v="Saretti"/>
+    <tag k="name" v="La Viroun dë Pârant"/>
+    <tag k="network" v="lwn"/>
+    <tag k="route" v="hiking"/>
+    <tag k="to" v="Parant"/>
+    <tag k="type" v="route"/>
+  </relation>
+</old>
+<new>
+  <relation id="12357833" version="6" timestamp="2025-12-21T10:38:46Z" changeset="176211471" uid="2976645" user="Jrachi">
+    <bounds minlat="44.9497637" minlon="7.1030756" maxlat="44.9529776" maxlon="7.1163903"/>
+    <member type="way" ref="910405465" role="">
+      <nd lat="44.9528656" lon="7.1132406"/>
+      <nd lat="44.9526739" lon="7.1132513"/>
+      <nd lat="44.9525524" lon="7.1133613"/>
+      <nd lat="44.9525372" lon="7.1136027"/>
+      <nd lat="44.9525235" lon="7.1136443"/>
+      <nd lat="44.9524860" lon="7.1137583"/>
+      <nd lat="44.9523664" lon="7.1138173"/>
+      <nd lat="44.9523057" lon="7.1140104"/>
+      <nd lat="44.9521462" lon="7.1144395"/>
+      <nd lat="44.9520532" lon="7.1148097"/>
+      <nd lat="44.9516171" lon="7.1156465"/>
+      <nd lat="44.9508749" lon="7.1161615"/>
+      <nd lat="44.9504155" lon="7.1161454"/>
+      <nd lat="44.9501460" lon="7.1161991"/>
+      <nd lat="44.9499974" lon="7.1163903"/>
+    </member>
+    <member type="way" ref="910405464" role="">
+      <nd lat="44.9528656" lon="7.1132406"/>
+      <nd lat="44.9529776" lon="7.1130104"/>
+      <nd lat="44.9529696" lon="7.1129223"/>
+      <nd lat="44.9529513" lon="7.1127193"/>
+      <nd lat="44.9528404" lon="7.1126075"/>
+      <nd lat="44.9525643" lon="7.1122978"/>
+      <nd lat="44.9525993" lon="7.1119758"/>
+      <nd lat="44.9525467" lon="7.1113813"/>
+      <nd lat="44.9525996" lon="7.1108422"/>
+      <nd lat="44.9526834" lon="7.1102754"/>
+      <nd lat="44.9527118" lon="7.1100830"/>
+      <nd lat="44.9523977" lon="7.1094434"/>
+      <nd lat="44.9522592" lon="7.1090649"/>
+      <nd lat="44.9520467" lon="7.1086863"/>
+      <nd lat="44.9520282" lon="7.1082164"/>
+      <nd lat="44.9520744" lon="7.1071591"/>
+      <nd lat="44.9519543" lon="7.1064804"/>
+      <nd lat="44.9518158" lon="7.1059060"/>
+      <nd lat="44.9516218" lon="7.1056711"/>
+      <nd lat="44.9512683" lon="7.1051855"/>
+    </member>
+    <member type="way" ref="910405467" role="">
+      <nd lat="44.9505520" lon="7.1030817"/>
+      <nd lat="44.9509236" lon="7.1032971"/>
+      <nd lat="44.9509035" lon="7.1035962"/>
+      <nd lat="44.9508787" lon="7.1040813"/>
+      <nd lat="44.9508915" lon="7.1045949"/>
+      <nd lat="44.9509402" lon="7.1048832"/>
+      <nd lat="44.9512030" lon="7.1050510"/>
+      <nd lat="44.9512683" lon="7.1051855"/>
+    </member>
+    <member type="way" ref="767933542" role="">
+      <nd lat="44.9505520" lon="7.1030817"/>
+      <nd lat="44.9505264" lon="7.1030756"/>
+      <nd lat="44.9504612" lon="7.1032288"/>
+      <nd lat="44.9504519" lon="7.1034408"/>
+      <nd lat="44.9504054" lon="7.1036330"/>
+      <nd lat="44.9503503" lon="7.1037689"/>
+      <nd lat="44.9502823" lon="7.1038797"/>
+      <nd lat="44.9501941" lon="7.1039995"/>
+      <nd lat="44.9501040" lon="7.1040683"/>
+      <nd lat="44.9500599" lon="7.1041569"/>
+      <nd lat="44.9500805" lon="7.1042515"/>
+    </member>
+    <member type="way" ref="495252607" role="">
+      <nd lat="44.9500805" lon="7.1042515"/>
+      <nd lat="44.9500700" lon="7.1042817"/>
+      <nd lat="44.9500772" lon="7.1043218"/>
+      <nd lat="44.9500784" lon="7.1044109"/>
+      <nd lat="44.9500662" lon="7.1044742"/>
+      <nd lat="44.9500438" lon="7.1045702"/>
+      <nd lat="44.9500365" lon="7.1047087"/>
+      <nd lat="44.9500451" lon="7.1048924"/>
+      <nd lat="44.9500456" lon="7.1051784"/>
+      <nd lat="44.9500613" lon="7.1053647"/>
+      <nd lat="44.9500586" lon="7.1055439"/>
+      <nd lat="44.9500655" lon="7.1056589"/>
+      <nd lat="44.9501035" lon="7.1058483"/>
+      <nd lat="44.9501516" lon="7.1059703"/>
+      <nd lat="44.9501700" lon="7.1061139"/>
+      <nd lat="44.9501740" lon="7.1062428"/>
+      <nd lat="44.9501201" lon="7.1064026"/>
+      <nd lat="44.9501170" lon="7.1064391"/>
+      <nd lat="44.9501257" lon="7.1065017"/>
+      <nd lat="44.9501203" lon="7.1065615"/>
+      <nd lat="44.9501082" lon="7.1066250"/>
+      <nd lat="44.9501137" lon="7.1066654"/>
+      <nd lat="44.9501498" lon="7.1068222"/>
+      <nd lat="44.9501861" lon="7.1069114"/>
+      <nd lat="44.9501832" lon="7.1070103"/>
+      <nd lat="44.9501579" lon="7.1072604"/>
+      <nd lat="44.9501404" lon="7.1073201"/>
+      <nd lat="44.9501411" lon="7.1073675"/>
+      <nd lat="44.9501176" lon="7.1074330"/>
+      <nd lat="44.9500579" lon="7.1075159"/>
+      <nd lat="44.9499962" lon="7.1076264"/>
+      <nd lat="44.9499729" lon="7.1077648"/>
+      <nd lat="44.9499183" lon="7.1079384"/>
+      <nd lat="44.9498634" lon="7.1082039"/>
+      <nd lat="44.9498408" lon="7.1085819"/>
+      <nd lat="44.9498633" lon="7.1087663"/>
+      <nd lat="44.9498914" lon="7.1090371"/>
+      <nd lat="44.9498975" lon="7.1091579"/>
+      <nd lat="44.9498639" lon="7.1093561"/>
+      <nd lat="44.9498733" lon="7.1094917"/>
+      <nd lat="44.9498974" lon="7.1096354"/>
+    </member>
+    <member type="way" ref="1460217833" role="">
+      <nd lat="44.9498974" lon="7.1096354"/>
+      <nd lat="44.9498653" lon="7.1096885"/>
+      <nd lat="44.9498111" lon="7.1097113"/>
+      <nd lat="44.9497893" lon="7.1097448"/>
+      <nd lat="44.9497637" lon="7.1098629"/>
+      <nd lat="44.9497647" lon="7.1100600"/>
+    </member>
+    <member type="way" ref="910405463" role="">
+      <nd lat="44.9497647" lon="7.1100600"/>
+      <nd lat="44.9497852" lon="7.1104960"/>
+      <nd lat="44.9497975" lon="7.1107573"/>
+      <nd lat="44.9499717" lon="7.1115940"/>
+      <nd lat="44.9501117" lon="7.1122773"/>
+      <nd lat="44.9502991" lon="7.1125785"/>
+      <nd lat="44.9504362" lon="7.1127988"/>
+      <nd lat="44.9506716" lon="7.1134731"/>
+      <nd lat="44.9506080" lon="7.1143812"/>
+      <nd lat="44.9503662" lon="7.1150016"/>
+      <nd lat="44.9501562" lon="7.1156759"/>
+      <nd lat="44.9501460" lon="7.1161991"/>
+    </member>
+    <tag k="from" v="Saretti"/>
+    <tag k="name" v="La Viroun dë Pârant"/>
+    <tag k="network" v="lwn"/>
+    <tag k="note" v="Verificare significato di ref=13.06"/>
+    <tag k="operator" v="Club Alpino Italiano"/>
+    <tag k="route" v="hiking"/>
+    <tag k="to" v="Parant"/>
+    <tag k="type" v="route"/>
+    <tag k="website" v="http://invalchisone.it/13.06-Perrero%20anello%20di%20Parant.htm"/>
+  </relation>
+</new>
+</action>
+
+</osm>
