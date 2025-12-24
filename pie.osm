@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2025-12-23T01:10:34Z" areas="2025-12-22T15:17:15Z"/>
+<meta osm_base="2025-12-24T01:09:36Z" areas="2025-12-23T17:51:02Z"/>
 
 <action type="modify">
 <old>
-  <node id="4084444819" lat="44.9746742" lon="7.2986928" version="5" timestamp="2025-09-19T10:29:07Z" changeset="172154443" uid="1976047" user="cartomatto">
-    <tag k="tourism" v="information"/>
-    <tag k="name" v="Colle Sperina"/>
-    <tag k="information" v="guidepost"/>
-    <tag k="ele" v="1302"/>
-  </node>
-</old>
-<new>
   <node id="4084444819" lat="44.9746742" lon="7.2986928" version="7" timestamp="2025-12-22T20:15:00Z" changeset="176280565" uid="1976047" user="cartomatto">
+    <tag k="tourism" v="information"/>
     <tag k="ele" v="1302"/>
     <tag k="hiking" v="yes"/>
     <tag k="information" v="guidepost"/>
     <tag k="name" v="Colle Sperina"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="support" v="pole"/>
+    <tag k="survey:date" v="2025-11-23"/>
+  </node>
+</old>
+<new>
+  <node id="4084444819" lat="44.9746742" lon="7.2986928" version="8" timestamp="2025-12-23T13:14:28Z" changeset="176307806" uid="2976645" user="Jrachi">
+    <tag k="ele" v="1302"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="name" v="Colle Sperina"/>
+    <tag k="note" v="Il guidepost non ha nome. Anche se su di esso è presente la tabella località (a norme di legge regionale) che è il nome della località, non del palo!"/>
     <tag k="source" v="survey:CAI"/>
     <tag k="support" v="pole"/>
     <tag k="survey:date" v="2025-11-23"/>

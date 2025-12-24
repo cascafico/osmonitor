@@ -1,143 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2025-12-23T01:11:39Z" areas="2025-12-22T17:31:25Z"/>
+<meta osm_base="2025-12-24T01:11:33Z" areas="2025-12-23T20:05:44Z"/>
 
 <action type="modify">
 <old>
-  <node id="7685944356" lat="42.8907601" lon="11.6266102" version="3" timestamp="2024-10-02T11:10:17Z" changeset="157374313" uid="17965418" user="DabMK">
-    <tag k="ele" v="1683"/>
-  </node>
-</old>
-<new>
-  <node id="7685944356" lat="42.8907601" lon="11.6266102" version="4" timestamp="2025-12-22T23:35:44Z" changeset="176286182" uid="17965418" user="DabMK">
-    <tag k="ele" v="1683"/>
-    <tag k="mountain_pass" v="yes"/>
-    <tag k="name" v="Passo del Monte Amiata"/>
-    <tag k="natural" v="saddle"/>
-  </node>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="1120550082" version="3" timestamp="2025-07-27T10:47:57Z" changeset="169550696" uid="17965418" user="DabMK">
-    <bounds minlat="42.8823660" minlon="11.6232255" maxlat="42.8826680" maxlon="11.6245540"/>
-    <nd ref="392669726" lat="42.8823660" lon="11.6245540"/>
-    <nd ref="13028252565" lat="42.8823982" lon="11.6245239"/>
-    <nd ref="13028252564" lat="42.8824303" lon="11.6244723"/>
-    <nd ref="13028252563" lat="42.8824534" lon="11.6244066"/>
-    <nd ref="392669727" lat="42.8824720" lon="11.6243290"/>
-    <nd ref="392669728" lat="42.8826014" lon="11.6234287"/>
-    <nd ref="10248754120" lat="42.8826258" lon="11.6233444"/>
-    <nd ref="821076752" lat="42.8826680" lon="11.6232255"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="loc_ref" v="SP81"/>
-    <tag k="name" v="Strada Provinciale Vetta dell'Amiata"/>
-    <tag k="oneway" v="no"/>
-    <tag k="ref" v="SP81"/>
-  </way>
-</old>
-<new>
-  <way id="1120550082" version="4" timestamp="2025-12-22T23:35:44Z" changeset="176286182" uid="17965418" user="DabMK">
-    <bounds minlat="42.8823660" minlon="11.6232255" maxlat="42.8826680" maxlon="11.6245540"/>
-    <nd ref="392669726" lat="42.8823660" lon="11.6245540"/>
-    <nd ref="13028252565" lat="42.8823982" lon="11.6245239"/>
-    <nd ref="13028252564" lat="42.8824303" lon="11.6244723"/>
-    <nd ref="13028252563" lat="42.8824534" lon="11.6244066"/>
-    <nd ref="392669727" lat="42.8824720" lon="11.6243290"/>
-    <nd ref="392669728" lat="42.8826014" lon="11.6234287"/>
-    <nd ref="10248754120" lat="42.8826258" lon="11.6233444"/>
-    <nd ref="821076752" lat="42.8826680" lon="11.6232255"/>
-    <tag k="highway" v="tertiary"/>
-    <tag k="lanes" v="2"/>
-    <tag k="loc_ref" v="SP81"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Strada Provinciale Vetta dell'Amiata"/>
-    <tag k="oneway" v="no"/>
-    <tag k="ref" v="SP81"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="1124161810" version="3" timestamp="2024-10-03T20:57:55Z" changeset="157436726" uid="17965418" user="DabMK">
-    <bounds minlat="42.9035639" minlon="11.6339539" maxlat="42.9036920" maxlon="11.6342006"/>
-    <nd ref="621202976" lat="42.9036920" lon="11.6339539"/>
-    <nd ref="5204957918" lat="42.9035639" lon="11.6342006"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="ref" v="SP81"/>
-    <tag k="oneway" v="no"/>
-    <tag k="name" v="Strada Provinciale Vetta dell'Amiata"/>
-    <tag k="loc_ref" v="SP81"/>
+  <way id="1411400973" version="2" timestamp="2025-11-06T08:23:46Z" changeset="174275116" uid="1801173" user="Pucciotrex30">
+    <bounds minlat="43.7279901" minlon="11.3032272" maxlat="43.7281097" maxlon="11.3035657"/>
+    <nd ref="10980911059" lat="43.7280423" lon="11.3035657"/>
+    <nd ref="12966201623" lat="43.7280669" lon="11.3035424"/>
+    <nd ref="12966201624" lat="43.7280904" lon="11.3035031"/>
+    <nd ref="12966201625" lat="43.7281050" lon="11.3034563"/>
+    <nd ref="12966201626" lat="43.7281097" lon="11.3034057"/>
+    <nd ref="12966201627" lat="43.7281040" lon="11.3033553"/>
+    <nd ref="10980911045" lat="43.7280967" lon="11.3033336"/>
+    <nd ref="12966201628" lat="43.7280884" lon="11.3033091"/>
+    <nd ref="12966201629" lat="43.7280642" lon="11.3032707"/>
+    <nd ref="10980911052" lat="43.7280474" lon="11.3032558"/>
+    <nd ref="12966201614" lat="43.7280332" lon="11.3032431"/>
+    <nd ref="12966201613" lat="43.7279901" lon="11.3032272"/>
+    <tag k="junction" v="roundabout"/>
     <tag k="highway" v="secondary"/>
-    <tag k="lanes" v="2"/>
+    <tag k="construction" v="primary"/>
   </way>
 </old>
 <new>
-  <way id="1124161810" version="4" timestamp="2025-12-22T23:35:44Z" changeset="176286182" uid="17965418" user="DabMK">
-    <bounds minlat="42.9035639" minlon="11.6339539" maxlat="42.9036920" maxlon="11.6342006"/>
-    <nd ref="621202976" lat="42.9036920" lon="11.6339539"/>
-    <nd ref="5204957918" lat="42.9035639" lon="11.6342006"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="lane_markings" v="yes"/>
-    <tag k="lanes" v="2"/>
-    <tag k="lanes:backward" v="1"/>
-    <tag k="lanes:forward" v="1"/>
-    <tag k="loc_ref" v="SP81"/>
-    <tag k="long_ref" v="SP81/a"/>
-    <tag k="maxspeed" v="50"/>
-    <tag k="name" v="Strada Provinciale Vetta dell'Amiata"/>
-    <tag k="oneway" v="no"/>
-    <tag k="ref" v="SP81"/>
-    <tag k="surface" v="asphalt"/>
-  </way>
-</new>
-</action>
-<action type="modify">
-<old>
-  <way id="1235650866" version="5" timestamp="2025-08-28T13:02:48Z" changeset="171134331" uid="14257573" user="toponomastica_comune_arenzano">
-    <bounds minlat="42.8907007" minlon="11.6265975" maxlat="42.8908811" maxlon="11.6267104"/>
-    <nd ref="7685944357" lat="42.8908811" lon="11.6266364"/>
-    <nd ref="7685966374" lat="42.8908544" lon="11.6266112"/>
-    <nd ref="7685966373" lat="42.8908235" lon="11.6265978"/>
-    <nd ref="7685966372" lat="42.8907911" lon="11.6265975"/>
-    <nd ref="7685944356" lat="42.8907601" lon="11.6266102"/>
-    <nd ref="7685944355" lat="42.8907331" lon="11.6266349"/>
-    <nd ref="7685944354" lat="42.8907127" lon="11.6266693"/>
-    <nd ref="7685944350" lat="42.8907007" lon="11.6267104"/>
-    <tag k="surface" v="asphalt"/>
-    <tag k="ref" v="SP81"/>
+  <way id="1411400973" version="3" timestamp="2025-12-23T08:22:17Z" changeset="176296008" uid="178610" user="Pab09">
+    <bounds minlat="43.7279901" minlon="11.3032272" maxlat="43.7281097" maxlon="11.3035657"/>
+    <nd ref="10980911059" lat="43.7280423" lon="11.3035657"/>
+    <nd ref="12966201623" lat="43.7280669" lon="11.3035424"/>
+    <nd ref="12966201624" lat="43.7280904" lon="11.3035031"/>
+    <nd ref="12966201625" lat="43.7281050" lon="11.3034563"/>
+    <nd ref="12966201626" lat="43.7281097" lon="11.3034057"/>
+    <nd ref="12966201627" lat="43.7281040" lon="11.3033553"/>
+    <nd ref="10980911045" lat="43.7280967" lon="11.3033336"/>
+    <nd ref="12966201628" lat="43.7280884" lon="11.3033091"/>
+    <nd ref="12966201629" lat="43.7280642" lon="11.3032707"/>
+    <nd ref="10980911052" lat="43.7280474" lon="11.3032558"/>
+    <nd ref="12966201614" lat="43.7280332" lon="11.3032431"/>
+    <nd ref="12966201613" lat="43.7279901" lon="11.3032272"/>
+    <tag k="construction" v="primary"/>
     <tag k="highway" v="secondary"/>
     <tag k="junction" v="roundabout"/>
-    <tag k="lanes" v="1"/>
-    <tag k="loc_ref" v="SP81"/>
-    <tag k="long_ref" v="SP81/a"/>
-    <tag k="name" v="Strada Provinciale Vetta dell'Amiata"/>
-  </way>
-</old>
-<new>
-  <way id="1235650866" version="6" timestamp="2025-12-22T23:35:44Z" changeset="176286182" uid="17965418" user="DabMK">
-    <bounds minlat="42.8907007" minlon="11.6265975" maxlat="42.8908811" maxlon="11.6267104"/>
-    <nd ref="7685944357" lat="42.8908811" lon="11.6266364"/>
-    <nd ref="7685966374" lat="42.8908544" lon="11.6266112"/>
-    <nd ref="7685966373" lat="42.8908235" lon="11.6265978"/>
-    <nd ref="7685966372" lat="42.8907911" lon="11.6265975"/>
-    <nd ref="7685944356" lat="42.8907601" lon="11.6266102"/>
-    <nd ref="7685944355" lat="42.8907331" lon="11.6266349"/>
-    <nd ref="7685944354" lat="42.8907127" lon="11.6266693"/>
-    <nd ref="7685944350" lat="42.8907007" lon="11.6267104"/>
-    <tag k="highway" v="secondary"/>
-    <tag k="junction" v="roundabout"/>
-    <tag k="lanes" v="1"/>
-    <tag k="loc_ref" v="SP81"/>
-    <tag k="long_ref" v="SP81/a"/>
-    <tag k="maxspeed" v="30"/>
-    <tag k="name" v="Strada Provinciale Vetta dell'Amiata"/>
-    <tag k="oneway" v="yes"/>
-    <tag k="ref" v="SP81"/>
+    <tag k="ref" v="SR222 var"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
