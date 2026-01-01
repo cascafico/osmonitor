@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.8 e802775f">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2026-01-01T01:15:42Z" areas="2025-12-31T19:31:17Z"/>
+
+<action type="delete">
+<old>
+  <node id="444003336" lat="46.5304954" lon="12.0130966" version="8" timestamp="2024-09-09T16:15:52Z" changeset="156402655" uid="3127" user="zstadler">
+    <tag k="ele" v="2572"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Forcella Lagazuoi"/>
+    <tag k="natural" v="saddle"/>
+    <tag k="tourism" v="information"/>
+  </node>
+</old>
+<new>
+  <node id="444003336" visible="true" version="9" timestamp="2025-12-31T07:40:28Z" changeset="176660430" uid="3215770" user="Andrea Del Sarto"/>
+</new>
+</action>
+<action type="create">
+  <node id="13420489877" lat="46.5304954" lon="12.0130966" version="1" timestamp="2025-12-31T07:40:28Z" changeset="176660430" uid="3215770" user="Andrea Del Sarto"/>
+</action>
+<action type="modify">
+<old>
+  <way id="32212844" version="9" timestamp="2021-06-15T10:48:27Z" changeset="106394469" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="46.5304309" minlon="12.0130966" maxlat="46.5304954" maxlon="12.0133253"/>
+    <nd ref="444003336" lat="46.5304954" lon="12.0130966"/>
+    <nd ref="452456119" lat="46.5304309" lon="12.0133253"/>
+    <tag k="highway" v="path"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+  </way>
+</old>
+<new>
+  <way id="32212844" version="10" timestamp="2025-12-31T07:40:28Z" changeset="176660430" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="46.5304309" minlon="12.0130966" maxlat="46.5304954" maxlon="12.0133253"/>
+    <nd ref="13420489877" lat="46.5304954" lon="12.0130966"/>
+    <nd ref="452456119" lat="46.5304309" lon="12.0133253"/>
+    <tag k="highway" v="path"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="88744892" version="19" timestamp="2024-09-09T16:15:52Z" changeset="156402655" uid="3127" user="zstadler">
+    <bounds minlat="46.5303802" minlon="12.0128812" maxlat="46.5304954" maxlon="12.0130966"/>
+    <nd ref="444003336" lat="46.5304954" lon="12.0130966"/>
+    <nd ref="9809719536" lat="46.5304854" lon="12.0130689"/>
+    <nd ref="9472326726" lat="46.5303802" lon="12.0128812"/>
+    <tag k="highway" v="track"/>
+    <tag k="surface" v="gravel"/>
+    <tag k="trail_visibility" v="excellent"/>
+  </way>
+</old>
+<new>
+  <way id="88744892" version="20" timestamp="2025-12-31T07:40:28Z" changeset="176660430" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="46.5303802" minlon="12.0128812" maxlat="46.5304954" maxlon="12.0130966"/>
+    <nd ref="13420489877" lat="46.5304954" lon="12.0130966"/>
+    <nd ref="9809719536" lat="46.5304854" lon="12.0130689"/>
+    <nd ref="9472326726" lat="46.5303802" lon="12.0128812"/>
+    <tag k="highway" v="track"/>
+    <tag k="surface" v="gravel"/>
+    <tag k="trail_visibility" v="excellent"/>
+  </way>
+</new>
+</action>
+
+</osm>
