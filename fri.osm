@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.10 2d4cfc48">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2026-02-07T01:20:12Z" areas="2026-01-22T23:45:51Z"/>
+
+<action type="modify">
+<old>
+  <way id="185813455" version="5" timestamp="2023-08-21T22:09:15Z" changeset="140202268" uid="12294600" user="alessandrocarmeli">
+    <bounds minlat="46.4950904" minlon="12.9999473" maxlat="46.4984241" maxlon="13.0016678"/>
+    <nd ref="298990841" lat="46.4950904" lon="12.9999473"/>
+    <nd ref="8929087171" lat="46.4961047" lon="13.0004671"/>
+    <nd ref="1965006020" lat="46.4984241" lon="13.0016678"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lanes:backward" v="1"/>
+    <tag k="lanes:forward" v="1"/>
+    <tag k="maxspeed" v="90"/>
+    <tag k="maxspeed:backward" v="50"/>
+    <tag k="maxspeed:forward" v="90"/>
+    <tag k="ref" v="SS52bis"/>
+  </way>
+</old>
+<new>
+  <way id="185813455" version="6" timestamp="2026-02-06T16:35:46Z" changeset="178196210" uid="22796457" user="lorisv75">
+    <bounds minlat="46.4950904" minlon="12.9999473" maxlat="46.4984241" maxlon="13.0016678"/>
+    <nd ref="298990841" lat="46.4950904" lon="12.9999473"/>
+    <nd ref="8929087171" lat="46.4961047" lon="13.0004671"/>
+    <nd ref="1965006020" lat="46.4984241" lon="13.0016678"/>
+    <tag k="highway" v="construction"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lanes:backward" v="1"/>
+    <tag k="lanes:forward" v="1"/>
+    <tag k="maxspeed" v="90"/>
+    <tag k="maxspeed:backward" v="50"/>
+    <tag k="maxspeed:forward" v="90"/>
+    <tag k="opening_date" v="2026-04-30"/>
+    <tag k="ref" v="SS52bis"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="904734886" version="3" timestamp="2022-12-22T10:01:43Z" changeset="130366982" uid="2360444" user="rikmede">
+    <bounds minlat="46.4942677" minlon="12.9992102" maxlat="46.4950904" maxlon="12.9999473"/>
+    <nd ref="1965005946" lat="46.4942677" lon="12.9992102"/>
+    <nd ref="1139512643" lat="46.4943653" lon="12.9993513"/>
+    <nd ref="298990843" lat="46.4945119" lon="12.9995575"/>
+    <nd ref="1139513262" lat="46.4946501" lon="12.9996742"/>
+    <nd ref="298990842" lat="46.4948110" lon="12.9997941"/>
+    <nd ref="1139513431" lat="46.4949665" lon="12.9998849"/>
+    <nd ref="298990841" lat="46.4950904" lon="12.9999473"/>
+    <tag k="highway" v="primary"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lanes:backward" v="1"/>
+    <tag k="lanes:forward" v="1"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="ref" v="SS52bis"/>
+  </way>
+</old>
+<new>
+  <way id="904734886" version="4" timestamp="2026-02-06T16:35:46Z" changeset="178196210" uid="22796457" user="lorisv75">
+    <bounds minlat="46.4942677" minlon="12.9992102" maxlat="46.4950904" maxlon="12.9999473"/>
+    <nd ref="1965005946" lat="46.4942677" lon="12.9992102"/>
+    <nd ref="1139512643" lat="46.4943653" lon="12.9993513"/>
+    <nd ref="298990843" lat="46.4945119" lon="12.9995575"/>
+    <nd ref="1139513262" lat="46.4946501" lon="12.9996742"/>
+    <nd ref="298990842" lat="46.4948110" lon="12.9997941"/>
+    <nd ref="1139513431" lat="46.4949665" lon="12.9998849"/>
+    <nd ref="298990841" lat="46.4950904" lon="12.9999473"/>
+    <tag k="highway" v="construction"/>
+    <tag k="lanes" v="2"/>
+    <tag k="lanes:backward" v="1"/>
+    <tag k="lanes:forward" v="1"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="opening_date" v="2026-04-30"/>
+    <tag k="ref" v="SS52bis"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
