@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.10 2d4cfc48">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2026-02-23T01:26:49Z" areas="2026-01-23T01:22:35Z"/>
+
+<action type="modify">
+<old>
+  <way id="167176803" version="7" timestamp="2023-08-19T09:13:47Z" changeset="140086508" uid="4347030" user="vbertola">
+    <bounds minlat="44.4211401" minlon="9.6233824" maxlat="44.4214458" maxlon="9.6234545"/>
+    <nd ref="795393541" lat="44.4211401" lon="9.6234545"/>
+    <nd ref="11127159275" lat="44.4211859" lon="9.6234437"/>
+    <nd ref="11127159279" lat="44.4212755" lon="9.6234227"/>
+    <nd ref="248465008" lat="44.4213224" lon="9.6234117"/>
+    <nd ref="5289306120" lat="44.4214458" lon="9.6233824"/>
+    <tag k="name" v="Strada Provinciale del Colle di Centocroci"/>
+    <tag k="old_ref" v="SS523"/>
+    <tag k="ref" v="SP523R"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="oneway" v="no"/>
+    <tag k="smoothness" v="intermediate"/>
+    <tag k="smoothness:date" v="2019-06-15"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</old>
+<new>
+  <way id="167176803" version="8" timestamp="2026-02-22T17:22:07Z" changeset="178908333" uid="22282689" user="ItaliA1delSole">
+    <bounds minlat="44.4211401" minlon="9.6233824" maxlat="44.4214458" maxlon="9.6234545"/>
+    <nd ref="795393541" lat="44.4211401" lon="9.6234545"/>
+    <nd ref="11127159275" lat="44.4211859" lon="9.6234437"/>
+    <nd ref="11127159279" lat="44.4212755" lon="9.6234227"/>
+    <nd ref="248465008" lat="44.4213224" lon="9.6234117"/>
+    <nd ref="5289306120" lat="44.4214458" lon="9.6233824"/>
+    <tag k="highway" v="primary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Strada statale 523 del Colle di Cento Croci"/>
+    <tag k="old_ref" v="SP523R"/>
+    <tag k="oneway" v="no"/>
+    <tag k="ref" v="SS523"/>
+    <tag k="smoothness" v="intermediate"/>
+    <tag k="smoothness:date" v="2019-06-15"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
