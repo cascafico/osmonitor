@@ -1,51 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.11 87bfad18">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2026-03-27T01:48:35Z" areas="2026-03-26T19:03:30Z"/>
+<meta osm_base="2026-03-28T01:27:52Z" areas="2026-03-27T17:50:34Z"/>
 
 <action type="modify">
 <old>
-  <way id="234776667" version="6" timestamp="2025-08-03T06:37:22Z" changeset="169889469" uid="207544" user="cacaito76it">
-    <bounds minlat="44.6822845" minlon="10.5985746" maxlat="44.6836117" maxlon="10.6001730"/>
-    <nd ref="2429118089" lat="44.6836117" lon="10.6001730"/>
-    <nd ref="2429118090" lat="44.6835881" lon="10.6000972"/>
-    <nd ref="2429118091" lat="44.6828680" lon="10.5992798"/>
-    <nd ref="2429118092" lat="44.6828269" lon="10.5991642"/>
-    <nd ref="2429118093" lat="44.6828297" lon="10.5989230"/>
-    <nd ref="1496405096" lat="44.6827770" lon="10.5988215"/>
-    <nd ref="2429118094" lat="44.6827160" lon="10.5987783"/>
-    <nd ref="2429118095" lat="44.6825292" lon="10.5988253"/>
-    <nd ref="2429118096" lat="44.6823126" lon="10.5986678"/>
-    <nd ref="13045072620" lat="44.6823027" lon="10.5986273"/>
-    <nd ref="2429118097" lat="44.6823109" lon="10.5985980"/>
-    <nd ref="2429118098" lat="44.6822845" lon="10.5985746"/>
-    <tag k="motor_vehicle" v="no"/>
-    <tag k="lit" v="yes"/>
+  <way id="382000540" version="3" timestamp="2021-02-01T16:15:00Z" changeset="98522723" uid="5721717" user="Stefano Manfredini">
+    <bounds minlat="44.6655894" minlon="10.6433501" maxlat="44.6656562" maxlon="10.6438634"/>
+    <nd ref="2140837385" lat="44.6656485" lon="10.6433501"/>
+    <nd ref="3852037359" lat="44.6656562" lon="10.6434405"/>
+    <nd ref="3852037360" lat="44.6656454" lon="10.6435576"/>
+    <nd ref="8384497342" lat="44.6655961" lon="10.6436715"/>
+    <nd ref="3852037361" lat="44.6655894" lon="10.6437499"/>
+    <nd ref="3852037357" lat="44.6656312" lon="10.6438634"/>
+    <tag k="highway" v="cycleway"/>
     <tag k="bicycle" v="designated"/>
     <tag k="foot" v="designated"/>
-    <tag k="highway" v="cycleway"/>
   </way>
 </old>
 <new>
-  <way id="234776667" version="8" timestamp="2026-03-26T15:31:52Z" changeset="180459896" uid="207544" user="cacaito76it">
-    <bounds minlat="44.6822845" minlon="10.5985746" maxlat="44.6836117" maxlon="10.6001730"/>
-    <nd ref="2429118089" lat="44.6836117" lon="10.6001730"/>
-    <nd ref="2429118090" lat="44.6835881" lon="10.6000972"/>
-    <nd ref="2429118091" lat="44.6828680" lon="10.5992798"/>
-    <nd ref="2429118092" lat="44.6828269" lon="10.5991642"/>
-    <nd ref="2429118093" lat="44.6828297" lon="10.5989230"/>
-    <nd ref="1496405096" lat="44.6827770" lon="10.5988215"/>
-    <nd ref="2429118094" lat="44.6827160" lon="10.5987783"/>
-    <nd ref="2429118095" lat="44.6825292" lon="10.5988253"/>
-    <nd ref="2429118096" lat="44.6823126" lon="10.5986678"/>
-    <nd ref="13045072620" lat="44.6823027" lon="10.5986273"/>
-    <nd ref="2429118097" lat="44.6823109" lon="10.5985980"/>
-    <nd ref="2429118098" lat="44.6822845" lon="10.5985746"/>
+  <way id="382000540" version="4" timestamp="2026-03-27T10:17:24Z" changeset="180494552" uid="207544" user="cacaito76it">
+    <bounds minlat="44.6655894" minlon="10.6433501" maxlat="44.6656562" maxlon="10.6438634"/>
+    <nd ref="2140837385" lat="44.6656485" lon="10.6433501"/>
+    <nd ref="3852037359" lat="44.6656562" lon="10.6434405"/>
+    <nd ref="3852037360" lat="44.6656454" lon="10.6435576"/>
+    <nd ref="8384497342" lat="44.6655961" lon="10.6436715"/>
+    <nd ref="3852037361" lat="44.6655894" lon="10.6437499"/>
+    <nd ref="3852037357" lat="44.6656312" lon="10.6438634"/>
     <tag k="bicycle" v="designated"/>
     <tag k="foot" v="designated"/>
     <tag k="highway" v="cycleway"/>
-    <tag k="lit" v="yes"/>
-    <tag k="motor_vehicle" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="898489492" version="1" timestamp="2021-01-22T14:25:31Z" changeset="97980587" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="44.6825457" minlon="10.6638053" maxlat="44.6826685" maxlon="10.6648392"/>
+    <nd ref="2991069372" lat="44.6826685" lon="10.6648392"/>
+    <nd ref="2991069373" lat="44.6826336" lon="10.6647199"/>
+    <nd ref="2991069374" lat="44.6825721" lon="10.6644235"/>
+    <nd ref="2991069375" lat="44.6825516" lon="10.6642782"/>
+    <nd ref="2991069376" lat="44.6825457" lon="10.6641786"/>
+    <nd ref="2991069377" lat="44.6825482" lon="10.6640898"/>
+    <nd ref="4586862006" lat="44.6825521" lon="10.6640573"/>
+    <nd ref="2991069378" lat="44.6825576" lon="10.6640105"/>
+    <nd ref="2991069379" lat="44.6825755" lon="10.6639589"/>
+    <nd ref="2991069380" lat="44.6826148" lon="10.6638737"/>
+    <nd ref="2991069381" lat="44.6826285" lon="10.6638593"/>
+    <nd ref="2991069382" lat="44.6826195" lon="10.6638053"/>
+    <tag k="highway" v="cycleway"/>
+    <tag k="foot" v="designated"/>
+    <tag k="bicycle" v="designated"/>
+  </way>
+</old>
+<new>
+  <way id="898489492" version="3" timestamp="2026-03-27T10:17:22Z" changeset="180494548" uid="207544" user="cacaito76it">
+    <bounds minlat="44.6825457" minlon="10.6638053" maxlat="44.6826685" maxlon="10.6648392"/>
+    <nd ref="2991069372" lat="44.6826685" lon="10.6648392"/>
+    <nd ref="2991069373" lat="44.6826336" lon="10.6647199"/>
+    <nd ref="2991069374" lat="44.6825721" lon="10.6644235"/>
+    <nd ref="2991069375" lat="44.6825516" lon="10.6642782"/>
+    <nd ref="2991069376" lat="44.6825457" lon="10.6641786"/>
+    <nd ref="2991069377" lat="44.6825482" lon="10.6640898"/>
+    <nd ref="4586862006" lat="44.6825521" lon="10.6640573"/>
+    <nd ref="2991069378" lat="44.6825576" lon="10.6640105"/>
+    <nd ref="2991069379" lat="44.6825755" lon="10.6639589"/>
+    <nd ref="2991069380" lat="44.6826148" lon="10.6638737"/>
+    <nd ref="2991069381" lat="44.6826285" lon="10.6638593"/>
+    <nd ref="2991069382" lat="44.6826195" lon="10.6638053"/>
+    <tag k="bicycle" v="designated"/>
+    <tag k="foot" v="designated"/>
+    <tag k="highway" v="cycleway"/>
     <tag k="segregated" v="no"/>
     <tag k="surface" v="asphalt"/>
   </way>
