@@ -1,164 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.11 87bfad18">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2026-04-05T01:50:28Z" areas="2026-04-04T16:55:25Z"/>
+<meta osm_base="2026-04-06T01:52:52Z" areas="2026-04-05T17:36:44Z"/>
 
 <action type="modify">
 <old>
-  <relation id="3814649" version="19" timestamp="2025-09-09T08:56:56Z" changeset="171673715" uid="3215770" user="Andrea Del Sarto">
-    <bounds minlat="45.6884387" minlon="11.1188034" maxlat="45.6958195" maxlon="11.1219308"/>
-    <member type="node" ref="6549139027" role="guidepost" lat="45.6950846" lon="11.1188907"/>
-    <member type="node" ref="6504634369" role="" lat="45.6884495" lon="11.1217388"/>
-    <member type="way" ref="547459312" role="">
-      <nd lat="45.6889494" lon="11.1213203"/>
-      <nd lat="45.6888966" lon="11.1213898"/>
-      <nd lat="45.6887646" lon="11.1214837"/>
-      <nd lat="45.6886529" lon="11.1216561"/>
-      <nd lat="45.6885941" lon="11.1217424"/>
-      <nd lat="45.6885156" lon="11.1217861"/>
-      <nd lat="45.6884614" lon="11.1217840"/>
-      <nd lat="45.6884387" lon="11.1217297"/>
-    </member>
-    <member type="way" ref="694230412" role="">
-      <nd lat="45.6890040" lon="11.1213530"/>
-      <nd lat="45.6889494" lon="11.1213203"/>
-    </member>
-    <member type="way" ref="696240732" role="">
-      <nd lat="45.6890040" lon="11.1213530"/>
-      <nd lat="45.6891055" lon="11.1212279"/>
-    </member>
-    <member type="way" ref="694230414" role="">
-      <nd lat="45.6891055" lon="11.1212279"/>
-      <nd lat="45.6890962" lon="11.1213779"/>
-      <nd lat="45.6890869" lon="11.1214550"/>
-      <nd lat="45.6890437" lon="11.1216508"/>
-      <nd lat="45.6890737" lon="11.1217098"/>
-      <nd lat="45.6891571" lon="11.1217460"/>
-      <nd lat="45.6892065" lon="11.1216846"/>
-      <nd lat="45.6892359" lon="11.1216481"/>
-      <nd lat="45.6893154" lon="11.1216052"/>
-      <nd lat="45.6894503" lon="11.1215081"/>
-      <nd lat="45.6895927" lon="11.1214174"/>
-      <nd lat="45.6897009" lon="11.1212794"/>
-      <nd lat="45.6897794" lon="11.1211693"/>
-      <nd lat="45.6898501" lon="11.1209409"/>
-      <nd lat="45.6900202" lon="11.1207511"/>
-      <nd lat="45.6900916" lon="11.1207611"/>
-    </member>
-    <member type="way" ref="696240731" role="">
-      <nd lat="45.6900916" lon="11.1207611"/>
-      <nd lat="45.6901422" lon="11.1207641"/>
-      <nd lat="45.6900965" lon="11.1209721"/>
-      <nd lat="45.6900973" lon="11.1212143"/>
-      <nd lat="45.6902436" lon="11.1212881"/>
-      <nd lat="45.6903205" lon="11.1212882"/>
-      <nd lat="45.6905021" lon="11.1214204"/>
-    </member>
-    <member type="way" ref="547459307" role="">
-      <nd lat="45.6907004" lon="11.1218989"/>
-      <nd lat="45.6907089" lon="11.1218780"/>
-      <nd lat="45.6907037" lon="11.1217957"/>
-      <nd lat="45.6906587" lon="11.1217820"/>
-      <nd lat="45.6905860" lon="11.1217362"/>
-      <nd lat="45.6905417" lon="11.1215934"/>
-      <nd lat="45.6905021" lon="11.1214204"/>
-    </member>
-    <member type="way" ref="531382165" role="">
-      <nd lat="45.6912187" lon="11.1217476"/>
-      <nd lat="45.6911762" lon="11.1217602"/>
-      <nd lat="45.6910196" lon="11.1218283"/>
-      <nd lat="45.6908969" lon="11.1219260"/>
-      <nd lat="45.6907710" lon="11.1219308"/>
-      <nd lat="45.6907004" lon="11.1218989"/>
-    </member>
-    <member type="way" ref="531183120" role="">
-      <nd lat="45.6929394" lon="11.1211207"/>
-      <nd lat="45.6928965" lon="11.1211704"/>
-      <nd lat="45.6928012" lon="11.1211996"/>
-      <nd lat="45.6927015" lon="11.1212387"/>
-      <nd lat="45.6926717" lon="11.1213262"/>
-      <nd lat="45.6925985" lon="11.1213994"/>
-      <nd lat="45.6925090" lon="11.1215135"/>
-      <nd lat="45.6923944" lon="11.1216086"/>
-      <nd lat="45.6922759" lon="11.1217089"/>
-      <nd lat="45.6921730" lon="11.1217505"/>
-      <nd lat="45.6920000" lon="11.1217600"/>
-      <nd lat="45.6919216" lon="11.1217739"/>
-      <nd lat="45.6918578" lon="11.1217699"/>
-      <nd lat="45.6916804" lon="11.1218042"/>
-      <nd lat="45.6914488" lon="11.1217261"/>
-      <nd lat="45.6913227" lon="11.1217699"/>
-      <nd lat="45.6912187" lon="11.1217476"/>
-    </member>
-    <member type="way" ref="363509733" role="">
-      <nd lat="45.6950284" lon="11.1188457"/>
-      <nd lat="45.6950022" lon="11.1189667"/>
-      <nd lat="45.6949400" lon="11.1190580"/>
-      <nd lat="45.6949016" lon="11.1192116"/>
-      <nd lat="45.6948971" lon="11.1193282"/>
-      <nd lat="45.6948372" lon="11.1194112"/>
-      <nd lat="45.6947777" lon="11.1194970"/>
-      <nd lat="45.6946099" lon="11.1196627"/>
-      <nd lat="45.6945513" lon="11.1196830"/>
-      <nd lat="45.6944054" lon="11.1198590"/>
-      <nd lat="45.6943213" lon="11.1199156"/>
-      <nd lat="45.6942186" lon="11.1199381"/>
-      <nd lat="45.6940976" lon="11.1199515"/>
-      <nd lat="45.6940080" lon="11.1199858"/>
-      <nd lat="45.6939677" lon="11.1200297"/>
-      <nd lat="45.6938821" lon="11.1201230"/>
-      <nd lat="45.6936296" lon="11.1202478"/>
-      <nd lat="45.6935995" lon="11.1203977"/>
-      <nd lat="45.6934951" lon="11.1204938"/>
-      <nd lat="45.6933489" lon="11.1206006"/>
-      <nd lat="45.6931917" lon="11.1207917"/>
-      <nd lat="45.6931088" lon="11.1209084"/>
-      <nd lat="45.6930106" lon="11.1210485"/>
-      <nd lat="45.6929394" lon="11.1211207"/>
-    </member>
-    <member type="way" ref="547459309" role="">
-      <nd lat="45.6958195" lon="11.1189560"/>
-      <nd lat="45.6957663" lon="11.1190292"/>
-      <nd lat="45.6956946" lon="11.1190438"/>
-      <nd lat="45.6954779" lon="11.1190374"/>
-      <nd lat="45.6953525" lon="11.1190054"/>
-      <nd lat="45.6952577" lon="11.1189001"/>
-      <nd lat="45.6951641" lon="11.1188184"/>
-      <nd lat="45.6951112" lon="11.1188034"/>
-      <nd lat="45.6950765" lon="11.1188178"/>
-      <nd lat="45.6950284" lon="11.1188457"/>
-    </member>
-    <member type="node" ref="12200274558" role="" lat="45.6889678" lon="11.1214682"/>
-    <tag k="ascent" v="178"/>
-    <tag k="distance" v="1.5"/>
-    <tag k="duration:backward" v="00:25"/>
-    <tag k="duration:forward" v="00:30"/>
-    <tag k="name" v="Rifugio Boschetto - Rifugio Revolto"/>
-    <tag k="symbol" v="186 on white red flags"/>
-    <tag k="to" v="Rifugio Revolto"/>
-    <tag k="type" v="route"/>
-    <tag k="cai_scale" v="E"/>
-    <tag k="descent" v="2"/>
-    <tag k="from" v="Rifugio Boschetto"/>
-    <tag k="maintenance" v="Maintenance performed by Club Alpino Italiano Sezione di Tregnago"/>
-    <tag k="maintenance:it" v="Manutenzione eseguita da Club Alpino Italiano Sezione di Tregnago"/>
-    <tag k="network" v="lwn"/>
-    <tag k="note" v="Relation mantained by Club Alpino Italiano Sezione di Tregnago, before making changes contact the CAI structure"/>
-    <tag k="note:it" v="Relazione mantenuta da Club Alpino Italiano Sezione di Tregnago, prima di effettuare modifiche contattare la struttura del CAI"/>
-    <tag k="note:project_page" v="http://wiki.openstreetmap.org/wiki/Trentino/Sentieri"/>
-    <tag k="old_ref" v="286"/>
-    <tag k="operator" v="Club Alpino Italiano Sezione di Tregnago"/>
-    <tag k="osmc:symbol" v="red:red:white_stripe:186:black"/>
-    <tag k="ref" v="186"/>
-    <tag k="roundtrip" v="no"/>
-    <tag k="route" v="hiking"/>
-    <tag k="source" v="survey:CAI"/>
-    <tag k="survey:date" v="2019-06-08"/>
-    <tag k="symbol:it" v="186 su bandierina bianca e rossa"/>
-    <tag k="website" v="https://www.caitregnago.it/"/>
-  </relation>
-</old>
-<new>
   <relation id="3814649" version="20" timestamp="2026-04-04T08:49:01Z" changeset="180842820" uid="2976645" user="Jrachi">
     <bounds minlat="45.6884387" minlon="11.1188034" maxlat="45.6958195" maxlon="11.1219308"/>
     <member type="node" ref="6549139027" role="guidepost" lat="45.6950846" lon="11.1188907"/>
@@ -283,6 +129,7 @@
       <nd lat="45.6950284" lon="11.1188457"/>
     </member>
     <member type="node" ref="12200274558" role="" lat="45.6889678" lon="11.1214682"/>
+    <tag k="type" v="superroute"/>
     <tag k="ascent" v="375"/>
     <tag k="cai_scale" v="E"/>
     <tag k="descent" v="2"/>
@@ -308,7 +155,160 @@
     <tag k="symbol" v="186 on white red flag"/>
     <tag k="symbol:it" v="186 su bandierina bianca e rossa"/>
     <tag k="to" v="Rifugio Revolto - Rifugio Pertica"/>
-    <tag k="type" v="superroute"/>
+    <tag k="website" v="https://www.caitregnago.it/"/>
+  </relation>
+</old>
+<new>
+  <relation id="3814649" version="21" timestamp="2026-04-05T14:57:09Z" changeset="180902111" uid="2976645" user="Jrachi">
+    <bounds minlat="45.6884387" minlon="11.1188034" maxlat="45.6958195" maxlon="11.1219308"/>
+    <member type="way" ref="547459312" role="">
+      <nd lat="45.6889494" lon="11.1213203"/>
+      <nd lat="45.6888966" lon="11.1213898"/>
+      <nd lat="45.6887646" lon="11.1214837"/>
+      <nd lat="45.6886529" lon="11.1216561"/>
+      <nd lat="45.6885941" lon="11.1217424"/>
+      <nd lat="45.6885156" lon="11.1217861"/>
+      <nd lat="45.6884614" lon="11.1217840"/>
+      <nd lat="45.6884387" lon="11.1217297"/>
+    </member>
+    <member type="way" ref="694230412" role="">
+      <nd lat="45.6890040" lon="11.1213530"/>
+      <nd lat="45.6889494" lon="11.1213203"/>
+    </member>
+    <member type="way" ref="696240732" role="">
+      <nd lat="45.6890040" lon="11.1213530"/>
+      <nd lat="45.6891055" lon="11.1212279"/>
+    </member>
+    <member type="way" ref="694230414" role="">
+      <nd lat="45.6891055" lon="11.1212279"/>
+      <nd lat="45.6890962" lon="11.1213779"/>
+      <nd lat="45.6890869" lon="11.1214550"/>
+      <nd lat="45.6890437" lon="11.1216508"/>
+      <nd lat="45.6890737" lon="11.1217098"/>
+      <nd lat="45.6891571" lon="11.1217460"/>
+      <nd lat="45.6892065" lon="11.1216846"/>
+      <nd lat="45.6892359" lon="11.1216481"/>
+      <nd lat="45.6893154" lon="11.1216052"/>
+      <nd lat="45.6894503" lon="11.1215081"/>
+      <nd lat="45.6895927" lon="11.1214174"/>
+      <nd lat="45.6897009" lon="11.1212794"/>
+      <nd lat="45.6897794" lon="11.1211693"/>
+      <nd lat="45.6898501" lon="11.1209409"/>
+      <nd lat="45.6900202" lon="11.1207511"/>
+      <nd lat="45.6900916" lon="11.1207611"/>
+    </member>
+    <member type="way" ref="696240731" role="">
+      <nd lat="45.6900916" lon="11.1207611"/>
+      <nd lat="45.6901422" lon="11.1207641"/>
+      <nd lat="45.6900965" lon="11.1209721"/>
+      <nd lat="45.6900973" lon="11.1212143"/>
+      <nd lat="45.6902436" lon="11.1212881"/>
+      <nd lat="45.6903205" lon="11.1212882"/>
+      <nd lat="45.6905021" lon="11.1214204"/>
+    </member>
+    <member type="way" ref="547459307" role="">
+      <nd lat="45.6907004" lon="11.1218989"/>
+      <nd lat="45.6907089" lon="11.1218780"/>
+      <nd lat="45.6907037" lon="11.1217957"/>
+      <nd lat="45.6906587" lon="11.1217820"/>
+      <nd lat="45.6905860" lon="11.1217362"/>
+      <nd lat="45.6905417" lon="11.1215934"/>
+      <nd lat="45.6905021" lon="11.1214204"/>
+    </member>
+    <member type="way" ref="531382165" role="">
+      <nd lat="45.6912187" lon="11.1217476"/>
+      <nd lat="45.6911762" lon="11.1217602"/>
+      <nd lat="45.6910196" lon="11.1218283"/>
+      <nd lat="45.6908969" lon="11.1219260"/>
+      <nd lat="45.6907710" lon="11.1219308"/>
+      <nd lat="45.6907004" lon="11.1218989"/>
+    </member>
+    <member type="way" ref="531183120" role="">
+      <nd lat="45.6929394" lon="11.1211207"/>
+      <nd lat="45.6928965" lon="11.1211704"/>
+      <nd lat="45.6928012" lon="11.1211996"/>
+      <nd lat="45.6927015" lon="11.1212387"/>
+      <nd lat="45.6926717" lon="11.1213262"/>
+      <nd lat="45.6925985" lon="11.1213994"/>
+      <nd lat="45.6925090" lon="11.1215135"/>
+      <nd lat="45.6923944" lon="11.1216086"/>
+      <nd lat="45.6922759" lon="11.1217089"/>
+      <nd lat="45.6921730" lon="11.1217505"/>
+      <nd lat="45.6920000" lon="11.1217600"/>
+      <nd lat="45.6919216" lon="11.1217739"/>
+      <nd lat="45.6918578" lon="11.1217699"/>
+      <nd lat="45.6916804" lon="11.1218042"/>
+      <nd lat="45.6914488" lon="11.1217261"/>
+      <nd lat="45.6913227" lon="11.1217699"/>
+      <nd lat="45.6912187" lon="11.1217476"/>
+    </member>
+    <member type="way" ref="363509733" role="">
+      <nd lat="45.6950284" lon="11.1188457"/>
+      <nd lat="45.6950022" lon="11.1189667"/>
+      <nd lat="45.6949400" lon="11.1190580"/>
+      <nd lat="45.6949016" lon="11.1192116"/>
+      <nd lat="45.6948971" lon="11.1193282"/>
+      <nd lat="45.6948372" lon="11.1194112"/>
+      <nd lat="45.6947777" lon="11.1194970"/>
+      <nd lat="45.6946099" lon="11.1196627"/>
+      <nd lat="45.6945513" lon="11.1196830"/>
+      <nd lat="45.6944054" lon="11.1198590"/>
+      <nd lat="45.6943213" lon="11.1199156"/>
+      <nd lat="45.6942186" lon="11.1199381"/>
+      <nd lat="45.6940976" lon="11.1199515"/>
+      <nd lat="45.6940080" lon="11.1199858"/>
+      <nd lat="45.6939677" lon="11.1200297"/>
+      <nd lat="45.6938821" lon="11.1201230"/>
+      <nd lat="45.6936296" lon="11.1202478"/>
+      <nd lat="45.6935995" lon="11.1203977"/>
+      <nd lat="45.6934951" lon="11.1204938"/>
+      <nd lat="45.6933489" lon="11.1206006"/>
+      <nd lat="45.6931917" lon="11.1207917"/>
+      <nd lat="45.6931088" lon="11.1209084"/>
+      <nd lat="45.6930106" lon="11.1210485"/>
+      <nd lat="45.6929394" lon="11.1211207"/>
+    </member>
+    <member type="way" ref="547459309" role="">
+      <nd lat="45.6958195" lon="11.1189560"/>
+      <nd lat="45.6957663" lon="11.1190292"/>
+      <nd lat="45.6956946" lon="11.1190438"/>
+      <nd lat="45.6954779" lon="11.1190374"/>
+      <nd lat="45.6953525" lon="11.1190054"/>
+      <nd lat="45.6952577" lon="11.1189001"/>
+      <nd lat="45.6951641" lon="11.1188184"/>
+      <nd lat="45.6951112" lon="11.1188034"/>
+      <nd lat="45.6950765" lon="11.1188178"/>
+      <nd lat="45.6950284" lon="11.1188457"/>
+    </member>
+    <member type="node" ref="6549139027" role="guidepost" lat="45.6950846" lon="11.1188907"/>
+    <member type="node" ref="6504634369" role="guidepost" lat="45.6884495" lon="11.1217388"/>
+    <member type="node" ref="12200274558" role="guidepost" lat="45.6889678" lon="11.1214682"/>
+    <tag k="ascent" v="375"/>
+    <tag k="cai_scale" v="E"/>
+    <tag k="descent" v="2"/>
+    <tag k="distance" v="2780"/>
+    <tag k="duration:backward" v="00:45"/>
+    <tag k="duration:forward" v="01:00"/>
+    <tag k="from" v="Rifugio Boschetto"/>
+    <tag k="maintenance" v="Maintenance performed by Club Alpino Italiano Sezione di Tregnago"/>
+    <tag k="maintenance:it" v="Manutenzione eseguita da Club Alpino Italiano Sezione di Tregnago"/>
+    <tag k="name" v="Rifugio Boschetto - Rifugio Revolto - confine Regione"/>
+    <tag k="network" v="lwn"/>
+    <tag k="note" v="Relation mantained by Club Alpino Italiano Sezione di Tregnago, before making changes contact the CAI structure"/>
+    <tag k="note:it" v="Relazione mantenuta da Club Alpino Italiano Sezione di Tregnago, prima di effettuare modifiche contattare la struttura del CAI"/>
+    <tag k="note:project_page" v="http://wiki.openstreetmap.org/wiki/Trentino/Sentieri"/>
+    <tag k="old_ref" v="286"/>
+    <tag k="operator" v="Club Alpino Italiano Sezione di Tregnago"/>
+    <tag k="osmc:symbol" v="red:red:white_stripe:186:black"/>
+    <tag k="ref" v="186"/>
+    <tag k="roundtrip" v="no"/>
+    <tag k="route" v="hiking"/>
+    <tag k="source" v="survey:CAI"/>
+    <tag k="survey:date" v="2019-06-08"/>
+    <tag k="symbol" v="186 on white red flag"/>
+    <tag k="symbol:it" v="186 su bandierina bianca e rossa"/>
+    <tag k="to" v="Rifugio Revolto - Rifugio Pertica"/>
+    <tag k="type" v="route"/>
     <tag k="website" v="https://www.caitregnago.it/"/>
   </relation>
 </new>
