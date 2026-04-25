@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.11 87bfad18">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2026-04-25T01:49:57Z" areas="2026-04-24T19:21:39Z"/>
+
+<action type="modify">
+<old>
+  <way id="162833121" version="6" timestamp="2025-10-17T08:46:38Z" changeset="173399016" uid="322785" user="BCNorwich">
+    <bounds minlat="45.5185217" minlon="11.0219199" maxlat="45.5185494" maxlon="11.0221012"/>
+    <nd ref="310656378" lat="45.5185217" lon="11.0221012"/>
+    <nd ref="310656429" lat="45.5185494" lon="11.0219199"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="oneway" v="no"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lanes" v="2"/>
+    <tag k="maxheight" v="5"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Via Guglielmo Marconi"/>
+  </way>
+</old>
+<new>
+  <way id="162833121" version="7" timestamp="2026-04-24T11:52:49Z" changeset="181761287" uid="22002619" user="LucaVR90">
+    <bounds minlat="45.5185217" minlon="11.0219199" maxlat="45.5185494" maxlon="11.0221012"/>
+    <nd ref="310656378" lat="45.5185217" lon="11.0221012"/>
+    <nd ref="310656429" lat="45.5185494" lon="11.0219199"/>
+    <tag k="highway" v="residential"/>
+    <tag k="lanes" v="2"/>
+    <tag k="layer" v="-1"/>
+    <tag k="maxheight" v="5"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Via Guglielmo Marconi"/>
+    <tag k="oneway" v="no"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="tunnel" v="yes"/>
+  </way>
+</new>
+</action>
+
+</osm>
