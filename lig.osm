@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.11 87bfad18">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2026-07-06T02:36:00Z" areas="2026-07-05T12:17:00Z"/>
+
+<action type="modify">
+<old>
+  <node id="1686135858" lat="44.1129453" lon="9.9522500" version="3" timestamp="2025-01-26T08:48:48Z" changeset="161771944" uid="4126696" user="bbgg">
+    <tag k="highway" v="crossing"/>
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing:markings" v="yes"/>
+  </node>
+</old>
+<new>
+  <node id="1686135858" lat="44.1129453" lon="9.9522500" version="4" timestamp="2026-07-05T14:47:31Z" changeset="185144453" uid="24254816" user="Leo398">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing:markings" v="yes"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="tactile_paving" v="no"/>
+  </node>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="156358043" version="17" timestamp="2026-03-02T17:07:06Z" changeset="179265258" uid="22242779" user="notmyproblem1">
+    <bounds minlat="44.1124219" minlon="9.9508229" maxlat="44.1147258" maxlon="9.9569632"/>
+    <nd ref="1686129565" lat="44.1124219" lon="9.9508229"/>
+    <nd ref="1427137012" lat="44.1128724" lon="9.9520518"/>
+    <nd ref="1686135858" lat="44.1129453" lon="9.9522500"/>
+    <nd ref="1427137003" lat="44.1135495" lon="9.9539241"/>
+    <nd ref="1711861350" lat="44.1136993" lon="9.9543412"/>
+    <nd ref="1479185554" lat="44.1137149" lon="9.9543847"/>
+    <nd ref="1427137017" lat="44.1139655" lon="9.9550828"/>
+    <nd ref="1427137020" lat="44.1144076" lon="9.9562378"/>
+    <nd ref="13612531560" lat="44.1146694" lon="9.9568491"/>
+    <nd ref="1746987094" lat="44.1147002" lon="9.9569209"/>
+    <nd ref="295749875" lat="44.1147258" lon="9.9569632"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="name:etymology:wikidata" v="Q1067"/>
+    <tag k="name" v="Viale Dante Alighieri"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="30"/>
+  </way>
+</old>
+<new>
+  <way id="156358043" version="21" timestamp="2026-07-05T14:48:43Z" changeset="185144515" uid="24254816" user="Leo398">
+    <bounds minlat="44.1124219" minlon="9.9508229" maxlat="44.1147258" maxlon="9.9569632"/>
+    <nd ref="1686129565" lat="44.1124219" lon="9.9508229"/>
+    <nd ref="1427137012" lat="44.1128724" lon="9.9520518"/>
+    <nd ref="1686135858" lat="44.1129453" lon="9.9522500"/>
+    <nd ref="1427137003" lat="44.1135495" lon="9.9539241"/>
+    <nd ref="1711861350" lat="44.1136993" lon="9.9543412"/>
+    <nd ref="1479185554" lat="44.1137149" lon="9.9543847"/>
+    <nd ref="1427137017" lat="44.1139655" lon="9.9550828"/>
+    <nd ref="1427137020" lat="44.1144076" lon="9.9562378"/>
+    <nd ref="13612531560" lat="44.1146694" lon="9.9568491"/>
+    <nd ref="1746987094" lat="44.1147002" lon="9.9569209"/>
+    <nd ref="295749875" lat="44.1147258" lon="9.9569632"/>
+    <tag k="cycleway:right" v="no"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="lane_markings" v="yes"/>
+    <tag k="lanes" v="1"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="name" v="Viale Dante Alighieri"/>
+    <tag k="name:etymology:wikidata" v="Q1067"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk" v="right"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+
+</osm>
