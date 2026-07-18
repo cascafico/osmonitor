@@ -1,31 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.11 87bfad18">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2026-07-17T02:03:02Z" areas="2026-05-12T07:36:16Z"/>
+<meta osm_base="2026-07-18T01:52:30Z" areas="2026-07-17T04:35:09Z"/>
 
 <action type="modify">
 <old>
-  <way id="564136257" version="4" timestamp="2020-07-18T16:36:25Z" changeset="88181018" uid="350864" user="demon_box">
-    <bounds minlat="46.2586530" minlon="10.4893509" maxlat="46.2593494" maxlon="10.4893823"/>
-    <nd ref="5451117968" lat="46.2593494" lon="10.4893658"/>
-    <nd ref="5451117963" lat="46.2591081" lon="10.4893509"/>
-    <nd ref="1107631134" lat="46.2590601" lon="10.4893537"/>
-    <nd ref="5451117972" lat="46.2588649" lon="10.4893611"/>
-    <nd ref="1107631337" lat="46.2586530" lon="10.4893823"/>
+  <way id="236656059" version="2" timestamp="2025-05-14T17:32:26Z" changeset="166268653" uid="3199858" user="Mateusz Konieczny - bot account">
+    <bounds minlat="45.7972228" minlon="9.8338591" maxlat="45.7973978" maxlon="9.8341748"/>
+    <nd ref="332466203" lat="45.7972228" lon="9.8341748"/>
+    <nd ref="2446550697" lat="45.7973351" lon="9.8339867"/>
+    <nd ref="2446550711" lat="45.7973978" lon="9.8338591"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="oneway" v="no"/>
     <tag k="highway" v="residential"/>
+    <tag k="incline" v="up"/>
+    <tag k="lanes" v="1"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Via San Rocco"/>
+    <tag k="sidewalk" v="no"/>
   </way>
 </old>
 <new>
-  <way id="564136257" version="6" timestamp="2026-07-16T07:10:25Z" changeset="185827283" uid="7507474" user="pigio66">
-    <bounds minlat="46.2586530" minlon="10.4893509" maxlat="46.2593494" maxlon="10.4893823"/>
-    <nd ref="5451117968" lat="46.2593494" lon="10.4893658"/>
-    <nd ref="5451117963" lat="46.2591081" lon="10.4893509"/>
-    <nd ref="1107631134" lat="46.2590601" lon="10.4893537"/>
-    <nd ref="5451117972" lat="46.2588649" lon="10.4893611"/>
-    <nd ref="1107631337" lat="46.2586530" lon="10.4893823"/>
+  <way id="236656059" version="3" timestamp="2026-07-17T12:49:11Z" changeset="185903826" uid="9629381" user="Bruno3589">
+    <bounds minlat="45.7972228" minlon="9.8338591" maxlat="45.7973978" maxlon="9.8341748"/>
+    <nd ref="332466203" lat="45.7972228" lon="9.8341748"/>
+    <nd ref="2446550697" lat="45.7973351" lon="9.8339867"/>
+    <nd ref="2446550711" lat="45.7973978" lon="9.8338591"/>
     <tag k="highway" v="residential"/>
+    <tag k="incline" v="up"/>
+    <tag k="lanes" v="1"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxwidth:physical" v="2.5"/>
+    <tag k="name" v="Via San Rocco"/>
+    <tag k="oneway" v="alternating"/>
     <tag k="sidewalk" v="no"/>
-    <tag k="surface" v="compacted"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="236656060" version="2" timestamp="2025-05-14T17:32:26Z" changeset="166268653" uid="3199858" user="Mateusz Konieczny - bot account">
+    <bounds minlat="45.7972889" minlon="9.8323474" maxlat="45.7975539" maxlon="9.8338591"/>
+    <nd ref="2446550711" lat="45.7973978" lon="9.8338591"/>
+    <nd ref="2446550721" lat="45.7975460" lon="9.8335268"/>
+    <nd ref="2446550722" lat="45.7975539" lon="9.8333859"/>
+    <nd ref="2446550715" lat="45.7974753" lon="9.8331128"/>
+    <nd ref="2446550701" lat="45.7973497" lon="9.8327157"/>
+    <nd ref="2446550692" lat="45.7973096" lon="9.8324475"/>
+    <nd ref="2446550688" lat="45.7972889" lon="9.8323474"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="highway" v="residential"/>
+    <tag k="incline" v="up"/>
+    <tag k="lanes" v="1"/>
+    <tag k="lit" v="yes"/>
+    <tag k="name" v="Via San Rocco"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk" v="no"/>
+  </way>
+</old>
+<new>
+  <way id="236656060" version="3" timestamp="2026-07-17T12:49:11Z" changeset="185903826" uid="9629381" user="Bruno3589">
+    <bounds minlat="45.7972889" minlon="9.8323474" maxlat="45.7975539" maxlon="9.8338591"/>
+    <nd ref="2446550711" lat="45.7973978" lon="9.8338591"/>
+    <nd ref="2446550721" lat="45.7975460" lon="9.8335268"/>
+    <nd ref="2446550722" lat="45.7975539" lon="9.8333859"/>
+    <nd ref="2446550715" lat="45.7974753" lon="9.8331128"/>
+    <nd ref="2446550701" lat="45.7973497" lon="9.8327157"/>
+    <nd ref="2446550692" lat="45.7973096" lon="9.8324475"/>
+    <nd ref="2446550688" lat="45.7972889" lon="9.8323474"/>
+    <tag k="highway" v="residential"/>
+    <tag k="incline" v="up"/>
+    <tag k="lanes" v="1"/>
+    <tag k="lit" v="yes"/>
+    <tag k="maxwidth:physical" v="3"/>
+    <tag k="name" v="Via San Rocco"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sidewalk" v="no"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </new>
 </action>
