@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.11 87bfad18">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2026-08-18T00:49:51Z" areas="2026-08-16T15:27:51Z"/>
+
+<action type="modify">
+<old>
+  <way id="175897920" version="6" timestamp="2019-07-17T20:18:54Z" changeset="72364089" uid="3455425" user="Matteo Calosi">
+    <bounds minlat="45.9276249" minlon="9.8051173" maxlat="45.9276438" maxlon="9.8054286"/>
+    <nd ref="1445047356" lat="45.9276438" lon="9.8051173"/>
+    <nd ref="1445047185" lat="45.9276385" lon="9.8053149"/>
+    <nd ref="1864580041" lat="45.9276249" lon="9.8054286"/>
+    <tag k="sac_scale" v="alpine_hiking"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Via Normale Pizzo Arera"/>
+  </way>
+</old>
+<new>
+  <way id="175897920" version="7" timestamp="2026-08-17T15:42:33Z" changeset="187595266" uid="475445" user="luciorota">
+    <bounds minlat="45.9276249" minlon="9.8051173" maxlat="45.9276438" maxlon="9.8054286"/>
+    <nd ref="1445047356" lat="45.9276438" lon="9.8051173"/>
+    <nd ref="1445047185" lat="45.9276385" lon="9.8053149"/>
+    <nd ref="1864580041" lat="45.9276249" lon="9.8054286"/>
+    <tag k="highway" v="path"/>
+    <tag k="name" v="Via Normale Pizzo Arera"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+  </way>
+</new>
+</action>
+
+</osm>
