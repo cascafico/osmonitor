@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.62.11 87bfad18">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2026-08-28T08:28:51Z" areas="2026-08-28T02:42:31Z"/>
+
+<action type="delete">
+<old>
+  <node id="1437611213" lat="43.9127122" lon="11.6588386" version="2" timestamp="2016-04-15T13:56:20Z" changeset="38588395" uid="563775" user="Cico"/>
+</old>
+<new>
+  <node id="1437611213" visible="true" version="2" timestamp="2016-04-15T13:56:20Z" changeset="38588395" uid="563775" user="Cico"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="1437611221" lat="43.9129781" lon="11.6594351" version="1" timestamp="2011-09-19T17:00:44Z" changeset="9344486" uid="517569" user="Vespucci"/>
+</old>
+<new>
+  <node id="1437611221" visible="true" version="1" timestamp="2011-09-19T17:00:44Z" changeset="9344486" uid="517569" user="Vespucci"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="1437611224" lat="43.9131168" lon="11.6598649" version="2" timestamp="2018-03-31T10:07:15Z" changeset="57684137" uid="6614942" user="Leonorf"/>
+</old>
+<new>
+  <node id="1437611224" visible="true" version="2" timestamp="2018-03-31T10:07:15Z" changeset="57684137" uid="6614942" user="Leonorf"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <node id="1437611235" lat="43.9133234" lon="11.6603529" version="4" timestamp="2018-03-31T10:26:43Z" changeset="57684509" uid="6614942" user="Leonorf"/>
+</old>
+<new>
+  <node id="1437611235" visible="true" version="4" timestamp="2018-03-31T10:26:43Z" changeset="57684509" uid="6614942" user="Leonorf"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <way id="130565586" version="4" timestamp="2020-06-28T09:06:41Z" changeset="87244470" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="43.9127122" minlon="11.6588386" maxlat="43.9133234" maxlon="11.6603529"/>
+    <nd ref="1437611235" lat="43.9133234" lon="11.6603529"/>
+    <nd ref="1437611224" lat="43.9131168" lon="11.6598649"/>
+    <nd ref="1437611221" lat="43.9129781" lon="11.6594351"/>
+    <nd ref="1437611213" lat="43.9127122" lon="11.6588386"/>
+    <tag k="highway" v="track"/>
+    <tag k="sac_scale" v="mountain_hiking"/>
+  </way>
+</old>
+<new>
+  <way id="130565586" visible="true" version="4" timestamp="2020-06-28T09:06:41Z" changeset="87244470" uid="3215770" user="Andrea Del Sarto"/>
+</new>
+</action>
+<action type="delete">
+<old>
+  <relation id="2344651" version="6" timestamp="2016-04-18T10:29:27Z" changeset="38663566" uid="563775" user="Cico">
+    <bounds minlat="43.9127122" minlon="11.6588386" maxlat="43.9133234" maxlon="11.6603529"/>
+    <member type="way" ref="130565586" role="">
+      <nd lat="43.9133234" lon="11.6603529"/>
+      <nd lat="43.9131168" lon="11.6598649"/>
+      <nd lat="43.9129781" lon="11.6594351"/>
+      <nd lat="43.9127122" lon="11.6588386"/>
+    </member>
+    <tag k="name" v="CAI 6c"/>
+    <tag k="operator" v="Club Alpino Italiano"/>
+    <tag k="ref" v="6c"/>
+    <tag k="route" v="hiking"/>
+    <tag k="type" v="route"/>
+  </relation>
+</old>
+<new>
+  <relation id="2344651" visible="false" version="7" timestamp="2026-08-27T21:26:58Z" changeset="188119336" uid="3753409" user="Pelleonline"/>
+</new>
+</action>
+
+</osm>
