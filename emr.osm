@@ -1,308 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.11 87bfad18">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2026-09-01T02:56:13Z" areas="2026-08-31T02:26:05Z"/>
+<meta osm_base="2026-09-02T02:18:09Z" areas="2026-09-01T01:22:02Z"/>
 
 <action type="modify">
 <old>
-  <node id="575728683" lat="44.3092865" lon="10.2066954" version="5" timestamp="2015-02-07T20:02:05Z" changeset="28689803" uid="1109359" user="makakko"/>
+  <node id="1608715841" lat="44.2011560" lon="10.4879901" version="7" timestamp="2022-09-22T14:20:49Z" changeset="126507730" uid="9265159" user="grawal">
+    <tag k="ele" v="1617"/>
+    <tag k="alt_name" v="Passo di Lagadello"/>
+    <tag k="loc_name" v="Valico di San Pellegrino in Alpe"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Passo del Lagadello"/>
+    <tag k="natural" v="saddle"/>
+  </node>
 </old>
 <new>
-  <node id="575728683" lat="44.3092464" lon="10.2066510" version="6" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
+  <node id="1608715841" lat="44.2011560" lon="10.4879901" version="8" timestamp="2026-09-01T10:17:29Z" changeset="188355573" uid="20299001" user="Tazio2432">
+    <tag k="alt_name" v="Passo di Lagadello"/>
+    <tag k="ele" v="1624"/>
+    <tag k="loc_name" v="Valico di San Pellegrino in Alpe"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Passo del Lagadello"/>
+    <tag k="natural" v="saddle"/>
+  </node>
 </new>
 </action>
 <action type="modify">
 <old>
-  <node id="575728685" lat="44.3089039" lon="10.2073216" version="4" timestamp="2010-02-01T11:03:24Z" changeset="3766552" uid="169252" user="capataz"/>
+  <node id="3178969673" lat="44.0468431" lon="11.3880595" version="5" timestamp="2018-02-06T17:57:01Z" changeset="56124229" uid="6614942" user="Leonorf">
+    <tag k="wikipedia" v="it:Passo del Giogo"/>
+    <tag k="wikidata" v="Q180940"/>
+    <tag k="natural" v="saddle"/>
+    <tag k="name" v="Passo del Giogo"/>
+    <tag k="ele" v="882"/>
+    <tag k="mountain_pass" v="yes"/>
+  </node>
 </old>
 <new>
-  <node id="575728685" lat="44.3088605" lon="10.2073590" version="5" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
+  <node id="3178969673" lat="44.0468537" lon="11.3880634" version="6" timestamp="2026-09-01T20:51:47Z" changeset="188389113" uid="10127559" user="Aldeyde">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="ele" v="882"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="mountain_pass" v="yes"/>
+    <tag k="name" v="Passo del Giogo"/>
+    <tag k="natural" v="saddle"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="wikidata" v="Q180940"/>
+    <tag k="wikipedia" v="it:Passo del Giogo"/>
+  </node>
 </new>
 </action>
 <action type="modify">
 <old>
-  <node id="575728688" lat="44.3087350" lon="10.2080512" version="4" timestamp="2010-02-01T11:03:24Z" changeset="3766552" uid="169252" user="capataz"/>
+  <node id="5393731971" lat="44.0555796" lon="11.3811083" version="3" timestamp="2024-11-06T11:21:02Z" changeset="158813695" uid="10269073" user="granpasso811">
+    <tag k="name" v="Il Piaggione"/>
+    <tag k="ele" v="1011"/>
+    <tag k="natural" v="saddle"/>
+  </node>
 </old>
 <new>
-  <node id="575728688" lat="44.3086966" lon="10.2080839" version="5" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
+  <node id="5393731971" lat="44.0555796" lon="11.3811083" version="4" timestamp="2026-09-01T20:51:47Z" changeset="188389113" uid="10127559" user="Aldeyde">
+    <tag k="ele" v="1011"/>
+    <tag k="name" v="Valilco del Piaggione"/>
+    <tag k="natural" v="saddle"/>
+  </node>
 </new>
 </action>
 <action type="modify">
 <old>
-  <node id="575728695" lat="44.3086429" lon="10.2097249" version="4" timestamp="2010-02-01T11:03:24Z" changeset="3766552" uid="169252" user="capataz"/>
+  <node id="9670105867" lat="44.0506728" lon="11.4493942" version="1" timestamp="2022-04-16T12:43:56Z" changeset="119783047" uid="7078274" user="gabriele_sani">
+    <tag k="destination" v="Colla;Giogo"/>
+    <tag k="ele" v="1020"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="support" v="pole"/>
+    <tag k="tourism" v="information"/>
+    <tag k="wikimedia_commons" v="File:CAI 00 Valico Acquabuona Segnavia.jpg"/>
+  </node>
 </old>
 <new>
-  <node id="575728695" lat="44.3086496" lon="10.2098020" version="5" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
+  <node id="9670105867" lat="44.0506720" lon="11.4492979" version="2" timestamp="2026-09-01T20:51:47Z" changeset="188389113" uid="10127559" user="Aldeyde">
+    <tag k="destination" v="Colla;Giogo"/>
+    <tag k="ele" v="1020"/>
+    <tag k="hiking" v="yes"/>
+    <tag k="information" v="guidepost"/>
+    <tag k="support" v="pole"/>
+    <tag k="tourism" v="information"/>
+    <tag k="wikimedia_commons" v="File:CAI 00 Valico Acquabuona Segnavia.jpg"/>
+  </node>
 </new>
 </action>
 <action type="modify">
 <old>
-  <node id="575728700" lat="44.3080821" lon="10.2105363" version="5" timestamp="2015-01-31T14:16:03Z" changeset="28524124" uid="1229015" user="franca_c"/>
+  <node id="11634231031" version="1" timestamp="2024-02-17T12:21:35Z" changeset="147568586" uid="178610" user="Pab09"/>
 </old>
 <new>
-  <node id="575728700" lat="44.3081022" lon="10.2105737" version="6" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</new>
-</action>
-<action type="modify">
-<old>
-  <node id="3323438973" lat="44.3041952" lon="10.2106385" version="2" timestamp="2016-10-02T18:12:16Z" changeset="42588446" uid="923271" user="aldoct"/>
-</old>
-<new>
-  <node id="3323438973" lat="44.3041868" lon="10.2106665" version="3" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</new>
-</action>
-<action type="modify">
-<old>
-  <node id="3323438974" lat="44.3047565" lon="10.2106919" version="1" timestamp="2015-01-31T14:15:56Z" changeset="28524124" uid="1229015" user="franca_c"/>
-</old>
-<new>
-  <node id="3323438974" lat="44.3047832" lon="10.2107946" version="2" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</new>
-</action>
-<action type="modify">
-<old>
-  <node id="3323438986" lat="44.3095914" lon="10.2060798" version="1" timestamp="2015-01-31T14:15:56Z" changeset="28524124" uid="1229015" user="franca_c"/>
-</old>
-<new>
-  <node id="3323438986" lat="44.3095814" lon="10.2061031" version="2" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
+  <node id="11634231031" lat="44.0466225" lon="11.3879355" version="2" timestamp="2026-09-01T20:51:47Z" changeset="188389113" uid="10127559" user="Aldeyde"/>
 </new>
 </action>
 <action type="delete">
 <old>
-  <node id="3336747953" lat="44.3039538" lon="10.2105533" version="1" timestamp="2015-02-07T20:01:34Z" changeset="28689803" uid="1109359" user="makakko"/>
+  <node id="11809661735" lat="44.0468874" lon="11.3880857" version="1" timestamp="2024-04-11T13:52:44Z" changeset="149866116" uid="1940323" user="SekeRob">
+    <tag k="crossing" v="uncontrolled"/>
+    <tag k="crossing:markings" v="zebra"/>
+    <tag k="highway" v="crossing"/>
+    <tag k="surface" v="asphalt"/>
+  </node>
 </old>
 <new>
-  <node id="3336747953" visible="false" version="2" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
+  <node id="11809661735" visible="false" version="2" timestamp="2026-09-01T20:51:47Z" changeset="188389113" uid="10127559" user="Aldeyde"/>
 </new>
 </action>
 <action type="modify">
 <old>
-  <node id="3336747955" lat="44.3040676" lon="10.2106788" version="2" timestamp="2016-10-02T18:12:16Z" changeset="42588446" uid="923271" user="aldoct"/>
-</old>
-<new>
-  <node id="3336747955" lat="44.3040726" lon="10.2106181" version="3" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</new>
-</action>
-<action type="modify">
-<old>
-  <node id="3336747963" lat="44.3089643" lon="10.2069989" version="1" timestamp="2015-02-07T20:01:34Z" changeset="28689803" uid="1109359" user="makakko"/>
-</old>
-<new>
-  <node id="3336747963" lat="44.3089910" lon="10.2069709" version="2" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</new>
-</action>
-<action type="create">
-  <node id="14136675323" lat="44.3092216" lon="10.2046977" version="1" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</action>
-<action type="create">
-  <node id="14136675324" lat="44.3093882" lon="10.2054643" version="1" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</action>
-<action type="create">
-  <node id="14136675325" lat="44.3093980" lon="10.2064551" version="1" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</action>
-<action type="create">
-  <node id="14136675326" lat="44.3085682" lon="10.2082957" version="1" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</action>
-<action type="create">
-  <node id="14136675327" lat="44.3084962" lon="10.2087232" version="1" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</action>
-<action type="create">
-  <node id="14136675328" lat="44.3083555" lon="10.2104442" version="1" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</action>
-<action type="create">
-  <node id="14136675329" lat="44.3046703" lon="10.2106102" version="1" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</action>
-<action type="create">
-  <node id="14136675330" lat="44.3041878" lon="10.2113538" version="1" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811"/>
-</action>
-<action type="modify">
-<old>
-  <way id="45317108" version="15" timestamp="2025-09-01T09:56:44Z" changeset="171306340" uid="1464463" user="Alessandro Conticelli">
-    <bounds minlat="44.3032070" minlon="10.2034892" maxlat="44.3097875" maxlon="10.2167448"/>
-    <nd ref="4428036209" lat="44.3041985" lon="10.2166811"/>
-    <nd ref="1296615658" lat="44.3040965" lon="10.2167246"/>
-    <nd ref="2456843822" lat="44.3040690" lon="10.2167364"/>
-    <nd ref="4428036208" lat="44.3040079" lon="10.2167448"/>
-    <nd ref="575728750" lat="44.3038928" lon="10.2166938"/>
-    <nd ref="3336747951" lat="44.3037992" lon="10.2165330"/>
-    <nd ref="575728747" lat="44.3036984" lon="10.2163553"/>
-    <nd ref="3336747947" lat="44.3035394" lon="10.2160919"/>
-    <nd ref="575728744" lat="44.3034066" lon="10.2157974"/>
-    <nd ref="4428032498" lat="44.3032728" lon="10.2153956"/>
-    <nd ref="575728740" lat="44.3032070" lon="10.2149391"/>
-    <nd ref="3336747945" lat="44.3032783" lon="10.2145325"/>
-    <nd ref="575728736" lat="44.3033901" lon="10.2141657"/>
-    <nd ref="3336747946" lat="44.3034886" lon="10.2139733"/>
-    <nd ref="4428032499" lat="44.3035396" lon="10.2138855"/>
-    <nd ref="3336747948" lat="44.3035615" lon="10.2137828"/>
-    <nd ref="3336747949" lat="44.3036446" lon="10.2137265"/>
-    <nd ref="575728733" lat="44.3037886" lon="10.2133875"/>
-    <nd ref="4428032500" lat="44.3039273" lon="10.2129253"/>
-    <nd ref="575728730" lat="44.3039816" lon="10.2127030"/>
-    <nd ref="4428032501" lat="44.3039897" lon="10.2125176"/>
-    <nd ref="4428032504" lat="44.3040434" lon="10.2123593"/>
-    <nd ref="4428032502" lat="44.3040348" lon="10.2121461"/>
-    <nd ref="4428032503" lat="44.3040598" lon="10.2119530"/>
-    <nd ref="575728728" lat="44.3041121" lon="10.2118344"/>
-    <nd ref="575728719" lat="44.3041591" lon="10.2115340"/>
-    <nd ref="4428032505" lat="44.3041260" lon="10.2111711"/>
-    <nd ref="575728718" lat="44.3040209" lon="10.2109694"/>
-    <nd ref="575728717" lat="44.3039699" lon="10.2107436"/>
-    <nd ref="3336747952" lat="44.3039525" lon="10.2105878"/>
-    <nd ref="3336747953" lat="44.3039538" lon="10.2105533"/>
-    <nd ref="3336747954" lat="44.3039954" lon="10.2105914"/>
-    <nd ref="3336747955" lat="44.3040676" lon="10.2106788"/>
-    <nd ref="3323438973" lat="44.3041952" lon="10.2106385"/>
-    <nd ref="4428032506" lat="44.3042527" lon="10.2107031"/>
-    <nd ref="575728716" lat="44.3043741" lon="10.2107239"/>
-    <nd ref="575728715" lat="44.3045839" lon="10.2106143"/>
-    <nd ref="3323438974" lat="44.3047565" lon="10.2106919"/>
-    <nd ref="575728714" lat="44.3049422" lon="10.2108621"/>
-    <nd ref="575728713" lat="44.3053329" lon="10.2107648"/>
-    <nd ref="575728712" lat="44.3056386" lon="10.2104648"/>
-    <nd ref="575728711" lat="44.3058539" lon="10.2104314"/>
-    <nd ref="3323438975" lat="44.3060202" lon="10.2103737"/>
-    <nd ref="575728710" lat="44.3061661" lon="10.2103109"/>
-    <nd ref="3323438976" lat="44.3062968" lon="10.2101262"/>
-    <nd ref="575728708" lat="44.3064010" lon="10.2098751"/>
-    <nd ref="3323438977" lat="44.3064929" lon="10.2098314"/>
-    <nd ref="575728705" lat="44.3066148" lon="10.2099176"/>
-    <nd ref="3323438978" lat="44.3067536" lon="10.2100956"/>
-    <nd ref="575728704" lat="44.3069499" lon="10.2103365"/>
-    <nd ref="575728703" lat="44.3074605" lon="10.2105403"/>
-    <nd ref="575728700" lat="44.3080821" lon="10.2105363"/>
-    <nd ref="3323438979" lat="44.3082810" lon="10.2104849"/>
-    <nd ref="575728697" lat="44.3084432" lon="10.2102828"/>
-    <nd ref="575728695" lat="44.3086429" lon="10.2097249"/>
-    <nd ref="4428032507" lat="44.3086889" lon="10.2095162"/>
-    <nd ref="575728692" lat="44.3086275" lon="10.2091455"/>
-    <nd ref="575728690" lat="44.3085354" lon="10.2085018"/>
-    <nd ref="575728688" lat="44.3087350" lon="10.2080512"/>
-    <nd ref="575728685" lat="44.3089039" lon="10.2073216"/>
-    <nd ref="3336747963" lat="44.3089643" lon="10.2069989"/>
-    <nd ref="3336747964" lat="44.3090994" lon="10.2068627"/>
-    <nd ref="575728683" lat="44.3092865" lon="10.2066954"/>
-    <nd ref="575728680" lat="44.3095496" lon="10.2062591"/>
-    <nd ref="3323438986" lat="44.3095914" lon="10.2060798"/>
-    <nd ref="3323438985" lat="44.3095217" lon="10.2058963"/>
-    <nd ref="575728678" lat="44.3093952" lon="10.2056479"/>
-    <nd ref="575728675" lat="44.3094413" lon="10.2051973"/>
-    <nd ref="575728672" lat="44.3094259" lon="10.2050686"/>
-    <nd ref="3323438983" lat="44.3093128" lon="10.2047811"/>
-    <nd ref="575728670" lat="44.3091546" lon="10.2045154"/>
-    <nd ref="3323438980" lat="44.3091892" lon="10.2043211"/>
-    <nd ref="3323438981" lat="44.3092293" lon="10.2042057"/>
-    <nd ref="575728668" lat="44.3092590" lon="10.2040745"/>
-    <nd ref="3323438982" lat="44.3093060" lon="10.2039737"/>
-    <nd ref="3323438984" lat="44.3094467" lon="10.2038213"/>
-    <nd ref="3323438987" lat="44.3096201" lon="10.2036620"/>
-    <nd ref="3323438988" lat="44.3097000" lon="10.2035715"/>
-    <nd ref="3323438989" lat="44.3097457" lon="10.2035253"/>
-    <nd ref="575728666" lat="44.3097875" lon="10.2034892"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="highway" v="path"/>
-    <tag k="mtb:scale" v="2"/>
-    <tag k="sac_scale" v="strolling"/>
-    <tag k="surface" v="dirt"/>
-    <tag k="trail_visibility" v="excellent"/>
+  <way id="34315202" version="10" timestamp="2024-04-11T13:52:47Z" changeset="149866116" uid="1940323" user="SekeRob">
+    <bounds minlat="44.0466348" minlon="11.3879337" maxlat="44.0468431" maxlon="11.3880595"/>
+    <nd ref="92904813" lat="44.0466348" lon="11.3879337"/>
+    <nd ref="3178969673" lat="44.0468431" lon="11.3880595"/>
+    <tag k="divider" v="solid_line"/>
+    <tag k="highway" v="primary"/>
+    <tag k="loc_ref" v="SP503"/>
+    <tag k="name" v="Strada Provinciale del Passo del Giogo"/>
+    <tag k="old_ref" v="SS503"/>
+    <tag k="ref" v="SP503"/>
+    <tag k="surface" v="asphalt"/>
   </way>
 </old>
 <new>
-  <way id="45317108" version="16" timestamp="2026-08-31T09:23:19Z" changeset="188294123" uid="10269073" user="granpasso811">
-    <bounds minlat="44.3032070" minlon="10.2034892" maxlat="44.3097875" maxlon="10.2167448"/>
-    <nd ref="4428036209" lat="44.3041985" lon="10.2166811"/>
-    <nd ref="1296615658" lat="44.3040965" lon="10.2167246"/>
-    <nd ref="2456843822" lat="44.3040690" lon="10.2167364"/>
-    <nd ref="4428036208" lat="44.3040079" lon="10.2167448"/>
-    <nd ref="575728750" lat="44.3038928" lon="10.2166938"/>
-    <nd ref="3336747951" lat="44.3037992" lon="10.2165330"/>
-    <nd ref="575728747" lat="44.3036984" lon="10.2163553"/>
-    <nd ref="3336747947" lat="44.3035394" lon="10.2160919"/>
-    <nd ref="575728744" lat="44.3034066" lon="10.2157974"/>
-    <nd ref="4428032498" lat="44.3032728" lon="10.2153956"/>
-    <nd ref="575728740" lat="44.3032070" lon="10.2149391"/>
-    <nd ref="3336747945" lat="44.3032783" lon="10.2145325"/>
-    <nd ref="575728736" lat="44.3033901" lon="10.2141657"/>
-    <nd ref="3336747946" lat="44.3034886" lon="10.2139733"/>
-    <nd ref="4428032499" lat="44.3035396" lon="10.2138855"/>
-    <nd ref="3336747948" lat="44.3035615" lon="10.2137828"/>
-    <nd ref="3336747949" lat="44.3036446" lon="10.2137265"/>
-    <nd ref="575728733" lat="44.3037886" lon="10.2133875"/>
-    <nd ref="4428032500" lat="44.3039273" lon="10.2129253"/>
-    <nd ref="575728730" lat="44.3039816" lon="10.2127030"/>
-    <nd ref="4428032501" lat="44.3039897" lon="10.2125176"/>
-    <nd ref="4428032504" lat="44.3040434" lon="10.2123593"/>
-    <nd ref="4428032502" lat="44.3040348" lon="10.2121461"/>
-    <nd ref="4428032503" lat="44.3040598" lon="10.2119530"/>
-    <nd ref="575728728" lat="44.3041121" lon="10.2118344"/>
-    <nd ref="575728719" lat="44.3041591" lon="10.2115340"/>
-    <nd ref="14136675330" lat="44.3041878" lon="10.2113538"/>
-    <nd ref="4428032505" lat="44.3041260" lon="10.2111711"/>
-    <nd ref="575728718" lat="44.3040209" lon="10.2109694"/>
-    <nd ref="575728717" lat="44.3039699" lon="10.2107436"/>
-    <nd ref="3336747952" lat="44.3039525" lon="10.2105878"/>
-    <nd ref="3336747954" lat="44.3039954" lon="10.2105914"/>
-    <nd ref="3336747955" lat="44.3040726" lon="10.2106181"/>
-    <nd ref="3323438973" lat="44.3041868" lon="10.2106665"/>
-    <nd ref="4428032506" lat="44.3042527" lon="10.2107031"/>
-    <nd ref="575728716" lat="44.3043741" lon="10.2107239"/>
-    <nd ref="575728715" lat="44.3045839" lon="10.2106143"/>
-    <nd ref="14136675329" lat="44.3046703" lon="10.2106102"/>
-    <nd ref="3323438974" lat="44.3047832" lon="10.2107946"/>
-    <nd ref="575728714" lat="44.3049422" lon="10.2108621"/>
-    <nd ref="575728713" lat="44.3053329" lon="10.2107648"/>
-    <nd ref="575728712" lat="44.3056386" lon="10.2104648"/>
-    <nd ref="575728711" lat="44.3058539" lon="10.2104314"/>
-    <nd ref="3323438975" lat="44.3060202" lon="10.2103737"/>
-    <nd ref="575728710" lat="44.3061661" lon="10.2103109"/>
-    <nd ref="3323438976" lat="44.3062968" lon="10.2101262"/>
-    <nd ref="575728708" lat="44.3064010" lon="10.2098751"/>
-    <nd ref="3323438977" lat="44.3064929" lon="10.2098314"/>
-    <nd ref="575728705" lat="44.3066148" lon="10.2099176"/>
-    <nd ref="3323438978" lat="44.3067536" lon="10.2100956"/>
-    <nd ref="575728704" lat="44.3069499" lon="10.2103365"/>
-    <nd ref="575728703" lat="44.3074605" lon="10.2105403"/>
-    <nd ref="575728700" lat="44.3081022" lon="10.2105737"/>
-    <nd ref="3323438979" lat="44.3082810" lon="10.2104849"/>
-    <nd ref="14136675328" lat="44.3083555" lon="10.2104442"/>
-    <nd ref="575728697" lat="44.3084432" lon="10.2102828"/>
-    <nd ref="575728695" lat="44.3086496" lon="10.2098020"/>
-    <nd ref="4428032507" lat="44.3086889" lon="10.2095162"/>
-    <nd ref="575728692" lat="44.3086275" lon="10.2091455"/>
-    <nd ref="14136675327" lat="44.3084962" lon="10.2087232"/>
-    <nd ref="575728690" lat="44.3085354" lon="10.2085018"/>
-    <nd ref="14136675326" lat="44.3085682" lon="10.2082957"/>
-    <nd ref="575728688" lat="44.3086966" lon="10.2080839"/>
-    <nd ref="575728685" lat="44.3088605" lon="10.2073590"/>
-    <nd ref="3336747963" lat="44.3089910" lon="10.2069709"/>
-    <nd ref="3336747964" lat="44.3090994" lon="10.2068627"/>
-    <nd ref="575728683" lat="44.3092464" lon="10.2066510"/>
-    <nd ref="14136675325" lat="44.3093980" lon="10.2064551"/>
-    <nd ref="575728680" lat="44.3095496" lon="10.2062591"/>
-    <nd ref="3323438986" lat="44.3095814" lon="10.2061031"/>
-    <nd ref="3323438985" lat="44.3095217" lon="10.2058963"/>
-    <nd ref="575728678" lat="44.3093952" lon="10.2056479"/>
-    <nd ref="14136675324" lat="44.3093882" lon="10.2054643"/>
-    <nd ref="575728675" lat="44.3094413" lon="10.2051973"/>
-    <nd ref="575728672" lat="44.3094259" lon="10.2050686"/>
-    <nd ref="3323438983" lat="44.3093128" lon="10.2047811"/>
-    <nd ref="14136675323" lat="44.3092216" lon="10.2046977"/>
-    <nd ref="575728670" lat="44.3091546" lon="10.2045154"/>
-    <nd ref="3323438980" lat="44.3091892" lon="10.2043211"/>
-    <nd ref="3323438981" lat="44.3092293" lon="10.2042057"/>
-    <nd ref="575728668" lat="44.3092590" lon="10.2040745"/>
-    <nd ref="3323438982" lat="44.3093060" lon="10.2039737"/>
-    <nd ref="3323438984" lat="44.3094467" lon="10.2038213"/>
-    <nd ref="3323438987" lat="44.3096201" lon="10.2036620"/>
-    <nd ref="3323438988" lat="44.3097000" lon="10.2035715"/>
-    <nd ref="3323438989" lat="44.3097457" lon="10.2035253"/>
-    <nd ref="575728666" lat="44.3097875" lon="10.2034892"/>
-    <tag k="bicycle" v="yes"/>
-    <tag k="highway" v="path"/>
-    <tag k="mtb:scale" v="2"/>
-    <tag k="sac_scale" v="strolling"/>
-    <tag k="surface" v="dirt"/>
-    <tag k="trail_visibility" v="excellent"/>
+  <way id="34315202" version="10" timestamp="2024-04-11T13:52:47Z" changeset="149866116" uid="1940323" user="SekeRob">
+    <bounds minlat="44.0466348" minlon="11.3879337" maxlat="44.0468537" maxlon="11.3880634"/>
+    <nd ref="92904813" lat="44.0466348" lon="11.3879337"/>
+    <nd ref="3178969673" lat="44.0468537" lon="11.3880634"/>
+    <tag k="divider" v="solid_line"/>
+    <tag k="highway" v="primary"/>
+    <tag k="loc_ref" v="SP503"/>
+    <tag k="name" v="Strada Provinciale del Passo del Giogo"/>
+    <tag k="old_ref" v="SS503"/>
+    <tag k="ref" v="SP503"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="188478129" version="11" timestamp="2024-04-11T13:52:47Z" changeset="149866116" uid="1940323" user="SekeRob">
+    <bounds minlat="44.0468431" minlon="11.3880595" maxlat="44.0470350" maxlon="11.3881942"/>
+    <nd ref="3178969673" lat="44.0468431" lon="11.3880595"/>
+    <nd ref="11809661735" lat="44.0468874" lon="11.3880857"/>
+    <nd ref="3178969674" lat="44.0469398" lon="11.3881166"/>
+    <nd ref="5393732115" lat="44.0470170" lon="11.3881705"/>
+    <nd ref="92904819" lat="44.0470350" lon="11.3881942"/>
+    <tag k="highway" v="primary"/>
+    <tag k="loc_ref" v="SP503"/>
+    <tag k="name" v="Strada Provinciale del Passo del Giogo"/>
+    <tag k="old_ref" v="SS503"/>
+    <tag k="ref" v="SP503"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</old>
+<new>
+  <way id="188478129" version="12" timestamp="2026-09-01T20:51:47Z" changeset="188389113" uid="10127559" user="Aldeyde">
+    <bounds minlat="44.0468537" minlon="11.3880634" maxlat="44.0470350" maxlon="11.3881942"/>
+    <nd ref="3178969673" lat="44.0468537" lon="11.3880634"/>
+    <nd ref="3178969674" lat="44.0469398" lon="11.3881166"/>
+    <nd ref="5393732115" lat="44.0470170" lon="11.3881705"/>
+    <nd ref="92904819" lat="44.0470350" lon="11.3881942"/>
+    <tag k="highway" v="primary"/>
+    <tag k="loc_ref" v="SP503"/>
+    <tag k="name" v="Strada Provinciale del Passo del Giogo"/>
+    <tag k="old_ref" v="SS503"/>
+    <tag k="ref" v="SP503"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="463667802" version="12" timestamp="2026-03-15T18:14:51Z" changeset="179911745" uid="139148" user="Gabri84">
+    <bounds minlat="44.7152056" minlon="10.6293675" maxlat="44.7164897" maxlon="10.6319395"/>
+    <nd ref="3916088514" lat="44.7153400" lon="10.6319395"/>
+    <nd ref="4589174415" lat="44.7152866" lon="10.6318999"/>
+    <nd ref="4589174416" lat="44.7152346" lon="10.6318250"/>
+    <nd ref="4589174417" lat="44.7152056" lon="10.6317452"/>
+    <nd ref="4589174418" lat="44.7152137" lon="10.6316426"/>
+    <nd ref="4589174419" lat="44.7152461" lon="10.6315417"/>
+    <nd ref="4589174420" lat="44.7153966" lon="10.6311411"/>
+    <nd ref="4589174421" lat="44.7155690" lon="10.6307308"/>
+    <nd ref="4589174422" lat="44.7157067" lon="10.6304474"/>
+    <nd ref="4589174423" lat="44.7160168" lon="10.6299459"/>
+    <nd ref="4589174424" lat="44.7161927" lon="10.6297261"/>
+    <nd ref="4631653828" lat="44.7164054" lon="10.6294649"/>
+    <nd ref="4589174425" lat="44.7164897" lon="10.6293675"/>
+    <tag k="surface" v="asphalt"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lit" v="no"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="maxspeed:type" v="IT:zone30"/>
+    <tag k="name" v="Via Bari"/>
+    <tag k="name:etymology:wikidata" v="Q3519"/>
+  </way>
+</old>
+<new>
+  <way id="463667802" version="13" timestamp="2026-09-01T11:46:23Z" changeset="188359996" uid="683102" user="NonnEmilia">
+    <bounds minlat="44.7152056" minlon="10.6293675" maxlat="44.7164897" maxlon="10.6319395"/>
+    <nd ref="3916088514" lat="44.7153400" lon="10.6319395"/>
+    <nd ref="4589174415" lat="44.7152866" lon="10.6318999"/>
+    <nd ref="4589174416" lat="44.7152346" lon="10.6318250"/>
+    <nd ref="4589174417" lat="44.7152056" lon="10.6317452"/>
+    <nd ref="4589174418" lat="44.7152137" lon="10.6316426"/>
+    <nd ref="4589174419" lat="44.7152461" lon="10.6315417"/>
+    <nd ref="4589174420" lat="44.7153966" lon="10.6311411"/>
+    <nd ref="4589174421" lat="44.7155690" lon="10.6307308"/>
+    <nd ref="4589174422" lat="44.7157067" lon="10.6304474"/>
+    <nd ref="4589174423" lat="44.7160168" lon="10.6299459"/>
+    <nd ref="4589174424" lat="44.7161927" lon="10.6297261"/>
+    <nd ref="4631653828" lat="44.7164054" lon="10.6294649"/>
+    <nd ref="4589174425" lat="44.7164897" lon="10.6293675"/>
+    <tag k="cycleway:both" v="no"/>
+    <tag k="highway" v="unclassified"/>
+    <tag k="lane_markings" v="no"/>
+    <tag k="lit" v="no"/>
+    <tag k="maxspeed" v="30"/>
+    <tag k="maxspeed:type" v="IT:zone30"/>
+    <tag k="name" v="Via Bari"/>
+    <tag k="name:etymology:wikidata" v="Q3519"/>
+    <tag k="sidewalk:both" v="no"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1016190265" version="1" timestamp="2021-12-28T13:03:05Z" changeset="115470056" uid="7078274" user="gabriele_sani">
+    <bounds minlat="44.0454794" minlon="11.3879337" maxlat="44.0466348" maxlon="11.3886597"/>
+    <nd ref="6327534080" lat="44.0454794" lon="11.3886597"/>
+    <nd ref="5393732120" lat="44.0454876" lon="11.3886444"/>
+    <nd ref="918550466" lat="44.0455277" lon="11.3885767"/>
+    <nd ref="5393732119" lat="44.0456248" lon="11.3884553"/>
+    <nd ref="918550911" lat="44.0458021" lon="11.3882610"/>
+    <nd ref="5393732118" lat="44.0459328" lon="11.3881518"/>
+    <nd ref="918549969" lat="44.0460723" lon="11.3880729"/>
+    <nd ref="5393732117" lat="44.0462060" lon="11.3880069"/>
+    <nd ref="5393732116" lat="44.0463164" lon="11.3879814"/>
+    <nd ref="92904813" lat="44.0466348" lon="11.3879337"/>
+    <tag k="highway" v="track"/>
+    <tag k="motor_vehicle" v="yes"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="gravel"/>
+    <tag k="tracktype" v="grade2"/>
+  </way>
+</old>
+<new>
+  <way id="1016190265" version="2" timestamp="2026-09-01T20:51:47Z" changeset="188389113" uid="10127559" user="Aldeyde">
+    <bounds minlat="44.0454794" minlon="11.3879337" maxlat="44.0466348" maxlon="11.3886597"/>
+    <nd ref="6327534080" lat="44.0454794" lon="11.3886597"/>
+    <nd ref="5393732120" lat="44.0454876" lon="11.3886444"/>
+    <nd ref="918550466" lat="44.0455277" lon="11.3885767"/>
+    <nd ref="5393732119" lat="44.0456248" lon="11.3884553"/>
+    <nd ref="918550911" lat="44.0458021" lon="11.3882610"/>
+    <nd ref="5393732118" lat="44.0459328" lon="11.3881518"/>
+    <nd ref="918549969" lat="44.0460723" lon="11.3880729"/>
+    <nd ref="5393732117" lat="44.0462060" lon="11.3880069"/>
+    <nd ref="5393732116" lat="44.0463164" lon="11.3879814"/>
+    <nd ref="11634231031" lat="44.0466225" lon="11.3879355"/>
+    <nd ref="92904813" lat="44.0466348" lon="11.3879337"/>
+    <tag k="highway" v="track"/>
+    <tag k="motor_vehicle" v="yes"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="gravel"/>
+    <tag k="tracktype" v="grade2"/>
   </way>
 </new>
 </action>
@@ -4837,18 +4806,19 @@
       <nd lat="44.3040598" lon="10.2119530"/>
       <nd lat="44.3041121" lon="10.2118344"/>
       <nd lat="44.3041591" lon="10.2115340"/>
+      <nd lat="44.3041878" lon="10.2113538"/>
       <nd lat="44.3041260" lon="10.2111711"/>
       <nd lat="44.3040209" lon="10.2109694"/>
       <nd lat="44.3039699" lon="10.2107436"/>
       <nd lat="44.3039525" lon="10.2105878"/>
-      <nd lat="44.3039538" lon="10.2105533"/>
       <nd lat="44.3039954" lon="10.2105914"/>
-      <nd lat="44.3040676" lon="10.2106788"/>
-      <nd lat="44.3041952" lon="10.2106385"/>
+      <nd lat="44.3040726" lon="10.2106181"/>
+      <nd lat="44.3041868" lon="10.2106665"/>
       <nd lat="44.3042527" lon="10.2107031"/>
       <nd lat="44.3043741" lon="10.2107239"/>
       <nd lat="44.3045839" lon="10.2106143"/>
-      <nd lat="44.3047565" lon="10.2106919"/>
+      <nd lat="44.3046703" lon="10.2106102"/>
+      <nd lat="44.3047832" lon="10.2107946"/>
       <nd lat="44.3049422" lon="10.2108621"/>
       <nd lat="44.3053329" lon="10.2107648"/>
       <nd lat="44.3056386" lon="10.2104648"/>
@@ -4862,25 +4832,31 @@
       <nd lat="44.3067536" lon="10.2100956"/>
       <nd lat="44.3069499" lon="10.2103365"/>
       <nd lat="44.3074605" lon="10.2105403"/>
-      <nd lat="44.3080821" lon="10.2105363"/>
+      <nd lat="44.3081022" lon="10.2105737"/>
       <nd lat="44.3082810" lon="10.2104849"/>
+      <nd lat="44.3083555" lon="10.2104442"/>
       <nd lat="44.3084432" lon="10.2102828"/>
-      <nd lat="44.3086429" lon="10.2097249"/>
+      <nd lat="44.3086496" lon="10.2098020"/>
       <nd lat="44.3086889" lon="10.2095162"/>
       <nd lat="44.3086275" lon="10.2091455"/>
+      <nd lat="44.3084962" lon="10.2087232"/>
       <nd lat="44.3085354" lon="10.2085018"/>
-      <nd lat="44.3087350" lon="10.2080512"/>
-      <nd lat="44.3089039" lon="10.2073216"/>
-      <nd lat="44.3089643" lon="10.2069989"/>
+      <nd lat="44.3085682" lon="10.2082957"/>
+      <nd lat="44.3086966" lon="10.2080839"/>
+      <nd lat="44.3088605" lon="10.2073590"/>
+      <nd lat="44.3089910" lon="10.2069709"/>
       <nd lat="44.3090994" lon="10.2068627"/>
-      <nd lat="44.3092865" lon="10.2066954"/>
+      <nd lat="44.3092464" lon="10.2066510"/>
+      <nd lat="44.3093980" lon="10.2064551"/>
       <nd lat="44.3095496" lon="10.2062591"/>
-      <nd lat="44.3095914" lon="10.2060798"/>
+      <nd lat="44.3095814" lon="10.2061031"/>
       <nd lat="44.3095217" lon="10.2058963"/>
       <nd lat="44.3093952" lon="10.2056479"/>
+      <nd lat="44.3093882" lon="10.2054643"/>
       <nd lat="44.3094413" lon="10.2051973"/>
       <nd lat="44.3094259" lon="10.2050686"/>
       <nd lat="44.3093128" lon="10.2047811"/>
+      <nd lat="44.3092216" lon="10.2046977"/>
       <nd lat="44.3091546" lon="10.2045154"/>
       <nd lat="44.3091892" lon="10.2043211"/>
       <nd lat="44.3092293" lon="10.2042057"/>
@@ -43022,15 +42998,14 @@
       <nd lat="44.0470350" lon="11.3881942"/>
     </member>
     <member type="way" ref="188478129" role="">
-      <nd lat="44.0468431" lon="11.3880595"/>
-      <nd lat="44.0468874" lon="11.3880857"/>
+      <nd lat="44.0468537" lon="11.3880634"/>
       <nd lat="44.0469398" lon="11.3881166"/>
       <nd lat="44.0470170" lon="11.3881705"/>
       <nd lat="44.0470350" lon="11.3881942"/>
     </member>
     <member type="way" ref="34315202" role="">
       <nd lat="44.0466348" lon="11.3879337"/>
-      <nd lat="44.0468431" lon="11.3880595"/>
+      <nd lat="44.0468537" lon="11.3880634"/>
     </member>
     <member type="way" ref="1016190265" role="">
       <nd lat="44.0454794" lon="11.3886597"/>
@@ -43042,6 +43017,7 @@
       <nd lat="44.0460723" lon="11.3880729"/>
       <nd lat="44.0462060" lon="11.3880069"/>
       <nd lat="44.0463164" lon="11.3879814"/>
+      <nd lat="44.0466225" lon="11.3879355"/>
       <nd lat="44.0466348" lon="11.3879337"/>
     </member>
     <member type="way" ref="203912285" role="">
@@ -52670,7 +52646,7 @@
     <member type="node" ref="9610643298" role="guidepost" lat="43.7905091" lon="12.0677044"/>
     <member type="node" ref="9610617247" role="guidepost" lat="43.7850303" lon="12.0328980"/>
     <member type="node" ref="9634164939" role="guidepost" lat="43.9456570" lon="11.6387145"/>
-    <member type="node" ref="9670105867" role="guidepost" lat="44.0506728" lon="11.4493942"/>
+    <member type="node" ref="9670105867" role="guidepost" lat="44.0506720" lon="11.4492979"/>
     <member type="node" ref="9810820378" role="guidepost" lat="43.9776618" lon="11.5870736"/>
     <member type="node" ref="9862380167" role="guidepost" lat="44.0055186" lon="11.5248377"/>
     <member type="node" ref="9862380179" role="guidepost" lat="44.0025864" lon="11.5298411"/>
