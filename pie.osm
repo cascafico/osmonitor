@@ -1,88 +1,424 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <osm version="0.6" generator="Overpass API 0.7.62.11 87bfad18">
 <note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
-<meta osm_base="2026-09-21T02:46:48Z" areas="2026-09-20T10:20:51Z"/>
+<meta osm_base="2026-09-22T02:48:05Z" areas="2026-09-20T02:55:01Z"/>
 
 <action type="modify">
 <old>
-  <way id="350928621" version="2" timestamp="2015-06-02T16:47:07Z" changeset="31669613" uid="354284" user="sbiribizio">
-    <bounds minlat="44.6262398" minlon="8.3651183" maxlat="44.6272822" maxlon="8.3655237"/>
-    <nd ref="3566442787" lat="44.6272822" lon="8.3651183"/>
-    <nd ref="1449394134" lat="44.6269293" lon="8.3653720"/>
-    <nd ref="1449394133" lat="44.6267758" lon="8.3654780"/>
-    <nd ref="1449394132" lat="44.6265764" lon="8.3655237"/>
-    <nd ref="1449394131" lat="44.6264094" lon="8.3655106"/>
-    <nd ref="3566442744" lat="44.6263028" lon="8.3654935"/>
-    <nd ref="2258380834" lat="44.6262398" lon="8.3654847"/>
-    <tag k="name" v="Via Città di Dipignano"/>
+  <way id="23898176" version="28" timestamp="2022-09-28T20:29:34Z" changeset="126754962" uid="2976645" user="Jrachi">
+    <bounds minlat="45.0726928" minlon="7.7789403" maxlat="45.0767425" maxlon="7.7900202"/>
+    <nd ref="445810036" lat="45.0760682" lon="7.7789403"/>
+    <nd ref="259027759" lat="45.0766748" lon="7.7797382"/>
+    <nd ref="259027760" lat="45.0767193" lon="7.7798779"/>
+    <nd ref="1284919066" lat="45.0767425" lon="7.7800327"/>
+    <nd ref="762150374" lat="45.0767091" lon="7.7801772"/>
+    <nd ref="259027761" lat="45.0766308" lon="7.7803286"/>
+    <nd ref="1284918938" lat="45.0765415" lon="7.7804261"/>
+    <nd ref="259027763" lat="45.0764338" lon="7.7805103"/>
+    <nd ref="762150328" lat="45.0761222" lon="7.7807865"/>
+    <nd ref="259027764" lat="45.0760496" lon="7.7809256"/>
+    <nd ref="762150517" lat="45.0759525" lon="7.7812496"/>
+    <nd ref="9450174163" lat="45.0758998" lon="7.7813974"/>
+    <nd ref="259027765" lat="45.0758366" lon="7.7814749"/>
+    <nd ref="762150387" lat="45.0757234" lon="7.7815019"/>
+    <nd ref="762150326" lat="45.0754695" lon="7.7815811"/>
+    <nd ref="259027766" lat="45.0752997" lon="7.7817354"/>
+    <nd ref="259027767" lat="45.0750013" lon="7.7822722"/>
+    <nd ref="762150481" lat="45.0748832" lon="7.7826387"/>
+    <nd ref="259027768" lat="45.0748803" lon="7.7830487"/>
+    <nd ref="762150360" lat="45.0748896" lon="7.7834824"/>
+    <nd ref="259027769" lat="45.0749941" lon="7.7838445"/>
+    <nd ref="762150310" lat="45.0751713" lon="7.7842712"/>
+    <nd ref="3392810234" lat="45.0751990" lon="7.7844991"/>
+    <nd ref="259027770" lat="45.0751923" lon="7.7847283"/>
+    <nd ref="2214664851" lat="45.0751523" lon="7.7848608"/>
+    <nd ref="259027771" lat="45.0750903" lon="7.7849641"/>
+    <nd ref="259027772" lat="45.0746945" lon="7.7852197"/>
+    <nd ref="259027773" lat="45.0743400" lon="7.7856068"/>
+    <nd ref="3392810231" lat="45.0742484" lon="7.7857629"/>
+    <nd ref="762150477" lat="45.0741734" lon="7.7859101"/>
+    <nd ref="259027774" lat="45.0740980" lon="7.7863377"/>
+    <nd ref="259027775" lat="45.0738459" lon="7.7869574"/>
+    <nd ref="2214664857" lat="45.0737901" lon="7.7870678"/>
+    <nd ref="762150357" lat="45.0737170" lon="7.7871442"/>
+    <nd ref="259027776" lat="45.0735344" lon="7.7872252"/>
+    <nd ref="2214664865" lat="45.0734157" lon="7.7872944"/>
+    <nd ref="259027778" lat="45.0733102" lon="7.7873873"/>
+    <nd ref="259027779" lat="45.0730411" lon="7.7877482"/>
+    <nd ref="259027780" lat="45.0728768" lon="7.7882250"/>
+    <nd ref="259027781" lat="45.0727439" lon="7.7887968"/>
+    <nd ref="2214664867" lat="45.0726953" lon="7.7890703"/>
+    <nd ref="2214664868" lat="45.0726928" lon="7.7892015"/>
+    <nd ref="762150302" lat="45.0727029" lon="7.7893332"/>
+    <nd ref="3214264739" lat="45.0727283" lon="7.7895156"/>
+    <nd ref="522693407" lat="45.0727687" lon="7.7896331"/>
+    <nd ref="2214664869" lat="45.0729594" lon="7.7900202"/>
+    <tag k="name" v="Via Superga"/>
     <tag k="highway" v="tertiary"/>
   </way>
 </old>
 <new>
-  <way id="350928621" version="3" timestamp="2026-09-20T23:33:36Z" changeset="189320660" uid="14257573" user="toponomastica_comune_arenzano">
-    <bounds minlat="44.6262398" minlon="8.3651183" maxlat="44.6272822" maxlon="8.3655237"/>
-    <nd ref="3566442787" lat="44.6272822" lon="8.3651183"/>
-    <nd ref="1449394134" lat="44.6269293" lon="8.3653720"/>
-    <nd ref="1449394133" lat="44.6267758" lon="8.3654780"/>
-    <nd ref="1449394132" lat="44.6265764" lon="8.3655237"/>
-    <nd ref="1449394131" lat="44.6264094" lon="8.3655106"/>
-    <nd ref="3566442744" lat="44.6263028" lon="8.3654935"/>
-    <nd ref="2258380834" lat="44.6262398" lon="8.3654847"/>
+  <way id="23898176" version="29" timestamp="2026-09-21T18:26:07Z" changeset="189363051" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.0726928" minlon="7.7789403" maxlat="45.0767425" maxlon="7.7900202"/>
+    <nd ref="445810036" lat="45.0760682" lon="7.7789403"/>
+    <nd ref="259027759" lat="45.0766748" lon="7.7797382"/>
+    <nd ref="259027760" lat="45.0767193" lon="7.7798779"/>
+    <nd ref="1284919066" lat="45.0767425" lon="7.7800327"/>
+    <nd ref="762150374" lat="45.0767091" lon="7.7801772"/>
+    <nd ref="259027761" lat="45.0766308" lon="7.7803286"/>
+    <nd ref="1284918938" lat="45.0765415" lon="7.7804261"/>
+    <nd ref="259027763" lat="45.0764338" lon="7.7805103"/>
+    <nd ref="762150328" lat="45.0761222" lon="7.7807865"/>
+    <nd ref="259027764" lat="45.0760496" lon="7.7809256"/>
+    <nd ref="762150517" lat="45.0759525" lon="7.7812496"/>
+    <nd ref="9450174163" lat="45.0758998" lon="7.7813974"/>
+    <nd ref="259027765" lat="45.0758366" lon="7.7814749"/>
+    <nd ref="762150387" lat="45.0757234" lon="7.7815019"/>
+    <nd ref="762150326" lat="45.0754695" lon="7.7815811"/>
+    <nd ref="259027766" lat="45.0752997" lon="7.7817354"/>
+    <nd ref="259027767" lat="45.0750013" lon="7.7822722"/>
+    <nd ref="762150481" lat="45.0748832" lon="7.7826387"/>
+    <nd ref="259027768" lat="45.0748803" lon="7.7830487"/>
+    <nd ref="762150360" lat="45.0748896" lon="7.7834824"/>
+    <nd ref="259027769" lat="45.0749941" lon="7.7838445"/>
+    <nd ref="762150310" lat="45.0751713" lon="7.7842712"/>
+    <nd ref="3392810234" lat="45.0751990" lon="7.7844991"/>
+    <nd ref="259027770" lat="45.0751923" lon="7.7847283"/>
+    <nd ref="2214664851" lat="45.0751523" lon="7.7848608"/>
+    <nd ref="259027771" lat="45.0750903" lon="7.7849641"/>
+    <nd ref="259027772" lat="45.0746945" lon="7.7852197"/>
+    <nd ref="259027773" lat="45.0743400" lon="7.7856068"/>
+    <nd ref="3392810231" lat="45.0742484" lon="7.7857629"/>
+    <nd ref="762150477" lat="45.0741734" lon="7.7859101"/>
+    <nd ref="259027774" lat="45.0740980" lon="7.7863377"/>
+    <nd ref="259027775" lat="45.0738459" lon="7.7869574"/>
+    <nd ref="2214664857" lat="45.0737901" lon="7.7870678"/>
+    <nd ref="762150357" lat="45.0737170" lon="7.7871442"/>
+    <nd ref="259027776" lat="45.0735344" lon="7.7872252"/>
+    <nd ref="2214664865" lat="45.0734157" lon="7.7872944"/>
+    <nd ref="259027778" lat="45.0733102" lon="7.7873873"/>
+    <nd ref="259027779" lat="45.0730411" lon="7.7877482"/>
+    <nd ref="259027780" lat="45.0728768" lon="7.7882250"/>
+    <nd ref="259027781" lat="45.0727439" lon="7.7887968"/>
+    <nd ref="2214664867" lat="45.0726953" lon="7.7890703"/>
+    <nd ref="2214664868" lat="45.0726928" lon="7.7892015"/>
+    <nd ref="762150302" lat="45.0727029" lon="7.7893332"/>
+    <nd ref="3214264739" lat="45.0727283" lon="7.7895156"/>
+    <nd ref="522693407" lat="45.0727687" lon="7.7896331"/>
+    <nd ref="2214664869" lat="45.0729594" lon="7.7900202"/>
     <tag k="highway" v="tertiary"/>
-    <tag k="name" v="Via Città di Dipignano"/>
+    <tag k="name" v="Via Superga"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="350941956" version="1" timestamp="2015-06-02T16:46:58Z" changeset="31669613" uid="354284" user="sbiribizio">
-    <bounds minlat="44.6372059" minlon="8.3590835" maxlat="44.6381263" maxlon="8.3593965"/>
-    <nd ref="2704828092" lat="44.6381263" lon="8.3590835"/>
-    <nd ref="1000803752" lat="44.6378057" lon="8.3592494"/>
-    <nd ref="1000803706" lat="44.6375445" lon="8.3593791"/>
-    <nd ref="2849158515" lat="44.6374771" lon="8.3593915"/>
-    <nd ref="2346823582" lat="44.6374268" lon="8.3593965"/>
-    <nd ref="1000803765" lat="44.6372954" lon="8.3593807"/>
-    <nd ref="1000803741" lat="44.6372059" lon="8.3593746"/>
-    <tag k="name" v="Regione Cravarezza"/>
+  <way id="36250859" version="11" timestamp="2024-08-26T09:33:40Z" changeset="155772090" uid="10124288" user="damianeue">
+    <bounds minlat="44.9981651" minlon="8.5593204" maxlat="45.0024793" maxlon="8.5630150"/>
+    <nd ref="421907083" lat="44.9981651" lon="8.5630150"/>
+    <nd ref="423806750" lat="44.9985182" lon="8.5627980"/>
+    <nd ref="423011850" lat="44.9988224" lon="8.5626069"/>
+    <nd ref="423806749" lat="44.9994591" lon="8.5622151"/>
+    <nd ref="12137331276" lat="44.9996775" lon="8.5620419"/>
+    <nd ref="12137331275" lat="44.9998685" lon="8.5618501"/>
+    <nd ref="423011851" lat="45.0000592" lon="8.5616393"/>
+    <nd ref="423806746" lat="45.0003118" lon="8.5612743"/>
+    <nd ref="423806747" lat="45.0004234" lon="8.5610733"/>
+    <nd ref="423806748" lat="45.0004930" lon="8.5609434"/>
+    <nd ref="423011852" lat="45.0005478" lon="8.5608305"/>
+    <nd ref="4100210446" lat="45.0005985" lon="8.5607227"/>
+    <nd ref="423011853" lat="45.0007388" lon="8.5604530"/>
+    <nd ref="423011854" lat="45.0008195" lon="8.5603396"/>
+    <nd ref="12137331273" lat="45.0009288" lon="8.5602241"/>
+    <nd ref="423011855" lat="45.0010480" lon="8.5601320"/>
+    <nd ref="423806745" lat="45.0012102" lon="8.5600287"/>
+    <nd ref="423806744" lat="45.0013735" lon="8.5599295"/>
+    <nd ref="423806743" lat="45.0016779" lon="8.5597501"/>
+    <nd ref="423011856" lat="45.0021711" lon="8.5594530"/>
+    <nd ref="12137331277" lat="45.0023227" lon="8.5593750"/>
+    <nd ref="423170475" lat="45.0024793" lon="8.5593204"/>
+    <tag k="ref" v="SP65"/>
     <tag k="highway" v="tertiary"/>
   </way>
 </old>
 <new>
-  <way id="350941956" version="2" timestamp="2026-09-20T23:33:36Z" changeset="189320660" uid="14257573" user="toponomastica_comune_arenzano">
-    <bounds minlat="44.6372059" minlon="8.3590835" maxlat="44.6381263" maxlon="8.3593965"/>
-    <nd ref="2704828092" lat="44.6381263" lon="8.3590835"/>
-    <nd ref="1000803752" lat="44.6378057" lon="8.3592494"/>
-    <nd ref="1000803706" lat="44.6375445" lon="8.3593791"/>
-    <nd ref="2849158515" lat="44.6374771" lon="8.3593915"/>
-    <nd ref="2346823582" lat="44.6374268" lon="8.3593965"/>
-    <nd ref="1000803765" lat="44.6372954" lon="8.3593807"/>
-    <nd ref="1000803741" lat="44.6372059" lon="8.3593746"/>
+  <way id="36250859" version="12" timestamp="2026-09-21T17:56:27Z" changeset="189361832" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="44.9981651" minlon="8.5593204" maxlat="45.0024793" maxlon="8.5630150"/>
+    <nd ref="421907083" lat="44.9981651" lon="8.5630150"/>
+    <nd ref="423806750" lat="44.9985182" lon="8.5627980"/>
+    <nd ref="423011850" lat="44.9988224" lon="8.5626069"/>
+    <nd ref="423806749" lat="44.9994591" lon="8.5622151"/>
+    <nd ref="12137331276" lat="44.9996775" lon="8.5620419"/>
+    <nd ref="12137331275" lat="44.9998685" lon="8.5618501"/>
+    <nd ref="423011851" lat="45.0000592" lon="8.5616393"/>
+    <nd ref="423806746" lat="45.0003118" lon="8.5612743"/>
+    <nd ref="423806747" lat="45.0004234" lon="8.5610733"/>
+    <nd ref="423806748" lat="45.0004930" lon="8.5609434"/>
+    <nd ref="423011852" lat="45.0005478" lon="8.5608305"/>
+    <nd ref="4100210446" lat="45.0005985" lon="8.5607227"/>
+    <nd ref="423011853" lat="45.0007388" lon="8.5604530"/>
+    <nd ref="423011854" lat="45.0008195" lon="8.5603396"/>
+    <nd ref="12137331273" lat="45.0009288" lon="8.5602241"/>
+    <nd ref="423011855" lat="45.0010480" lon="8.5601320"/>
+    <nd ref="423806745" lat="45.0012102" lon="8.5600287"/>
+    <nd ref="423806744" lat="45.0013735" lon="8.5599295"/>
+    <nd ref="423806743" lat="45.0016779" lon="8.5597501"/>
+    <nd ref="423011856" lat="45.0021711" lon="8.5594530"/>
+    <nd ref="12137331277" lat="45.0023227" lon="8.5593750"/>
+    <nd ref="423170475" lat="45.0024793" lon="8.5593204"/>
     <tag k="highway" v="tertiary"/>
-    <tag k="name" v="Regione Cravarezza"/>
+    <tag k="ref" v="SP65"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
 </action>
 <action type="modify">
 <old>
-  <way id="896262404" version="2" timestamp="2021-01-20T09:45:54Z" changeset="97826161" uid="8954174" user="Ezio Michelis">
-    <bounds minlat="44.1443910" minlon="7.9084026" maxlat="44.1446980" maxlon="7.9085478"/>
-    <nd ref="2435878755" lat="44.1446980" lon="7.9085478"/>
-    <nd ref="726815110" lat="44.1445125" lon="7.9084559"/>
-    <nd ref="8331242282" lat="44.1444634" lon="7.9084348"/>
-    <nd ref="726815222" lat="44.1443910" lon="7.9084026"/>
+  <way id="70457474" version="4" timestamp="2022-01-28T17:44:02Z" changeset="116717167" uid="2976645" user="Jrachi">
+    <bounds minlat="45.1618800" minlon="7.4324695" maxlat="45.1618895" maxlon="7.4327933"/>
+    <nd ref="250284041" lat="45.1618895" lon="7.4324695"/>
+    <nd ref="250284040" lat="45.1618800" lon="7.4327933"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Via Mulino"/>
+  </way>
+</old>
+<new>
+  <way id="70457474" version="5" timestamp="2026-09-21T18:19:41Z" changeset="189362827" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.1618800" minlon="7.4324695" maxlat="45.1618895" maxlon="7.4327933"/>
+    <nd ref="250284041" lat="45.1618895" lon="7.4324695"/>
+    <nd ref="250284040" lat="45.1618800" lon="7.4327933"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Via Mulino"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="75616326" version="6" timestamp="2022-08-15T15:22:38Z" changeset="124933429" uid="2976645" user="Jrachi">
+    <bounds minlat="45.0220858" minlon="8.4222201" maxlat="45.0311661" maxlon="8.4364451"/>
+    <nd ref="879453205" lat="45.0220858" lon="8.4364451"/>
+    <nd ref="879453386" lat="45.0222844" lon="8.4362726"/>
+    <nd ref="879452515" lat="45.0225800" lon="8.4360323"/>
+    <nd ref="879453538" lat="45.0228262" lon="8.4358432"/>
+    <nd ref="879452682" lat="45.0231836" lon="8.4354444"/>
+    <nd ref="879453169" lat="45.0234100" lon="8.4351267"/>
+    <nd ref="879452250" lat="45.0236070" lon="8.4348381"/>
+    <nd ref="879452894" lat="45.0237336" lon="8.4345495"/>
+    <nd ref="879451896" lat="45.0238743" lon="8.4341315"/>
+    <nd ref="879452621" lat="45.0240431" lon="8.4336040"/>
+    <nd ref="879451607" lat="45.0241486" lon="8.4330766"/>
+    <nd ref="879452924" lat="45.0243174" lon="8.4324197"/>
+    <nd ref="879451929" lat="45.0244019" lon="8.4319918"/>
+    <nd ref="879452649" lat="45.0245355" lon="8.4313648"/>
+    <nd ref="879451635" lat="45.0246832" lon="8.4307279"/>
+    <nd ref="879452213" lat="45.0248028" lon="8.4302403"/>
+    <nd ref="879453477" lat="45.0249716" lon="8.4296929"/>
+    <nd ref="879451856" lat="45.0251686" lon="8.4292650"/>
+    <nd ref="879453137" lat="45.0254195" lon="8.4288863"/>
+    <nd ref="879452947" lat="45.0255038" lon="8.4287709"/>
+    <nd ref="879451995" lat="45.0258964" lon="8.4283091"/>
+    <nd ref="5509440541" lat="45.0269492" lon="8.4271142"/>
+    <nd ref="879453313" lat="45.0277711" lon="8.4261699"/>
+    <nd ref="879451708" lat="45.0296350" lon="8.4240104"/>
+    <nd ref="879451673" lat="45.0297560" lon="8.4238653"/>
+    <nd ref="5532028585" lat="45.0297739" lon="8.4238445"/>
+    <nd ref="3038407146" lat="45.0311188" lon="8.4222754"/>
+    <nd ref="3038407144" lat="45.0311661" lon="8.4222201"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="maxweight" v="11"/>
+  </way>
+</old>
+<new>
+  <way id="75616326" version="7" timestamp="2026-09-21T17:53:13Z" changeset="189361705" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.0220858" minlon="8.4222201" maxlat="45.0311661" maxlon="8.4364451"/>
+    <nd ref="879453205" lat="45.0220858" lon="8.4364451"/>
+    <nd ref="879453386" lat="45.0222844" lon="8.4362726"/>
+    <nd ref="879452515" lat="45.0225800" lon="8.4360323"/>
+    <nd ref="879453538" lat="45.0228262" lon="8.4358432"/>
+    <nd ref="879452682" lat="45.0231836" lon="8.4354444"/>
+    <nd ref="879453169" lat="45.0234100" lon="8.4351267"/>
+    <nd ref="879452250" lat="45.0236070" lon="8.4348381"/>
+    <nd ref="879452894" lat="45.0237336" lon="8.4345495"/>
+    <nd ref="879451896" lat="45.0238743" lon="8.4341315"/>
+    <nd ref="879452621" lat="45.0240431" lon="8.4336040"/>
+    <nd ref="879451607" lat="45.0241486" lon="8.4330766"/>
+    <nd ref="879452924" lat="45.0243174" lon="8.4324197"/>
+    <nd ref="879451929" lat="45.0244019" lon="8.4319918"/>
+    <nd ref="879452649" lat="45.0245355" lon="8.4313648"/>
+    <nd ref="879451635" lat="45.0246832" lon="8.4307279"/>
+    <nd ref="879452213" lat="45.0248028" lon="8.4302403"/>
+    <nd ref="879453477" lat="45.0249716" lon="8.4296929"/>
+    <nd ref="879451856" lat="45.0251686" lon="8.4292650"/>
+    <nd ref="879453137" lat="45.0254195" lon="8.4288863"/>
+    <nd ref="879452947" lat="45.0255038" lon="8.4287709"/>
+    <nd ref="879451995" lat="45.0258964" lon="8.4283091"/>
+    <nd ref="5509440541" lat="45.0269492" lon="8.4271142"/>
+    <nd ref="879453313" lat="45.0277711" lon="8.4261699"/>
+    <nd ref="879451708" lat="45.0296350" lon="8.4240104"/>
+    <nd ref="879451673" lat="45.0297560" lon="8.4238653"/>
+    <nd ref="5532028585" lat="45.0297739" lon="8.4238445"/>
+    <nd ref="3038407146" lat="45.0311188" lon="8.4222754"/>
+    <nd ref="3038407144" lat="45.0311661" lon="8.4222201"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="maxweight" v="11"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="77726936" version="20" timestamp="2025-02-01T16:28:34Z" changeset="162017520" uid="4795149" user="Fedurli">
+    <bounds minlat="45.3124344" minlon="7.5338375" maxlat="45.3130022" maxlon="7.5350031"/>
+    <nd ref="301263616" lat="45.3124344" lon="7.5350031"/>
+    <nd ref="3989773535" lat="45.3124907" lon="7.5349377"/>
+    <nd ref="6801480854" lat="45.3125152" lon="7.5348591"/>
+    <nd ref="914236992" lat="45.3125177" lon="7.5347570"/>
+    <nd ref="914236828" lat="45.3125289" lon="7.5346261"/>
+    <nd ref="3989773534" lat="45.3125493" lon="7.5345096"/>
+    <nd ref="914236860" lat="45.3125881" lon="7.5344183"/>
+    <nd ref="914237251" lat="45.3126578" lon="7.5343031"/>
+    <nd ref="2528143154" lat="45.3130022" lon="7.5338375"/>
+    <tag k="ref" v="SP22"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Circonvallazione"/>
+  </way>
+</old>
+<new>
+  <way id="77726936" version="21" timestamp="2026-09-21T18:18:07Z" changeset="189362772" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.3124344" minlon="7.5338375" maxlat="45.3130022" maxlon="7.5350031"/>
+    <nd ref="301263616" lat="45.3124344" lon="7.5350031"/>
+    <nd ref="3989773535" lat="45.3124907" lon="7.5349377"/>
+    <nd ref="6801480854" lat="45.3125152" lon="7.5348591"/>
+    <nd ref="914236992" lat="45.3125177" lon="7.5347570"/>
+    <nd ref="914236828" lat="45.3125289" lon="7.5346261"/>
+    <nd ref="3989773534" lat="45.3125493" lon="7.5345096"/>
+    <nd ref="914236860" lat="45.3125881" lon="7.5344183"/>
+    <nd ref="914237251" lat="45.3126578" lon="7.5343031"/>
+    <nd ref="2528143154" lat="45.3130022" lon="7.5338375"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Circonvallazione"/>
+    <tag k="ref" v="SP22"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="87074220" version="9" timestamp="2023-06-21T02:48:25Z" changeset="137584352" uid="4795149" user="Fedurli">
+    <bounds minlat="45.4192282" minlon="7.6838657" maxlat="45.4192626" maxlon="7.6841537"/>
+    <nd ref="480442701" lat="45.4192282" lon="7.6841537"/>
+    <nd ref="8445883712" lat="45.4192626" lon="7.6838657"/>
+    <tag k="ref" v="SP45dir2"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Via Santuario"/>
+  </way>
+</old>
+<new>
+  <way id="87074220" version="10" timestamp="2026-09-21T16:58:06Z" changeset="189359244" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.4192282" minlon="7.6838657" maxlat="45.4192626" maxlon="7.6841537"/>
+    <nd ref="480442701" lat="45.4192282" lon="7.6841537"/>
+    <nd ref="8445883712" lat="45.4192626" lon="7.6838657"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="layer" v="1"/>
+    <tag k="name" v="Via Santuario"/>
+    <tag k="ref" v="SP45dir2"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="113968513" version="7" timestamp="2025-04-30T07:36:36Z" changeset="165621682" uid="2976645" user="Jrachi">
+    <bounds minlat="44.6080838" minlon="8.2422622" maxlat="44.6109372" maxlon="8.2435494"/>
+    <nd ref="1291611062" lat="44.6080838" lon="8.2434737"/>
+    <nd ref="4530498125" lat="44.6081822" lon="8.2434989"/>
+    <nd ref="1291611127" lat="44.6082987" lon="8.2435158"/>
+    <nd ref="4530498126" lat="44.6083741" lon="8.2435190"/>
+    <nd ref="4530498124" lat="44.6084286" lon="8.2435163"/>
+    <nd ref="4530498127" lat="44.6084715" lon="8.2435177"/>
+    <nd ref="4530498123" lat="44.6085202" lon="8.2435257"/>
+    <nd ref="1291611132" lat="44.6085676" lon="8.2435371"/>
+    <nd ref="4530498128" lat="44.6086357" lon="8.2435485"/>
+    <nd ref="1291611133" lat="44.6087065" lon="8.2435494"/>
+    <nd ref="4530498129" lat="44.6088592" lon="8.2435003"/>
+    <nd ref="1291611134" lat="44.6089925" lon="8.2434444"/>
+    <nd ref="4530498130" lat="44.6090683" lon="8.2433836"/>
+    <nd ref="1291611135" lat="44.6091228" lon="8.2433094"/>
+    <nd ref="1291611136" lat="44.6091478" lon="8.2432565"/>
+    <nd ref="4530498131" lat="44.6091590" lon="8.2432173"/>
+    <nd ref="4530498132" lat="44.6091675" lon="8.2431314"/>
+    <nd ref="4530498133" lat="44.6091685" lon="8.2430577"/>
+    <nd ref="1291611138" lat="44.6091723" lon="8.2429874"/>
+    <nd ref="1291611139" lat="44.6091900" lon="8.2429076"/>
+    <nd ref="4530498134" lat="44.6092602" lon="8.2427680"/>
+    <nd ref="1291611141" lat="44.6093894" lon="8.2425984"/>
+    <nd ref="4530498135" lat="44.6095074" lon="8.2424850"/>
+    <nd ref="1291611149" lat="44.6095867" lon="8.2424352"/>
+    <nd ref="4530498136" lat="44.6096440" lon="8.2424086"/>
+    <nd ref="4530498137" lat="44.6097032" lon="8.2423992"/>
+    <nd ref="4530498138" lat="44.6098511" lon="8.2423898"/>
+    <nd ref="1291611150" lat="44.6099556" lon="8.2423755"/>
+    <nd ref="4530498139" lat="44.6101519" lon="8.2423469"/>
+    <nd ref="1291611151" lat="44.6103310" lon="8.2423294"/>
+    <nd ref="4530498140" lat="44.6105376" lon="8.2423335"/>
+    <nd ref="4530498141" lat="44.6106722" lon="8.2423268"/>
+    <nd ref="1291611152" lat="44.6107912" lon="8.2423033"/>
+    <nd ref="1291611153" lat="44.6109372" lon="8.2422622"/>
     <tag k="highway" v="tertiary"/>
   </way>
 </old>
 <new>
-  <way id="896262404" version="3" timestamp="2026-09-20T19:05:40Z" changeset="189312835" uid="14257573" user="toponomastica_comune_arenzano">
-    <bounds minlat="44.1443910" minlon="7.9084026" maxlat="44.1446980" maxlon="7.9085478"/>
-    <nd ref="2435878755" lat="44.1446980" lon="7.9085478"/>
-    <nd ref="726815110" lat="44.1445125" lon="7.9084559"/>
-    <nd ref="8331242282" lat="44.1444634" lon="7.9084348"/>
-    <nd ref="726815222" lat="44.1443910" lon="7.9084026"/>
+  <way id="113968513" version="8" timestamp="2026-09-21T17:16:50Z" changeset="189360143" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="44.6080838" minlon="8.2422622" maxlat="44.6109372" maxlon="8.2435494"/>
+    <nd ref="1291611062" lat="44.6080838" lon="8.2434737"/>
+    <nd ref="4530498125" lat="44.6081822" lon="8.2434989"/>
+    <nd ref="1291611127" lat="44.6082987" lon="8.2435158"/>
+    <nd ref="4530498126" lat="44.6083741" lon="8.2435190"/>
+    <nd ref="4530498124" lat="44.6084286" lon="8.2435163"/>
+    <nd ref="4530498127" lat="44.6084715" lon="8.2435177"/>
+    <nd ref="4530498123" lat="44.6085202" lon="8.2435257"/>
+    <nd ref="1291611132" lat="44.6085676" lon="8.2435371"/>
+    <nd ref="4530498128" lat="44.6086357" lon="8.2435485"/>
+    <nd ref="1291611133" lat="44.6087065" lon="8.2435494"/>
+    <nd ref="4530498129" lat="44.6088592" lon="8.2435003"/>
+    <nd ref="1291611134" lat="44.6089925" lon="8.2434444"/>
+    <nd ref="4530498130" lat="44.6090683" lon="8.2433836"/>
+    <nd ref="1291611135" lat="44.6091228" lon="8.2433094"/>
+    <nd ref="1291611136" lat="44.6091478" lon="8.2432565"/>
+    <nd ref="4530498131" lat="44.6091590" lon="8.2432173"/>
+    <nd ref="4530498132" lat="44.6091675" lon="8.2431314"/>
+    <nd ref="4530498133" lat="44.6091685" lon="8.2430577"/>
+    <nd ref="1291611138" lat="44.6091723" lon="8.2429874"/>
+    <nd ref="1291611139" lat="44.6091900" lon="8.2429076"/>
+    <nd ref="4530498134" lat="44.6092602" lon="8.2427680"/>
+    <nd ref="1291611141" lat="44.6093894" lon="8.2425984"/>
+    <nd ref="4530498135" lat="44.6095074" lon="8.2424850"/>
+    <nd ref="1291611149" lat="44.6095867" lon="8.2424352"/>
+    <nd ref="4530498136" lat="44.6096440" lon="8.2424086"/>
+    <nd ref="4530498137" lat="44.6097032" lon="8.2423992"/>
+    <nd ref="4530498138" lat="44.6098511" lon="8.2423898"/>
+    <nd ref="1291611150" lat="44.6099556" lon="8.2423755"/>
+    <nd ref="4530498139" lat="44.6101519" lon="8.2423469"/>
+    <nd ref="1291611151" lat="44.6103310" lon="8.2423294"/>
+    <nd ref="4530498140" lat="44.6105376" lon="8.2423335"/>
+    <nd ref="4530498141" lat="44.6106722" lon="8.2423268"/>
+    <nd ref="1291611152" lat="44.6107912" lon="8.2423033"/>
+    <nd ref="1291611153" lat="44.6109372" lon="8.2422622"/>
     <tag k="highway" v="tertiary"/>
     <tag k="surface" v="asphalt"/>
   </way>
@@ -90,35 +426,1169 @@
 </action>
 <action type="modify">
 <old>
-  <way id="1032946316" version="3" timestamp="2025-10-26T15:10:26Z" changeset="173799097" uid="14257573" user="toponomastica_comune_arenzano">
-    <bounds minlat="44.6570133" minlon="8.8294405" maxlat="44.6577279" maxlon="8.8303916"/>
-    <nd ref="2118377070" lat="44.6577279" lon="8.8303916"/>
-    <nd ref="13259716292" lat="44.6576901" lon="8.8303729"/>
-    <nd ref="2118377136" lat="44.6575356" lon="8.8302512"/>
-    <nd ref="2118377180" lat="44.6573768" lon="8.8300736"/>
-    <nd ref="2118377182" lat="44.6573056" lon="8.8299869"/>
-    <nd ref="2118377082" lat="44.6572250" lon="8.8298590"/>
-    <nd ref="13259674305" lat="44.6571144" lon="8.8297020"/>
-    <nd ref="2118377340" lat="44.6570434" lon="8.8295819"/>
-    <nd ref="2118377165" lat="44.6570171" lon="8.8295256"/>
-    <nd ref="2118377080" lat="44.6570133" lon="8.8294405"/>
+  <way id="158004294" version="5" timestamp="2021-11-07T15:58:02Z" changeset="113486000" uid="2537662" user="brk57">
+    <bounds minlat="45.4172136" minlon="7.6720393" maxlat="45.4173606" maxlon="7.6740741"/>
+    <nd ref="920222565" lat="45.4173606" lon="7.6740741"/>
+    <nd ref="1702404391" lat="45.4173004" lon="7.6739481"/>
+    <nd ref="301460479" lat="45.4172709" lon="7.6737813"/>
+    <nd ref="1702404392" lat="45.4172568" lon="7.6735279"/>
+    <nd ref="1702404393" lat="45.4172401" lon="7.6728958"/>
+    <nd ref="1702404394" lat="45.4172136" lon="7.6721062"/>
+    <nd ref="1702404395" lat="45.4172308" lon="7.6720393"/>
+    <tag k="ref" v="SP45"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Colleretto"/>
+  </way>
+</old>
+<new>
+  <way id="158004294" version="6" timestamp="2026-09-21T16:58:06Z" changeset="189359244" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.4172136" minlon="7.6720393" maxlat="45.4173606" maxlon="7.6740741"/>
+    <nd ref="920222565" lat="45.4173606" lon="7.6740741"/>
+    <nd ref="1702404391" lat="45.4173004" lon="7.6739481"/>
+    <nd ref="301460479" lat="45.4172709" lon="7.6737813"/>
+    <nd ref="1702404392" lat="45.4172568" lon="7.6735279"/>
+    <nd ref="1702404393" lat="45.4172401" lon="7.6728958"/>
+    <nd ref="1702404394" lat="45.4172136" lon="7.6721062"/>
+    <nd ref="1702404395" lat="45.4172308" lon="7.6720393"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Colleretto"/>
+    <tag k="ref" v="SP45"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="299784208" version="4" timestamp="2022-08-15T15:22:38Z" changeset="124933429" uid="2976645" user="Jrachi">
+    <bounds minlat="45.0311661" minlon="8.4221246" maxlat="45.0312521" maxlon="8.4222201"/>
+    <nd ref="3038407144" lat="45.0311661" lon="8.4222201"/>
+    <nd ref="3038407145" lat="45.0312521" lon="8.4221246"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="maxweight" v="11"/>
+  </way>
+</old>
+<new>
+  <way id="299784208" version="5" timestamp="2026-09-21T17:53:13Z" changeset="189361705" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.0311661" minlon="8.4221246" maxlat="45.0312521" maxlon="8.4222201"/>
+    <nd ref="3038407144" lat="45.0311661" lon="8.4222201"/>
+    <nd ref="3038407145" lat="45.0312521" lon="8.4221246"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="layer" v="1"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="maxweight" v="11"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="299784209" version="3" timestamp="2022-08-15T15:22:38Z" changeset="124933429" uid="2976645" user="Jrachi">
+    <bounds minlat="45.0312521" minlon="8.4205007" maxlat="45.0326545" maxlon="8.4221246"/>
+    <nd ref="3038407145" lat="45.0312521" lon="8.4221246"/>
+    <nd ref="879452990" lat="45.0320614" lon="8.4212039"/>
+    <nd ref="879453593" lat="45.0326545" lon="8.4205007"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="maxweight" v="11"/>
+  </way>
+</old>
+<new>
+  <way id="299784209" version="4" timestamp="2026-09-21T17:53:13Z" changeset="189361705" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.0312521" minlon="8.4205007" maxlat="45.0326545" maxlon="8.4221246"/>
+    <nd ref="3038407145" lat="45.0312521" lon="8.4221246"/>
+    <nd ref="879452990" lat="45.0320614" lon="8.4212039"/>
+    <nd ref="879453593" lat="45.0326545" lon="8.4205007"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="70"/>
+    <tag k="maxweight" v="11"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="315429433" version="23" timestamp="2025-03-20T16:07:05Z" changeset="163870091" uid="6645382" user="canfe">
+    <bounds minlat="45.3133528" minlon="7.5307422" maxlat="45.3133706" maxlon="7.5308383"/>
+    <nd ref="3215450378" lat="45.3133663" lon="7.5308383"/>
+    <nd ref="3215450377" lat="45.3133706" lon="7.5308132"/>
+    <nd ref="7757177118" lat="45.3133696" lon="7.5307874"/>
+    <nd ref="7757177119" lat="45.3133636" lon="7.5307631"/>
+    <nd ref="3215450375" lat="45.3133528" lon="7.5307422"/>
+    <tag k="junction" v="roundabout"/>
     <tag k="highway" v="tertiary"/>
   </way>
 </old>
 <new>
-  <way id="1032946316" version="4" timestamp="2026-09-20T23:36:37Z" changeset="189320705" uid="14257573" user="toponomastica_comune_arenzano">
-    <bounds minlat="44.6570133" minlon="8.8294405" maxlat="44.6577279" maxlon="8.8303916"/>
-    <nd ref="2118377070" lat="44.6577279" lon="8.8303916"/>
-    <nd ref="13259716292" lat="44.6576901" lon="8.8303729"/>
-    <nd ref="2118377136" lat="44.6575356" lon="8.8302512"/>
-    <nd ref="2118377180" lat="44.6573768" lon="8.8300736"/>
-    <nd ref="2118377182" lat="44.6573056" lon="8.8299869"/>
-    <nd ref="2118377082" lat="44.6572250" lon="8.8298590"/>
-    <nd ref="13259674305" lat="44.6571144" lon="8.8297020"/>
-    <nd ref="2118377340" lat="44.6570434" lon="8.8295819"/>
-    <nd ref="2118377165" lat="44.6570171" lon="8.8295256"/>
-    <nd ref="2118377080" lat="44.6570133" lon="8.8294405"/>
+  <way id="315429433" version="24" timestamp="2026-09-21T18:18:07Z" changeset="189362772" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.3133528" minlon="7.5307422" maxlat="45.3133706" maxlon="7.5308383"/>
+    <nd ref="3215450378" lat="45.3133663" lon="7.5308383"/>
+    <nd ref="3215450377" lat="45.3133706" lon="7.5308132"/>
+    <nd ref="7757177118" lat="45.3133696" lon="7.5307874"/>
+    <nd ref="7757177119" lat="45.3133636" lon="7.5307631"/>
+    <nd ref="3215450375" lat="45.3133528" lon="7.5307422"/>
     <tag k="highway" v="tertiary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="329057946" version="5" timestamp="2023-06-21T02:48:25Z" changeset="137584352" uid="4795149" user="Fedurli">
+    <bounds minlat="45.4182494" minlon="7.6841537" maxlat="45.4192282" maxlon="7.6861060"/>
+    <nd ref="3358841745" lat="45.4182494" lon="7.6861060"/>
+    <nd ref="480442693" lat="45.4185657" lon="7.6857263"/>
+    <nd ref="480442694" lat="45.4186959" lon="7.6855064"/>
+    <nd ref="8445883710" lat="45.4187510" lon="7.6854126"/>
+    <nd ref="8445883711" lat="45.4187901" lon="7.6852071"/>
+    <nd ref="480442697" lat="45.4188900" lon="7.6844723"/>
+    <nd ref="480442698" lat="45.4189626" lon="7.6843436"/>
+    <nd ref="480442699" lat="45.4191729" lon="7.6842042"/>
+    <nd ref="937878620" lat="45.4192072" lon="7.6841814"/>
+    <nd ref="480442701" lat="45.4192282" lon="7.6841537"/>
+    <tag k="ref" v="SP45dir2"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Santuario"/>
+  </way>
+</old>
+<new>
+  <way id="329057946" version="6" timestamp="2026-09-21T16:58:06Z" changeset="189359244" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.4182494" minlon="7.6841537" maxlat="45.4192282" maxlon="7.6861060"/>
+    <nd ref="3358841745" lat="45.4182494" lon="7.6861060"/>
+    <nd ref="480442693" lat="45.4185657" lon="7.6857263"/>
+    <nd ref="480442694" lat="45.4186959" lon="7.6855064"/>
+    <nd ref="8445883710" lat="45.4187510" lon="7.6854126"/>
+    <nd ref="8445883711" lat="45.4187901" lon="7.6852071"/>
+    <nd ref="480442697" lat="45.4188900" lon="7.6844723"/>
+    <nd ref="480442698" lat="45.4189626" lon="7.6843436"/>
+    <nd ref="480442699" lat="45.4191729" lon="7.6842042"/>
+    <nd ref="937878620" lat="45.4192072" lon="7.6841814"/>
+    <nd ref="480442701" lat="45.4192282" lon="7.6841537"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Santuario"/>
+    <tag k="ref" v="SP45dir2"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="339360281" version="4" timestamp="2025-09-22T07:12:01Z" changeset="172277822" uid="2976645" user="Jrachi">
+    <bounds minlat="44.9970406" minlon="8.5730993" maxlat="44.9988395" maxlon="8.5765711"/>
+    <nd ref="421907008" lat="44.9970406" lon="8.5730993"/>
+    <nd ref="2066457370" lat="44.9971774" lon="8.5735723"/>
+    <nd ref="421867488" lat="44.9975230" lon="8.5747675"/>
+    <nd ref="421867693" lat="44.9976928" lon="8.5753014"/>
+    <nd ref="421867490" lat="44.9980125" lon="8.5756873"/>
+    <nd ref="13161554717" lat="44.9987329" lon="8.5764091"/>
+    <nd ref="421867491" lat="44.9988395" lon="8.5765711"/>
+    <tag k="ref" v="SP64"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Francesco Cavalli"/>
+  </way>
+</old>
+<new>
+  <way id="339360281" version="5" timestamp="2026-09-21T17:56:27Z" changeset="189361832" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="44.9970406" minlon="8.5730993" maxlat="44.9988395" maxlon="8.5765711"/>
+    <nd ref="421907008" lat="44.9970406" lon="8.5730993"/>
+    <nd ref="2066457370" lat="44.9971774" lon="8.5735723"/>
+    <nd ref="421867488" lat="44.9975230" lon="8.5747675"/>
+    <nd ref="421867693" lat="44.9976928" lon="8.5753014"/>
+    <nd ref="421867490" lat="44.9980125" lon="8.5756873"/>
+    <nd ref="13161554717" lat="44.9987329" lon="8.5764091"/>
+    <nd ref="421867491" lat="44.9988395" lon="8.5765711"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Francesco Cavalli"/>
+    <tag k="ref" v="SP64"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="339364034" version="5" timestamp="2022-12-15T14:56:45Z" changeset="130119038" uid="9265159" user="grawal">
+    <bounds minlat="45.0479912" minlon="8.3924470" maxlat="45.0482620" maxlon="8.3926990"/>
+    <nd ref="879451714" lat="45.0482620" lon="8.3926990"/>
+    <nd ref="8231668819" lat="45.0481533" lon="8.3925979"/>
+    <nd ref="879452050" lat="45.0479912" lon="8.3924470"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="lit" v="no"/>
+  </way>
+</old>
+<new>
+  <way id="339364034" version="6" timestamp="2026-09-21T17:53:13Z" changeset="189361705" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.0479912" minlon="8.3924470" maxlat="45.0482620" maxlon="8.3926990"/>
+    <nd ref="879451714" lat="45.0482620" lon="8.3926990"/>
+    <nd ref="8231668819" lat="45.0481533" lon="8.3925979"/>
+    <nd ref="879452050" lat="45.0479912" lon="8.3924470"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="lit" v="no"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="422669619" version="4" timestamp="2025-04-30T07:36:36Z" changeset="165621682" uid="2976645" user="Jrachi">
+    <bounds minlat="44.6076152" minlon="8.2432518" maxlat="44.6080838" maxlon="8.2434737"/>
+    <nd ref="1568315205" lat="44.6076152" lon="8.2432518"/>
+    <nd ref="1291611061" lat="44.6076939" lon="8.2433164"/>
+    <nd ref="4530498405" lat="44.6078538" lon="8.2433967"/>
+    <nd ref="4530498404" lat="44.6079645" lon="8.2434463"/>
+    <nd ref="1291611062" lat="44.6080838" lon="8.2434737"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="422669619" version="5" timestamp="2026-09-21T17:16:50Z" changeset="189360143" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="44.6076152" minlon="8.2432518" maxlat="44.6080838" maxlon="8.2434737"/>
+    <nd ref="1568315205" lat="44.6076152" lon="8.2432518"/>
+    <nd ref="1291611061" lat="44.6076939" lon="8.2433164"/>
+    <nd ref="4530498405" lat="44.6078538" lon="8.2433967"/>
+    <nd ref="4530498404" lat="44.6079645" lon="8.2434463"/>
+    <nd ref="1291611062" lat="44.6080838" lon="8.2434737"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="422669620" version="4" timestamp="2025-04-30T07:36:36Z" changeset="165621682" uid="2976645" user="Jrachi">
+    <bounds minlat="44.6120226" minlon="8.2427222" maxlat="44.6122487" maxlon="8.2429061"/>
+    <nd ref="1291611087" lat="44.6122487" lon="8.2427222"/>
+    <nd ref="4530498174" lat="44.6122432" lon="8.2427714"/>
+    <nd ref="4530498173" lat="44.6122279" lon="8.2428223"/>
+    <nd ref="1291611088" lat="44.6122080" lon="8.2428621"/>
+    <nd ref="4530498172" lat="44.6121835" lon="8.2428887"/>
+    <nd ref="1291611089" lat="44.6121490" lon="8.2429059"/>
+    <nd ref="4530498171" lat="44.6121138" lon="8.2429061"/>
+    <nd ref="4530498170" lat="44.6120804" lon="8.2428927"/>
+    <nd ref="1291611093" lat="44.6120565" lon="8.2428652"/>
+    <nd ref="4530498169" lat="44.6120382" lon="8.2428339"/>
+    <nd ref="1291611095" lat="44.6120226" lon="8.2427902"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="422669620" version="5" timestamp="2026-09-21T17:16:50Z" changeset="189360143" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="44.6120226" minlon="8.2427222" maxlat="44.6122487" maxlon="8.2429061"/>
+    <nd ref="1291611087" lat="44.6122487" lon="8.2427222"/>
+    <nd ref="4530498174" lat="44.6122432" lon="8.2427714"/>
+    <nd ref="4530498173" lat="44.6122279" lon="8.2428223"/>
+    <nd ref="1291611088" lat="44.6122080" lon="8.2428621"/>
+    <nd ref="4530498172" lat="44.6121835" lon="8.2428887"/>
+    <nd ref="1291611089" lat="44.6121490" lon="8.2429059"/>
+    <nd ref="4530498171" lat="44.6121138" lon="8.2429061"/>
+    <nd ref="4530498170" lat="44.6120804" lon="8.2428927"/>
+    <nd ref="1291611093" lat="44.6120565" lon="8.2428652"/>
+    <nd ref="4530498169" lat="44.6120382" lon="8.2428339"/>
+    <nd ref="1291611095" lat="44.6120226" lon="8.2427902"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="422669653" version="2" timestamp="2022-12-28T20:10:21Z" changeset="130616958" uid="2976645" user="Jrachi">
+    <bounds minlat="44.6356391" minlon="8.2841049" maxlat="44.6362827" maxlon="8.2846681"/>
+    <nd ref="911165620" lat="44.6362827" lon="8.2841049"/>
+    <nd ref="4019861095" lat="44.6362253" lon="8.2842020"/>
+    <nd ref="4213534817" lat="44.6361819" lon="8.2842987"/>
+    <nd ref="3191493289" lat="44.6361439" lon="8.2843926"/>
+    <nd ref="4213534816" lat="44.6361214" lon="8.2844761"/>
+    <nd ref="4213534815" lat="44.6361089" lon="8.2845193"/>
+    <nd ref="911165470" lat="44.6360973" lon="8.2845471"/>
+    <nd ref="4213534814" lat="44.6360787" lon="8.2845713"/>
+    <nd ref="4213534813" lat="44.6360437" lon="8.2845904"/>
+    <nd ref="4213534812" lat="44.6359838" lon="8.2846094"/>
+    <nd ref="1392587218" lat="44.6358667" lon="8.2846425"/>
+    <nd ref="4213534811" lat="44.6357710" lon="8.2846549"/>
+    <nd ref="4213534810" lat="44.6356391" lon="8.2846681"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="cutting" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="oneway" v="no"/>
+  </way>
+</old>
+<new>
+  <way id="422669653" version="3" timestamp="2026-09-21T17:16:50Z" changeset="189360143" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="44.6356391" minlon="8.2841049" maxlat="44.6362827" maxlon="8.2846681"/>
+    <nd ref="911165620" lat="44.6362827" lon="8.2841049"/>
+    <nd ref="4019861095" lat="44.6362253" lon="8.2842020"/>
+    <nd ref="4213534817" lat="44.6361819" lon="8.2842987"/>
+    <nd ref="3191493289" lat="44.6361439" lon="8.2843926"/>
+    <nd ref="4213534816" lat="44.6361214" lon="8.2844761"/>
+    <nd ref="4213534815" lat="44.6361089" lon="8.2845193"/>
+    <nd ref="911165470" lat="44.6360973" lon="8.2845471"/>
+    <nd ref="4213534814" lat="44.6360787" lon="8.2845713"/>
+    <nd ref="4213534813" lat="44.6360437" lon="8.2845904"/>
+    <nd ref="4213534812" lat="44.6359838" lon="8.2846094"/>
+    <nd ref="1392587218" lat="44.6358667" lon="8.2846425"/>
+    <nd ref="4213534811" lat="44.6357710" lon="8.2846549"/>
+    <nd ref="4213534810" lat="44.6356391" lon="8.2846681"/>
+    <tag k="cutting" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="oneway" v="no"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="524421046" version="3" timestamp="2023-07-24T20:43:56Z" changeset="138958607" uid="4795149" user="Fedurli">
+    <bounds minlat="45.2840503" minlon="7.4314893" maxlat="45.2844612" maxlon="7.4317095"/>
+    <nd ref="3783333504" lat="45.2844612" lon="7.4314893"/>
+    <nd ref="810300528" lat="45.2843707" lon="7.4315192"/>
+    <nd ref="810300628" lat="45.2841921" lon="7.4316333"/>
+    <nd ref="1747834224" lat="45.2840503" lon="7.4317095"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="ref" v="SP30"/>
+  </way>
+</old>
+<new>
+  <way id="524421046" version="4" timestamp="2026-09-21T18:18:07Z" changeset="189362772" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.2840503" minlon="7.4314893" maxlat="45.2844612" maxlon="7.4317095"/>
+    <nd ref="3783333504" lat="45.2844612" lon="7.4314893"/>
+    <nd ref="810300528" lat="45.2843707" lon="7.4315192"/>
+    <nd ref="810300628" lat="45.2841921" lon="7.4316333"/>
+    <nd ref="1747834224" lat="45.2840503" lon="7.4317095"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="ref" v="SP30"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="526383074" version="3" timestamp="2019-07-25T07:54:23Z" changeset="72631319" uid="2976645" user="Jrachi">
+    <bounds minlat="45.2499139" minlon="7.3424361" maxlat="45.2500834" maxlon="7.3425328"/>
+    <nd ref="5118891214" lat="45.2500834" lon="7.3424452"/>
+    <nd ref="6645991707" lat="45.2500340" lon="7.3424361"/>
+    <nd ref="1342584203" lat="45.2499895" lon="7.3424384"/>
+    <nd ref="5117660685" lat="45.2499507" lon="7.3424748"/>
+    <nd ref="1342584145" lat="45.2499139" lon="7.3425328"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="526383074" version="4" timestamp="2026-09-21T18:19:41Z" changeset="189362827" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.2499139" minlon="7.3424361" maxlat="45.2500834" maxlon="7.3425328"/>
+    <nd ref="5118891214" lat="45.2500834" lon="7.3424452"/>
+    <nd ref="6645991707" lat="45.2500340" lon="7.3424361"/>
+    <nd ref="1342584203" lat="45.2499895" lon="7.3424384"/>
+    <nd ref="5117660685" lat="45.2499507" lon="7.3424748"/>
+    <nd ref="1342584145" lat="45.2499139" lon="7.3425328"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="532960245" version="5" timestamp="2023-07-24T02:52:26Z" changeset="138917416" uid="4795149" user="Fedurli">
+    <bounds minlat="45.1566874" minlon="7.5332221" maxlat="45.1578924" maxlon="7.5340226"/>
+    <nd ref="1377409387" lat="45.1566874" lon="7.5340226"/>
+    <nd ref="247711556" lat="45.1567670" lon="7.5339838"/>
+    <nd ref="835261839" lat="45.1573466" lon="7.5336559"/>
+    <nd ref="835312115" lat="45.1576585" lon="7.5334213"/>
+    <nd ref="732359305" lat="45.1577158" lon="7.5333782"/>
+    <nd ref="835261683" lat="45.1578924" lon="7.5332221"/>
+    <tag k="ref" v="SP8/3"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Via La Cassa"/>
+  </way>
+</old>
+<new>
+  <way id="532960245" version="6" timestamp="2026-09-21T18:19:41Z" changeset="189362827" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.1566874" minlon="7.5332221" maxlat="45.1578924" maxlon="7.5340226"/>
+    <nd ref="1377409387" lat="45.1566874" lon="7.5340226"/>
+    <nd ref="247711556" lat="45.1567670" lon="7.5339838"/>
+    <nd ref="835261839" lat="45.1573466" lon="7.5336559"/>
+    <nd ref="835312115" lat="45.1576585" lon="7.5334213"/>
+    <nd ref="732359305" lat="45.1577158" lon="7.5333782"/>
+    <nd ref="835261683" lat="45.1578924" lon="7.5332221"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="maxspeed" v="50"/>
+    <tag k="name" v="Via La Cassa"/>
+    <tag k="ref" v="SP8/3"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="725417116" version="6" timestamp="2022-02-18T16:52:26Z" changeset="117573655" uid="15079386" user="RedCurtain">
+    <bounds minlat="44.6211723" minlon="8.8483790" maxlat="44.6232511" maxlon="8.8520616"/>
+    <nd ref="1289108699" lat="44.6232511" lon="8.8515846"/>
+    <nd ref="510760251" lat="44.6226744" lon="8.8520413"/>
+    <nd ref="1289108700" lat="44.6225992" lon="8.8520616"/>
+    <nd ref="8693860300" lat="44.6225360" lon="8.8520210"/>
+    <nd ref="1289108701" lat="44.6224945" lon="8.8518999"/>
+    <nd ref="1289108702" lat="44.6224188" lon="8.8514447"/>
+    <nd ref="1289108703" lat="44.6221319" lon="8.8507464"/>
+    <nd ref="510760255" lat="44.6220016" lon="8.8503293"/>
+    <nd ref="1289108704" lat="44.6218060" lon="8.8499602"/>
+    <nd ref="6817452588" lat="44.6217382" lon="8.8497848"/>
+    <nd ref="6817452587" lat="44.6217225" lon="8.8495851"/>
+    <nd ref="6817452589" lat="44.6217719" lon="8.8493853"/>
+    <nd ref="1289108705" lat="44.6217461" lon="8.8492587"/>
+    <nd ref="1289108706" lat="44.6216161" lon="8.8489579"/>
+    <nd ref="6817452590" lat="44.6215618" lon="8.8487482"/>
+    <nd ref="510760257" lat="44.6215309" lon="8.8485753"/>
+    <nd ref="7301981569" lat="44.6214964" lon="8.8485016"/>
+    <nd ref="1289108707" lat="44.6214485" lon="8.8484658"/>
+    <nd ref="8821218216" lat="44.6211723" lon="8.8483790"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="725417116" version="7" timestamp="2026-09-21T17:23:19Z" changeset="189360431" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="44.6211723" minlon="8.8483790" maxlat="44.6232511" maxlon="8.8520616"/>
+    <nd ref="1289108699" lat="44.6232511" lon="8.8515846"/>
+    <nd ref="510760251" lat="44.6226744" lon="8.8520413"/>
+    <nd ref="1289108700" lat="44.6225992" lon="8.8520616"/>
+    <nd ref="8693860300" lat="44.6225360" lon="8.8520210"/>
+    <nd ref="1289108701" lat="44.6224945" lon="8.8518999"/>
+    <nd ref="1289108702" lat="44.6224188" lon="8.8514447"/>
+    <nd ref="1289108703" lat="44.6221319" lon="8.8507464"/>
+    <nd ref="510760255" lat="44.6220016" lon="8.8503293"/>
+    <nd ref="1289108704" lat="44.6218060" lon="8.8499602"/>
+    <nd ref="6817452588" lat="44.6217382" lon="8.8497848"/>
+    <nd ref="6817452587" lat="44.6217225" lon="8.8495851"/>
+    <nd ref="6817452589" lat="44.6217719" lon="8.8493853"/>
+    <nd ref="1289108705" lat="44.6217461" lon="8.8492587"/>
+    <nd ref="1289108706" lat="44.6216161" lon="8.8489579"/>
+    <nd ref="6817452590" lat="44.6215618" lon="8.8487482"/>
+    <nd ref="510760257" lat="44.6215309" lon="8.8485753"/>
+    <nd ref="7301981569" lat="44.6214964" lon="8.8485016"/>
+    <nd ref="1289108707" lat="44.6214485" lon="8.8484658"/>
+    <nd ref="8821218216" lat="44.6211723" lon="8.8483790"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="725417117" version="1" timestamp="2019-09-17T15:08:31Z" changeset="74587178" uid="8069253" user="Bratta">
+    <bounds minlat="44.6232511" minlon="8.8514074" maxlat="44.6234145" maxlon="8.8515846"/>
+    <nd ref="6802550867" lat="44.6234145" lon="8.8514074"/>
+    <nd ref="1289108699" lat="44.6232511" lon="8.8515846"/>
+    <tag k="layer" v="1"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="725417117" version="2" timestamp="2026-09-21T17:23:19Z" changeset="189360431" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="44.6232511" minlon="8.8514074" maxlat="44.6234145" maxlon="8.8515846"/>
+    <nd ref="6802550867" lat="44.6234145" lon="8.8514074"/>
+    <nd ref="1289108699" lat="44.6232511" lon="8.8515846"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="layer" v="1"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="744074987" version="5" timestamp="2024-04-09T14:28:36Z" changeset="149780089" uid="3286661" user="LorenzoBassi_SICAI_Team">
+    <bounds minlat="45.4192624" minlon="7.6819069" maxlat="45.4192897" maxlon="7.6837360"/>
+    <nd ref="1012667328" lat="45.4192751" lon="7.6837360"/>
+    <nd ref="480442702" lat="45.4192830" lon="7.6835863"/>
+    <nd ref="480442704" lat="45.4192897" lon="7.6829952"/>
+    <nd ref="3220076198" lat="45.4192624" lon="7.6819069"/>
+    <tag k="ref" v="SP45dir2"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Santuario di Piova"/>
+  </way>
+</old>
+<new>
+  <way id="744074987" version="6" timestamp="2026-09-21T16:58:06Z" changeset="189359244" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.4192624" minlon="7.6819069" maxlat="45.4192897" maxlon="7.6837360"/>
+    <nd ref="1012667328" lat="45.4192751" lon="7.6837360"/>
+    <nd ref="480442702" lat="45.4192830" lon="7.6835863"/>
+    <nd ref="480442704" lat="45.4192897" lon="7.6829952"/>
+    <nd ref="3220076198" lat="45.4192624" lon="7.6819069"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Santuario di Piova"/>
+    <tag k="ref" v="SP45dir2"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="744074988" version="2" timestamp="2026-01-23T08:15:59Z" changeset="177596956" uid="9265159" user="grawal">
+    <bounds minlat="45.4182494" minlon="7.6860984" maxlat="45.4183014" maxlon="7.6861060"/>
+    <nd ref="3358841745" lat="45.4182494" lon="7.6861060"/>
+    <nd ref="1231076126" lat="45.4183014" lon="7.6860984"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="744074988" version="3" timestamp="2026-09-21T16:58:06Z" changeset="189359244" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.4182494" minlon="7.6860984" maxlat="45.4183014" maxlon="7.6861060"/>
+    <nd ref="3358841745" lat="45.4182494" lon="7.6861060"/>
+    <nd ref="1231076126" lat="45.4183014" lon="7.6860984"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="744574682" version="1" timestamp="2019-11-12T10:20:19Z" changeset="76952701" uid="1753173" user="gianfox">
+    <bounds minlat="45.4160681" minlon="7.6684044" maxlat="45.4161084" maxlon="7.6685083"/>
+    <nd ref="1702404417" lat="45.4161084" lon="7.6685083"/>
+    <nd ref="1604743872" lat="45.4160681" lon="7.6684044"/>
+    <tag k="ref" v="SP45"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Colleretto"/>
+  </way>
+</old>
+<new>
+  <way id="744574682" version="2" timestamp="2026-09-21T16:58:06Z" changeset="189359244" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.4160681" minlon="7.6684044" maxlat="45.4161084" maxlon="7.6685083"/>
+    <nd ref="1702404417" lat="45.4161084" lon="7.6685083"/>
+    <nd ref="1604743872" lat="45.4160681" lon="7.6684044"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Colleretto"/>
+    <tag k="ref" v="SP45"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="745376504" version="4" timestamp="2024-11-25T10:55:02Z" changeset="159567825" uid="2976645" user="Jrachi">
+    <bounds minlat="45.4176933" minlon="7.6553506" maxlat="45.4178650" maxlon="7.6558382"/>
+    <nd ref="1361468608" lat="45.4176933" lon="7.6558382"/>
+    <nd ref="1361468610" lat="45.4178017" lon="7.6558029"/>
+    <nd ref="1361468611" lat="45.4178360" lon="7.6555392"/>
+    <nd ref="1361468612" lat="45.4178650" lon="7.6553506"/>
+    <tag k="ref" v="SP45dir1"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Cresto"/>
+  </way>
+</old>
+<new>
+  <way id="745376504" version="5" timestamp="2026-09-21T16:58:06Z" changeset="189359244" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.4176933" minlon="7.6553506" maxlat="45.4178650" maxlon="7.6558382"/>
+    <nd ref="1361468608" lat="45.4176933" lon="7.6558382"/>
+    <nd ref="1361468610" lat="45.4178017" lon="7.6558029"/>
+    <nd ref="1361468611" lat="45.4178360" lon="7.6555392"/>
+    <nd ref="1361468612" lat="45.4178650" lon="7.6553506"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Cresto"/>
+    <tag k="ref" v="SP45dir1"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1002426081" version="1" timestamp="2021-11-14T22:00:40Z" changeset="113780586" uid="3215770" user="Andrea Del Sarto">
+    <bounds minlat="44.5741104" minlon="8.5945316" maxlat="44.5741551" maxlon="8.5951266"/>
+    <nd ref="1829431273" lat="44.5741104" lon="8.5951266"/>
+    <nd ref="2482860740" lat="44.5741406" lon="8.5949774"/>
+    <nd ref="1222876961" lat="44.5741410" lon="8.5948564"/>
+    <nd ref="1829431275" lat="44.5741551" lon="8.5945316"/>
+    <tag k="name" v="Strada San Luca"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1002426081" version="2" timestamp="2026-09-21T18:11:08Z" changeset="189362495" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="44.5741104" minlon="8.5945316" maxlat="44.5741551" maxlon="8.5951266"/>
+    <nd ref="1829431273" lat="44.5741104" lon="8.5951266"/>
+    <nd ref="2482860740" lat="44.5741406" lon="8.5949774"/>
+    <nd ref="1222876961" lat="44.5741410" lon="8.5948564"/>
+    <nd ref="1829431275" lat="44.5741551" lon="8.5945316"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Strada San Luca"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1032946323" version="2" timestamp="2026-09-11T13:51:36Z" changeset="188874116" uid="8069253" user="Bratta">
+    <bounds minlat="44.6234145" minlon="8.8512294" maxlat="44.6271994" maxlon="8.8566830"/>
+    <nd ref="510760325" lat="44.6271994" lon="8.8566830"/>
+    <nd ref="510760330" lat="44.6266984" lon="8.8563920"/>
+    <nd ref="510760266" lat="44.6262813" lon="8.8561713"/>
+    <nd ref="1289108688" lat="44.6261877" lon="8.8560710"/>
+    <nd ref="14173476788" lat="44.6261604" lon="8.8559553"/>
+    <nd ref="510760269" lat="44.6261663" lon="8.8558654"/>
+    <nd ref="1289108689" lat="44.6262262" lon="8.8556801"/>
+    <nd ref="510760274" lat="44.6262686" lon="8.8554840"/>
+    <nd ref="14173476787" lat="44.6262819" lon="8.8552768"/>
+    <nd ref="1289108690" lat="44.6262586" lon="8.8550695"/>
+    <nd ref="1289108691" lat="44.6261312" lon="8.8545532"/>
+    <nd ref="1289108692" lat="44.6260332" lon="8.8540059"/>
+    <nd ref="510760237" lat="44.6259180" lon="8.8535050"/>
+    <nd ref="1289108693" lat="44.6259347" lon="8.8532501"/>
+    <nd ref="510760240" lat="44.6260570" lon="8.8529954"/>
+    <nd ref="510760276" lat="44.6263001" lon="8.8527193"/>
+    <nd ref="1289108694" lat="44.6265999" lon="8.8524885"/>
+    <nd ref="1289108695" lat="44.6266943" lon="8.8523558"/>
+    <nd ref="6817452678" lat="44.6267308" lon="8.8522611"/>
+    <nd ref="510760280" lat="44.6267207" lon="8.8521057"/>
+    <nd ref="1289108696" lat="44.6266676" lon="8.8520094"/>
+    <nd ref="510760285" lat="44.6265740" lon="8.8519853"/>
+    <nd ref="1289108697" lat="44.6264663" lon="8.8520040"/>
+    <nd ref="6817452679" lat="44.6261763" lon="8.8521571"/>
+    <nd ref="510760243" lat="44.6257297" lon="8.8522377"/>
+    <nd ref="510760247" lat="44.6254255" lon="8.8522347"/>
+    <nd ref="1289108698" lat="44.6251950" lon="8.8521558"/>
+    <nd ref="6802550838" lat="44.6248151" lon="8.8518817"/>
+    <nd ref="8693860308" lat="44.6246482" lon="8.8518099"/>
+    <nd ref="6802550839" lat="44.6244625" lon="8.8517886"/>
+    <nd ref="6802550837" lat="44.6244055" lon="8.8517367"/>
+    <nd ref="8693860457" lat="44.6242617" lon="8.8516107"/>
+    <nd ref="8693860456" lat="44.6240887" lon="8.8514930"/>
+    <nd ref="510760249" lat="44.6237085" lon="8.8512411"/>
+    <nd ref="2328785289" lat="44.6236200" lon="8.8512294"/>
+    <nd ref="2328785285" lat="44.6235503" lon="8.8512704"/>
+    <nd ref="6802550867" lat="44.6234145" lon="8.8514074"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1032946323" version="3" timestamp="2026-09-21T17:23:19Z" changeset="189360431" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="44.6234145" minlon="8.8512294" maxlat="44.6271994" maxlon="8.8566830"/>
+    <nd ref="510760325" lat="44.6271994" lon="8.8566830"/>
+    <nd ref="510760330" lat="44.6266984" lon="8.8563920"/>
+    <nd ref="510760266" lat="44.6262813" lon="8.8561713"/>
+    <nd ref="1289108688" lat="44.6261877" lon="8.8560710"/>
+    <nd ref="14173476788" lat="44.6261604" lon="8.8559553"/>
+    <nd ref="510760269" lat="44.6261663" lon="8.8558654"/>
+    <nd ref="1289108689" lat="44.6262262" lon="8.8556801"/>
+    <nd ref="510760274" lat="44.6262686" lon="8.8554840"/>
+    <nd ref="14173476787" lat="44.6262819" lon="8.8552768"/>
+    <nd ref="1289108690" lat="44.6262586" lon="8.8550695"/>
+    <nd ref="1289108691" lat="44.6261312" lon="8.8545532"/>
+    <nd ref="1289108692" lat="44.6260332" lon="8.8540059"/>
+    <nd ref="510760237" lat="44.6259180" lon="8.8535050"/>
+    <nd ref="1289108693" lat="44.6259347" lon="8.8532501"/>
+    <nd ref="510760240" lat="44.6260570" lon="8.8529954"/>
+    <nd ref="510760276" lat="44.6263001" lon="8.8527193"/>
+    <nd ref="1289108694" lat="44.6265999" lon="8.8524885"/>
+    <nd ref="1289108695" lat="44.6266943" lon="8.8523558"/>
+    <nd ref="6817452678" lat="44.6267308" lon="8.8522611"/>
+    <nd ref="510760280" lat="44.6267207" lon="8.8521057"/>
+    <nd ref="1289108696" lat="44.6266676" lon="8.8520094"/>
+    <nd ref="510760285" lat="44.6265740" lon="8.8519853"/>
+    <nd ref="1289108697" lat="44.6264663" lon="8.8520040"/>
+    <nd ref="6817452679" lat="44.6261763" lon="8.8521571"/>
+    <nd ref="510760243" lat="44.6257297" lon="8.8522377"/>
+    <nd ref="510760247" lat="44.6254255" lon="8.8522347"/>
+    <nd ref="1289108698" lat="44.6251950" lon="8.8521558"/>
+    <nd ref="6802550838" lat="44.6248151" lon="8.8518817"/>
+    <nd ref="8693860308" lat="44.6246482" lon="8.8518099"/>
+    <nd ref="6802550839" lat="44.6244625" lon="8.8517886"/>
+    <nd ref="6802550837" lat="44.6244055" lon="8.8517367"/>
+    <nd ref="8693860457" lat="44.6242617" lon="8.8516107"/>
+    <nd ref="8693860456" lat="44.6240887" lon="8.8514930"/>
+    <nd ref="510760249" lat="44.6237085" lon="8.8512411"/>
+    <nd ref="2328785289" lat="44.6236200" lon="8.8512294"/>
+    <nd ref="2328785285" lat="44.6235503" lon="8.8512704"/>
+    <nd ref="6802550867" lat="44.6234145" lon="8.8514074"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1055016877" version="2" timestamp="2022-12-30T14:03:49Z" changeset="130688482" uid="2976645" user="Jrachi">
+    <bounds minlat="45.0796507" minlon="7.9689294" maxlat="45.0797092" maxlon="7.9690881"/>
+    <nd ref="2297484483" lat="45.0796507" lon="7.9690881"/>
+    <nd ref="9694549075" lat="45.0796826" lon="7.9690015"/>
+    <nd ref="2149267662" lat="45.0797092" lon="7.9689294"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="oneway" v="yes"/>
+  </way>
+</old>
+<new>
+  <way id="1055016877" version="3" timestamp="2026-09-21T17:05:13Z" changeset="189359630" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.0796507" minlon="7.9689294" maxlat="45.0797092" maxlon="7.9690881"/>
+    <nd ref="2297484483" lat="45.0796507" lon="7.9690881"/>
+    <nd ref="9694549075" lat="45.0796826" lon="7.9690015"/>
+    <nd ref="2149267662" lat="45.0797092" lon="7.9689294"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="oneway" v="yes"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1055016878" version="4" timestamp="2025-03-12T11:40:18Z" changeset="163523701" uid="11220113" user="ivanbranco">
+    <bounds minlat="45.0795016" minlon="7.9686056" maxlat="45.0795912" maxlon="7.9688490"/>
+    <nd ref="550691077" lat="45.0795618" lon="7.9686056"/>
+    <nd ref="9694549089" lat="45.0795375" lon="7.9686235"/>
+    <nd ref="9694549088" lat="45.0795183" lon="7.9686510"/>
+    <nd ref="9694549087" lat="45.0795059" lon="7.9686855"/>
+    <nd ref="550690832" lat="45.0795016" lon="7.9687237"/>
+    <nd ref="9694549086" lat="45.0795058" lon="7.9687619"/>
+    <nd ref="9694549085" lat="45.0795180" lon="7.9687966"/>
+    <nd ref="9694549090" lat="45.0795371" lon="7.9688242"/>
+    <nd ref="9694549084" lat="45.0795627" lon="7.9688429"/>
+    <nd ref="2297484482" lat="45.0795912" lon="7.9688490"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="junction" v="roundabout"/>
+  </way>
+</old>
+<new>
+  <way id="1055016878" version="5" timestamp="2026-09-21T17:05:13Z" changeset="189359630" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.0795016" minlon="7.9686056" maxlat="45.0795912" maxlon="7.9688490"/>
+    <nd ref="550691077" lat="45.0795618" lon="7.9686056"/>
+    <nd ref="9694549089" lat="45.0795375" lon="7.9686235"/>
+    <nd ref="9694549088" lat="45.0795183" lon="7.9686510"/>
+    <nd ref="9694549087" lat="45.0795059" lon="7.9686855"/>
+    <nd ref="550690832" lat="45.0795016" lon="7.9687237"/>
+    <nd ref="9694549086" lat="45.0795058" lon="7.9687619"/>
+    <nd ref="9694549085" lat="45.0795180" lon="7.9687966"/>
+    <nd ref="9694549090" lat="45.0795371" lon="7.9688242"/>
+    <nd ref="9694549084" lat="45.0795627" lon="7.9688429"/>
+    <nd ref="2297484482" lat="45.0795912" lon="7.9688490"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1077984025" version="3" timestamp="2025-03-12T11:40:18Z" changeset="163523701" uid="11220113" user="ivanbranco">
+    <bounds minlat="45.0796447" minlon="7.9688219" maxlat="45.0797092" maxlon="7.9689294"/>
+    <nd ref="9694549082" lat="45.0796447" lon="7.9688219"/>
+    <nd ref="12655912715" lat="45.0796568" lon="7.9688421"/>
+    <nd ref="2149267662" lat="45.0797092" lon="7.9689294"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1077984025" version="4" timestamp="2026-09-21T17:05:13Z" changeset="189359630" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.0796447" minlon="7.9688219" maxlat="45.0797092" maxlon="7.9689294"/>
+    <nd ref="9694549082" lat="45.0796447" lon="7.9688219"/>
+    <nd ref="12655912715" lat="45.0796568" lon="7.9688421"/>
+    <nd ref="2149267662" lat="45.0797092" lon="7.9689294"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1119628935" version="11" timestamp="2025-05-04T11:36:42Z" changeset="165795152" uid="2976645" user="Jrachi">
+    <bounds minlat="45.3132872" minlon="7.5325653" maxlat="45.3136818" maxlon="7.5334245"/>
+    <nd ref="2528154388" lat="45.3132872" lon="7.5334245"/>
+    <nd ref="914237161" lat="45.3135394" lon="7.5328608"/>
+    <nd ref="914237206" lat="45.3136211" lon="7.5326867"/>
+    <nd ref="2528158307" lat="45.3136818" lon="7.5325653"/>
+    <tag k="ref" v="SP22"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Circonvallazione"/>
+  </way>
+</old>
+<new>
+  <way id="1119628935" version="12" timestamp="2026-09-21T18:18:07Z" changeset="189362772" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.3132872" minlon="7.5325653" maxlat="45.3136818" maxlon="7.5334245"/>
+    <nd ref="2528154388" lat="45.3132872" lon="7.5334245"/>
+    <nd ref="914237161" lat="45.3135394" lon="7.5328608"/>
+    <nd ref="914237206" lat="45.3136211" lon="7.5326867"/>
+    <nd ref="2528158307" lat="45.3136818" lon="7.5325653"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Circonvallazione"/>
+    <tag k="ref" v="SP22"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1228820855" version="2" timestamp="2024-04-10T12:32:29Z" changeset="149817790" uid="3286661" user="LorenzoBassi_SICAI_Team">
+    <bounds minlat="45.2923518" minlon="7.3940660" maxlat="45.2927511" maxlon="7.3946049"/>
+    <nd ref="1777106079" lat="45.2927511" lon="7.3940660"/>
+    <nd ref="803817367" lat="45.2925489" lon="7.3942733"/>
+    <nd ref="2986845209" lat="45.2924135" lon="7.3944908"/>
+    <nd ref="2986845204" lat="45.2923518" lon="7.3946049"/>
+    <tag k="name" v="Via Murasse"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1228820855" version="3" timestamp="2026-09-21T18:18:07Z" changeset="189362772" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.2923518" minlon="7.3940660" maxlat="45.2927511" maxlon="7.3946049"/>
+    <nd ref="1777106079" lat="45.2927511" lon="7.3940660"/>
+    <nd ref="803817367" lat="45.2925489" lon="7.3942733"/>
+    <nd ref="2986845209" lat="45.2924135" lon="7.3944908"/>
+    <nd ref="2986845204" lat="45.2923518" lon="7.3946049"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Murasse"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1257103927" version="2" timestamp="2026-01-23T08:15:59Z" changeset="177596956" uid="9265159" user="grawal">
+    <bounds minlat="45.4170982" minlon="7.6861060" maxlat="45.4182494" maxlon="7.6873895"/>
+    <nd ref="937879836" lat="45.4170982" lon="7.6873895"/>
+    <nd ref="3348388824" lat="45.4172106" lon="7.6873376"/>
+    <nd ref="480442687" lat="45.4172951" lon="7.6872855"/>
+    <nd ref="937878958" lat="45.4173871" lon="7.6871956"/>
+    <nd ref="480442688" lat="45.4175136" lon="7.6870525"/>
+    <nd ref="480442689" lat="45.4176997" lon="7.6867187"/>
+    <nd ref="480442690" lat="45.4178552" lon="7.6864262"/>
+    <nd ref="480442692" lat="45.4181021" lon="7.6861764"/>
+    <nd ref="3358841745" lat="45.4182494" lon="7.6861060"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1257103927" version="3" timestamp="2026-09-21T16:58:06Z" changeset="189359244" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.4170982" minlon="7.6861060" maxlat="45.4182494" maxlon="7.6873895"/>
+    <nd ref="937879836" lat="45.4170982" lon="7.6873895"/>
+    <nd ref="3348388824" lat="45.4172106" lon="7.6873376"/>
+    <nd ref="480442687" lat="45.4172951" lon="7.6872855"/>
+    <nd ref="937878958" lat="45.4173871" lon="7.6871956"/>
+    <nd ref="480442688" lat="45.4175136" lon="7.6870525"/>
+    <nd ref="480442689" lat="45.4176997" lon="7.6867187"/>
+    <nd ref="480442690" lat="45.4178552" lon="7.6864262"/>
+    <nd ref="480442692" lat="45.4181021" lon="7.6861764"/>
+    <nd ref="3358841745" lat="45.4182494" lon="7.6861060"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1271192633" version="1" timestamp="2024-04-09T14:28:36Z" changeset="149780089" uid="3286661" user="LorenzoBassi_SICAI_Team">
+    <bounds minlat="45.4192626" minlon="7.6837360" maxlat="45.4192751" maxlon="7.6838657"/>
+    <nd ref="8445883712" lat="45.4192626" lon="7.6838657"/>
+    <nd ref="1012667328" lat="45.4192751" lon="7.6837360"/>
+    <tag k="ref" v="SP45dir2"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Santuario di Piova"/>
+  </way>
+</old>
+<new>
+  <way id="1271192633" version="2" timestamp="2026-09-21T16:58:06Z" changeset="189359244" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.4192626" minlon="7.6837360" maxlat="45.4192751" maxlon="7.6838657"/>
+    <nd ref="8445883712" lat="45.4192626" lon="7.6838657"/>
+    <nd ref="1012667328" lat="45.4192751" lon="7.6837360"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Santuario di Piova"/>
+    <tag k="ref" v="SP45dir2"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1271206575" version="2" timestamp="2025-03-20T16:07:05Z" changeset="163870091" uid="6645382" user="canfe">
+    <bounds minlat="45.3132554" minlon="7.5308383" maxlat="45.3133663" maxlon="7.5308939"/>
+    <nd ref="3215450366" lat="45.3132554" lon="7.5308545"/>
+    <nd ref="3215450370" lat="45.3132749" lon="7.5308813"/>
+    <nd ref="3215450372" lat="45.3133006" lon="7.5308939"/>
+    <nd ref="7757177116" lat="45.3133276" lon="7.5308900"/>
+    <nd ref="7757177117" lat="45.3133510" lon="7.5308702"/>
+    <nd ref="3215450378" lat="45.3133663" lon="7.5308383"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1271206575" version="3" timestamp="2026-09-21T18:18:07Z" changeset="189362772" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.3132554" minlon="7.5308383" maxlat="45.3133663" maxlon="7.5308939"/>
+    <nd ref="3215450366" lat="45.3132554" lon="7.5308545"/>
+    <nd ref="3215450370" lat="45.3132749" lon="7.5308813"/>
+    <nd ref="3215450372" lat="45.3133006" lon="7.5308939"/>
+    <nd ref="7757177116" lat="45.3133276" lon="7.5308900"/>
+    <nd ref="7757177117" lat="45.3133510" lon="7.5308702"/>
+    <nd ref="3215450378" lat="45.3133663" lon="7.5308383"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1271442186" version="1" timestamp="2024-04-10T12:32:29Z" changeset="149817790" uid="3286661" user="LorenzoBassi_SICAI_Team">
+    <bounds minlat="45.2921448" minlon="7.3946049" maxlat="45.2923518" maxlon="7.3949651"/>
+    <nd ref="2986845204" lat="45.2923518" lon="7.3946049"/>
+    <nd ref="803817216" lat="45.2922569" lon="7.3947860"/>
+    <nd ref="2986845201" lat="45.2922052" lon="7.3948958"/>
+    <nd ref="2986845199" lat="45.2921448" lon="7.3949651"/>
+    <tag k="name" v="Via Murasse"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1271442186" version="2" timestamp="2026-09-21T18:18:07Z" changeset="189362772" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.2921448" minlon="7.3946049" maxlat="45.2923518" maxlon="7.3949651"/>
+    <nd ref="2986845204" lat="45.2923518" lon="7.3946049"/>
+    <nd ref="803817216" lat="45.2922569" lon="7.3947860"/>
+    <nd ref="2986845201" lat="45.2922052" lon="7.3948958"/>
+    <nd ref="2986845199" lat="45.2921448" lon="7.3949651"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Murasse"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1291814629" version="3" timestamp="2025-05-04T11:36:42Z" changeset="165795152" uid="2976645" user="Jrachi">
+    <bounds minlat="45.3130022" minlon="7.5334245" maxlat="45.3132872" maxlon="7.5338375"/>
+    <nd ref="2528143154" lat="45.3130022" lon="7.5338375"/>
+    <nd ref="914237284" lat="45.3131161" lon="7.5336888"/>
+    <nd ref="2528142122" lat="45.3131947" lon="7.5335673"/>
+    <nd ref="2528154388" lat="45.3132872" lon="7.5334245"/>
+    <tag k="name" v="Via Circonvallazione"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1291814629" version="4" timestamp="2026-09-21T18:18:07Z" changeset="189362772" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.3130022" minlon="7.5334245" maxlat="45.3132872" maxlon="7.5338375"/>
+    <nd ref="2528143154" lat="45.3130022" lon="7.5338375"/>
+    <nd ref="914237284" lat="45.3131161" lon="7.5336888"/>
+    <nd ref="2528142122" lat="45.3131947" lon="7.5335673"/>
+    <nd ref="2528154388" lat="45.3132872" lon="7.5334245"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Circonvallazione"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1366539661" version="1" timestamp="2025-03-12T11:40:18Z" changeset="163523701" uid="11220113" user="ivanbranco">
+    <bounds minlat="45.0795912" minlon="7.9688219" maxlat="45.0796447" maxlon="7.9688490"/>
+    <nd ref="2297484482" lat="45.0795912" lon="7.9688490"/>
+    <nd ref="9694549083" lat="45.0796195" lon="7.9688417"/>
+    <nd ref="9694549082" lat="45.0796447" lon="7.9688219"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="junction" v="roundabout"/>
+  </way>
+</old>
+<new>
+  <way id="1366539661" version="2" timestamp="2026-09-21T17:05:13Z" changeset="189359630" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.0795912" minlon="7.9688219" maxlat="45.0796447" maxlon="7.9688490"/>
+    <nd ref="2297484482" lat="45.0795912" lon="7.9688490"/>
+    <nd ref="9694549083" lat="45.0796195" lon="7.9688417"/>
+    <nd ref="9694549082" lat="45.0796447" lon="7.9688219"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="junction" v="roundabout"/>
+    <tag k="sac_scale" v="hiking"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1462438138" version="1" timestamp="2025-12-28T22:12:27Z" changeset="176550418" uid="6964852" user="Robbert van Dijk">
+    <bounds minlat="44.6028515" minlon="8.8947913" maxlat="44.6072192" maxlon="8.8968221"/>
+    <nd ref="1980880139" lat="44.6028515" lon="8.8947913"/>
+    <nd ref="989028566" lat="44.6029331" lon="8.8948614"/>
+    <nd ref="989029808" lat="44.6031930" lon="8.8950592"/>
+    <nd ref="989028817" lat="44.6033682" lon="8.8952683"/>
+    <nd ref="989028495" lat="44.6035490" lon="8.8955169"/>
+    <nd ref="989030660" lat="44.6036507" lon="8.8956073"/>
+    <nd ref="989029135" lat="44.6041931" lon="8.8958785"/>
+    <nd ref="989031065" lat="44.6043287" lon="8.8959971"/>
+    <nd ref="989030865" lat="44.6047525" lon="8.8964605"/>
+    <nd ref="989030022" lat="44.6049051" lon="8.8965848"/>
+    <nd ref="2205041131" lat="44.6050340" lon="8.8966137"/>
+    <nd ref="989031033" lat="44.6051819" lon="8.8966469"/>
+    <nd ref="989030197" lat="44.6057187" lon="8.8967599"/>
+    <nd ref="989029982" lat="44.6059278" lon="8.8968221"/>
+    <nd ref="989029040" lat="44.6061029" lon="8.8968051"/>
+    <nd ref="989030451" lat="44.6063007" lon="8.8967543"/>
+    <nd ref="989029622" lat="44.6063911" lon="8.8966752"/>
+    <nd ref="989029389" lat="44.6064363" lon="8.8965848"/>
+    <nd ref="989031288" lat="44.6065210" lon="8.8963475"/>
+    <nd ref="989029563" lat="44.6066114" lon="8.8962458"/>
+    <nd ref="3765546444" lat="44.6067508" lon="8.8961819"/>
+    <nd ref="989028426" lat="44.6068094" lon="8.8961089"/>
+    <nd ref="989031233" lat="44.6068523" lon="8.8960169"/>
+    <nd ref="989030386" lat="44.6070554" lon="8.8953143"/>
+    <nd ref="989028713" lat="44.6071072" lon="8.8952368"/>
+    <nd ref="989030809" lat="44.6071714" lon="8.8952400"/>
+    <nd ref="989030599" lat="44.6072192" lon="8.8953061"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1462438138" version="2" timestamp="2026-09-21T17:23:19Z" changeset="189360431" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="44.6028515" minlon="8.8947913" maxlat="44.6072192" maxlon="8.8968221"/>
+    <nd ref="1980880139" lat="44.6028515" lon="8.8947913"/>
+    <nd ref="989028566" lat="44.6029331" lon="8.8948614"/>
+    <nd ref="989029808" lat="44.6031930" lon="8.8950592"/>
+    <nd ref="989028817" lat="44.6033682" lon="8.8952683"/>
+    <nd ref="989028495" lat="44.6035490" lon="8.8955169"/>
+    <nd ref="989030660" lat="44.6036507" lon="8.8956073"/>
+    <nd ref="989029135" lat="44.6041931" lon="8.8958785"/>
+    <nd ref="989031065" lat="44.6043287" lon="8.8959971"/>
+    <nd ref="989030865" lat="44.6047525" lon="8.8964605"/>
+    <nd ref="989030022" lat="44.6049051" lon="8.8965848"/>
+    <nd ref="2205041131" lat="44.6050340" lon="8.8966137"/>
+    <nd ref="989031033" lat="44.6051819" lon="8.8966469"/>
+    <nd ref="989030197" lat="44.6057187" lon="8.8967599"/>
+    <nd ref="989029982" lat="44.6059278" lon="8.8968221"/>
+    <nd ref="989029040" lat="44.6061029" lon="8.8968051"/>
+    <nd ref="989030451" lat="44.6063007" lon="8.8967543"/>
+    <nd ref="989029622" lat="44.6063911" lon="8.8966752"/>
+    <nd ref="989029389" lat="44.6064363" lon="8.8965848"/>
+    <nd ref="989031288" lat="44.6065210" lon="8.8963475"/>
+    <nd ref="989029563" lat="44.6066114" lon="8.8962458"/>
+    <nd ref="3765546444" lat="44.6067508" lon="8.8961819"/>
+    <nd ref="989028426" lat="44.6068094" lon="8.8961089"/>
+    <nd ref="989031233" lat="44.6068523" lon="8.8960169"/>
+    <nd ref="989030386" lat="44.6070554" lon="8.8953143"/>
+    <nd ref="989028713" lat="44.6071072" lon="8.8952368"/>
+    <nd ref="989030809" lat="44.6071714" lon="8.8952400"/>
+    <nd ref="989030599" lat="44.6072192" lon="8.8953061"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1462438139" version="1" timestamp="2025-12-28T22:12:27Z" changeset="176550418" uid="6964852" user="Robbert van Dijk">
+    <bounds minlat="44.5982762" minlon="8.8909741" maxlat="44.5990798" maxlon="8.8913076"/>
+    <nd ref="989029283" lat="44.5982762" lon="8.8910245"/>
+    <nd ref="989031197" lat="44.5984179" lon="8.8910262"/>
+    <nd ref="989029745" lat="44.5986955" lon="8.8909741"/>
+    <nd ref="989028698" lat="44.5987915" lon="8.8910023"/>
+    <nd ref="989028408" lat="44.5988763" lon="8.8910814"/>
+    <nd ref="989030582" lat="44.5989715" lon="8.8911940"/>
+    <nd ref="1980880126" lat="44.5990798" lon="8.8913076"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1462438139" version="2" timestamp="2026-09-21T17:23:19Z" changeset="189360431" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="44.5982762" minlon="8.8909741" maxlat="44.5990798" maxlon="8.8913076"/>
+    <nd ref="989029283" lat="44.5982762" lon="8.8910245"/>
+    <nd ref="989031197" lat="44.5984179" lon="8.8910262"/>
+    <nd ref="989029745" lat="44.5986955" lon="8.8909741"/>
+    <nd ref="989028698" lat="44.5987915" lon="8.8910023"/>
+    <nd ref="989028408" lat="44.5988763" lon="8.8910814"/>
+    <nd ref="989030582" lat="44.5989715" lon="8.8911940"/>
+    <nd ref="1980880126" lat="44.5990798" lon="8.8913076"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1497638963" version="2" timestamp="2026-06-06T08:18:32Z" changeset="183726873" uid="2976645" user="Jrachi">
+    <bounds minlat="45.1612438" minlon="7.4339295" maxlat="45.1612626" maxlon="7.4344235"/>
+    <nd ref="840552389" lat="45.1612550" lon="7.4339295"/>
+    <nd ref="2981469461" lat="45.1612511" lon="7.4340804"/>
+    <nd ref="840552378" lat="45.1612626" lon="7.4342584"/>
+    <nd ref="12198694855" lat="45.1612585" lon="7.4343163"/>
+    <nd ref="2981469460" lat="45.1612503" lon="7.4343700"/>
+    <nd ref="250284038" lat="45.1612438" lon="7.4344235"/>
+    <tag k="name" v="Via Mulino"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1497638963" version="3" timestamp="2026-09-21T18:19:41Z" changeset="189362827" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.1612438" minlon="7.4339295" maxlat="45.1612626" maxlon="7.4344235"/>
+    <nd ref="840552389" lat="45.1612550" lon="7.4339295"/>
+    <nd ref="2981469461" lat="45.1612511" lon="7.4340804"/>
+    <nd ref="840552378" lat="45.1612626" lon="7.4342584"/>
+    <nd ref="12198694855" lat="45.1612585" lon="7.4343163"/>
+    <nd ref="2981469460" lat="45.1612503" lon="7.4343700"/>
+    <nd ref="250284038" lat="45.1612438" lon="7.4344235"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Mulino"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1526681752" version="1" timestamp="2026-06-06T08:18:32Z" changeset="183726873" uid="2976645" user="Jrachi">
+    <bounds minlat="45.1612550" minlon="7.4338338" maxlat="45.1612728" maxlon="7.4339295"/>
+    <nd ref="13913940183" lat="45.1612728" lon="7.4338338"/>
+    <nd ref="840552389" lat="45.1612550" lon="7.4339295"/>
+    <tag k="layer" v="1"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1526681752" version="2" timestamp="2026-09-21T18:19:41Z" changeset="189362827" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.1612550" minlon="7.4338338" maxlat="45.1612728" maxlon="7.4339295"/>
+    <nd ref="13913940183" lat="45.1612728" lon="7.4338338"/>
+    <nd ref="840552389" lat="45.1612550" lon="7.4339295"/>
+    <tag k="bridge" v="yes"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="layer" v="1"/>
+    <tag k="surface" v="asphalt"/>
+  </way>
+</new>
+</action>
+<action type="modify">
+<old>
+  <way id="1526681753" version="1" timestamp="2026-06-06T08:18:32Z" changeset="183726873" uid="2976645" user="Jrachi">
+    <bounds minlat="45.1612728" minlon="7.4327933" maxlat="45.1618800" maxlon="7.4338338"/>
+    <nd ref="250284040" lat="45.1618800" lon="7.4327933"/>
+    <nd ref="5161027184" lat="45.1618704" lon="7.4329076"/>
+    <nd ref="250284039" lat="45.1614092" lon="7.4334673"/>
+    <nd ref="2981469462" lat="45.1612825" lon="7.4337927"/>
+    <nd ref="13913940183" lat="45.1612728" lon="7.4338338"/>
+    <tag k="name" v="Via Mulino"/>
+    <tag k="highway" v="tertiary"/>
+  </way>
+</old>
+<new>
+  <way id="1526681753" version="2" timestamp="2026-09-21T18:19:41Z" changeset="189362827" uid="14257573" user="toponomastica_comune_arenzano">
+    <bounds minlat="45.1612728" minlon="7.4327933" maxlat="45.1618800" maxlon="7.4338338"/>
+    <nd ref="250284040" lat="45.1618800" lon="7.4327933"/>
+    <nd ref="5161027184" lat="45.1618704" lon="7.4329076"/>
+    <nd ref="250284039" lat="45.1614092" lon="7.4334673"/>
+    <nd ref="2981469462" lat="45.1612825" lon="7.4337927"/>
+    <nd ref="13913940183" lat="45.1612728" lon="7.4338338"/>
+    <tag k="highway" v="tertiary"/>
+    <tag k="name" v="Via Mulino"/>
     <tag k="surface" v="asphalt"/>
   </way>
 </new>
